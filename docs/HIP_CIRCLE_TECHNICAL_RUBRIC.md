@@ -1,9 +1,9 @@
-# Hip circles · Pelvic circumduction — provisional technical rubric
+# Belly dance: Omi / Umi (interior hip circle) — provisional technical rubric
 
 **Status:** Instructor-designed draft for calibration, not a validated biomechanical test or an automatic certification.
 
-## Movement definitions
-- **Hip circle:** colloquial dance name. **Pelvic circumduction** is a useful descriptive term for coordinated multi-directional movement, but avoid implying the pelvis is a ball-and-socket joint or that all hip-circle styles share identical mechanics.
+**Scope correction:** This rubric is specifically for the belly-dance **omi/umi**, a small interior hip circle. Exterior/horizontal hip circles and dancehall **wine/whine** require separate rubrics. Dance names are culturally and stylistically specific; anatomical descriptions are supporting vocabulary, not replacements. The term *pelvic circumduction* is descriptive rather than a universally standardized label for this dance movement.\n\n## Movement definitions
+- **Omi / Umi:** belly-dance term for a compact interior hip circle; names and execution vary by lineage.\n- **Hip circle:** broad movement-family name, not automatically an omi. **Pelvic circumduction** is a useful descriptive term for coordinated multi-directional movement, but avoid implying the pelvis is a ball-and-socket joint or that all hip-circle styles share identical mechanics.
 - **Anterior / posterior pelvic tilt:** sagittal-plane pelvic rotation; often called release/tuck.
 - **Lateral pelvic tilt / pelvic obliquity:** frontal-plane elevation of one side of the pelvis relative to the other.
 - **Pelvic translation:** horizontal displacement of the pelvis relative to the trunk; not equivalent to lateral tilt.
