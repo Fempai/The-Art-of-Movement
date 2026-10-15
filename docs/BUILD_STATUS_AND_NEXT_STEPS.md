@@ -77,3 +77,9 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Added `curriculum/flexibility-strength-acro-levels.md`: twelve-week integrated dance/mobility/strength teaching sequence, eight Level I flexibility video module specifications, and supervised acro safety gates. These are curriculum specifications, not finished videos.
 - Static JS syntax checks passed for video intake and cloud player; RLS policies verified in database.
 - No cloud video is currently published. Await rights-cleared video media and a provider with appropriate free bandwidth or approved budget. Do not claim cloud streaming end-to-end tested with real video.
+
+## Performance flexibility focus correction
+- Added `performance-flexibility.html` with five dancer/acro goal tracks x eight weekly phases (40 goal-week plans), locally persisted completion markers, safe progression cues and links to baseline/journal.
+- Changed homepage Flexibility action to performance program and linked it from `flexibility-studio.html` and `curated-classes.html`.
+- Source standards use goal-oriented STRETCHIT structure and Cirque Physio active flexibility progressions as benchmarks. Their paid classes are not hosted, licensed, or included in our free player.
+- Still needed: licensed/owned full follow-along videos, individualized programming based on measured baselines, cloud-synced completions, qualified acro instructor review and on-device functional test.
