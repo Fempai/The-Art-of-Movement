@@ -1,0 +1,111 @@
+{
+  "schema_version": "0.1-draft",
+  "status": "not_validated_no_automatic_grades",
+  "rules": {
+    "no_grade_without_video_evidence": true,
+    "no_muscle_activation_claims": true,
+    "insufficient_evidence_result": "not_gradable",
+    "musicality_requires_audio": true,
+    "do_not_equate_cross_cultural_styles": true
+  },
+  "movements": [
+    {
+      "id": "belly_omi",
+      "name": "Omi / Umi",
+      "style": "Belly dance",
+      "family": "interior_hip_circle",
+      "technical": "compact coordinated pelvic tilting and obliquity",
+      "min_seconds": 5,
+      "required_landmarks": [
+        "left_shoulder",
+        "right_shoulder",
+        "left_hip",
+        "right_hip"
+      ],
+      "rubric": [
+        "compact pelvic pathway",
+        "pelvic-thoracic dissociation",
+        "continuous transitions",
+        "repeatability"
+      ],
+      "cannot_infer": [
+        "muscle activation",
+        "full 3D pelvic path from one frontal camera"
+      ],
+      "related": [
+        "exterior_hip_circle",
+        "dancehall_wine"
+      ]
+    },
+    {
+      "id": "exterior_hip_circle",
+      "name": "Exterior / horizontal hip circle",
+      "style": "Belly dance",
+      "family": "horizontal_hip_circle",
+      "technical": "pelvic translation in horizontal plane",
+      "min_seconds": 5,
+      "rubric": [
+        "front-side-back-side pathway",
+        "weight transfer",
+        "torso control",
+        "repeatability"
+      ],
+      "cannot_infer": [
+        "front-back depth from one frontal camera"
+      ]
+    },
+    {
+      "id": "dancehall_wine",
+      "name": "Wine / Whine",
+      "style": "Dancehall",
+      "family": "waistline_rotation",
+      "technical": "rhythmic pelvic and trunk circumductory movement",
+      "min_seconds": 5,
+      "rubric": [
+        "movement coordination",
+        "trajectory",
+        "rhythmic control",
+        "style-specific execution"
+      ],
+      "requires": [
+        "style-specific exemplars",
+        "audio for musicality"
+      ],
+      "cannot_infer": [
+        "cultural authenticity from 2D landmarks"
+      ]
+    },
+    {
+      "id": "belly_maya",
+      "name": "Maya",
+      "style": "Belly dance",
+      "family": "vertical_figure_eight",
+      "technical": "alternating pelvic elevation and depression",
+      "min_seconds": 5,
+      "rubric": [
+        "two-lobed vertical pathway",
+        "side alternation",
+        "smooth transitions",
+        "repeatability"
+      ]
+    },
+    {
+      "id": "belly_head_slide",
+      "name": "Head slide",
+      "style": "Belly dance",
+      "family": "head_isolation",
+      "technical": "cervical lateral translation relative to shoulder girdle",
+      "min_seconds": 5,
+      "requires": [
+        "face/head tracking",
+        "shoulder landmarks"
+      ],
+      "rubric": [
+        "lateral path",
+        "shoulder independence",
+        "controlled return",
+        "repeatability"
+      ]
+    }
+  ]
+}
