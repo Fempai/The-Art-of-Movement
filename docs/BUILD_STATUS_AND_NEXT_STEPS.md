@@ -69,3 +69,11 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - AI choreography is allowed as supplemental production content but technical instruction requires qualified human review, especially for flexibility and acro.
 - Google Drive 5 TB personal storage is not treated as a public CDN. No new paid hosting or billing enabled.
 - Static JS syntax check passed before the expiry guard; no authenticated or real cloud-video end-to-end test yet.
+
+## Video intake and integrated curriculum increment
+- Deployed private `aom_video_candidates` database table with owner-only SELECT/INSERT/DELETE RLS. Client cannot approve/publish candidates (no UPDATE policy). Candidates do not automatically publish or download third-party videos.
+- Added `video-intake.html` with passwordless sign-in, creator/source URL, original/open-license/written-permission status, music rights notes, private candidate queue and deletion.
+- Linked intake from homepage and ad-free streaming player.
+- Added `curriculum/flexibility-strength-acro-levels.md`: twelve-week integrated dance/mobility/strength teaching sequence, eight Level I flexibility video module specifications, and supervised acro safety gates. These are curriculum specifications, not finished videos.
+- Static JS syntax checks passed for video intake and cloud player; RLS policies verified in database.
+- No cloud video is currently published. Await rights-cleared video media and a provider with appropriate free bandwidth or approved budget. Do not claim cloud streaming end-to-end tested with real video.
