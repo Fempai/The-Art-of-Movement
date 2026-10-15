@@ -30,3 +30,18 @@
 
 ## Privacy
 Videos remain in the private Supabase storage workflow. Measurements sent to Cloudflare may still be personal data; do not equate 'not raw video' with anonymous. Confirm provider retention and contractual settings before increasing data sharing. No client-side API secrets.
+
+## October 15 implementation increment
+- Cloud Training Journal switched from password to email one-time code or magic link; unverified on user's mobile browser.
+- Added eight text-based Dance Foundations lessons, reflection checkpoints and browser-local practice checkmarks; not proficiency certification.
+- Academy homepage now links curriculum and states actual status of Supabase journal/video queue and preliminary pose feedback.
+- Refactored Pose Lab evidence-window selection to a shared helper. A recursion bug was found during static inspection and fixed before handoff.
+- Static JavaScript syntax inspection passed for Pose Lab and Dance Foundations; Cloud Journal is an ES module with top-level await and needs browser execution testing.
+- Cloudflare AI reviewer v3 uses the selected skill name and recognizes travel/level changes/partial framing as normal choreography, but landmark tracking still requires visible shoulders and hips for pelvic assessment.
+
+## Next user test gate
+1. Confirm passwordless Cloud Journal sign-in and save/reload of one training session.
+2. Confirm Pose Lab tracking, stable-window selection and AI response after helper refactor.
+3. Confirm mobile Dance Foundations lessons and local checkmarks.
+
+**No claim of 50% academy completion.** Completed implementation is a prototype foundation; full calibrated instructor and integrated academy remain unbuilt.
