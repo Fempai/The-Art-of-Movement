@@ -90,3 +90,11 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Added `docs/TERM_ONE_PRODUCTION_AND_ASSESSMENT.md`: free-only sourcing and lesson-quality scoring, camera/data requirements and progression assessment rubric.
 - Linked new semester and tracker in homepage and syllabus. Earlier eight-week class map explicitly marked as companion shortlist, not complete semester.
 - Video sourcing for the new weekly competency map remains incomplete. Existing owned Fit & Bendy content is for personal authorized access; do not rehost without rights.
+
+## October 15 academy refinement
+- Renamed main-facing Conservatory terminology to Academy, avoiding conflict with Life OS plant section.
+- Added `term-one-free-video-assignments.html` with 16-week mapping of source-confirmed free Kathryn Morgan ballet and Fitness Blender strength lessons. Publisher descriptions checked; playback and full teaching-quality audits not done. Jazz, contemporary, hip-hop, belly dance, musicality and specialized performance flexibility remain incompletely matched.
+- Added `aom_term_progress` private Supabase table with owner-only RLS SELECT/INSERT/UPDATE/DELETE and `term-one-cloud.html` browser-to-cloud backup/restore for week records. RLS policies queried and confirmed; authenticated end-to-end sync not tested.
+- Added `movement-assessment-studio.html` with nine skill-specific evidence rubrics and JSON export. This is manual evidence structuring, not completed automatic AI video grading; existing Pose Lab remains experimental.
+- JS syntax checks passed for free assignment page, assessment page and cloud sync module. No full browser playback test or model validation.
+- Security advisors checked; other existing RLS no-policy notices belong to unrelated Life OS integrations, not new academy table. See https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy.
