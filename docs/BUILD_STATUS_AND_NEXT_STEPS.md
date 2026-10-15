@@ -104,3 +104,9 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Source-backed free external classes: Kathryn Morgan, Fitness Blender, Miss Auti, Tiana Shern (two-part hip-hop), Datura free starter series. Rambert contemporary class has conflicting free-tag versus subscriber archive; access not verified and written fallback provided.
 - Gaps remain: no verified free instructor-led performance-flexibility, acro readiness or musicality video for Week 1; corresponding written academy practice exists but is NOT a follow-along video. No full-video visual review or browser playback testing was performed. User still needs to review selected videos and may supply personally owned Fit & Bendy access, without unauthorized rehosting.
 - Uniformity specification: branded wrapper, cover, credits, chapters, captions, objectives, progress; creator footage cannot be altered/rehosted absent permission.
+
+## October 15 unattended continuation
+- Preserved beginner return-to-dance Week 1, separate five-day gym strength split and flexibility; no 150-minute ballet mandate.
+- Added `week-one-video-review.html` to audit 11 assigned instructor/owned video sources, with access, full playback, instruction, visibility, sequencing, safety and rights checks, notes, JSON export and browser-local save. Linked from Week 1.
+- Verified JavaScript syntax for Week 1, review page and cloud page. Did not claim live phone tests or creator video audits.
+- Pending user interaction: playback of external/owned classes, Fit & Bendy course contents, live email authentication and cross-device cloud restore, live Pose Lab landmark/video evaluation and review of training load. These require user-side access and camera/device testing.
