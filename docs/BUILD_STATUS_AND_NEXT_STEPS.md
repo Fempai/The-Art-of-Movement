@@ -45,3 +45,19 @@ Videos remain in the private Supabase storage workflow. Measurements sent to Clo
 3. Confirm mobile Dance Foundations lessons and local checkmarks.
 
 **No claim of 50% academy completion.** Completed implementation is a prototype foundation; full calibrated instructor and integrated academy remain unbuilt.
+
+## October 15–16 independent implementation — restoring original scope
+User confirmed Level I embedded ballet video and five-discipline layout work, and passwordless Cloud Training Journal passes.
+
+New implementations:
+- Core **Flexibility & Mobility Studio**: six practice pathways, weekly session structure, eleven baseline measurement types, local persistence, earliest/latest comparisons, export and deletion. These are guided text sequences, not completed instructor videos.
+- **Lesson Library**: searchable/filterable catalog with discipline, focus, body area, difficulty and video availability. Only actual playable class is marked video; other entries are explicitly syllabus-only.
+- **Private Movement Baseline Studio**: owner-only Supabase table with RLS select/insert/delete policies, private image/video uploads to existing protected bucket, signed preview URLs, owner deletion, category filters and earliest/latest comparison.
+- **My Academy**: authenticated cloud dashboard using real journal, baseline and review-queue records; avoids placeholder achievements.
+- Home navigation links the new modules. Static JavaScript syntax checked on the new pages.
+
+Unverified on user device: baseline uploads, signed previews and deletion; My Academy cloud dashboard; flexibility baseline measurements and comparisons; lesson-library filters. No production browser end-to-end test was performed by assistant.
+
+Critical unfinished items: real follow-along class library for jazz, contemporary, hip-hop, belly dance and flexibility; accessible instructor-led videos, licensing and captions; independent partial-body tracking; robust calibrated video AI instructor; cross-module cloud strength/progress sync; 4–6-week scheduled reassessment workflow; mobile end-to-end tests.
+
+**Overall 50–60% completion is not substantiated.** Significant infrastructure and syllabus are implemented, but actual video instruction and validated assessments remain central missing requirements. Avoid counting planned classes as finished lessons.
