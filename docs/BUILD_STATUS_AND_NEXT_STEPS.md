@@ -98,3 +98,9 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Added `movement-assessment-studio.html` with nine skill-specific evidence rubrics and JSON export. This is manual evidence structuring, not completed automatic AI video grading; existing Pose Lab remains experimental.
 - JS syntax checks passed for free assignment page, assessment page and cloud sync module. No full browser playback test or model validation.
 - Security advisors checked; other existing RLS no-policy notices belong to unrelated Life OS integrations, not new academy table. See https://supabase.com/docs/guides/database/database-linter?lint=0008_rls_enabled_no_policy.
+
+## Integrated Week 1 academic sequence
+- Added `week-one-academy.html`, 13 connected teaching/practice blocks across ballet, strength, active flexibility, jazz, hip-hop foundations and drills, contemporary, belly dance, musicality, acro preparation, integrated choreography and reflection. Linked from home and semester.
+- Source-backed free external classes: Kathryn Morgan, Fitness Blender, Miss Auti, Tiana Shern (two-part hip-hop), Datura free starter series. Rambert contemporary class has conflicting free-tag versus subscriber archive; access not verified and written fallback provided.
+- Gaps remain: no verified free instructor-led performance-flexibility, acro readiness or musicality video for Week 1; corresponding written academy practice exists but is NOT a follow-along video. No full-video visual review or browser playback testing was performed. User still needs to review selected videos and may supply personally owned Fit & Bendy access, without unauthorized rehosting.
+- Uniformity specification: branded wrapper, cover, credits, chapters, captions, objectives, progress; creator footage cannot be altered/rehosted absent permission.
