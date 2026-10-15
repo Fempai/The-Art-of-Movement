@@ -83,3 +83,10 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Changed homepage Flexibility action to performance program and linked it from `flexibility-studio.html` and `curated-classes.html`.
 - Source standards use goal-oriented STRETCHIT structure and Cirque Physio active flexibility progressions as benchmarks. Their paid classes are not hosted, licensed, or included in our free player.
 - Still needed: licensed/owned full follow-along videos, individualized programming based on measured baselines, cloud-synced completions, qualified acro instructor review and on-device functional test.
+
+## 16-week Term I expansion
+- Added `term-one-semester.html`: 16-week curriculum across ballet, jazz, hip-hop, modern/contemporary, belly dance, performance flexibility, strength, musicality, choreography, injury-prevention and assessment. Week 8 midterm, Week 16 final and advancement competencies.
+- Added `term-one-progress.html`: 16-week browser-local tracker across seven practice domains, notes and JSON export. JS syntax checked; no cloud sync or validated AI grade.
+- Added `docs/TERM_ONE_PRODUCTION_AND_ASSESSMENT.md`: free-only sourcing and lesson-quality scoring, camera/data requirements and progression assessment rubric.
+- Linked new semester and tracker in homepage and syllabus. Earlier eight-week class map explicitly marked as companion shortlist, not complete semester.
+- Video sourcing for the new weekly competency map remains incomplete. Existing owned Fit & Bendy content is for personal authorized access; do not rehost without rights.
