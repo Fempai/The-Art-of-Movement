@@ -61,3 +61,11 @@ Unverified on user device: baseline uploads, signed previews and deletion; My Ac
 Critical unfinished items: real follow-along class library for jazz, contemporary, hip-hop, belly dance and flexibility; accessible instructor-led videos, licensing and captions; independent partial-body tracking; robust calibrated video AI instructor; cross-module cloud strength/progress sync; 4–6-week scheduled reassessment workflow; mobile end-to-end tests.
 
 **Overall 50–60% completion is not substantiated.** Significant infrastructure and syllabus are implemented, but actual video instruction and validated assessments remain central missing requirements. Avoid counting planned classes as finished lessons.
+
+## Cloud-streaming and rights review increment
+- Ad-Free Practice Library now fetches an approved cloud lesson manifest and can stream HTTPS MP4/WebM in its native player without saving permanent copies on a phone. Catalog is deliberately empty pending verified content rights and streaming-host selection.
+- Public catalog only renders entries marked approved, license-verified, and carrying an unexpired permission date. The manifest is not an authoritative legal proof repository; permission evidence must be kept private.
+- Creator permission checklist, request template, music/performance rights and takedown process documented in docs/VIDEO_RIGHTS_AND_AI_PRODUCTION.md.
+- AI choreography is allowed as supplemental production content but technical instruction requires qualified human review, especially for flexibility and acro.
+- Google Drive 5 TB personal storage is not treated as a public CDN. No new paid hosting or billing enabled.
+- Static JS syntax check passed before the expiry guard; no authenticated or real cloud-video end-to-end test yet.
