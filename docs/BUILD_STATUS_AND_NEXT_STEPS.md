@@ -123,3 +123,8 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Linked Week 2 from homepage and Week 1; added daily gentle mobility requirement to Week 1.
 - Week 2 is a curriculum and practice plan, not a complete newly filmed set of instructor classes. Beginner active flexibility and adult-appropriate acro instructional videos remain unsourced/unverified. No automated cloud sync for Week 2 completion; localStorage is device-local. New Week 2 page has not undergone device/browser QA.
 - All four STEEZY Week 1 Drive links are now embedded in GitHub; older status entries above reflect earlier states.
+
+## Term I progressive curriculum · October 15
+- Created `term-one-progressive-curriculum.html` with detailed Week 1–16 domain-specific outcomes in ballet, jazz, hip-hop, contemporary, belly dance, flexibility, acro readiness and musicality, a repeated seven-day training framework, weekly video/evidence assignments, and local JSON-exportable completion checklist.
+- Week 8 is the midterm, Week 16 is the final. Weeks 13–16 build a 64-count choreography assessment. The program preserves short Week 1 ballet, separate five-day gym with cardio last, daily gentle mobility, controlled active flexibility, and acro preparation without compulsory tricks.
+- Linked from home, semester overview and Week 2. This completes the written 16-week progression, not 16 weeks of fully sourced/audited instructor videos, detailed daily class pages, or cloud-verified assessment. Browser/device QA is outstanding.
