@@ -117,3 +117,9 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Gym remains an independent written exercise prescription with sets, reps, rest and cardio last; no weightlifting video requirement.
 - Added week-one-production-studio.html for active flexibility and acro instructor video requirements and four-clip AI 32-count choreography brief. These are specifications only, not generated or verified instructional videos.
 - Outstanding: insert four STEEZY permanent links after receiving them, source/verify qualified flexibility and acro demonstrations, produce and technique-check choreography footage, test new Drive playback/privacy and browser-local/cloud persistence, and conduct complete mobile functional QA.
+
+## Week 2 implementation · October 15
+- Added `week-two-academy.html`: seven-day Week 2 foundation-development schedule, independent five-day gym split references, daily mobility, technique consolidation across ballet/jazz/hip-hop/contemporary/belly, musicality review, low-risk acro preparation, assessment and browser-local completion tracking with JSON export.
+- Linked Week 2 from homepage and Week 1; added daily gentle mobility requirement to Week 1.
+- Week 2 is a curriculum and practice plan, not a complete newly filmed set of instructor classes. Beginner active flexibility and adult-appropriate acro instructional videos remain unsourced/unverified. No automated cloud sync for Week 2 completion; localStorage is device-local. New Week 2 page has not undergone device/browser QA.
+- All four STEEZY Week 1 Drive links are now embedded in GitHub; older status entries above reflect earlier states.
