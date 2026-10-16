@@ -10,3 +10,18 @@ nav#aom-global-nav .aom-wordmark{color:var(--aom-ink)!important;font-family:Geor
 nav#aom-global-nav .aom-nav-links a{color:var(--aom-oxblood)!important;white-space:nowrap!important;padding:9px 10px!important}
 nav#aom-global-nav .aom-nav-links a[aria-current="page"]{color:#fff!important}
 @media(max-width:680px){nav#aom-global-nav{width:calc(100% - 24px)!important}nav#aom-global-nav .aom-nav-links{display:flex!important;flex-wrap:nowrap!important;overflow-x:auto!important}}
+
+/* Compact editorial menu: one clear primary navigation, grouped secondary pages. */
+nav#aom-global-nav{display:flex!important;align-items:center!important;justify-content:space-between!important;gap:20px!important;flex-wrap:wrap!important;overflow:visible!important}
+nav#aom-global-nav .aom-nav-links{display:flex!important;align-items:center!important;gap:6px!important;flex-wrap:wrap!important;overflow:visible!important;width:auto!important}
+nav#aom-global-nav .aom-nav-menu{position:relative!important;margin:0!important;padding:0!important;min-width:0!important}
+nav#aom-global-nav .aom-nav-menu summary{display:flex!important;align-items:center!important;gap:7px!important;list-style:none!important;cursor:pointer!important;padding:10px 13px!important;border:1px solid transparent!important;border-radius:3px!important;color:#502c3e!important;font:600 13px/1.4 system-ui,sans-serif!important;white-space:nowrap!important}
+nav#aom-global-nav .aom-nav-menu summary::-webkit-details-marker{display:none}
+nav#aom-global-nav .aom-nav-menu summary::after{content:'⌄';font-size:16px;line-height:1;transition:transform .15s}
+nav#aom-global-nav .aom-nav-menu[open] summary::after{transform:rotate(180deg)}
+nav#aom-global-nav .aom-nav-menu[open] summary,nav#aom-global-nav .aom-nav-active summary{background:#efe5dd!important}
+nav#aom-global-nav .aom-nav-dropdown{position:absolute!important;z-index:100!important;top:calc(100% + 4px)!important;right:0!important;min-width:245px!important;max-height:min(65vh,520px)!important;overflow-y:auto!important;background:#fffdf9!important;border:1px solid #d9c8ba!important;box-shadow:0 16px 36px #30252e25!important;padding:7px!important;display:grid!important;gap:2px!important}
+nav#aom-global-nav .aom-nav-dropdown a{display:block!important;color:#502c3e!important;background:transparent!important;text-align:left!important;font:500 13px/1.4 system-ui,sans-serif!important;letter-spacing:0!important;padding:11px 12px!important;white-space:normal!important;text-decoration:none!important}
+nav#aom-global-nav .aom-nav-dropdown a:hover,nav#aom-global-nav .aom-nav-dropdown a:focus-visible{background:#f1e7df!important}
+nav#aom-global-nav .aom-nav-dropdown a[aria-current=page]{background:#502c3e!important;color:#fff!important}
+@media(max-width:780px){nav#aom-global-nav{align-items:flex-start!important;gap:8px!important}nav#aom-global-nav .aom-nav-links{width:100%!important;flex-wrap:nowrap!important;justify-content:flex-start!important;gap:1px!important}nav#aom-global-nav .aom-nav-menu summary{padding:10px 9px!important;font-size:12px!important}nav#aom-global-nav .aom-nav-dropdown{position:fixed!important;top:112px!important;left:12px!important;right:12px!important;max-height:65vh!important;min-width:0!important}nav#aom-global-nav .aom-wordmark{font-size:1rem!important}}
