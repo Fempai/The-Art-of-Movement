@@ -136,3 +136,13 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Linked all fourteen new studio weeks from the progressive syllabus and added direct homepage access. Corrected Week 1 syllabus wording that incorrectly required all six musicality lessons in Week 1.
 - Source-level implementation committed to GitHub. **No mobile browser end-to-end QA performed in this increment**; confirm weekly studio rendering, video playback, tab persistence and export on user's phone. Static source inspection only.
 - Remaining critical: verified instructor-led video coverage for dance/flexibility/acro; consistent visual polish and imagery; cloud-synced weekly progress and strength; validated movement grading; privacy/rights review; mobile end-to-end tests. The new weekly studio is a working curriculum interface, **not** proof of 16 fully filmed teaching weeks.
+
+## October 16 · Continued autonomous implementation
+- Extended shared Academy CSS/navigation across another twelve pages, including musicality, cloud sync, Pose Lab, private dashboard, assessment and video intake; 22 major pages now carry the shared system. Existing page-specific CSS remains and requires phone visual QA.
+- Added `studio-record.html`: a read-only cross-module **local** dashboard for Weeks 1–16, musicality, semester checkmarks, plus a private JSON snapshot export. It deliberately does not misrepresent strength/cloud records as synchronized or graded.
+- Linked Studio Record from shared navigation.
+- Added direct Google Drive open-in-new-tab fallbacks to existing embedded players lacking them. Drive account access/permissions remain required; this is not a guarantee that embedded playback succeeds.
+- Added original abstract editorial SVG artwork to the homepage and progressive weekly studio. This is decorative artwork, not an anatomical exercise demonstration.
+- Extended `term-one-cloud.html` backup/restore to include Weeks 3–16 daily studio records in the existing private term progress rows. Upload still overwrites corresponding cloud weeks; download preserves existing local weeks and daily records. **Cloud end-to-end login/upload/download not verified on user device.**
+- Added GitHub Actions zero-dependency static QA script/workflow checking required pages, local link targets and Drive embed syntax. Workflow has been committed but its GitHub Actions execution/result has **not** been verified.
+- No fake instructor videos, movement grading, or public sharing of restricted Drive files added. Outstanding user-side testing: live Android pages, video access, sign-in and cloud restore, local checkbox persistence, and aesthetic approval.
