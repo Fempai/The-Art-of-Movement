@@ -155,3 +155,28 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 - Homepage main calls to action now point to the actual Week 1 studio and Studio Record rather than scattered prototype tools.
 - **Still incomplete beyond uploads:** unified cloud syncing of Week 1/2 checkmarks, musicality and gym log; full instructor-class assignments Weeks 3–16; adult-appropriate beginner acro/flex video vetting; audited accessibility/mobile QA; validated AI assessment (currently experimental); performance-grade photography/technique imagery; security/rights review. No defensible overall completion percentage; features exist at different levels of readiness. Static GitHub commits are not device playback or deployment QA.
 - **User validation requested:** Android homepage grid and current-week indicator, Week 1 and Week 2 tabs/Drive video playback, Week 3+ note disclosure and progress persistence, cloud login/backup/restore. Only proceed with data migration after testing and user consent.
+
+## October 16 · Curriculum expansion, player and original-scope audit
+### Implemented this pass
+- Added `practice-player.html` for **user-selected local video files**: horizontal mirroring, 0.25–1.5× speed, ±5-second seek, IN/OUT looping, BPM entry, tap tempo and audible eight-count metronome. No video file leaves the device. **Google Drive iframe streams cannot be mirrored/slowed/looped by this player**; video must be lawfully available as a local file or future compatible direct-stream asset. Browser audio/video behavior remains untested on Android.
+- Added `research-studio.html` with sixteen original, week-specific reading and applied assignment units, including Week 1 autism-aware body awareness and sensory agency, Week 2 rhythm/music research, Week 6 splits anatomy, expression without forced masking, confidence, creativity and role-switching. Grounded external sources include 2024 autism interoception narrative review, 2017 rhythm psychology review, 2023 dance neuroscience systematic review, and AOSSM stretching guidance. Notes and completion save **locally only**. Readings are external links, not reproduced copyrighted articles.
+- Added `solo-social-dance.html` with solo salsa (Week 9), bachata (Week 10), tango (Week 11), and role-switching (Week 13), both leader and follower preparation; **written foundations, not instructor-verified classes**. Existing ballet/jazz/hip-hop/contemporary/belly/acro/flex and gym schedule preserved. Partner-dance role training does not assume gender.
+- Replaced two lingering Week 1 hip-hop YouTube links with the already-provided Drive file links, and changed their misleading 'Free YouTube' labels. No known YouTube references remain in Week 1 or Week 2; other legacy pages may still have external YouTube links and need full-repo audit.
+- Linked practice player, weekly research and solo social dance into Academy navigation, homepage and weekly studio pages.
+### Original Academy plan alignment
+- **Academy navigation/branding**: implemented, but user aesthetic QA and full site audit pending.
+- **Lesson library/filters and technique guide**: prototype exists, not fully tied to vetted video library or all weekly assignments.
+- **Foundational daily instruction**: Weeks 1–2 have daily pages and known Drive video assignments; Weeks 3–16 are syllabus-driven written studios, not complete instructor-led class catalogs.
+- **Sensory-aware baseline and movement profile**: baseline page exists; accessibility-aware Week 1 assignment added; baseline integration into automatic progress/assessments incomplete.
+- **Progress and private journal**: local progress, local Studio Record, authenticated cloud journal and manual semester backup exist, but unified cloud sync across all modules and Life OS **not implemented**.
+- **Private media and instructor review**: intake/queue and review prototype exist; not a fully operational private media library. User owns Google Drive; assistant has no Drive upload/transfer access. Do not claim 'all videos uploaded to cloud'.
+- **Technique analysis**: Pose Lab experimental, **not** reliable automated grading or clinical feedback.
+- **Practice playback**: local-file rehearsal player implemented, Drive preview fallback retained; Drive cannot expose the requested controls to the page.
+- **All original choreography and class demonstration videos**: 32-count AI demonstration still unproduced/unverified, no fake video claims.
+- **Professional visual polish, dance imagery and end-to-end mobile testing**: incomplete.
+### User-required next actions / dependencies
+1. Verify Android practice player with an authorized local MP4, speed, mirror and loop; verify Drive embeds independently.
+2. User supplies missing Drive URLs/uploads for remaining instructor classes, including jazz, foundation active flexibility, and beginner adult acro; assistant cannot upload on user's behalf.
+3. User approves or corrects the curriculum expansion and editorial presentation.
+4. Authenticated cloud login and data-migration/restore tests require the user's device; do not overwrite existing records without explicit consent.
+5. GitHub Actions CI and Pages live rendering need verification before declaring production ready.
