@@ -1,0 +1,13 @@
+name: Academy static integrity
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  static-qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check HTML references and lesson infrastructure
+        run: python3 scripts/check_academy.py
