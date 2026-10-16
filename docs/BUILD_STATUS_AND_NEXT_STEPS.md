@@ -180,3 +180,20 @@ Critical unfinished items: real follow-along class library for jazz, contemporar
 3. User approves or corrects the curriculum expansion and editorial presentation.
 4. Authenticated cloud login and data-migration/restore tests require the user's device; do not overwrite existing records without explicit consent.
 5. GitHub Actions CI and Pages live rendering need verification before declaring production ready.
+
+## October 16 · Technical capability implementation / strict validation boundaries
+- Added `live-coach.html`: optional camera, MediaPipe 33-point pose overlay and simple grounded-stance, balance and alignment cues, with optional browser speech synthesis. Processing happens on device after the model/library download. **Not an instructor or validated real-time grading; no camera footage or pose data sent to Cloudflare by this page.** Camera and CDN load require HTTPS and user permission. No Android runtime confirmation.
+- Existing `pose-lab.html` already performs local frame analysis and sends **pose measurements only** to the existing Supabase `aom-pose-feedback` function after sign-in and explicit confirmation. The function/backend provider and Cloudflare's actual routing must be audited before making a global guarantee that no video reaches any provider. Pose Lab is not real-time coaching.
+- Added `assessment-history.html`: manual evidence notes with provenance (self, instructor, experimental measurement, AI), date, week, drill, side-by-side comparison, local persistence, import/export and delete. **Not** automatic import of AI feedback or cloud-backed persistence; not an instructor grade.
+- Added Playwright Android-sized Chromium smoke tests `tests/mobile-academy.spec.js` and GitHub Actions `.github/workflows/academy-mobile-e2e.yml`. CI tests are **not verified green**, nor do emulated viewport tests replace real Android device confirmation. Browser tests intentionally do not upload private videos or request real camera access.
+- The research and lesson expansion from previous pass does not mean complete integrated curricula, teacher-vetted class video inventory or Life OS sync. Google Drive iframe limitations remain. No paid rehearsal subscription is required or recommended.
+### Requested capabilities NOT certified as complete
+1. University-standard verified grading requires human-scored ground truth, published rubric, inter-rater reliability and external validation. Existing self-assessment is a provisional rubric only.
+2. MediaPipe's monocular approximate world landmarks are **not** calibrated full 3D motion capture/reconstruction; no claims of accurate joint torques, head-slide tracking or audio/music synchronization.
+3. AI instructor reviewing original video/audio requires explicit provider connection, privacy terms, user opt-in and budget constraints. Current backend accepts measurement summaries, not original media.
+4. Live coach is a prototype with heuristic cues, not continuous expert-level instruction or avatar.
+5. Instructor-grade cloud persistence and automatic AI feedback ingestion remain unimplemented; local history with JSON export is now implemented.
+6. Model-to-human calibration, gold reference videos and measured sensitivity/specificity/accuracy cannot be honestly supplied without labeled recordings and expert review.
+7. Gemini/OpenAI direct API connection requires secure server-side credentials, provider policy review, explicit user approval and possible usage costs. Never place keys in GitHub Pages. The free private alternative is on-device MediaPipe inference with no remote AI video understanding.
+8. Complete curriculum media, Life OS unified journal, and end-to-end sync remain partial.
+9. Automated E2E mobile viewport suite is committed; workflow execution and manual phone verification remain outstanding.
