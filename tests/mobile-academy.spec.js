@@ -96,3 +96,18 @@ test('guided coaching sequence progresses without camera or false certification'
  await page.locator('#sequenceReset').click();
  await expect(page.locator('#sequenceSummary')).toContainText('Sequence:');
 });
+
+test('guided coaching saves only observation metadata locally',async({page})=>{
+ await page.goto(base+'/live-coach.html');
+ await expect(page.locator('#saveSequence')).toBeDisabled();
+ await page.locator('#sequenceStart').click();
+ await page.locator('#sequenceNext').click();
+ await expect(page.locator('#saveSequence')).toBeEnabled();
+ await page.locator('#saveSequence').click();
+ const rows=await page.evaluate(()=>JSON.parse(localStorage.getItem('aom_guided_coach_sessions_v1')));
+ expect(rows).toHaveLength(1);
+ expect(rows[0].results[0]).toEqual({focus:'Grounded stance',status:'skipped'});
+ expect(JSON.stringify(rows)).not.toMatch(/landmarks|coordinates|video_data|audio_data/);
+ await page.locator('#sequenceReset').click();
+ await expect(page.locator('#saveSequence')).toBeDisabled();
+});
