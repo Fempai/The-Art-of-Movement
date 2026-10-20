@@ -1,6 +1,6 @@
 # The Art of Movement — release readiness
 
-Updated: 2026-10-20. This document distinguishes implemented code from verified behavior. Do not treat a GitHub commit as a passed device test.
+Updated: 2026-10-20. Latest work session: Live Coach now restarts the five-second hold after any lost-tracking frame rather than counting interrupted holds as continuous, and avoids force-speaking every reacquisition cue (commit c685047). This code is not device-verified. This document distinguishes implemented code from verified behavior. Do not treat a GitHub commit as a passed device test.
 
 ## Confirmed by the owner
 - 37 Google Drive lesson videos have been audited and play correctly. Keep the existing mappings and assignments.
