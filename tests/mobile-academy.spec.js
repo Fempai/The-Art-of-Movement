@@ -136,3 +136,30 @@ test('motion comparison rejects invalid files without showing stale results',asy
  await expect(page.locator('#status')).toContainText('Comparison unavailable');
  await expect(page.locator('#results')).toBeHidden();
 });
+
+test('paired model-estimated 3D avatars require explicit world-landmark exports',async({page})=>{
+ await page.goto(base+'/motion-comparison.html');
+ const world=Array.from({length:33},(_,i)=>({x:i*.02,y:(i%10)*.04,z:i*.01,visibility:.95}));
+ const observations=Array.from({length:25},(_,i)=>({time_seconds:i*.25,landmarks_visible:28,world,metrics:{shoulder_width_normalized:.23,hip_lateral_offset_relative_to_shoulders:Math.sin(i/24*Math.PI*2),hip_vertical_offset_relative_to_shoulders:1.2,shoulder_tilt_degrees:3,hip_tilt_degrees:4}}));
+ const json=Buffer.from(JSON.stringify({format:'aom-pose-observations-v1',observations}));
+ await page.locator('#reference').setInputFiles({name:'reference.json',mimeType:'application/json',buffer:json});
+ await page.locator('#practice').setInputFiles({name:'practice.json',mimeType:'application/json',buffer:json});
+ await page.locator('#compare').click();
+ await expect(page.locator('#avatarReplay')).toBeVisible();
+ await page.locator('#avatarPhase').fill('50');
+ await expect(page.locator('#avatarFrameStatus')).toContainText('50%');
+ await page.locator('#avatarYaw').fill('90');
+ await page.locator('#playAvatars').click();
+ await page.locator('#pauseAvatars').click();
+ await expect(page.locator('#avatarReplay')).toBeVisible();
+});
+test('Live Coach 3D avatar is opt in and off before camera permission',async({page})=>{
+ await page.goto(base+'/live-coach.html');
+ await expect(page.locator('#avatarToggle')).toHaveAttribute('aria-pressed','false');
+ await expect(page.locator('#avatarCanvas')).toBeHidden();
+ await page.locator('#avatarToggle').click();
+ await expect(page.locator('#avatarCanvas')).toBeVisible();
+ await expect(page.locator('#avatarStatus')).toContainText('Waiting for camera');
+ await page.locator('#avatarToggle').click();
+ await expect(page.locator('#avatarCanvas')).toBeHidden();
+});
