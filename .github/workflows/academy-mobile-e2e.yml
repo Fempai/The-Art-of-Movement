@@ -1,4 +1,4 @@
-name: Academy mobile browser smoke tests
+name: Academy desktop and mobile browser regression
 on:
   push:
     branches: [main]
@@ -7,7 +7,7 @@ on:
 jobs:
   mobile-e2e:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -19,5 +19,15 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Start static server
         run: python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/aom-http.log 2>&1 &
-      - name: Run Android-size browser tests
-        run: npx playwright test tests/mobile-academy.spec.js --reporter=line --workers=1
+      - name: Run desktop and Android-size browser regression tests
+        run: npx playwright test tests/mobile-academy.spec.js tests/desktop-academy.spec.js --reporter=line,html --workers=1 --trace=retain-on-failure --screenshot=only-on-failure
+      - name: Upload browser failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: academy-playwright-failure-diagnostics
+          path: |
+            playwright-report/
+            test-results/
+            /tmp/aom-http.log
+          retention-days: 7
