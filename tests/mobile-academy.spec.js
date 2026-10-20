@@ -111,3 +111,28 @@ test('guided coaching saves only observation metadata locally',async({page})=>{
  await page.locator('#sequenceReset').click();
  await expect(page.locator('#saveSequence')).toBeDisabled();
 });
+
+test('motion comparison validates local exports and renders identical reference safely',async({page})=>{
+ await page.goto(base+'/motion-comparison.html');
+ await expect(page.locator('#results')).toBeHidden();
+ const observations=Array.from({length:25},(_,i)=>({time_seconds:i*.25,landmarks_visible:28,metrics:{shoulder_width_normalized:.23,hip_lateral_offset_relative_to_shoulders:Math.sin(i/24*Math.PI*2),hip_vertical_offset_relative_to_shoulders:1.2,shoulder_tilt_degrees:3,hip_tilt_degrees:4}}));
+ const data=Buffer.from(JSON.stringify({format:'aom-pose-observations-v1',observations}));
+ await page.locator('#reference').setInputFiles({name:'reference.json',mimeType:'application/json',buffer:data});
+ await page.locator('#practice').setInputFiles({name:'practice.json',mimeType:'application/json',buffer:data});
+ await page.locator('#compare').click();
+ await expect(page.locator('#status')).toContainText('Comparison ready');
+ await expect(page.locator('#results')).toBeVisible();
+ await expect(page.locator('#metrics tr')).toHaveCount(4);
+ await expect(page.locator('#chart polyline')).toHaveCount(2);
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const download=await downloadPromise;expect(download.suggestedFilename()).toBe('academy-motion-comparison.json');
+});
+test('motion comparison rejects invalid files without showing stale results',async({page})=>{
+ await page.goto(base+'/motion-comparison.html');
+ await page.locator('#reference').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{}')});
+ await page.locator('#practice').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{}')});
+ await page.locator('#compare').click();
+ await expect(page.locator('#status')).toContainText('Comparison unavailable');
+ await expect(page.locator('#results')).toBeHidden();
+});
