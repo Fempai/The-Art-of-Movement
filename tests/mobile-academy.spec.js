@@ -146,9 +146,9 @@ test('paired model-estimated 3D avatars require explicit world-landmark exports'
  await page.locator('#practice').setInputFiles({name:'practice.json',mimeType:'application/json',buffer:json});
  await page.locator('#compare').click();
  await expect(page.locator('#avatarReplay')).toBeVisible();
- await page.locator('#avatarPhase').fill('50');
+ await page.locator('#avatarPhase').evaluate(el=>{el.value='50';el.dispatchEvent(new Event('input',{bubbles:true}))});
  await expect(page.locator('#avatarFrameStatus')).toContainText('50%');
- await page.locator('#avatarYaw').fill('90');
+ await page.locator('#avatarYaw').evaluate(el=>{el.value='90';el.dispatchEvent(new Event('input',{bubbles:true}))});
  await page.locator('#playAvatars').click();
  await page.locator('#pauseAvatars').click();
  await expect(page.locator('#avatarReplay')).toBeVisible();
