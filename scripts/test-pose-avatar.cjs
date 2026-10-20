@@ -1,0 +1,16 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {project,bones,draw}=require('../assets/pose-avatar.js');
+const points=Array.from({length:33},(_,i)=>({x:(i%6)*.08,y:Math.floor(i/6)*.1,z:i*.01,visibility:.95}));
+const front=project(points,0,0),side=project(points,90,0);
+assert.equal(front.length,33);assert.equal(bones.length,16);
+assert(Math.abs(front[11].x-side[11].x)>.01,'Rotating should change projected x');
+assert(Math.abs(front[11].y-side[11].y)<1e-9,'Yaw rotation should preserve vertical position');
+assert.equal(project(points.slice(0,8)),null);
+assert.equal(project(points.map((p,i)=>i===23?{...p,z:Infinity}:p)),null);
+const calls=[];const ctx={clearRect(){calls.push('clear')},beginPath(){},moveTo(){},lineTo(){},stroke(){},arc(){},fill(){}};
+const canvas={width:640,height:480,getContext(){return ctx}};
+assert.equal(draw(canvas,points,30,15),true);
+assert(calls.includes('clear'));
+assert.equal(draw(canvas,null),false);
+console.log('3D avatar projection and safety: 8 assertions passed.');
