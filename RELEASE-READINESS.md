@@ -1,3 +1,11 @@
+## Advanced coaching expansion (2026-10-20, subsequent work session)
+- Live Coach includes a rotatable on-device skeletal avatar projected from MediaPipe model-estimated world landmarks; no calibrated 3D reconstruction, retargeted character rig, or dance grade. Explicit on/off control, local rendering, no persistence.
+- Pose Lab optionally exports model-estimated 33-joint world positions **only when the user checks the opt-in box**. These coordinates are sensitive movement information in the downloaded JSON; the cloud AI submission continues to send the existing measurement subset, not joint positions.
+- Motion Comparison Studio can replay reference and practice 3D skeletal estimates at the same normalized phase, with rotation and playback controls. Both local JSON files must include world estimates; otherwise the viewer stays hidden.
+- Live Coach alignment now requires shoulders and hips but not ankle tracking. Stance and single-leg balance still require reliable ankle estimates. This reduces false ankle-blocking for upper-body alignment without inventing lower-body certainty.
+- Added deterministic avatar projection tests, coach gating tests, and browser interaction tests. Automated checks do not establish real-device Samsung tracking reliability, true 3D pose accuracy, dance correctness, or choreography grading.
+- **Remaining advanced scope:** validated choreography alignment across tempo changes, robust physical-phone lower-body tracking, avatar retargeting/animation beyond model skeleton, calibrated technique rubrics, reference datasets and independent performance validation.
+
 ## Advanced coaching implementation update (2026-10-20)
 - Added guided three-focus Live Coach sequence with observable/skipped status, spoken transitions, local metadata-only session history, and opt-in camera/recording preserved. Five-second observation is **not** proof of technique.
 - Added Pose Lab stable-window JSON export with continuous tracking requirements and no video/audio content.
