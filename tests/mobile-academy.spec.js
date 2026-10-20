@@ -19,3 +19,62 @@ test('all global navigation destinations exist on the local site',async({page,re
 test('progression reviews can be exported and restored without duplicates',async({page})=>{await page.goto(base+'/progression-review.html');await page.locator('[name=notes]').fill('Controlled range with no pain');await page.locator('#form button').click();await expect(page.locator('#history .record')).toHaveCount(1);const downloadPromise=page.waitForEvent('download');await page.locator('#export').click();const download=await downloadPromise;const fs=require('node:fs');const backup=fs.readFileSync(await download.path(),'utf8');const parsed=JSON.parse(backup);expect(parsed.rows).toHaveLength(1);page.once('dialog',d=>d.accept());await page.locator('#import').setInputFiles({name:'reviews.json',mimeType:'application/json',buffer:Buffer.from(backup)});await expect(page.locator('#history .record')).toHaveCount(1);await expect(page.locator('#result')).toContainText('Backup restored')});
 
 test('local Academy backup restores missing records without overwriting existing values',async({page})=>{await page.goto(base+'/academy-backup.html');await page.evaluate(()=>localStorage.setItem('aom_qa_restore','before'));const downloadPromise=page.waitForEvent('download');await page.locator('#export').click();const download=await downloadPromise;const fs=require('node:fs');const backup=fs.readFileSync(await download.path(),'utf8');await page.evaluate(()=>localStorage.removeItem('aom_qa_restore'));await page.locator('#import').setInputFiles({name:'academy.json',mimeType:'application/json',buffer:Buffer.from(backup)});page.once('dialog',d=>d.accept());await page.locator('#restore').click();await expect(page.locator('#status')).toContainText('Restored');expect(await page.evaluate(()=>localStorage.getItem('aom_qa_restore'))).toBe('before');await page.evaluate(()=>localStorage.setItem('aom_qa_restore','newer'));await page.locator('#restore').click();expect(await page.evaluate(()=>localStorage.getItem('aom_qa_restore'))).toBe('newer')});
+
+test('backup rejects malformed JSON and unsupported backup formats',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.locator('#import').setInputFiles({name:'bad.json',mimeType:'application/json',buffer:Buffer.from('{broken')});
+ await expect(page.locator('#status')).toContainText('Cannot use backup');
+ await expect(page.locator('#restore')).toBeDisabled();
+ await page.locator('#import').setInputFiles({name:'wrong.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'other',data:{aom_test:'value'}}))});
+ await expect(page.locator('#status')).toContainText('Unrecognized Academy backup format');
+ await expect(page.locator('#restore')).toBeDisabled();
+});
+test('backup rejects non-Academy keys and oversized files',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.locator('#import').setInputFiles({name:'foreign.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'aom-local-backup-v1',data:{other_app_token:'secret'}}))});
+ await expect(page.locator('#status')).toContainText('invalid Academy key');
+ await expect(page.locator('#restore')).toBeDisabled();
+ await page.locator('#import').setInputFiles({name:'huge.json',mimeType:'application/json',buffer:Buffer.alloc(5_000_001,32)});
+ await expect(page.locator('#status')).toContainText('5 MB');
+ await expect(page.locator('#restore')).toBeDisabled();
+});
+test('backup replacement requires explicit opt in and confirmation',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.evaluate(()=>localStorage.setItem('aom_qa_replace','current'));
+ const payload=JSON.stringify({format:'aom-local-backup-v1',data:{aom_qa_replace:'backup'}});
+ await page.locator('#import').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(payload)});
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ expect(await page.evaluate(()=>localStorage.getItem('aom_qa_replace'))).toBe('current');
+ await page.locator('#overwrite').check();
+ page.once('dialog',dialog=>dialog.dismiss());
+ await page.locator('#restore').click();
+ expect(await page.evaluate(()=>localStorage.getItem('aom_qa_replace'))).toBe('current');
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ expect(await page.evaluate(()=>localStorage.getItem('aom_qa_replace'))).toBe('backup');
+});
+test('backup export excludes unrelated localStorage keys',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.evaluate(()=>{localStorage.setItem('aom_qa_private','academy');localStorage.setItem('unrelated_private_token','must_not_export')});
+ const event=page.waitForEvent('download');await page.locator('#export').click();const file=await event;
+ const fs=require('node:fs'),obj=JSON.parse(fs.readFileSync(await file.path(),'utf8'));
+ expect(obj.data.aom_qa_private).toBe('academy');
+ expect(obj.data).not.toHaveProperty('unrelated_private_token');
+});
+test('live camera does not start without explicit user action',async({page})=>{
+ await page.addInitScript(()=>{window.__cameraCalls=0;const original=navigator.mediaDevices?.getUserMedia?.bind(navigator.mediaDevices);if(navigator.mediaDevices)navigator.mediaDevices.getUserMedia=(...args)=>{window.__cameraCalls++;return original?original(...args):Promise.reject(new Error('No camera'))}});
+ await page.goto(base+'/live-coach.html');
+ await expect(page.locator('#start')).toBeEnabled();
+ expect(await page.evaluate(()=>window.__cameraCalls)).toBe(0);
+ await expect(page.locator('#record')).toBeDisabled();
+});
+test('assessment notes are rendered as text, not executable HTML',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ await page.locator('[name=skill]').fill('<img src=x onerror=alert(1)>');
+ await page.locator('[name=notes]').fill('<script>window.__unsafe=1</script>');
+ await page.locator('#form button').click();
+ await expect(page.locator('.entry')).toHaveCount(1);
+ expect(await page.evaluate(()=>window.__unsafe||0)).toBe(0);
+ await expect(page.locator('.entry img')).toHaveCount(0);
+});
