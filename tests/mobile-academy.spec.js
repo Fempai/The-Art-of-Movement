@@ -163,3 +163,16 @@ test('Live Coach 3D avatar is opt in and off before camera permission',async({pa
  await page.locator('#avatarToggle').click();
  await expect(page.locator('#avatarCanvas')).toBeHidden();
 });
+
+test('tempo-aware comparison is opt-in and explicitly not a grade',async({page})=>{
+ await page.goto(base+'/motion-comparison.html');
+ const observations=Array.from({length:25},(_,i)=>({time_seconds:i*.25,landmarks_visible:29,metrics:{shoulder_width_normalized:.22,hip_lateral_offset_relative_to_shoulders:Math.sin(i/24*Math.PI*2),hip_vertical_offset_relative_to_shoulders:1.2,shoulder_tilt_degrees:2,hip_tilt_degrees:3}}));
+ const buffer=Buffer.from(JSON.stringify({format:'aom-pose-observations-v1',observations}));
+ await page.locator('#reference').setInputFiles({name:'reference.json',mimeType:'application/json',buffer});
+ await page.locator('#practice').setInputFiles({name:'practice.json',mimeType:'application/json',buffer});
+ await page.locator('#alignmentMethod').selectOption('tempo-aware');
+ await page.locator('#compare').click();
+ await expect(page.locator('#status')).toContainText('Comparison ready');
+ await expect(page.locator('#durations')).toContainText('tempo-aware');
+ await expect(page.locator('#results')).toContainText('not a movement grade');
+});
