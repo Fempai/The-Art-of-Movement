@@ -34,7 +34,7 @@ html{scroll-padding-top:16px}
 @media(max-width:780px){
  nav#aom-global-nav .aom-nav-links{overflow-x:auto!important;overscroll-behavior-x:contain!important;-webkit-overflow-scrolling:touch!important;padding-bottom:6px!important}
  nav#aom-global-nav .aom-nav-links>a,nav#aom-global-nav .aom-nav-menu summary{min-height:44px!important;display:flex!important;align-items:center!important}
- nav#aom-global-nav .aom-nav-dropdown{top:auto!important;bottom:12px!important;max-height:min(60vh,480px)!important;overscroll-behavior:contain!important}
+ nav#aom-global-nav .aom-nav-dropdown{top:112px!important;bottom:auto!important;max-height:min(60vh,480px)!important;overscroll-behavior:contain!important}
  nav#aom-global-nav .aom-nav-dropdown a{min-height:44px!important;display:flex!important;align-items:center!important}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
