@@ -18,3 +18,5 @@ jobs:
         run: python scripts/check-academy.py
       - name: Validate assessment, camera and cloud contracts
         run: node scripts/academy-smoke-check.cjs
+      - name: Verify Pose Lab evidence-window behavior
+        run: node scripts/test-pose-evidence.cjs
