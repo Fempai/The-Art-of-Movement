@@ -22,3 +22,5 @@ jobs:
         run: node scripts/test-pose-evidence.cjs
       - name: Verify local reference motion comparison
         run: node scripts/test-motion-comparison.cjs
+      - name: Verify 3D avatar projections and landmark safeguards
+        run: node scripts/test-pose-avatar.cjs
