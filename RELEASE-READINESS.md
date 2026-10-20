@@ -15,6 +15,14 @@ Updated: 2026-10-20. Live Coach hold interruption, background-frame handling, Po
 - GitHub Actions static regression workflow (.github/workflows/academy-checks.yml), expanded to eight core pages and privacy-sensitive regression checks. Workflow result not independently confirmed.
 - Owner acceptance guide (`OWNER-ACCEPTANCE.md`) for targeted camera diagnostics and final release QA.
 
+## Autonomous development remaining (assessment as of 2026-10-20)
+- **Code-level:** inspect remaining Academy pages for broken navigation, data-export/restore consistency, accessibility, and error states; implement fixes found. These tasks can proceed without owner input.
+- **Backend:** run authenticated integration and failure-path checks with test credentials where permitted, review AI provider retention terms, and document privacy limitations. Static RLS inspection and successful deployment do not replace these checks.
+- **Automation:** confirm GitHub Actions executes successfully and repair workflow failures. Current connector does not provide a complete push-run listing, so success is **unverified**.
+- **Research and feature scope:** advanced 3D motion, avatar choreography matching, and defensible grading are substantial uncompleted engineering work, not simply awaiting a phone test. Reliable reference motion and acceptance criteria may require owner decisions.
+- **Requires owner/device:** target Samsung lower-body tracking diagnosis, representative private video playback, final phone acceptance, and release approval.
+- **No reliable percentage:** the remaining independent workload cannot be measured as a defensible fraction of the total because advanced 3D/avatar requirements are open-ended. Do not claim that all non-owner tasks are finished.
+
 ## Release blockers / work still required
 1. **Phone lower-body tracking**: reproduce with the owner's actual phone and video, inspect on-screen per-landmark confidence and pose model selection, and adjust the model/conditions or provide a transparent tracking-unavailable state. Do not mark grounded stance verified from ankle heights alone.
 2. **Reliable coaching**: repeated pose-processing errors now stop the camera loop with a recoverable error instead of silently retrying forever. Test all practice modes, voice prompts, hold interruption, camera start/stop, permissions, orientation, battery/performance, accessibility, and recovery from model/network failure on the intended phone.
