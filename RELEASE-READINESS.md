@@ -1,3 +1,13 @@
+## Backend hardening completed (2026-10-20)
+- Inspected the live Life OS Supabase project `alwtccdiyudsucfioahr` and Academy tables, owner-scoped RLS, private video bucket, migrations, and the deployed AI feedback function.
+- Applied migrations `aom_backend_foreign_key_indexes`, `aom_optimize_owner_rls_policies`, and `aom_consolidate_review_insert_policies`. These add six missing foreign-key indexes, optimize ten owner-policy auth lookups, and merge two overlapping review-insert policies without changing their allowed draft/queued conditions.
+- Re-ran Supabase performance advisors: missing foreign-key-index, RLS initplan, and overlapping permissive-policy findings cleared. Remaining unused-index advisories include the new indexes and are expected until representative workloads run; do not remove protective indexes solely for zero usage.
+- Inspected private `aom-private-videos` bucket: not public, 100 MiB limit, video MIME allowlist, owner-folder storage policies.
+- Deployed `aom-pose-feedback` **version 6** with continuous, distinct timestamp checks, shoulder-scale validity, and finite bounded experimental metric validation. JWT verification remains enabled; original authenticated owner lookup and explicit Cloudflare consent remain in place.
+- Confirmed function version 6 is ACTIVE by re-fetching deployment. No authenticated live request or full model-output quality test was executed, and cloud retention/provider controls have not been independently verified.
+- Security advisor still reports leaked-password protection disabled for the shared Life OS Supabase Auth project. Changing shared project Auth settings needs a separate, informed decision because it affects non-Academy services.
+- **Not certified complete:** end-to-end authenticated review, cloud failure/timeout behavior, independent privacy/retention audit, and real-device camera grading remain release checks.
+
 # The Art of Movement — release readiness
 
 Updated: 2026-10-20. Live Coach hold interruption, background-frame handling, Pose Lab fallback/reset, and cloud review consent were improved in code. These changes are not device-verified. This document distinguishes implemented code from verified behavior. Do not treat a GitHub commit as a passed device test.
