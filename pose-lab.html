@@ -12,21 +12,17 @@ video.onseeked=()=>{lastTime=-1;samples=[];trackingAttempts=0;trackingRejected=0
 function selectEvidenceWindow(){
  const eligible=samples.filter(s=>s.landmarks_visible>=20&&Number.isFinite(s.time_seconds)&&s.metrics.shoulder_width_normalized>=.08&&Math.abs(s.metrics.hip_lateral_offset_relative_to_shoulders)<=3).sort((a,b)=>a.time_seconds-b.time_seconds);
  let best=null,windowCount=0;
- // Split at missing/duplicate timestamps. A window must represent one continuous capture.
- let segmentStart=0;
- for(let end=0;end<eligible.length;end++){
-  if(end>0){const gap=eligible[end].time_seconds-eligible[end-1].time_seconds;if(gap<=0||gap>1.2)segmentStart=end}
-  while(segmentStart<end&&eligible[end].time_seconds-eligible[segmentStart].time_seconds>7)segmentStart++;
-  for(let start=segmentStart;start<=end-11;start++){
-   const span=eligible[end].time_seconds-eligible[start].time_seconds;
-   if(span<4.5)continue;
-   const w=eligible.slice(start,end+1),widths=w.map(s=>s.metrics.shoulder_width_normalized);
-   const ratio=Math.max(...widths)/Math.max(.001,Math.min(...widths));
-   const jumps=w.slice(1).filter((s,j)=>Math.hypot(s.metrics.hip_lateral_offset_relative_to_shoulders-w[j].metrics.hip_lateral_offset_relative_to_shoulders,s.metrics.hip_vertical_offset_relative_to_shoulders-w[j].metrics.hip_vertical_offset_relative_to_shoulders)>1.1).length;
-   const score=jumps*10+Math.max(0,ratio-1)*5-w.length*.01;
-   windowCount++;
-   if(!best||score<best.score)best={w,score};
-  }
+ // Evaluate only continuous timestamp windows, without rescanning every candidate's metrics.
+ for(let end=0,start=0;end<eligible.length;end++){
+  if(end>0){const gap=eligible[end].time_seconds-eligible[end-1].time_seconds;if(gap<=0||gap>1.2)start=end}
+  while(start<end&&eligible[end].time_seconds-eligible[start].time_seconds>7)start++;
+  if(end-start+1<12||eligible[end].time_seconds-eligible[start].time_seconds<4.5)continue;
+  const w=eligible.slice(start,end+1),widths=w.map(s=>s.metrics.shoulder_width_normalized);
+  const ratio=Math.max(...widths)/Math.max(.001,Math.min(...widths));
+  const jumps=w.slice(1).filter((s,j)=>Math.hypot(s.metrics.hip_lateral_offset_relative_to_shoulders-w[j].metrics.hip_lateral_offset_relative_to_shoulders,s.metrics.hip_vertical_offset_relative_to_shoulders-w[j].metrics.hip_vertical_offset_relative_to_shoulders)>1.1).length;
+  const score=jumps*10+Math.max(0,ratio-1)*5-w.length*.01;
+  windowCount++;
+  if(!best||score<best.score)best={w,score};
  }
  return {good:best?best.w:eligible,windowCount,eligibleCount:eligible.length};
 }
