@@ -20,3 +20,5 @@ jobs:
         run: node scripts/academy-smoke-check.cjs
       - name: Verify Pose Lab evidence-window behavior
         run: node scripts/test-pose-evidence.cjs
+      - name: Verify local reference motion comparison
+        run: node scripts/test-motion-comparison.cjs
