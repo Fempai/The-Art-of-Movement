@@ -45,6 +45,21 @@ for page in ['live-coach.html','pose-lab.html']:
     src=(ROOT/page).read_text()
     if 'pose_landmarker_full' not in src:fail.append(page+': expected full pose model')
 if 'aom_assessment_history_v1' not in (ROOT/'pose-lab.html').read_text():fail.append('Pose Lab assessment-history integration missing')
+# Guard against accidental regressions in privacy-sensitive movement workflows.
+coach=(ROOT/'live-coach.html').read_text(encoding='utf-8')
+pose=(ROOT/'pose-lab.html').read_text(encoding='utf-8')
+if "pose_landmarker_lite" not in coach or "pose_landmarker_full" not in coach:
+    fail.append('Live Coach: Full-to-Lite fallback missing')
+if "lastGoodFrame" not in coach or "visibilitychange" not in coach:
+    fail.append('Live Coach: interrupted/background hold protection missing')
+if "pose_landmarker_lite" not in pose or "pose_landmarker_full" not in pose:
+    fail.append('Pose Lab: Full-to-Lite fallback missing')
+if "selectedVideoName" not in pose or "confirm(" not in pose or "Cloudflare AI" not in pose:
+    fail.append('Pose Lab: cloud review disclosure/confirmation missing')
+if "review_id:id,evidence:{observations:good,skill_evidence:circleEvidence}" not in pose:
+    fail.append('Pose Lab: expected landmark-only review payload changed; inspect before release')
+if "video.onseeked" not in pose or "lastEvidence=null" not in pose:
+    fail.append('Pose Lab: seek/evidence reset missing')
 if fail:
     print('FAILED static checks:')
     print('\n'.join(' - '+x for x in sorted(set(fail))))
