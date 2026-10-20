@@ -15,8 +15,19 @@ Updated: 2026-10-20. Live Coach hold interruption, background-frame handling, Po
 - GitHub Actions static regression workflow (.github/workflows/academy-checks.yml), expanded to eight core pages and privacy-sensitive regression checks. Workflow result not independently confirmed.
 - Owner acceptance guide (`OWNER-ACCEPTANCE.md`) for targeted camera diagnostics and final release QA.
 
+## Website-quality work completed (2026-10-20)
+- Repaired the broken Week 3 acro link in the global navigation and two page-level links; destination is the existing Week 3 daily studio.
+- Fixed a Pose Lab cloud-consent JavaScript syntax error identified by GitHub Actions.
+- Corrected mobile navigation dropdown positioning.
+- Expanded the all-page static integrity checker to inspect local links, dynamically generated global navigation destinations, duplicate IDs, image alt attributes, language metadata, and mobile viewport metadata.
+- Added `academy-backup.html`, a browser-only export/restore utility for `aom_` localStorage records. Restore defaults to skipping existing keys, validates file format and sizes, and explicitly excludes cloud records, video files and sign-in sessions.
+- Added JSON restore to progression review history and visible error handling for local save failures.
+- Added Playwright browser tests for global navigation, progression-review restore, and local backup restoration without overwriting existing data.
+- **Verified GitHub Actions success at commit `a2da965`:** Academy static integrity run `39512876801`, Academy static regression run `39512876779`, and Academy mobile browser smoke tests run `39512876712` (all completed successfully).
+- **Scope limit:** these automated checks are not a complete visual/accessibility audit on every physical device; authenticated cloud behavior, actual Samsung camera performance, and final owner acceptance remain separate release blockers.
+
 ## Autonomous development remaining (assessment as of 2026-10-20)
-- **Code-level:** inspect remaining Academy pages for broken navigation, data-export/restore consistency, accessibility, and error states; implement fixes found. These tasks can proceed without owner input.
+- **Code-level:** automated site-wide navigation and metadata checks now pass; local backup and progression-review restore are implemented and covered by browser tests. Any issues uncovered during manual desktop/phone visual review remain to be fixed.
 - **Backend:** run authenticated integration and failure-path checks with test credentials where permitted, review AI provider retention terms, and document privacy limitations. Static RLS inspection and successful deployment do not replace these checks.
 - **Automation:** confirm GitHub Actions executes successfully and repair workflow failures. Current connector does not provide a complete push-run listing, so success is **unverified**.
 - **Research and feature scope:** advanced 3D motion, avatar choreography matching, and defensible grading are substantial uncompleted engineering work, not simply awaiting a phone test. Reliable reference motion and acceptance criteria may require owner decisions.
