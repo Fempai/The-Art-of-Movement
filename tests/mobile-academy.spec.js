@@ -78,3 +78,21 @@ test('assessment notes are rendered as text, not executable HTML',async({page})=
  expect(await page.evaluate(()=>window.__unsafe||0)).toBe(0);
  await expect(page.locator('.entry img')).toHaveCount(0);
 });
+
+test('guided coaching sequence progresses without camera or false certification',async({page})=>{
+ await page.goto(base+'/live-coach.html');
+ await expect(page.locator('#sequenceStatus')).toContainText('0 of 3');
+ await page.locator('#sequenceStart').click();
+ await expect(page.locator('#mode')).toHaveValue('stance');
+ await expect(page.locator('#sequenceNext')).toBeEnabled();
+ await page.locator('#sequenceNext').click();
+ await expect(page.locator('#mode')).toHaveValue('alignment');
+ await page.locator('#sequenceNext').click();
+ await expect(page.locator('#mode')).toHaveValue('balance');
+ await page.locator('#sequenceNext').click();
+ await expect(page.locator('#sequenceNext')).toBeDisabled();
+ await expect(page.locator('#sequenceSummary')).toContainText('skipped');
+ await expect(page.locator('#sequenceStatus')).toContainText('0 of 3');
+ await page.locator('#sequenceReset').click();
+ await expect(page.locator('#sequenceSummary')).toContainText('Sequence:');
+});
