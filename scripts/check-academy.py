@@ -56,7 +56,7 @@ if "pose_landmarker_lite" not in pose or "pose_landmarker_full" not in pose:
     fail.append('Pose Lab: Full-to-Lite fallback missing')
 if "selectedVideoName" not in pose or "confirm(" not in pose or "Cloudflare AI" not in pose:
     fail.append('Pose Lab: cloud review disclosure/confirmation missing')
-if "review_id:id,evidence:{observations:good,skill_evidence:circleEvidence}" not in pose:
+if "review_id:id,evidence:{observations:good.length<=60?good:Array.from({length:60}" not in pose:
     fail.append('Pose Lab: expected landmark-only review payload changed; inspect before release')
 if "video.onseeked" not in pose or "lastEvidence=null" not in pose:
     fail.append('Pose Lab: seek/evidence reset missing')
