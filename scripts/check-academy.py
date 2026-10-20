@@ -43,7 +43,9 @@ for name in PAGES:
         if match.group(1) not in parser.ids:fail.append(name+': missing DOM id '+match.group(1))
 for page in ['live-coach.html','pose-lab.html']:
     src=(ROOT/page).read_text()
-    if 'pose_landmarker_full' not in src:fail.append(page+': expected full pose model')
+    if page=='pose-lab.html':
+        if "for(const variant of ['full','lite'])" not in src:fail.append(page+': expected full-to-lite model fallback')
+    elif 'pose_landmarker_full' not in src:fail.append(page+': expected full pose model')
 if 'aom_assessment_history_v1' not in (ROOT/'pose-lab.html').read_text():fail.append('Pose Lab assessment-history integration missing')
 # Guard against accidental regressions in privacy-sensitive movement workflows.
 coach=(ROOT/'live-coach.html').read_text(encoding='utf-8')
@@ -52,7 +54,7 @@ if "pose_landmarker_lite" not in coach or "pose_landmarker_full" not in coach:
     fail.append('Live Coach: Full-to-Lite fallback missing')
 if "lastGoodFrame" not in coach or "visibilitychange" not in coach:
     fail.append('Live Coach: interrupted/background hold protection missing')
-if "pose_landmarker_lite" not in pose or "pose_landmarker_full" not in pose:
+if "for(const variant of ['full','lite'])" not in pose:
     fail.append('Pose Lab: Full-to-Lite fallback missing')
 if "selectedVideoName" not in pose or "confirm(" not in pose or "Cloudflare AI" not in pose:
     fail.append('Pose Lab: cloud review disclosure/confirmation missing')
@@ -60,7 +62,7 @@ if "review_id:id,evidence:{observations:good.length<=60?good:Array.from({length:
     fail.append('Pose Lab: expected landmark-only review payload changed; inspect before release')
 if "video.onseeked" not in pose or "lastEvidence=null" not in pose:
     fail.append('Pose Lab: seek/evidence reset missing')
-if "gap<=0||gap>1.2" not in pose or "segmentStart=end" not in pose:
+if "gap<=0||gap>1.2" not in pose or "start=end" not in pose:
     fail.append('Pose Lab: continuous evidence-window requirement missing')
 if fail:
     print('FAILED static checks:')
