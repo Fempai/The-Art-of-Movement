@@ -60,6 +60,8 @@ if "review_id:id,evidence:{observations:good.length<=60?good:Array.from({length:
     fail.append('Pose Lab: expected landmark-only review payload changed; inspect before release')
 if "video.onseeked" not in pose or "lastEvidence=null" not in pose:
     fail.append('Pose Lab: seek/evidence reset missing')
+if "gap<=0||gap>1.2" not in pose or "segmentStart=end" not in pose:
+    fail.append('Pose Lab: continuous evidence-window requirement missing')
 if fail:
     print('FAILED static checks:')
     print('\n'.join(' - '+x for x in sorted(set(fail))))
