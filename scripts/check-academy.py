@@ -8,7 +8,7 @@ import sys
 import tempfile
 
 ROOT=Path(__file__).resolve().parents[1]
-PAGES=['index.html','live-coach.html','pose-lab.html','assessment-history.html','movement-assessment-studio.html','movement-bridge.html','weekly-studio.html']
+PAGES=['index.html','my-academy.html','live-coach.html','pose-lab.html','assessment-history.html','movement-assessment-studio.html','movement-bridge.html','weekly-studio.html']
 class Scan(HTMLParser):
     def __init__(self):
         super().__init__();self.ids=set();self.scripts=[];self.inscript=False;self.buffer=[]
@@ -38,6 +38,8 @@ for name in PAGES:
             result=subprocess.run(['node','--check',tmp.name],capture_output=True,text=True)
             if result.returncode:fail.append(name+' script '+str(n)+': '+result.stderr.strip())
     for match in re.finditer(r"""(?:getElementById\(['"]|\$\(['"])([\w-]+)['"]\)""",source):
+        # A string prefix concatenated with a variable is not a literal DOM id.
+        if re.match(r'\s*\+',source[match.end():]):continue
         if match.group(1) not in parser.ids:fail.append(name+': missing DOM id '+match.group(1))
 for page in ['live-coach.html','pose-lab.html']:
     src=(ROOT/page).read_text()
