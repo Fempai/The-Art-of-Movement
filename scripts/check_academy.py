@@ -26,7 +26,7 @@ for file in pages:
  for duplicate in p.duplicates:errors.append(f'{file.name}: duplicate element id {duplicate}')
  for src in p.images_without_alt:errors.append(f'{file.name}: image lacks alt attribute: {src}')
  source=file.read_text(encoding='utf-8')
- if not re.search(r'<html[^>]*\\blang=',source,re.I):errors.append(f'{file.name}: missing HTML language')
+ if not re.search(r'<html[^>]*\blang=',source,re.I):errors.append(f'{file.name}: missing HTML language')
  if not re.search(r'<meta[^>]*name=[\"\\\']viewport[\"\\\']',source,re.I):errors.append(f'{file.name}: missing mobile viewport')
  for link in p.links:
   if link.startswith(IGNORE):continue
