@@ -16,8 +16,8 @@ test('desktop week navigation and daily lessons load',async({page})=>{
 });
 test('desktop Academy local backup is accessible without signing in',async({page})=>{
  await page.goto(base+'/my-academy.html');
- await expect(page.locator('a[href="academy-backup.html"]')).toBeVisible();
- await page.locator('a[href="academy-backup.html"]').click();
+ await expect(page.locator('main a.pill[href="academy-backup.html"]')).toBeVisible();
+ await page.locator('main a.pill[href="academy-backup.html"]').click();
  await expect(page.locator('h1')).toContainText('Local Academy backup');
  await expect(page.locator('#export')).toBeEnabled();
 });
