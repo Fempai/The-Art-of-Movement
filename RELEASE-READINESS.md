@@ -1,3 +1,11 @@
+## Advanced coaching implementation update (2026-10-20)
+- Added guided three-focus Live Coach sequence with observable/skipped status, spoken transitions, local metadata-only session history, and opt-in camera/recording preserved. Five-second observation is **not** proof of technique.
+- Added Pose Lab stable-window JSON export with continuous tracking requirements and no video/audio content.
+- Added `assets/motion-comparison.js` and `motion-comparison.html`: reference versus practice 2D hip-displacement trajectories aligned by relative time, four descriptive measurement comparisons, local JSON report export, and strict input validation. Files stay in the browser.
+- Added comparison-engine behavioral checks to GitHub Actions and mobile browser tests for successful/invalid comparison.
+- **Unresolved advanced goals:** true 3D reconstruction, animated 3D avatar choreography matching, calibrated movement grades, and reliable physical-phone lower-body tracking. The 2D motion comparison is not a substitute. These need reference datasets, camera/calibration choices, technique rubric and real-device evaluation before making accuracy claims.
+- Final new-commit browser/deployment workflow status must be verified independently; do not infer success from passing static checks.
+
 ## Backend hardening completed (2026-10-20)
 - Inspected the live Life OS Supabase project `alwtccdiyudsucfioahr` and Academy tables, owner-scoped RLS, private video bucket, migrations, and the deployed AI feedback function.
 - Applied migrations `aom_backend_foreign_key_indexes`, `aom_optimize_owner_rls_policies`, and `aom_consolidate_review_insert_policies`. These add six missing foreign-key indexes, optimize ten owner-policy auth lookups, and merge two overlapping review-insert policies without changing their allowed draft/queued conditions.
