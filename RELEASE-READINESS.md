@@ -10,7 +10,7 @@ Updated: 2026-10-20. Live Coach hold interruption, background-frame handling, Po
 ## Implemented, not yet release-verified
 - 16-week academy curriculum and weekly lesson pages, music/musicality, practice player, flexibility and discipline-specific studies.
 - On-device Live Coach with pose skeleton, optional four-second wrist/ankle trails, optional local recording, spoken cues, hold timing, full pose model with fallback.
-- Pose Lab with local pose and audio-energy observations, evidence-quality checks, preliminary landmark-only AI review, and manual saving of observations to assessment history.
+- Pose Lab with local pose and audio-energy observations, evidence-quality checks (including rejection of discontinuous timestamp windows), preliminary landmark-only AI review, and manual saving of observations to assessment history. Cloud submissions now sample across the stable window rather than taking only the first 60 observations. Real-video validation remains outstanding.
 - Human observation rubrics, assessment archive, side-by-side comparisons, and export.
 - GitHub Actions static regression workflow (.github/workflows/academy-checks.yml), expanded to eight core pages and privacy-sensitive regression checks. Workflow result not independently confirmed.
 - Owner acceptance guide (`OWNER-ACCEPTANCE.md`) for targeted camera diagnostics and final release QA.
