@@ -233,3 +233,11 @@ test('skinned avatar studio exposes local rig import and stable visual inspectio
  await expect(page.locator('#status')).toContainText('Waiting');
  await page.screenshot({path:'test-results/skinned-avatar-studio-mobile.png',fullPage:true});
 });
+
+test('licensed avatar demo requires opt-in and provides built-in dance preview',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await expect(page.locator('#loadMichelle')).toBeVisible();
+ await expect(page.locator('#demoDance')).toBeDisabled();
+ await expect(page.locator('#avatarFile')).toHaveAttribute('type','file');
+ await expect(page.locator('#status')).toContainText('Waiting');
+});
