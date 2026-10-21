@@ -379,3 +379,30 @@ test('Motion Comparison imports explicit same-tab Pose Lab handoff',async({page}
  await page.locator('#clearHandoff').click();
  await expect(page.locator('#handoffStatus')).toContainText('cleared');
 });
+
+test('Android phone and narrow viewport avatar layout snapshots and controls',async({page},testInfo)=>{
+ for(const [width,height,label] of [[360,740,'android-compact'],[412,915,'android-large'],[768,1024,'tablet']]){
+  await page.setViewportSize({width,height});
+  await page.goto(base+'/skinned-avatar-studio.html');
+  await expect(page.locator('#stage')).toBeVisible();
+  await expect(page.locator('#frontView')).toBeVisible();
+  await expect(page.locator('#appearancePreset')).toBeVisible();
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-document.documentElement.clientWidth);
+  expect(overflow,label).toBeLessThanOrEqual(2);
+  await page.locator('#sideView').click();
+  await expect(page.locator('#yaw')).toHaveValue('90');
+  await page.locator('.stage-wrap').screenshot({path:testInfo.outputPath('avatar-'+label+'-side.png')});
+  await page.locator('#resetView').click();
+  await page.locator('.stage-wrap').screenshot({path:testInfo.outputPath('avatar-'+label+'-front-quarter.png')});
+ }
+});
+test('mobile invalid handoff and session backup fail safely',async({page})=>{
+ await page.goto(base+'/local-studio-sessions.html');
+ await page.locator('#import').setInputFiles({name:'malformed.json',mimeType:'application/json',buffer:Buffer.from('{bad')});
+ await expect(page.locator('#status')).toContainText('Import rejected');
+ await expect(page.locator('#sessions li')).toHaveCount(0);
+ await page.goto(base+'/motion-comparison.html?from=pose-lab');
+ await expect(page.locator('#handoffStatus')).toContainText('Choose local files');
+ await page.locator('#handoffPractice').click();
+ await expect(page.locator('#handoffStatus')).toContainText('No recent temporary');
+});
