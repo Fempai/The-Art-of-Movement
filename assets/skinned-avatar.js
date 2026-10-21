@@ -39,7 +39,7 @@ if(appearance.hair==='coils'){
 }else if(appearance.hair==='short'){
  accessory('shortHair',new THREE.SphereGeometry(.188,20,14),[0,1.55*h,-.035],'chest',hairColor);
 }
-return {root,bones,bind,meshes,material,dispose(){for(const mesh of meshes){mesh.geometry.dispose();if(mesh.material!==material)mesh.material.dispose()}material.dispose()}}}
+return {root,bones,bind,meshes,material,dispose(){for(const mesh of meshes){mesh.geometry.dispose();if(mesh.material!==material)mesh.material.dispose()}fabricTexture.dispose();material.dispose()}}}
 export function applyPose(THREE,rig,world,alpha=.35){
  const points=extract(world);if(!points)return false;
  const factor=Math.max(0,Math.min(1,alpha));if(!factor)return true;
