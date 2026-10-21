@@ -60,7 +60,7 @@ export function createHumanoidRetargeter(THREE,root){
 }
 
 export function inspectHumanoidAsset(root,animations=[]){
- const info=mapHumanoidBones(root),issues=[];
+ const info=mapHumanoidBones(root),issues=[];let skinned=0;
  root.traverse(o=>{if(o.isSkinnedMesh)skinned++;if(o.isSkinnedMesh&&(!o.skeleton?.bones?.length||!o.geometry?.attributes?.skinIndex||!o.geometry?.attributes?.skinWeight))issues.push('Incomplete skinned mesh')});
  if(!skinned)issues.push('No skinned mesh');if(!info.mapping.hips)issues.push('Missing pelvis mapping');
  if(!info.mapping.leftHip||!info.mapping.rightHip)issues.push('Missing leg mapping');
