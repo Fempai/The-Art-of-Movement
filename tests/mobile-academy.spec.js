@@ -323,3 +323,26 @@ test('studio rejects unsupported GLB with actionable error',async({page})=>{
  await expect(page.locator('#status')).toContainText('GLB load failed');
  await expect(page.locator('#status')).toHaveAttribute('data-kind','error');
 });
+
+test('studio playback speed loop frame stepping and restart',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ const world=Array.from({length:33},()=>({x:0,y:0,z:0,visibility:1}));
+ for(const i of [11,13,15,23,25,27])world[i].x=-.2;
+ for(const i of [12,14,16,24,26,28])world[i].x=.2;
+ for(const i of [11,12,13,14,15,16])world[i].y=-.7;
+ for(const i of [25,26])world[i].y=.7;
+ for(const i of [27,28])world[i].y=1.5;
+ const observations=Array.from({length:10},(_,i)=>({world:world.map(p=>({...p,x:p.x+i*.005}))}));
+ await page.locator('#poseFile').setInputFiles({name:'pose.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'aom-pose-observations-v1',observations}))});
+ await expect(page.locator('#restart')).toBeEnabled();
+ await page.locator('#playSpeed').selectOption('.5');
+ await page.locator('#loopMotion').uncheck();
+ await page.locator('#stepForward').click();
+ expect(Number(await page.locator('#phase').inputValue())).toBeGreaterThan(0);
+ await page.locator('#restart').click();
+ await expect(page.locator('#phase')).toHaveValue('0');
+ await page.locator('#play').click();
+ await expect(page.locator('#play')).toContainText('Playing');
+ await page.locator('#pause').click();
+ await expect(page.locator('#play')).toContainText('Play');
+});
