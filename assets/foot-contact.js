@@ -19,4 +19,4 @@ export function createContactSolver(options={}){
  if(foot.anchor){const displacement=Math.hypot(p.x-foot.anchor.x,p.y-foot.anchor.y,p.z-foot.anchor.z);if(displacement>threshold*2){foot.anchor=null;foot.stable=0}else{contacts[side]=true;for(const joint of [id,id+2,id+4]){if(!next[joint])continue;const weight=joint===id?1:.7;next[joint].x+=(foot.anchor.x-p.x)*weight;next[joint].y+=(foot.anchor.y-p.y)*weight;next[joint].z+=(foot.anchor.z-p.z)*weight}}}
  }
  return {world:next,contacts}}
- return {update,reset}}
+ return {update,reset,anchors}}
