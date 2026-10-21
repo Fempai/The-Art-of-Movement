@@ -192,3 +192,31 @@ test('technique calibration lab requires instructor evidence and refuses automat
  await expect(page.locator('#evaluation')).toContainText('NOT READY');
  await expect(page.locator('#evaluation')).toContainText('No automated grade issued');
 });
+
+test('Live Coach animated character can switch to skeletal view and outfit without camera',async({page})=>{
+ await page.goto(base+'/live-coach.html');
+ await expect(page.locator('#avatarStyle')).toHaveValue('character');
+ await page.locator('#avatarToggle').click();
+ await expect(page.locator('#avatarCanvas')).toBeVisible();
+ await page.locator('#avatarPalette').selectOption('sage');
+ await page.locator('#avatarStyle').selectOption('skeleton');
+ await expect(page.locator('#avatarStyle')).toHaveValue('skeleton');
+ await expect(page.locator('#avatarToggle')).toHaveAttribute('aria-pressed','true');
+ await page.locator('#avatarToggle').click();
+ await expect(page.locator('#avatarCanvas')).toBeHidden();
+});
+test('paired motion avatars provide animated character and skeleton styles',async({page})=>{
+ await page.goto(base+'/motion-comparison.html');
+ const world=Array.from({length:33},(_,i)=>({x:i*.02,y:(i%10)*.04,z:i*.01,visibility:.95}));
+ world[11]={x:-.2,y:-.5,z:0,visibility:1};world[12]={x:.2,y:-.5,z:0,visibility:1};world[23]={x:-.1,y:0,z:0,visibility:1};world[24]={x:.1,y:0,z:0,visibility:1};
+ const observations=Array.from({length:25},(_,i)=>({time_seconds:i*.25,landmarks_visible:29,world,metrics:{shoulder_width_normalized:.25,hip_lateral_offset_relative_to_shoulders:Math.sin(i/24*Math.PI*2),hip_vertical_offset_relative_to_shoulders:1.1,shoulder_tilt_degrees:2,hip_tilt_degrees:3}}));
+ const buffer=Buffer.from(JSON.stringify({format:'aom-pose-observations-v1',observations}));
+ await page.locator('#reference').setInputFiles({name:'reference.json',mimeType:'application/json',buffer});
+ await page.locator('#practice').setInputFiles({name:'practice.json',mimeType:'application/json',buffer});
+ await page.locator('#compare').click();
+ await expect(page.locator('#avatarReplay')).toBeVisible();
+ await expect(page.locator('#avatarStyle')).toHaveValue('character');
+ await page.locator('#avatarPalette').selectOption('midnight');
+ await page.locator('#avatarStyle').selectOption('skeleton');
+ await expect(page.locator('#avatarFrameStatus')).toContainText('Model-estimated');
+});
