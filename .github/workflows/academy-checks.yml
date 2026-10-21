@@ -34,3 +34,5 @@ jobs:
         run: node scripts/test-skinned-avatar.mjs
       - name: Verify stationary-foot contact stabilizer
         run: node scripts/test-foot-contact.mjs
+      - name: Verify licensed humanoid rig mapping safeguards
+        run: node scripts/test-humanoid-retarget.mjs
