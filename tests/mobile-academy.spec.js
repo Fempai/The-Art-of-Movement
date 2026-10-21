@@ -176,3 +176,19 @@ test('tempo-aware comparison is opt-in and explicitly not a grade',async({page})
  await expect(page.locator('#durations')).toContainText('tempo-aware');
  await expect(page.locator('#results')).toContainText('not a movement grade');
 });
+
+test('technique calibration lab requires instructor evidence and refuses automatic grades',async({page})=>{
+ await page.goto(base+'/technique-calibration.html');
+ await expect(page.locator('#gradingStatus')).toContainText('not_calibrated');
+ await page.locator('#checkRubric').click();
+ await expect(page.locator('#rubricStatus')).toContainText('Valid rubric structure');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#downloadTemplate').click();
+ const download=await downloadPromise;
+ expect(download.suggestedFilename()).toBe('academy-instructor-labels-template.json');
+ const examples=Array.from({length:50},(_,i)=>({id:'take-'+i,performer_id:'performer-'+i,camera_setup:i%2?'front tripod':'side tripod',instructor_id:i%2?'teacher-a':'teacher-b',split:i<30?'train':'validation',labels:{posture:2,control:2,support:2,stability:2}}));
+ await page.locator('#dataset').setInputFiles({name:'labels.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'aom-technique-labels-v1',skill:'Supported balance fundamentals',examples}))});
+ await page.locator('#evaluate').click();
+ await expect(page.locator('#evaluation')).toContainText('NOT READY');
+ await expect(page.locator('#evaluation')).toContainText('No automated grade issued');
+});
