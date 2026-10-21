@@ -1,0 +1,7 @@
+'use strict';const assert=require('node:assert/strict');const {rig,render,links,palettes}=require('../assets/character-retarget.js');
+const points=Array.from({length:33},(_,i)=>({x:(i%7)*.075,y:(Math.floor(i/7))*.11,z:i*.01,visibility:.95}));
+points[11]={x:-.18,y:-.5,z:0,visibility:1};points[12]={x:.18,y:-.5,z:0,visibility:1};points[23]={x:-.13,y:0,z:0,visibility:1};points[24]={x:.13,y:0,z:0,visibility:1};
+const model=rig(points);assert(model);assert.equal(model.links.length,links.length);assert(model.joints.pelvis);assert(model.joints.chest);assert(model.joints.head);assert.equal(Object.keys(palettes).length,3);assert.equal(rig(null),null);assert.equal(rig(points.slice(0,12)),null);assert.equal(rig(points.map((p,i)=>i===11?{...p,z:Infinity}:p)),null);
+const ops=[];const ctx={clearRect(){ops.push('clear')},fillRect(){ops.push('background')},beginPath(){},moveTo(){},lineTo(){},closePath(){},stroke(){},fill(){ops.push('mesh')},arc(){}};const canvas={width:640,height:480,getContext(){return ctx}};assert.equal(render(canvas,points,{yaw:45,palette:'midnight'}),true);assert(ops.includes('mesh'));assert.equal(render(canvas,points,{yaw:90,palette:'sage'}),true);assert.equal(render(canvas,null),false);
+const hidden=points.map((p,i)=>i===13?{...p,visibility:.01}:p);assert(rig(hidden).links.length<links.length);
+console.log('Articulated character retargeter: 13 safety and rendering assertions passed.');
