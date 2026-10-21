@@ -278,3 +278,21 @@ test('avatar visual frames and rendering performance budget on mobile',async({pa
  expect(metrics.medianFrameMs).toBeLessThan(50);
  expect(metrics.p95FrameMs).toBeLessThan(120);
 });
+
+test('avatar appearance presets and browser-local save/restore',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await page.locator('#appearancePreset').selectOption('ballet');
+ await expect(page.locator('#bodyHeight')).toHaveValue('1.06');
+ await expect(page.locator('#hairStyle')).toHaveValue('bun');
+ await page.locator('#saveAppearance').click();
+ await expect(page.locator('#appearanceStatus')).toContainText('saved');
+ await page.locator('#appearancePreset').selectOption('contemporary');
+ await expect(page.locator('#hairStyle')).toHaveValue('puff');
+ await page.locator('#restoreAppearance').click();
+ await expect(page.locator('#hairStyle')).toHaveValue('bun');
+ await page.reload();
+ await page.locator('#restoreAppearance').click();
+ await expect(page.locator('#bodyHeight')).toHaveValue('1.06');
+ await page.locator('#defaultAppearance').click();
+ await expect(page.locator('#appearancePreset')).toHaveValue('studio');
+});
