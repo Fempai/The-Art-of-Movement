@@ -1,5 +1,5 @@
 /* Conservative floor-contact stabilization for estimated 3D ankle trajectories.
-   Only anchors during stable, low-motion observations; never asserts real contact. */
+   Only anchors during stable, low-motion observations; never asserts real contact.\n   Anchors are deliberately bounded and reset when playback is scrubbed. */
 export function createContactSolver(options={}){
  const threshold=Number.isFinite(options.velocityThreshold)?options.velocityThreshold:.035;
  const minFrames=Number.isInteger(options.minFrames)?Math.max(2,options.minFrames):5;
