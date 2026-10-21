@@ -28,6 +28,7 @@ jobs:
           name: academy-avatar-visual-performance
           path: |
             test-results/**/avatar-*.png
+            test-results/**/avatar-desktop-performance.json
             test-results/**/avatar-performance.json
           if-no-files-found: warn
           retention-days: 14
