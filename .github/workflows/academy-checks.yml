@@ -36,3 +36,5 @@ jobs:
         run: node scripts/test-foot-contact.mjs
       - name: Verify licensed humanoid rig mapping safeguards
         run: node scripts/test-humanoid-retarget.mjs
+      - name: Verify bounded movement interpolation and joint stability
+        run: node scripts/test-pose-interpolation.mjs
