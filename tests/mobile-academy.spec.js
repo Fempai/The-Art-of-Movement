@@ -252,3 +252,29 @@ test('avatar studio camera presets and prototype reset work on mobile',async({pa
  await page.locator('#resetCharacter').click();await expect(page.locator('#characterLabel')).toContainText('Prototype');
  await expect(page.locator('#status')).toContainText('restored');
 });
+
+test('avatar visual frames and rendering performance budget on mobile',async({page},testInfo)=>{
+ const errors=[];page.on('pageerror',error=>errors.push(error.message));
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await expect(page.locator('#stage')).toBeVisible();
+ await page.waitForFunction(()=>{const c=document.querySelector('#stage');return c&&c.width>0&&c.height>0});
+ await page.locator('#frontView').click();
+ await page.locator('#stage').screenshot({path:testInfo.outputPath('avatar-front.png')});
+ await page.locator('#sideView').click();
+ await page.locator('#stage').screenshot({path:testInfo.outputPath('avatar-side.png')});
+ await page.locator('#backView').click();
+ await page.locator('#stage').screenshot({path:testInfo.outputPath('avatar-back.png')});
+ await page.locator('#resetView').click();
+ const metrics=await page.evaluate(async()=>{
+  const times=[];let previous=performance.now();
+  for(let i=0;i<90;i++)await new Promise(resolve=>requestAnimationFrame(now=>{if(i>0)times.push(now-previous);previous=now;resolve()}));
+  times.sort((a,b)=>a-b);
+  const resources=performance.getEntriesByType('resource');
+  return {medianFrameMs:times[Math.floor(times.length/2)],p95FrameMs:times[Math.floor(times.length*.95)],longFrames:times.filter(t=>t>50).length,resources:resources.length,webgl:!!document.querySelector('#stage').getContext('webgl2')};
+ });
+ const fs=require('node:fs');fs.writeFileSync(testInfo.outputPath('avatar-performance.json'),JSON.stringify(metrics,null,2));
+ expect(errors).toEqual([]);
+ expect(metrics.webgl).toBe(true);
+ expect(metrics.medianFrameMs).toBeLessThan(50);
+ expect(metrics.p95FrameMs).toBeLessThan(120);
+});
