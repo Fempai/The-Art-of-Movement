@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {createContactSolver} from '../assets/foot-contact.js';
+const solver=createContactSolver({minFrames:3});
+const sample=x=>Array.from({length:33},(_,i)=>({x:i===27?x:0,y:0,z:0,visibility:1}));
+let r;
+for(let i=0;i<6;i++)r=solver.update(sample(.1));
+assert.equal(r.contacts.left,true);
+r=solver.update(sample(.12));
+assert.equal(r.contacts.left,true);
+assert(Math.abs(r.world[27].x-.1)<1e-8);
+r=solver.update(sample(.4));
+assert.equal(r.contacts.left,false);
+solver.reset();
+assert.equal(solver.update(sample(.1)).contacts.left,false);
+console.log('Foot contact stabilizer checks passed.');
