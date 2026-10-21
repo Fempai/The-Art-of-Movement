@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {interpolateWorld,createPoseFilter} from '../assets/pose-interpolation.js';
+const make=x=>({world:Array.from({length:33},()=>({x,y:0,z:0,visibility:1}))});
+const frames=[make(0),make(1),make(2),make(3)];
+assert.equal(interpolateWorld(frames,-10)[0].x,0);
+assert.equal(interpolateWorld(frames,10)[0].x,3);
+assert.equal(interpolateWorld(frames,1.5)[0].x,1.5);
+assert.equal(interpolateWorld(frames,1.5)[0].visibility,1);
+assert.equal(interpolateWorld([],0),null);
+const out=interpolateWorld([make(0),make(0),make(1),make(1)],1.5);
+assert(out[0].x>=-.01&&out[0].x<=1.01,'Cubic interpolation should be bounded');
+const filter=createPoseFilter({gain:.5,maxStep:.3});
+assert.equal(filter.update(make(0).world)[0].x,0);
+assert.equal(filter.update(make(.2).world)[0].x,.1);
+assert.equal(filter.update(make(1).world)[0].x,1,'Large movements must not lag');
+filter.reset();
+assert.equal(filter.update(make(.2).world)[0].x,.2);
+console.log('Pose interpolation and jitter filter tests passed.');
