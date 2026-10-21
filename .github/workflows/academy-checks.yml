@@ -26,3 +26,5 @@ jobs:
         run: node scripts/test-pose-avatar.cjs
       - name: Verify coach mode-specific tracking gates
         run: node scripts/test-coach-tracking.cjs
+      - name: Verify technique calibration evidence gates and grading abstention
+        run: node scripts/test-technique-calibration.cjs
