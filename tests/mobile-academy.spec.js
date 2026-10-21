@@ -241,3 +241,14 @@ test('licensed avatar demo requires opt-in and provides built-in dance preview',
  await expect(page.locator('#avatarFile')).toHaveAttribute('type','file');
  await expect(page.locator('#status')).toContainText('Waiting');
 });
+
+test('avatar studio camera presets and prototype reset work on mobile',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await expect(page.locator('#characterLabel')).toContainText('Prototype');
+ await page.locator('#frontView').click();await expect(page.locator('#yaw')).toHaveValue('0');
+ await page.locator('#sideView').click();await expect(page.locator('#yaw')).toHaveValue('90');
+ await page.locator('#backView').click();await expect(page.locator('#yaw')).toHaveValue('180');
+ await page.locator('#resetView').click();await expect(page.locator('#yaw')).toHaveValue('25');
+ await page.locator('#resetCharacter').click();await expect(page.locator('#characterLabel')).toContainText('Prototype');
+ await expect(page.locator('#status')).toContainText('restored');
+});
