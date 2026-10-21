@@ -39,7 +39,7 @@ if(appearance.hair==='coils'){
 }else if(appearance.hair==='short'){
  accessory('shortHair',new THREE.SphereGeometry(.188,20,14),[0,1.55*h,-.035],'chest',hairColor);
 }
-return {root,bones,bind,meshes,material,dispose(){for(const mesh of meshes){mesh.geometry.dispose();if(mesh.material!==material)mesh.material.dispose()}fabricTexture.dispose();material.dispose()}}}
+return {root,bones,bind,meshes,material,rest:Object.fromEntries(Object.entries(bones).map(([name,b])=>[name,b.quaternion.clone()])),dispose(){for(const mesh of meshes){mesh.geometry.dispose();if(mesh.material!==material)mesh.material.dispose()}fabricTexture.dispose();material.dispose()}}}
 export function applyPose(THREE,rig,world,alpha=.35){
  const points=extract(world);if(!points)return false;
  const factor=Math.max(0,Math.min(1,alpha));if(!factor)return true;
@@ -59,8 +59,9 @@ export function applyPose(THREE,rig,world,alpha=.35){
   // to the current parent-local frame before deriving the bone rotation.
   const restLocal=base.normalize(); // bind parents start unrotated
   const targetLocal=target.applyQuaternion(parentQ.invert()).normalize();
-  const rotation=new THREE.Quaternion().setFromUnitVectors(restLocal,targetLocal);
+  const rotation=new THREE.Quaternion().setFromUnitVectors(restLocal,targetLocal).multiply(rig.rest[a]);
   bone.quaternion.slerp(rotation,factor);rotated.add(a);
  }
  rig.root.updateMatrixWorld(true);return true;
 }
+export function resetPose(rig){for(const [name,bone] of Object.entries(rig.bones))bone.quaternion.copy(rig.rest[name]);rig.root.updateMatrixWorld(true)}
