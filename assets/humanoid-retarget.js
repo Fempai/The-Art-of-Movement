@@ -58,3 +58,14 @@ export function createHumanoidRetargeter(THREE,root){
  function reset(){for(const [key,bone] of Object.entries(info.mapping))bone.quaternion.copy(rest[key]);root.updateMatrixWorld(true)}
  return {...info,apply,reset}
 }
+
+export function inspectHumanoidAsset(root,animations=[]){
+ const info=mapHumanoidBones(root),issues=[];
+ root.traverse(o=>{if(o.isSkinnedMesh&&(!o.skeleton?.bones?.length||!o.geometry?.attributes?.skinIndex||!o.geometry?.attributes?.skinWeight))issues.push('Incomplete skinned mesh')});
+ if(!info.mapping.hips)issues.push('Missing pelvis mapping');
+ if(!info.mapping.leftHip||!info.mapping.rightHip)issues.push('Missing leg mapping');
+ if(!info.mapping.leftShoulder||!info.mapping.rightShoulder)issues.push('Missing arm mapping');
+ if(info.coverage<.7)issues.push('Insufficient mapping');
+ const clips=animations.map(c=>({name:c.name||'Unnamed',duration:Number(c.duration)||0,tracks:c.tracks?.length||0,usable:Number(c.duration)>0&&!!c.tracks?.length}));
+ return {boneCount:info.boneCount,coverage:info.coverage,missing:info.missing,issues,clips,compatible:!issues.length};
+}
