@@ -38,3 +38,5 @@ jobs:
         run: node scripts/test-humanoid-retarget.mjs
       - name: Verify bounded movement interpolation and joint stability
         run: node scripts/test-pose-interpolation.mjs
+      - name: Verify avatar customization presets and input bounds
+        run: node scripts/test-avatar-customization.mjs
