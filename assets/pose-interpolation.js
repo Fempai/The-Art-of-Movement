@@ -40,7 +40,7 @@ export function createPoseFilter(options={}){
     if(!Number.isFinite(p[axis])||!Number.isFinite(old[axis]))continue;
     const diff=p[axis]-old[axis];
     // Large jumps are treated as a new motion segment, not a smoothing tail.
-    const adaptive=Math.abs(diff)>maxStep*.45?Math.max(gain,.85):gain;result[axis]=Math.abs(diff)>maxStep?p[axis]:old[axis]+diff*adaptive;
+    const adaptive=Math.abs(diff)>maxStep*.85?Math.max(gain,.85):gain;result[axis]=Math.abs(diff)>maxStep?p[axis]:old[axis]+diff*adaptive;
    }
    return result
   });
