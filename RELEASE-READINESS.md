@@ -1,3 +1,10 @@
+## GPU skinned 3D avatar milestone (2026-10-20)
+- Added `assets/skinned-avatar.js` with Three.js `SkinnedMesh` geometry, `skinIndex`/`skinWeight` attributes, bone hierarchy, articulated joint retargeting, lighting-compatible materials, and mesh cleanup. The generated humanoid is a technical mesh prototype, not a professional character asset.
+- Added `skinned-avatar-studio.html`: locally import opt-in Pose Lab 3D joint JSON, inspect skinned animation, select palette, play/pause, scrub, rotate and zoom. Input size and coordinate validation applied; no motion uploads.
+- Added rig/data contracts in `scripts/test-skinned-avatar.mjs` to automated CI.
+- **Still outstanding for a production-quality deliverable:** licensed/commissioned high-quality humanoid mesh, UVs/PBR textures, correctly painted production skin weights, facial and hand rigs, professional character art and garments, retargeting calibration to that mesh, IK/foot contact and collision handling, asset performance profiling, real-device WebGL testing, and human visual QA. These cannot be honestly declared complete by the procedural rig alone.
+- The WebGL module currently loads Three.js from a public CDN, and the user must explicitly export local model-estimated world joints from Pose Lab. The model's world landmarks remain camera-derived estimates, not calibrated motion capture.
+
 ## Animated character retargeting session (2026-10-20)
 - Added `assets/character-retarget.js`: local 3D joint-to-character mapping with a pelvis/chest/neck/head rig, articulated arms and legs, shaded procedural body segments, depth-sorted canvas rendering, and three outfit palettes. Missing/low-confidence segments are withheld rather than invented.
 - Live Coach now offers an opt-in animated character or skeleton view, yaw/pitch controls, palette choice and smoothed real-time model-estimated joint positions. Camera off resets smoothed coordinates.
