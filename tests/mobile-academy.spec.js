@@ -311,10 +311,12 @@ test('studio lighting, accessible camera controls and touch rotation',async({pag
  await page.keyboard.press('0');
  await expect(page.locator('#yaw')).toHaveValue('25');
  const bounds=await stage.boundingBox();expect(bounds).toBeTruthy();
- await page.mouse.move(bounds.x+bounds.width*.4,bounds.y+bounds.height*.4);
- await page.mouse.down();
- await page.mouse.move(bounds.x+bounds.width*.6,bounds.y+bounds.height*.4,{steps:5});
- await page.mouse.up();
+ // Chromium mobile emulation may suppress mouse drags. Exercise genuine touch events instead.
+ const client=await page.context().newCDPSession(page);
+ const y=Math.round(bounds.y+bounds.height*.4),start=Math.round(bounds.x+bounds.width*.4),end=Math.round(bounds.x+bounds.width*.6);
+ await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:start,y,id:1}]});
+ for(let x=start+10;x<=end;x+=10)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y,id:1}]});
+ await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
  expect(Number(await page.locator('#yaw').inputValue())).toBeGreaterThan(25);
 });
 test('studio rejects unsupported GLB with actionable error',async({page})=>{
