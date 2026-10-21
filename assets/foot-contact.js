@@ -6,6 +6,7 @@ export function createContactSolver(options={}){
  const minFrames=Number.isInteger(options.minFrames)?Math.max(2,options.minFrames):5;
  const state={left:{stable:0,anchor:null,previous:null},right:{stable:0,anchor:null,previous:null}};
  function reset(){for(const foot of Object.values(state)){foot.stable=0;foot.anchor=null;foot.previous=null}}
+ function anchors(){return {left:state.left.anchor?{...state.left.anchor}:null,right:state.right.anchor?{...state.right.anchor}:null}}
  function update(world){if(!Array.isArray(world)||world.length<33)return {world,contacts:{left:false,right:false}};
  const next=world.map(p=>p?{...p}:p),contacts={left:false,right:false};
  for(const [side,id] of [['left',27],['right',28]]){const foot=state[side],p=next[id];if(!p||!['x','y','z'].every(k=>Number.isFinite(p[k]))||(p.visibility??1)<.5){foot.stable=0;foot.anchor=null;foot.previous=null;continue}
