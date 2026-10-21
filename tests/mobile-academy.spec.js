@@ -346,3 +346,34 @@ test('studio playback speed loop frame stepping and restart',async({page})=>{
  await page.locator('#pause').click();
  await expect(page.locator('#play')).toContainText('Play');
 });
+
+test('Academy workflow navigation and local-only studio session notes',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await expect(page.locator('#aom-studio-workflow')).toBeVisible();
+ await expect(page.locator('#practiceNote')).toBeVisible();
+ await page.locator('#practiceNote').fill('Reviewed turns');
+ await page.locator('#savePracticeSession').click();
+ await expect(page.locator('#practiceHistory')).toContainText('Saved');
+ await page.goto(base+'/local-studio-sessions.html');
+ await expect(page.locator('#sessions')).toContainText('Reviewed turns');
+ await expect(page.locator('#status')).toContainText('local session');
+});
+test('Pose Lab direct transfer controls remain opt-in',async({page})=>{
+ await page.goto(base+'/pose-lab.html');
+ await expect(page.locator('#sendAvatar')).toBeDisabled();
+ await expect(page.locator('#sendCompare')).toBeDisabled();
+ await expect(page.locator('#includeWorld')).not.toBeChecked();
+ await expect(page.locator('#aom-studio-workflow')).toBeVisible();
+});
+test('Motion Comparison imports explicit same-tab Pose Lab handoff',async({page})=>{
+ await page.goto(base+'/pose-lab.html');
+ const data={format:'aom-pose-observations-v1',observations:Array.from({length:15},(_,i)=>({time_seconds:i*.4,landmarks_visible:29,metrics:{hip_tilt_degrees:1}}))};
+ await page.evaluate(value=>window.AOMIntegration.handoff(sessionStorage,value),data);
+ await page.goto(base+'/motion-comparison.html?from=pose-lab');
+ expect(await page.locator('#practice').evaluate(el=>el.files.length)).toBe(1);
+ await expect(page.locator('#handoffStatus')).toContainText('Transferred');
+ await page.locator('#handoffReference').click();
+ await expect(page.locator('#handoffStatus')).toContainText('reference');
+ await page.locator('#clearHandoff').click();
+ await expect(page.locator('#handoffStatus')).toContainText('cleared');
+});
