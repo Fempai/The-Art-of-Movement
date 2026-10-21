@@ -44,3 +44,7 @@ jobs:
         run: node scripts/test-leg-ik.mjs
       - name: Verify Academy and Life OS local integration contracts
         run: node scripts/test-academy-integration.mjs
+      - name: Install Three.js for numerical bind-pose verification
+        run: npm install --no-save three@0.170.0
+      - name: Verify world-space and parent-local skeleton rotations numerically
+        run: node scripts/test-humanoid-geometry.mjs
