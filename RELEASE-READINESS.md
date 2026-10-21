@@ -1,3 +1,10 @@
+## Technique grading calibration session (2026-10-20)
+- Added `technique-calibration.html` and `assets/technique-calibration.js`: editable instructor-defined rubric, local label-dataset template, validation of weighted criteria and instructor scores (0–4), camera-setup metadata, performer-level train/validation separation, and a calibration-readiness report.
+- The readiness gate checks minimum example/performer coverage, multiple instructors, multiple camera setups and prevents train/validation performer leakage. These minimums are engineering screening criteria, **not scientifically established adequacy thresholds**.
+- The grading API deliberately returns `not_calibrated`, `score:null`, and `decision:null`. No supervised model, real instructor labels, held-out performance study, fairness audit, or independently approved error thresholds are available, so enabling numerical grades would be unsupported.
+- Added Node regression checks and a mobile browser test for rubric validation, evidence gates and grade abstention.
+- **Not completed:** calibrated automatic technique grading. Completion requires a specific expert-approved rubric, consented labeled recordings from representative dancers, multiple raters, camera-condition evaluation, a fitted model, held-out validation and sign-off. No synthetic labels may be treated as real validation.
+
 ## Advanced coaching expansion (2026-10-20, subsequent work session)
 - Live Coach includes a rotatable on-device skeletal avatar projected from MediaPipe model-estimated world landmarks; no calibrated 3D reconstruction, retargeted character rig, or dance grade. Explicit on/off control, local rendering, no persistence.
 - Pose Lab optionally exports model-estimated 33-joint world positions **only when the user checks the opt-in box**. These coordinates are sensitive movement information in the downloaded JSON; the cloud AI submission continues to send the existing measurement subset, not joint positions.
