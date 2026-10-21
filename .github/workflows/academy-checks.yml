@@ -40,3 +40,5 @@ jobs:
         run: node scripts/test-pose-interpolation.mjs
       - name: Verify avatar customization presets and input bounds
         run: node scripts/test-avatar-customization.mjs
+      - name: Verify bounded leg IK and planted-foot motion
+        run: node scripts/test-leg-ik.mjs
