@@ -30,3 +30,5 @@ jobs:
         run: node scripts/test-technique-calibration.cjs
       - name: Verify animated character retargeting and rig safety
         run: node scripts/test-character-retarget.cjs
+      - name: Verify GPU skinned avatar rig and input safeguards
+        run: node scripts/test-skinned-avatar.mjs
