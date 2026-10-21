@@ -296,3 +296,30 @@ test('avatar appearance presets and browser-local save/restore',async({page})=>{
  await page.locator('#defaultAppearance').click();
  await expect(page.locator('#appearancePreset')).toHaveValue('studio');
 });
+
+test('studio lighting, accessible camera controls and touch rotation',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await page.locator('#lightingPreset').selectOption('silhouette');
+ await expect(page.locator('#lightingPreset')).toHaveValue('silhouette');
+ await page.locator('#lightingPreset').selectOption('bright');
+ await expect(page.locator('#lightingPreset')).toHaveValue('bright');
+ const stage=page.locator('#stage');
+ await expect(stage).toHaveAttribute('tabindex','0');
+ await stage.focus();
+ await page.keyboard.press('ArrowRight');
+ await expect(page.locator('#yaw')).toHaveValue('35');
+ await page.keyboard.press('0');
+ await expect(page.locator('#yaw')).toHaveValue('25');
+ const bounds=await stage.boundingBox();expect(bounds).toBeTruthy();
+ await page.mouse.move(bounds.x+bounds.width*.4,bounds.y+bounds.height*.4);
+ await page.mouse.down();
+ await page.mouse.move(bounds.x+bounds.width*.6,bounds.y+bounds.height*.4,{steps:5});
+ await page.mouse.up();
+ expect(Number(await page.locator('#yaw').inputValue())).toBeGreaterThan(25);
+});
+test('studio rejects unsupported GLB with actionable error',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await page.locator('#avatarFile').setInputFiles({name:'bad.glb',mimeType:'model/gltf-binary',buffer:Buffer.from('bad')});
+ await expect(page.locator('#status')).toContainText('GLB load failed');
+ await expect(page.locator('#status')).toHaveAttribute('data-kind','error');
+});
