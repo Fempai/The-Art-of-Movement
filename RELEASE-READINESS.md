@@ -1,3 +1,19 @@
+## Automated quality assurance expansion (2026-10-21)
+
+**Scope:** GitHub Actions runs Playwright Chromium desktop (1366 × 768), Android-sized 390 × 844 touch emulation, plus responsive 360 × 740, 412 × 915, and 768 × 1024 layout checks. These are automated browser emulations, **not** validation on a physical Samsung handset.
+
+**Visual evidence:** Front, side, back and reset/three-quarter avatar screenshots; compact Android, larger Android and tablet stage snapshots; desktop camera-angle screenshots. CI uploads PNG artifacts. Screenshots are inspection evidence rather than pixel-difference golden-baseline comparisons; human review of aesthetics and character likeness is still needed.
+
+**Performance evidence:** 90 mobile and 120 desktop animation frames; median/p95 frame intervals, count of slow frames, resource-entry counts; desktop transfer sizes and Chromium heap where available. Browser budget: median below 50 ms and p95 below 120 ms, intentionally lenient for headless CI. Resource count and transfer bytes are *not* a reliable measure of total GPU memory. Test artifacts are archived under `academy-avatar-visual-performance`.
+
+**Interaction and failure coverage:** Camera presets, keyboard, Chromium touch drag, responsive horizontal overflow, local session persistence, Pose Lab handoff, malformed JSON, missing world joints, unsupported GLB, opt-in controls and comparison fallback. The initial October 21 mobile workflow failed because a mobile-emulated mouse drag left yaw unchanged; the test now sends real Chromium touch events and must pass in a new CI run before the regression can be declared fixed.
+
+**Numerical coverage:** Existing pose interpolation, foot contact, leg IK, retargeting, skinned rig, and model safety tests, plus explicit Three.js parent-local/world-space humanoid bind-pose geometry tests.
+
+**Privacy and integration:** `ACADEMY-LIFE-OS-CONTRACT.md` documents the boundary between temporary Pose Lab transfer, local session notes, and existing authenticated Supabase journal. No production private account was used to verify cross-app RLS behavior in this QA pass.
+
+**Release acceptance:** Do not call this release fully verified until latest-commit static integrity, static regression, desktop/mobile browser tests, and GitHub Pages build/deploy all finish successfully. GitHub Pages publication must be checked independently. No verified custom user-likeness, calibrated technique grading, production-quality GLB, physical Samsung testing, or benchmarked GPU memory claim is implied.
+
 ## GPU skinned 3D avatar milestone (2026-10-20)
 - Added `assets/skinned-avatar.js` with Three.js `SkinnedMesh` geometry, `skinIndex`/`skinWeight` attributes, bone hierarchy, articulated joint retargeting, lighting-compatible materials, and mesh cleanup. The generated humanoid is a technical mesh prototype, not a professional character asset.
 - Added `skinned-avatar-studio.html`: locally import opt-in Pose Lab 3D joint JSON, inspect skinned animation, select palette, play/pause, scrub, rotate and zoom. Input size and coordinate validation applied; no motion uploads.
