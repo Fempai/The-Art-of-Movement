@@ -21,8 +21,40 @@ export const BONE_ALIASES={
 const norm=x=>String(x||'').replace(/[^a-z0-9]/gi,'').toLowerCase();
 export function mapHumanoidBones(root){const found=[];root.traverse(o=>{if(o.isBone)found.push(o)});const mapping={},missing=[];for(const [key,aliases] of Object.entries(BONE_ALIASES)){const bone=found.find(b=>aliases.some(a=>norm(b.name)===norm(a)||norm(b.name).endsWith(norm(a))));if(bone)mapping[key]=bone;else missing.push(key)}return {mapping,missing,boneCount:found.length,coverage:Object.keys(mapping).length/Object.keys(BONE_ALIASES).length}}
 const edges=[['hips','chest'],['chest','leftShoulder'],['leftShoulder','leftElbow'],['leftElbow','leftWrist'],['chest','rightShoulder'],['rightShoulder','rightElbow'],['rightElbow','rightWrist'],['hips','leftHip'],['leftHip','leftKnee'],['leftKnee','leftAnkle'],['hips','rightHip'],['rightHip','rightKnee'],['rightKnee','rightAnkle']];
-export function createHumanoidRetargeter(THREE,root){const info=mapHumanoidBones(root);const rest={};for(const [key,bone] of Object.entries(info.mapping)){rest[key]=bone.quaternion.clone()}root.updateMatrixWorld(true);
- const directions={};for(const [a,b] of edges){const ba=info.mapping[a],bb=info.mapping[b];if(!ba||!bb)continue;const start=new THREE.Vector3(),end=new THREE.Vector3();ba.getWorldPosition(start);bb.getWorldPosition(end);const v=end.sub(start);if(v.lengthSq()>1e-8)directions[a+'-'+b]=v.normalize()}
- function apply(world,smoothing=.3){const p=extract(world);if(!p)return false;const f=Math.max(0,Math.min(1,smoothing));const rotated=new Set();for(const [a,b] of edges){const bone=info.mapping[a],from=directions[a+'-'+b];if(!bone||!from||rotated.has(a)||p[a].confidence<.45||p[b].confidence<.45)continue;const target=new THREE.Vector3(p[b].x-p[a].x,-p[b].y+p[a].y,-p[b].z+p[a].z);if(target.lengthSq()<1e-7)continue;root.updateMatrixWorld(true);const parentQ=new THREE.Quaternion();if(bone.parent)bone.parent.getWorldQuaternion(parentQ);const currentWorld=new THREE.Quaternion();bone.getWorldQuaternion(currentWorld);const worldCorrection=new THREE.Quaternion().setFromUnitVectors(from,target.normalize());const localCorrection=parentQ.clone().invert().multiply(worldCorrection).multiply(parentQ);const desired=localCorrection.multiply(rest[a]);bone.quaternion.slerp(desired,f);rotated.add(a)}root.updateMatrixWorld(true);return true}
+/* Bind-space local bone directions are essential: comparing a world-space
+   rest direction to a local-space target double-applies parent rotation. */
+export function createHumanoidRetargeter(THREE,root){
+ const info=mapHumanoidBones(root),rest={},directions={};
+ root.updateMatrixWorld(true);
+ for(const [key,bone] of Object.entries(info.mapping))rest[key]=bone.quaternion.clone();
+ for(const [a,b] of edges){
+  const ba=info.mapping[a],bb=info.mapping[b];if(!ba||!bb)continue;
+  const start=new THREE.Vector3(),end=new THREE.Vector3(),parentWorld=new THREE.Quaternion();
+  ba.getWorldPosition(start);bb.getWorldPosition(end);
+  if(ba.parent)ba.parent.getWorldQuaternion(parentWorld);
+  const direction=end.sub(start).applyQuaternion(parentWorld.invert());
+  if(direction.lengthSq()>1e-8)directions[a+'-'+b]=direction.normalize();
+ }
+ function apply(world,smoothing=.3){
+  const points=extract(world);if(!points)return false;
+  const factor=Math.max(0,Math.min(1,smoothing));if(!factor)return true;
+  // A parent is updated before its descendants; child targets are expressed in
+  // its current parent-local frame, avoiding double rotation and flipped limbs.
+  for(const [a,b] of edges){
+   const bone=info.mapping[a],base=directions[a+'-'+b];
+   if(!bone||!base||points[a].confidence<.45||points[b].confidence<.45)continue;
+   const target=new THREE.Vector3(points[b].x-points[a].x,points[a].y-points[b].y,points[a].z-points[b].z);
+   if(target.lengthSq()<1e-7)continue;
+   root.updateMatrixWorld(true);
+   const parentQ=new THREE.Quaternion();
+   if(bone.parent)bone.parent.getWorldQuaternion(parentQ);
+   target.applyQuaternion(parentQ.invert()).normalize();
+   const delta=new THREE.Quaternion().setFromUnitVectors(base,target);
+   const desired=delta.multiply(rest[a]);
+   bone.quaternion.slerp(desired,factor);
+  }
+  root.updateMatrixWorld(true);return true;
+ }
  function reset(){for(const [key,bone] of Object.entries(info.mapping))bone.quaternion.copy(rest[key]);root.updateMatrixWorld(true)}
- return {...info,apply,reset}}
+ return {...info,apply,reset}
+}
