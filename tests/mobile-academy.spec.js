@@ -220,3 +220,16 @@ test('paired motion avatars provide animated character and skeleton styles',asyn
  await page.locator('#avatarStyle').selectOption('skeleton');
  await expect(page.locator('#avatarFrameStatus')).toContainText('Model-estimated');
 });
+
+test('skinned avatar studio exposes local rig import and stable visual inspection controls',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await expect(page.locator('#avatarFile')).toHaveAttribute('accept',/glb/);
+ await expect(page.locator('#poseFile')).toHaveAttribute('type','file');
+ await expect(page.locator('#skinTone')).toBeVisible();
+ await page.locator('#skinTone').selectOption('0x5e392d');
+ await page.locator('#palette').selectOption('sage');
+ await page.locator('#yaw').fill('90');
+ await expect(page.locator('#yaw')).toHaveValue('90');
+ await expect(page.locator('#status')).toContainText('Waiting');
+ await page.screenshot({path:'test-results/skinned-avatar-studio-mobile.png',fullPage:true});
+});
