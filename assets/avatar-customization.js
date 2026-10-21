@@ -1,7 +1,7 @@
 /* Prototype-only appearance controls. No claims of biometric likeness. */
 export const APPEARANCE_PRESETS={
  studio:{height:1,shoulders:1,hips:1,limbs:1,skinTone:'0xb98c74',hair:'coils',hairColor:'0x241b20',palette:'oxblood'},
- ballet:{height:1.06,shoulders:.92,hips:.92,limbs:1.08,skinTone:'0x885a43',hair:'bun',hairColor:'0x20191a',palette:'midnight'},
+ ballet:{height:1.06,shoulders:.92,hips:.92,limbs:1.08,skinTone:'0x885a43',hair:'bun',hairColor:'0x241b20',palette:'midnight'},
  contemporary:{height:1,shoulders:1.06,hips:1.05,limbs:1,skinTone:'0x5e392d',hair:'puff',hairColor:'0x241b20',palette:'sage'},
  rehearsal:{height:.96,shoulders:.96,hips:1.08,limbs:.97,skinTone:'0xd5a789',hair:'short',hairColor:'0x33201b',palette:'oxblood'}
 };
@@ -21,3 +21,7 @@ export function normalizeAppearance(raw={}){
  return out
 }
 export function appearanceForPreset(name){return normalizeAppearance(APPEARANCE_PRESETS[name]||APPEARANCE_PRESETS.studio)}
+
+export const APPEARANCE_STORAGE_KEY='aom-avatar-appearance-v1';
+export function serializeAppearance(appearance){return JSON.stringify({version:1,appearance:normalizeAppearance(appearance)})}
+export function deserializeAppearance(serialized){const value=JSON.parse(serialized);if(!value||value.version!==1||!value.appearance||typeof value.appearance!=='object'||Array.isArray(value.appearance))throw Error('Unsupported appearance save');return normalizeAppearance(value.appearance)}
