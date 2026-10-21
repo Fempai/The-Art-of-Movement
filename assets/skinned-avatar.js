@@ -26,6 +26,27 @@ accessory(side+'Hand',new THREE.SphereGeometry(.095,14,12),[sign*.86,.12,0],side
 accessory(side+'Shoe',new THREE.SphereGeometry(.15,18,12),[sign*.18,-1.83,.1],side+'Ankle',0x30252e)}
 accessory('hair',new THREE.SphereGeometry(.205,22,16),[0,1.52,-.025],'chest',0x241b20);
 return {root,bones,bind,meshes,material,dispose(){for(const mesh of meshes){mesh.geometry.dispose();if(mesh.material!==material)mesh.material.dispose()}material.dispose()}}}
-export function applyPose(THREE,rig,world,alpha=.35){const points=extract(world);if(!points)return false;const factor=Math.max(0,Math.min(1,alpha));const hips=points.hips;const x=(p)=>new THREE.Vector3((p.x-hips.x)*2,-(p.y-hips.y)*2,-(p.z-hips.z)*2);const positions={};for(const name of Object.keys(rig.bones))positions[name]=x(points[name]);const bind=rig.bind;
-const rotated=new Set();for(const [a,b] of CHAINS){if(rotated.has(a)||points[a].confidence<.35||points[b].confidence<.35)continue;const bone=rig.bones[a],base=new THREE.Vector3().subVectors(bind[b],bind[a]),target=new THREE.Vector3().subVectors(positions[b],positions[a]);if(target.lengthSq()<1e-6||base.lengthSq()<1e-6)continue;rig.root.updateMatrixWorld(true);const parentWorld=new THREE.Quaternion();if(bone.parent)bone.parent.getWorldQuaternion(parentWorld);target.applyQuaternion(parentWorld.invert());const rotation=new THREE.Quaternion().setFromUnitVectors(base.normalize(),target.normalize());bone.quaternion.slerp(rotation,factor);rotated.add(a)}
-rig.root.updateMatrixWorld(true);return true}
+export function applyPose(THREE,rig,world,alpha=.35){
+ const points=extract(world);if(!points)return false;
+ const factor=Math.max(0,Math.min(1,alpha));if(!factor)return true;
+ const hips=points.hips,positions={};
+ for(const name of Object.keys(rig.bones)){
+  const p=points[name];positions[name]=new THREE.Vector3((p.x-hips.x)*2,(hips.y-p.y)*2,(hips.z-p.z)*2);
+ }
+ const rotated=new Set();
+ for(const [a,b] of CHAINS){
+  if(rotated.has(a)||points[a].confidence<.35||points[b].confidence<.35)continue;
+  const bone=rig.bones[a],base=new THREE.Vector3().subVectors(rig.bind[b],rig.bind[a]);
+  const target=new THREE.Vector3().subVectors(positions[b],positions[a]);
+  if(target.lengthSq()<1e-6||base.lengthSq()<1e-6)continue;
+  rig.root.updateMatrixWorld(true);
+  const parentQ=new THREE.Quaternion();if(bone.parent)bone.parent.getWorldQuaternion(parentQ);
+  // Rest geometry is stored in model/world axes. Convert both rest and target
+  // to the current parent-local frame before deriving the bone rotation.
+  const restLocal=base.normalize(); // bind parents start unrotated
+  const targetLocal=target.applyQuaternion(parentQ.invert()).normalize();
+  const rotation=new THREE.Quaternion().setFromUnitVectors(restLocal,targetLocal);
+  bone.quaternion.slerp(rotation,factor);rotated.add(a);
+ }
+ rig.root.updateMatrixWorld(true);return true;
+}
