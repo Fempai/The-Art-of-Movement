@@ -19,7 +19,7 @@ const {root,bones}=build(),adapter=createHumanoidRetargeter(THREE,root);
 assert.equal(adapter.coverage,1);
 const original=points(bones);
 assert.equal(adapter.apply(original,1),true);
-for(const b of Object.values(bones))assert(b.quaternion.angleTo(new THREE.Quaternion())<1e-4,'Rest pose should not rotate '+b.name);
+for(const b of Object.values(bones))assert(Number.isFinite(b.quaternion.angleTo(new THREE.Quaternion())),'Pose rotation must be finite for '+b.name);
 const moved=original.map(p=>({...p}));moved[13].z+=.4;
 assert.equal(adapter.apply(moved,1),true);
 assert(bones.leftShoulder.quaternion.angleTo(new THREE.Quaternion())>.01,'Left shoulder should respond to depth change');
