@@ -1,5 +1,6 @@
 /* Conservative floor-contact stabilization for estimated 3D ankle trajectories.
-   Only anchors during stable, low-motion observations; never asserts real contact.\n   Anchors are deliberately bounded and reset when playback is scrubbed. */
+   Only anchors during stable, low-motion observations; never asserts real contact.
+   Anchors are deliberately bounded and reset when playback is scrubbed. */
 export function createContactSolver(options={}){
  const threshold=Number.isFinite(options.velocityThreshold)?options.velocityThreshold:.035;
  const minFrames=Number.isInteger(options.minFrames)?Math.max(2,options.minFrames):5;
@@ -8,7 +9,9 @@ export function createContactSolver(options={}){
  function update(world){if(!Array.isArray(world)||world.length<33)return {world,contacts:{left:false,right:false}};
  const next=world.map(p=>p?{...p}:p),contacts={left:false,right:false};
  for(const [side,id] of [['left',27],['right',28]]){const foot=state[side],p=next[id];if(!p||!['x','y','z'].every(k=>Number.isFinite(p[k]))||(p.visibility??1)<.5){foot.stable=0;foot.anchor=null;foot.previous=null;continue}
- const speed=foot.previous?Math.hypot(p.x-foot.previous.x,p.y-foot.previous.y,p.z-foot.previous.z):Infinity;\n // A sudden height change signals lift-off even when the horizontal speed is small.\n const lifted=!!foot.previous&&Math.abs(p.y-foot.previous.y)>threshold;
+ const speed=foot.previous?Math.hypot(p.x-foot.previous.x,p.y-foot.previous.y,p.z-foot.previous.z):Infinity;
+ // A sudden height change signals lift-off even when the horizontal speed is small.
+ const lifted=!!foot.previous&&Math.abs(p.y-foot.previous.y)>threshold;
  foot.stable=speed<threshold&&!lifted?foot.stable+1:0;
  if(speed>threshold*2||lifted){foot.anchor=null;foot.stable=0}
  if(!foot.anchor&&foot.stable>=minFrames)foot.anchor={x:p.x,y:p.y,z:p.z};
