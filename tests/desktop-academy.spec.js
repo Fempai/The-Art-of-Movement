@@ -39,3 +39,47 @@ test('desktop camera and cloud review remain opt-in',async({page})=>{
  await expect(page.locator('#cloud')).toBeDisabled();
  await expect(page.locator('#analyze')).toBeDisabled();
 });
+
+test('desktop avatar visual regression angles and controls',async({page},testInfo)=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await expect(page.locator('#stage')).toBeVisible();
+ for(const [id,name,yaw] of [['frontView','front',0],['sideView','side',90],['backView','back',180],['resetView','three-quarter',25]]){
+  await page.locator('#'+id).click();
+  await expect(page.locator('#yaw')).toHaveValue(String(yaw));
+  await page.locator('#stage').screenshot({path:testInfo.outputPath('avatar-desktop-'+name+'.png')});
+ }
+ await page.locator('#stage').focus();await page.keyboard.press('ArrowRight');
+ await expect(page.locator('#yaw')).toHaveValue('35');
+ await page.locator('#resetCharacter').click();
+ await expect(page.locator('#characterLabel')).toContainText('Prototype');
+ expect(errors).toEqual([]);
+});
+test('desktop avatar invalid input and missing joints fail closed',async({page})=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await page.locator('#poseFile').setInputFiles({name:'broken.json',mimeType:'application/json',buffer:Buffer.from('{bad')});
+ await expect(page.locator('#status')).toContainText('rejected');
+ await expect(page.locator('#play')).toBeDisabled();
+ const world=Array.from({length:33},()=>({x:0,y:0,z:0,visibility:1}));world[27]=null;
+ await page.locator('#poseFile').setInputFiles({name:'missing-joint.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'aom-pose-observations-v1',observations:Array.from({length:8},()=>({world}))}))});
+ await expect(page.locator('#status')).toContainText('rejected');
+ await expect(page.locator('#play')).toBeDisabled();
+ await page.locator('#avatarFile').setInputFiles({name:'unsupported.glb',mimeType:'model/gltf-binary',buffer:Buffer.from('not a model')});
+ await expect(page.locator('#status')).toContainText('GLB load failed');
+});
+test('desktop avatar rendering resources and animation frame budget',async({page},testInfo)=>{
+ await page.goto(base+'/skinned-avatar-studio.html');
+ await page.waitForFunction(()=>{const c=document.querySelector('#stage');return c?.width>0&&c?.height>0});
+ const result=await page.evaluate(async()=>{
+  const frames=[];let previous=0;
+  for(let i=0;i<120;i++)await new Promise(resolve=>requestAnimationFrame(t=>{if(previous)frames.push(t-previous);previous=t;resolve()}));
+  frames.sort((a,b)=>a-b);
+  const memory=performance.memory;
+  return {medianFrameMs:frames[Math.floor(frames.length/2)],p95FrameMs:frames[Math.floor(frames.length*.95)],longFramesOver50Ms:frames.filter(v=>v>50).length,resources:performance.getEntriesByType('resource').length,transferBytes:performance.getEntriesByType('resource').reduce((n,x)=>n+(x.transferSize||0),0),heapUsedBytes:memory?.usedJSHeapSize??null,webgl2:!!document.querySelector('#stage').getContext('webgl2')};
+ });
+ require('node:fs').writeFileSync(testInfo.outputPath('avatar-desktop-performance.json'),JSON.stringify(result,null,2));
+ expect(result.webgl2).toBe(true);
+ expect(result.medianFrameMs).toBeLessThan(50);
+ expect(result.p95FrameMs).toBeLessThan(120);
+ expect(result.resources).toBeGreaterThan(0);
+});
