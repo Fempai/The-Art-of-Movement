@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';import integration from '../assets/academy-integration.js';
+const store=()=>{const map=new Map();return {getItem:k=>map.get(k)||null,setItem:(k,v)=>map.set(k,v),removeItem:k=>map.delete(k)}};
+const tmp=store(),now=1700000000000;const payload={format:'aom-pose-observations-v1',observations:Array.from({length:12},(_,i)=>({time_seconds:i*.5,landmarks_visible:30,metrics:{hip_tilt_degrees:0}}))};
+assert.equal(integration.handoff(tmp,payload,now),12);assert.deepEqual(integration.peek(tmp,now+1000),payload);
+assert.equal(integration.peek(tmp,now+integration.TTL+1),null);
+assert.throws(()=>integration.handoff(tmp,{format:'invalid'}));
+const saved=store();integration.saveSession(saved,{type:'avatar',seconds:12,note:'Balance practice'});integration.saveSession(saved,{type:'comparison',seconds:5,note:'Side by side'});
+assert.equal(integration.sessions(saved).length,2);assert.equal(integration.sessions(saved)[0].note,'Balance practice');
+assert.throws(()=>integration.saveSession(saved,{type:'grade',note:'A'}));
+assert.equal(integration.summary({type:'avatar',seconds:999999,note:'x'.repeat(300)}).note.length,240);
+console.log('Academy integration: private handoff expiry, validation and local practice note bounds passed.');
