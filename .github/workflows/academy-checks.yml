@@ -42,3 +42,5 @@ jobs:
         run: node scripts/test-avatar-customization.mjs
       - name: Verify bounded leg IK and planted-foot motion
         run: node scripts/test-leg-ik.mjs
+      - name: Verify Academy and Life OS local integration contracts
+        run: node scripts/test-academy-integration.mjs
