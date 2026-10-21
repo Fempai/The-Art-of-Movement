@@ -1,3 +1,10 @@
+## Animated character retargeting session (2026-10-20)
+- Added `assets/character-retarget.js`: local 3D joint-to-character mapping with a pelvis/chest/neck/head rig, articulated arms and legs, shaded procedural body segments, depth-sorted canvas rendering, and three outfit palettes. Missing/low-confidence segments are withheld rather than invented.
+- Live Coach now offers an opt-in animated character or skeleton view, yaw/pitch controls, palette choice and smoothed real-time model-estimated joint positions. Camera off resets smoothed coordinates.
+- Motion Comparison Studio now renders two independently retargeted animated characters with synchronized phase playback, smooth frame interpolation, rotation, outfit options, and optional local paired WebM animation export when browser recording is supported.
+- Added character retargeting tests to GitHub Actions and browser checks for character/skeleton switching.
+- **Scope/limitations:** This is a procedural, stylized articulated character, not a skinned GLB/VRM humanoid, inverse-kinematics foot-lock solver, or production-quality animation rig. Motion comes from MediaPipe's model-estimated world joints and is not calibrated 3D motion capture. No technique grade or physical-phone reliability claim is made. Real-device validation and optional future artist-authored character asset integration remain outstanding.
+
 ## Technique grading calibration session (2026-10-20)
 - Added `technique-calibration.html` and `assets/technique-calibration.js`: editable instructor-defined rubric, local label-dataset template, validation of weighted criteria and instructor scores (0–4), camera-setup metadata, performer-level train/validation separation, and a calibration-readiness report.
 - The readiness gate checks minimum example/performer coverage, multiple instructors, multiple camera setups and prevents train/validation performer leakage. These minimums are engineering screening criteria, **not scientifically established adequacy thresholds**.
