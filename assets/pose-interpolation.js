@@ -28,20 +28,19 @@ export function interpolateWorld(frames,position){
  })
 }
 export function createPoseFilter(options={}){
- const gain=clamp(options.gain??.5,.05,1),maxStep=options.maxStep??.2;
- let previous=null;
- function reset(){previous=null}
+ const gain=clamp(options.gain??.5,.05,1),maxStep=options.maxStep??.2,holdFrames=options.holdFrames??3;
+ let previous=null,misses=[];
+ function reset(){previous=null;misses=[]}
  function update(world){
   if(!Array.isArray(world))return world;
   const out=world.map((p,i)=>{
-   if(!p)return p;
-   const old=previous?.[i];if(!old||(p.visibility??1)<.45)return {...p};
+   const old=previous?.[i];if(!p||(p.visibility??1)<.45||!['x','y','z'].every(k=>Number.isFinite(p[k]))){misses[i]=(misses[i]||0)+1;return old&&misses[i]<=holdFrames?{...old,visibility:0}:p?{...p}:p}misses[i]=0;if(!old)return {...p};
    const result={...p};
    for(const axis of ['x','y','z']){
     if(!Number.isFinite(p[axis])||!Number.isFinite(old[axis]))continue;
     const diff=p[axis]-old[axis];
     // Large jumps are treated as a new motion segment, not a smoothing tail.
-    result[axis]=Math.abs(diff)>maxStep?p[axis]:old[axis]+diff*gain;
+    const adaptive=Math.abs(diff)>maxStep*.45?Math.max(gain,.85):gain;result[axis]=Math.abs(diff)>maxStep?p[axis]:old[axis]+diff*adaptive;
    }
    return result
   });
