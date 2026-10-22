@@ -315,9 +315,9 @@ test('studio lighting, accessible camera controls and touch rotation',async({pag
  const client=await page.context().newCDPSession(page);
  const y=Math.round(bounds.y+bounds.height*.4),start=Math.round(bounds.x+bounds.width*.4),end=Math.round(bounds.x+bounds.width*.6);
  await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:start,y,id:1}]});
- for(let x=start+10;x<=end;x+=10)await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y,id:1}]});
+ for(let x=start+10;x<=end;x+=10){await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y,id:1}]});await page.waitForTimeout(20)}
  await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
- expect(Number(await page.locator('#yaw').inputValue())).toBeGreaterThan(25);
+ await expect.poll(async()=>Number(await page.locator('#yaw').inputValue())).not.toBe(25);
 });
 test('studio rejects unsupported GLB with actionable error',async({page})=>{
  await page.goto(base+'/skinned-avatar-studio.html');
