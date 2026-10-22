@@ -83,3 +83,17 @@ test('desktop avatar rendering resources and animation frame budget',async({page
  expect(result.p95FrameMs).toBeLessThan(120);
  expect(result.resources).toBeGreaterThan(0);
 });
+
+test('avatar screenshots detect viewpoint changes and return to front baseline',async({page},testInfo)=>{
+ const {PNG}=require('pngjs'),pixelmatch=require('pixelmatch');
+ await page.goto(base+'/skinned-avatar-studio.html');
+ const stage=page.locator('#stage');await expect(stage).toBeVisible();
+ const capture=async id=>{await page.locator('#'+id).click();await page.waitForTimeout(150);return PNG.sync.read(await stage.screenshot({animations:'disabled'}))};
+ const front=await capture('frontView'),side=await capture('sideView'),back=await capture('backView'),restored=await capture('frontView');
+ const compare=(a,b)=>{expect(a.width).toBe(b.width);expect(a.height).toBe(b.height);const diff=new PNG({width:a.width,height:a.height});const changed=pixelmatch(a.data,b.data,diff.data,a.width,a.height,{threshold:.14,includeAA:false});return {changed,pct:changed/(a.width*a.height)}};
+ const result={frontToSide:compare(front,side),frontToBack:compare(front,back),frontRestored:compare(front,restored)};
+ require('node:fs').writeFileSync(testInfo.outputPath('avatar-visual-diff.json'),JSON.stringify(result,null,2));
+ expect(result.frontToSide.pct).toBeGreaterThan(.005);
+ expect(result.frontToBack.pct).toBeGreaterThan(.005);
+ expect(result.frontRestored.pct).toBeLessThan(.04);
+});
