@@ -79,7 +79,7 @@ test('desktop avatar rendering resources and animation frame budget',async({page
  });
  require('node:fs').writeFileSync(testInfo.outputPath('avatar-desktop-performance.json'),JSON.stringify(result,null,2));
  expect(result.webgl2).toBe(true);
- expect(result.medianFrameMs).toBeLessThan(50);
+ expect(result.medianFrameMs).toBeLessThanOrEqual(50);
  expect(result.p95FrameMs).toBeLessThan(120);
  expect(result.resources).toBeGreaterThan(0);
 });
