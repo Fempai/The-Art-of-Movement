@@ -1,28 +1,30 @@
 # The Art of Movement
 
-A standalone, mobile-friendly movement conservatory, connected in concept to Dre After Dark Life OS.
+A mobile-first, multi-track dance and movement Academy hosted on GitHub Pages and connected to Dre After Dark Life OS through an **existing authenticated, private Supabase journal/assessment bridge**.
 
-## Current live foundation
+**Live site:** https://fempai.github.io/The-Art-of-Movement/
 
-- First-week gym orientation and conservative introductory workout.
-- Searchable technique library for strength, mobility and dance.
-- Local-only training journal with JSON export.
-- Movement baseline observations.
+## Available tools (October 2026)
+- 16-week curriculum navigation, Week 1 and Week 2 studios, weekly lesson planning, movement lexicon, and lesson library. Instructor-video coverage is incomplete; a lesson card is not evidence of a playable, reviewed class.
+- Strength, flexibility, progress, practice and assessment records; some modules use local browser storage, while selected cloud tools use authenticated Supabase records.
+- Pose Lab and Live Coach for experimental on-device landmark analysis; camera-estimated measurements are not validated dance grades or clinical safety clearance.
+- Skinned Avatar Studio for experimental 3D pose playback, optional rigged GLB import, character presets, camera/lighting/playback controls, and local practice notes.
+- Motion Comparison, local Pose Lab handoff, session export/restore, and the authenticated Life OS movement bridge.
+- Practice players for local files and permitted Drive previews. Drive iframe streams do not support the same controls as locally selected videos.
 
-## Important limitations
+## Privacy and limitations
+- The temporary Pose Lab handoff uses same-tab sessionStorage. Studio practice notes use localStorage and **do not automatically sync to Life OS**. Browser-local data can be lost; export backups.
+- The shared cloud journal and selected assessments require authentication. Do not confuse these with local records. See [ACADEMY-LIFE-OS-CONTRACT.md](ACADEMY-LIFE-OS-CONTRACT.md).
+- Private videos are not made public by the Academy. Do not rehost third-party classes without appropriate rights.
+- Full instructional coverage, verified automated technique grading, personal likeness, physical Android/Samsung acceptance, and real-world movement calibration are **not complete**.
+- Advanced acrobatics and extreme flexibility require qualified in-person instruction.
 
-This initial deployment is **not** the complete v0.6 prototype. It is a small self-contained foundation to enable GitHub Pages deployment and mobile smoke testing. It does not yet sync with Life OS or Supabase. Browser storage is per device/browser and can be lost; export entries. Do not store sensitive health records in this local prototype.
+## Automated quality assurance
+GitHub Actions runs static integrity, static/numerical regression and Chromium desktop/mobile browser checks, with screenshots, pixel-difference checks, resource/frame timing, and responsive layout scans. GitHub Pages deployment is a separate workflow. Passing emulated-browser checks does not equal physical phone validation.
 
-Instructor-reviewed assessments, protected media uploads, cloud synchronization, progression engine and verified instructional media are not yet implemented. Acrobatic skills require qualified in-person supervision.
+See [RELEASE-CHECKLIST.md](RELEASE-CHECKLIST.md), [CHANGELOG.md](CHANGELOG.md), [RELEASE-READINESS.md](RELEASE-READINESS.md), and [OWNER-ACCEPTANCE.md](OWNER-ACCEPTANCE.md).
 
-## GitHub Pages
+## Development
+Static site: serve the repository root with `python3 -m http.server 8765`. CI installs Playwright/Chromium, then runs `tests/mobile-academy.spec.js`, `tests/desktop-academy.spec.js`, and `tests/site-layout.spec.js`. Node/Python numerical and privacy-contract checks are in `scripts/`.
 
-In repository **Settings → Pages**, select **Deploy from a branch**, choose **main** and **/(root)**, then Save. Once deployed, open https://fempai.github.io/The-Art-of-Movement/ . GitHub Pages publication can take several minutes.
-
-## Next technical milestones
-
-1. Validate mobile behavior and journal export.
-2. Audit existing Life OS Supabase authentication and row-level security before shared tables are created.
-3. Add private training tables and authenticated sync, with conflict-safe record identifiers.
-4. Add academy-to-Life-OS navigation and one shared journal.
-5. Add coach review workflow and private storage only after permissions are verified.
+**Release status is determined by the latest GitHub Actions run, not by this README.**
