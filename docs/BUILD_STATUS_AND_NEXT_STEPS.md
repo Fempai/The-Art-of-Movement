@@ -1,3 +1,16 @@
+# Current release stabilization status — October 21, 2026
+
+The historical delivery log below describes incremental work and **contains older statements that are no longer current**. Use this header, [README](../README.md), [RELEASE-CHECKLIST](../RELEASE-CHECKLIST.md), [CHANGELOG](../CHANGELOG.md) and the latest GitHub Actions results for present release state.
+
+- **Implemented:** shared Academy navigation; 16-week planning pages; private Supabase movement bridge for selected journal/assessment records; experimental Pose Lab and Live Coach; skinned prototype avatar, optional GLB, local motion comparison, playback controls, local session notes, and optional same-tab Pose Lab transfer.
+- **Automated QA:** static integrity, static/numerical regression, Playwright desktop/mobile checks, Android-wide page overflow audit, selected tablet/desktop audits, pixel-level avatar camera-view comparison, performance artifacts and Pages deployment checks. **These are not evidence of a passing latest-commit release until the corresponding workflow runs finish successfully.**
+- **Known incomplete:** physical Samsung acceptance, personalized character likeness, verified dance-motion accuracy, expert-calibrated technique grading, comprehensive licensed instructor video coverage, and complete cloud synchronization of all local training modules.
+- **Privacy:** browser-local session notes and temporary pose transfers are not automatically uploaded to Supabase. Existing authenticated cloud data contracts remain separate.
+- **Last pre-stabilization browser finding:** 25px horizontal overflow on compact Android; a CSS containment fix and wider layout scan have been committed, but their results require the latest CI run.
+- **Release evidence:** see the run IDs and conclusions for the latest commit on GitHub Actions, not the historical entries below.
+
+---
+
 # Delivery status — 2026-10-14
 
 ## Built and committed
