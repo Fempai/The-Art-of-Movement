@@ -150,3 +150,22 @@ test('failed lesson download explains failure and permits retry',async({page})=>
  await expect(page.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
  expect(requests).toBe(2);
 });
+
+test('quiz choices remain isolated when a lesson is closed and reopened',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ const open=page.getByRole('button',{name:'Study here'}).first();
+ await open.click();
+ const panel=page.locator('.lesson-panel');
+ await expect(panel.locator('fieldset')).toHaveCount(4);
+ await panel.locator('fieldset').first().locator('input[type=radio]').first().check();
+ await panel.getByRole('button',{name:'Close lesson'}).click();
+ await expect(panel).toBeHidden();
+ await open.click();
+ await expect(panel.locator('fieldset')).toHaveCount(4);
+ await expect(panel.locator('input[type=radio]:checked')).toHaveCount(0);
+ await panel.getByRole('button',{name:'Check my answers'}).click();
+ await expect(panel.getByText(/4 unanswered/)).toBeVisible();
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
+});
