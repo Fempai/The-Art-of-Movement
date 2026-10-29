@@ -268,3 +268,18 @@ test('late response from an earlier lesson cannot overwrite the latest lesson',a
  await expect(page.getByRole('heading',{name:'MOV101 — Lesson 02'})).toBeVisible();
  await expect(page.getByText('Stale lesson one')).toHaveCount(0);
 });
+
+test('progress dashboard displays valid local history when Supabase CDN is blocked',async({page})=>{
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.addInitScript(()=>{
+  localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:3,total:4,completedAt:'2026-10-01T12:00:00.000Z'}));
+  localStorage.setItem('aom-quiz-MOV101-02',JSON.stringify({lesson:'MOV101-02',score:99,total:4,completedAt:'2026-10-01T12:00:00.000Z'}));
+  localStorage.setItem('aom-quiz-MOV101-03',JSON.stringify({lesson:'MOV101-04',score:4,total:4,completedAt:'2026-10-01T12:00:00.000Z'}));
+ });
+ await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
+ await expect(page.locator('#summary')).toContainText('1 of 80 lessons');
+ await expect(page.locator('#records tr')).toHaveCount(1);
+ await expect(page.locator('#records')).toContainText('MOV101-01');
+ await expect(page.locator('#cloud')).toContainText('Cloud results unavailable');
+ await expect(page.locator('#refresh')).toBeEnabled();
+});
