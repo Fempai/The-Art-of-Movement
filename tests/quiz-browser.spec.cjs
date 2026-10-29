@@ -169,3 +169,20 @@ test('quiz choices remain isolated when a lesson is closed and reopened',async({
  await expect(panel.getByText(/4 unanswered/)).toBeVisible();
  expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
 });
+
+test('submitted quiz appears in Learning Progress with its latest score',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ const panel=page.locator('.lesson-panel');
+ await expect(panel.locator('fieldset')).toHaveCount(4);
+ for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth(i).check();
+ await panel.getByRole('button',{name:'Check my answers'}).click();
+ await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ await page.getByRole('link',{name:'Learning Progress'}).click();
+ await expect(page).toHaveURL(/conservatory-progress\.html$/);
+ await expect(page.locator('#summary')).toContainText('1 of 80 lessons have a recorded quiz attempt');
+ await expect(page.locator('#records tr').filter({hasText:'MOV101-01'})).toContainText('4 / 4');
+ await expect(page.locator('#records tr').filter({hasText:'MOV101-01'})).toContainText('This device');
+});
