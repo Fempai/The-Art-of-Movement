@@ -3,6 +3,8 @@ on:
   push:
     paths:
       - 'conservatory-course-reader.html'
+      - 'conservatory-progress.html'
+      - 'curriculum/COURSE_LESSONS_AND_SOURCES.json'
       - 'tests/quiz-browser.spec.cjs'
       - 'tests/audit-all-quizzes.cjs'
       - 'curriculum/final-lessons/**'
@@ -11,7 +13,7 @@ on:
 jobs:
   quiz-browser:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,7 +34,7 @@ jobs:
           cat /tmp/aom-http.log
           exit 1
       - name: Run grading tests
-        run: npx playwright test tests/quiz-browser.spec.cjs --browser chromium --reporter=line
+        run: npx playwright test tests/quiz-browser.spec.cjs --browser chromium --reporter=line --trace=retain-on-failure --screenshot=only-on-failure --workers=1
       - name: Upload Playwright diagnostics on failure
         if: failure()
         uses: actions/upload-artifact@v4
