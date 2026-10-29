@@ -1,7 +1,5 @@
 const {test,expect}=require('@playwright/test');
-const fs=require('node:fs');
-const path=require('node:path');
-const pageUrl='file://'+path.resolve(__dirname,'../conservatory-course-reader.html');
+const pageUrl='http://127.0.0.1:8765/conservatory-course-reader.html';
 const standard=`# Test lesson
 ## Knowledge check
 **1. First?**
