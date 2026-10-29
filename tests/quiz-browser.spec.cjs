@@ -78,7 +78,7 @@ for(const [name,fixture] of [['standard',standard],['alternate',legacy]]){
 test(name+' format grades, blocks partial submission, and saves retakes',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
  await page.goto(pageUrl);
- const open=page.getByRole('button',{name:/read|open|view|lesson/i}).first();
+ const open=page.getByRole('button',{name:'Study here'}).first();
  await expect(open).toBeVisible();
  await open.click();
  const quiz=page.getByRole('heading',{name:'Interactive knowledge check'}).first();
