@@ -32,6 +32,19 @@ The reader accepts four numbered questions, four A–D options per question, and
 | CMP101-02 | 4 | 4 | BAAA | Standard format |
 | CMP101-03 | 4 | 4 | AAAA | Standard format |
 
-**Progress:** 24/80 lesson files inspected for quiz structure. **56 remain.** Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
+| CMP101-04 | 4 | 4 | BBAC | Standard format |
+| HIS101-02 | 4 | 4 | ABAA | Standard format |
+| HIS101-03 | 4 | 4 | BBCB | Standard format |
+| HIS101-04 | 4 | 4 | ABCB | Standard format |
+| LAB101-02 | 4 | 4 | BCAC | Standard format |
+| LAB101-03 | 4 | 4 | BACA | Standard format |
+| LAB101-04 | 4 | 4 | CBCB | Standard format |
+| STG101-01 | 4 | 4 | ABCD | Standard format |
+| STG101-02 | 4 | 4 | BCDA | Standard format |
+| STG101-03 | 4 | 4 | CBAD | Standard format |
+| STG101-04 | 4 | 4 | BCAD | Standard format |
+| FLE101-01 | 4 | 4 | ABCD | Standard format |
+
+**Progress:** 36/80 lesson files inspected for quiz structure. **44 remain.** Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
 
 **Assessment-design flag:** CMP101-03 has all four correct answers in position A; HIP101-02 through HIP101-04 repeat BCAD. These structurally valid patterns are predictable and warrant question-bank revision before claiming assessment quality.
