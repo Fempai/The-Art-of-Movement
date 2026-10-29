@@ -1,0 +1,26 @@
+# Interactive Knowledge-Check Compatibility Audit
+
+**Scope:** structural compatibility with the Course Reader parser; not scholarly fact-checking, browser acceptance testing, or psychometric validation. Audit date: 2026-10-29.
+
+The reader accepts four numbered questions, four A–D options per question, and four matching answer explanations. MOV101-01 uses an alternate `**Question N.**` / `**Correct: X.**` format now supported separately.
+
+| Lesson | Questions | Answers | Key | Structural result |
+|---|---:|---:|---|---|
+| MOV101-01 | 4 | 4 | BACB | Alternate format supported; requires browser test |
+| DNC101-01 | 4 | 4 | BCAA | Standard format |
+| CON101-01 | 4 | 4 | BCAA | Standard format |
+| HIP101-01 | 4 | 4 | BCAD | Standard format |
+| MUS101-01 | 4 | 4 | BCAC | Standard format |
+| CMP101-01 | 4 | 4 | ABBA | Standard format |
+| HIS101-01 | 4 | 4 | BCBA | Standard format |
+| LAB101-01 | 4 | 4 | BCAC | Standard format |
+| MOV101-02 | 4 | 4 | ABBA | Standard format |
+| MOV101-03 | 4 | 4 | BCAD | Standard format |
+| MOV101-04 | 4 | 4 | BCBC | Standard format |
+| DNC101-02 | 4 | 4 | AABB | Standard format |
+| DNC101-03 | 4 | 4 | AAAB | Standard format |
+| DNC101-04 | 4 | 4 | BCAD | Standard format |
+| CON101-02 | 4 | 4 | BCAD | Standard format |
+| CON101-03 | 4 | 4 | BCAD | Standard format |
+
+**Progress:** 16/80 lesson files inspected for quiz structure. **64 remain.** Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
