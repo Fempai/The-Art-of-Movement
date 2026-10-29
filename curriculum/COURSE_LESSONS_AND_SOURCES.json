@@ -1,0 +1,1461 @@
+{
+  "sources": [
+    [
+      "IADMS resource papers",
+      "https://iadms.azurewebsites.net/education-resources/resource-papers/",
+      "Evidence-informed dancer education, warm-up, turnout, proprioception, motor learning and nutrition; access each paper and review its scope."
+    ],
+    [
+      "IADMS: Stretching and current practice",
+      "https://iadms.azurewebsites.net/education-resources/blog/2016/february/stretching-some-thoughts-on-current-practice/",
+      "Flexibility varies with morphology and other factors; avoid forced extreme ranges."
+    ],
+    [
+      "Wilson & Kwon (2008), Biomechanics review",
+      "https://pubmed.ncbi.nlm.nih.gov/19618586/",
+      "Biomechanical analysis of dance motion, forces, muscle use and motor control."
+    ],
+    [
+      "Brodie & Lobel (2004), Somatic practices",
+      "https://eric.ed.gov/?id=EJ852342",
+      "Integrating Alexander, Feldenkrais, Laban/Bartenieff and proprioceptive awareness in technique."
+    ],
+    [
+      "Kenny et al. (2025), IADMS measures update",
+      "https://pubmed.ncbi.nlm.nih.gov/39392612/",
+      "Measurement and injury surveillance; screening is not a guarantee against injury."
+    ],
+    [
+      "IADMS Dance Fitness (2025)",
+      "https://iadms.org/media/rwthabxe/iadms-resource-paper-dance-fitness.pdf",
+      "Dance fitness, conditioning, strength and training context."
+    ],
+    [
+      "University of Florida Laban Movement Analysis syllabus",
+      "https://arts.ufl.edu/site/assets/files/238081/dan_4434_lma_fall_24-1.pdf",
+      "Academic example of anatomy, movement studies and theory sequencing; not reproduced as course material."
+    ]
+  ],
+  "courses": [
+    {
+      "id": "MOV101",
+      "title": "Movement Anatomy & Alignment",
+      "stage": "Foundation",
+      "theme": "Joints, muscular actions, posture, hip mechanics, safe range of motion",
+      "outcome": "Identify hip flexors, hamstrings, adductors and spinal extensors; distinguish mobility from flexibility",
+      "practice": "Explain a controlled leg raise using muscle actions; perform pain-free pelvic tilts",
+      "capstone": "Movement map and anatomy reflection",
+      "units": [
+        {
+          "title": "Unit 1: Joints",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Explain a controlled leg raise using muscle actions; perform pain-free pelvic tilts",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply joints to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: muscular actions",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (muscular actions) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply muscular actions to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: posture",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in posture; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply posture to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: hip mechanics, safe range of motion",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply hip mechanics, safe range of motion to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Movement map and anatomy reflection",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "DNC101",
+      "title": "Ballet & Jazz Foundations",
+      "stage": "Foundation",
+      "theme": "Tendu, plié, relevé, weight transfer, neutral alignment, supported développé",
+      "outcome": "Demonstrate basic pathways without forced turnout",
+      "practice": "2×8 slow tendus; 2×8 relevés using stable support; 2×5 supported knee lifts",
+      "capstone": "16-count barre-free technique phrase",
+      "units": [
+        {
+          "title": "Unit 1: Tendu",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "2×8 slow tendus; 2×8 relevés using stable support; 2×5 supported knee lifts",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply tendu to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: plié",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (plié) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply plié to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: relevé",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in relevé; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply relevé to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: weight transfer, neutral alignment, supported développé",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply weight transfer, neutral alignment, supported développé to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "16-count barre-free technique phrase",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CON101",
+      "title": "Contemporary & Floorwork",
+      "stage": "Foundation",
+      "theme": "Breath, initiation, suspension, safe floor-to-stand patterns",
+      "outcome": "Control transitions between seated, kneeling and standing",
+      "practice": "3 slow side-sit → kneel → stand sequences per side",
+      "capstone": "Floorwork phrase",
+      "units": [
+        {
+          "title": "Unit 1: Breath",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "3 slow side-sit → kneel → stand sequences per side",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply breath to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which quality distinguishes a deliberate artistic choice from an accident? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: initiation",
+          "essential": "How would you teach this to a dancer using words and a floor diagram?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (initiation) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply initiation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How would you teach this to a dancer using words and a floor diagram? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How would you teach this to a dancer using words and a floor diagram?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: suspension",
+          "essential": "What observation would demonstrate improvement?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in suspension; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply suspension to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What observation would demonstrate improvement? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What observation would demonstrate improvement?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: safe floor-to-stand patterns",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply safe floor-to-stand patterns to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Floorwork phrase",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "HIP101",
+      "title": "Hip-Hop Foundations & Cultural Context",
+      "stage": "Foundation",
+      "theme": "Groove, bounce, rhythm, foundational social-dance history",
+      "outcome": "Identify stylistic context and reproduce a groove with personal expression",
+      "practice": "2×8 bounce and step-touch phrases, alternating facing",
+      "capstone": "Original groove phrase with contextual notes",
+      "units": [
+        {
+          "title": "Unit 1: Groove",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "2×8 bounce and step-touch phrases, alternating facing",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply groove to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: bounce",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (bounce) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply bounce to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: rhythm",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in rhythm; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply rhythm to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: foundational social-dance history",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply foundational social-dance history to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Original groove phrase with contextual notes",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "MUS101",
+      "title": "Musicality & Rhythm",
+      "stage": "Foundation",
+      "theme": "Meter, subdivisions, syncopation, tempo, phrase",
+      "outcome": "Identify quarter and eighth note pulse in 4/4",
+      "practice": "Walk beats; clap offbeats; pause on 4; repeat 4 cycles",
+      "capstone": "32-count rhythm score",
+      "units": [
+        {
+          "title": "Unit 1: Meter",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Walk beats; clap offbeats; pause on 4; repeat 4 cycles",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply meter to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: subdivisions",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (subdivisions) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply subdivisions to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: syncopation",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in syncopation; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply syncopation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: tempo, phrase",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply tempo, phrase to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "32-count rhythm score",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CMP101",
+      "title": "Composition & Dance Notation",
+      "stage": "Foundation",
+      "theme": "Motif, phrase, transitions, repetition, contrast, notation",
+      "outcome": "Write and perform one repeatable 32-count phrase",
+      "practice": "Develop four linked 8-count phrases and write counts/facing/intention",
+      "capstone": "Annotated choreography score",
+      "units": [
+        {
+          "title": "Unit 1: Motif",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Develop four linked 8-count phrases and write counts/facing/intention",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply motif to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which quality distinguishes a deliberate artistic choice from an accident? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: phrase",
+          "essential": "How would you teach this to a dancer using words and a floor diagram?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (phrase) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply phrase to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How would you teach this to a dancer using words and a floor diagram? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How would you teach this to a dancer using words and a floor diagram?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: transitions",
+          "essential": "What observation would demonstrate improvement?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in transitions; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply transitions to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What observation would demonstrate improvement? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What observation would demonstrate improvement?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: repetition, contrast, notation",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply repetition, contrast, notation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Annotated choreography score",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "HIS101",
+      "title": "Dance History & Cultural Studies",
+      "stage": "Foundation",
+      "theme": "Context, lineage, attribution, critical reading",
+      "outcome": "Distinguish broad genres from culturally specific practices",
+      "practice": "Compare two dance traditions using credited sources and historical context",
+      "capstone": "600-word comparison",
+      "units": [
+        {
+          "title": "Unit 1: Context",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Compare two dance traditions using credited sources and historical context",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply context to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: lineage",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (lineage) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply lineage to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: attribution",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in attribution; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply attribution to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: critical reading",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply critical reading to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "600-word comparison",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "LAB101",
+      "title": "Undercurrent Repertory I",
+      "stage": "Foundation",
+      "theme": "Original motif, emotion, movement memory",
+      "outcome": "Perform four phrases with reliable transitions",
+      "practice": "Reach/gather motif; directional travel; 32-count retrieval",
+      "capstone": "Performance draft and reflection",
+      "units": [
+        {
+          "title": "Unit 1: Original motif",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Reach/gather motif; directional travel; 32-count retrieval",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply original motif to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: emotion",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (emotion) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply emotion to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: movement memory",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in movement memory; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply movement memory to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: Creative synthesis",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply creative synthesis to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Performance draft and reflection",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "STG101",
+      "title": "Strength & Dance Conditioning",
+      "stage": "Foundation",
+      "theme": "Pull-up, push-up, core, hip control, stamina",
+      "outcome": "Track clean technique and progressive strength",
+      "practice": "Rows, elevated push-ups, supported leg lifts, 40/20 dance intervals",
+      "capstone": "Personal baseline log",
+      "units": [
+        {
+          "title": "Unit 1: Pull-up",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Rows, elevated push-ups, supported leg lifts, 40/20 dance intervals",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply pull-up to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which quality distinguishes a deliberate artistic choice from an accident? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: push-up",
+          "essential": "How would you teach this to a dancer using words and a floor diagram?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (push-up) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply push-up to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How would you teach this to a dancer using words and a floor diagram? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How would you teach this to a dancer using words and a floor diagram?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: core",
+          "essential": "What observation would demonstrate improvement?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in core; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply core to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What observation would demonstrate improvement? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What observation would demonstrate improvement?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: hip control, stamina",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply hip control, stamina to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Personal baseline log",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "FLE101",
+      "title": "Active Flexibility Foundations",
+      "stage": "Foundation",
+      "theme": "Hip flexor mobility, adductors, hamstrings, safe stretching",
+      "outcome": "Distinguish passive range and active holds",
+      "practice": "Half-kneeling hip stretch, seated leg hover, gentle active lift",
+      "capstone": "Range and quality journal",
+      "units": [
+        {
+          "title": "Unit 1: Hip flexor mobility",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Half-kneeling hip stretch, seated leg hover, gentle active lift",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply hip flexor mobility to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: adductors",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (adductors) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply adductors to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: hamstrings",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in hamstrings; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply hamstrings to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: safe stretching",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply safe stretching to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Range and quality journal",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "LMA201",
+      "title": "Laban Movement Analysis",
+      "stage": "Foundation",
+      "theme": "Body, Effort, Shape, Space; weight, time, space, flow",
+      "outcome": "Apply effort contrasts to the same motif",
+      "practice": "Perform bound/free and sustained/sudden variations",
+      "capstone": "Four-variation score",
+      "units": [
+        {
+          "title": "Unit 1: Body",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Perform bound/free and sustained/sudden variations",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply body to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: Effort",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (Effort) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply effort to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: Shape",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in Shape; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply shape to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: Space; weight, time, space, flow",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply space; weight, time, space, flow to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Four-variation score",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PER201",
+      "title": "Performance & Storytelling",
+      "stage": "Foundation",
+      "theme": "Audience focus, intention, stage presence, visual clarity",
+      "outcome": "Use gaze, stillness and dynamic contrast intentionally",
+      "practice": "Perform one phrase with three distinct intentions",
+      "capstone": "Performance critique",
+      "units": [
+        {
+          "title": "Unit 1: Audience focus",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Perform one phrase with three distinct intentions",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply audience focus to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which quality distinguishes a deliberate artistic choice from an accident? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: intention",
+          "essential": "How would you teach this to a dancer using words and a floor diagram?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (intention) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply intention to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How would you teach this to a dancer using words and a floor diagram? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How would you teach this to a dancer using words and a floor diagram?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: stage presence",
+          "essential": "What observation would demonstrate improvement?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in stage presence; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply stage presence to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What observation would demonstrate improvement? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What observation would demonstrate improvement?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: visual clarity",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply visual clarity to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Performance critique",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "RES501",
+      "title": "Dance Research Methods",
+      "stage": "Graduate",
+      "theme": "Research questions, source quality, observation, reflexivity",
+      "outcome": "Develop a research-informed choreographic inquiry",
+      "practice": "Compare a scholarly source with an observation log",
+      "capstone": "Research proposal",
+      "units": [
+        {
+          "title": "Unit 1: Research questions",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Compare a scholarly source with an observation log",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply research questions to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: source quality",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (source quality) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply source quality to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: observation",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in observation; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply observation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: reflexivity",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply reflexivity to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Research proposal",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "CMP502",
+      "title": "Advanced Composition",
+      "stage": "Graduate",
+      "theme": "Retrograde, canon, accumulation, fragmentation, chance",
+      "outcome": "Transform an original motif using three devices",
+      "practice": "Generate and revise three motif variations",
+      "capstone": "2–4 minute original work",
+      "units": [
+        {
+          "title": "Unit 1: Retrograde",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Generate and revise three motif variations",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply retrograde to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: canon",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (canon) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply canon to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: accumulation",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in accumulation; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply accumulation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: fragmentation, chance",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply fragmentation, chance to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "2–4 minute original work",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "SCI503",
+      "title": "Motor Learning & Dance Science",
+      "stage": "Graduate",
+      "theme": "Practice variability, retrieval, feedback, fatigue",
+      "outcome": "Design a safe retention protocol",
+      "practice": "Spaced phrase recall at 1, 3, 7 days",
+      "capstone": "Learning study",
+      "units": [
+        {
+          "title": "Unit 1: Practice variability",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Spaced phrase recall at 1, 3, 7 days",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply practice variability to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which quality distinguishes a deliberate artistic choice from an accident? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: retrieval",
+          "essential": "How would you teach this to a dancer using words and a floor diagram?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (retrieval) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply retrieval to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How would you teach this to a dancer using words and a floor diagram? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How would you teach this to a dancer using words and a floor diagram?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: feedback",
+          "essential": "What observation would demonstrate improvement?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in feedback; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply feedback to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What observation would demonstrate improvement? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What observation would demonstrate improvement?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: fatigue",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply fatigue to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Learning study",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "EST504",
+      "title": "Dance Criticism & Aesthetics",
+      "stage": "Graduate",
+      "theme": "Interpretation, evidence, ethics, abstraction",
+      "outcome": "Write evidence-based performance analysis",
+      "practice": "Compare narrative and abstract versions of one phrase",
+      "capstone": "Critical essay",
+      "units": [
+        {
+          "title": "Unit 1: Interpretation",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Compare narrative and abstract versions of one phrase",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply interpretation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: evidence",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (evidence) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply evidence to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: ethics",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in ethics; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply ethics to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: abstraction",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply abstraction to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Critical essay",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "SIT505",
+      "title": "Site-Specific & Cultural Performance",
+      "stage": "Graduate",
+      "theme": "Space, audience, accessibility, context",
+      "outcome": "Create a site-responsive concept ethically",
+      "practice": "Map entrances, sightlines, surfaces, access needs",
+      "capstone": "Site-specific proposal",
+      "units": [
+        {
+          "title": "Unit 1: Space",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Map entrances, sightlines, surfaces, access needs",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply space to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: audience",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (audience) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply audience to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: accessibility",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in accessibility; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply accessibility to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: context",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply context to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Site-specific proposal",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PRO701",
+      "title": "Professional Repertory Laboratory",
+      "stage": "Performance",
+      "theme": "Polish, rehearsal, interpretation, stamina",
+      "outcome": "Sustain technically controlled performance",
+      "practice": "Timed phrase rehearsal and deliberate recovery",
+      "capstone": "Repertory showcase",
+      "units": [
+        {
+          "title": "Unit 1: Polish",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Timed phrase rehearsal and deliberate recovery",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply polish to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which quality distinguishes a deliberate artistic choice from an accident? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: rehearsal",
+          "essential": "How would you teach this to a dancer using words and a floor diagram?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (rehearsal) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply rehearsal to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How would you teach this to a dancer using words and a floor diagram? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How would you teach this to a dancer using words and a floor diagram?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: interpretation",
+          "essential": "What observation would demonstrate improvement?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in interpretation; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply interpretation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What observation would demonstrate improvement? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What observation would demonstrate improvement?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: stamina",
+          "essential": "Which quality distinguishes a deliberate artistic choice from an accident?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply stamina to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Repertory showcase",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which quality distinguishes a deliberate artistic choice from an accident?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PRO702",
+      "title": "Stagecraft & Artistic Direction",
+      "stage": "Performance",
+      "theme": "Lighting, sightlines, costume safety, rehearsal leadership",
+      "outcome": "Present an intentional staging plan",
+      "practice": "Blocking diagram and cue sheet",
+      "capstone": "Production book",
+      "units": [
+        {
+          "title": "Unit 1: Lighting",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Blocking diagram and cue sheet",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply lighting to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: Which body segment initiates the movement, and what stabilizes it? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: sightlines",
+          "essential": "How does the same action change with slower timing?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (sightlines) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply sightlines to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does the same action change with slower timing? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does the same action change with slower timing?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: costume safety",
+          "essential": "What would be an unsafe compensation or overgeneralization?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in costume safety; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply costume safety to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What would be an unsafe compensation or overgeneralization? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What would be an unsafe compensation or overgeneralization?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: rehearsal leadership",
+          "essential": "Which body segment initiates the movement, and what stabilizes it?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply rehearsal leadership to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Production book",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "Which body segment initiates the movement, and what stabilizes it?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    },
+    {
+      "id": "PRO703",
+      "title": "Performance Portfolio & Capstone",
+      "stage": "Performance",
+      "theme": "Revisions, artist statement, critical self-evaluation",
+      "outcome": "Produce an original work and documented process",
+      "practice": "Rehearsal journal, movement score, performance",
+      "capstone": "Final portfolio",
+      "units": [
+        {
+          "title": "Unit 1: Revisions",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Begin with the relevant foundational study note and a scholarly source listed in the bibliography; identify author, context, and limitations.",
+          "technique": "Rehearsal journal, movement score, performance",
+          "combination": "Counts 1–2 establish stance; 3–4 execute a comfortable version of the focus action; 5–6 repeat with a directional change; 7–8 recover and suspend.",
+          "choreography": "Apply revisions to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How does cultural context affect the meaning of this technique? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 2: artist statement",
+          "essential": "What do you notice when the musical accent moves?",
+          "reading": "Compare the anatomy, musicality, and cultural context of the movement; explain what is known and what is interpretation.",
+          "technique": "Repeat the core technique from Unit 1 at half speed, then change one variable (artist statement) while preserving alignment and comfort.",
+          "combination": "Counts 1–4 repeat the phrase with one altered dynamic; 5–8 restore original timing and facing.",
+          "choreography": "Apply artist statement to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: What do you notice when the musical accent moves? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "What do you notice when the musical accent moves?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 3: critical self-evaluation",
+          "essential": "How can a novice reduce the task without losing its defining feature?",
+          "reading": "Analyze a phrase using body, space, time and energy, with an explicit distinction between observation and judgment.",
+          "technique": "Combine the original movement with a deliberate contrast in critical self-evaluation; practice two clean eight-count phrases.",
+          "combination": "Phrase A (8 counts) states the motif; Phrase B (8 counts) contrasts level or pathway; Phrase A′ (8 counts) varies the motif; Phrase C (8 counts) resolves.",
+          "choreography": "Apply critical self-evaluation to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Write 150–250 words answering: How can a novice reduce the task without losing its defining feature? Include an observation, a technical explanation, and one revision to the phrase.",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a novice reduce the task without losing its defining feature?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        },
+        {
+          "title": "Unit 4: Creative synthesis",
+          "essential": "How does cultural context affect the meaning of this technique?",
+          "reading": "Synthesize your research, technique notes, and creative decisions in a written reflection.",
+          "technique": "Rehearse the complete phrase, pausing after each eight counts to check accuracy and recovery.",
+          "combination": "Link four eight-count phrases into a 32-count performance study, with two intentional transitions.",
+          "choreography": "Apply creative synthesis to Undercurrent's reach-and-gather motif. Document counts, direction, musical accent, and artistic intention.",
+          "assignment": "Final portfolio",
+          "assessment": "Academic: correct terminology and source awareness. Technical: pain-free control, consistent rhythm and repeatable transitions. Creative: intentional and legible variation. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How does cultural context affect the meaning of this technique?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; not machine-graded factual recall."
+          }
+        }
+      ]
+    }
+  ]
+}
