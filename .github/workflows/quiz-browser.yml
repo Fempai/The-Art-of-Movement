@@ -4,6 +4,8 @@ on:
     paths:
       - 'conservatory-course-reader.html'
       - 'tests/quiz-browser.spec.cjs'
+      - 'tests/audit-all-quizzes.cjs'
+      - 'curriculum/final-lessons/**'
       - '.github/workflows/quiz-browser.yml'
   workflow_dispatch:
 jobs:
@@ -15,6 +17,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Audit all 80 lesson quizzes
+        run: node tests/audit-all-quizzes.cjs
       - run: npm install --no-save @playwright/test
       - run: npx playwright install --with-deps chromium
       - name: Start local web server
