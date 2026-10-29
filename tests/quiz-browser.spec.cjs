@@ -78,8 +78,7 @@ for(const [name,fixture] of [['standard',standard],['alternate',legacy]]){
 test(name+' format grades, blocks partial submission, and saves retakes',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
  await page.goto(pageUrl);
- if(name==='standard')await page.locator('#course').selectOption({label:/^DNC101/});
- else await page.locator('#course').selectOption({label:/^MOV101/});
+ await page.locator('#course').selectOption({index:name==='standard'?1:0});
  const open=page.getByRole('button',{name:'Study here'}).first();
  await expect(open).toBeVisible();
  await open.click();
