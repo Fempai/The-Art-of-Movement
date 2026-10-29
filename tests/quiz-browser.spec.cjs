@@ -220,3 +220,16 @@ test('newest local result survives cloud-history lookup errors',async({page})=>{
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 2 / 4');
 });
+
+test('newer local quiz history remains visible without a signed-in account',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:3,total:4,completedAt:'2026-10-29T12:00:00Z'})));
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 3 / 4');
+ await page.reload();
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 3 / 4');
+});
