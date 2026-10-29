@@ -186,3 +186,18 @@ test('submitted quiz appears in Learning Progress with its latest score',async({
  await expect(page.locator('#records tr').filter({hasText:'MOV101-01'})).toContainText('4 / 4');
  await expect(page.locator('#records tr').filter({hasText:'MOV101-01'})).toContainText('This device');
 });
+
+test('progress dashboard ignores corrupt and out-of-range local records',async({page})=>{
+ await page.goto(pageUrl);
+ await page.evaluate(()=>{
+  localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:3,total:4,completedAt:'2026-10-29T12:00:00Z'}));
+  localStorage.setItem('aom-quiz-DNC101-01','{not-json');
+  localStorage.setItem('aom-quiz-CON101-01',JSON.stringify({lesson:'CON101-01',score:5,total:4,completedAt:'2026-10-29T12:00:00Z'}));
+  localStorage.setItem('aom-quiz-HIP101-01',JSON.stringify({lesson:'HIP101-01',score:-1,total:4,completedAt:'2026-10-29T12:00:00Z'}));
+ });
+ await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
+ await expect(page.locator('#summary')).toContainText('1 of 80 lessons have a recorded quiz attempt');
+ await expect(page.locator('#records tr')).toHaveCount(1);
+ await expect(page.locator('#records tr').first()).toContainText('MOV101-01');
+ await expect(page.locator('#records tr').first()).toContainText('3 / 4');
+});
