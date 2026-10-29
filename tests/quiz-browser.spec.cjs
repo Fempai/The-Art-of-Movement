@@ -97,6 +97,10 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
  await check.click();
  await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth((i+1)%4).check();
+ await check.click();
+ await expect(section.getByText(/Score: 0 \/ 4/)).toBeVisible();
+ for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
  await groups.nth(0).locator('input[type=radio]').nth(1).check();
  await check.click();
  await expect(section.getByText(/Score: 3 \/ 4/)).toBeVisible();
