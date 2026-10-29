@@ -45,6 +45,25 @@ The reader accepts four numbered questions, four A–D options per question, and
 | STG101-04 | 4 | 4 | BCAD | Standard format |
 | FLE101-01 | 4 | 4 | ABCD | Standard format |
 
-**Progress:** 36/80 lesson files inspected for quiz structure. **44 remain.** Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
+| FLE101-02 | 4 | 4 | BCAD | Standard format |
+| FLE101-03 | 4 | 4 | ACBD | Standard format |
+| FLE101-04 | 4 | 4 | BCAD | Standard format |
+| LMA201-01 | 4 | 4 | ABCD | Standard format |
+| LMA201-02 | 4 | 4 | BACD | Standard format |
+| LMA201-03 | 4 | 4 | ABCD | Standard format |
+| LMA201-04 | 4 | 4 | BCAD | Standard format |
+| PER201-01 | 4 | 4 | BCAD | Standard format |
+| PER201-02 | 4 | 4 | BCAD | Standard format |
+| PER201-03 | 4 | 4 | ABCD | Standard format |
+| PER201-04 | 4 | 4 | BCAD | Standard format |
+| RES501-01 | 4 | 4 | BACD | Standard format |
+| RES501-02 | 4 | 4 | ABCD | Standard format |
+| RES501-03 | 4 | 4 | BCAD | Standard format |
+| RES501-04 | 4 | 4 | BCAD | Standard format |
+| CMP502-01 | 4 | 4 | BCAD | Standard format |
+
+**Progress:** 52/80 lesson files inspected for quiz structure. **28 remain.** Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
 
 **Assessment-design flag:** CMP101-03 has all four correct answers in position A; HIP101-02 through HIP101-04 repeat BCAD. These structurally valid patterns are predictable and warrant question-bank revision before claiming assessment quality.
+
+**Additional design flag:** PER201-01 and PER201-02 repeat BCAD, as do RES501-03 and RES501-04. This is a review priority, not proof that the answer content is incorrect.
