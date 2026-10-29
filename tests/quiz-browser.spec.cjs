@@ -133,3 +133,20 @@ test('malformed quiz shows fallback without storing an attempt',async({page})=>{
  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
  expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
 });
+
+test('failed lesson download explains failure and permits retry',async({page})=>{
+ let requests=0;
+ await page.route('https://raw.githubusercontent.com/**',route=>{
+  requests++;
+  return route.fulfill({status:requests===1?503:200,contentType:'text/plain',body:standard});
+ });
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ const open=page.getByRole('button',{name:'Study here'}).first();
+ await open.click();
+ await expect(page.getByText(/Unable to load the in-site lesson: HTTP 503/)).toBeVisible();
+ await expect(open).toBeEnabled();
+ await open.click();
+ await expect(page.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
+ expect(requests).toBe(2);
+});
