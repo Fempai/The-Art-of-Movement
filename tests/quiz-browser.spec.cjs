@@ -78,15 +78,19 @@ for(const [name,fixture] of [['standard',standard],['alternate',legacy]]){
 test(name+' format grades, blocks partial submission, and saves retakes',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
  await page.goto(pageUrl);
+ if(name==='standard')await page.locator('#course').selectOption({label:/^DNC101/});
+ else await page.locator('#course').selectOption({label:/^MOV101/});
  const open=page.getByRole('button',{name:'Study here'}).first();
  await expect(open).toBeVisible();
  await open.click();
  const quiz=page.getByRole('heading',{name:'Interactive knowledge check'}).first();
  await expect(quiz).toBeVisible();
+ await expect(page.getByText(name==='standard'?'DNC101 — Lesson 01':'MOV101 — Lesson 01')).toBeVisible();
  const section=quiz.locator('xpath=..');
  const check=section.getByRole('button',{name:'Check my answers'});
  await check.click();
  await expect(section.getByText(/4 unanswered/)).toBeVisible();
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
  const groups=section.locator('fieldset');
  await expect(groups).toHaveCount(4);
  for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
@@ -97,5 +101,6 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  await expect(section.getByText(/Score: 3 \/ 4/)).toBeVisible();
  const saved=await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).map(k=>JSON.parse(localStorage.getItem(k))));
  expect(saved.some(x=>x.score===3&&x.total===4)).toBeTruthy();
+ expect(saved.find(x=>x.score===3)?.lesson).toBe(name==='standard'?'DNC101-01':'MOV101-01');
 });
 }
