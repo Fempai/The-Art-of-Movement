@@ -201,3 +201,12 @@ test('progress dashboard ignores corrupt and out-of-range local records',async({
  await expect(page.locator('#records tr').first()).toContainText('MOV101-01');
  await expect(page.locator('#records tr').first()).toContainText('3 / 4');
 });
+
+test('local quiz score is not replaced by stale cloud history',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:'2026-10-29T12:00:00Z'})));
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 4 / 4');
+});
