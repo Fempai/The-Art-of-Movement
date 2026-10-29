@@ -122,3 +122,14 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  await expect(page.locator('.lesson-panel').getByText(/Previous.*quiz.*3 \/ 4/i)).toBeVisible();
 });
 }
+
+test('malformed quiz shows fallback without storing an attempt',async({page})=>{
+ const malformed='# Incomplete lesson\\n## Knowledge check\\n**1. Missing choices?**\\nA. One\\nB. Two\\n## Independent assignment\\nReview.';
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
+ await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
+});
