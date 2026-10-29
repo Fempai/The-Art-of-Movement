@@ -108,10 +108,10 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  await groups.nth(0).locator('input[type=radio]').nth(1).check();
  await check.click();
  await expect(section.getByText(/Score: 3 \/ 4/)).toBeVisible();
- await expect(section.getByText(/First rationale\./)).toBeVisible();
- await expect(section.getByText(/Second rationale\./)).toBeVisible();
- await expect(section.getByText(/Third rationale\./)).toBeVisible();
- await expect(section.getByText(/Fourth rationale\./)).toBeVisible();
+ await expect(section.locator('[aria-live="polite"]').getByText(/First rationale\./)).toBeVisible();
+ await expect(section.locator('[aria-live="polite"]').getByText(/Second rationale\./)).toBeVisible();
+ await expect(section.locator('[aria-live="polite"]').getByText(/Third rationale\./)).toBeVisible();
+ await expect(section.locator('[aria-live="polite"]').getByText(/Fourth rationale\./)).toBeVisible();
  const saved=await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).map(k=>JSON.parse(localStorage.getItem(k))));
  expect(saved.some(x=>x.score===3&&x.total===4)).toBeTruthy();
  expect(saved.find(x=>x.score===3)?.lesson).toBe(name==='standard'?'DNC101-01':'MOV101-01');
