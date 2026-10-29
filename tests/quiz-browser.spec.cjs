@@ -78,12 +78,14 @@ for(const [name,fixture] of [['standard',standard],['alternate',legacy]]){
 test(name+' format grades, blocks partial submission, and saves retakes',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
  await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
  await page.locator('#course').selectOption({index:name==='standard'?1:0});
  const open=page.getByRole('button',{name:'Study here'}).first();
  await expect(open).toBeVisible();
  await open.click();
  const quiz=page.getByRole('heading',{name:'Interactive knowledge check'}).first();
  await expect(quiz).toBeVisible();
+ await expect(page.locator('.lesson-panel fieldset')).toHaveCount(4);
  await expect(page.getByText(name==='standard'?'DNC101 — Lesson 01':'MOV101 — Lesson 01')).toBeVisible();
  const section=quiz.locator('xpath=..');
  const check=section.getByRole('button',{name:'Check my answers'});
