@@ -243,3 +243,28 @@ test('corrupt local history is ignored rather than displayed as a score',async({
  await expect(page.locator('[data-quiz-history]')).not.toContainText('Previous local quiz:');
  await expect(page.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
 });
+
+test('late response from an earlier lesson cannot overwrite the latest lesson',async({page})=>{
+ let releaseFirst;
+ const firstGate=new Promise(resolve=>{releaseFirst=resolve});
+ let firstRequested;
+ const firstSeen=new Promise(resolve=>{firstRequested=resolve});
+ await page.route('https://raw.githubusercontent.com/**',async route=>{
+  const url=route.request().url();
+  if(url.endsWith('/MOV101-01.md')){
+   firstRequested();
+   await firstGate;
+   await route.fulfill({status:200,contentType:'text/plain',body:'# Stale lesson one'});
+  }else await route.fulfill({status:200,contentType:'text/plain',body:standard});
+ });
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ const buttons=page.getByRole('button',{name:'Study here'});
+ await buttons.nth(0).click();
+ await firstSeen;
+ await buttons.nth(1).click();
+ await expect(page.getByRole('heading',{name:'MOV101 — Lesson 02'})).toBeVisible();
+ releaseFirst();
+ await expect(page.getByRole('heading',{name:'MOV101 — Lesson 02'})).toBeVisible();
+ await expect(page.getByText('Stale lesson one')).toHaveCount(0);
+});
