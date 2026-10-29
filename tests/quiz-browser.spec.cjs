@@ -233,3 +233,13 @@ test('newer local quiz history remains visible without a signed-in account',asyn
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 3 / 4');
 });
+
+test('corrupt local history is ignored rather than displayed as a score',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:9,total:4,completedAt:'not-a-date'})));
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.locator('[data-quiz-history]')).not.toContainText('Previous local quiz:');
+ await expect(page.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
+});
