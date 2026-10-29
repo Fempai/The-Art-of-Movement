@@ -124,7 +124,7 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
 }
 
 test('malformed quiz shows fallback without storing an attempt',async({page})=>{
- const malformed='# Incomplete lesson\\n## Knowledge check\\n**1. Missing choices?**\\nA. One\\nB. Two\\n## Independent assignment\\nReview.';
+ const malformed=['# Incomplete lesson','## Knowledge check','**1. Missing choices?**','A. One','B. Two','## Independent assignment','Review.'].join(String.fromCharCode(10));
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(20);
