@@ -94,6 +94,10 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
  const groups=section.locator('fieldset');
  await expect(groups).toHaveCount(4);
+ await groups.nth(0).locator('input[type=radio]').first().check();
+ await check.click();
+ await expect(section.getByText(/3 unanswered/)).toBeVisible();
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
  for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
  await check.click();
  await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
@@ -111,5 +115,10 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  const saved=await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).map(k=>JSON.parse(localStorage.getItem(k))));
  expect(saved.some(x=>x.score===3&&x.total===4)).toBeTruthy();
  expect(saved.find(x=>x.score===3)?.lesson).toBe(name==='standard'?'DNC101-01':'MOV101-01');
+ await page.reload();
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:name==='standard'?1:0});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.locator('.lesson-panel').getByText(/Previous.*quiz.*3 \/ 4/i)).toBeVisible();
 });
 }
