@@ -62,8 +62,39 @@ The reader accepts four numbered questions, four A–D options per question, and
 | RES501-04 | 4 | 4 | BCAD | Standard format |
 | CMP502-01 | 4 | 4 | BCAD | Standard format |
 
-**Progress:** 52/80 lesson files inspected for quiz structure. **28 remain.** Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
+| CMP502-02 | 4 | 4 | BCAD | Standard format |
+| CMP502-03 | 4 | 4 | ACBD | Standard format |
+| CMP502-04 | 4 | 4 | ABCD | Standard format |
+| SCI503-01 | 4 | 4 | ABCD | Standard format |
+| SCI503-02 | 4 | 4 | BCAD | Standard format |
+| SCI503-03 | 4 | 4 | ABCD | Standard format |
+| SCI503-04 | 4 | 4 | BCAD | Standard format |
+| EST504-01 | 4 | 4 | BCAD | Standard format |
+| EST504-02 | 4 | 4 | BCAD | Standard format |
+| EST504-03 | 4 | 4 | BCAD | Standard format |
+| EST504-04 | 4 | 4 | BCAD | Standard format |
+| SIT505-01 | 4 | 4 | ABCD | Standard format |
+| SIT505-02 | 4 | 4 | BCAD | Standard format |
+| SIT505-03 | 4 | 4 | BCAD | Standard format |
+| SIT505-04 | 4 | 4 | BCAD | Standard format |
+| PRO701-01 | 4 | 4 | ABCD | Standard format |
+| PRO701-02 | 4 | 4 | BCAD | Standard format |
+| PRO701-03 | 4 | 4 | ABCD | Standard format |
+| PRO701-04 | 4 | 4 | BCAD | Standard format |
+| PRO702-01 | 4 | 4 | ABCD | Standard format |
+| PRO702-02 | 4 | 4 | BCAD | Standard format |
+| PRO702-03 | 4 | 4 | ABCD | Standard format |
+| PRO702-04 | 4 | 4 | BCAD | Standard format |
+| PRO703-01 | 4 | 4 | ABCD | Standard format |
+| PRO703-02 | 4 | 4 | BCAD | Standard format |
+| PRO703-03 | 4 | 4 | ABCD | Standard format |
+| PRO703-04 | 4 | 4 | ABCD | Standard format |
+| CON101-04 | 4 | 4 | BCAD | Standard format |
+
+**Progress:** 80/80 lesson files inspected for quiz structure. **0 remain.** All 79 standard-format lessons passed structural checks; MOV101-01 uses the separately supported alternate format. This is a static source inspection only, not an end-to-end browser execution test. Correct-answer letter distributions include repetitive patterns; the audit does not establish balanced assessment design. Follow-up must verify question wording, answer correctness, explanations, source accuracy, and real browser grading, then document outcomes without equating structural parsing with academic validation.
 
 **Assessment-design flag:** CMP101-03 has all four correct answers in position A; HIP101-02 through HIP101-04 repeat BCAD. These structurally valid patterns are predictable and warrant question-bank revision before claiming assessment quality.
 
 **Additional design flag:** PER201-01 and PER201-02 repeat BCAD, as do RES501-03 and RES501-04. This is a review priority, not proof that the answer content is incorrect.
+
+**Final structural findings (2026-10-29):** All 80 lesson files were inspected. Every standard-format quiz contains four numbered questions with A–D choices and four matching numbered answer explanations. The alternate MOV101-01 lesson has four question/answer pairs in its own format. Numerous lessons repeat ABCD or BCAD answer-key sequences, especially advanced courses, and need deliberate assessment-design review. **Not yet verified:** semantic correctness of answers, citations, accessible keyboard/browser grading, logged-in Supabase synchronization, or physical dance mastery. Do not label the curriculum academically finalized on the basis of this audit.
