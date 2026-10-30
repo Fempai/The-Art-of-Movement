@@ -187,7 +187,9 @@ test('submitted quiz appears in Learning Progress with its latest score',async({
  await page.getByRole('button',{name:'Study here'}).first().click();
  const panel=page.locator('.lesson-panel');
  await expect(panel.locator('fieldset')).toHaveCount(4);
- for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth(i).check();
+ const answerLetters=[...week4Fixture.matchAll(/\*\*([1-4])\. ([ABCD])\.\*\*/g)].map(m=>m[2]);
+ expect(answerLetters).toHaveLength(4);
+ for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth('ABCD'.indexOf(answerLetters[i])).check();
  await panel.getByRole('button',{name:'Check my answers'}).click();
  await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
  await page.getByRole('link',{name:'Learning Progress'}).click();
