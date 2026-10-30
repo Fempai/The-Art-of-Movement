@@ -29,13 +29,14 @@ jobs:
             if curl -fsS http://127.0.0.1:8765/conservatory-course-reader.html > /dev/null; then break; fi
             sleep 1
           done
-          npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=github,line --trace=retain-on-failure --screenshot=only-on-failure
-      - name: Upload failure diagnostics
-        if: failure()
+          PLAYWRIGHT_JUNIT_OUTPUT_FILE=playwright-results.xml npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=github,line,junit --trace=retain-on-failure --screenshot=only-on-failure
+      - name: Upload browser test report and diagnostics
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: academy-playwright-diagnostics
           path: |
             test-results/
             playwright-report/
+            playwright-results.xml
           if-no-files-found: ignore
