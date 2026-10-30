@@ -25,9 +25,9 @@
 
 ## Written lesson status
 
-**Weeks 1–4:** BEL101-01 through BEL101-04 provide the foundation units. These are course-level foundation lessons, not exact one-to-one transcriptions of the original videos; the Week 4 snake-arms/chest-circles topic still needs a dedicated video-specific technical walkthrough.
+**Weeks 1–4:** BEL101-01 through BEL101-04 provide foundation units, not exact transcriptions of the original videos. The original Week 4 snake-arms/chest-circles topic also has a dedicated original learner-facing study at `curriculum/final-lessons/BEL101-W04.md`. Its comparison with the specific user-supplied video remains pending until the exact link is restored.
 
-**Weeks 5–16:** Individual learner-facing lesson files `curriculum/final-lessons/BEL101-W05.md` through `BEL101-W16.md` are now written. Each contains a guided eight-count practice, a modification, self-correction, four multiple-choice knowledge checks with answers, and an independent assignment. These are original beginner exercises aligned to the weekly topics, **not verified demonstrations of the original videos**.
+**Weeks 4–16:** Dedicated learner-facing lesson files (Week 4 at `BEL101-W04.md`; Weeks 5–16 at `curriculum/final-lessons/BEL101-W05.md` through `BEL101-W16.md`) are now written. Each contains a guided eight-count practice, a modification, self-correction, four multiple-choice knowledge checks with answers, and an independent assignment. These are original beginner exercises aligned to the weekly topics, **not verified demonstrations of the original videos**.
 
 **Not yet complete:** Restore exact original private Drive links, connect all 16 weekly lessons to the interactive reader/schedule, verify live playback and assessment behavior, and independently review technical and cultural source claims. The 16-week written draft does not constitute a fully tested interactive course.
 
