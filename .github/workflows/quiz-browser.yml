@@ -19,6 +19,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Check browser test and audit script syntax
+        run: |
+          node --check tests/quiz-browser.spec.cjs
+          node --check tests/audit-all-quizzes.cjs
       - name: Audit all 80 lesson quizzes
         run: node tests/audit-all-quizzes.cjs
       - run: npm install --no-save @playwright/test
