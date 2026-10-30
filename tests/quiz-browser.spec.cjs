@@ -541,3 +541,24 @@ test('quiz answer explanations remain available after grading',async({page})=>{
   await expect(section.getByText(new RegExp(reason.replace('.','\\.')))).toBeVisible();
  }
 });
+
+test('BEL101 Friday video links and weekly quiz render in the reader',async({page})=>{
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
+ await expect(page.getByRole('heading',{name:'Original 16-week Friday belly-dance program'})).toBeVisible();
+ const links=page.locator('a[href*="drive.google.com/file/d/"]');
+ await expect(links).toHaveCount(17);
+ await expect(page.getByText('Progressive Forward Rolls')).toBeVisible();
+ const weekly=page.getByRole('link',{name:/Week 4: Snake Arms and Chest Circles/});
+ await expect(weekly).toBeVisible();
+ await expect(page.getByRole('link',{name:/Week 16: Final/})).toBeVisible();
+ const week4=weekly.locator('xpath=..').getByRole('button',{name:'Study here'});
+ await week4.click();
+ await expect(page.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
+ const panel=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W04/})});
+ await expect(panel.locator('fieldset')).toHaveCount(4);
+ for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth(i).check();
+ await panel.getByRole('button',{name:'Check my answers'}).click();
+ await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
+});
