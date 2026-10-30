@@ -180,6 +180,77 @@
       ]
     },
     {
+      "id": "BEL101",
+      "title": "Belly Dance Foundations",
+      "stage": "Foundation",
+      "theme": "Grounding, hip slides, gentle circles, shimmy basics, rhythmic accents, and cultural context",
+      "outcome": "Demonstrate small-range belly dance foundation drills while identifying support, timing, safe modifications, and cultural distinctions",
+      "practice": "Practice parallel grounding, gentle hip isolations, and a simple original eight-count combination",
+      "capstone": "Eight-count belly dance foundation study with cultural-context reflection",
+      "units": [
+        {
+          "title": "Unit 1: Grounding and hip isolation",
+          "essential": "How can you shift support without forcing the knees?",
+          "reading": "Read the matching BEL101 learner-facing lesson; distinguish original drills from historically attributed styles and document source limitations.",
+          "technique": "Practice a small parallel stance and comfortable right-center-left-center pelvic emphasis.",
+          "combination": "Perform one eight-count small-range study, repeat with a single change in accent, and document the supporting foot or surface.",
+          "choreography": "Build an original short phrase without attributing it to a specific cultural lineage.",
+          "assignment": "Write an eight-count movement score and 150–250 word reflection with technical corrections and cultural source boundaries.",
+          "assessment": "Academic: correct terminology and cultural care. Technical: repeatable comfortable range and rhythm. Creative: intentional accents and self-correction. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can you shift support without forcing the knees?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; the corresponding Markdown lesson contains four multiple-choice knowledge checks."
+          }
+        },
+        {
+          "title": "Unit 2: Hip slides and circles",
+          "essential": "How do lateral and circular pathways differ?",
+          "reading": "Read the matching BEL101 learner-facing lesson; distinguish original drills from historically attributed styles and document source limitations.",
+          "technique": "Trace small hip slides and comfortable pelvic circles in both directions.",
+          "combination": "Perform one eight-count small-range study, repeat with a single change in accent, and document the supporting foot or surface.",
+          "choreography": "Build an original short phrase without attributing it to a specific cultural lineage.",
+          "assignment": "Write an eight-count movement score and 150–250 word reflection with technical corrections and cultural source boundaries.",
+          "assessment": "Academic: correct terminology and cultural care. Technical: repeatable comfortable range and rhythm. Creative: intentional accents and self-correction. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How do lateral and circular pathways differ?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; the corresponding Markdown lesson contains four multiple-choice knowledge checks."
+          }
+        },
+        {
+          "title": "Unit 3: Shimmy and pulse",
+          "essential": "How can a small alternating action relate to a musical pulse?",
+          "reading": "Read the matching BEL101 learner-facing lesson; distinguish original drills from historically attributed styles and document source limitations.",
+          "technique": "Practice slow alternating-knee pulses or a seated rhythmic adaptation.",
+          "combination": "Perform one eight-count small-range study, repeat with a single change in accent, and document the supporting foot or surface.",
+          "choreography": "Build an original short phrase without attributing it to a specific cultural lineage.",
+          "assignment": "Write an eight-count movement score and 150–250 word reflection with technical corrections and cultural source boundaries.",
+          "assessment": "Academic: correct terminology and cultural care. Technical: repeatable comfortable range and rhythm. Creative: intentional accents and self-correction. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can a small alternating action relate to a musical pulse?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; the corresponding Markdown lesson contains four multiple-choice knowledge checks."
+          }
+        },
+        {
+          "title": "Unit 4: Combination and cultural context",
+          "essential": "How can you describe your own phrase without inventing a cultural lineage?",
+          "reading": "Read the matching BEL101 learner-facing lesson; distinguish original drills from historically attributed styles and document source limitations.",
+          "technique": "Combine slides, small circles, and rhythmic accents in an original eight-count study.",
+          "combination": "Perform one eight-count small-range study, repeat with a single change in accent, and document the supporting foot or surface.",
+          "choreography": "Build an original short phrase without attributing it to a specific cultural lineage.",
+          "assignment": "Write an eight-count movement score and 150–250 word reflection with technical corrections and cultural source boundaries.",
+          "assessment": "Academic: correct terminology and cultural care. Technical: repeatable comfortable range and rhythm. Creative: intentional accents and self-correction. No pass/fail on extreme range.",
+          "quiz": {
+            "q": "How can you describe your own phrase without inventing a cultural lineage?",
+            "type": "reflection",
+            "grading": "Instructor/self-review using criteria; the corresponding Markdown lesson contains four multiple-choice knowledge checks."
+          }
+        }
+      ]
+    },
+    {
       "id": "CON101",
       "title": "Contemporary & Floorwork",
       "stage": "Foundation",
