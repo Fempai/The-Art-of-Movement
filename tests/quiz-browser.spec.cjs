@@ -548,7 +548,7 @@ test('BEL101 Friday video links and weekly quiz render in the reader',async({pag
  await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
  await expect(page.getByRole('heading',{name:'Original 16-week Friday belly-dance program'})).toBeVisible();
  const links=page.locator('a[href*="drive.google.com/file/d/"]');
- await expect(links).toHaveCount(17);
+ await expect(links).toHaveCount(20);
  await expect(page.getByText('Progressive Forward Rolls')).toBeVisible();
  const weekly=page.getByRole('link',{name:/Week 4: Snake Arms and Chest Circles/});
  await expect(weekly).toBeVisible();
