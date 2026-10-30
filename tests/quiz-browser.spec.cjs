@@ -283,3 +283,25 @@ test('progress dashboard displays valid local history when Supabase CDN is block
  await expect(page.locator('#cloud')).toContainText('Cloud results unavailable');
  await expect(page.locator('#refresh')).toBeEnabled();
 });
+
+test('progress dashboard ignores malformed cloud history when the SDK cannot load',async({page})=>{
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
+ await expect(page.locator('#summary')).toContainText('0 of 80 lessons');
+ await expect(page.locator('#cloud')).toContainText('Cloud results unavailable');
+ await expect(page.locator('#refresh')).toBeEnabled();
+});
+test('progress dashboard updates after another tab saves a quiz attempt',async({browser})=>{
+ const context=await browser.newContext();
+ const dashboard=await context.newPage();
+ const writer=await context.newPage();
+ try{
+  await dashboard.route('https://esm.sh/**',route=>route.abort());
+  await dashboard.goto('http://127.0.0.1:8765/conservatory-progress.html');
+  await expect(dashboard.locator('#refresh')).toBeEnabled();
+  await writer.goto('http://127.0.0.1:8765/conservatory-course-reader.html');
+  await writer.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:new Date().toISOString()})));
+  await expect(dashboard.locator('#summary')).toContainText('1 of 80 lessons');
+  await expect(dashboard.locator('#records')).toContainText('MOV101-01');
+ }finally{await context.close()}
+});
