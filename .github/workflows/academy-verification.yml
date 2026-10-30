@@ -25,10 +25,19 @@ jobs:
           python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/aom-http.log 2>&1 &
           SERVER_PID=$!
           trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          SERVER_READY=0
           for i in $(seq 1 30); do
-            if curl -fsS http://127.0.0.1:8765/conservatory-course-reader.html > /dev/null; then break; fi
+            if curl -fsS http://127.0.0.1:8765/conservatory-course-reader.html > /dev/null; then
+              SERVER_READY=1
+              break
+            fi
             sleep 1
           done
+          if [ "$SERVER_READY" -ne 1 ]; then
+            echo "::error::Academy HTTP server did not become ready"
+            cat /tmp/aom-http.log
+            exit 1
+          fi
           PLAYWRIGHT_JUNIT_OUTPUT_FILE=playwright-results.xml npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=github,line,junit --trace=retain-on-failure --screenshot=only-on-failure
       - name: Summarize browser test results
         if: always()
