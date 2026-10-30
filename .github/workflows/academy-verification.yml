@@ -30,6 +30,26 @@ jobs:
             sleep 1
           done
           PLAYWRIGHT_JUNIT_OUTPUT_FILE=playwright-results.xml npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=github,line,junit --trace=retain-on-failure --screenshot=only-on-failure
+      - name: Summarize browser test results
+        if: always()
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const file='playwright-results.xml';
+          const out=process.env.GITHUB_STEP_SUMMARY;
+          if(!fs.existsSync(file)){
+            fs.appendFileSync(out,'## Academy browser verification\\nNo Playwright JUnit report was produced. Check earlier workflow steps.\\n');
+            process.exit(0);
+          }
+          const xml=fs.readFileSync(file,'utf8');
+          const suites=[...xml.matchAll(/<testsuite\\b[^>]*>/g)].map(x=>x[0]);
+          const get=(tag,key)=>Number((tag.match(new RegExp(key+'="(\\\\d+)"'))||[])[1]||0);
+          const totals=suites.reduce((acc,tag)=>{for(const k of ['tests','failures','errors','skipped'])acc[k]+=get(tag,k);return acc},{tests:0,failures:0,errors:0,skipped:0});
+          const failed=[...xml.matchAll(/<testcase\\b[^>]*name="([^"]+)"[^>]*>[\\s\\S]*?<failure\\b/g)].map(x=>x[1]);
+          const lines=['## Academy browser verification','Tests: '+totals.tests+' | Failures: '+totals.failures+' | Errors: '+totals.errors+' | Skipped: '+totals.skipped];
+          if(failed.length)lines.push('### Failed cases',...failed.map(x=>'- '+x));
+          fs.appendFileSync(out,lines.join('\\n')+'\\n');
+          NODE
       - name: Upload browser test report and diagnostics
         if: always()
         uses: actions/upload-artifact@v4
