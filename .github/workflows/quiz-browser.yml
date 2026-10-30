@@ -71,7 +71,7 @@ jobs:
           PLAYWRIGHT_JSON_OUTPUT_FILE: test-results/quiz-results.json
         run: |
           mkdir -p test-results
-          npx playwright test tests/quiz-browser.spec.cjs --browser chromium --reporter=line,json --trace=retain-on-failure --screenshot=only-on-failure --workers=1 --output=test-results
+          npx playwright test tests/quiz-browser.spec.cjs --browser chromium --reporter=line,json --trace=retain-on-failure --workers=1 --output=test-results
       - name: Publish quiz regression summary
         if: always()
         run: |
