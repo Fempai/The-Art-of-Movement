@@ -338,3 +338,28 @@ test('progress dashboard rejects invalid quiz timestamps and mismatched storage 
  await expect(page.locator('#records')).not.toContainText('MOV101-02');
  await expect(page.locator('#refresh')).toBeEnabled();
 });
+
+test('quiz does not claim a local save when browser storage rejects writes',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.addInitScript(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(String(key).startsWith('aom-quiz-'))throw new DOMException('Storage blocked','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:1});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ const quiz=page.getByRole('heading',{name:'Interactive knowledge check'}).first();
+ const section=quiz.locator('xpath=..');
+ const groups=section.locator('fieldset');
+ await expect(groups).toHaveCount(4);
+ for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
+ await section.getByRole('button',{name:'Check my answers'}).click();
+ await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ await expect(section).toContainText(/Not saved|could not be saved|storage was unavailable/i);
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
+});
