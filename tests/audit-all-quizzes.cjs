@@ -40,3 +40,5 @@ assert.deepEqual(errors,[],'Quiz compatibility errors');
 const repeated=Object.entries(keys).filter(([,key])=>new Set(key).size===1);
 console.log('PASS: 80/80 quiz structures compatible; '+repeated.length+' all-same-letter keys flagged for editorial review.');
 if(repeated.length)console.warn('EDITORIAL REVIEW (not a structural failure): '+repeated.map(([id,key])=>id+' ['+key+']').join(', '));
+const distribution=Object.fromEntries('ABCD'.split('').map(letter=>[letter,Object.values(keys).reduce((count,key)=>count+[...key].filter(answer=>answer===letter).length,0)]));
+console.log('Answer-key distribution across 320 questions: '+Object.entries(distribution).map(([letter,count])=>letter+'='+count).join(', '));
