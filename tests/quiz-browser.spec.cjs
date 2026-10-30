@@ -413,9 +413,10 @@ test('quiz save and cloud sync updates expose accessible status regions',async({
  await section.getByRole('button',{name:'Check my answers'}).click();
  await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
  const statuses=section.getByRole('status');
- await expect(statuses).toHaveCount(2);
- await expect(statuses.nth(0)).toContainText('Saved on this device.');
- await expect(statuses.nth(1)).toContainText(/Saved on this device|Saved locally|Cloud|cloud/i);
+ await expect(statuses).toHaveCount(3);
+ await expect(statuses.nth(0)).toContainText('Score: 4 / 4');
+ await expect(statuses.nth(1)).toContainText('Saved on this device.');
+ await expect(statuses.nth(2)).toContainText(/Saved on this device|Saved locally|Cloud|cloud/i);
 });
 
 test('quiz detects unreadable storage after an apparently successful write',async({page})=>{
