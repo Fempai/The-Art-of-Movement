@@ -38,17 +38,17 @@ jobs:
           const file='playwright-results.xml';
           const out=process.env.GITHUB_STEP_SUMMARY;
           if(!fs.existsSync(file)){
-            fs.appendFileSync(out,'## Academy browser verification\\nNo Playwright JUnit report was produced. Check earlier workflow steps.\\n');
+            fs.appendFileSync(out,'## Academy browser verification\nNo Playwright JUnit report was produced. Check earlier workflow steps.\n');
             process.exit(0);
           }
           const xml=fs.readFileSync(file,'utf8');
-          const suites=[...xml.matchAll(/<testsuite\\b[^>]*>/g)].map(x=>x[0]);
-          const get=(tag,key)=>Number((tag.match(new RegExp(key+'="(\\\\d+)"'))||[])[1]||0);
+          const suites=[...xml.matchAll(/<testsuite\b[^>]*>/g)].map(x=>x[0]);
+          const get=(tag,key)=>Number((tag.match(new RegExp(key+'="(\\d+)"'))||[])[1]||0);
           const totals=suites.reduce((acc,tag)=>{for(const k of ['tests','failures','errors','skipped'])acc[k]+=get(tag,k);return acc},{tests:0,failures:0,errors:0,skipped:0});
-          const failed=[...xml.matchAll(/<testcase\\b[^>]*name="([^"]+)"[^>]*>[\\s\\S]*?<failure\\b/g)].map(x=>x[1]);
+          const failed=[...xml.matchAll(/<testcase\b[^>]*name="([^"]+)"[^>]*>[\s\S]*?<failure\b/g)].map(x=>x[1]);
           const lines=['## Academy browser verification','Tests: '+totals.tests+' | Failures: '+totals.failures+' | Errors: '+totals.errors+' | Skipped: '+totals.skipped];
           if(failed.length)lines.push('### Failed cases',...failed.map(x=>'- '+x));
-          fs.appendFileSync(out,lines.join('\\n')+'\\n');
+          fs.appendFileSync(out,lines.join('\n')+'\n');
           NODE
       - name: Upload browser test report and diagnostics
         if: always()
