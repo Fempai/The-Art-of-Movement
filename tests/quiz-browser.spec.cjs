@@ -1,5 +1,15 @@
 const {test,expect}=require('@playwright/test');
 const pageUrl='http://127.0.0.1:8765/conservatory-course-reader.html';
+test('course catalog initializes with all 20 courses',async({page})=>{
+ const errors=[];
+ page.on('pageerror',error=>errors.push(error.message));
+ page.on('console',message=>{if(message.type()==='error')errors.push(message.text())});
+ const catalog=[];
+ page.on('response',response=>{if(response.url().includes('COURSE_LESSONS_AND_SOURCES.json'))catalog.push(response.status()+' '+response.url())});
+ await page.goto(pageUrl);
+ await expect.poll(async()=>({count:await page.locator('#course option').count(),units:await page.locator('#units').innerText(),errors,catalog}),{timeout:8000}).toMatchObject({count:20});
+});
+
 const standard=`# Test lesson
 ## Knowledge check
 **1. First?**
