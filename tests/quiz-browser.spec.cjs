@@ -86,7 +86,7 @@ D. Yes
 **Scoring:** Review missed answers.`;
 for(const [name,fixture] of [['standard',standard],['alternate',legacy]]){
 test(name+' format grades, blocks partial submission, and saves retakes',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:name==='standard'?1:0});
@@ -135,7 +135,7 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
 
 test('malformed quiz shows fallback without storing an attempt',async({page})=>{
  const malformed=['# Incomplete lesson','## Knowledge check','**1. Missing choices?**','A. One','B. Two','## Independent assignment','Review.'].join(String.fromCharCode(10));
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
@@ -146,7 +146,7 @@ test('malformed quiz shows fallback without storing an attempt',async({page})=>{
 
 test('failed lesson download explains failure and permits retry',async({page})=>{
  let requests=0;
- await page.route('https://raw.githubusercontent.com/**',route=>{
+ await page.route('**/curriculum/final-lessons/**',route=>{
   requests++;
   return route.fulfill({status:requests===1?503:200,contentType:'text/plain',body:standard});
  });
@@ -162,7 +162,7 @@ test('failed lesson download explains failure and permits retry',async({page})=>
 });
 
 test('quiz choices remain isolated when a lesson is closed and reopened',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  const open=page.getByRole('button',{name:'Study here'}).first();
@@ -181,7 +181,7 @@ test('quiz choices remain isolated when a lesson is closed and reopened',async({
 });
 
 test('submitted quiz appears in Learning Progress with its latest score',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
@@ -213,7 +213,7 @@ test('progress dashboard ignores corrupt and out-of-range local records',async({
 });
 
 test('local quiz score is not replaced by stale cloud history',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:'2026-10-29T12:00:00Z'})));
@@ -222,7 +222,7 @@ test('local quiz score is not replaced by stale cloud history',async({page})=>{
 });
 
 test('newest local result survives cloud-history lookup errors',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:2,total:4,completedAt:'2026-10-29T12:00:00Z'})));
@@ -232,7 +232,7 @@ test('newest local result survives cloud-history lookup errors',async({page})=>{
 });
 
 test('newer local quiz history remains visible without a signed-in account',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:3,total:4,completedAt:'2026-10-29T12:00:00Z'})));
@@ -245,7 +245,7 @@ test('newer local quiz history remains visible without a signed-in account',asyn
 });
 
 test('corrupt local history is ignored rather than displayed as a score',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:9,total:4,completedAt:'not-a-date'})));
@@ -259,7 +259,7 @@ test('late response from an earlier lesson cannot overwrite the latest lesson',a
  const firstGate=new Promise(resolve=>{releaseFirst=resolve});
  let firstRequested;
  const firstSeen=new Promise(resolve=>{firstRequested=resolve});
- await page.route('https://raw.githubusercontent.com/**',async route=>{
+ await page.route('**/curriculum/final-lessons/**',async route=>{
   const url=route.request().url();
   if(url.endsWith('/MOV101-01.md')){
    firstRequested();
@@ -350,7 +350,7 @@ test('progress dashboard rejects invalid quiz timestamps and mismatched storage 
 });
 
 test('quiz does not claim a local save when browser storage rejects writes',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.addInitScript(()=>{
   const original=Storage.prototype.setItem;
@@ -375,7 +375,7 @@ test('quiz does not claim a local save when browser storage rejects writes',asyn
 });
 
 test('quiz detects storage that silently drops a saved result',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.addInitScript(()=>{
   const original=Storage.prototype.setItem;
@@ -400,7 +400,7 @@ test('quiz detects storage that silently drops a saved result',async({page})=>{
 });
 
 test('quiz save and cloud sync updates expose accessible status regions',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
@@ -420,7 +420,7 @@ test('quiz save and cloud sync updates expose accessible status regions',async({
 });
 
 test('quiz detects unreadable storage after an apparently successful write',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.addInitScript(()=>{
   const original=Storage.prototype.getItem;
@@ -445,7 +445,7 @@ test('quiz detects unreadable storage after an apparently successful write',asyn
 
 test('duplicate answer-key entries cannot produce a graded quiz',async({page})=>{
  const duplicate=standard.replace('**4. D.** Fourth rationale.','**4. D.** Fourth rationale.\n**4. A.** Conflicting rationale.');
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
@@ -455,7 +455,7 @@ test('duplicate answer-key entries cannot produce a graded quiz',async({page})=>
 
 test('duplicate answer choices cannot produce a graded quiz',async({page})=>{
  const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B. Yes\nC. Maybe\nD. Later');
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
@@ -466,7 +466,7 @@ test('duplicate answer choices cannot produce a graded quiz',async({page})=>{
 
 test('blank answer choices cannot produce a graded quiz',async({page})=>{
  const blank=standard.replace('B. No\nC. Maybe\nD. Later','B.    \nC. Maybe\nD. Later');
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:blank}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:blank}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
@@ -477,7 +477,7 @@ test('blank answer choices cannot produce a graded quiz',async({page})=>{
 
 test('answer choices differing only by capitalization cannot be graded',async({page})=>{
  const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B. yes\nC. Maybe\nD. Later');
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
@@ -488,7 +488,7 @@ test('answer choices differing only by capitalization cannot be graded',async({p
 
 test('answer choices differing only by surrounding whitespace cannot be graded',async({page})=>{
  const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B.  Yes  \nC. Maybe\nD. Later');
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
@@ -502,7 +502,7 @@ for(const [label,fixture] of [
  ['blank answer explanation',standard.replace('**1. A.** First rationale.','**1. A.**    ')]
 ]){
  test(label+' cannot produce an interactive graded quiz',async({page})=>{
-  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
+  await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
   await page.goto(pageUrl);
   await expect(page.locator('#course option')).toHaveCount(21);
   await page.locator('#course').selectOption({index:1});
@@ -514,7 +514,7 @@ for(const [label,fixture] of [
 
 test('out-of-order answer keys cannot produce an interactive graded quiz',async({page})=>{
  const malformed=standard.replace('**1. A.** First rationale.\n**2. B.** Second rationale.','**2. B.** Second rationale.\n**1. A.** First rationale.');
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
@@ -524,7 +524,7 @@ test('out-of-order answer keys cannot produce an interactive graded quiz',async(
 });
 
 test('quiz answer explanations remain available after grading',async({page})=>{
- await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('**/curriculum/final-lessons/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
@@ -546,7 +546,7 @@ test('BEL101 Friday video links and weekly quiz render in the reader',async({pag
  const fs=require('node:fs');
  const path=require('node:path');
  const week4Fixture=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons','BEL101-W04.md'),'utf8');
- await page.route('https://raw.githubusercontent.com/**/BEL101-W04.md',route=>route.fulfill({status:200,contentType:'text/plain',body:week4Fixture}));
+ await page.route('**/curriculum/final-lessons/**/BEL101-W04.md',route=>route.fulfill({status:200,contentType:'text/plain',body:week4Fixture}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
