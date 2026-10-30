@@ -28,7 +28,7 @@ jobs:
       - name: Wait for course reader server
         run: |
           for attempt in $(seq 1 30); do
-            if curl --fail --silent http://127.0.0.1:8765/conservatory-course-reader.html > /dev/null; then exit 0; fi
+            if curl --fail --silent http://127.0.0.1:8765/conservatory-course-reader.html > /dev/null && curl --fail --silent http://127.0.0.1:8765/conservatory-progress.html > /dev/null; then exit 0; fi
             sleep 1
           done
           cat /tmp/aom-http.log
