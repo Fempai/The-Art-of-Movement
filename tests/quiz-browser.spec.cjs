@@ -187,9 +187,7 @@ test('submitted quiz appears in Learning Progress with its latest score',async({
  await page.getByRole('button',{name:'Study here'}).first().click();
  const panel=page.locator('.lesson-panel');
  await expect(panel.locator('fieldset')).toHaveCount(4);
- const answerLetters=[...week4Fixture.matchAll(/\*\*([1-4])\. ([ABCD])\.\*\*/g)].map(m=>m[2]);
- expect(answerLetters).toHaveLength(4);
- for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth('ABCD'.indexOf(answerLetters[i])).check();
+ for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth(i).check();
  await panel.getByRole('button',{name:'Check my answers'}).click();
  await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
  await page.getByRole('link',{name:'Learning Progress'}).click();
@@ -564,7 +562,9 @@ test('BEL101 Friday video links and weekly quiz render in the reader',async({pag
  await expect(page.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
  const panel=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W04/})});
  await expect(panel.locator('fieldset')).toHaveCount(4);
- for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth(i).check();
+ const answerLetters=[...week4Fixture.matchAll(/\*\*([1-4])\. ([ABCD])\.\*\*/g)].map(m=>m[2]);
+ expect(answerLetters).toHaveLength(4);
+ for(let i=0;i<4;i++)await panel.locator('fieldset').nth(i).locator('input[type=radio]').nth('ABCD'.indexOf(answerLetters[i])).check();
  await panel.getByRole('button',{name:'Check my answers'}).click();
  await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
 });
