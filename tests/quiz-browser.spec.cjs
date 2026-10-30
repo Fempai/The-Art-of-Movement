@@ -500,3 +500,14 @@ for(const [label,fixture] of [
   await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
  });
 }
+
+test('out-of-order answer keys cannot produce an interactive graded quiz',async({page})=>{
+ const malformed=standard.replace('**1. A.** First rationale.\n**2. B.** Second rationale.','**2. B.** Second rationale.\n**1. A.** First rationale.');
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:1});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
+ await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
+});
