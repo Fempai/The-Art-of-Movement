@@ -39,3 +39,4 @@ assert.equal(Object.keys(keys).length,80,'Expected 80 parseable lesson quizzes; 
 assert.deepEqual(errors,[],'Quiz compatibility errors');
 const repeated=Object.entries(keys).filter(([,key])=>new Set(key).size===1);
 console.log('PASS: 80/80 quiz structures compatible; '+repeated.length+' all-same-letter keys flagged for editorial review.');
+if(repeated.length)console.warn('EDITORIAL REVIEW (not a structural failure): '+repeated.map(([id,key])=>id+' ['+key+']').join(', '));
