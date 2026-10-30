@@ -1,13 +1,13 @@
 const {test,expect}=require('@playwright/test');
 const pageUrl='http://127.0.0.1:8765/conservatory-course-reader.html';
-test('course catalog initializes with all 20 courses',async({page})=>{
+test('course catalog initializes with all 21 courses',async({page})=>{
  const errors=[];
  page.on('pageerror',error=>errors.push(error.message));
  page.on('console',message=>{if(message.type()==='error')errors.push(message.text())});
  const catalog=[];
  page.on('response',response=>{if(response.url().includes('COURSE_LESSONS_AND_SOURCES.json'))catalog.push(response.status()+' '+response.url())});
  await page.goto(pageUrl);
- await expect.poll(async()=>({count:await page.locator('#course option').count(),units:await page.locator('#units').innerText(),errors,catalog}),{timeout:8000}).toMatchObject({count:20});
+ await expect.poll(async()=>({count:await page.locator('#course option').count(),units:await page.locator('#units').innerText(),errors,catalog}),{timeout:8000}).toMatchObject({count:21});
 });
 
 const standard=`# Test lesson
@@ -88,7 +88,7 @@ for(const [name,fixture] of [['standard',standard],['alternate',legacy]]){
 test(name+' format grades, blocks partial submission, and saves retakes',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:name==='standard'?1:0});
  const open=page.getByRole('button',{name:'Study here'}).first();
  await expect(open).toBeVisible();
@@ -126,7 +126,7 @@ test(name+' format grades, blocks partial submission, and saves retakes',async({
  expect(saved.some(x=>x.score===3&&x.total===4)).toBeTruthy();
  expect(saved.find(x=>x.score===3)?.lesson).toBe(name==='standard'?'DNC101-01':'MOV101-01');
  await page.reload();
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:name==='standard'?1:0});
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('.lesson-panel').getByText(/Previous.*quiz.*3 \/ 4/i)).toBeVisible();
@@ -137,7 +137,7 @@ test('malformed quiz shows fallback without storing an attempt',async({page})=>{
  const malformed=['# Incomplete lesson','## Knowledge check','**1. Missing choices?**','A. One','B. Two','## Independent assignment','Review.'].join(String.fromCharCode(10));
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
@@ -151,7 +151,7 @@ test('failed lesson download explains failure and permits retry',async({page})=>
   return route.fulfill({status:requests===1?503:200,contentType:'text/plain',body:standard});
  });
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  const open=page.getByRole('button',{name:'Study here'}).first();
  await open.click();
  await expect(page.getByText(/Unable to load the in-site lesson: HTTP 503/)).toBeVisible();
@@ -164,7 +164,7 @@ test('failed lesson download explains failure and permits retry',async({page})=>
 test('quiz choices remain isolated when a lesson is closed and reopened',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  const open=page.getByRole('button',{name:'Study here'}).first();
  await open.click();
  const panel=page.locator('.lesson-panel');
@@ -183,7 +183,7 @@ test('quiz choices remain isolated when a lesson is closed and reopened',async({
 test('submitted quiz appears in Learning Progress with its latest score',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
  const panel=page.locator('.lesson-panel');
  await expect(panel.locator('fieldset')).toHaveCount(4);
@@ -215,7 +215,7 @@ test('progress dashboard ignores corrupt and out-of-range local records',async({
 test('local quiz score is not replaced by stale cloud history',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:'2026-10-29T12:00:00Z'})));
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 4 / 4');
@@ -224,7 +224,7 @@ test('local quiz score is not replaced by stale cloud history',async({page})=>{
 test('newest local result survives cloud-history lookup errors',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:2,total:4,completedAt:'2026-10-29T12:00:00Z'})));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.getByRole('button',{name:'Study here'}).first().click();
@@ -234,12 +234,12 @@ test('newest local result survives cloud-history lookup errors',async({page})=>{
 test('newer local quiz history remains visible without a signed-in account',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:3,total:4,completedAt:'2026-10-29T12:00:00Z'})));
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 3 / 4');
  await page.reload();
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('[data-quiz-history]')).toContainText('Previous local quiz: 3 / 4');
 });
@@ -247,7 +247,7 @@ test('newer local quiz history remains visible without a signed-in account',asyn
 test('corrupt local history is ignored rather than displayed as a score',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:9,total:4,completedAt:'not-a-date'})));
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.locator('[data-quiz-history]')).not.toContainText('Previous local quiz:');
@@ -268,7 +268,7 @@ test('late response from an earlier lesson cannot overwrite the latest lesson',a
   }else await route.fulfill({status:200,contentType:'text/plain',body:standard});
  });
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  const buttons=page.getByRole('button',{name:'Study here'});
  await buttons.nth(0).click();
  await firstSeen;
@@ -360,7 +360,7 @@ test('quiz does not claim a local save when browser storage rejects writes',asyn
   };
  });
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  const quiz=page.getByRole('heading',{name:'Interactive knowledge check'}).first();
@@ -385,7 +385,7 @@ test('quiz detects storage that silently drops a saved result',async({page})=>{
   };
  });
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
@@ -403,7 +403,7 @@ test('quiz save and cloud sync updates expose accessible status regions',async({
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
@@ -430,7 +430,7 @@ test('quiz detects unreadable storage after an apparently successful write',asyn
   };
  });
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
@@ -447,7 +447,7 @@ test('duplicate answer-key entries cannot produce a graded quiz',async({page})=>
  const duplicate=standard.replace('**4. D.** Fourth rationale.','**4. D.** Fourth rationale.\n**4. A.** Conflicting rationale.');
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
@@ -457,7 +457,7 @@ test('duplicate answer choices cannot produce a graded quiz',async({page})=>{
  const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B. Yes\nC. Maybe\nD. Later');
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
@@ -468,7 +468,7 @@ test('blank answer choices cannot produce a graded quiz',async({page})=>{
  const blank=standard.replace('B. No\nC. Maybe\nD. Later','B.    \nC. Maybe\nD. Later');
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:blank}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
@@ -479,7 +479,7 @@ test('answer choices differing only by capitalization cannot be graded',async({p
  const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B. yes\nC. Maybe\nD. Later');
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
@@ -490,7 +490,7 @@ test('answer choices differing only by surrounding whitespace cannot be graded',
  const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B.  Yes  \nC. Maybe\nD. Later');
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
@@ -504,7 +504,7 @@ for(const [label,fixture] of [
  test(label+' cannot produce an interactive graded quiz',async({page})=>{
   await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
   await page.goto(pageUrl);
-  await expect(page.locator('#course option')).toHaveCount(20);
+  await expect(page.locator('#course option')).toHaveCount(21);
   await page.locator('#course').selectOption({index:1});
   await page.getByRole('button',{name:'Study here'}).first().click();
   await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
@@ -516,7 +516,7 @@ test('out-of-order answer keys cannot produce an interactive graded quiz',async(
  const malformed=standard.replace('**1. A.** First rationale.\n**2. B.** Second rationale.','**2. B.** Second rationale.\n**1. A.** First rationale.');
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:malformed}));
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
@@ -527,7 +527,7 @@ test('quiz answer explanations remain available after grading',async({page})=>{
  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.goto(pageUrl);
- await expect(page.locator('#course option')).toHaveCount(20);
+ await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({index:1});
  await page.getByRole('button',{name:'Study here'}).first().click();
  const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
