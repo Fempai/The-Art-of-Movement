@@ -511,3 +511,21 @@ test('out-of-order answer keys cannot produce an interactive graded quiz',async(
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
 });
+
+test('quiz answer explanations remain available after grading',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:1});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
+ const groups=section.locator('fieldset');
+ await expect(groups).toHaveCount(4);
+ for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
+ await section.getByRole('button',{name:'Check my answers'}).click();
+ await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ for(const reason of ['First rationale.','Second rationale.','Third rationale.','Fourth rationale.']){
+  await expect(section.getByText(new RegExp(reason.replace('.','\\.')))).toBeVisible();
+ }
+});
