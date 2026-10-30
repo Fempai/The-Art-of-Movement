@@ -28,7 +28,9 @@ for(const course of courses)for(let n=1;n<=4;n++){
  if(!alternate&&answers.some((a,i)=>a[1]!==String(i+1)))errors.push(id+': answer numbering mismatch');
  const letters=answers.map(a=>alternate?a[1]:a[2]).join('');
  keys[id]=letters;
- if(questions.some(q=>q.slice(alternate?3:3,alternate?7:7).some(x=>!x?.trim())))errors.push(id+': empty option');
+ if(questions.some(q=>!q[2]?.trim()))errors.push(id+': empty question prompt');
+ if(questions.some(q=>q.slice(3,7).some(x=>!x?.trim())))errors.push(id+': empty option');
+ if(questions.some(q=>new Set(q.slice(3,7).map(x=>x.trim().toLowerCase())).size!==4))errors.push(id+': duplicate answer choices');
  if(answers.some(a=>!(alternate?a[2]:a[3])?.trim()))errors.push(id+': empty explanation');
 }
 assert.equal(Object.keys(keys).length,80,'Expected 80 parseable lesson quizzes; errors: '+errors.join('; '));
