@@ -485,3 +485,18 @@ test('answer choices differing only by surrounding whitespace cannot be graded',
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
 });
+
+for(const [label,fixture] of [
+ ['blank question prompt',standard.replace('**1. First?**','**1.    **')],
+ ['blank answer explanation',standard.replace('**1. A.** First rationale.','**1. A.**    ')]
+]){
+ test(label+' cannot produce an interactive graded quiz',async({page})=>{
+  await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:fixture}));
+  await page.goto(pageUrl);
+  await expect(page.locator('#course option')).toHaveCount(20);
+  await page.locator('#course').selectOption({index:1});
+  await page.getByRole('button',{name:'Study here'}).first().click();
+  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
+  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
+ });
+}
