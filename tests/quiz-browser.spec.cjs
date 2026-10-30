@@ -557,6 +557,7 @@ test('BEL101 Friday video links and weekly quiz render in the reader',async({pag
  const links=page.locator('a[href*="drive.google.com/file/d/"]');
  await expect(links).toHaveCount(20);
  await expect(page.getByText('Progressive Forward Rolls')).toBeVisible();
+ await expect(page.locator('a[href="https://drive.google.com/file/d/1hbuc15mpPFKTqDte47l0O-44ykAahvh7/view?usp=drivesdk"]')).toHaveCount(1);
  const weekly=page.getByRole('link',{name:/Week 4: Snake Arms and Chest Circles/});
  await expect(weekly).toBeVisible();
  await expect(page.getByRole('link',{name:/Week 16: Final/})).toBeVisible();
