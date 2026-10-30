@@ -285,11 +285,11 @@ test('late response in one core lesson panel cannot overwrite another panel',asy
  await buttons.nth(1).click();
  await expect(page.getByRole('heading',{name:'MOV101 — Lesson 02'})).toBeVisible();
  releaseFirst();
- // Core lessons have separate panels: the delayed first lesson may finish,
- // but must never replace or hide the second lesson's content.
- await expect(page.getByText('Stale lesson one')).toBeVisible();
+ // Core lessons share one panel. The late first response must not
+ // replace the second lesson or reintroduce the stale first lesson.
  await expect(page.getByRole('heading',{name:'MOV101 — Lesson 02'})).toBeVisible();
- await expect(page.getByRole('heading',{name:'MOV101 — Lesson 01'})).toBeVisible();
+ await expect(page.getByText('Stale lesson one')).toHaveCount(0);
+ await expect(page.getByRole('heading',{name:'MOV101 — Lesson 01'})).toHaveCount(0);
 });
 
 test('progress dashboard displays valid local history when Supabase CDN is blocked',async({page})=>{
