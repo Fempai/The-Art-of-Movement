@@ -39,15 +39,15 @@ jobs:
         run: |
           node - <<'NODE'
           const fs=require('node:fs');
-          const courses=['MOV101','DNC101','CON101','HIP101','MUS101','CMP101','HIS101','LAB101','STG101','FLE101','LMA201','PER201','RES501','CMP502','SCI503','EST504','SIT505','PRO701','PRO702','PRO703'];
+          const courses=['MOV101','DNC101','BEL101','CON101','HIP101','MUS101','CMP101','HIS101','LAB101','STG101','FLE101','LMA201','PER201','RES501','CMP502','SCI503','EST504','SIT505','PRO701','PRO702','PRO703'];
           const expected=new Set(courses.flatMap(course=>Array.from({length:4},(_,i)=>`${course}-${String(i+1).padStart(2,'0')}.md`)));
           const actual=fs.readdirSync('curriculum/final-lessons').filter(name=>/^[A-Z]{3}[0-9]{3}-0[1-4]\.md$/.test(name));
           const missing=[...expected].filter(name=>!actual.includes(name));
           const unexpected=actual.filter(name=>!expected.has(name));
           if(missing.length||unexpected.length){console.error('Lesson inventory mismatch:',{missing,unexpected});process.exit(1)}
-          console.log('PASS: all 80 expected lesson IDs are present with no unexpected course IDs.');
+          console.log('PASS: all 84 expected core lesson IDs are present with no unexpected course IDs.');
           NODE
-      - name: Audit all 80 lesson quizzes
+      - name: Audit all 97 lesson quizzes
         shell: bash
         run: |
           set -o pipefail
