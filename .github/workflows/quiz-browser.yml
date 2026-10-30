@@ -10,6 +10,9 @@ on:
       - 'curriculum/final-lessons/**'
       - '.github/workflows/quiz-browser.yml'
   workflow_dispatch:
+concurrency:
+  group: quiz-browser-${{ github.ref }}
+  cancel-in-progress: true
 jobs:
   quiz-browser:
     runs-on: ubuntu-latest
