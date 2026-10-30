@@ -33,6 +33,7 @@ for(const course of courses)for(let n=1;n<=4;n++){
  if(questions.some(q=>new Set(q.slice(3,7).map(x=>x.trim().toLowerCase())).size!==4))errors.push(id+': duplicate answer choices');
  if(answers.some(a=>!(alternate?a[2]:a[3])?.trim()))errors.push(id+': empty explanation');
  if(answers.some(a=>!('ABCD'.includes(alternate?a[1]:a[2]))))errors.push(id+': invalid correct-answer letter');
+ if(!alternate&&answers.some((a,i)=>a[1]!==questions[i][1]))errors.push(id+': answer key does not align with question order');
 }
 assert.equal(Object.keys(keys).length,80,'Expected 80 parseable lesson quizzes; errors: '+errors.join('; '));
 assert.deepEqual(errors,[],'Quiz compatibility errors');
