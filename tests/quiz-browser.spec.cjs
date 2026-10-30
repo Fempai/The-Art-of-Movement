@@ -6,8 +6,18 @@ test('course catalog initializes with all 21 courses',async({page})=>{
  page.on('console',message=>{if(message.type()==='error')errors.push(message.text())});
  const catalog=[];
  page.on('response',response=>{if(response.url().includes('COURSE_LESSONS_AND_SOURCES.json'))catalog.push(response.status()+' '+response.url())});
+ const failedRequests=[];
+ page.on('requestfailed',request=>failedRequests.push({url:request.url(),failure:request.failure()?.errorText}));
  await page.goto(pageUrl);
- await expect.poll(async()=>({count:await page.locator('#course option').count(),units:await page.locator('#units').innerText(),errors,catalog}),{timeout:8000}).toMatchObject({count:21});
+ const catalogResponse=await page.request.get('http://127.0.0.1:8765/curriculum/COURSE_LESSONS_AND_SOURCES.json');
+ expect(catalogResponse.ok(),'Course catalog HTTP status: '+catalogResponse.status()).toBeTruthy();
+ const catalogData=await catalogResponse.json();
+ expect(catalogData.courses?.length,'Course catalog JSON must contain all 21 courses').toBe(21);
+ try{
+  await expect(page.locator('#course option')).toHaveCount(21,{timeout:8000});
+ }catch(error){
+  throw new Error('Reader did not initialize course options. '+JSON.stringify({count:await page.locator('#course option').count(),units:await page.locator('#units').innerText(),errors,catalog,failedRequests})+'\\n'+error.message);
+ }
 });
 
 const standard=`# Test lesson
