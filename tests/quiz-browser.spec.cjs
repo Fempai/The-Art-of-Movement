@@ -474,3 +474,14 @@ test('answer choices differing only by capitalization cannot be graded',async({p
  await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
  await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
 });
+
+test('answer choices differing only by surrounding whitespace cannot be graded',async({page})=>{
+ const duplicate=standard.replace('B. No\nC. Maybe\nD. Later','B.  Yes  \nC. Maybe\nD. Later');
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:1});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
+ await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
+});
