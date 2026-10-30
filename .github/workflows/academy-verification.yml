@@ -38,7 +38,7 @@ jobs:
             cat /tmp/aom-http.log
             exit 1
           fi
-          PLAYWRIGHT_JUNIT_OUTPUT_FILE=playwright-results.xml npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=github,line,junit --trace=retain-on-failure --screenshot=only-on-failure
+          PLAYWRIGHT_JUNIT_OUTPUT_FILE=playwright-results.xml npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=github,line,junit --trace=retain-on-failure
       - name: Summarize browser test results
         if: always()
         run: |
