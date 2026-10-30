@@ -546,7 +546,7 @@ test('BEL101 Friday video links and weekly quiz render in the reader',async({pag
  const fs=require('node:fs');
  const path=require('node:path');
  const week4Fixture=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons','BEL101-W04.md'),'utf8');
- await page.route('**/curriculum/final-lessons/**/BEL101-W04.md',route=>route.fulfill({status:200,contentType:'text/plain',body:week4Fixture}));
+ await page.route('**/curriculum/final-lessons/BEL101-W04.md',route=>route.fulfill({status:200,contentType:'text/plain',body:week4Fixture}));
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
