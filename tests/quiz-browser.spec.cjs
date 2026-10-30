@@ -305,3 +305,20 @@ test('progress dashboard updates after another tab saves a quiz attempt',async({
   await expect(dashboard.locator('#records')).toContainText('MOV101-01');
  }finally{await context.close()}
 });
+
+test('progress dashboard removes quiz history deleted in another tab',async({browser})=>{
+ const context=await browser.newContext();
+ const dashboard=await context.newPage();
+ const writer=await context.newPage();
+ try{
+  await dashboard.route('https://esm.sh/**',route=>route.abort());
+  await dashboard.goto('http://127.0.0.1:8765/conservatory-progress.html');
+  await expect(dashboard.locator('#refresh')).toBeEnabled();
+  await writer.goto('http://127.0.0.1:8765/conservatory-progress.html');
+  await writer.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:new Date().toISOString()})));
+  await expect(dashboard.locator('#summary')).toContainText('1 of 80 lessons');
+  await writer.evaluate(()=>localStorage.removeItem('aom-quiz-MOV101-01'));
+  await expect(dashboard.locator('#summary')).toContainText('0 of 80 lessons');
+  await expect(dashboard.locator('#records')).not.toContainText('MOV101-01');
+ }finally{await context.close()}
+});
