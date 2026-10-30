@@ -525,6 +525,7 @@ test('quiz answer explanations remain available after grading',async({page})=>{
  for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
  await section.getByRole('button',{name:'Check my answers'}).click();
  await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ await expect(section.getByRole('status',{name:/Score: 4 \/ 4/})).toBeVisible();
  for(const reason of ['First rationale.','Second rationale.','Third rationale.','Fourth rationale.']){
   await expect(section.getByText(new RegExp(reason.replace('.','\\.')))).toBeVisible();
  }
