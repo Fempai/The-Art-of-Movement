@@ -33,8 +33,14 @@ jobs:
           done
           cat /tmp/aom-http.log
           exit 1
-      - name: Run grading tests
+      - name: Run grading and progress browser regressions
         run: npx playwright test tests/quiz-browser.spec.cjs --browser chromium --reporter=line --trace=retain-on-failure --screenshot=only-on-failure --workers=1
+      - name: Publish quiz regression summary
+        if: always()
+        run: |
+          echo '## Quiz browser regression' >> "$GITHUB_STEP_SUMMARY"
+          echo "Commit: \`${GITHUB_SHA}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo 'Review the grading and progress test step for pass/fail evidence. Failed-run diagnostics are uploaded below.' >> "$GITHUB_STEP_SUMMARY"
       - name: Upload Playwright diagnostics on failure
         if: failure()
         uses: actions/upload-artifact@v4
