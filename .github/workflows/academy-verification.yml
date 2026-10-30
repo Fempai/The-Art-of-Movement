@@ -45,7 +45,7 @@ jobs:
           const suites=[...xml.matchAll(/<testsuite\b[^>]*>/g)].map(x=>x[0]);
           const get=(tag,key)=>Number((tag.match(new RegExp(key+'="(\\d+)"'))||[])[1]||0);
           const totals=suites.reduce((acc,tag)=>{for(const k of ['tests','failures','errors','skipped'])acc[k]+=get(tag,k);return acc},{tests:0,failures:0,errors:0,skipped:0});
-          const failed=[...xml.matchAll(/<testcase\b[^>]*name="([^"]+)"[^>]*>[\s\S]*?<failure\b/g)].map(x=>x[1]);
+          const failed=[...xml.matchAll(/<testcase\b[^>]*name="([^"]+)"[^>]*>[\s\S]*?<\/testcase>/g)].filter(x=>/<(?:failure|error)\b/.test(x[0])).map(x=>x[1]);
           const lines=['## Academy browser verification','Tests: '+totals.tests+' | Failures: '+totals.failures+' | Errors: '+totals.errors+' | Skipped: '+totals.skipped];
           if(failed.length)lines.push('### Failed cases',...failed.map(x=>'- '+x));
           fs.appendFileSync(out,lines.join('\n')+'\n');
