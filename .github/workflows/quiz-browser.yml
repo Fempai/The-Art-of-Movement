@@ -41,6 +41,13 @@ jobs:
           echo '## Quiz browser regression' >> "$GITHUB_STEP_SUMMARY"
           echo "Commit: \`${GITHUB_SHA}\`" >> "$GITHUB_STEP_SUMMARY"
           echo 'Review the grading and progress test step for pass/fail evidence. Failed-run diagnostics are uploaded below.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload Playwright test evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quiz-playwright-results
+          path: test-results/
+          if-no-files-found: warn
       - name: Upload Playwright diagnostics on failure
         if: failure()
         uses: actions/upload-artifact@v4
