@@ -431,3 +431,13 @@ test('quiz detects unreadable storage after an apparently successful write',asyn
  await expect(section).toContainText('Device storage unavailable: Read blocked');
  await expect(section).not.toContainText('Saved on this device.');
 });
+
+test('duplicate answer-key entries cannot produce a graded quiz',async({page})=>{
+ const duplicate=standard.replace('**4. D.** Fourth rationale.','**4. D.** Fourth rationale.\n**4. A.** Conflicting rationale.');
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:duplicate}));
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ await expect(page.getByText(/cannot be graded interactively yet/)).toBeVisible();
+ await expect(page.getByRole('button',{name:'Check my answers'})).toHaveCount(0);
+});
