@@ -23,6 +23,14 @@
 | 15 | Hands and Arms + The ULTIMATE Undulations Masterclass | Coordinate upper-body styling and optional small-range undulations | Not yet recovered |
 | 16 | The 4 Types of Hip Work + Egyptian Shimmy Techniques | Final: demonstrate foundation and compare to Week 1 | Not yet recovered |
 
+## Written lesson status
+
+**Weeks 1–4:** BEL101-01 through BEL101-04 provide the foundation units. These are course-level foundation lessons, not exact one-to-one transcriptions of the original videos; the Week 4 snake-arms/chest-circles topic still needs a dedicated video-specific technical walkthrough.
+
+**Weeks 5–16:** Individual learner-facing lesson files `curriculum/final-lessons/BEL101-W05.md` through `BEL101-W16.md` are now written. Each contains a guided eight-count practice, a modification, self-correction, four multiple-choice knowledge checks with answers, and an independent assignment. These are original beginner exercises aligned to the weekly topics, **not verified demonstrations of the original videos**.
+
+**Not yet complete:** Restore exact original private Drive links, connect all 16 weekly lessons to the interactive reader/schedule, verify live playback and assessment behavior, and independently review technical and cultural source claims. The 16-week written draft does not constitute a fully tested interactive course.
+
 ## How this track relates to the four BEL101 foundation lessons
 
 - BEL101-01 covers grounding and introductory hip actions (Weeks 1–3).
