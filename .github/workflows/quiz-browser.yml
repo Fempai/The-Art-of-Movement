@@ -27,7 +27,21 @@ jobs:
           node --check tests/quiz-browser.spec.cjs
           node --check tests/audit-all-quizzes.cjs
       - name: Audit all 80 lesson quizzes
-        run: node tests/audit-all-quizzes.cjs
+        shell: bash
+        run: |
+          set -o pipefail
+          node tests/audit-all-quizzes.cjs 2>&1 | tee /tmp/aom-quiz-audit.log
+      - name: Include curriculum audit in run summary
+        if: always()
+        run: |
+          echo '## Curriculum quiz audit' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f /tmp/aom-quiz-audit.log ]; then
+            echo '\`\`\`text' >> "$GITHUB_STEP_SUMMARY"
+            cat /tmp/aom-quiz-audit.log >> "$GITHUB_STEP_SUMMARY"
+            echo '\`\`\`' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Audit did not execute; inspect the workflow steps.' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - run: npm install --no-save @playwright/test
       - run: npx playwright install --with-deps chromium
       - name: Start local web server
