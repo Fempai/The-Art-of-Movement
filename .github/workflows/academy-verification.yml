@@ -38,5 +38,4 @@ jobs:
           path: |
             test-results/
             playwright-report/
-            /tmp/aom-http.log
           if-no-files-found: ignore
