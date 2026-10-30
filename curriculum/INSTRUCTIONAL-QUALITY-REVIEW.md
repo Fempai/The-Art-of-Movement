@@ -22,3 +22,11 @@ Decisions: Not reviewed; Needs revision; Provisionally content-reviewed; Validat
 All 320 quiz items must have independently checked keys and explanations; all 80 lessons must receive documented content and instructional review; material defects must be fixed. Learner and expert validation is required before claiming demonstrated teaching effectiveness. Re-run existing automated and deployed-site tests after edits.
 
 Priority: foundations MOV101, then DNC101, followed by other beginner courses before advanced instruction. Character polish follows instructional quality.
+
+## Practical learner and expert validation procedure
+
+**Learner pilot:** Select a representative lesson from each movement discipline and skill level. Ask a beginner to follow only the published lesson, without live coaching. With consent, record (a) where they needed clarification, (b) whether they could perform each prescribed step, (c) whether they recognized and corrected common errors, and (d) their answers to the lesson quiz before seeing the key. A voluntary short practice video can help review visible actions but cannot establish medical safety or hidden joint mechanics. Log lesson ID, date, experience level, device, time, observed obstacles, and changes made. Retest after revision. Expand coverage until every lesson has an instructional review and every distinct technique has representative learner evidence.
+
+**Expert check:** Supply the lesson, referenced demonstrations, movement goals, corrections, and a consented practice clip if available to a qualified instructor with relevant style expertise. Ask them to identify inaccurate terminology, unsafe or misleading cues, missing prerequisites, problematic progression, and ambiguous success criteria. Record their qualifications, specific feedback, revisions, and whether they approved the revised material. One instructor is not automatically qualified for all styles.
+
+**Minimum user action to start:** Complete MOV101-01 without extra explanations and send a short written log of confusing steps and any movements that could not be self-checked. Video is optional; do not upload footage of other people without permission. An independent second beginner and specialist can be recruited later. No learner or expert review is to be marked complete until evidence exists.
