@@ -26,6 +26,14 @@ jobs:
         run: |
           node --check tests/quiz-browser.spec.cjs
           node --check tests/audit-all-quizzes.cjs
+      - name: Verify repository lesson inventory
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const files=fs.readdirSync('curriculum/final-lessons').filter(name=>/^[A-Z]{3}[0-9]{3}-0[1-4]\.md$/.test(name));
+          if(files.length!==80){console.error('Expected exactly 80 lesson files, found '+files.length);process.exit(1)}
+          console.log('PASS: exactly 80 lesson files present.');
+          NODE
       - name: Audit all 80 lesson quizzes
         shell: bash
         run: |
