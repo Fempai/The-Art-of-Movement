@@ -322,3 +322,19 @@ test('progress dashboard removes quiz history deleted in another tab',async({bro
   await expect(dashboard.locator('#records')).not.toContainText('MOV101-01');
  }finally{await context.close()}
 });
+
+test('progress dashboard rejects invalid quiz timestamps and mismatched storage keys',async({page})=>{
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.addInitScript(()=>{
+  const base={lesson:'MOV101-01',score:4,total:4,completedAt:'2026-10-01T12:00:00.000Z'};
+  localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({...base,completedAt:'not-a-date'}));
+  localStorage.setItem('aom-quiz-MOV101-02',JSON.stringify(base));
+  localStorage.setItem('aom-quiz-MOV101-03',JSON.stringify({...base,lesson:'MOV101-03'}));
+ });
+ await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
+ await expect(page.locator('#summary')).toContainText('1 of 80 lessons');
+ await expect(page.locator('#records')).toContainText('MOV101-03');
+ await expect(page.locator('#records')).not.toContainText('MOV101-01');
+ await expect(page.locator('#records')).not.toContainText('MOV101-02');
+ await expect(page.locator('#refresh')).toBeEnabled();
+});
