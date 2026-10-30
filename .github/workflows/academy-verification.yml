@@ -1,0 +1,42 @@
+name: Academy lesson and quiz verification
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install browser test runner
+        run: npm install --no-save --no-package-lock @playwright/test@1.56.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Audit all 97 lesson quizzes
+        run: node tests/audit-all-quizzes.cjs
+      - name: Run reader and quiz browser regressions
+        run: |
+          python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/aom-http.log 2>&1 &
+          SERVER_PID=$!
+          trap 'kill "$SERVER_PID" 2>/dev/null || true' EXIT
+          for i in $(seq 1 30); do
+            if curl -fsS http://127.0.0.1:8765/conservatory-course-reader.html > /dev/null; then break; fi
+            sleep 1
+          done
+          npx playwright test tests/quiz-browser.spec.cjs --browser=chromium --workers=1 --reporter=line
+      - name: Upload failure diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: academy-playwright-diagnostics
+          path: |
+            test-results/
+            playwright-report/
+            /tmp/aom-http.log
+          if-no-files-found: ignore
