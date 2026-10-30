@@ -363,3 +363,28 @@ test('quiz does not claim a local save when browser storage rejects writes',asyn
  await expect(section).toContainText(/Not saved|could not be saved|storage was unavailable/i);
  expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
 });
+
+test('quiz detects storage that silently drops a saved result',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.addInitScript(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(String(key).startsWith('aom-quiz-'))return;
+   return original.call(this,key,value);
+  };
+ });
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:1});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
+ const groups=section.locator('fieldset');
+ await expect(groups).toHaveCount(4);
+ for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
+ await section.getByRole('button',{name:'Check my answers'}).click();
+ await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ await expect(section).toContainText('Device storage did not retain the quiz result');
+ await expect(section).not.toContainText('Saved on this device.');
+ expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
+});
