@@ -388,3 +388,22 @@ test('quiz detects storage that silently drops a saved result',async({page})=>{
  await expect(section).not.toContainText('Saved on this device.');
  expect(await page.evaluate(()=>Object.keys(localStorage).filter(k=>k.startsWith('aom-quiz-')).length)).toBe(0);
 });
+
+test('quiz save and cloud sync updates expose accessible status regions',async({page})=>{
+ await page.route('https://raw.githubusercontent.com/**',route=>route.fulfill({status:200,contentType:'text/plain',body:standard}));
+ await page.route('https://esm.sh/**',route=>route.abort());
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(20);
+ await page.locator('#course').selectOption({index:1});
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ const section=page.getByRole('heading',{name:'Interactive knowledge check'}).first().locator('xpath=..');
+ const groups=section.locator('fieldset');
+ await expect(groups).toHaveCount(4);
+ for(let i=0;i<4;i++)await groups.nth(i).locator('input[type=radio]').nth(i).check();
+ await section.getByRole('button',{name:'Check my answers'}).click();
+ await expect(section.getByText(/Score: 4 \/ 4/)).toBeVisible();
+ const statuses=section.getByRole('status');
+ await expect(statuses).toHaveCount(2);
+ await expect(statuses.nth(0)).toContainText('Saved on this device.');
+ await expect(statuses.nth(1)).toContainText(/Saved on this device|Saved locally|Cloud|cloud/i);
+});
