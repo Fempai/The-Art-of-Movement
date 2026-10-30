@@ -192,7 +192,7 @@ test('submitted quiz appears in Learning Progress with its latest score',async({
  await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
  await page.getByRole('link',{name:'Learning Progress'}).click();
  await expect(page).toHaveURL(/conservatory-progress\.html$/);
- await expect(page.locator('#summary')).toContainText('1 of 80 lessons have a recorded quiz attempt');
+ await expect(page.locator('#summary')).toContainText('1 of 97 currently linked lesson quizzes have a recorded quiz attempt');
  await expect(page.locator('#records tr').filter({hasText:'MOV101-01'})).toContainText('4 / 4');
  await expect(page.locator('#records tr').filter({hasText:'MOV101-01'})).toContainText('This device');
 });
@@ -206,7 +206,7 @@ test('progress dashboard ignores corrupt and out-of-range local records',async({
   localStorage.setItem('aom-quiz-HIP101-01',JSON.stringify({lesson:'HIP101-01',score:-1,total:4,completedAt:'2026-10-29T12:00:00Z'}));
  });
  await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
- await expect(page.locator('#summary')).toContainText('1 of 80 lessons have a recorded quiz attempt');
+ await expect(page.locator('#summary')).toContainText('1 of 97 currently linked lesson quizzes have a recorded quiz attempt');
  await expect(page.locator('#records tr')).toHaveCount(1);
  await expect(page.locator('#records tr').first()).toContainText('MOV101-01');
  await expect(page.locator('#records tr').first()).toContainText('3 / 4');
@@ -287,7 +287,7 @@ test('progress dashboard displays valid local history when Supabase CDN is block
   localStorage.setItem('aom-quiz-MOV101-03',JSON.stringify({lesson:'MOV101-04',score:4,total:4,completedAt:'2026-10-01T12:00:00.000Z'}));
  });
  await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
- await expect(page.locator('#summary')).toContainText('1 of 80 lessons');
+ await expect(page.locator('#summary')).toContainText('1 of 97 currently linked lesson quizzes');
  await expect(page.locator('#records tr')).toHaveCount(1);
  await expect(page.locator('#records')).toContainText('MOV101-01');
  await expect(page.locator('#cloud')).toContainText('Cloud results unavailable');
@@ -297,7 +297,7 @@ test('progress dashboard displays valid local history when Supabase CDN is block
 test('progress dashboard remains usable without local records or Supabase SDK',async({page})=>{
  await page.route('https://esm.sh/**',route=>route.abort());
  await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
- await expect(page.locator('#summary')).toContainText('0 of 80 lessons');
+ await expect(page.locator('#summary')).toContainText('0 of 97 currently linked lesson quizzes');
  await expect(page.locator('#cloud')).toContainText('Cloud results unavailable');
  await expect(page.locator('#refresh')).toBeEnabled();
 });
@@ -311,7 +311,7 @@ test('progress dashboard updates after another tab saves a quiz attempt',async({
   await expect(dashboard.locator('#refresh')).toBeEnabled();
   await writer.goto('http://127.0.0.1:8765/conservatory-progress.html');
   await writer.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:new Date().toISOString()})));
-  await expect(dashboard.locator('#summary')).toContainText('1 of 80 lessons');
+  await expect(dashboard.locator('#summary')).toContainText('1 of 97 currently linked lesson quizzes');
   await expect(dashboard.locator('#records')).toContainText('MOV101-01');
  }finally{await context.close()}
 });
@@ -326,9 +326,9 @@ test('progress dashboard removes quiz history deleted in another tab',async({bro
   await expect(dashboard.locator('#refresh')).toBeEnabled();
   await writer.goto('http://127.0.0.1:8765/conservatory-progress.html');
   await writer.evaluate(()=>localStorage.setItem('aom-quiz-MOV101-01',JSON.stringify({lesson:'MOV101-01',score:4,total:4,completedAt:new Date().toISOString()})));
-  await expect(dashboard.locator('#summary')).toContainText('1 of 80 lessons');
+  await expect(dashboard.locator('#summary')).toContainText('1 of 97 currently linked lesson quizzes');
   await writer.evaluate(()=>localStorage.removeItem('aom-quiz-MOV101-01'));
-  await expect(dashboard.locator('#summary')).toContainText('0 of 80 lessons');
+  await expect(dashboard.locator('#summary')).toContainText('0 of 97 currently linked lesson quizzes');
   await expect(dashboard.locator('#records')).not.toContainText('MOV101-01');
  }finally{await context.close()}
 });
@@ -342,7 +342,7 @@ test('progress dashboard rejects invalid quiz timestamps and mismatched storage 
   localStorage.setItem('aom-quiz-MOV101-03',JSON.stringify({...base,lesson:'MOV101-03'}));
  });
  await page.goto('http://127.0.0.1:8765/conservatory-progress.html');
- await expect(page.locator('#summary')).toContainText('1 of 80 lessons');
+ await expect(page.locator('#summary')).toContainText('1 of 97 currently linked lesson quizzes');
  await expect(page.locator('#records')).toContainText('MOV101-03');
  await expect(page.locator('#records')).not.toContainText('MOV101-01');
  await expect(page.locator('#records')).not.toContainText('MOV101-02');
