@@ -11,7 +11,17 @@ for(const id of ids){
   const md=fs.readFileSync(file,'utf8');
   const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split('## Independent assignment')[0];
   if(!quiz){errors.push(id+': quiz section missing');continue}
+  const questions=[...quiz.matchAll(/\*\*([1-4])\. ([^\n]+)\*\*\s*\n\s*A\. ([^\n]+)\s*\n\s*B\. ([^\n]+)\s*\n\s*C\. ([^\n]+)\s*\n\s*D\. ([^\n]+)/g)];
+  if(questions.length!==4)errors.push(id+': expected four complete question-and-option sets, found '+questions.length);
   const answers=[...quiz.matchAll(/\*\*([1-4])\. ([ABCD])\.\*\*\s*([^\n]+)/g)];
+  if(questions.length===4&&answers.length===4){
+    for(let i=0;i<4;i++){
+      if(questions[i][1]!==String(i+1))errors.push(id+': question numbering out of sequence');
+      const options=questions[i].slice(3,7).map(v=>v.trim().toLowerCase());
+      if(new Set(options).size!==4)errors.push(id+': duplicate choices in question '+(i+1));
+      if(answers[i][2]!==undefined && !'ABCD'.includes(answers[i][2]))errors.push(id+': invalid key for question '+(i+1));
+    }
+  }
   if(answers.length!==4){errors.push(id+': expected 4 numbered answer explanations, found '+answers.length);continue}
   for(let i=0;i<answers.length;i++){
     const [,number,,explanation]=answers[i];
