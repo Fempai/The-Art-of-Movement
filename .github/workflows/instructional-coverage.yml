@@ -4,6 +4,7 @@ on:
     paths:
       - 'curriculum/final-lessons/**'
       - 'tests/audit-instructional-coverage.cjs'
+      - 'tests/audit-bellydance-feedback.cjs'
       - '.github/workflows/instructional-coverage.yml'
   workflow_dispatch:
 permissions:
@@ -19,6 +20,10 @@ jobs:
           node-version: '22'
       - name: Check triage script syntax
         run: node --check tests/audit-instructional-coverage.cjs
+      - name: Check BEL101 feedback regression script syntax
+        run: node --check tests/audit-bellydance-feedback.cjs
+      - name: Check all BEL101 lesson answer explanations
+        run: node tests/audit-bellydance-feedback.cjs
       - name: Run all-lesson instructional coverage triage
         shell: bash
         run: |
@@ -35,9 +40,9 @@ jobs:
             echo 'Full machine-readable results are available in the artifact.'
             if [ -f instructional-coverage.log ]; then
               echo '### Initial output'
-              echo '\`\`\`text'
+              echo '```text'
               head -n 2 instructional-coverage.log
-              echo '\`\`\`'
+              echo '```'
             else
               echo 'Triage did not produce output.'
             fi
