@@ -37,6 +37,11 @@ for(const id of lessonIds){
 }
 assert.equal(Object.keys(keys).length,97,'Expected 97 parseable lesson quizzes; errors: '+errors.join('; '));
 assert.deepEqual(errors,[],'Quiz compatibility errors');
+// Detect conspicuously patterned answer keys for human assessment review.
+// This is an editorial warning, not proof that an answer is incorrect.
+const patterned=Object.entries(keys).filter(([,key])=>key==='ABCD'||key==='DCBA');
+console.log('EDITORIAL REVIEW: '+patterned.length+' lessons use sequential ABCD/DCBA answer keys.');
+if(patterned.length)console.warn('PATTERNED KEYS: '+patterned.map(([id,key])=>id+' ['+key+']').join(', '));
 const repeated=Object.entries(keys).filter(([,key])=>new Set(key).size===1);
 console.log('PASS: 97/97 quiz structures compatible; '+repeated.length+' all-same-letter keys flagged for editorial review.');
 if(repeated.length)console.warn('EDITORIAL REVIEW (not a structural failure): '+repeated.map(([id,key])=>id+' ['+key+']').join(', '));
