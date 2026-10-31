@@ -17,6 +17,7 @@ for(const id of ids){
     const [,number,,explanation]=answers[i];
     if(Number(number)!==i+1)errors.push(id+': answer numbering out of sequence');
     if(explanation.trim().length<70)errors.push(id+': answer '+number+' explanation too short for substantive feedback');
+    if(/(?:this is the supported choice|this choice reflects the stated objective)/i.test(explanation))errors.push(id+': answer '+number+' contains recycled feedback');
     if(/this is the supported choice for the introductory drill|this choice reflects the stated objective, safe scaling, or evidence boundary/i.test(explanation))errors.push(id+': answer '+number+' still contains generic rationale');
   }
 }
