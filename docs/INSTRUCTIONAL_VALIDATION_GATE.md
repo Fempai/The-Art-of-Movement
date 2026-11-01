@@ -29,3 +29,9 @@ Mark each dimension PASS, FAIL, or NEEDS HUMAN REVIEW, and cite a file path and 
 
 ## Release rule
 Report structural audit and instructional audit separately. Never label all 97 lessons 'instructionally validated' until every rubric item has been assessed and documented. No independent learner recruitment or external dance-instructor signoff is required for this internal editorial gate; absence of external review must be disclosed.
+
+## Original performance-language development (not yet part of 97-lesson inventory)
+
+The proposed **Art of Becoming** elective is described in [the original performance-language brief](../curriculum/ORIGINAL-PERFORMANCE-LANGUAGE.md). Its artistic foundation is audience revelation through psychological mirroring, theatrical contrast, and intentional sensory design. It is a **new, original compositional framework**, not a historical Egyptian dance or an existing validated course.
+
+Do not publish or count its prototype among the 97 lessons until BEL101 review and playback testing are complete, the elective's learning outcomes and assessment are written, and the same nine-dimension instructional gate has been applied. Separate artistic interpretation from claims of mind-reading, universal audience response, or guaranteed psychological effects. Preserve accessible sensory options and accurate historical attribution.
