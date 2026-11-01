@@ -25,11 +25,11 @@
 
 ## Written lesson status
 
-**Weeks 1–4:** BEL101-01 through BEL101-04 provide foundation units, not exact transcriptions of the original videos. The original Week 4 snake-arms/chest-circles topic also has a dedicated original learner-facing study at `curriculum/final-lessons/BEL101-W04.md`. Its comparison with the specific user-supplied video remains pending until the exact link is restored.
+**Weeks 1–4:** BEL101-01 through BEL101-04 provide foundation units, not exact transcriptions of the original videos. The original Week 4 snake-arms/chest-circles topic also has a dedicated original learner-facing study at `curriculum/final-lessons/BEL101-W04.md`. Its comparison with the specific user-supplied video remains pending until the restored link is accessed and the demonstration reviewed.
 
 **Weeks 4–16:** Dedicated learner-facing lesson files (Week 4 at `BEL101-W04.md`; Weeks 5–16 at `curriculum/final-lessons/BEL101-W05.md` through `BEL101-W16.md`) are now written. Each contains a guided eight-count practice, a modification, self-correction, four multiple-choice knowledge checks with answers, and an independent assignment. These are original beginner exercises aligned to the weekly topics, **not verified demonstrations of the original videos**.
 
-**Not yet complete:** Independently verify access and playback, test live interactive lesson and quiz behavior, complete term-planner integration, and review technical and cultural source claims. The original video links are restored and the reader now lists the weekly lessons and linked videos. The 16-week written draft does not constitute a fully tested interactive course.
+**Not yet complete:** Independently verify access and playback, test live interactive lesson and quiz behavior, complete term-planner integration, and review technical and cultural source claims. All dedicated Weeks 4–16 lesson files now include their restored original source links, but link presence is not proof of playable or accurate demonstrations. The original video links are restored and the reader now lists the weekly lessons and linked videos. The 16-week written draft does not constitute a fully tested interactive course.
 
 ## How this track relates to the four BEL101 foundation lessons
 
