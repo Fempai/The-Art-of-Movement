@@ -68,3 +68,9 @@ The source catalog at `curriculum/BEL101-VIDEO-SOURCES.json` records the owner-p
 **Learner-interface procedure:** Open BEL101 Week 4 and Week 16 in the deployed reader, confirm all four options render for each question, select an incorrect option and inspect explanatory feedback, then reload to verify progress persistence. Test one restored video from the reader. Record device/browser, date, observed result, and screenshots or console details for failures.
 
 **Status:** No owner action required until the automated gate is checked and a focused browser test is requested. No video or reader result has been fabricated.
+
+## BEL101 repository inspection — 2026-11-01
+
+A repository-content inspection (not an Actions execution or a deployed-browser test) examined the current 17 BEL101 lesson files against the canonical source catalog. All 17 contained four parseable multiple-choice question sets and four numbered answer explanations, for **68 questions total**. No lesson had a four-question key using fewer than three answer positions, or the conspicuously sequential `ABCD`/`DCBA` patterns. All Week 4–16 lesson files contained the scheduled catalog source IDs; Week 8, 15, and 16 correctly contained two source IDs each. No missing weekly source ID was observed.
+
+**Interpretation:** This is a static consistency review, not proof that the keyed answers are substantively correct, that a video is accessible or plays, that a movement is culturally/technically accurate, or that the deployed reader persists quiz progress. The nine-dimensional review and all browser/playback statuses remain **NEEDS REVIEW** until evidence is recorded. Do not promote these findings to an instructional sign-off.
