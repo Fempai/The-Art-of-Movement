@@ -9,6 +9,12 @@ for(const id of ids){
   const file=path.join(__dirname,'..','curriculum','final-lessons',id+'.md');
   if(!fs.existsSync(file)){errors.push(id+': missing lesson');continue}
   const md=fs.readFileSync(file,'utf8');
+  if(id.includes('-W')){
+    const links=[...md.matchAll(/https:\/\/drive\.google\.com\/file\/d\/([A-Za-z0-9_-]+)\/view/g)];
+    if(!links.length)errors.push(id+': restored original video link absent');
+    if(/(?:URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered)/i.test(md))errors.push(id+': stale missing-video statement');
+    if(!/playback[^.\\n]{0,110}(?:not|unverified)|(?:not|unverified)[^.\\n]{0,110}playback/i.test(md))errors.push(id+': missing playback-verification caveat');
+  }
   const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split('## Independent assignment')[0];
   if(!quiz){errors.push(id+': quiz section missing');continue}
   const questions=[...quiz.matchAll(/\*\*([1-4])\. ([^\n]+)\*\*\s*\n\s*A\. ([^\n]+)\s*\n\s*B\. ([^\n]+)\s*\n\s*C\. ([^\n]+)\s*\n\s*D\. ([^\n]+)/g)];
