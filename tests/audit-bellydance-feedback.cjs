@@ -6,6 +6,21 @@ const assert = require('node:assert/strict');
 const sourceCatalog = require('../curriculum/BEL101-VIDEO-SOURCES.json');
 const ids = [...Array.from({length:4},(_,i)=>'BEL101-'+String(i+1).padStart(2,'0')),...Array.from({length:13},(_,i)=>'BEL101-W'+String(i+4).padStart(2,'0'))];
 const errors=[];
+const scheduledWeeks = Array.from({length:16},(_,i)=>i+1);
+const catalogIds=new Set();
+for(const video of sourceCatalog.videos){
+  const id=video.url.match(/^https:\/\/drive\.google\.com\/file\/d\/([A-Za-z0-9_-]+)\/view(?:\?.*)?$/)?.[1];
+  if(!id)errors.push('catalog: malformed Google Drive URL for '+video.title);
+  if(id&&catalogIds.has(id))errors.push('catalog: duplicate Drive source '+id);
+  if(id)catalogIds.add(id);
+  for(const week of video.weeks){
+    if(!scheduledWeeks.includes(week))errors.push('catalog: invalid week '+week+' for '+video.title);
+  }
+}
+for(const week of scheduledWeeks){
+  if(!sourceCatalog.videos.some(video=>video.weeks.includes(week)))errors.push('catalog: week '+week+' has no scheduled source');
+}
+
 for(const id of ids){
   const file=path.join(__dirname,'..','curriculum','final-lessons',id+'.md');
   if(!fs.existsSync(file)){errors.push(id+': missing lesson');continue}
