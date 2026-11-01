@@ -49,6 +49,39 @@ All motifs are scalable to seated, supported, and reduced-range practice. No for
 
 **Learner reflection:** Identify the gesture the audience first recognizes, what changed, which moments were observable, and which audience reactions remain interpretations rather than facts.
 
+## Compositional method — from audience hypothesis to revelation
+
+The choreography should be constructed around an **artistic question**, not a promised audience emotion. For example: *Can an apparent invitation become a declaration of autonomy?* The dancer begins with a gesture that can read as welcome, then changes its direction, timing, and spatial relationship so that the gesture can also read as self-possession.
+
+| Phase | Performer decision | Observable evidence | Interpretive boundary |
+| --- | --- | --- | --- |
+| Perception | Choose a recognizable human tension (belonging, curiosity, fear, longing, autonomy) | The chosen motif is written in the movement score | Do not infer individual audience psychology |
+| Recognition | Introduce a legible gesture, rhythm, or gaze | The motif is identifiable in the first phrase | Recognition may vary by viewer and culture |
+| Revelation | Repeat the motif with a single unexpected change | The changed variable can be named and counted | Surprise is not proof of emotional transformation |
+| Transcendence | Use staging, scale, silence, or texture to amplify the reinterpretation | The theatrical contrast is deliberate and repeatable | Spectacle alone does not guarantee meaning |
+| Afterimage | End with a resonant unresolved choice or stillness | The final image connects to the opening motif | The audience decides what, if anything, remains |
+
+### Prototype study — The Offering Reconsidered
+
+**Prompt:** A hand extends as though requesting acceptance; by the final phrase, the same hand reads as granting or withholding access. This is one possible interpretation, not a fixed meaning.
+
+1. **Eight-count A — Invitation:** 1–2 turn toward the imagined audience; 3–4 extend a hand; 5–6 soften the wrist; 7–8 return to a supported neutral shape.
+2. **Eight-count B — Mirroring:** Repeat A's hand gesture on 1–4 but delay the gaze until 5–6; 7–8 pause. Note whether the delayed gaze changes the dramatic relationship.
+3. **Eight-count C — Sovereignty:** 1–4 turn the palm upward and slowly widen the gesture; 5–6 withdraw the hand without rushing; 7–8 hold a stable shape.
+4. **Eight-count D — Revelation:** 1–4 repeat the opening extension, now facing a different direction; 5–6 open the other arm; 7–8 finish in stillness. Compare the first and final images.
+
+**Modification:** All phrases can be performed seated with hand, arm, head, and eye focus only. Keep breath natural, avoid forced joint positions, and stop if uncomfortable.
+
+**Self-correction:** If the contrast is unreadable, change only one variable per repetition (gaze timing, hand orientation, or direction). If the gesture becomes rushed, count slowly and mark the pause.
+
+**Independent assignment:** Produce a four-phrase movement score and 250–350 words explaining the initial audience hypothesis, observable transformation, two plausible but different audience interpretations, and one ethical or sensory-accessibility choice.
+
+**Assessment:** Four applied questions should test the difference between observed timing and inferred emotion, identify the transformed variable, select an accessible adaptation, and distinguish cultural inspiration from a historical technique claim. These questions are to be authored and tested before the prototype enters the learner reader.
+
+### Development priorities
+
+The style must eventually define repeatable movement grammar (initiation, pathways, accents, transitions, gaze, and stillness), improvisation rules, audience relationship, musical and lighting design, cultural-research standards, and a clear way to teach and assess composition. Costume and spectacle are important but cannot substitute for a distinct movement method.
+
 ## Audience-research ethics and accessibility
 
 Audience needs are hypotheses, not diagnoses. Avoid coercion, deceptive claims about psychological effects, invasive audience profiling, strobing or extreme volume, and compulsory participation. Offer content and sensory notices, a way to opt out, and a quieter alternative when practical. Evaluate responses through voluntary feedback and observations, not assumptions about inner states.
