@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'curriculum/final-lessons/**'
+      - 'curriculum/BEL101-VIDEO-SOURCES.json'
       - 'tests/audit-instructional-coverage.cjs'
       - 'tests/audit-bellydance-feedback.cjs'
       - '.github/workflows/instructional-coverage.yml'
