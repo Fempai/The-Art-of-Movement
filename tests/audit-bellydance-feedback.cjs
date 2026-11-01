@@ -23,6 +23,19 @@ for(const id of ids){
     }
   }
   if(answers.length!==4){errors.push(id+': expected 4 numbered answer explanations, found '+answers.length);continue}
+  if(questions.length===4&&answers.length===4){
+    const letters=answers.map(a=>a[2]).join('');
+    if(letters==='ABCD'||letters==='DCBA')errors.push(id+': predictable sequential answer key '+letters);
+    if(new Set(letters).size<3)errors.push(id+': fewer than three answer positions used');
+    const prompts=questions.map(q=>q[2].trim().toLowerCase());
+    if(new Set(prompts).size!==4)errors.push(id+': duplicate question prompts');
+    for(let i=0;i<4;i++){
+      const letter=answers[i][2];
+      const correct=questions[i]['ABCD'.indexOf(letter)+3];
+      if(!correct?.trim())errors.push(id+': missing keyed option for question '+(i+1));
+    }
+  }
+
   for(let i=0;i<answers.length;i++){
     const [,number,,explanation]=answers[i];
     if(Number(number)!==i+1)errors.push(id+': answer numbering out of sequence');
