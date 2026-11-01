@@ -1,6 +1,18 @@
-# Original performance language — The Art of Becoming (working title)
+# Original performance language — unnamed style (research and design)
 
-**Status:** Creative research and design brief, not a completed or validated dance technique. **Placement:** A future elective/capstone pathway in The Art of Movement, after the current BEL101 instructional and playback validation work. Do not displace the existing 97-lesson curriculum or present this as an authenticated historical dance.
+**Naming decision:** The overall style is intentionally unnamed. **The Art of Becoming** is retained as a possible performance or transformation-phase title, not the name of the complete philosophy. **Status:** Creative research and design brief, not a completed or validated dance technique. **Placement:** A future elective/capstone pathway in The Art of Movement, after the current BEL101 instructional and playback validation work. Do not displace the existing 97-lesson curriculum or present this as an authenticated historical dance.
+
+## Complete artistic philosophy
+
+**Perception → Recognition → Revelation → Transcendence → Afterimage.** The artist studies what an audience may recognize, offers an emotionally legible point of contact, transforms it to reveal an unanticipated interpretation, elevates the experience through theatrical and sensory design, and leaves a lingering question rather than a prescribed reaction. Becoming is one possible dramatic process within this larger cycle, not its defining purpose.
+
+The signature proposition is **revelation through intelligent theatrical mirroring**: not simply satisfying a desire or presenting a goddess, but allowing viewers to encounter a possibility in themselves that they had not anticipated. Luxurious design and sovereign presence serve that revelation rather than replacing it.
+
+### Naming criteria (no selection yet)
+
+A suitable name should communicate more than transformation. It should evoke psychological depth, intentional perception, mythic sovereignty, and an exceptional sensory experience without falsely claiming ancient Egyptian authenticity. It must be distinctive when spoken, usable as a dance-style label, and broad enough for multiple performances and choreographies. Historical and cultural terms require additional research before adoption.
+
+**Working vocabulary, not approved names:** revelation, mirroring, sovereignty, allure, threshold, oracle, apparition, apotheosis, opulence, afterimage. These are conceptual territories to explore, not a finalized shortlist or a claim of originality.
 
 ## Artistic thesis
 
@@ -56,4 +68,4 @@ Audience needs are hypotheses, not diagnoses. Avoid coercion, deceptive claims a
 - Historical references are attributed accurately; original motifs are explicitly identified as original.
 - Sensory design includes an accessible alternative and avoids claims of guaranteed audience effects.
 
-**Owner decision pending:** final style name and whether the long-term track emphasizes solo performance, immersive theater, or both. Neither decision blocks the initial research and prototype.
+**Owner decision pending:** final style name and whether the long-term track emphasizes solo performance, immersive theater, or both. The Art of Becoming remains a possible title for a specific performance or transformation chapter, not a provisional style name. Neither decision blocks research or prototyping.
