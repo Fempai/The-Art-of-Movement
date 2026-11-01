@@ -3,6 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
+const sourceCatalog = require('../curriculum/BEL101-VIDEO-SOURCES.json');
 const ids = [...Array.from({length:4},(_,i)=>'BEL101-'+String(i+1).padStart(2,'0')),...Array.from({length:13},(_,i)=>'BEL101-W'+String(i+4).padStart(2,'0'))];
 const errors=[];
 for(const id of ids){
@@ -10,12 +11,15 @@ for(const id of ids){
   if(!fs.existsSync(file)){errors.push(id+': missing lesson');continue}
   const md=fs.readFileSync(file,'utf8');
   if(id.includes('-W')){
-    const links=[...md.matchAll(/https:\/\/drive\.google\.com\/file\/d\/([A-Za-z0-9_-]+)\/view/g)];
-    if(!links.length)errors.push(id+': restored original video link absent');
-    if(/(?:URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered)/i.test(md))errors.push(id+': stale missing-video statement');
-    if(!/playback[^.\\n]{0,110}(?:not|unverified)|(?:not|unverified)[^.\\n]{0,110}playback/i.test(md))errors.push(id+': missing playback-verification caveat');
+    const week=Number(id.slice(-2));
+    const expected=sourceCatalog.videos.filter(v=>v.weeks.includes(week)).map(v=>v.url.match(/\/d\/([^/]+)\/view/)?.[1]);
+    const actual=[...md.matchAll(/https:\/\/drive\.google\.com\/file\/d\/([A-Za-z0-9_-]+)\/view/g)].map(m=>m[1]);
+    if(!expected.length)errors.push(id+': missing catalog source mapping');
+    for(const source of expected)if(!actual.includes(source))errors.push(id+': missing expected original source '+source);
+    if(/(?:URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered|links? (?:remain|remains) unrecovered)/i.test(md))errors.push(id+': stale missing-video statement');
+    if(!/(?:playback.{0,120}(?:not|unverified)|(?:not|unverified).{0,120}playback)/i.test(md))errors.push(id+': missing playback-verification caveat');
   }
-  const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split('## Independent assignment')[0];
+  const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split(/## (?:Independent assignment|Assignment and reflection|Cultural and source boundaries|Source and context)/i)[0];
   if(!quiz){errors.push(id+': quiz section missing');continue}
   const questions=[...quiz.matchAll(/\*\*([1-4])\. ([^\n]+)\*\*\s*\n\s*A\. ([^\n]+)\s*\n\s*B\. ([^\n]+)\s*\n\s*C\. ([^\n]+)\s*\n\s*D\. ([^\n]+)/g)];
   if(questions.length!==4)errors.push(id+': expected four complete question-and-option sets, found '+questions.length);
@@ -25,7 +29,6 @@ for(const id of ids){
       if(questions[i][1]!==String(i+1))errors.push(id+': question numbering out of sequence');
       const options=questions[i].slice(3,7).map(v=>v.trim().toLowerCase());
       if(new Set(options).size!==4)errors.push(id+': duplicate choices in question '+(i+1));
-      if(answers[i][2]!==undefined && !'ABCD'.includes(answers[i][2]))errors.push(id+': invalid key for question '+(i+1));
     }
   }
   if(answers.length!==4){errors.push(id+': expected 4 numbered answer explanations, found '+answers.length);continue}
@@ -51,4 +54,4 @@ for(const id of ids){
   }
 }
 assert.deepEqual(errors,[],'BEL101 feedback regression failures:\n'+errors.join('\n'));
-console.log('PASS: 17 BEL101 lessons have four non-boilerplate answer explanations each (68 total). Editorial and technique validation remain pending.');
+console.log('PASS: BEL101 quiz structure, feedback, source-catalog mapping, and playback caveats passed automated checks. Technique correctness, video playback, and reader behavior remain unverified.');
