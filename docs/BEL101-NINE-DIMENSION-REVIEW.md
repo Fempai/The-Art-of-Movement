@@ -145,3 +145,73 @@ Source: `curriculum/final-lessons/BEL101-W07.md`.
 | 9. Reader integration | NEEDS HUMAN REVIEW | Written link, quiz and assignment exist; deployed playback and interaction are not observed. |
 
 **Review count:** Eight BEL101 lessons (four foundation + Friday Weeks 04–07) now have explicit nine-dimension text reviews; nine Friday lessons (Weeks 08–16) still require rubric entries. No live technique or playback acceptance is claimed.
+
+## Friday Weeks 08–11 — nine-dimension evidence reviews (2026-11-02)
+
+All ratings below refer only to the lesson text. Actual movement technique, historical source verification and deployed learner experience are **NEEDS HUMAN REVIEW**.
+
+### BEL101-W08 — Midterm: Hip Work and Hip Slide Reassessment
+
+Source: `curriculum/final-lessons/BEL101-W08.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes and concept” specifies formative comparison with earlier records and observable support/timing. |
+| 2. Instructional sequence | PASS | “Count-by-count guided study” has right/left slides 1–4, circle 5–6 and settle 7–8 with three rehearsals. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Movement cues are textually coherent, but technique and stability require actual observation. |
+| 4. Modifications | PASS | “Modification” permits seated or half-speed practice and asks learners to record the changed conditions. |
+| 5. Self-correction | PASS | “Self-correction” isolates rushing on 5–6 and checks the return to neutral on 7–8. |
+| 6. Knowledge checks | PASS | Q1 C checks comparable evidence, Q2 A adaptation disclosure, Q3 D count-specific correction, Q4 B limited midterm conclusions. |
+| 7. Assignment | PASS | “Independent assignment” requires two Week 8 attempts and comparison with a real Week 1 record only if it exists; missing baselines are disclosed. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limits” distinguishes original practice from unverified hip-work videos and warns against a universal movement canon. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Written source links and quiz exist; deployed playback and accessible reader behavior are not verified. |
+
+### BEL101-W09 — Figure-Eight Pathway Refinement
+
+Source: `curriculum/final-lessons/BEL101-W09.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” distinguishes figure-eight pathway from actual floor travel. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” gives planted loops 1–4, step 5–6 and stable return 7–8. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The stationary-versus-travel distinction is internally clear; actual pelvic/step mechanics need observation. |
+| 4. Modifications | PASS | “Modification” marks loops and intended rightward step by hand while seated, explicitly disclaiming floor travel. |
+| 5. Self-correction | PASS | “Self-correction” reduces range or marks counts aloud when alignment, balance or timing breaks. |
+| 6. Knowledge checks | PASS | Q1 B tests travel, Q2 C knee correction, Q3 A seated pathway, Q4 D observable floor change. |
+| 7. Assignment | PASS | “Independent assignment” now compares two Week 9 attempts on pathway and actual travel instead of referring to the Week 16 final. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” identifies the video as planned but unverified and distinguishes the original drill from cultural provenance. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Live playback and learner-interface behavior are unobserved. |
+
+### BEL101-W10 — Playful Transitions and Connected Phrases
+
+Source: `curriculum/final-lessons/BEL101-W10.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” defines repeatable connection of familiar slides, circles and accents. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” assigns slides 1–4, half-circle 5–6 and accents 7–8; three repetitions build coordination. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The transitions are textually consistent; actual knee/back loading and control remain unobserved. |
+| 4. Modifications | PASS | “Modification” preserves each count using seated hand traces and accents. |
+| 5. Self-correction | PASS | “Self-correction” directs smaller pathways, supported positions and isolated counting. |
+| 6. Knowledge checks | PASS | Q1 C locates the circle, Q2 B isolates the slide-to-circle boundary, Q3 A transfers to seated tracing, Q4 D tests deliberate connection. |
+| 7. Assignment | PASS | “Independent assignment” now explicitly compares Week 10 counts 3–6 and repeatability rather than the Week 16 final. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” disclaims unverified video equivalence and universal technique claims. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | No deployed lesson or video playback was inspected. |
+
+### BEL101-W11 — Abdominal Articulation: Preparatory Belly Roll
+
+Source: `curriculum/final-lessons/BEL101-W11.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” limits the objective to gentle awareness, not visible full belly-roll proficiency. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” uses easy breath 1–2, engage/release 3–4, optional tiny wave 5–6, neutral 7–8. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The lesson warns against breath holding and forceful bracing, but abdominal/spinal technique and individual tolerability require observation. |
+| 4. Modifications | PASS | “Modification” omits visible wave and permits seated comfortable breathing. |
+| 5. Self-correction | PASS | “Self-correction” warns against forced isolations and back compression and provides slower/count-only alternatives. |
+| 6. Knowledge checks | PASS | Q1 B checks release, Q2 C omits discomfort, Q3 A preserves seated awareness, Q4 D limits claims; keyed choices match the text. |
+| 7. Assignment | PASS | “Independent assignment” now compares Week 11 breath/release evidence and documents omitted optional waves instead of referencing the Week 16 final. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” distinguishes original preparation from an authenticated belly-roll demonstration. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Reader rendering and real video behavior remain untested. |
+
+**Coverage update:** Twelve BEL101 lessons have explicit internal nine-dimension text reviews; Friday Weeks 12–16 remain. Earlier editorial checks are not substitutes for these records. No deployed playback or final release acceptance is asserted.
