@@ -6,6 +6,7 @@ on:
       - 'curriculum/BEL101-VIDEO-SOURCES.json'
       - 'tests/audit-instructional-coverage.cjs'
       - 'tests/audit-bellydance-feedback.cjs'
+      - 'tests/audit-all-quizzes.cjs'
       - '.github/workflows/instructional-coverage.yml'
   workflow_dispatch:
 permissions:
@@ -23,6 +24,10 @@ jobs:
         run: node --check tests/audit-instructional-coverage.cjs
       - name: Check BEL101 feedback regression script syntax
         run: node --check tests/audit-bellydance-feedback.cjs
+      - name: Check all-lesson quiz audit script syntax
+        run: node --check tests/audit-all-quizzes.cjs
+      - name: Verify 97-lesson quiz compatibility
+        run: node tests/audit-all-quizzes.cjs
       - name: Check all BEL101 lesson answer explanations
         run: node tests/audit-bellydance-feedback.cjs
       - name: Run all-lesson instructional coverage triage
