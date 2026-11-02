@@ -139,3 +139,7 @@ The instructional coverage workflow was updated to run `node tests/audit-all-qui
 ## CI audit evidence capture — 2026-11-01
 
 The instructional-coverage workflow now executes both the full **97-lesson quiz compatibility audit** and the **17-lesson BEL101 feedback/source audit** as explicit steps. Their outputs are captured as `all-quizzes-audit.log` and `bellydance-feedback-audit.log` and included with `instructional-coverage.log` in the workflow artifact and run summary. This makes it possible to distinguish a successful structural check from a missing, skipped, or failed step. The workflow configuration was committed, but **no successful GitHub Actions run has yet been verified in this review register**. Obtain the actual run URL, job conclusions, and logs before changing any CI status to PASS.
+
+## 97-lesson CI gate hardening — 2026-11-01
+
+The all-quiz audit now flags repeated question prompts within a lesson, unusually short answer explanations (under 25 characters), and missing keyed-option text in addition to its existing four-question/answer checks. The instructional-coverage workflow captures both stdout and stderr into retained audit logs while retaining `pipefail`, and now runs on relevant pull requests as well as pushes. These are prospective checks: **the newly strengthened audit has not been observed passing in GitHub Actions**. The latest combined commit-status endpoint returned no status entries, which is not a pass or fail conclusion. Check the actual Actions run/job details and logs before claiming CI success.
