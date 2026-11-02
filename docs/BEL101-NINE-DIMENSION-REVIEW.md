@@ -41,3 +41,37 @@ Source: `curriculum/final-lessons/BEL101-02.md`.
 - Verify the cultural terms and specific scholarly passages before upgrading source status.
 - Check real lesson rendering, media permissions and playback, and deployed mobile/keyboard interaction before upgrading reader integration.
 - Run the full quiz and browser suites after further changes. A previous screenshot confirms seven successful checks at `dc99ec0`, not at later commits.
+
+## BEL101-03 — Shimmies, Alternating Actions, and Musical Pulse
+
+Source: `curriculum/final-lessons/BEL101-03.md`.
+
+| Dimension | Status | Evidence and rationale |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes” defines a small alternating-knee exploration, an eight-count study, support and a limitation. |
+| 2. Instructional sequence | PASS | “Follow-along practice” specifies a slow one-action-per-count study, three repetitions, then an original phrase. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | “Guided eight-count study” cautions against forced pelvic twisting, but physical execution and the relationship of this drill to named shimmy practices need direct technique review. |
+| 4. Modifications | PASS | “Guided eight-count study” offers seated alternating foot pressure and hand marking; “Preparation” supplies stop conditions. |
+| 5. Self-correction | PASS | “Self-correction and progression” identifies knee twisting and beat loss, with reduced range and one-action-per-count recovery. |
+| 6. Knowledge checks | PASS | Q1 tests alternating actions, Q2 tempo regression, Q3 seated rhythmic transfer, Q4 evidence limits. Keys D/B/A/C are uniquely supported by the lesson text. |
+| 7. Assignment | PASS | “Assignment and reflection” requires an eight-count score and 150–250 words with a weighted rubric. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Technique distinction” avoids treating all shimmies as one technique; cited general references lack passage-level cultural verification. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | The written quiz and assignment exist; deployed learner controls and media access remain untested in this review. |
+
+## BEL101-04 — Eight-Count Combination and Cultural Context
+
+Source: `curriculum/final-lessons/BEL101-04.md`.
+
+| Dimension | Status | Evidence and rationale |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes” calls for combining slide, circle and accents while identifying cultural limitations. |
+| 2. Instructional sequence | PASS | “Guided eight-count study” gives right/left slides (1–4), half-circle (5–6), alternating accents (7–8), and a clearly specified reversed repeat. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The sequence is textually consistent, but actual joint mechanics and safe transition execution are not observed. |
+| 4. Modifications | PASS | “Guided eight-count study” permits seated pulses, and “Preparation” supplies stable-support and stop guidance. |
+| 5. Self-correction | PASS | “Self-correction and progression” addresses knee alignment, back compression and beat loss; repeatability is the checkpoint. |
+| 6. Knowledge checks | PASS | Q1 targets counts 5–6, Q2 transition diagnosis, Q3 original-versus-authenticated choreography, Q4 seated count/transition evidence. Keys B/D/A/C align with taught text. |
+| 7. Assignment | PASS | “Assignment and reflection” includes score, correction, inference boundary, a cited source or explicit uncertainty, and weighted criteria. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Context and terminology” and “Technique distinction” avoid universal provenance claims, but specific cultural claims and bibliographic passages need source review. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | “Continue into the original Friday video track” links the progression; link presence does not verify deployed navigation or actual playback. |
+
+**Coverage update:** Four foundation lessons (BEL101-01 through BEL101-04) have explicit nine-dimension internal text reviews. All four retain NEEDS HUMAN REVIEW for physical technique, cultural source authentication and deployed reader integration. No complete BEL101 signoff is claimed.
