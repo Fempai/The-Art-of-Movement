@@ -74,3 +74,16 @@ The source catalog at `curriculum/BEL101-VIDEO-SOURCES.json` records the owner-p
 A repository-content inspection (not an Actions execution or a deployed-browser test) examined the current 17 BEL101 lesson files against the canonical source catalog. All 17 contained four parseable multiple-choice question sets and four numbered answer explanations, for **68 questions total**. No lesson had a four-question key using fewer than three answer positions, or the conspicuously sequential `ABCD`/`DCBA` patterns. All Week 4–16 lesson files contained the scheduled catalog source IDs; Week 8, 15, and 16 correctly contained two source IDs each. No missing weekly source ID was observed.
 
 **Interpretation:** This is a static consistency review, not proof that the keyed answers are substantively correct, that a video is accessible or plays, that a movement is culturally/technically accurate, or that the deployed reader persists quiz progress. The nine-dimensional review and all browser/playback statuses remain **NEEDS REVIEW** until evidence is recorded. Do not promote these findings to an instructional sign-off.
+
+## BEL101 foundational editorial review — 2026-11-01
+
+The four foundational lessons were read for stated learning outcomes, follow-along sequences, four answer keys each, explanations, modifications, assignment alignment, and evidence boundaries. The reviewer compared the **written answer keys to the written lesson instructions**, not to an independent dance demonstration. All 16 foundational keyed choices were consistent with the corresponding written drills at this level of review:
+
+| Lesson | Key sequence | Written-lesson consistency | Outstanding checks |
+| --- | --- | --- | --- |
+| BEL101-01 | A C B D | No contradiction identified in four explanations | Independent technique/cultural-source review; browser behavior |
+| BEL101-02 | C A D B | No contradiction identified in four explanations | Independent technique/cultural-source review; browser behavior |
+| BEL101-03 | D B A C | No contradiction identified in four explanations | Independent shimmy-technique review; browser behavior |
+| BEL101-04 | B D A C | No contradiction identified in four explanations; stale missing-link statement corrected | Independent technique/cultural-source review; browser behavior |
+
+**Evidence:** `curriculum/final-lessons/BEL101-01.md` through `BEL101-04.md`, sections `Follow-along practice`, `Knowledge check`, `Answers and explanations`, and `Assignment and reflection`. These are internal text-consistency findings only. The questions primarily test recognition of explicitly taught instructions and safety choices; they do not establish authentic regional technique, independent learner comprehension, or physical proficiency. Keep all nine final approval dimensions open until the corresponding external and reader evidence is recorded.
