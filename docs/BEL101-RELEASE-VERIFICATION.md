@@ -12,7 +12,7 @@ Date: 2026-11-02
 
 - Technique: OPEN. Written count sequences and safety cautions reviewed, but physical demonstrations and technique execution not observed.
 - Cultural sources: OPEN. The lessons avoid claiming original exercises are authenticated traditional choreography, but scholarly passage checks and practitioner-specific video comparisons have not been completed.
-- Video playback: BLOCKED. An attempt to open a scheduled Drive video returned inaccessible in the available web environment. No playback success can be asserted.
+- Video playback: PARTIALLY CONFIRMED BY USER. On 2026-11-02, the Academy owner reported that a belly-dance video played successfully on their device. The particular video, playback controls, seeking, other scheduled sources, and lesson-topic matching were not identified or independently verified. An earlier attempt in the assistant's web environment was inaccessible; that does not override the owner's successful playback observation.
 - Deployed site: BLOCKED. An attempt to open the expected GitHub Pages URL returned inaccessible in the available web environment. Browser behavior and accessibility were not directly tested.
 - Current CI: OPEN. New head-commit checks require independent confirmation.
 
