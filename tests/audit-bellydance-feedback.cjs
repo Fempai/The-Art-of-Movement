@@ -25,7 +25,7 @@ for(const id of ids){
   const file=path.join(__dirname,'..','curriculum','final-lessons',id+'.md');
   if(!fs.existsSync(file)){errors.push(id+': missing lesson');continue}
   const md=fs.readFileSync(file,'utf8');
-  if(/(?:links? still need to be restored|links? (?:remain|remains) unrecovered|URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered)/i.test(md))errors.push(id+': stale missing-video statement');
+  if(/(?:links? still need to be restored|When the original video link is restored|especially while the source URL remains unverified|links? (?:remain|remains) unrecovered|URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered)/i.test(md))errors.push(id+': stale missing-video statement');
   if(id.includes('-W')){
     const week=Number(id.slice(-2));
     const expected=sourceCatalog.videos.filter(v=>v.weeks.includes(week)).map(v=>v.url.match(/\/d\/([^/]+)\/view/)?.[1]);
