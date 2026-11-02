@@ -32,7 +32,7 @@ Report structural audit and instructional audit separately. Never label all 97 l
 
 ## Original performance-language development (not yet part of 97-lesson inventory)
 
-The proposed **Art of Becoming** elective is described in [the original performance-language brief](../curriculum/ORIGINAL-PERFORMANCE-LANGUAGE.md). Its artistic foundation is audience revelation through psychological mirroring, theatrical contrast, and intentional sensory design. It is a **new, original compositional framework**, not a historical Egyptian dance or an existing validated course.
+The proposed **unnamed original performance-language** elective is described in [the original performance-language brief](../curriculum/ORIGINAL-PERFORMANCE-LANGUAGE.md). Its artistic foundation is audience revelation through psychological mirroring, theatrical contrast, and intentional sensory design. **The Art of Becoming** is a possible title for one transformation-focused phase or work, not the confirmed name of the entire performance language. It is a **new, original compositional framework**, not a historical Egyptian dance or an existing validated course.
 
 Do not publish or count its prototype among the 97 lessons until BEL101 review and playback testing are complete, the elective's learning outcomes and assessment are written, and the same nine-dimension instructional gate has been applied. Separate artistic interpretation from claims of mind-reading, universal audience response, or guaranteed psychological effects. Preserve accessible sensory options and accurate historical attribution.
 
