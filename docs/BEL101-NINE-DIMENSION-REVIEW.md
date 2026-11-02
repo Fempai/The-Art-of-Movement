@@ -75,3 +75,73 @@ Source: `curriculum/final-lessons/BEL101-04.md`.
 | 9. Reader integration | NEEDS HUMAN REVIEW | “Continue into the original Friday video track” links the progression; link presence does not verify deployed navigation or actual playback. |
 
 **Coverage update:** Four foundation lessons (BEL101-01 through BEL101-04) have explicit nine-dimension internal text reviews. All four retain NEEDS HUMAN REVIEW for physical technique, cultural source authentication and deployed reader integration. No complete BEL101 signoff is claimed.
+
+## Friday Weeks 04–07 — nine-dimension evidence reviews (2026-11-02)
+
+The statuses below are **internal text review only**. Physical technique, cultural source verification and live reader integration remain NEEDS HUMAN REVIEW, even when the corresponding text is coherent.
+
+### BEL101-W04 — Snake Arms and Chest Circles
+
+Source: `curriculum/final-lessons/BEL101-W04.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes” distinguishes arm initiation from torso circles and requires a safe adaptation. |
+| 2. Instructional sequence | PASS | “Guided follow-along practice” specifies warm-up, elbow-first arm sequence, eight-count breastbone oval and combination. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Elbow-to-wrist-to-hand sequencing and chest clock-face cues are internally coherent, but real shoulder/spinal technique needs observation. |
+| 4. Modifications | PASS | “Modifications and self-correction” offers supported seated marking and omitting uncomfortable shoulder/back components. |
+| 5. Self-correction | PASS | “Modifications and self-correction” identifies hand-leading, shoulder discomfort and coordination breakdown with targeted corrections. |
+| 6. Knowledge checks | PASS | Q1 C tests elbow-first order; Q2 A scales an uncomfortable back pathway; Q3 D corrects hand-leading; Q4 B distinguishes repeatability from source verification. |
+| 7. Assignment | PASS | “Independent assignment” requires separate eight-count scores, 150–250 words, comparison and weighted rubric. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Cultural and source boundaries” disclaims lineage and identifies restored original Drive source; video-topic match and cultural claims remain unverified. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | The lesson includes written quiz, feedback and assignment, but playback, deployed accessibility and reader behavior are not observed. |
+
+### BEL101-W05 — Beginner Movement Vocabulary
+
+Source: `curriculum/final-lessons/BEL101-W05.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes and concept” identifies three movements, support, timing and non-universal video vocabulary. |
+| 2. Instructional sequence | PASS | “Count-by-count guided study” assigns slides to 1–4, circle to 5–6, pulses to 7–8; repetition includes tempo and support checks. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The small-range coordination phrase is internally consistent, but pelvic and knee execution requires physical review. |
+| 4. Modifications | PASS | “Modification” hand-traces the circle seated; warm-up and self-correction provide pain and control stop conditions. |
+| 5. Self-correction | PASS | “Self-correction” reduces range for knee/back discomfort and restores pulse with clapping. |
+| 6. Knowledge checks | PASS | Q1 B tests count placement; Q2 D differentiates slide/circle; Q3 A applies seated modification; Q4 C limits inference from a video title. |
+| 7. Assignment | PASS | “Independent assignment” requires two count-scored attempts, evidence comparison and a weighted rubric. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limits” warns against universal canon and unverified video matching; cultural source claims need external passage checks. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Written sections and source URL are present; playback and deployed interaction remain untested. |
+
+### BEL101-W06 — Egyptian Shimmy: Controlled Alternation
+
+Source: `curriculum/final-lessons/BEL101-W06.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes and concept” defines alternating-knee preparation, support, timing and evidence limit. |
+| 2. Instructional sequence | PASS | “Count-by-count guided study” specifies alternating actions 1–8, with slow repetitions and a supported warm-up. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Alternating knee actions are described without forced twisting, but the relationship to practitioner-defined Egyptian shimmy and actual execution needs technique review. |
+| 4. Modifications | PASS | “Modification” preserves right-left rhythm through seated foot pressure or hand taps; warm-up gives stop conditions. |
+| 5. Self-correction | PASS | “Self-correction” scales knee/back strain and uses claps to recover the count; success check requires no breath-holding. |
+| 6. Knowledge checks | PASS | Q1 C checks one action per count; Q2 A restores timing; Q3 D transfers rhythm to seated practice; Q4 B distinguishes original preparation from authenticated technique. |
+| 7. Assignment | PASS | “Independent assignment” requests two attempts, 150–250-word evidence comparison and criteria. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limits” explicitly disclaims source-to-lesson technique equivalence; historical attribution remains unverified. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Restored link and complete lesson text exist; real media and reader behavior remain unobserved. |
+
+### BEL101-W07 — Traveling and Figure-Eight Pathways
+
+Source: `curriculum/final-lessons/BEL101-W07.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning outcomes and concept” distinguishes stationary figure-eight pathway from change in floor position. |
+| 2. Instructional sequence | PASS | “Count-by-count guided study” specifies loops 1–4, rightward step 5–6, settle 7–8, then repeat. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The distinction between a stationary pathway and actual travel is coherent, but pelvic mechanics and stepping balance need observation. |
+| 4. Modifications | PASS | “Modification” now preserves two hand-traced loops and represents, without falsely claiming, the rightward traveling step; warm-up gives stop conditions. |
+| 5. Self-correction | PASS | “Self-correction” isolates counts 3–6 and checks supporting foot during the loop-to-step transition. |
+| 6. Knowledge checks | PASS | Q1 D distinguishes loop versus step; Q2 B preserves hand-traced pathway; Q3 A checks actual positional change; Q4 C diagnoses the transition. |
+| 7. Assignment | PASS | “Independent assignment” requires two eight-count attempts, support, direction and uncertainty reflection. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limits” disclaims historical lineage and unverified source matching; exact technique attribution remains open. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Written link, quiz and assignment exist; deployed playback and interaction are not observed. |
+
+**Review count:** Eight BEL101 lessons (four foundation + Friday Weeks 04–07) now have explicit nine-dimension text reviews; nine Friday lessons (Weeks 08–16) still require rubric entries. No live technique or playback acceptance is claimed.
