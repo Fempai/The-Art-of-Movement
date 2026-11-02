@@ -8,6 +8,7 @@ on:
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
       - 'tests/audit-quiz-ambiguity-regressions.cjs'
+      - 'tests/audit-capstone-feedback.cjs'
       - '.github/workflows/instructional-coverage.yml'
   pull_request:
     paths:
@@ -17,6 +18,7 @@ on:
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
       - 'tests/audit-quiz-ambiguity-regressions.cjs'
+      - 'tests/audit-capstone-feedback.cjs'
       - '.github/workflows/instructional-coverage.yml'
   workflow_dispatch:
 permissions:
@@ -43,6 +45,13 @@ jobs:
         run: |
           set -o pipefail
           node tests/audit-quiz-ambiguity-regressions.cjs 2>&1 | tee quiz-ambiguity-regressions.log
+      - name: Check capstone feedback audit syntax
+        run: node --check tests/audit-capstone-feedback.cjs
+      - name: Verify PRO703 explanation and distractor feedback depth
+        shell: bash
+        run: |
+          set -o pipefail
+          node tests/audit-capstone-feedback.cjs 2>&1 | tee capstone-feedback-audit.log
       - name: Verify 97-lesson quiz compatibility
         shell: bash
         run: |
@@ -67,7 +76,7 @@ jobs:
             echo 'This is a text-coverage screen, **not** a determination of teaching quality, movement correctness, or quiz-answer validity.'
             echo 'Review all flags and manually evaluate the nine instructional validation dimensions.'
             echo 'Full machine-readable coverage results and separate quiz audit logs are available in the artifact.'
-            for audit in all-quizzes-audit.log bellydance-feedback-audit.log quiz-ambiguity-regressions.log; do
+            for audit in all-quizzes-audit.log bellydance-feedback-audit.log quiz-ambiguity-regressions.log capstone-feedback-audit.log; do
               if [ -f "$audit" ]; then
                 echo "### $audit"
                 echo '```text'
@@ -97,4 +106,5 @@ jobs:
             all-quizzes-audit.log
             bellydance-feedback-audit.log
             quiz-ambiguity-regressions.log
+            capstone-feedback-audit.log
           if-no-files-found: warn
