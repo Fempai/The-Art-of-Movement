@@ -21,6 +21,14 @@ for(const week of scheduledWeeks){
   if(!sourceCatalog.videos.some(video=>video.weeks.includes(week)))errors.push('catalog: week '+week+' has no scheduled source');
 }
 
+const ledger=fs.readFileSync(path.join(__dirname,'..','docs','BEL101-NINE-DIMENSION-REVIEW.md'),'utf8');
+for(const id of ids){
+  const match=ledger.match(new RegExp('(?:^|\\n)#{2,3} '+id+' \\u2014[^\\n]*\\n([\\s\\S]*?)(?=\\n#{2,3} |$)'));
+  if(!match){errors.push(id+': missing nine-dimension review');continue}
+  for(let dimension=1;dimension<=9;dimension++){
+    if(!match[1].includes('| '+dimension+'. '))errors.push(id+': missing review dimension '+dimension);
+  }
+}
 for(const id of ids){
   const file=path.join(__dirname,'..','curriculum','final-lessons',id+'.md');
   if(!fs.existsSync(file)){errors.push(id+': missing lesson');continue}
