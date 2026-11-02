@@ -27,9 +27,15 @@ jobs:
       - name: Check all-lesson quiz audit script syntax
         run: node --check tests/audit-all-quizzes.cjs
       - name: Verify 97-lesson quiz compatibility
-        run: node tests/audit-all-quizzes.cjs
+        shell: bash
+        run: |
+          set -o pipefail
+          node tests/audit-all-quizzes.cjs | tee all-quizzes-audit.log
       - name: Check all BEL101 lesson answer explanations
-        run: node tests/audit-bellydance-feedback.cjs
+        shell: bash
+        run: |
+          set -o pipefail
+          node tests/audit-bellydance-feedback.cjs | tee bellydance-feedback-audit.log
       - name: Run all-lesson instructional coverage triage
         shell: bash
         run: |
@@ -43,7 +49,18 @@ jobs:
             echo '## Instructional coverage triage'
             echo 'This is a text-coverage screen, **not** a determination of teaching quality, movement correctness, or quiz-answer validity.'
             echo 'Review all flags and manually evaluate the nine instructional validation dimensions.'
-            echo 'Full machine-readable results are available in the artifact.'
+            echo 'Full machine-readable coverage results and separate quiz audit logs are available in the artifact.'
+            for audit in all-quizzes-audit.log bellydance-feedback-audit.log; do
+              if [ -f "$audit" ]; then
+                echo "### $audit"
+                echo '```text'
+                cat "$audit"
+                echo '```'
+              else
+                echo "### $audit"
+                echo 'Audit log unavailable; inspect the corresponding workflow step.'
+              fi
+            done
             if [ -f instructional-coverage.log ]; then
               echo '### Initial output'
               echo '```text'
@@ -58,5 +75,8 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: instructional-coverage-triage
-          path: instructional-coverage.log
+          path: |
+            instructional-coverage.log
+            all-quizzes-audit.log
+            bellydance-feedback-audit.log
           if-no-files-found: warn
