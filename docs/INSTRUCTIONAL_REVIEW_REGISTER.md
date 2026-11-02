@@ -87,3 +87,27 @@ The four foundational lessons were read for stated learning outcomes, follow-alo
 | BEL101-04 | B D A C | No contradiction identified in four explanations; stale missing-link statement corrected | Independent technique/cultural-source review; browser behavior |
 
 **Evidence:** `curriculum/final-lessons/BEL101-01.md` through `BEL101-04.md`, sections `Follow-along practice`, `Knowledge check`, `Answers and explanations`, and `Assignment and reflection`. These are internal text-consistency findings only. The questions primarily test recognition of explicitly taught instructions and safety choices; they do not establish authentic regional technique, independent learner comprehension, or physical proficiency. Keep all nine final approval dimensions open until the corresponding external and reader evidence is recorded.
+
+## BEL101 weekly knowledge-check editorial pass — 2026-11-01
+
+Read all **52** questions, four answer choices per question, keyed choices, and explanatory paragraphs in `curriculum/final-lessons/BEL101-W04.md` through `BEL101-W16.md`. Compared each answer's **meaning against the stated written drill and the other offered options**. No direct contradiction between the keyed response and the described beginner task was identified in this pass. This does **not** independently establish technical correctness, cultural authenticity, or actual learner comprehension.
+
+| Weekly lesson | Keyed answers | Internal text/option consistency | Release disposition |
+| --- | --- | --- | --- |
+| BEL101-W04 | C A D B | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W05 | B D A C | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W06 | C A D B | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W07 | D B A C | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W08 | C A D B | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W09 | B C A D | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W10 | C B A D | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W11 | B C A D | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W12 | B C A D | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W13 | C B A D | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W14 | B C A D | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W15 | C A D B | No direct contradiction identified | NEEDS REVIEW |
+| BEL101-W16 | D B A C | No direct contradiction identified | NEEDS REVIEW |
+
+**Editorial observations:** The questions are mainly recognition, count recall, low-range adaptation, and evidence-boundary choices. Many distractors are obviously unsafe or categorically unsupported (e.g. jumps, breath holding, certification claims); this makes some items too easy to discriminate among choices. Consequently, an all-correct quiz result would be weak evidence of transfer to actual movement performance. For later revisions, replace some implausible distractors with realistic beginner errors, add scenarios where two choices seem superficially reasonable but only one matches the taught count or movement pathway, and retain explicit safety guidance outside the quiz. Do not change the correct key merely to make the distribution look balanced.
+
+**Evidence scope:** Static editorial inspection of written material, not execution of GitHub Actions or video playback. Final nine-dimensional instructional validation stays open. The first four foundation lessons' 16 answers were separately inspected above, bringing the **written key/option consistency review to 68/68** questions; this is not a pass for independent technique verification or pedagogical effectiveness.
