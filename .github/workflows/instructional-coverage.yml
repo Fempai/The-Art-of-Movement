@@ -8,6 +8,14 @@ on:
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
       - '.github/workflows/instructional-coverage.yml'
+  pull_request:
+    paths:
+      - 'curriculum/final-lessons/**'
+      - 'curriculum/BEL101-VIDEO-SOURCES.json'
+      - 'tests/audit-instructional-coverage.cjs'
+      - 'tests/audit-bellydance-feedback.cjs'
+      - 'tests/audit-all-quizzes.cjs'
+      - '.github/workflows/instructional-coverage.yml'
   workflow_dispatch:
 permissions:
   contents: read
