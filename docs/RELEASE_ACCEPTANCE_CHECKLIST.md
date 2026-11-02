@@ -28,3 +28,15 @@ Scope: 97 existing lessons across 21 course codes, including 13 BEL101 weekly le
 - [ ] Release notes and known limitations published.
 
 Evidence policy: structural parsing is not instructional validation; a browser test supports only its asserted scenario. No external learner recruitment or instructor signoff is required for the agreed internal review standard. Do not alter answer letters solely for distribution.
+
+## Current verification checkpoint — 2026-11-02
+
+- [x] Inspected the current Q1 explanation text in all 15 advanced lessons affected by the A/B option reorder; each now references the current `(A)` distractor rather than stale `(B)`.
+- [x] Added those 15 cases to `tests/audit-quiz-ambiguity-regressions.cjs`; the existing `instructional-coverage.yml` runs this audit on push and pull requests affecting lesson/audit files.
+- [x] Completed a focused text-based BEL101 editorial pass across 17 lesson files; Weeks 08 and 16 now require documented, comparable baseline evidence rather than inferred progress.
+- [ ] **Fresh CI evidence:** Open GitHub Actions for the release commit and record the workflow run URL, numeric run ID, head SHA, conclusion, and individual jobs for instructional coverage, quiz-browser regression, and other required workflows. A push triggering a workflow is not proof it passed.
+- [ ] **Instructional evidence:** For every lesson, complete all nine dimensions with passage-level evidence. Text edits and structural scans alone do not close this item.
+- [ ] **Media acceptance:** Open and play every required video in the actual deployed learner experience, verify access permissions, seek controls and lesson-topic correspondence, and record failures. URL presence does not prove playback.
+- [ ] **Deployed release acceptance:** Test representative real lessons from all 21 courses, BEL101 weekly material, keyboard/mobile interaction, saved progress and recovery; retain results and critical-issue disposition.
+
+**Evidence limitation:** GitHub connector currently exposes individual commit and file reads but not a reliable listing of push-triggered Actions runs. No current green workflow conclusion, live playback success, or full nine-dimension signoff is asserted here. Do not mark the release gate passed until the missing observations are recorded.
