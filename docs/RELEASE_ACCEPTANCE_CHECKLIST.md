@@ -40,3 +40,7 @@ Evidence policy: structural parsing is not instructional validation; a browser t
 - [ ] **Deployed release acceptance:** Test representative real lessons from all 21 courses, BEL101 weekly material, keyboard/mobile interaction, saved progress and recovery; retain results and critical-issue disposition.
 
 **Evidence limitation:** GitHub connector currently exposes individual commit and file reads but not a reliable listing of push-triggered Actions runs. No current green workflow conclusion, live playback success, or full nine-dimension signoff is asserted here. Do not mark the release gate passed until the missing observations are recorded.
+
+## Confirmed commit checks — user screenshot, 2026-11-02
+
+At commit `dc99ec02fa40b72ee6ac7dc850374461896c4d87` on `main`, the GitHub commit checks popup showed **7 successful checks**: `pages build and deployment / build (dynamic)` (23s), `pages build and deployment / deploy (dynamic)` (13s), `Academy desktop and mobile browser regression / mobile-e2e (push)` (1m), `pages build and deployment / report-build-status (dynamic)` (5s), `Academy static regression checks / static-checks (push)` (15s), `Academy static integrity / static-qa (push)` (11s), and `Academy lesson and quiz verification / verify (push)` (53s). Evidence: user-supplied GitHub screenshot in chat. This is **confirmed for that SHA only**. The screenshot did not list the separately named instructional-coverage triage or quiz-browser regression workflows; do not infer their status from the seven checks. Later commits require their own checks.
