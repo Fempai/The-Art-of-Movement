@@ -63,7 +63,8 @@ jobs:
           else
             echo 'Audit did not execute; inspect the workflow steps.' >> "$GITHUB_STEP_SUMMARY"
           fi
-      - run: npm install --no-save @playwright/test
+      - name: Install pinned Playwright test runner
+        run: npm install --no-save @playwright/test@1.56.1
       - run: npx playwright install --with-deps chromium
       - name: Start local web server
         run: python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/aom-http.log 2>&1 &
