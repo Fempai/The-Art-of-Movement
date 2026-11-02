@@ -143,3 +143,9 @@ The instructional-coverage workflow now executes both the full **97-lesson quiz 
 ## 97-lesson CI gate hardening — 2026-11-01
 
 The all-quiz audit now flags repeated question prompts within a lesson, unusually short answer explanations (under 25 characters), and missing keyed-option text in addition to its existing four-question/answer checks. The instructional-coverage workflow captures both stdout and stderr into retained audit logs while retaining `pipefail`, and now runs on relevant pull requests as well as pushes. These are prospective checks: **the newly strengthened audit has not been observed passing in GitHub Actions**. The latest combined commit-status endpoint returned no status entries, which is not a pass or fail conclusion. Check the actual Actions run/job details and logs before claiming CI success.
+
+## Cross-course applied quiz revision — 2026-11-01
+
+After the BEL101 first-pass revision, **MOV101-01** and **DNC101-01 through DNC101-03** received editorial question/distractor revisions. MOV101-01 now tests the distinction between observed body position and joint-specific motion; DNC101-01 tests tendu support, floor contact, and controlled return; DNC101-02 tests plié depth, phrasing, and heel contact; DNC101-03 tests relevé definition, supported modifications, and controlled lowering. Existing correct-answer letters and feedback were retained. These are four **edited**, not validated, lessons: ambiguity review, full quiz regression, and browser verification remain pending.
+
+The 97-lesson audit now also detects duplicate prompts and exceptionally short explanations; this new threshold may identify legacy lessons that require editorial attention. A configured workflow is not a verified passing run. Keep CI status unconfirmed until job evidence is inspected.
