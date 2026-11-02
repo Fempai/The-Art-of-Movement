@@ -48,7 +48,7 @@ jobs:
           node tests/audit-quiz-ambiguity-regressions.cjs 2>&1 | tee quiz-ambiguity-regressions.log
       - name: Check capstone feedback audit syntax
         run: node --check tests/audit-capstone-feedback.cjs
-      - name: Verify PRO703, RES501, and EST504 explanation and distractor feedback depth
+      - name: Verify PRO703, RES501, EST504, and CMP502 explanation and distractor feedback depth
         if: always()
         shell: bash
         run: |
