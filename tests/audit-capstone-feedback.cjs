@@ -1,10 +1,10 @@
-// Editorial feedback-depth gate for professional capstone, research-methods, dance-criticism, composition, motor-learning, and site-responsive lessons.
+// Editorial feedback-depth gate for professional capstone, research-methods, dance-criticism, composition, motor-learning, site-responsive, and repertory lessons.
 // This checks the presence of explanation and distractor-specific feedback;
 // it does not establish that the teaching or answer key is factually correct.
 const fs=require('node:fs');
 const path=require('node:path');
 const assert=require('node:assert/strict');
-const ids=['PRO703-01','PRO703-02','PRO703-03','PRO703-04','RES501-01','RES501-02','RES501-03','RES501-04','EST504-01','EST504-02','EST504-03','EST504-04','CMP502-01','CMP502-02','CMP502-03','CMP502-04','SCI503-01','SCI503-02','SCI503-03','SCI503-04','SIT505-01','SIT505-02','SIT505-03','SIT505-04'];
+const ids=['PRO703-01','PRO703-02','PRO703-03','PRO703-04','RES501-01','RES501-02','RES501-03','RES501-04','EST504-01','EST504-02','EST504-03','EST504-04','CMP502-01','CMP502-02','CMP502-03','CMP502-04','SCI503-01','SCI503-02','SCI503-03','SCI503-04','SIT505-01','SIT505-02','SIT505-03','SIT505-04','PRO701-01','PRO701-02','PRO701-03','PRO701-04'];
 const errors=[];
 let checked=0;
 for(const id of ids){
@@ -27,5 +27,5 @@ for(const id of ids){
  }
 }
 assert.deepEqual(errors,[],'Research and capstone feedback-depth regression failures:\n'+errors.join('\n'));
-assert.equal(checked,96,'Expected 96 complete feedback checks');
-console.log('PASS: 96/96 PRO703, RES501, EST504, CMP502, SCI503, and SIT505 explanations include substantial rationale and feedback for each incorrect option. Semantic correctness remains subject to human review.');
+assert.equal(checked,112,'Expected 112 complete feedback checks');
+console.log('PASS: 112/112 PRO703, RES501, EST504, CMP502, SCI503, SIT505, and PRO701 explanations include substantial rationale and feedback for each incorrect option. Semantic correctness remains subject to human review.');
