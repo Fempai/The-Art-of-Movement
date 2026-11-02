@@ -59,3 +59,11 @@ The 51 open rubric cells are **NEEDS HUMAN REVIEW**, not automatic failures. Thi
 ## BEL101 external acceptance attempt — 2026-11-02
 
 See [`BEL101-RELEASE-VERIFICATION.md`](BEL101-RELEASE-VERIFICATION.md) for the evidence and outstanding tests. Attempted the expected Pages site and one scheduled Drive source via available web access; both were inaccessible from this environment. This is **not** proof the public site or source is broken for a real learner. Actual playback, accessibility, physical technique, source authentication, and current-head CI remain unverified. Do not close the release gate on this basis.
+
+## Owner playback confirmation — 2026-11-02
+
+- [x] Academy owner confirmed that a belly-dance video played successfully on their device. This establishes **one successful playback observation**; the video identity and tested controls were not specified.
+- [ ] Confirm playback and topic match for all scheduled sources; seek controls, permissions and other devices remain untested.
+- [ ] Complete deployed lesson navigation, quiz and saved-progress checks independently of this playback observation.
+
+The earlier assistant-side access failure does not negate the owner's successful playback. See [`BEL101-RELEASE-VERIFICATION.md`](BEL101-RELEASE-VERIFICATION.md).
