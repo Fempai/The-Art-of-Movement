@@ -10,6 +10,7 @@ const cases = [
   {id:'BEL101-04', number:3, correct:'A', mustContain:['original coordination study','authenticated example of every regional'], mustNotContain:['does not establish the specific lineage of the source video']},
   {id:'CMP502-01', number:2, correct:'C', mustContain:['Support and momentum must remain physically manageable','automatically guarantees a stable support foot'], mustNotContain:['may begin with a weight transfer that lacks stable support','ending pose may not provide the support needed']},
   {id:'PRO702-03', number:2, correct:'B', mustContain:['loose hem catching underfoot','fitted sleeve tested'], mustNotContain:['long sleeve that catches','loose accessory that shifts','trailing sash that contacts']},
+  {id:'RES501-03', number:4, correct:'D', mustContain:['visible onset count was documented','These six trials establish how all dancers move'], mustNotContain:['Six trials provide a precise estimate of the average onset']},
   {id:'PRO703-02', number:4, correct:'D', mustContain:['Movement evidence and media permissions','Which requirement remains even after an artist statement'], mustNotContain:['A. A precise count sheet showing','B. The license or permission required','C. Evidence that the gesture actually']}
 ];
 for (const test of cases) {
