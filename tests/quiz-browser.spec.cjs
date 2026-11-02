@@ -582,3 +582,15 @@ test('BEL101 Friday video links and weekly quiz render in the reader',async({pag
  await panel.getByRole('button',{name:'Check my answers'}).click();
  await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
 });
+
+// Integration smoke test: unlike the fixture-based tests, this fetches a real lesson.
+test('real MOV101 lesson renders a gradeable knowledge check',async({page})=>{
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.getByRole('button',{name:'Study here'}).first().click();
+ const panel=page.locator('.lesson-panel');
+ await expect(panel.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
+ await expect(panel.locator('fieldset')).toHaveCount(4);
+ await expect(panel.getByRole('button',{name:'Check my answers'})).toBeEnabled();
+ await expect(panel.getByText(/cannot be graded interactively yet/)).toHaveCount(0);
+});
