@@ -30,17 +30,17 @@ jobs:
         shell: bash
         run: |
           set -o pipefail
-          node tests/audit-all-quizzes.cjs | tee all-quizzes-audit.log
+          node tests/audit-all-quizzes.cjs 2>&1 | tee all-quizzes-audit.log
       - name: Check all BEL101 lesson answer explanations
         shell: bash
         run: |
           set -o pipefail
-          node tests/audit-bellydance-feedback.cjs | tee bellydance-feedback-audit.log
+          node tests/audit-bellydance-feedback.cjs 2>&1 | tee bellydance-feedback-audit.log
       - name: Run all-lesson instructional coverage triage
         shell: bash
         run: |
           set -o pipefail
-          AOM_AUDIT_JSON=1 node tests/audit-instructional-coverage.cjs | tee instructional-coverage.log
+          AOM_AUDIT_JSON=1 node tests/audit-instructional-coverage.cjs 2>&1 | tee instructional-coverage.log
       - name: Publish triage summary
         if: always()
         shell: bash
