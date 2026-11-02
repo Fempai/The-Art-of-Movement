@@ -285,3 +285,7 @@ Read the learner-facing text and four-question knowledge checks for Weeks 08–1
 ## Advanced Q1 feedback-letter audit — 2026-11-01
 
 Inspected question 1 and its keyed explanation in 17 lessons whose answer options had previously been reordered. STG101-01 and FLE101-01 had no letter-specific distractor reference requiring correction. The remaining 15 explanations incorrectly labeled the current A distractor as '(B)' after the correct answer moved to B. Corrected that reference in LMA201-01, LMA201-03, PER201-03, RES501-02, CMP502-04, SCI503-01, SCI503-03, SIT505-01, PRO701-01, PRO701-03, PRO702-01, PRO702-03, PRO703-01, PRO703-03, and PRO703-04. Keys and question choices were unchanged. These were manually identified consistency errors, not proof that every distractor explanation in the academy is semantically accurate. A proposed automated regression edit was blocked and therefore not committed; post-edit CI remains unverified.
+
+## Reordered Q1 feedback regression guard — 2026-11-02
+
+Added assertions to `tests/audit-quiz-ambiguity-regressions.cjs` for the 15 advanced lessons repaired on 2026-11-01. Each assertion requires Q1 keyed-B feedback, the current `(A)` distractor reference, and no stale `(B)` distractor reference. The existing `.github/workflows/instructional-coverage.yml` already executes this script on lesson and audit-script changes, so no workflow edit was needed. This is a narrowly targeted label-consistency guard, not a complete semantic quiz validation. The commit has been pushed but workflow success has not yet been observed.
