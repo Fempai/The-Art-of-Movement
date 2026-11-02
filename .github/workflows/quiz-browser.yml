@@ -64,7 +64,13 @@ jobs:
             echo 'Audit did not execute; inspect the workflow steps.' >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: Install Playwright test runner (last known passing workflow configuration)
-        run: npm install --no-save @playwright/test
+        shell: bash
+        run: |
+          set -o pipefail
+          node --version
+          npm --version
+          npm install --no-save @playwright/test 2>&1 | tee /tmp/aom-playwright-install.log
+          npx playwright --version
       - run: npx playwright install --with-deps chromium
       - name: Start local web server
         run: python3 -m http.server 8765 --bind 127.0.0.1 > /tmp/aom-http.log 2>&1 &
@@ -82,6 +88,19 @@ jobs:
         run: |
           mkdir -p test-results
           npx playwright test tests/quiz-browser.spec.cjs --browser chromium --reporter=line,json --trace=retain-on-failure --workers=1 --output=test-results
+      - name: Publish setup diagnostics
+        if: always()
+        shell: bash
+        run: |
+          echo '## Browser setup diagnostics' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f /tmp/aom-playwright-install.log ]; then
+            echo '### Playwright install (last 40 lines)' >> "$GITHUB_STEP_SUMMARY"
+            echo '```text' >> "$GITHUB_STEP_SUMMARY"
+            tail -n 40 /tmp/aom-playwright-install.log >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Playwright installation was not reached; inspect earlier steps.' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: Publish quiz regression summary
         if: always()
         run: |
