@@ -1,10 +1,10 @@
-// Editorial feedback-depth gate for professional capstone and research-methods lessons.
+// Editorial feedback-depth gate for professional capstone, research-methods, and dance-criticism lessons.
 // This checks the presence of explanation and distractor-specific feedback;
 // it does not establish that the teaching or answer key is factually correct.
 const fs=require('node:fs');
 const path=require('node:path');
 const assert=require('node:assert/strict');
-const ids=['PRO703-01','PRO703-02','PRO703-03','PRO703-04','RES501-01','RES501-02','RES501-03','RES501-04'];
+const ids=['PRO703-01','PRO703-02','PRO703-03','PRO703-04','RES501-01','RES501-02','RES501-03','RES501-04','EST504-01','EST504-02','EST504-03','EST504-04'];
 const errors=[];
 let checked=0;
 for(const id of ids){
@@ -27,5 +27,5 @@ for(const id of ids){
  }
 }
 assert.deepEqual(errors,[],'Research and capstone feedback-depth regression failures:\n'+errors.join('\n'));
-assert.equal(checked,32,'Expected 32 complete feedback checks');
-console.log('PASS: 32/32 PRO703 and RES501 explanations include substantial rationale and feedback for each incorrect option. Semantic correctness remains subject to human review.');
+assert.equal(checked,48,'Expected 48 complete feedback checks');
+console.log('PASS: 48/48 PRO703, RES501, and EST504 explanations include substantial rationale and feedback for each incorrect option. Semantic correctness remains subject to human review.');
