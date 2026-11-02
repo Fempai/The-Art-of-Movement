@@ -1,10 +1,10 @@
-// Editorial feedback-depth gate for professional capstone, research-methods, dance-criticism, composition, motor-learning, site-responsive, repertory, and production lessons.
+// Editorial feedback-depth gate for professional capstone, research-methods, dance-criticism, composition, motor-learning, site-responsive, repertory, production, and movement-analysis lessons.
 // This checks the presence of explanation and distractor-specific feedback;
 // it does not establish that the teaching or answer key is factually correct.
 const fs=require('node:fs');
 const path=require('node:path');
 const assert=require('node:assert/strict');
-const ids=['PRO703-01','PRO703-02','PRO703-03','PRO703-04','RES501-01','RES501-02','RES501-03','RES501-04','EST504-01','EST504-02','EST504-03','EST504-04','CMP502-01','CMP502-02','CMP502-03','CMP502-04','SCI503-01','SCI503-02','SCI503-03','SCI503-04','SIT505-01','SIT505-02','SIT505-03','SIT505-04','PRO701-01','PRO701-02','PRO701-03','PRO701-04','PRO702-01','PRO702-02','PRO702-03','PRO702-04'];
+const ids=['PRO703-01','PRO703-02','PRO703-03','PRO703-04','RES501-01','RES501-02','RES501-03','RES501-04','EST504-01','EST504-02','EST504-03','EST504-04','CMP502-01','CMP502-02','CMP502-03','CMP502-04','SCI503-01','SCI503-02','SCI503-03','SCI503-04','SIT505-01','SIT505-02','SIT505-03','SIT505-04','PRO701-01','PRO701-02','PRO701-03','PRO701-04','PRO702-01','PRO702-02','PRO702-03','PRO702-04','LMA201-01','LMA201-02','LMA201-03','LMA201-04'];
 const errors=[];
 let checked=0;
 for(const id of ids){
@@ -27,5 +27,5 @@ for(const id of ids){
  }
 }
 assert.deepEqual(errors,[],'Research and capstone feedback-depth regression failures:\n'+errors.join('\n'));
-assert.equal(checked,128,'Expected 128 complete feedback checks');
-console.log('PASS: 128/128 PRO703, RES501, EST504, CMP502, SCI503, SIT505, PRO701, and PRO702 explanations include substantial rationale and feedback for each incorrect option. Semantic correctness remains subject to human review.');
+assert.equal(checked,144,'Expected 144 complete feedback checks');
+console.log('PASS: 144/144 PRO703, RES501, EST504, CMP502, SCI503, SIT505, PRO701, PRO702, and LMA201 explanations include substantial rationale and feedback for each incorrect option. Semantic correctness remains subject to human review.');
