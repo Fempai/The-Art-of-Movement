@@ -25,13 +25,13 @@ for(const id of ids){
   const file=path.join(__dirname,'..','curriculum','final-lessons',id+'.md');
   if(!fs.existsSync(file)){errors.push(id+': missing lesson');continue}
   const md=fs.readFileSync(file,'utf8');
+  if(/(?:links? still need to be restored|links? (?:remain|remains) unrecovered|URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered)/i.test(md))errors.push(id+': stale missing-video statement');
   if(id.includes('-W')){
     const week=Number(id.slice(-2));
     const expected=sourceCatalog.videos.filter(v=>v.weeks.includes(week)).map(v=>v.url.match(/\/d\/([^/]+)\/view/)?.[1]);
     const actual=[...md.matchAll(/https:\/\/drive\.google\.com\/file\/d\/([A-Za-z0-9_-]+)\/view/g)].map(m=>m[1]);
     if(!expected.length)errors.push(id+': missing catalog source mapping');
     for(const source of expected)if(!actual.includes(source))errors.push(id+': missing expected original source '+source);
-    if(/(?:URL remains unrecovered|URL has not yet been recovered|URL is not available in the repository|link has not been recovered|links? (?:remain|remains) unrecovered)/i.test(md))errors.push(id+': stale missing-video statement');
     if(!/(?:playback.{0,120}(?:not|unverified)|(?:not|unverified).{0,120}playback)/i.test(md))errors.push(id+': missing playback-verification caveat');
   }
   const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split(/## (?:Independent assignment|Assignment and reflection|Cultural and source boundaries|Source and context)/i)[0];
