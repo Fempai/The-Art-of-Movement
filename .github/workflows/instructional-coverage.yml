@@ -41,6 +41,7 @@ jobs:
       - name: Check ambiguity regression script syntax
         run: node --check tests/audit-quiz-ambiguity-regressions.cjs
       - name: Verify known ambiguous questions stay corrected
+        if: always()
         shell: bash
         run: |
           set -o pipefail
@@ -48,21 +49,25 @@ jobs:
       - name: Check capstone feedback audit syntax
         run: node --check tests/audit-capstone-feedback.cjs
       - name: Verify PRO703 explanation and distractor feedback depth
+        if: always()
         shell: bash
         run: |
           set -o pipefail
           node tests/audit-capstone-feedback.cjs 2>&1 | tee capstone-feedback-audit.log
       - name: Verify 97-lesson quiz compatibility
+        if: always()
         shell: bash
         run: |
           set -o pipefail
           node tests/audit-all-quizzes.cjs 2>&1 | tee all-quizzes-audit.log
       - name: Check all BEL101 lesson answer explanations
+        if: always()
         shell: bash
         run: |
           set -o pipefail
           node tests/audit-bellydance-feedback.cjs 2>&1 | tee bellydance-feedback-audit.log
       - name: Run all-lesson instructional coverage triage
+        if: always()
         shell: bash
         run: |
           set -o pipefail
