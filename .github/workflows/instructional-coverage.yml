@@ -7,6 +7,7 @@ on:
       - 'tests/audit-instructional-coverage.cjs'
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
+      - 'tests/audit-quiz-ambiguity-regressions.cjs'
       - '.github/workflows/instructional-coverage.yml'
   pull_request:
     paths:
@@ -15,6 +16,7 @@ on:
       - 'tests/audit-instructional-coverage.cjs'
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
+      - 'tests/audit-quiz-ambiguity-regressions.cjs'
       - '.github/workflows/instructional-coverage.yml'
   workflow_dispatch:
 permissions:
@@ -34,6 +36,13 @@ jobs:
         run: node --check tests/audit-bellydance-feedback.cjs
       - name: Check all-lesson quiz audit script syntax
         run: node --check tests/audit-all-quizzes.cjs
+      - name: Check ambiguity regression script syntax
+        run: node --check tests/audit-quiz-ambiguity-regressions.cjs
+      - name: Verify known ambiguous questions stay corrected
+        shell: bash
+        run: |
+          set -o pipefail
+          node tests/audit-quiz-ambiguity-regressions.cjs 2>&1 | tee quiz-ambiguity-regressions.log
       - name: Verify 97-lesson quiz compatibility
         shell: bash
         run: |
@@ -58,7 +67,7 @@ jobs:
             echo 'This is a text-coverage screen, **not** a determination of teaching quality, movement correctness, or quiz-answer validity.'
             echo 'Review all flags and manually evaluate the nine instructional validation dimensions.'
             echo 'Full machine-readable coverage results and separate quiz audit logs are available in the artifact.'
-            for audit in all-quizzes-audit.log bellydance-feedback-audit.log; do
+            for audit in all-quizzes-audit.log bellydance-feedback-audit.log quiz-ambiguity-regressions.log; do
               if [ -f "$audit" ]; then
                 echo "### $audit"
                 echo '```text'
@@ -87,4 +96,5 @@ jobs:
             instructional-coverage.log
             all-quizzes-audit.log
             bellydance-feedback-audit.log
+            quiz-ambiguity-regressions.log
           if-no-files-found: warn
