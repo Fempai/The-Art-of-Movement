@@ -31,9 +31,12 @@ for(const id of lessonIds){
  if(questions.some(q=>!q[2]?.trim()))errors.push(id+': empty question prompt');
  if(questions.some(q=>q.slice(3,7).some(x=>!x?.trim())))errors.push(id+': empty option');
  if(questions.some(q=>new Set(q.slice(3,7).map(x=>x.trim().toLowerCase())).size!==4))errors.push(id+': duplicate answer choices');
+ if(new Set(questions.map(q=>q[2].trim().toLowerCase())).size!==4)errors.push(id+': duplicate question prompts');
+ if(answers.some(a=>(alternate?a[2]:a[3]).trim().length<25))errors.push(id+': answer explanation too short for meaningful feedback');
  if(answers.some(a=>!(alternate?a[2]:a[3])?.trim()))errors.push(id+': empty explanation');
  if(answers.some(a=>!('ABCD'.includes(alternate?a[1]:a[2]))))errors.push(id+': invalid correct-answer letter');
  if(!alternate&&answers.some((a,i)=>a[1]!==questions[i][1]))errors.push(id+': answer key does not align with question order');
+ if(questions.some((q,i)=>!q['ABCD'.indexOf(alternate?answers[i][1]:answers[i][2])+3]?.trim()))errors.push(id+': keyed option missing');
 }
 assert.equal(Object.keys(keys).length,97,'Expected 97 parseable lesson quizzes; errors: '+errors.join('; '));
 assert.deepEqual(errors,[],'Quiz compatibility errors');
