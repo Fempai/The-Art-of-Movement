@@ -123,6 +123,16 @@ jobs:
             echo 'No JSON test report was generated; inspect earlier workflow steps.' >> "$GITHUB_STEP_SUMMARY"
           fi
           echo 'Full test evidence is retained in the workflow artifacts.' >> "$GITHUB_STEP_SUMMARY"
+      - name: Preserve setup logs for download
+        if: always()
+        shell: bash
+        run: |
+          mkdir -p test-results/diagnostics
+          for source in /tmp/aom-playwright-install.log /tmp/aom-quiz-audit.log /tmp/aom-http.log; do
+            if [ -f "$source" ]; then cp "$source" "test-results/diagnostics/$(basename "$source")"; fi
+          done
+          node --version > test-results/diagnostics/node-version.txt 2>&1 || true
+          npm --version > test-results/diagnostics/npm-version.txt 2>&1 || true
       - name: Upload Playwright test evidence
         if: always()
         uses: actions/upload-artifact@v4
