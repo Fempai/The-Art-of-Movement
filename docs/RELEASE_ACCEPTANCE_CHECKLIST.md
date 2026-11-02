@@ -44,3 +44,14 @@ Evidence policy: structural parsing is not instructional validation; a browser t
 ## Confirmed commit checks — user screenshot, 2026-11-02
 
 At commit `dc99ec02fa40b72ee6ac7dc850374461896c4d87` on `main`, the GitHub commit checks popup showed **7 successful checks**: `pages build and deployment / build (dynamic)` (23s), `pages build and deployment / deploy (dynamic)` (13s), `Academy desktop and mobile browser regression / mobile-e2e (push)` (1m), `pages build and deployment / report-build-status (dynamic)` (5s), `Academy static regression checks / static-checks (push)` (15s), `Academy static integrity / static-qa (push)` (11s), and `Academy lesson and quiz verification / verify (push)` (53s). Evidence: user-supplied GitHub screenshot in chat. This is **confirmed for that SHA only**. The screenshot did not list the separately named instructional-coverage triage or quiz-browser regression workflows; do not infer their status from the seven checks. Later commits require their own checks.
+
+## BEL101 full text-rubric checkpoint — 2026-11-02
+
+- [x] Completed and recorded all nine dimensions for all 17 BEL101 lessons in [`BEL101-NINE-DIMENSION-REVIEW.md`](BEL101-NINE-DIMENSION-REVIEW.md), including passage-specific support and open evidence limits.
+- [x] Six text-assessable dimensions per lesson passed the internal editorial standard (102/153 rubric cells).
+- [ ] Movement correctness (17 lessons): technique-level observation is still needed to substantiate execution; written cautions are not a substitute.
+- [ ] Cultural/source accuracy (17 lessons): source passages, historical terms, and video-to-topic correspondence still require verification.
+- [ ] Reader integration (17 lessons): deployed content, actual video playback, quiz interaction and accessibility still require direct testing.
+- [ ] Fresh green checks for the latest head commit, after Week 07 and Weeks 09–15 changes; earlier screenshot evidence applies only to `dc99ec0`.
+
+The 51 open rubric cells are **NEEDS HUMAN REVIEW**, not automatic failures. This internal editorial coverage does not establish a completed release gate or physical technique certification. No external reviewer recruitment is required for the agreed internal process.
