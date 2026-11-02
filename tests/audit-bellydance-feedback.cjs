@@ -34,6 +34,10 @@ for(const id of ids){
     for(const source of expected)if(!actual.includes(source))errors.push(id+': missing expected original source '+source);
     if(!/(?:playback.{0,120}(?:not|unverified)|(?:not|unverified).{0,120}playback)/i.test(md))errors.push(id+': missing playback-verification caveat');
   }
+  if (/^BEL101-W(?:09|1[0-5])$/.test(id)) {
+    const assignment = md.split('## Independent assignment')[1]?.split('## Source and context')[0] || '';
+    if (assignment.includes('For Week 16, compare the score with Weeks 1 and 8')) errors.push(id+': copied final instruction in weekly assignment');
+  }
   const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split(/## (?:Independent assignment|Assignment and reflection|Cultural and source boundaries|Source and context)/i)[0];
   if(!quiz){errors.push(id+': quiz section missing');continue}
   const questions=[...quiz.matchAll(/\*\*([1-4])\. ([^\n]+)\*\*\s*\n\s*A\. ([^\n]+)\s*\n\s*B\. ([^\n]+)\s*\n\s*C\. ([^\n]+)\s*\n\s*D\. ([^\n]+)/g)];
