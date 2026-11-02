@@ -215,3 +215,95 @@ Source: `curriculum/final-lessons/BEL101-W11.md`.
 | 9. Reader integration | NEEDS HUMAN REVIEW | Reader rendering and real video behavior remain untested. |
 
 **Coverage update:** Twelve BEL101 lessons have explicit internal nine-dimension text reviews; Friday Weeks 12–16 remain. Earlier editorial checks are not substitutes for these records. No deployed playback or final release acceptance is asserted.
+
+## Friday Weeks 12–16 — nine-dimension evidence reviews (2026-11-02)
+
+These are **text-based internal editorial judgments**, not observed movement, verified cultural history or live learner-interface acceptance. For each lesson, dimensions 3, 8 and 9 remain NEEDS HUMAN REVIEW.
+
+### BEL101-W12 — Layering: Pulse and Upper-Body Gesture
+
+Source: `curriculum/final-lessons/BEL101-W12.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” specifies overlapping rhythmic pulse and upper-body gesture. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” contrasts pulses alone on 1–4 with simultaneous pulses and arm opening on 5–8. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Simultaneous layering is described consistently, but joint loading and actual coordination need technique observation. |
+| 4. Modifications | PASS | “Modification” preserves simultaneous seated foot-pressure pulses and arm opening; separate rehearsal is correctly labeled a precursor. |
+| 5. Self-correction | PASS | “Self-correction” addresses loss of timing by clapping and separating layers before recombining. |
+| 6. Knowledge checks | PASS | Q1 B tests overlap; Q2 C separate/recombine; Q3 A seated simultaneous adaptation; Q4 D limited inference. |
+| 7. Assignment | PASS | “Independent assignment” now specifically compares pulses alone with overlapping arms on 5–8, with a count score and reflection. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” disclaims video matching and universal cultural claims; source content is unverified. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Deployed media playback, quiz behavior and accessible reading are not directly observed. |
+
+### BEL101-W13 — Belly Work: Rolls, Flutters, and Undulations
+
+Source: `curriculum/final-lessons/BEL101-W13.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” distinguishes preparatory sequencing from advanced rolls and flutters. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” places chest-to-pelvis shift 3–4, reverse 5–6, and rest 7–8. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Cautions against forceful fluttering are explicit, but torso mechanics and technique correctness need direct review. |
+| 4. Modifications | PASS | “Modification” hand-traces forward and reverse sequences seated without abdominal action. |
+| 5. Self-correction | PASS | “Self-correction” reduces uncomfortable range and uses isolated counts to regain timing. |
+| 6. Knowledge checks | PASS | Q1 C distinguishes ordered wave from pulse; Q2 B omits compression; Q3 A limits claims; Q4 D checks reverse pathway. |
+| 7. Assignment | PASS | “Independent assignment” now asks learners to compare forward and reverse counts and disclose hand-tracing. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” distinguishes original exercise from video technique; lineage and exact sources remain unverified. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Reader interaction and video playback are untested. |
+
+### BEL101-W14 — Playful Transitions: Original Phrase Composition
+
+Source: `curriculum/final-lessons/BEL101-W14.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” calls for two connected eight-count phrases and a deliberate transition. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” defines Phrase A slides/circle/settle and Phrase B pulse/arms/neutral; boundary is explicit. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Support and timing instructions are textually consistent, but physical transition safety needs observation. |
+| 4. Modifications | PASS | “Modification” permits seated marking and segmented rehearsal but requires testing the connection; Q3 A now reflects this. |
+| 5. Self-correction | PASS | “Self-correction” recommends isolating lost counts and recombining, though actual success is unobserved. |
+| 6. Knowledge checks | PASS | Q1 B checks supported entry; Q2 C isolates boundary; Q3 A seated linked practice; Q4 D checks repeatable timing. |
+| 7. Assignment | PASS | “Independent assignment” now requires a 16-count score and explicit boundary comparison, distinguishing segmented rehearsal from completion. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” disclaims authenticated historical choreography; source/video comparison remains pending. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Deployed lesson interaction, source playback and keyboard/mobile behavior are untested. |
+
+### BEL101-W15 — Hands, Arms, and Gentle Undulation Coordination
+
+Source: `curriculum/final-lessons/BEL101-W15.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” sets comfortable arm-and-torso coordination without requiring advanced undulation. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” specifies hand lift 1–2, arm opening 3–4, optional wave 5–6, return 7–8. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | The low-range sequence avoids forced backbends, but shoulder and torso execution requires observation. |
+| 4. Modifications | PASS | “Modification” hand-traces optional wave while seated and retains the full count structure. |
+| 5. Self-correction | PASS | “Self-correction” provides reduced-range and count-marking recovery with stop conditions. |
+| 6. Knowledge checks | PASS | Q1 C tests wave counts; Q2 A adapts discomfort; Q3 D isolates timing; Q4 B supports narrow repeatability claim. |
+| 7. Assignment | PASS | “Independent assignment” now assesses hand/arm-to-wave transition and final return, not an unrelated Week 16 comparison. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” avoids claiming the restored videos authenticate this original sequence. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Live video and reader behavior remain unobserved. |
+
+### BEL101-W16 — Final: Foundation Technique and Reflective Comparison
+
+Source: `curriculum/final-lessons/BEL101-W16.md`.
+
+| Dimension | Status | Passage-specific evidence |
+| --- | --- | --- |
+| 1. Learning outcomes | PASS | “Learning goal and explanation” explicitly compares foundation phrase with Weeks 1 and 8 while limiting certification claims. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” has right/left slides 1–4, circle 5–6 and alternating pulses 7–8 with repetitions. |
+| 3. Movement correctness | NEEDS HUMAN REVIEW | Movement counts are internally coherent, but actual technique and comparative physical execution need observation. |
+| 4. Modifications | PASS | “Modification” preserves counts via seated pressure shifts, hand circle and alternating pulses and requires documenting adaptations. |
+| 5. Self-correction | PASS | “Self-correction” addresses knee/back discomfort and beat loss with scaled or seated rehearsal. |
+| 6. Knowledge checks | PASS | Q1 D tests comparative evidence; Q2 B adaptation disclosure; Q3 A transition correction; Q4 C original-sequence scope. |
+| 7. Assignment | PASS | “Independent assignment” requires two final attempts and comparison with available baseline records, noting missing data and changed conditions. |
+| 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” separates self-documented progress from authentic historical or video-specific technique. |
+| 9. Reader integration | NEEDS HUMAN REVIEW | Real learner final-submission flow, accessibility and video playback are not tested. |
+
+## BEL101 editorial rubric coverage summary
+
+- **17/17 lessons** now have an explicit nine-dimension passage-based *text review*: four foundation lessons and Friday Weeks 04–16.
+- **102/153 dimension entries** are marked PASS for internal text quality (six per lesson); **51/153** remain NEEDS HUMAN REVIEW (three per lesson: movement technique, cultural/source verification, and deployed reader integration).
+- The 68 BEL101 quiz questions have been inspected in context of the 17 lesson texts, but this is not external assessment validation or proof of learning effectiveness. The automated structure checks are separate.
+- Corrections in this review: W07 seated travel representation; W09–W15 assignments made week-specific; W14 Q3 seated modification now requires connecting both phrases rather than treating segmented rehearsal as complete.
+- **Not release-approved:** actual video playback and permissions, expert technique/cultural authentication, deployed accessibility/interaction and new CI evidence after the latest commits are unverified. The internal review standard does not require recruiting external reviewers, but unverified claims must remain explicit.
