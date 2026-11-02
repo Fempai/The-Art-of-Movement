@@ -66,13 +66,13 @@ jobs:
           else
             echo 'Audit did not execute; inspect the workflow steps.' >> "$GITHUB_STEP_SUMMARY"
           fi
-      - name: Install Playwright test runner (last known passing workflow configuration)
+      - name: Install pinned Playwright test runner
         shell: bash
         run: |
           set -o pipefail
           node --version
           npm --version
-          npm install --no-save @playwright/test 2>&1 | tee /tmp/aom-playwright-install.log
+          npm install --no-save @playwright/test@1.56.1 2>&1 | tee /tmp/aom-playwright-install.log
           npx playwright --version
       - run: npx playwright install --with-deps chromium
       - name: Start local web server
