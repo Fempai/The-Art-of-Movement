@@ -30,3 +30,14 @@ for (const test of cases) {
   for (const phrase of test.mustNotContain) assert.ok(!block.includes(phrase),test.id+': known ambiguity returned: '+phrase);
 }
 console.log('PASS: '+cases.length+' targeted quiz-ambiguity regression cases. These assertions do not establish unique-best-answer validity for other questions.');
+
+// Regression coverage for Q1 distractor references after the A/B option reordering.
+const reorderedQ1 = ["LMA201-01","LMA201-03","PER201-03","RES501-02","CMP502-04","SCI503-01","SCI503-03","SIT505-01","PRO701-01","PRO701-03","PRO702-01","PRO702-03","PRO703-01","PRO703-03","PRO703-04"];
+for (const id of reorderedQ1) {
+  const md = fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const feedback = md.match(/\*\*1\. B\.\*\* ([^\n]+)/);
+  assert.ok(feedback, id+': missing keyed B feedback');
+  assert.ok(feedback[1].includes('(A)'), id+': explanation must identify A distractor');
+  assert.ok(!feedback[1].includes('(B)'), id+': stale B distractor reference');
+}
+console.log('PASS: '+reorderedQ1.length+' Q1 answer-feedback label regressions.');
