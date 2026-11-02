@@ -55,3 +55,7 @@ At commit `dc99ec02fa40b72ee6ac7dc850374461896c4d87` on `main`, the GitHub commi
 - [ ] Fresh green checks for the latest head commit, after Week 07 and Weeks 09–15 changes; earlier screenshot evidence applies only to `dc99ec0`.
 
 The 51 open rubric cells are **NEEDS HUMAN REVIEW**, not automatic failures. This internal editorial coverage does not establish a completed release gate or physical technique certification. No external reviewer recruitment is required for the agreed internal process.
+
+## BEL101 external acceptance attempt — 2026-11-02
+
+See [`BEL101-RELEASE-VERIFICATION.md`](BEL101-RELEASE-VERIFICATION.md) for the evidence and outstanding tests. Attempted the expected Pages site and one scheduled Drive source via available web access; both were inaccessible from this environment. This is **not** proof the public site or source is broken for a real learner. Actual playback, accessibility, physical technique, source authentication, and current-head CI remain unverified. Do not close the release gate on this basis.
