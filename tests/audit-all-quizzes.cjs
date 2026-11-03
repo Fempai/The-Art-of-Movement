@@ -106,3 +106,38 @@ for(const [course,heading] of Object.entries(advancedAssessmentHeadings)){
  assert.equal(new Set(assignmentBodies).size,4,course+': duplicate lesson assignments');
 }
 console.log('PASS: 28 advanced-course assessments have distinct tasks, worked examples and 100% rubrics (text regression only).');
+
+
+// Guard the three professional-practice courses against reintroducing generic
+// Lesson-04 capstone instructions into the earlier lessons.
+const professionalAssessmentSignals={
+ PRO701:[
+  'four-item polish checklist',
+  'one-word entry cues',
+  'comparison matrix for three interpretations',
+  'private repertory showcase'
+ ],
+ PRO702:[
+  'two-state lighting cue sheet',
+  'labeled stage map',
+  'movement-safety comparison',
+  '**production book**'
+ ],
+ PRO703:[
+  'dated revision dossier',
+  '200–300-word artist statement',
+  'criterion / target / observation / revision',
+  'final 2–4 minute original capstone portfolio'
+ ]
+};
+for(const [course,signals] of Object.entries(professionalAssessmentSignals)){
+ for(let i=1;i<=4;i++){
+  const id=course+'-'+String(i).padStart(2,'0');
+  const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const heading=course==='PRO701'?'## Assignment and assessment':'## Independent assignment';
+  const section=(md.split(heading)[1]||'').split('\n## ')[0];
+  assert.ok(section.includes(signals[i-1]),id+': missing taught lesson-specific artifact '+signals[i-1]);
+  if(i<4) assert.ok(!section.includes('**Lesson 04 capstone:**')&&!section.includes('**Lesson 04 final capstone:**'),id+': unrelated final capstone instructions leaked into this assignment');
+ }
+}
+console.log('PASS: 12 professional-course assessments retain taught artifacts and earlier lessons omit final-capstone boilerplate.');
