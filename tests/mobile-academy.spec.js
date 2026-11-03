@@ -305,6 +305,8 @@ test('studio lighting, accessible camera controls and touch rotation',async({pag
  await expect(page.locator('#lightingPreset')).toHaveValue('bright');
  const stage=page.locator('#stage');
  await expect(stage).toHaveAttribute('tabindex','0');
+ // The canvas must own touch gestures; pan-y can trigger pointercancel during drag.
+ await expect(stage).toHaveCSS('touch-action','none');
  await stage.focus();
  await page.keyboard.press('ArrowRight');
  await expect(page.locator('#yaw')).toHaveValue('35');
