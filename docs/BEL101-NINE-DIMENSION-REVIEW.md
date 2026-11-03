@@ -227,7 +227,7 @@ Source: `curriculum/final-lessons/BEL101-W12.md`.
 | Dimension | Status | Passage-specific evidence |
 | --- | --- | --- |
 | 1. Learning outcomes | PASS | “Learning goal and explanation” specifies overlapping rhythmic pulse and upper-body gesture. |
-| 2. Instructional sequence | PASS | “Guided count-by-count study” contrasts pulses alone on 1–4 with simultaneous pulses and arm opening on 5–8. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” now explicitly sustains one pulse per count as the arms open across counts 5–8, distinguishing simultaneous layering from the subsequent arms-only comparison. |
 | 3. Movement correctness | NEEDS HUMAN REVIEW | Simultaneous layering is described consistently, but joint loading and actual coordination need technique observation. |
 | 4. Modifications | PASS | “Modification” preserves simultaneous seated foot-pressure pulses and arm opening; separate rehearsal is correctly labeled a precursor. |
 | 5. Self-correction | PASS | “Self-correction” addresses loss of timing by clapping and separating layers before recombining. |
