@@ -422,3 +422,7 @@ Added an additional course-specific guard to `tests/audit-all-quizzes.cjs` (comm
 ## Cross-course assignment duplication triage — 2026-11-02
 
 Added a non-blocking cross-lesson assignment-duplication check to `tests/audit-instructional-coverage.cjs` (commit `57c9a9783d61ffc2fac9016a22964e746c626d3d`). It compares normalized assignment instructions among the four numbered lessons of each of the 21 courses and reports identical text for targeted editorial follow-up. This broadens quality triage beyond the 28 advanced-course regression guards without declaring legitimate repeated practice automatically wrong. **A fresh execution of the entire audit and the resulting duplicate-course count have not been confirmed**; do not report a clean sweep until the workflow or local Node execution establishes it.
+
+## Assignment triage heading compatibility — 2026-11-02
+
+Enhanced the 21-course assignment duplication triage to explicitly report missing or empty extracted assignments instead of silently skipping them (commit `99e6cbb1a3ad9eceae526489c66ea81daf4c35ad`). Extended extraction to recognize level-2/level-3 numbered and course-specific assignment headings (commit `94f99d678c1d93b254864e679d755a420c209ba4`). Independently inspected the current Markdown for MOV101-01, MOV101-02, BEL101-01, HIS101-01, LAB101-01, and FLE101-01: all six are recognized by the new heading expression. This is targeted extraction verification; the full 97-lesson audit and GitHub Actions results are **not yet confirmed**.
