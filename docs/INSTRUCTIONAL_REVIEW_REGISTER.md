@@ -289,3 +289,16 @@ Inspected question 1 and its keyed explanation in 17 lessons whose answer option
 ## Reordered Q1 feedback regression guard — 2026-11-02
 
 Added assertions to `tests/audit-quiz-ambiguity-regressions.cjs` for the 15 advanced lessons repaired on 2026-11-01. Each assertion requires Q1 keyed-B feedback, the current `(A)` distractor reference, and no stale `(B)` distractor reference. The existing `.github/workflows/instructional-coverage.yml` already executes this script on lesson and audit-script changes, so no workflow edit was needed. This is a narrowly targeted label-consistency guard, not a complete semantic quiz validation. The commit has been pushed but workflow success has not yet been observed.
+
+## LAB101 objective-alignment editorial pass — 2026-11-02
+
+Reviewed the four current learner-facing LAB101 lessons against their guided rehearsal, four knowledge-check questions, assignment deliverables, and worked examples. The assignment progression already distinguished motif acquisition (01), expressive comparison (02), 16-count retrieval (03), and 32-count integration (04), but all four **Objective and explanation** sections still used the same generic sentence. Replaced each with a lesson-specific, observable outcome. Also revised LAB101-04's worked example to address all four phrases and a phrase-boundary correction instead of repeating the first eight-count motif.
+
+| Lesson | Objective-to-assignment check | Outstanding evidence |
+| --- | --- | --- |
+| LAB101-01 | Two repeatable eight-count motifs, count-sheet correction, artistic intention | Independent learner execution, source-specific support, reader acceptance |
+| LAB101-02 | A/B comparison of timing and gaze, stable support, intention versus observation | Independent learner interpretation, technique observation, reader acceptance |
+| LAB101-03 | A–B 16-count unaided retrieval, immediate and delayed log, corrective attempt | Actual retention over longer intervals, learner observation, reader acceptance |
+| LAB101-04 | A–B–A′–C 32-count draft, three transitions, documented correction and reflection | Repeated performance observation, reader acceptance, source-specific support |
+
+**Disposition:** Editorial objective alignment corrected; **NOT VALIDATED** under the nine-dimensional gate. This pass does not certify all distractors as uniquely defensible, demonstrate physical technique, verify source passages, or establish browser/CI success. The changes require post-commit automated and deployed-reader checks. Do not equate the four corrected objectives with completion of the 97-lesson review.
