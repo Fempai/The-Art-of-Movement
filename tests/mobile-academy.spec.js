@@ -418,3 +418,22 @@ test('mobile invalid handoff and session backup fail safely',async({page})=>{
  await page.locator('#handoffPractice').click();
  await expect(page.locator('#handoffStatus')).toContainText('No recent temporary');
 });
+
+// Daily-use journey: the same browser must preserve an actual weekly studio completion
+// and reflection across reloads and expose that completion in the Studio Record.
+test('daily studio completion and reflection survive navigation to Studio Record',async({page})=>{
+ await page.goto(base+'/weekly-studio.html?week=3');
+ await expect(page.locator('#tabs button')).toHaveCount(7);
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await expect(page.locator('#progress')).toContainText('1 of 7');
+ await page.locator('#tabs button').nth(6).click();
+ await page.locator('#reflection').fill('Week 3: controlled movement, supported variation.');
+ await page.reload();
+ await expect(page.locator('#progress')).toContainText('1 of 7');
+ await page.locator('#tabs button').nth(6).click();
+ await expect(page.locator('#reflection')).toHaveValue('Week 3: controlled movement, supported variation.');
+ await page.goto(base+'/studio-record.html');
+ await expect(page.locator('#weeks tr').filter({has:page.locator('td').filter({hasText:/^03$/})})).toContainText('1 / 7 days');
+ await page.goto(base+'/weekly-studio.html?week=3');
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
+});
