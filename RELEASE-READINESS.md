@@ -111,3 +111,23 @@ Updated: 2026-10-20. Live Coach hold interruption, background-frame handling, Po
 - Avoid confident claims of AI instructor-equivalent scoring or reliable 3D tracking based on a 2D pose model.
 - Preserve local-only recording by default; cloud review sends pose measurements via Supabase to Cloudflare AI only after explicit confirmation. No raw video/audio is sent in that request.
 - Record evidence for each resolved blocker and close it only after appropriate testing.
+
+## Daily-use readiness checkpoint — 2026-11-03
+
+**Verified code revision:** `8c05d5b3e973849079a09aa9f1b208e0a793601e`. GitHub Actions API reported completed **success** for all five main workflows on that same SHA:
+
+| Gate | Run | Result |
+| --- | --- | --- |
+| Academy static integrity | [41666645042](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41666645042) | Success |
+| Academy static regression checks | [41666645025](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41666645025) | Success |
+| Academy desktop and mobile browser regression | [41666645094](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41666645094) | Success |
+| Academy lesson and quiz verification | [41666645247](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41666645247) | Success |
+| GitHub Pages build and deployment | [41666645539](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41666645539) | Success |
+
+**Published URL configured in README:** https://fempai.github.io/The-Art-of-Movement/. A successful Pages workflow confirms the deployment pipeline completed, **not** an independent HTTP visit or hands-on end-to-end verification of every public route. Screenshot artifacts and per-test details should be inspected from the linked workflow before making more granular claims. The current documentation does not establish physical-device acceptance.
+
+**Recommended scoped daily use:** Navigation, written lessons, self-guided practice, and browser-local records can be used provisionally while retaining exports/backups and checking each intended instructor video before relying on it. Selected shared journal/assessment functions require authenticated Supabase access; cloud persistence, RLS, and cross-device recovery remain unverified for a production account in this checkpoint. Camera coaching, estimated 3D avatar motion, and technique scoring are experimental, **not** reliable safety clearance or validated movement grades.
+
+**Remaining release blockers for a fully signed-off daily-use claim:** (1) actual-phone/desktop owner navigation, readable controls, and video-access smoke test; (2) authenticated sign-in, private-record isolation, save/reload/export and cross-device recovery checks; (3) targeted camera/pose-tracking diagnostic and opt-in data-transfer review on the real device; (4) video source playback, licensing, and technique correspondence review or explicit source-unverified labeling; (5) documented owner acceptance of the limited initial release. Production-grade avatars and automated grading should be tracked as **separate advanced milestones**, not treated as prerequisites for using the basic academy. Do not infer these checks from green CI.
+
+**Next deployment caveat:** This checkpoint documents the passing `8c05d5b3` revision. Any subsequent documentation or code push creates a new SHA and requires checking its own workflows before declaring that new SHA fully green.
