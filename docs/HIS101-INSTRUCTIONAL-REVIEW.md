@@ -10,3 +10,12 @@ Scope: four dance-history lessons, 16 keyed questions, examples, assignments, an
 | HIS101-04 critical reading | Final assignment now explicitly requires two practices, at least two credible sources per practice, evidence table, 600-word comparison, citations, and bibliography. | Verify sources and actual comparative reasoning in learner submissions. |
 
 Sixteen questions inspected for alignment with the lesson text; Q4 in Lesson 03 required a substantive ambiguity repair. Answer-letter distribution was not used as a quality criterion. The scholarly references still include discovery links rather than confirmed edition-specific citations. Historical accuracy and cultural attribution require passage-level source checking; no physical technique certification is claimed.
+
+## Additional editorial pass — 2026-11-02
+
+- HIS101-01: explicitly labeled the invented archival photograph scenario illustrative rather than implying it is an actual collection item.
+- HIS101-02: changed the modeled ballet curriculum from “documented” to “hypothetical” until a specific source establishes it; all transmission arrows remain unverified examples.
+- HIS101-03: clarified that a performance-video caption can name the dancer and date only when those details are established by evidence; otherwise label them unknown.
+- HIS101-04: clarified that the 600-word final comparative essay replaces the standard 250–350-word table interpretation, rather than adding an unintended second essay.
+
+These are additional text-level checks, not verification of historical source passages, archive holdings, or live learner outcomes.
