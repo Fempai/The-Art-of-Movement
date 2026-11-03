@@ -41,6 +41,7 @@ if(summary.missing) process.exitCode=1;
 // Report only; repetition is not automatically evidence of poor instruction.
 const courseAssignmentReview=[];
 const assignmentExtractionReview=[];
+const assignmentHeadingReview=[];
 let extractedAssignments=0;
 for(const course of courses){
  const signatures=new Map();
@@ -50,7 +51,9 @@ for(const course of courses){
   if(!fs.existsSync(file))continue;
   const md=fs.readFileSync(file,'utf8');
   const heading=/^#{2,3}\s+(?:\d+\.\s*)?(?=[^\n]*(?:assignment|assessment))[^\n]+$/gim;
-  const match=heading.exec(md);
+  const matches=[...md.matchAll(heading)];
+  const match=matches[0];
+  if(matches.length>1)assignmentHeadingReview.push(id+': '+matches.length+' candidate assignment headings ('+matches.map(x=>x[0].trim()).join(' | ')+')');
   if(!match){assignmentExtractionReview.push(id+': no recognized assessment heading');continue;}
   const after=md.slice(match.index+match[0].length);
   const next=after.search(/\n#{2,3} /);
@@ -69,5 +72,7 @@ console.log('Assignment duplication triage: '+courseAssignmentReview.length+' co
 for(const item of courseAssignmentReview)console.log('REVIEW '+item.course+' repeated assignments: '+item.duplicates.map(group=>group.join(', ')).join('; '));
 
 console.log('Assignment extraction triage: '+assignmentExtractionReview.length+' lessons require heading/content inspection.');
+console.log('Assignment heading ambiguity triage: '+assignmentHeadingReview.length+' lessons contain multiple candidate headings.');
+for(const issue of assignmentHeadingReview)console.log('REVIEW '+issue);
 for(const issue of assignmentExtractionReview)console.log('REVIEW '+issue);
-if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({extractedAssignments,expectedCoreAssignments:84,assignmentDuplication:courseAssignmentReview,assignmentExtraction:assignmentExtractionReview},null,2));
+if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({extractedAssignments,expectedCoreAssignments:84,assignmentDuplication:courseAssignmentReview,assignmentExtraction:assignmentExtractionReview,assignmentHeadingAmbiguity:assignmentHeadingReview},null,2));
