@@ -9,7 +9,7 @@ const criteria = {
  outcomes: /(?:learning outcomes?|learning objectives?|\*\*(?:objectives?|outcomes):\*\*|objective and explanation|^##\s*(?:objectives?|what you will learn|learn the idea|learning goal and core explanation|learn(?:ing)?[^\n]*)\b)/im,
  guidedPractice: /(?:guided|follow.along|practice|exercise|movement study|movement exploration)/i,
  modifications: /(?:modification|adaptation|seated|reduce (?:the )?range|alternative)/i,
- correction: /(?:self.correction|troubleshooting|adjustment|if you|correction|fix common difficulties|common errors|troubleshooting and (?:safety|integrity))/i,
+ correction: /(?:self.correction|troubleshoot(?:ing)?|adjustment|if you|correction|fix common difficulties|common errors|observe and revise)/i,
  knowledgeCheck: /(?:knowledge check|question 1)/i,
  explanations: /(?:answer key|answers and explanations|answers and rationales|correct answers and reasoning|correct answers with reasoning|correct:)/i,
  assignment: /(?:assignment|submit:|reflection)/i,
