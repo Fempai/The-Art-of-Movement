@@ -326,3 +326,9 @@ Reviewed MOV101-01 through MOV101-04 learner-facing movement instructions and as
 Compared DNC101-01 through DNC101-04 lesson drills and assignment instructions. DNC101-01's tendu assignment already specifies the intended repetitions and observation focus. In DNC101-02, the second eight-count plié phrase lacked a complete count score; added one contrasting the slower ascent. In DNC101-03, the requested four-count lowering lacked a scored alternative to the taught two-count lowering; added both eight-count patterns. In DNC101-04, the assignment requested a second eight-count phrase combining tendu, demi-plié, and relevé without defining counts 9–16; added a complete supported sequence.
 
 **Disposition:** Three count-level assignment ambiguities corrected. This editorial pass does not independently verify technique safety, source passages, actual learner performance, quiz psychometrics, or new post-push browser/CI runs. **NOT FULLY VALIDATED** under the nine-dimensional gate.
+
+## CON101 count-specific assignment editorial pass — 2026-11-02
+
+Inspected guided movement scores and assignments for CON101-01 through CON101-04. The four lessons had identical broad assignment prompts even though their learning tasks differ. Revised the assignment setup in each lesson to specify directly reproducible eight-count variants: breath/arm phrasing with natural breathing (01), hand-led versus torso-led initiation (02), hold versus early return (03), and supported sit-to-stand versus seated-only level change (04). The latter does not require optional kneeling or unsupported floorwork.
+
+**Disposition:** Four assignment-to-guided-practice alignments improved. This does not constitute external dance-technique certification, verified scholarly sourcing, observed learner performance, or new CI/browser acceptance. **NOT FULLY VALIDATED** under the nine-dimensional instructional gate.
