@@ -34,3 +34,32 @@ for(const row of rows.filter(r=>r.flags.length)) console.log(row.id+': '+row.fla
 if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({summary,rows},null,2));
 if(summary.missing) process.exitCode=1;
 // A clean report only means expected text signals exist. Manual correctness review is mandatory.
+
+
+// Cross-lesson editorial triage: a repeated assignment may indicate a generic
+// template that does not assess the lesson's stated learning outcomes.
+// Report only; repetition is not automatically evidence of poor instruction.
+const courseAssignmentReview=[];
+for(const course of courses){
+ const signatures=new Map();
+ for(let i=1;i<=4;i++){
+  const id=course+'-'+String(i).padStart(2,'0');
+  const file=path.join(root,id+'.md');
+  if(!fs.existsSync(file))continue;
+  const md=fs.readFileSync(file,'utf8');
+  const heading=/^## (?:Independent assignment|Independent critical assignment|Assignment and assessment)\s*$/gm;
+  const match=heading.exec(md);
+  if(!match)continue;
+  const after=md.slice(match.index+match[0].length);
+  const next=after.search(/\n## /);
+  const section=(next>=0?after.slice(0,next):after).split('**Worked example:**')[0];
+  const normalized=section.replace(/\s+/g,' ').trim().toLowerCase();
+  if(!normalized)continue;
+  if(!signatures.has(normalized))signatures.set(normalized,[]);
+  signatures.get(normalized).push(id);
+ }
+ const duplicates=[...signatures.values()].filter(group=>group.length>1);
+ if(duplicates.length)courseAssignmentReview.push({course,duplicates});
+}
+console.log('Assignment duplication triage: '+courseAssignmentReview.length+' courses with identical lesson-assignment text.');
+for(const item of courseAssignmentReview)console.log('REVIEW '+item.course+' repeated assignments: '+item.duplicates.map(group=>group.join(', ')).join('; '));
