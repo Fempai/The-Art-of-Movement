@@ -302,3 +302,9 @@ Reviewed the four current learner-facing LAB101 lessons against their guided reh
 | LAB101-04 | A–B–A′–C 32-count draft, three transitions, documented correction and reflection | Repeated performance observation, reader acceptance, source-specific support |
 
 **Disposition:** Editorial objective alignment corrected; **NOT VALIDATED** under the nine-dimensional gate. This pass does not certify all distractors as uniquely defensible, demonstrate physical technique, verify source passages, or establish browser/CI success. The changes require post-commit automated and deployed-reader checks. Do not equate the four corrected objectives with completion of the 97-lesson review.
+
+## STG101 assignment alignment editorial pass — 2026-11-02
+
+Inspected STG101-01 through STG101-04 against their conditioning drills, quiz keys, assignment instructions, and worked examples. Before this pass all four independent assignments reused the same generic baseline instructions and the same wall-push-up worked example, including the pulling and trunk-control lessons. Replaced each with a skill-specific task and example: controlled cable row (01), wall/incline push-up (02), breathing and supported weight shifts (03), and a combined baseline including supported hip lifts and easy dance intervals (04). The final lesson explicitly permits recording activities not attempted and why; the example avoids equating a single session with certified fitness.
+
+**Disposition:** Assignment-to-practice alignment corrected for four STG101 lessons. Quiz content was inspected for consistency with the written drills, but no independent expert movement-safety assessment, external citation audit, learner effectiveness study, or fresh post-commit browser/CI verification was performed in this pass. **NOT FULLY VALIDATED** under the nine-dimensional gate.
