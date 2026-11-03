@@ -297,7 +297,7 @@ test('avatar appearance presets and browser-local save/restore',async({page})=>{
  await expect(page.locator('#appearancePreset')).toHaveValue('studio');
 });
 
-test('studio lighting, accessible camera controls and touch rotation',async({page})=>{
+test('studio lighting, accessible camera controls and touch rotation',async({page},testInfo)=>{
  await page.goto(base+'/skinned-avatar-studio.html');
  await page.locator('#lightingPreset').selectOption('silhouette');
  await expect(page.locator('#lightingPreset')).toHaveValue('silhouette');
@@ -323,10 +323,12 @@ test('studio lighting, accessible camera controls and touch rotation',async({pag
  for(let x=start+10;x<=end;x+=10){await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y,id:1}]});await page.waitForTimeout(20)}
  await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
  const events=await page.evaluate(()=>window.__studioTouchEvents||[]);
+ const finalYaw=Number(await page.locator('#yaw').inputValue());
+ const diagnostics={start,end,y,bounds,events,finalYaw,devicePixelRatio:await page.evaluate(()=>devicePixelRatio),touchAction:await stage.evaluate(el=>getComputedStyle(el).touchAction)};
+ await testInfo.attach('studio-touch-rotation-diagnostics',{body:Buffer.from(JSON.stringify(diagnostics,null,2)),contentType:'application/json'});
  expect(events.some(e=>e.type==='pointerdown'),'Touch must reach the studio canvas as pointerdown; events='+JSON.stringify(events)).toBe(true);
  expect(events.some(e=>e.type==='pointermove'),'Touch drag must generate pointermove; events='+JSON.stringify(events)).toBe(true);
  expect(events.some(e=>e.type==='pointercancel'),'Browser must not cancel studio drag; events='+JSON.stringify(events)).toBe(false);
- const finalYaw=Number(await page.locator('#yaw').inputValue());
  expect(finalYaw,'Pointer drag must change yaw from 25; events='+JSON.stringify(events)).not.toBe(25);
 });
 test('studio rejects unsupported GLB with actionable error',async({page})=>{
