@@ -6,7 +6,7 @@ const root = path.join(__dirname, '..', 'curriculum', 'final-lessons');
 const courses = ['MOV101','DNC101','BEL101','CON101','HIP101','MUS101','CMP101','HIS101','LAB101','STG101','FLE101','LMA201','PER201','RES501','CMP502','SCI503','EST504','SIT505','PRO701','PRO702','PRO703'];
 const ids = [...courses.flatMap(c => Array.from({length:4},(_,i)=>c+'-'+String(i+1).padStart(2,'0'))),...Array.from({length:13},(_,i)=>'BEL101-W'+String(i+4).padStart(2,'0'))];
 const criteria = {
- outcomes: /(?:learning outcomes?|learning objectives?|\*\*(?:objectives?|outcomes):\*\*|objective and explanation|^##\s*(?:objectives?|what you will learn|learn the idea|learning goal and core explanation|learn(?:ing)?(?:\s+the)?(?:\s+analytical)?(?:\s+performance)?(?:\s+movement)?(?:\s*:\s*[^\n]+)?)\b)/im,
+ outcomes: /(?:learning outcomes?|learning objectives?|\*\*(?:objectives?|outcomes):\*\*|objective and explanation|^##\s*(?:objectives?|what you will learn|learn the idea|learning goal and core explanation|learn(?:ing)?[^\n]*)\b)/im,
  guidedPractice: /(?:guided|follow.along|practice|exercise|movement study|movement exploration)/i,
  modifications: /(?:modification|adaptation|seated|reduce (?:the )?range|alternative)/i,
  correction: /(?:self.correction|troubleshooting|adjustment|if you|correction|fix common difficulties|common errors|troubleshooting and (?:safety|integrity))/i,
