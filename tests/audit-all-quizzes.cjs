@@ -50,3 +50,24 @@ console.log('PASS: 97/97 quiz structures compatible; '+repeated.length+' all-sam
 if(repeated.length)console.warn('EDITORIAL REVIEW (not a structural failure): '+repeated.map(([id,key])=>id+' ['+key+']').join(', '));
 const distribution=Object.fromEntries('ABCD'.split('').map(letter=>[letter,Object.values(keys).reduce((count,key)=>count+[...key].filter(answer=>answer===letter).length,0)]));
 console.log('Answer-key distribution across 388 questions: '+Object.entries(distribution).map(([letter,count])=>letter+'='+count).join(', '));
+
+// Regression guard for course-specific assessment content after editorial passes.
+// This tests that lesson tasks remain distinct; it does NOT validate factual correctness.
+const assessmentSignals={
+ MUS101:['quarter-note pulse','intervening straight eighth-note','expected strong-beat reference','A–B–A′–C'],
+ LMA201:['fingertips on count 5','bound-versus-freer-flow','enclose the hands','four-row comparison score'],
+ PER201:['three gaze versions','three ways: invitation','balanced stillness','two complete, annotated 32-count'],
+ RES501:['three-row question matrix','two-source evidence matrix','six-trial reach-onset','600–800-word research proposal']
+};
+for(const [course,signals] of Object.entries(assessmentSignals)){
+ const assignments=[];
+ for(let i=1;i<=4;i++){
+  const id=course+'-'+String(i).padStart(2,'0');
+  const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const section=md.split('## Independent assignment')[1]?.split('## ')[0]||'';
+  assert.ok(section.includes(signals[i-1]),id+': missing lesson-specific assessment signal '+signals[i-1]);
+  assignments.push(section.split('**Worked example:**')[0].trim());
+ }
+ assert.equal(new Set(assignments).size,4,course+': duplicate independent assignments');
+}
+console.log('PASS: 16 course-specific assignments retain distinct lesson signals (editorial regression only).');
