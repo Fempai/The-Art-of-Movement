@@ -348,3 +348,7 @@ Inspected the four BEL101 introductory lessons, their guided eight-count drills,
 ## DNC101 tendu repetition-count follow-up — 2026-11-02
 
 Rechecked DNC101-01 against its guided eight-count phrase. The assignment requested two forward and two side tendus but did not state that the taught phrase (one forward and one side tendu) must be performed twice. Updated the assignment to require two complete eight-count repetitions, score both, and distinguish holds from additional tendus. This is a textual alignment correction, not observed technique validation or a verified post-push CI result.
+
+## Worked-example regression follow-up — 2026-11-02
+
+After count-specific assignment revisions, rechecked sample responses against the latest task instructions. Corrected DNC101-02's worked example, which still described the former phrase B (bend on 5, rise 6–7) instead of the current slow-ascent phrase B (bend 1, pause 2–3, rise 4–6). Corrected CON101-01's example, which previously compared an extra reach hold instead of the assigned change in arm-opening speed. Corrected CON101-03's example, which had the hold/no-hold versions reversed relative to the current task. These are passage-level instructional consistency corrections; source validity, movement safety, learner comprehension, and post-push CI are not established.
