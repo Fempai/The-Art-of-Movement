@@ -344,3 +344,7 @@ Reviewed HIP101-01 through HIP101-04 practice instructions, knowledge-check sect
 Inspected the four BEL101 introductory lessons, their guided eight-count drills, and their previously generic assignment prompts. Replaced the common opening instruction with lesson-specific scoring requirements for grounded weight shifts and pelvic emphasis (01), lateral slides and a small reversible oval (02), gentle alternating-knee pulses and seated options (03), and an original slide–half-circle–accent combination plus reverse (04). All changes retain support and range modifications and distinguish invented beginner exercises from historically documented dance practices. The separate original 16-week Friday video track is not replaced or certified by these changes.
 
 **Disposition:** Four introductory assignment-to-practice gaps corrected. Video playback and correspondence, cultural source claims, independent technique review, learner outcomes, and post-push CI/browser results remain unverified. **NOT FULLY VALIDATED** under the nine-dimensional gate.
+
+## DNC101 tendu repetition-count follow-up — 2026-11-02
+
+Rechecked DNC101-01 against its guided eight-count phrase. The assignment requested two forward and two side tendus but did not state that the taught phrase (one forward and one side tendu) must be performed twice. Updated the assignment to require two complete eight-count repetitions, score both, and distinguish holds from additional tendus. This is a textual alignment correction, not observed technique validation or a verified post-push CI result.
