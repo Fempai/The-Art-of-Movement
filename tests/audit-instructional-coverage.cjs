@@ -41,6 +41,7 @@ if(summary.missing) process.exitCode=1;
 // Report only; repetition is not automatically evidence of poor instruction.
 const courseAssignmentReview=[];
 const assignmentExtractionReview=[];
+let extractedAssignments=0;
 for(const course of courses){
  const signatures=new Map();
  for(let i=1;i<=4;i++){
@@ -56,15 +57,17 @@ for(const course of courses){
   const section=(next>=0?after.slice(0,next):after).split('**Worked example:**')[0];
   const normalized=section.replace(/\s+/g,' ').trim().toLowerCase();
   if(!normalized){assignmentExtractionReview.push(id+': empty extracted assessment');continue;}
+  extractedAssignments++;
   if(!signatures.has(normalized))signatures.set(normalized,[]);
   signatures.get(normalized).push(id);
  }
  const duplicates=[...signatures.values()].filter(group=>group.length>1);
  if(duplicates.length)courseAssignmentReview.push({course,duplicates});
 }
+console.log('Assignment extraction coverage: '+extractedAssignments+'/84 core course lessons.');
 console.log('Assignment duplication triage: '+courseAssignmentReview.length+' courses with identical lesson-assignment text.');
 for(const item of courseAssignmentReview)console.log('REVIEW '+item.course+' repeated assignments: '+item.duplicates.map(group=>group.join(', ')).join('; '));
 
 console.log('Assignment extraction triage: '+assignmentExtractionReview.length+' lessons require heading/content inspection.');
 for(const issue of assignmentExtractionReview)console.log('REVIEW '+issue);
-if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({assignmentDuplication:courseAssignmentReview,assignmentExtraction:assignmentExtractionReview},null,2));
+if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({extractedAssignments,expectedCoreAssignments:84,assignmentDuplication:courseAssignmentReview,assignmentExtraction:assignmentExtractionReview},null,2));
