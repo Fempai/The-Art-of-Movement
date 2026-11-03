@@ -48,11 +48,11 @@ for(const course of courses){
   const file=path.join(root,id+'.md');
   if(!fs.existsSync(file))continue;
   const md=fs.readFileSync(file,'utf8');
-  const heading=/^## (?:Independent assignment|Independent critical assignment|Assignment and assessment)\s*$/gm;
+  const heading=/^#{2,3}\s+(?:\d+\.\s*)?(?=[^\n]*(?:assignment|assessment))[^\n]+$/gim;
   const match=heading.exec(md);
   if(!match){assignmentExtractionReview.push(id+': no recognized assessment heading');continue;}
   const after=md.slice(match.index+match[0].length);
-  const next=after.search(/\n## /);
+  const next=after.search(/\n#{2,3} /);
   const section=(next>=0?after.slice(0,next):after).split('**Worked example:**')[0];
   const normalized=section.replace(/\s+/g,' ').trim().toLowerCase();
   if(!normalized){assignmentExtractionReview.push(id+': empty extracted assessment');continue;}
