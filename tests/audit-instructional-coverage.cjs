@@ -76,3 +76,10 @@ console.log('Assignment heading ambiguity triage: '+assignmentHeadingReview.leng
 for(const issue of assignmentHeadingReview)console.log('REVIEW '+issue);
 for(const issue of assignmentExtractionReview)console.log('REVIEW '+issue);
 if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({extractedAssignments,expectedCoreAssignments:84,assignmentDuplication:courseAssignmentReview,assignmentExtraction:assignmentExtractionReview,assignmentHeadingAmbiguity:assignmentHeadingReview},null,2));
+// Missing or ambiguous assessment sections are structural regressions, not merely editorial leads.
+// Identical assignment prose remains review-only because intentional reuse can be legitimate.
+if(extractedAssignments!==courses.length*4 || assignmentExtractionReview.length || assignmentHeadingReview.length){
+ console.error('FAIL: core lesson assignment extraction or heading uniqueness regression.');
+ process.exitCode=1;
+}
+
