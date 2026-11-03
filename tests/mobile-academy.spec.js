@@ -312,6 +312,9 @@ test('studio lighting, accessible camera controls and touch rotation',async({pag
  await expect(page.locator('#yaw')).toHaveValue('35');
  await page.keyboard.press('0');
  await expect(page.locator('#yaw')).toHaveValue('25');
+ // Record the actual pointer stream so a failed mobile CI run identifies delivery vs cancellation.
+ await stage.evaluate(el=>{window.__studioTouchEvents=[];for(const type of ['pointerdown','pointermove','pointerup','pointercancel','lostpointercapture'])el.addEventListener(type,e=>window.__studioTouchEvents.push({type,id:e.pointerId,x:Math.round(e.clientX),y:Math.round(e.clientY)}))});
+ await stage.scrollIntoViewIfNeeded();
  const bounds=await stage.boundingBox();expect(bounds).toBeTruthy();
  // Chromium mobile emulation may suppress mouse drags. Exercise genuine touch events instead.
  const client=await page.context().newCDPSession(page);
@@ -319,7 +322,12 @@ test('studio lighting, accessible camera controls and touch rotation',async({pag
  await client.send('Input.dispatchTouchEvent',{type:'touchStart',touchPoints:[{x:start,y,id:1}]});
  for(let x=start+10;x<=end;x+=10){await client.send('Input.dispatchTouchEvent',{type:'touchMove',touchPoints:[{x,y,id:1}]});await page.waitForTimeout(20)}
  await client.send('Input.dispatchTouchEvent',{type:'touchEnd',touchPoints:[]});
- await expect.poll(async()=>Number(await page.locator('#yaw').inputValue())).not.toBe(25);
+ const events=await page.evaluate(()=>window.__studioTouchEvents||[]);
+ expect(events.some(e=>e.type==='pointerdown'),'Touch must reach the studio canvas as pointerdown; events='+JSON.stringify(events)).toBe(true);
+ expect(events.some(e=>e.type==='pointermove'),'Touch drag must generate pointermove; events='+JSON.stringify(events)).toBe(true);
+ expect(events.some(e=>e.type==='pointercancel'),'Browser must not cancel studio drag; events='+JSON.stringify(events)).toBe(false);
+ const finalYaw=Number(await page.locator('#yaw').inputValue());
+ expect(finalYaw,'Pointer drag must change yaw from 25; events='+JSON.stringify(events)).not.toBe(25);
 });
 test('studio rejects unsupported GLB with actionable error',async({page})=>{
  await page.goto(base+'/skinned-avatar-studio.html');
