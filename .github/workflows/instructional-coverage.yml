@@ -4,6 +4,7 @@ on:
     paths:
       - 'curriculum/final-lessons/**'
       - 'curriculum/BEL101-VIDEO-SOURCES.json'
+      - 'docs/BEL101-NINE-DIMENSION-REVIEW.md'
       - 'tests/audit-instructional-coverage.cjs'
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
@@ -14,6 +15,7 @@ on:
     paths:
       - 'curriculum/final-lessons/**'
       - 'curriculum/BEL101-VIDEO-SOURCES.json'
+      - 'docs/BEL101-NINE-DIMENSION-REVIEW.md'
       - 'tests/audit-instructional-coverage.cjs'
       - 'tests/audit-bellydance-feedback.cjs'
       - 'tests/audit-all-quizzes.cjs'
