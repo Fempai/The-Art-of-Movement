@@ -243,7 +243,7 @@ Source: `curriculum/final-lessons/BEL101-W13.md`.
 | Dimension | Status | Passage-specific evidence |
 | --- | --- | --- |
 | 1. Learning outcomes | PASS | “Learning goal and explanation” distinguishes preparatory sequencing from advanced rolls and flutters. |
-| 2. Instructional sequence | PASS | “Guided count-by-count study” places chest-to-pelvis shift 3–4, reverse 5–6, and rest 7–8. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” places chest-to-pelvis shift 3–4, reverse 5–6, and rest 7–8; the concept note now distinguishes hand-traced sequencing from abdominal isolation. |
 | 3. Movement correctness | NEEDS HUMAN REVIEW | Cautions against forceful fluttering are explicit, but torso mechanics and technique correctness need direct review. |
 | 4. Modifications | PASS | “Modification” hand-traces forward and reverse sequences seated without abdominal action. |
 | 5. Self-correction | PASS | “Self-correction” reduces uncomfortable range and uses isolated counts to regain timing. |
@@ -275,7 +275,7 @@ Source: `curriculum/final-lessons/BEL101-W15.md`.
 | Dimension | Status | Passage-specific evidence |
 | --- | --- | --- |
 | 1. Learning outcomes | PASS | “Learning goal and explanation” sets comfortable arm-and-torso coordination without requiring advanced undulation. |
-| 2. Instructional sequence | PASS | “Guided count-by-count study” specifies hand lift 1–2, arm opening 3–4, optional wave 5–6, return 7–8. |
+| 2. Instructional sequence | PASS | “Guided count-by-count study” specifies hand lift 1–2, arm opening 3–4, optional wave 5–6, return 7–8; the concept note now explicitly identifies this as sequential coordination, not simultaneous layering. |
 | 3. Movement correctness | NEEDS HUMAN REVIEW | The low-range sequence avoids forced backbends, but shoulder and torso execution requires observation. |
 | 4. Modifications | PASS | “Modification” hand-traces optional wave while seated and retains the full count structure. |
 | 5. Self-correction | PASS | “Self-correction” provides reduced-range and count-marking recovery with stop conditions. |
