@@ -430,3 +430,7 @@ Enhanced the 21-course assignment duplication triage to explicitly report missin
 ## Course-wide extraction spot check — 2026-11-02
 
 Added explicit core-assignment extraction coverage output (`extractedAssignments/84`) to the 21-course triage (commit `e05cca4516544fe1081ac670fdc3ebb46e7378bb`). Retrieved all four numbered lessons each for MOV101, BEL101, and HIS101 and evaluated the revised heading extractor and normalized assignment sections. **12/12** had recognized headings and nonempty assignment instructions; all four assignment texts were distinct within each of the three courses. HIS101 intentionally shares a claim-evidence scaffold but varies the required historical analysis across the four lessons; the duplicate checker should not mislabel that common structure as identical tasks. This is a 12-lesson spot check, not a full execution of the 84-lesson extraction audit or 97-lesson coverage suite.
+
+## Assignment heading ambiguity triage — 2026-11-02
+
+Improved `tests/audit-instructional-coverage.cjs` to report multiple candidate assignment/assessment headings per core lesson instead of silently selecting the first (commit `9128de0341ede2b436a8f83b1fcbde8a82ed5bef`). The ambiguity list is also included in optional JSON output. Directly inspected six current lessons (MOV101-01 through MOV101-04, BEL101-01, HIS101-01): all six had exactly one recognized assignment heading. This spot check does not establish the full 84-lesson ambiguity count, or a green CI run.
