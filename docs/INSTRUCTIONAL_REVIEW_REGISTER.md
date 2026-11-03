@@ -418,3 +418,7 @@ Commit `da4759de809a7e080fb8575bbe0a43af4c2f6b0d` added automated assessment-int
 ## Professional-course assessment regression safeguard — 2026-11-02
 
 Added an additional course-specific guard to `tests/audit-all-quizzes.cjs` (commit `f63198779af2825ee8c70a1269fc3e455996d595`) for all 12 PRO701/PRO702/PRO703 assignments. It requires a distinctive taught artifact in each lesson and rejects generic Lesson-04 capstone boilerplate in Lessons 01–03. Retrieved all 12 current lesson files through the GitHub connector and independently checked the same assertions: **12/12 passed**. This is a direct content-based check of the new assertions, **not** a verified execution of the entire Node test suite or a GitHub Actions green result. No claims about biomechanical accuracy or actual learning outcomes follow from these tests.
+
+## Cross-course assignment duplication triage — 2026-11-02
+
+Added a non-blocking cross-lesson assignment-duplication check to `tests/audit-instructional-coverage.cjs` (commit `57c9a9783d61ffc2fac9016a22964e746c626d3d`). It compares normalized assignment instructions among the four numbered lessons of each of the 21 courses and reports identical text for targeted editorial follow-up. This broadens quality triage beyond the 28 advanced-course regression guards without declaring legitimate repeated practice automatically wrong. **A fresh execution of the entire audit and the resulting duplicate-course count have not been confirmed**; do not report a clean sweep until the workflow or local Node execution establishes it.
