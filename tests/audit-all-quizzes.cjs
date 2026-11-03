@@ -71,3 +71,38 @@ for(const [course,signals] of Object.entries(assessmentSignals)){
  assert.equal(new Set(assignments).size,4,course+': duplicate independent assignments');
 }
 console.log('PASS: 16 course-specific assignments retain distinct lesson signals (editorial regression only).');
+
+
+// Regression guard for the seven recently individualized advanced-course assessments.
+// This is a text-integrity check, not an expert evaluation of the taught technique.
+const advancedAssessmentHeadings={
+ CMP502:'Independent assignment',
+ SCI503:'Independent assignment',
+ EST504:'Independent critical assignment',
+ SIT505:'Independent assignment',
+ PRO701:'Assignment and assessment',
+ PRO702:'Independent assignment',
+ PRO703:'Independent assignment'
+};
+for(const [course,heading] of Object.entries(advancedAssessmentHeadings)){
+ const assignmentBodies=[];
+ for(let i=1;i<=4;i++){
+  const id=course+'-'+String(i).padStart(2,'0');
+  const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const marker='## '+heading;
+  const start=md.indexOf(marker+'\n');
+  assert.ok(start>=0,id+': missing expected assessment heading');
+  const after=md.slice(start+marker.length);
+  const next=after.search(/\n## /);
+  const section=(next>=0?after.slice(0,next):after).trim();
+  assert.ok(section.length>=350,id+': assessment unexpectedly short');
+  assert.ok(section.includes('**Worked example:**'),id+': missing worked example');
+  assert.ok(section.includes('**Rubric:**'),id+': missing assessment rubric');
+  const rubric=section.split('**Rubric:**')[1]||'';
+  const weights=[...rubric.matchAll(/(\d+)%/g)].map(m=>Number(m[1]));
+  assert.equal(weights.reduce((sum,n)=>sum+n,0),100,id+': rubric weights must total 100%');
+  assignmentBodies.push(section.split('**Worked example:**')[0].trim().replace(/\s+/g,' ').toLowerCase());
+ }
+ assert.equal(new Set(assignmentBodies).size,4,course+': duplicate lesson assignments');
+}
+console.log('PASS: 28 advanced-course assessments have distinct tasks, worked examples and 100% rubrics (text regression only).');
