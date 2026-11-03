@@ -40,6 +40,7 @@ if(summary.missing) process.exitCode=1;
 // template that does not assess the lesson's stated learning outcomes.
 // Report only; repetition is not automatically evidence of poor instruction.
 const courseAssignmentReview=[];
+const assignmentExtractionReview=[];
 for(const course of courses){
  const signatures=new Map();
  for(let i=1;i<=4;i++){
@@ -49,12 +50,12 @@ for(const course of courses){
   const md=fs.readFileSync(file,'utf8');
   const heading=/^## (?:Independent assignment|Independent critical assignment|Assignment and assessment)\s*$/gm;
   const match=heading.exec(md);
-  if(!match)continue;
+  if(!match){assignmentExtractionReview.push(id+': no recognized assessment heading');continue;}
   const after=md.slice(match.index+match[0].length);
   const next=after.search(/\n## /);
   const section=(next>=0?after.slice(0,next):after).split('**Worked example:**')[0];
   const normalized=section.replace(/\s+/g,' ').trim().toLowerCase();
-  if(!normalized)continue;
+  if(!normalized){assignmentExtractionReview.push(id+': empty extracted assessment');continue;}
   if(!signatures.has(normalized))signatures.set(normalized,[]);
   signatures.get(normalized).push(id);
  }
@@ -63,3 +64,7 @@ for(const course of courses){
 }
 console.log('Assignment duplication triage: '+courseAssignmentReview.length+' courses with identical lesson-assignment text.');
 for(const item of courseAssignmentReview)console.log('REVIEW '+item.course+' repeated assignments: '+item.duplicates.map(group=>group.join(', ')).join('; '));
+
+console.log('Assignment extraction triage: '+assignmentExtractionReview.length+' lessons require heading/content inspection.');
+for(const issue of assignmentExtractionReview)console.log('REVIEW '+issue);
+if(process.env.AOM_AUDIT_JSON==='1') console.log(JSON.stringify({assignmentDuplication:courseAssignmentReview,assignmentExtraction:assignmentExtractionReview},null,2));
