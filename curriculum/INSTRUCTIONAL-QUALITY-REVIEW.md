@@ -355,3 +355,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **A** (transmission across people/settings), Q2 **B** (institutional preservation bias), Q3 **A** (hypothetical arrows not documented genealogy), Q4 **A** (practitioner interview as primary evidence of their reported experience). Keys and explanations align with the taught limits of evidence.
 
 **Decision and limitations:** Targeted guided-task/assignment consistency and quiz-key editorial review completed. The real-world example is a learner research requirement, not an example independently sourced or verified by this review.
+
+## Targeted editorial check — HIS101-03 (November 2026)
+
+**Issue and revision:** The lab requested rewrites of three hypothetical captions but supplied no source evidence to support the named performer or date, and the assignment did not connect the captions, real clip, and four-claim audit. Added explicit evidence-safe hypothetical rewrites and a three-part submission specifying clip metadata, timestamped/verbatim credits or 'none found,' four claim-evidence rows, and unsupported origin claims.
+
+**Four-question editorial answer check:** Q1 **B** (performance shown in a recording), Q2 **B** (popularization does not prove invention), Q3 **C** (creator not established), Q4 **B** (citation does not grant reuse rights). Answers and rationales match the lesson.
+
+**Decision and limitations:** Targeted attribution precision, assignment reproducibility, and quiz-key review completed. No real clip or passage was independently inspected; copyright discussion is general educational guidance, not legal clearance.
