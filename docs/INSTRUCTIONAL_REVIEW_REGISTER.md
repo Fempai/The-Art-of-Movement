@@ -2522,3 +2522,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Deployed lesson rendering, quiz feedback, essay submissions and rubric UI not tested.
 
 **Cumulative ledger:** **69/97 unique lessons**; **621/873 nine-dimension judgments**: **414 internal PASS**, **207 NEEDS REVIEW**, **0 internal FAIL identified**, **28 lessons remain**. EST504 capstone's verified scholarship is an outstanding learner requirement; bibliographic homepages do not satisfy passage-level verification. BEL101-W01/W02/W03 paths were checked and returned 404; do not presume they exist or count them.
+
+
+## Nine-dimension instructional validation — PRO701-01–04 — 2026-11-04
+
+**Scope:** Four Professional Repertory Laboratory lessons; full lesson text, 16 keyed items, movement-count protocols and assignment rubrics reviewed. Internal PASS is not a professional performance certification.
+
+### PRO701-01 — Polish
+1. **Outcome alignment — PASS (text):** Explicit measurable rehearsal criteria, observation, safe revision and reflection map to taught outcome.
+2. **Practice sequence — PASS (text):** Four predefined criteria: step 1, gather by 4, reach onset 5, recover/stillness 7–8; three rested baseline trials, isolate transition twice, one retest.
+3. **Movement correctness — NEEDS REVIEW:** Real movement quality, load, safety and expert repertory standards not observed.
+4. **Modifications — PASS (text):** Seated item 1 explicitly replaced with seated shift; standing foot placement N/A.
+5. **Self-correction — PASS (text):** Off-frame foot is unclear, not yes; compare identical scoring criteria before and after correction.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; each rationale supports the uniquely best choice against offered alternatives. PRO701-04 160×60/80=120 seconds verified arithmetically.
+7. **Assignment — PASS (text):** Four-item checklist, three baseline attempts and retest, competing explanation.
+8. **Evidence and cultural care — NEEDS REVIEW:** Krasnow/Wilmerding, Smith-Autard and IADMS citations lack passage-level verification; original Undercurrent composition not claimed to certify a tradition.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson/quiz/video/submission interactions untested.
+
+### PRO701-02 — Rehearsal architecture
+1. **Outcome alignment — PASS (text):** Explicit measurable rehearsal criteria, observation, safe revision and reflection map to taught outcome.
+2. **Practice sequence — PASS (text):** 32-count A/B/A′/C; four cues, half-speed and comfortable chunk rehearsal; check boundaries 8→9, 16→17, 24→25; rest and unprompted run.
+3. **Movement correctness — NEEDS REVIEW:** Real movement quality, load, safety and expert repertory standards not observed.
+4. **Modifications — PASS (text):** Seated entry cues retain count grid while travel/footwork is marked adapted.
+5. **Self-correction — PASS (text):** Isolate weakest entry twice; avoid counting first unprompted run as two trials.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; each rationale supports the uniquely best choice against offered alternatives. PRO701-04 160×60/80=120 seconds verified arithmetically.
+7. **Assignment — PASS (text):** Four-chunk score, three boundary checks, run log and targeted revision.
+8. **Evidence and cultural care — NEEDS REVIEW:** Krasnow/Wilmerding, Smith-Autard and IADMS citations lack passage-level verification; original Undercurrent composition not claimed to certify a tradition.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson/quiz/video/submission interactions untested.
+
+### PRO701-03 — Interpretation under constraint
+1. **Outcome alignment — PASS (text):** Explicit measurable rehearsal criteria, observation, safe revision and reflection map to taught outcome.
+2. **Practice sequence — PASS (text):** Three expressive versions of same A/B 16 counts; gaze and reach quality vary without moving count placements or adding pauses.
+3. **Movement correctness — NEEDS REVIEW:** Real movement quality, load, safety and expert repertory standards not observed.
+4. **Modifications — PASS (text):** Seated or supported expressive variations, with omitted turning/travel labeled.
+5. **Self-correction — PASS (text):** If versions visually indistinct, revise one expressive variable and recheck counts.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; each rationale supports the uniquely best choice against offered alternatives. PRO701-04 160×60/80=120 seconds verified arithmetically.
+7. **Assignment — PASS (text):** Three-version matrix with two attempts each, intention/observation distinction.
+8. **Evidence and cultural care — NEEDS REVIEW:** Krasnow/Wilmerding, Smith-Autard and IADMS citations lack passage-level verification; original Undercurrent composition not claimed to certify a tradition.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson/quiz/video/submission interactions untested.
+
+### PRO701-04 — Stamina showcase
+1. **Outcome alignment — PASS (text):** Explicit measurable rehearsal criteria, observation, safe revision and reflection map to taught outcome.
+2. **Practice sequence — PASS (text):** Five 32-count sections = 160 beats; at 80 BPM, 120 seconds, with score, rest, one take, effort/discomfort and timing log.
+3. **Movement correctness — NEEDS REVIEW:** Real movement quality, load, safety and expert repertory standards not observed.
+4. **Modifications — PASS (text):** Contemporaneous count-by-count nonvideo log explicitly distinguished from verified continuous video; shorten/stop if unsafe.
+5. **Self-correction — PASS (text):** Recalculate duration at other BPM, document interruption rather than call clip a full showcase.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; each rationale supports the uniquely best choice against offered alternatives. PRO701-04 160×60/80=120 seconds verified arithmetically.
+7. **Assignment — PASS (text):** 2–3-minute showcase, five section scores, timed evidence, recovery critique.
+8. **Evidence and cultural care — NEEDS REVIEW:** Krasnow/Wilmerding, Smith-Autard and IADMS citations lack passage-level verification; original Undercurrent composition not claimed to certify a tradition.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson/quiz/video/submission interactions untested.
+
+**Cumulative ledger:** **73/97 unique lessons**, **657/873 judgments**: **438 internal PASS**, **219 NEEDS REVIEW**, **0 internal FAIL identified**, **24 lessons remain**. EST503 filenames were checked but not found; not counted. Latest-head CI and actual performance remain unverified.
