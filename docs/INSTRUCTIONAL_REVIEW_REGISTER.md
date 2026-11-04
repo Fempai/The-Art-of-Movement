@@ -1575,3 +1575,18 @@ Scope: PRO701-01–04; sixteen keyed items, four guided/assignment and four assi
 - **Limits — NEEDS REVIEW:** Physical stamina and real execution unobserved.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Real performance, expert technique, source verification and latest CI require separate checks.
+
+
+## PRO703-01 granular closure supplement — 2026-11-04
+
+This supersedes the compressed Q1–Q4 statement in the earlier PRO703-01 section.
+
+- **Q1 B — PASS:** The capstone seminar and dated dossier require baseline, criterion, intervention and observed result. A lacks baseline/criterion; C omits follow-up; D omits the changed variable. Each distractor describes a plausible but incomplete portfolio.
+- **Q2 B — PASS:** The taught compositional revision changes movement organization by reordering/extending a motif under a rule. A alters camera, C only tempo, D costume; none establishes the specified structural revision.
+- **Q3 C — PASS:** The assignment explicitly marks obscured features unobservable. A mistakes planned score for execution, B invents an error, D substitutes confidence for evidence.
+- **Q4 D — PASS:** The dated process record retains failed attempts under the original criterion. A cherry-picks, B moves the criterion after observation, C falsely asserts external adjudication.
+- **Guided-to-assignment — PASS:** 32-count A–B–A′–C baseline, four predefined criteria, count-level log, two targeted rehearsals and comparable retest are specified.
+- **Assignment-to-outcome — PASS (internal):** Revision dossier, analysis and alternative explanation demonstrate traceable decision and evidence-limited self-evaluation.
+- **Remaining limitations — NEEDS REVIEW:** Observed dancer execution, source passages and external professional evaluation unavailable.
+
+**PRO703-01 question-level documentation gap resolved.** These judgments remain internal and do not close the separate nine-dimension instructional validation gate.
