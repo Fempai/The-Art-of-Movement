@@ -179,3 +179,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question independent editorial key check:** Q1 **B** (visible turnout includes segment contributions), Q2 **C** (active and passive ranges differ), Q3 **B** (comfortable controllable alignment), Q4 **C** (a photo cannot isolate all joint contributions). All four keys and their explanations align with the taught distinctions and avoid equating appearance with joint range or safety.
 
 **Decision and limitations:** Targeted novice walkthrough, accessible exercise, assignment alignment, and quiz-key editorial review completed for MOV101-04. This completes a targeted MOV101 lessons 01–04 editorial pass, not independent validation of reference content, learner performance, or biomechanical safety.
+
+## Targeted editorial check — DNC101-01 (November 2026)
+
+**Issue and revision:** The follow-along prescribed three repetitions but the assignment requested two without saying whether the third was extra. Clarified that learners practice three and score any two. Added an eight-count seated foot-pathway alternative preserving slide, hold, and return, explicitly not equivalent to standing weight support or full ballet tendu mechanics.
+
+**Four-question editorial answer check:** Q1 **B** (supporting leg bears weight), Q2 **C** (relax gripping toes), Q3 **A** (parallel slide/return retains central goal), Q4 **D** (controlled return pathway). Keys and distractor explanations align with the taught task. Ballet/jazz history and technique source attribution still require independent specialist source-level review.
+
+**Decision and limitations:** Targeted beginner walkthrough, practice-assignment alignment, accessible adaptation, and quiz-key review completed. This is not an observed learner assessment or validation of technical execution.
