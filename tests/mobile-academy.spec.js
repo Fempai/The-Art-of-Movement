@@ -615,3 +615,20 @@ test('Studio Record distinguishes saved null and malformed early-week records fr
   expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(value);
  }
 });
+
+test('Studio Record flags corrupt semester and curriculum records instead of claiming zero progress',async({page})=>{
+ await page.goto(base+'/studio-record.html');
+ const originals=[['aom_term_one_progress_v1','{broken-term'],['aom_term1_curriculum_v1','null']];
+ await page.evaluate(entries=>{for(const [key,value] of entries)localStorage.setItem(key,value)},originals);
+ await page.reload();
+ await expect(page.locator('#unreadableWarning')).toContainText('2 local Academy record(s)');
+ await expect(page.locator('#weeks tr').first()).toContainText('Unreadable — restore backup');
+ await expect(page.locator('#other')).toContainText('Curriculum checklist: unreadable — restore backup.');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const snapshot=JSON.parse(require('node:fs').readFileSync(await (await downloadPromise).path(),'utf8'));
+ for(const [key,value] of originals){
+  expect(snapshot.unreadable_keys).toContain(key);
+  expect(snapshot.raw_records[key]).toBe(value);
+ }
+});
