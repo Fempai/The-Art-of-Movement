@@ -435,3 +435,19 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (repeatable baseline), Q2 **C** (40 seconds work/20 seconds rest), Q3 **A** (shorter work/longer rest), Q4 **D** (change one variable). Keys and explanations align with the instruction.
 
 **Decision and limitations:** Targeted accommodation, baseline interpretation, and quiz-key editorial review completed. This closes the targeted STG101 lessons 01–04 editorial pass. Clinical clearance, measured fitness outcomes, and source-specific scientific verification remain outstanding.
+
+## Targeted editorial check — FLE101-01 (November 2026)
+
+**Issue and revision:** The alternating knee-lift exercise used counts 1–4 and 5–8 without identifying the leg on each half or what the seated alternative can and cannot measure. Added right/left count-specific knee-lift cues, stable support, seated eight-count active hip-flexion marking, and a requirement to log an omitted standing hip-extension component honestly.
+
+**Four-question editorial answer check:** Q1 **B** (thigh behind pelvis), Q2 **B** (avoid substituting lumbar arch), Q3 **C** (self-produced controlled movement), Q4 **D** (stable wall and smaller lift). Keys and rationales match instruction.
+
+**Decision and limitations:** Targeted exercise reproducibility, scope of adaptation, and quiz-key editorial review completed. No clinical hip-range measurement or source-passage verification.
+
+## Targeted editorial check — FLE101-02 (November 2026)
+
+**Issue and revision:** The step-and-gather only identified broad 1–4 and 5–8 windows, and the seated option had no count mapping. Added precise eight-count right/left step-and-gather and seated foot-slide alternatives, with a distinction between seated coordination and loaded lateral shifts.
+
+**Four-question editorial answer check:** Q1 **B** (adduction toward midline), Q2 **C** (controlled comfortable range), Q3 **A** (smaller shift and secure support), Q4 **D** (six controlled shifts as a recordable observation). Keys and rationales match instruction.
+
+**Decision and limitations:** Targeted count mapping, adaptation, and quiz-key editorial review completed. No individual flexibility or injury-prevention claim validated.
