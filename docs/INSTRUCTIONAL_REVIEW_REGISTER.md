@@ -804,3 +804,46 @@ Reviewed BEL101-W12 (simultaneous pulse/arm layering and seated adaptation), W13
 ## Bellydance weekly quiz rationale pass completed (W04) — 2026-11-03
 
 Completed the remaining BEL101-W04 (snake-arm sequencing, uncomfortable chest-oval adaptation, hand-first correction, evidence limits) review, expanding all four answer rationales with explicit distractor feedback in commit `c0a7e722dfbd686af101e9f15706822bef120a5d`. With the earlier BEL101-01 through BEL101-04 and BEL101-W05 through BEL101-W16 reviews, all 17 bellydance lesson files covering the original 16-week track and extra Week 4 have now received internal quiz-rationale editorial review. The previous register commit `86262acdb2f71cc1bacff7e1d326b7aa75d14e19` passed all five main CI workflows. This completion refers to internal answer-feedback review, not independent source-video authentication, expert movement-technique evaluation, or observed learner effectiveness; check new CI separately.
+
+
+## HIS101 formal assessment-validity review — 2026-11-04
+
+Scope: HIS101-01 through HIS101-04, all 16 knowledge-check items, the four guided document-analysis labs, and the corresponding research assignments. These judgments concern the **internal written exercise**, not independent historical-source authentication or observed learner effectiveness.
+
+### HIS101-01 — Context
+- **Q1 B — PASS:** Core lecture frames historical context through access, institutions, and social settings; A/C/D concern execution rather than context. Distractors test confusion of movement analysis with historical analysis.
+- **Q2 C — PASS:** Lecture expressly limits what a photograph alone can establish to visible details; A/B/D infer intent, origins, or relationships. Distractors are unambiguously unsupported.
+- **Q3 B — PASS:** Lecture rejects universal single-origin narratives; A/C/D elevate recordings, fame, or survival into proof of invention.
+- **Q4 A — PASS:** Lab requires unknown fields to remain unknown; B/C/D invent chronology or generalize from one record.
+- **Guided-to-assignment — PASS:** Source metadata, documented/inferred/unknown distinctions, four-column context comparisons, and limitations feed the required claim-evidence table and interpretation.
+- **Assignment-to-outcome — PASS (internal):** A written table and explanation can demonstrate context identification, observation-versus-inference, source analysis, and an auditable artifact. The rubric covers historical precision, sources, limits, and organization.
+- **Evidence limits — NEEDS REVIEW:** No passage-level independent confirmation of ballet/hip-hop historical context, cited books, or source URLs; no actual learner artifact inspected.
+
+### HIS101-02 — Lineage
+- **Q1 A — PASS:** Lecture defines lineage as transmission/development across people and settings; B/C/D lack transmission evidence or mistake recording for origin.
+- **Q2 B — PASS:** Lecture warns institutional preservation shapes visibility; A/C/D assume completeness, first occurrence, or proof from absence.
+- **Q3 A — PASS:** Guided lab explicitly labels each illustrative arrow hypothetical; B/C/D falsely present a model as documented genealogy.
+- **Q4 A — PASS:** Practitioner interview directly documents the interviewee's account; B/C/D substitute summaries, speculation, or inferred speech.
+- **Guided-to-assignment — PASS:** Both hypothetical maps, their labeled arrows, and the sourced real-world example are explicit deliverables; the four-row table requires evidence-status and limitations.
+- **Assignment-to-outcome — PASS (internal):** Maps and a source-specific table test lineage reasoning, inference boundaries, and an auditable artifact. Rubric includes attribution and limitations.
+- **Evidence limits — NEEDS REVIEW:** The real-world source and any claimed teacher–learner relationship must be verified in the learner submission; no outside verification performed here.
+
+### HIS101-03 — Attribution
+- **Q1 B — PASS:** A recording establishes performance in that recording, not invention, first teaching, or the uploader's relationship; A/C/D overreach.
+- **Q2 B — PASS:** Lecture distinguishes dissemination from creation; A/C/D invent authorship, ownership transfer, or proof from earliest recording.
+- **Q3 C — PASS:** Missing creator information must be recorded as unestablished; A/B/D confuse appearance, prominence, and upload date with creation.
+- **Q4 B — PASS:** Lecture distinguishes attribution from permission; A/C/D are citation/documentation functions, not permission to reuse protected work.
+- **Guided-to-assignment — PASS:** Three hypothetical caption rewrites and a real-clip attribution log directly become submission components with a four-row evidence table.
+- **Assignment-to-outcome — PASS (internal):** Exact credit, uncertainty, source metadata, and unsupported-origin claims provide assessable evidence of attribution reasoning.
+- **Evidence limits — NEEDS REVIEW:** The real clip and any credits/timestamps require independent inspection; legal reuse exceptions are context-dependent and not certified here.
+
+### HIS101-04 — Critical comparison
+- **Q1 A — PASS:** A direct practitioner interview documents the person's account; B/C/D are summaries, reconstructions, or inferred speech.
+- **Q2 B — PASS:** Lecture requires claim specificity proportional to evidence; A/C/D rely on shape, sweeping generalization, or selective chronology.
+- **Q3 C — PASS:** Guided lab and assignment explicitly require evaluating conflicting sources; A/B/D conceal disagreement or invent midpoint dates.
+- **Q4 B — PASS:** Lecture explains that secondary scholarship can synthesize primary sources; A/C/D incorrectly make firsthand evidence infallible, labels universally primary, or newer sources automatically superior.
+- **Guided-to-assignment — PASS:** The four-source, two-practice comparison, four-row table, precise source locations, and disagreement analysis appear in both guided lab and final assignment.
+- **Assignment-to-outcome — PASS (internal):** The 600-word comparison and auditable table test source interpretation, attribution, inference, and alternative explanations; the assignment expressly replaces the default shorter interpretation.
+- **Evidence limits — NEEDS REVIEW:** Four independent credible sources and quoted passages must be checked in an actual learner submission; scholarly and historical claims remain externally unverified.
+
+**Batch result:** 4 lessons; 16/16 internal question judgments PASS; 4/4 guided-to-assignment and 4/4 assignment-to-outcome judgments PASS. All four retain NEEDS REVIEW for external historical-source evidence and observed effectiveness. Distractors are generally easy because wrong choices often make categorical, extreme claims; future difficulty calibration with actual learners remains open. This entry adds documented decisions only; it does not assert full nine-dimension instructional validation.
