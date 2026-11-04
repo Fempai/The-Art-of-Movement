@@ -792,3 +792,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - Expanded the two-attempt observation to score loop timing, right step initiation, following-foot arrival, and stable new position, with on-count/off-count/unobservable/intentionally-omitted outcomes. Require start/end floor-position evidence before recording standing travel; seated gestures must be labeled symbolic. Quiz key **B,C,A,D** unchanged.
 
 **Decision:** Improved observable evidence and adaptation boundaries without asserting verified practitioner technique, source playback, or real learner outcomes.
+
+
+## BEL101 Week 11 abdominal-awareness evidence correction (November 2026)
+
+- **W11:** Corrected the assessment's claim that gentle internal abdominal engagement and release could be reliably 'observed'. The learner now records engagement and release as **self-reported sensation**, with intentional omission and inability to judge distinguished. Any externally visible movement is recorded separately and is not treated as proof of particular muscle activation. Optional wave and breathing-only adaptations remain explicitly differentiated. Quiz key **B,C,A,D** unchanged.
+
+**Decision:** Avoids unsupported external inference about internal muscle activity while retaining an achievable self-directed awareness objective. This does not independently validate muscle recruitment, learner outcomes, or the restored video source.
