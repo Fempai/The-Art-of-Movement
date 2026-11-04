@@ -1148,3 +1148,46 @@ Scope: CMP101-01–04, sixteen keyed questions, guided studio/assignment mapping
 - **Limits — NEEDS REVIEW:** Dynamics and performance cannot be exhaustively represented in plain-language notation; scholarly metadata unverified.
 
 **Batch closure:** 4 lessons, 16/16 internal question judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No correction identified. Q3 of lesson 01 is only a documentary proxy for legibility, not an external recognition test. Distractor difficulty and audience effectiveness uncalibrated. Verify latest-head CI separately.
+
+
+## PER201 formal assessment-validity review — 2026-11-04
+
+Scope: PER201-01–04; sixteen question-level decisions, four guided-to-assignment judgments and four outcome judgments. PASS means internal correctness and written alignment, not professional adjudication, actual audience perception or observed learner skill.
+
+### PER201-01 — Focus
+- **Q1 B — PASS:** Gaze toward reaching hand at count 5 specifies focus; A/C/D describe travel, support or arm endpoint without gaze.
+- **Q2 C — PASS:** Framed recording can show approximate head/gaze orientation; A/B/D assert inaccessible intent or universal interpretation.
+- **Q3 A — PASS:** Keep head stable and move eyes when head turning destabilizes; B/C/D retain or increase instability.
+- **Q4 D — PASS:** Different focus choices may change emphasis; A/B/C claim universal viewer response.
+- **Guided-to-assignment — PASS:** A hand-gaze 5–6, B audience-marker gaze on 5, C downward-to-lifted gaze on 7, with unchanged arm pathway and seated option, match assignment.
+- **Assignment-to-outcome — PASS (internal):** Three scores, three visible contrasts and one revised cue assess observable focus choices and evidence limits.
+- **Limits — NEEDS REVIEW:** Camera may not resolve eye direction, and actual audience attention is not measured.
+
+### PER201-02 — Intention
+- **Q1 B — PASS:** Intention is chosen purpose, not fixed universal emotion, personality inference or reach distance.
+- **Q2 C — PASS:** Boundary trial changes reach distance and recovery; A/B/D invent duration/travel/genre change.
+- **Q3 A — PASS:** Shorter arm stop at count 6 is observable; B/C/D overinfer audience feelings or traits.
+- **Q4 D — PASS:** Neutral action-based prompt avoids unwanted emotional recall; A/B/C continue distressing prompt.
+- **Guided-to-assignment — PASS:** Invitation, question and boundary retain eight counts, with differentiated palm, hesitation, distance, gaze and recovery.
+- **Assignment-to-outcome — PASS (internal):** Three comparisons and one variable revision separate visible execution from intended readings.
+- **Limits — NEEDS REVIEW:** Emotional reception and psychological effect not independently established.
+
+### PER201-03 — Presence
+- **Q1 B — PASS:** Deliberate count-8 stillness is observable; A/C/D infer confidence, universal feeling or future success.
+- **Q2 B — PASS:** Commitment means completing intended pathway/timing with control; A/C/D add force, unsafe support or breath holding.
+- **Q3 C — PASS:** Fixed camera position reduces framing differences; A/B/D overstate what it controls.
+- **Q4 D — PASS:** Adjust choreography or support when recovery step needed; A/B/C hide or worsen instability.
+- **Guided-to-assignment — PASS:** Balanced versus fidgeted ending, four-count entrance, 5–6 pause, 7–8 settling, next-phrase count 1 match assignment.
+- **Assignment-to-outcome — PASS (internal):** Visible entrance/recovery comparisons and safe revision assess specific presence components without claiming stage readiness.
+- **Limits — NEEDS REVIEW:** No independent observation of balance, camera conditions or audience response.
+
+### PER201-04 — Visual clarity
+- **Q1 B — PASS:** Three-count arm extension is description; A/C/D infer motive/personality/universal effect.
+- **Q2 C — PASS:** A′ extends reach over 21–23; A/B/D erase or misattribute motif.
+- **Q3 A — PASS:** Description, interpretation and evidence-based evaluation are taught critique structure; B/C/D omit evidence.
+- **Q4 D — PASS:** Reframe cropped feet before evaluating footwork; A/B/C fabricate unseen evidence.
+- **Guided-to-assignment — PASS:** 32-count A–B–A′–C, 8→9/16→17/24→25 boundaries, reach 21–23 and alternate written observation grid are explicit.
+- **Assignment-to-outcome — PASS (internal):** Two complete scores, up to two real timing discrepancies or 'none', and a revised cue test evidence-based self-critique.
+- **Limits — NEEDS REVIEW:** Written grid cannot replicate video observation; actual movement and audience clarity unverified.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed decisions PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal content correction identified. Distractors frequently make absolute claims and may be easy to eliminate; difficulty/discrimination uncalibrated. External bibliography, performance safety and learner outcomes remain NEEDS REVIEW. Check latest-head CI separately.
