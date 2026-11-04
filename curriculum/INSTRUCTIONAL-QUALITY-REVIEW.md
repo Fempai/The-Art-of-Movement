@@ -163,3 +163,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question independent editorial key check:** Q1 **D** (a held position may require muscle tension), Q2 **B** (reduce and count an uncontrolled descent), Q3 **A** (concentric shortening under tension), Q4 **C** (appearance alone does not establish strength). Keys and explanations align with the taught introductory distinctions; quiz performance is not proof of movement proficiency.
 
 **Decision and limitations:** Targeted accessibility, beginner walkthrough, and quiz-key editorial review completed. Physiological loading of the adapted action and reference-level evidence remain independently unverified; no external learner or practitioner testing was conducted.
+
+## Targeted editorial check — MOV101-03 (November 2026)
+
+**Issue and revision:** The practice originally instructed a standing learner to touch the left toes to the floor even though both feet began grounded, and the worked example instead described lifting the toes. Revised the drill to keep light toe contact while reducing left-foot load, assigned each stage to the eight counts, corrected the worked example, and added a complete stable-chair version. Seated pressure shifts preserve sequence but are not a standing-balance test.
+
+**Four-question independent editorial key check:** Q1 **B** (support contact region), Q2 **C** (task-specific posture), Q3 **A** (pressure/support shift), Q4 **D** (isolate foot support before arm coordination). Keys and explanations are consistent with the revised lesson. The quiz assesses introductory knowledge rather than measured physical skill.
+
+**Decision and limitations:** Targeted count accuracy, novice walkthrough, accessibility, and answer-key editorial review completed. Claims about actual force distribution, practitioner technique, and the cited source content still require independent evidence checks.
