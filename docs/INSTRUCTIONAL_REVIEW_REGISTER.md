@@ -1320,3 +1320,46 @@ Scope: CMP502-01–04; sixteen keyed questions, four guided/assignment mappings 
 - **Limits — NEEDS REVIEW:** No observed work, choreographic impact or source passage verification.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Retrograde adaptation must remain transparently labeled; easy-to-eliminate distractors and actual learner performance remain unvalidated. Latest-head CI to be checked separately.
+
+
+## SCI503 formal assessment-validity review — 2026-11-04
+
+Scope: SCI503-01–04, sixteen keyed judgments and eight guided/assignment/outcome alignment judgments. Internal editorial validation, not controlled motor-learning research or observed learner performance.
+
+### SCI503-01 — Variability
+- **Q1 B — PASS:** Action order/count placement are held stable; A/C vary deliberately, D is not fixed.
+- **Q2 B — PASS:** Durable capability requires retention/transfer inference; A/C/D equate immediate performance with learning.
+- **Q3 C — PASS:** Vary height while keeping score; A/B/D confound variables or alter target.
+- **Q4 D — PASS:** One trial only demonstrates observed target on that attempt; A/B/C overgeneralize.
+- **Guided-to-assignment — PASS:** Six trials across front/high, front/low, diagonal/high conditions and separate post-break check map to submission.
+- **Assignment-to-outcome — PASS (internal):** Stable target, conditions, errors and competing explanation test performance-versus-learning reasoning.
+- **Limits — NEEDS REVIEW:** Actual condition effects and retention not tested.
+
+### SCI503-02 — Retrieval and spacing
+- **Q1 B — PASS:** Unaided performance before checking score is retrieval; A/C/D retain cues or observation only.
+- **Q2 C — PASS:** Record actual day-4 timing rather than mislabel or discard late check.
+- **Q3 A — PASS:** Chunk accuracy plus cue status is traceable; B/C/D omit key information.
+- **Q4 D — PASS:** Retrieval and spacing cannot be causally isolated here; A/B/C imply unwarranted causation.
+- **Guided-to-assignment — PASS:** Four chunks, hide score, initial recall, correction, second trial and planned day-1/3/7 checks match assignment.
+- **Assignment-to-outcome — PASS (internal):** Baseline and honest future schedule assess retrieval design without fabricating delayed data.
+- **Limits — NEEDS REVIEW:** Delayed checks cannot be marked complete before dates occur.
+
+### SCI503-03 — Feedback
+- **Q1 B — PASS:** Arrived by count 6 is outcome (knowledge of results); A/C/D are execution or intention.
+- **Q2 B — PASS:** Shoulder elevation during travel is execution (knowledge of performance); A/C/D are target outcomes.
+- **Q3 C — PASS:** Isolate early onset and retest; A/B/D confound or misdiagnose.
+- **Q4 D — PASS:** Fixed video cannot measure hidden forces or diagnose injury; A/B/C can be visible.
+- **Guided-to-assignment — PASS:** Predefined onset/return, three initial trials, focused correction and two no-feedback retests are mapped.
+- **Assignment-to-outcome — PASS (internal):** Result/performance distinctions, correction and uncertainty notes are assessable.
+- **Limits — NEEDS REVIEW:** Actual feedback effectiveness and physical execution unobserved.
+
+### SCI503-04 — Fatigue and retention
+- **Q1 B — PASS:** Fatigue can affect performance but one trial cannot establish learning loss; A/C/D overinfer.
+- **Q2 C — PASS:** Comfortable trials/rest/symptom monitoring; A/B/D create avoidable risk.
+- **Q3 A — PASS:** Missed follow-up remains missing or actual later date; B/C/D falsify records.
+- **Q4 D — PASS:** Personal descriptive evidence only; A/B/C claim population, clinical or causal conclusions.
+- **Guided-to-assignment — PASS:** Three unprompted baseline trials, two-minute rest, post-rest trial, prospective day-1/3/7 checks and 0–4 chunks match protocol.
+- **Assignment-to-outcome — PASS (internal):** Pre-specified measures, honest missingness, competing explanations and safe plan test stated goals.
+- **Limits — NEEDS REVIEW:** Follow-up data and real retention cannot be validated before observation.
+
+**Batch closure:** 4 lessons, 16/16 keyed internal judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL identified. Psychometric discrimination, motor-learning causal effects, actual retention, source verification and latest-head CI remain NEEDS REVIEW.
