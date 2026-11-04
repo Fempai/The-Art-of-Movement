@@ -2471,3 +2471,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** No deployed reader, media, quiz-feedback or submission acceptance test.
 
 **Cumulative ledger:** **65/97 unique lessons**, **585/873 judgments**: **390 internal PASS**, **195 NEEDS REVIEW**, **0 internal FAIL identified**; **32 lessons remain**. BEL101 Friday Weeks 04–16 are now reviewed; Weeks 01–03 are not presumed reviewed under the Friday-week filenames. All video-source matching, professional movement observation, cultural-source passage verification and learner-effectiveness testing remain open.
+
+
+## Nine-dimension instructional validation — EST504-01–04 — 2026-11-04
+
+**Scope:** Four Dance Criticism & Aesthetics lessons; read full text, 16 keyed questions, exercises and assignment rubrics. PASS is internal text alignment only.
+
+### EST504-01 — Interpretation
+1. **Outcome alignment — PASS (text):** Description, inference, evaluation, alternatives and evidence ethics are explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** A/B eight-count gaze contrast; three neutral observations per version, two readings of B with two distinct count-specific cues each and counterevidence.
+3. **Movement correctness — NEEDS REVIEW:** Any performed Undercurrent movement and performance-quality claims require observation; critical writing alone cannot certify movement technique.
+4. **Modifications — PASS (text):** Score-only choices explicitly not presented as witnessed performance; physical performance optional.
+5. **Self-correction — PASS (text):** Rewrite claims of private emotion into qualified interpretations with observed counts.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; answer rationales distinguish observable evidence from private states, universal reception and unsupported source claims.
+7. **Assignment — PASS (text):** 300–450-word close reading with three headings, competing readings and recording/score provenance.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ethical uncertainty is explicitly taught, but Foster/Adshead/Banes/Lepecki metadata, editions, passage-specific support and any required verified capstone citations have not been audited.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson rendering, quiz feedback, essay submissions and rubric UI not tested.
+
+### EST504-02 — Evidence
+1. **Outcome alignment — PASS (text):** Description, inference, evaluation, alternatives and evidence ethics are explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** A 5–6 reach versus planned A′ sustain 21–23; ledger separates score duration from visible execution and off-frame gaps.
+3. **Movement correctness — NEEDS REVIEW:** Any performed Undercurrent movement and performance-quality claims require observation; critical writing alone cannot certify movement technique.
+4. **Modifications — PASS (text):** Written-score analysis substitutes for physical recording; no physical exertion required.
+5. **Self-correction — PASS (text):** Narrow duration claim when arm off-frame; distinguish intended duration from measured audience perception.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; answer rationales distinguish observable evidence from private states, universal reception and unsupported source claims.
+7. **Assignment — PASS (text):** Four-column evidence ledger and 300–450-word A/A′ analysis with alternative explanation.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ethical uncertainty is explicitly taught, but Foster/Adshead/Banes/Lepecki metadata, editions, passage-specific support and any required verified capstone citations have not been audited.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson rendering, quiz feedback, essay submissions and rubric UI not tested.
+
+### EST504-03 — Ethical criticism
+1. **Outcome alignment — PASS (text):** Description, inference, evaluation, alternatives and evidence ethics are explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** Critique visible reach/framing rather than performer identity; provenance table distinguishes original movement, documented sources and unknown lineage.
+3. **Movement correctness — NEEDS REVIEW:** Any performed Undercurrent movement and performance-quality claims require observation; critical writing alone cannot certify movement technique.
+4. **Modifications — PASS (text):** Can critique self-created score without physical performance; no identity or body inference.
+5. **Self-correction — PASS (text):** Rewrite unsupported 'lazy' judgment into camera-specific visibility observation.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; answer rationales distinguish observable evidence from private states, universal reception and unsupported source claims.
+7. **Assignment — PASS (text):** 300–450-word ethical critique, source table, two rewrites and uncertainty statement.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ethical uncertainty is explicitly taught, but Foster/Adshead/Banes/Lepecki metadata, editions, passage-specific support and any required verified capstone citations have not been audited.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson rendering, quiz feedback, essay submissions and rubric UI not tested.
+
+### EST504-04 — Abstraction and capstone
+1. **Outcome alignment — PASS (text):** Description, inference, evaluation, alternatives and evidence ethics are explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** Narrative and abstract 32-count A/B/A′/C scores; abstract gaze forward, A′ pathway 21–23 and return accent 24, with at least six count observations.
+3. **Movement correctness — NEEDS REVIEW:** Any performed Undercurrent movement and performance-quality claims require observation; critical writing alone cannot certify movement technique.
+4. **Modifications — PASS (text):** Annotated score permitted instead of filming; avoid compulsory performance.
+5. **Self-correction — PASS (text):** Do not equate abstraction with lack of meaning or assert universal narrative reception.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; answer rationales distinguish observable evidence from private states, universal reception and unsupported source claims.
+7. **Assignment — PASS (text):** 1,000–1,300-word comparative essay, alternative reading and traceable verified scholarship required.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ethical uncertainty is explicitly taught, but Foster/Adshead/Banes/Lepecki metadata, editions, passage-specific support and any required verified capstone citations have not been audited.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson rendering, quiz feedback, essay submissions and rubric UI not tested.
+
+**Cumulative ledger:** **69/97 unique lessons**; **621/873 nine-dimension judgments**: **414 internal PASS**, **207 NEEDS REVIEW**, **0 internal FAIL identified**, **28 lessons remain**. EST504 capstone's verified scholarship is an outstanding learner requirement; bibliographic homepages do not satisfy passage-level verification. BEL101-W01/W02/W03 paths were checked and returned 404; do not presume they exist or count them.
