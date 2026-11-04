@@ -207,7 +207,47 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** Two Week 16 scores and a conditional comparison with actual earlier records assess timing, repeatability, correction, and evidence limits without inventing a baseline.
 - **Remaining limitations:** Cross-week comparability depends on the actual recorded movement pathways, range, and conditions; absent or unmatched records cannot substantiate improvement. Source-video and named-technique verification remain NEEDS REVIEW.
 
-**Assessment-ledger subtotal recorded here:** 17/97 lessons with all four question decisions; 68/388 individual question decisions; 17/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### MOV101-01 — Joints, movement, and alignment
+
+- **Q1 B — PASS:** The reference-segment explanation states that visible knee height can reflect hip, pelvis, and trunk movement. A/C/D each infer an isolated cause without evidence. Misconception: appearance directly measures hip flexion.
+- **Q2 A — PASS:** “Four basic hip actions” defines abduction as moving the thigh away from the midline, illustrated by a side leg lift. B/C/D represent flexion, extension, and external rotation. Misconception: any leg lift is abduction.
+- **Q3 C — PASS:** The turnout discussion explicitly identifies anatomical variability and cautions against forcing feet. A/B/D confuse foot angle or stance with isolated hip capacity. Misconception: identical visual turnout is universally achievable.
+- **Q4 B — PASS:** The Undercurrent practice compares front and diagonal facing and notes the audience's view can change without identical changes in every joint. A/C/D assert mandatory timing or joint changes. Misconception: facing changes force joint-angle changes.
+- **Guided-to-assignment — PASS:** The taught eight-count Undercurrent and comparison of facing/torso position are explicitly used in the two-version 250–350-word analysis, with a reference segment and inference limit.
+- **Assignment-to-outcome — PASS:** The deliverable tests hip-versus-appearance reasoning, a scored original phrase, and individual anatomy limits through source-grounded analysis. **Qualification:** the written assignment assesses reasoning about anatomy, not physical turnout competency.
+- **Remaining limitations:** Source claims and technique require independent verification as already disclosed in the lesson; distractors are largely conceptual recognition rather than complex diagnostic transfer.
+
+### MOV101-02 — Muscular actions, gravity, and tempo
+
+- **Q1 D — PASS:** “Read and understand” describes isometric tension with little movement and the held-knee exercise on 3–4. A/B/C assume a still limb requires no force or a particular lengthening. Misconception: visible stillness equals muscle inactivity.
+- **Q2 B — PASS:** “Troubleshooting” recommends a smaller lift and counting the lowering phase for a dropped leg. A/C/D leave the uncontrolled descent intact. Misconception: a longer hold fixes descent control.
+- **Q3 A — PASS:** The reading defines concentric shortening under tension; B/C describe eccentric/isometric actions, D confuses joint direction with muscle action. Misconception: movement direction alone identifies contraction type.
+- **Q4 C — PASS:** The reading and evidence boundary say a visible hold does not establish loading or maximum capacity. A/B/D infer maximal force or equivalent loading from appearance. Misconception: a pose proves strength.
+- **Guided-to-assignment — PASS:** The two distinct eight-count timing patterns and seated foot-slide option are taught before the assignment requests separate scores and a duration comparison.
+- **Assignment-to-outcome — PASS:** The two scores, analysis, observation/inference distinction, and source-limited claim assess muscle-action concepts, temporal control, and evidence boundaries. Seated movement is explicitly not equated with standing loading.
+- **Remaining limitations:** The task cannot measure muscle activation or establish eccentric hip-flexor action from video alone; no instrumented or instructor verification.
+
+### MOV101-03 — Balance, support, and weight transfer
+
+- **Q1 B — PASS:** The lesson's support discussion and answer key define a base of support by supporting contacts; A excludes other contacts, C substitutes a trunk line, D includes a noncontacting leg. Misconception: foot spacing alone defines all support.
+- **Q2 C — PASS:** The reading emphasizes task-dependent alignment; A/B/D impose universal verticality or disregard task/support. Misconception: all torso lean indicates failed balance.
+- **Q3 A — PASS:** The guided transfer and repeatability exercise track pressure moving toward the supporting foot. B/C/D change torso/arms/gaze without evidence of foot-pressure change. Misconception: leaning or reaching proves weight transfer.
+- **Q4 D — PASS:** The practice isolates foot support before adding arm coordination. A/B/C claim the arms cannot affect balance or component practice guarantees combined mastery. Misconception: correct footwork proves whole-phrase proficiency.
+- **Guided-to-assignment — PASS:** The lesson teaches right/left transfer, support checks, and optional arm reach; the assignment requires three separate scores and same-direction comparison with/without arms.
+- **Assignment-to-outcome — PASS:** Scores and reflection address support, balance reasoning, observational limits, and modification. Seated pressure shifts are explicitly distinguished from standing balance.
+- **Remaining limitations:** Learner self-report is not a force-plate measurement or a clinical balance evaluation; sources and movement technique remain subject to independent review.
+
+### MOV101-04 — Hip mechanics and 32-count synthesis
+
+- **Q1 B — PASS:** The turnout reading separates visible foot angle from hip external rotation. A/C/D incorrectly infer isolated hip action or dismiss pelvic contributions. Misconception: foot angle directly measures hip rotation.
+- **Q2 C — PASS:** The reading distinguishes assisted passive range from active control. A/B/D assert unsupported equivalence or universal active superiority. Misconception: reaching a pose passively proves usable active range.
+- **Q3 B — PASS:** The beginner practice requires comfortable controllable alignment; A/C/D prioritize maximal or copied turnout. Misconception: greater visible turnout is always the goal.
+- **Q4 C — PASS:** The observation/inference discussion says a photograph cannot isolate joint actions or demonstrate repeatability. A/B/D claim safety, active/passive equivalence, or hip-only motion. Misconception: a single still image establishes mechanism and capability.
+- **Guided-to-assignment — PASS:** The guided knee-lift/knee-extension eight-count study and original A–B–A′–C four-phrase synthesis are both taught and both independently requested; the slower A′ gather must fit within 32 counts.
+- **Assignment-to-outcome — PASS:** The rubric separately scores hip-versus-knee joint action, a complete 32-count score with support and boundaries, evidence limitations, and source use. Seated adaptations are explicitly distinguished from standing hip flexion and weight transfer.
+- **Remaining limitations:** Written scoring cannot establish anatomical rotation range or certify safe execution; source and instructor validation remain outstanding.
+
+**Assessment-ledger subtotal recorded here:** 21/97 lessons with all four question decisions; 84/388 individual question decisions; 21/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
