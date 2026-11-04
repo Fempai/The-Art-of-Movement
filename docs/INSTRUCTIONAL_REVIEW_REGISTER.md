@@ -57,7 +57,27 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** Separate scores, range/support description, modification and evidence-limit reflection address differentiation, repeatability, and cultural/technical limits. The rubric covers these criteria.
 - **Remaining limitations:** Q3’s correct response returns to slides rather than retaining an oval via hand tracing, but it is the best *offered* safe choice and the lesson permits omitting an uncomfortable component. Distractor quality remains comparatively low; external technique/cultural validation remains NEEDS REVIEW.
 
-**Assessment-ledger subtotal recorded here:** 2/97 lessons with all four question decisions; 8/388 individual question decisions; 2/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### BEL101-03 — Shimmies, alternating actions, and musical pulse
+
+- **Q1 D — PASS:** “Guided eight-count study” assigns right knee to odd counts and left to even counts, one softening per beat. A is simultaneous, B repeats one side, C substitutes a pelvic shift. Misconception: softening and returning require separate beats.
+- **Q2 B — PASS:** “Self-correction and progression” says pause, mark eight counts, and restart slowly when the beat is lost. A drops actions, C uses simultaneous knees, D substitutes a hip shift. Misconception: keeping speed is more important than the prescribed alternation.
+- **Q3 A — PASS:** The seated option explicitly permits alternating foot pressure and optional hand taps on successive beats. B is simultaneous, C repeats one side, D marks only two beats. Misconception: seated adaptation must recreate standing knee mechanics.
+- **Q4 C — PASS:** “Technique distinction” limits the result to an original preparatory alternation, not all shimmies. A claims certification, B invents source-video equivalence, D extrapolates to all tempos. Misconception: repeatability at one speed establishes broad proficiency.
+- **Guided-to-assignment — PASS:** “Assignment and reflection” uses the same R–L eight-count sequence and asks for support, one accent, adaptation, and distinction from universally defined shimmy techniques.
+- **Assignment-to-outcome — PASS:** The scored pattern and reflection document repeatability, support, modification, and cultural/technical limitations; the rubric assesses counts, progression, corrections, and attribution.
+- **Remaining limitations:** Distractors frequently rely on clearly incorrect movement substitutions or sweeping certification claims. Internal consistency is supported; culturally specific technique and source comparison remain NEEDS REVIEW.
+
+### BEL101-04 — Eight-count combination and cultural context
+
+- **Q1 B — PASS:** “Guided eight-count study” assigns the right–forward–left half-oval to counts 5–6. A uses the final accents, C substitutes a slide, D shifts the circle to 7–8. Misconception: the half-oval is interchangeable with a straight slide.
+- **Q2 D — PASS:** The guided study and “Ready to continue” checkpoint identify the 6→7 boundary into alternating accents. A and B omit that boundary, C silently moves accents. Misconception: separate component practice automatically verifies a transition.
+- **Q3 A — PASS:** “Context and terminology” and “Technique distinction” explicitly identify the combination as original, not authenticated raqs sharqi or baladi. B and C flatten distinct traditions, D treats a video title as provenance. Misconception: a familiar movement label establishes cultural lineage.
+- **Q4 C — PASS:** “Seated alternative” preserves count sequence, accents, and transition timing while distinguishing symbolic hand traces from standing technique. A demands standing range, B omits assessable transitions, D checks only the endpoint. Misconception: adaptation eliminates all assessable coordination.
+- **Guided-to-assignment — PASS:** The assignment maps right-start and left-start mirrored phrases to the same count structure, including half-oval on 5–6 and accents on 7–8; the progression check explicitly protects the 6→7 boundary.
+- **Assignment-to-outcome — PASS:** Two scored phrase versions and reflection assess combination, support, modification, and original-versus-attributed distinction. The rubric covers counts, controlled progression, corrections, and cultural care.
+- **Remaining limitations:** Q1 uses “half-circle” while the guided pathway says “half-oval”; these refer to the same intended small original pathway here, but terminology should remain consistent in future edits. Independent cultural and technique validation remains NEEDS REVIEW.
+
+**Assessment-ledger subtotal recorded here:** 4/97 lessons with all four question decisions; 16/388 individual question decisions; 4/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
