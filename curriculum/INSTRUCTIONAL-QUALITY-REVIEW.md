@@ -761,3 +761,11 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W05:** Replaced purely conceptual success question with two count-specific eight-count trials covering slides, circle and pulses; mark on/off/unobservable and separately assess pathway understanding. Removed duplicated checkpoint disclaimer. Quiz keys **B,D,A,C** unchanged.
 
 **Decision:** Targeted practice/assessment completeness improved. Independent source-video and movement proficiency remain unverified.
+
+
+## BEL101 Week 08 count-level midterm checkpoint (November 2026)
+
+- **W08:** Replaced the vague 'identify one observable difference' success check with an eight-count, two-trial observation score: right slide 1, center 2, left slide 3, center 4, circular pathway 5–6, settle 7, hold/mark 8. Record on-count, off-count, or unobservable for each segment, with observable-count denominator and 'not assessable' when none can be observed.
+- Separately label seated and hand-traced substitutions rather than claiming standing pelvic technique, and limit historical Week 1 comparisons to documented matched directional timing; Week 8-specific circle and settle can be compared across the two Week 8 trials only. Quiz key **C,A,D,B** unchanged.
+
+**Decision:** Improved formative scoring repeatability and assessment inference boundaries. This remains an editorial review without independent learner observation, authenticated video playback, cultural-technique certification, or verified pedagogical effectiveness.
