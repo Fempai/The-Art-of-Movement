@@ -784,3 +784,11 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W05:** Replaced an underspecified seated 'alternating pressure' instruction with explicit right pressure/neutral/left pressure/neutral on counts 1–4, a complete hand-traced loop on 5–6, and right then left hand/foot pulses on 7–8. Clarified stable chair, supported feet, and substitution labels. Quiz key **B,D,A,C** unchanged.
 
 **Decision:** Seated assignment now supports count-level practice without implying standing hip or knee technique has been demonstrated. Independent learner outcomes and source-video correspondence remain unverified.
+
+
+## BEL101 Week 09 travel-versus-gesture assessment follow-up (November 2026)
+
+- **W09:** Specified seated right and left hand-traced loops on counts 1–4, a rightward symbolic step gesture on 5, following-foot gesture on 6, and seated settling on 7–8. Explicitly distinguished the gesture from floor travel and standing weight transfer.
+- Expanded the two-attempt observation to score loop timing, right step initiation, following-foot arrival, and stable new position, with on-count/off-count/unobservable/intentionally-omitted outcomes. Require start/end floor-position evidence before recording standing travel; seated gestures must be labeled symbolic. Quiz key **B,C,A,D** unchanged.
+
+**Decision:** Improved observable evidence and adaptation boundaries without asserting verified practitioner technique, source playback, or real learner outcomes.
