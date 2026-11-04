@@ -323,3 +323,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (coherent movement grouping), Q2 **A** (torso facing), Q3 **A** (start/end orientation reproducibility), Q4 **A** (observable pause). Keys and explanations align with the distinction between facing, pathway, and interpretation.
 
 **Decision and limitations:** Targeted novice score walkthrough, supported-turn revision, and quiz-key review completed. The seated alternative changes gaze rather than demonstrating a full torso turn; observed performance and source metadata remain unverified.
+
+## Targeted editorial check — CMP101-03 (November 2026)
+
+**Issue and revision:** The transition lesson identified a left-foot support conflict but left the learner to invent an unscored fix. Added two concrete, no-extra-count repairs: change B count 1 to a right-foot step when A count 8 stays left-weighted, or revise A count 8 to right support so B can retain its left-foot entry. Added a seated support/direction planning analogy, explicitly not a standing free-foot test.
+
+**Four-question editorial answer check:** Q1 **B** (support/orientation at phrase end), Q2 **A** (exit/entry conflict), Q3 **C** (right support frees left foot), Q4 **D** (transitions contribute structure). Keys and rationales match the lesson.
+
+**Decision and limitations:** Targeted boundary-state walkthrough, alternative support scores, and quiz-key editorial review completed. No observed movement performance or independent source-level validation claimed.
