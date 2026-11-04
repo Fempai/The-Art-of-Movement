@@ -315,3 +315,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **A** (recognizable recurring idea), Q2 **B** (retained reach with changed timing), Q3 **B** (score documents recurrent features, not audience recognition), Q4 **A** (self-knowledge does not guarantee external legibility). Keys and explanations align with the taught distinctions.
 
 **Decision and limitations:** Targeted count-by-count motif/variation consistency, accessibility, and quiz-key editorial review completed. Outside-viewer legibility and scholarly metadata have not been independently verified.
+
+## Targeted editorial check — CMP101-02 (November 2026)
+
+**Issue and revision:** The phrase prescribed a 45-degree turn without explaining foot repositioning, potentially inviting planted-knee twisting; the lesson also distinguished facing from gaze without supplying an accessible way to score the distinction. Added supported stepping for standing turns and a fully counted seated alternative that explicitly records gaze change while torso facing remains north.
+
+**Four-question editorial answer check:** Q1 **B** (coherent movement grouping), Q2 **A** (torso facing), Q3 **A** (start/end orientation reproducibility), Q4 **A** (observable pause). Keys and explanations align with the distinction between facing, pathway, and interpretation.
+
+**Decision and limitations:** Targeted novice score walkthrough, supported-turn revision, and quiz-key review completed. The seated alternative changes gaze rather than demonstrating a full torso turn; observed performance and source metadata remain unverified.
