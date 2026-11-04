@@ -705,3 +705,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W05:** Clarified that lateral slides describe a body-relative pathway, not necessarily displacement of the dancer's floor position. Updated success-check observation and quiz explanation to require floor-mark evidence before calling it travel. Quiz keys **B,D,A,C** unchanged.
 
 **Decision:** Count ambiguity and terminology inference corrected; external video and physical-technique verification remain outstanding.
+
+## BEL101 foundation 04 and Friday Week 06 audit (November 2026)
+
+- **BEL101-04:** Added a stable-chair, count-by-count seated version of the full original and mirrored eight-count combinations, including hand-traced half-oval and alternating accents. Explicitly distinguishes symbolic hand tracing from standing hip/knee execution. Quiz keys **B,D,A,C** remain aligned; seated sequence is not evidence of standing mechanics.
+- **BEL101-W06:** Replaced generic 'keep a slow pulse' success check with two attempts scored for right odd counts and left even counts, with on/off/unobservable observations and documented support/adaptation. Quiz keys **C,A,D,B** remain aligned; this does not certify Egyptian shimmy technique.
+
+**Decision:** Editorial adaptation and assessment gaps corrected; source-video and learner-performance verification remain pending.
