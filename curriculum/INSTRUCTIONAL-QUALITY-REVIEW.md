@@ -75,3 +75,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Quiz-key editorial check:** Q1 **D** (stationary loops then positional step), Q2 **B** (seated hand tracing), Q3 **A** (changed floor position), Q4 **C** (isolate counts 3–6 and support). All four answers align with the revised written practice. The distractors confuse stationary motion with travel or omit the transition.
 
 **Decision and limits:** Targeted editorial alignment checked, not independent technique validation. The exact geometry of a practitioner-taught figure eight, the original video's contents, culturally specific movement attribution, and real learner performance remain unverified.
+
+## Targeted editorial check — BEL101-W08 formative midterm (November 2026)
+
+**Issue and revision:** The original Week 08 practice put “identify one improvement or remaining question” on count 8, mixing a reflective task into a movement/balance count, and offered no repeatable observation protocol for the midterm. The revision assigns separate slide/return counts, a small loop on 5–6, and settling/beat marking on 7–8; reflection happens after the phrase. Added an explicit Week 1 baseline availability check, two Week 8 trials, eight-count accuracy and transition observations, modification/tempo comparability, and an evidence-limited interpretation. A missing baseline is documented, never reconstructed.
+
+**Quiz-key editorial check:** Q1 **C** (comparable counts, support, choices), Q2 **A** (document seated adaptation), Q3 **D** (slow loop and final settle), Q4 **B** (documented progress only within the original phrase). Each keyed answer aligns with the practice and midterm protocol; distractors disregard conditions or claim unsupported mastery.
+
+**Decision:** Internal instructional and assessment-alignment check completed. This is formative self-observation, not independent measurement of dance skill or proof that either restored video matches the written phrase. No source playback, qualified technique verification, or learner outcome validation performed.
