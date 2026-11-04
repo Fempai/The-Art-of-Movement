@@ -283,3 +283,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (quarter-note beat unit), Q2 **C** (eight beats at 120 BPM = four seconds), Q3 **A** (recurring beat grouping), Q4 **C** (changed clap accent). Arithmetic and distractor explanations match the teaching text.
 
 **Decision and limitations:** Targeted count, arithmetic, accessibility, and quiz-key editorial review completed. The original exercises and referenced scholarly metadata still require independent source-level review.
+
+## Targeted editorial check — MUS101-02 (November 2026)
+
+**Issue and revision:** The seated instruction did not specify which hand held the numbered pulse versus the offbeats, and the 32-beat assignment could be read as requiring an extra “and” event at phrase boundaries. Added a stable-chair beat/offbeat hand score and clarified optional pickups at 8-and, 16-and, and 24-and only when musically used; 32-and belongs to a subsequent cycle unless explicitly scored as a pickup.
+
+**Four-question editorial answer check:** Q1 **B** (two equal eighth-note parts), Q2 **C** (0.375 seconds at 80 BPM), Q3 **C** (straight midpoint), Q4 **B** (unequal swing timing possible). Answers and arithmetic align with the taught distinctions.
+
+**Decision and limitations:** Targeted subdivision arithmetic, phrase-boundary consistency, accessibility, and quiz-key editorial review completed. No observed rhythmic proficiency or independent reference audit is claimed.
