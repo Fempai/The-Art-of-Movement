@@ -259,3 +259,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (downward emphasis), Q2 **C** (slow practice changes timing task), Q3 **A** (reduce depth or seated marking), Q4 **D** (compare observed lowering with intended beat). Keys and explanations align with the stated concepts.
 
 **Decision and limitations:** Targeted accessibility, count structure, and quiz-key editorial review completed. Historical lineage/source links and actual rhythmic execution have not been independently verified.
+
+## Targeted editorial check — HIP101-03 (November 2026)
+
+**Issue and revision:** The original beginner modification said to “mark only the claps” when subdivisions were difficult, which could remove the very offbeat skill being taught. Clarified the staged progression: keep the feet still, clap numbered beats and tap the thigh at **2-and** and **6-and**, then add footwork and shoulder accents. Added an explicit full eight-count score and stable-chair option to distinguish numbered beats from offbeat subdivisions.
+
+**Four-question editorial answer check:** Q1 **B** (recurring pulse), Q2 **C** (unexpected metric emphasis), Q3 **A** (initiating and answering phrases), Q4 **D** (clap and count before footwork). Keys and explanations align with the revised drill.
+
+**Decision and limitations:** Targeted rhythm-score walkthrough, accessible progression, and quiz-key editorial review completed. Historical/source attribution and actual musical synchronization remain unverified.
