@@ -1019,3 +1019,46 @@ Scope: CON101-01–04; sixteen keyed questions, guided studio and independent as
 - **Limits — NEEDS REVIEW:** The seated B variant does not test floor-to-stand ability; observed safety and source claims unverified.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed question judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. Distractors are often easily eliminated by absolute or unsafe wording, so discrimination remains untested. External technique, sources and learner effectiveness remain NEEDS REVIEW; latest-head CI must be verified separately.
+
+
+## HIP101 formal assessment-validity review — 2026-11-04
+
+Scope: HIP101-01–04; 16 keyed questions, four follow-along/assignment comparisons and four outcome comparisons. Internal textual review only, not independently verified hip-hop history, cultural authority, movement execution, or learner effectiveness.
+
+### HIP101-01 — Groove, pulse and weight
+- **Q1 B — PASS:** Lecture defines groove through pulse, weight and movement; A/C/D isolate steps, arms or static poses.
+- **Q2 C — PASS:** Different accents change rhythmic character with fixed steps; A/B/D invent anatomical, historical or foot-placement changes.
+- **Q3 A — PASS:** Community/social transmission is explicitly taught; B/C/D claim universal grooves or unsupported provenance.
+- **Q4 D — PASS:** Shallow pulse or seated pressure shift retains rhythm; A increases difficulty and B/C remove the central rhythmic component.
+- **Guided-to-assignment — PASS:** Right/left weight shift and steps on local 1–8, with shoulder accents on 2/4 in the second eight, match the sixteen-count submission.
+- **Assignment-to-outcome — PASS (internal):** Count/weight/accent score and a sourced versus deliberately unsupported historical claim assess rhythm and attribution boundaries.
+- **Limits — NEEDS REVIEW:** Cultural claims and publisher references require independent passage-level verification; seated alternative does not reproduce standing weight transfer.
+
+### HIP101-02 — Bounce
+- **Q1 B — PASS:** Down accent emphasizes lowering; A accents rebound, C equalizes and D delays beyond rise.
+- **Q2 C — PASS:** Slowing can aid observation while changing timing task; A/B/D falsely guarantee unchanged timing.
+- **Q3 A — PASS:** Reduce knee depth or use seated marking; B/C preserve discomfort and D accelerates prematurely.
+- **Q4 D — PASS:** Synchronized recording can compare lowering with count; A/B/C claim invisible intent, universal safety or unproven lineage.
+- **Guided-to-assignment — PASS:** Down on odd and up on even counts, then change accent while holding range and tempo approximately constant.
+- **Assignment-to-outcome — PASS (internal):** Two scored phrases and reflection test rebound/accent distinction, controlled modifications and cultural evidence limits.
+- **Limits — NEEDS REVIEW:** Technique, recording synchronization and culturally specific bounce variants not independently verified.
+
+### HIP101-03 — Rhythm and call-and-response
+- **Q1 B — PASS:** Pulse is recurring reference; A/C/D describe isolated or nonrecurring events.
+- **Q2 C — PASS:** Syncopation challenges expected stress; A/B reinforce it and D changes movement range only.
+- **Q3 A — PASS:** Call-and-response is initiating/answering phrase exchange; B/C/D lack that relationship.
+- **Q4 D — PASS:** Clap/count without footwork is the initial simplification; guided text specifies retaining the 'and' taps to practice subdivision. A/B/C retain overload or omit timing.
+- **Guided-to-assignment — PASS:** Phrase A claps 1/3/5/7 and taps 2-and/6-and; B pairs two-count question and answer twice, preserving global 9–16 map.
+- **Assignment-to-outcome — PASS (internal):** Numbered versus offbeat labels and an explicit call/answer score assess rhythmic concepts and repeatability.
+- **Limits — NEEDS REVIEW:** Offbeat execution relative to actual music and cultural use of call-and-response remain unobserved/unverified.
+
+### HIP101-04 — Cultural foundations
+- **Q1 B — PASS (internal):** Lecture identifies Black and Latino Bronx/NYC communities in the 1970s; A/C/D falsely reduce origins to studio, contest or one choreographer.
+- **Q2 C — PASS:** Different practices have distinct histories; A/B/D collapse breaking into generic genre or studio style.
+- **Q3 A — PASS:** Record uncertainty before attribution; B/C/D use popularity, uploader or genre as proof.
+- **Q4 D — PASS:** First-person count-one right shift is directly supportable; A/B/C assert unsupported universal historical lineage.
+- **Guided-to-assignment — PASS:** Original groove/answering gesture 1–8 and a documented changed accent or facing 9–16 map to score and attribution exercise.
+- **Assignment-to-outcome — PASS (internal):** Sourced precise historical claim plus explicitly withheld claim assess evidence discipline and cultural differentiation.
+- **Limits — NEEDS REVIEW:** Historical claims require exact supporting source passages; Rose and Schloss links are publisher homepages rather than verified title-specific citations.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed answers PASS, 4/4 follow-along-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal correction identified. Distractors often use obviously sweeping or implausible claims, so item discrimination is uncalibrated. Historical attribution, culturally situated technique and observed learning remain NEEDS REVIEW. Verify latest-head CI independently.
