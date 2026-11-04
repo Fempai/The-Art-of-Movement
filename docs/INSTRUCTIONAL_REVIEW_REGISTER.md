@@ -1590,3 +1590,56 @@ This supersedes the compressed Q1–Q4 statement in the earlier PRO703-01 sectio
 - **Remaining limitations — NEEDS REVIEW:** Observed dancer execution, source passages and external professional evaluation unavailable.
 
 **PRO703-01 question-level documentation gap resolved.** These judgments remain internal and do not close the separate nine-dimension instructional validation gate.
+
+
+## LAB101 formal assessment-validity review — 2026-11-04
+
+Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/outcome decisions. Compared with the current learner-facing objectives, follow-along studio, explanations and rubrics. Internal textual review only.
+
+### LAB101-01 — Establish Undercurrent
+- **Q1 B — PASS:** Step–gather–reach–recover is taught motif; A/C substitute turns, D substitutes travel for recovery.
+- **Q2 C — PASS:** Reach on 5–6 follows gather on 3–4; A/B/D shift the action to step/gather/recovery.
+- **Q3 A — PASS:** Repeatable counts with controlled support establish baseline; B sacrifices support, C is unrepeatable, D ignores weight transfer.
+- **Q4 C — PASS:** Lesson expressly identifies original teaching repertory; A/B invent cultural lineage, D invents protocol validation.
+- **Guided-to-assignment — PASS:** Two eight-count executions or seated markings, count sheet, support, correction and intent match guided study.
+- **Assignment-to-outcome — PASS (internal):** Repeated motif and observed correction directly address repeatability and controlled support.
+- **Limits — NEEDS REVIEW:** Real technique and performance not observed.
+
+### LAB101-02 — Expressive versions
+- **Q1 B — PASS:** Held reach through 6 is visible; A/C/D infer private intentions or absent viewer responses.
+- **Q2 C — PASS:** Reach timing and gaze change while motif remains; A/B/D assert unrelated origin, support or identity changes.
+- **Q3 A — PASS:** 'May support' is bounded interpretation; B/D universalize and C mind-reads.
+- **Q4 C — PASS:** Neutral head and varied arm timing preserve safe contrast; A/B/D maintain unstable gaze turn.
+- **Guided-to-assignment — PASS:** Two separately scored versions with reach duration, gaze, support and intended/observed distinction match.
+- **Assignment-to-outcome — PASS (internal):** A/B count comparisons and evidence limits assess expressive variation without overclaim.
+- **Limits — NEEDS REVIEW:** Actual interpretation and stability unobserved.
+
+### LAB101-03 — Retrieval
+- **Q1 B — PASS:** Unaided recall is retrieval; A/C use visible score, D only watches.
+- **Q2 A — PASS:** Manageable ordered units define chunking; B omits phrase, C increases load, D loses structure.
+- **Q3 C — PASS:** Retrieve/check/correct/retrieve closes loop; A/B/D omit necessary comparison, correction or recall.
+- **Q4 A — PASS:** Post-break recall tests beyond immediate repetition; B/C/D overclaim retention, technique or discard error checks.
+- **Guided-to-assignment — PASS:** Sixteen-count A–B, immediate and post-break unaided attempts, logged error and correction match.
+- **Assignment-to-outcome — PASS (internal):** Retrieval log and second unaided result assess recall and specific count correction.
+- **Limits — NEEDS REVIEW:** Short-break recall does not establish long-term retention.
+
+### LAB101-04 — Complete draft
+- **Q1 C — PASS:** Four eight-count phrases = 32 counts; A/B/D miscount or omit phrases.
+- **Q2 B — PASS:** A′ varies A; A is exact copy, C unrelated contrast, D replacement rather than return.
+- **Q3 C — PASS:** 8→9, 16→17, 24→25 cover all boundaries; A/B/D omit exit/entry pairs.
+- **Q4 B — PASS:** Recording supports visible timing/pathway; A/C/D infer emotions, future repeatability or historical origin.
+- **Guided-to-assignment — PASS:** Complete A–B–A′–C score, three boundary checks, revision and 300–400-word reflection map.
+- **Assignment-to-outcome — PASS (internal):** Complete count score, supported transitions, recognizable A′ and reflection assess stated objective.
+- **Limits — NEEDS REVIEW:** Repeatability, audience response and technical correctness require actual observation.
+
+**LAB101 batch closure:** 4/4 unique lessons, 16/16 keyed internal judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL detected.
+
+## Assessment-validity unique-ID reconciliation — 2026-11-04
+
+**Method:** Count exact `### COURSE-NN` and `### COURSE-WNN` lesson headings from the recorded assessment-validity section through the current formal review sections; deduplicate by exact lesson ID. Do not count other historical editorial entries or the PRO703-01 granular supplement as additional lessons.
+
+**Discovered overlap:** BEL101-01, BEL101-02, BEL101-03, BEL101-04 each appear twice in the recorded/formal assessment entries. The prior running total counted these four repeated reviews as four additional lessons. The missing distinct lessons were LAB101-01 through LAB101-04, now reviewed above.
+
+**Reconciled internal assessment ledger:** **97 unique lessons / 97 inventory lessons**; **388 unique keyed question decisions / 388 expected** (four per lesson); **97/97 guided-to-assignment decisions** and **97/97 assignment-to-outcome decisions** documented. The separate PRO703-01 granular supplement provides individual rationales. No unresolved internal FAIL was identified in the recorded internal judgments. This is a *documentation coverage and internal text-consistency closure*, not empirical assessment validity, movement-technique certification, source passage validation, or independent learner testing.
+
+**Open gates:** Latest-head GitHub Actions still require verification; the broader nine-dimension 873-judgment instructional review remains separate and is **NOT YET VALIDATED**. Distractor discrimination, source passage checks, culturally qualified technique review, video equivalence, and actual learner effectiveness remain NEEDS REVIEW.
