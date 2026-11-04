@@ -540,3 +540,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04:** Proposal template now tracks missing observations and evidence mode. Quiz keys B,C,A,D checked. No study results or external ethics review claimed.
 
 **Decision:** Targeted editorial pass completed for RES501-01 through 04, with scholarly-source verification and actual empirical validation outstanding.
+
+## CMP502 targeted editorial review (November 2026)
+
+- **01 Retrograde:** Starting pose, supported reverse-event transitions, and seated marking clarified. Quiz keys B,C,A,D checked. A viable redesign is not a literal reverse-time performance.
+- **02 Canon:** Separate layers now align on a common count track; Layer B runs through global count 10. Quiz keys B,C,A,D checked. A solo layered recording is not a live duet.
+- **03 Accumulation:** The seated A action now has a specific two-count shift and settle. Quiz keys A,C,B,D checked. Stages remain 2, 4, 6, and 8 counts.
+- **04 Chance composition:** The 16-count draw now has an explicit second 16-count development within the final 32-count section. Quiz keys B,B,C,D checked. At 80 BPM, 160 beats equal 120 seconds, excluding unscored breaks.
+
+**Decision:** Targeted editorial pass completed for CMP502-01 through 04. Scholarly passage verification, observed performance quality, and professional adjudication remain outstanding.
