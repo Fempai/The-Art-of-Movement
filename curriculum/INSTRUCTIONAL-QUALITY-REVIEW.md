@@ -235,3 +235,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (deliberate delay), Q2 **C** (compare with/without pause), Q3 **A** (grounded feet and shorter hold), Q4 **D** (unverifiable emotional intent and universal viewer response). The corrected Q4 observational alternatives now refer to the actual left-arm phrase.
 
 **Decision and limitations:** Targeted count/quiz consistency, accessible adaptation, and novice editorial review completed. No source-level or learner-outcome verification was performed.
+
+## Targeted editorial check — CON101-04 (November 2026)
+
+**Issue and revision:** The chair-to-standing exercise and assignment could imply that learners must finish sitting within counts 7–8, even if that requires rushing the descent. Clarified that counts 7–8 initiate a controlled return and the learner should take additional counts when necessary, documenting the timing deviation rather than sacrificing a stable landing. Explicitly directs learners unable to rise/lower independently to the fully seated marking version.
+
+**Four-question editorial answer check:** Q1 **B** (planned support/level changes), Q2 **C** (stable-chair alternative), Q3 **A** (avoid kneeling without comfortable independent exit), Q4 **D** (document support surfaces). Answers align with the taught sequence and avoid universal safety claims.
+
+**Decision and limitations:** Targeted novice walkthrough, safety-oriented count revision, and quiz-key review completed. This closes the targeted CON101 lessons 01–04 editorial pass; no clinical, source-level, or observed learner validation is claimed.
