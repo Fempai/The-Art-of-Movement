@@ -379,3 +379,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (step–gather–reach–recover), Q2 **C** (reach 5–6), Q3 **A** (repeatable timing and support), Q4 **C** (original teaching repertory). Keys and explanations match the lesson.
 
 **Decision and limitations:** Targeted rehearsal-to-assessment alignment, adaptation, and quiz-key editorial review completed. Observed movement quality and source metadata remain unverified.
+
+## Targeted editorial check — LAB101-02 (November 2026)
+
+**Issue and revision:** The lesson required seated marking when standing is uncomfortable but did not specify how a seated learner could reproduce the two timing/gaze variations while keeping support constant. Added full eight-count seated A and B scores with matching supported setup, reach-speed contrast, and comfortable gaze directions.
+
+**Four-question editorial answer check:** Q1 **B** (held reach observable), Q2 **C** (reach timing and gaze), Q3 **A** (intention is not guaranteed reception), Q4 **C** (neutral head if gaze destabilizes). Keys and explanations match the lesson.
+
+**Decision and limitations:** Targeted expressive-contrast reproducibility, seated alternative, and quiz-key editorial review completed. No audience interpretation or observed performance effectiveness established.
