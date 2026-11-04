@@ -26,7 +26,16 @@ jobs:
             '/weekly-studio.html?week=3': ('Weekly Studio', 'progress'),
             '/studio-record.html': ('Studio Record',),
             '/academy-backup.html': ('Local Academy backup', 'Restore local records'),
-            '/conservatory-course-reader.html': ('html',),
+            '/conservatory-course-reader.html': ('Conservatory Course Reader',),
+            '/week-one-academy.html': ('html',),
+            '/week-two-academy.html': ('html',),
+            '/my-academy.html': ('html',),
+            '/assessment-history.html': ('html',),
+            '/practice-player.html': ('html',),
+            '/live-coach.html': ('html',),
+            '/pose-lab.html': ('html',),
+            '/motion-comparison.html': ('html',),
+            '/skinned-avatar-studio.html': ('html',),
           }
           failures=[]
           for path, expected in paths.items():
@@ -53,5 +62,5 @@ jobs:
           if failures:
               for url,error in failures: print(f'::error title=Published Academy smoke check::{url}: {error}')
               raise SystemExit(1)
-          print('All five published Academy endpoints responded with expected HTML.')
+          print('All fifteen published Academy endpoints responded with expected HTML.')
           PY
