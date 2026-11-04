@@ -677,3 +677,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W13:** Replaced generic progress language with count-level forward/reverse pathway evidence (chest 3, pelvis 4, pelvis 5, chest 6) and distinct recording of hand tracing versus optional torso intention. Quiz keys **C,B,A,D** remain aligned. Hand-traced sequencing is not evidence of abdominal isolation or a complete roll.
 
 **Decision:** Editorial assessment criteria made observable; no independently witnessed movement, technique validation, or source-video verification claimed.
+
+## BEL101 Weeks 11 and 14 adaptation/transition audit (November 2026)
+
+- **W11:** Made the seated alternative executable count by count, distinguishing optional comfortable engagement on 3 and full release on 4 from a breathing-only adaptation when engagement is uncomfortable. Breathing need not match beat boundaries. Quiz keys **B,C,A,D** unchanged; no visible roll is required or inferred.
+- **W14:** Replaced a generic progression check with two scored 16-count attempts and explicit A7/A8/B1/B2 boundary observations (global counts 7–10), including 'unobservable' and a clear distinction between segmented rehearsal and a connected phrase. Quiz keys **B,C,A,D** unchanged; seated sequencing does not establish standing knee technique.
+
+**Decision:** Targeted written instruction and assessment improved; no live performance or independent source validation claimed.
