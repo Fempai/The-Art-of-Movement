@@ -299,3 +299,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (displaced metric emphasis), Q2 **C** (0.25 seconds at 120 BPM), Q3 **A** (underlying pulse/meter), Q4 **C** (accent placement). All keyed explanations match the taught example and basic BPM arithmetic.
 
 **Decision and limitations:** Targeted rhythmic-count walkthrough, adaptation, and quiz-key review completed. Musical execution and scholarly source metadata have not been independently validated.
+
+## Targeted editorial check — MUS101-04 (November 2026)
+
+**Issue and revision:** The 32-count A–B–A′–C lesson directed seated learners to “perform all counts seated” without providing an actual 32-count mapping, leaving the facing, weight-transfer, and 20-and offbeat tasks underspecified. Added complete seated A, B, A′, and C phrases with count-specific hand, gaze, and seated-pressure substitutions, preserving the 20-and subdivision and noting that seated markings are not equivalent standing technique.
+
+**Four-question editorial answer check:** Q1 **C** (32 beats at 96 BPM = 20 seconds), Q2 **B** (eight 4/4 measures), Q3 **A** (reach duration), Q4 **C** (counts/support/facing/accents). Arithmetic and explanations align with the lesson.
+
+**Decision and limitations:** Targeted arithmetic, 32-count reproducibility, seated adaptation, and quiz-key editorial review completed. This closes the targeted MUS101 lessons 01–04 editorial pass. Bibliographic link/source verification and observed learner performance remain outstanding.
