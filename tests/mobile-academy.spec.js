@@ -647,7 +647,7 @@ test('Studio Record discloses unreadable weekly entries excluded from saved-week
 test('Academy backup rolls back earlier writes if a later storage write fails',async({page})=>{
  await page.goto(base+'/academy-backup.html');
  await page.evaluate(()=>localStorage.setItem('aom_rollback_existing','original'));
- const backup={format:'aom-local-backup-v1',data:{aom_rollback_existing:'replacement',aom_rollback_new:'new-value'}};
+ const backup={format:'aom-local-backup-v1',data:{aom_rollback_existing:'replacement',aom_rollback_added:'new-value',aom_rollback_new:'trigger-failure'}};
  await page.locator('#import').setInputFiles({name:'rollback.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
  await page.locator('#overwrite').check();
  await page.evaluate(()=>{
@@ -661,5 +661,6 @@ test('Academy backup rolls back earlier writes if a later storage write fails',a
  await page.locator('#restore').click();
  await expect(page.locator('#status')).toContainText('Changes from this attempt were rolled back');
  expect(await page.evaluate(()=>localStorage.getItem('aom_rollback_existing'))).toBe('original');
+ expect(await page.evaluate(()=>localStorage.getItem('aom_rollback_added'))).toBeNull();
  expect(await page.evaluate(()=>localStorage.getItem('aom_rollback_new'))).toBeNull();
 });
