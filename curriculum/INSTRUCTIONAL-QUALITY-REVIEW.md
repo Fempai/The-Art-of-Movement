@@ -631,3 +631,10 @@ The guided drill explicitly permits a natural breath cycle that does not align w
 ## BEL101-W12 simultaneous-layer evidence correction (November 2026)
 
 The written drill correctly requires pulses and arms simultaneously on counts 5–8, but the generic progression check did not establish how to observe overlap. Added per-count **both / pulse only / arms only / neither / unobservable** observations and a 0–4 overlap tally for each attempt. Rehearsing layers separately is still preparation, not evidence of simultaneous performance. Quiz keys **B,C,A,D** remain consistent. **Limit:** This is a more observable self-assessment protocol, not a witnessed learner test or video verification.
+
+## BEL101-W14 and W15 boundary and adaptation audit (November 2026)
+
+- **W14:** Made the two eight-count phrases globally enumerable (A 1–8, B 9–16), with the A7–A8–B1–B2 boundary explicitly global 7–10. The assignment now requests the same mapping. Quiz keys **B,C,A,D** remain consistent. No live transition observed.
+- **W15:** Clarified which hand traces the seated substitute and how both arms return on 7–8. The progression check now distinguishes a labeled hand-traced substitute from actual torso movement, and checks the 4→5 entry without an extra beat. Quiz keys **C,A,D,B** remain consistent. This is not verification of undulation technique or original-video correspondence.
+
+**Decision:** Targeted written-score and evidence improvements completed; independent movement/source validation remains open.
