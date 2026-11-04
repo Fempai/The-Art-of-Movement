@@ -2307,3 +2307,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** No browser/video/submission acceptance test.
 
 **Cumulative ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101, CMP101, PER201, LMA201 and LAB101 = **52/97 unique lessons** and **468/873 nine-dimension judgments**: **312 internal PASS**, **156 NEEDS REVIEW**, **0 documented internal FAIL**. **45 lessons remain**. Note that quiz review for LAB101-03/04 is an internal consistency judgment, not independently verified rendered quiz keys.
+
+
+## Nine-dimension instructional validation — BEL101-W06–W09 — 2026-11-04
+
+**Scope:** Four additional *unique* lessons in the original Friday sixteen-week belly-dance track, distinct from BEL101-01–04. Reviewed complete learner-facing lesson texts, sixteen answer explanations, score sequences, modifications and assignments. A text PASS does not certify a named cultural movement, playback, or actual learning.
+
+### BEL101-W06 — Egyptian shimmy preparation
+1. **Outcome alignment — PASS (text):** Eight alternating knee actions, support, correction and source limits appear in teaching and assignment.
+2. **Practice sequence — PASS (text):** Right on odd counts 1/3/5/7, left on even 2/4/6/8; natural return of previous knee not a ninth action.
+3. **Movement correctness — NEEDS REVIEW:** Actual knee/pelvis mechanics and relationship to named Egyptian shimmy require qualified observation and source-video comparison.
+4. **Modifications — PASS (text):** Stable seated alternating foot pressure or hand taps preserve rhythm, not standing knee mechanics.
+5. **Self-correction — PASS (text):** Slow one action per beat; reduce knee twist/lumbar compression, stop pain.
+6. **Quiz correctness — PASS (internal):** Q1 C successive knee softening; Q2 A slow down; Q3 D seated alternation; Q4 B original preparation, not certified shimmy.
+7. **Assignment — PASS (text):** Two eight-count R/L attempts, one correction, tempo/support and 150–250-word evidence-limited comparison.
+8. **Evidence/cultural care — NEEDS REVIEW:** Regional naming carefully qualified; restored video permissions/playback and source-to-technique match unverified.
+9. **Reader experience — NEEDS REVIEW:** No live video, quiz-feedback or submission test.
+
+### BEL101-W07 — Traveling and figure-eight pathways
+1. **Outcome alignment — PASS (text):** Figure-eight versus actual floor travel and safe optional step explicitly assessed.
+2. **Practice sequence — PASS (text):** Right loop 1–2, left loop 3–4, supported right step 5, left gather 6, settle and smaller trace 7–8; check floor marks.
+3. **Movement correctness — NEEDS REVIEW:** Pelvic figure-eight and transfer mechanics not independently evaluated.
+4. **Modifications — PASS (text):** Seated hand-traced loops and symbolic travel gesture expressly do not establish displacement.
+5. **Self-correction — PASS (text):** Isolate 3–6, check left support before right step, reduce painful twist.
+6. **Quiz correctness — PASS (internal):** Q1 D stationary loop versus optional step; Q2 B seated loops; Q3 A changed floor position; Q4 C isolate transition.
+7. **Assignment — PASS (text):** Two scored attempts with pathway, support, actual travel classification and reflection.
+8. **Evidence/cultural care — NEEDS REVIEW:** Video and technique provenance not authenticated; no claim that drill reconstructs traditional form.
+9. **Reader experience — NEEDS REVIEW:** Actual video/quiz/submission untested.
+
+### BEL101-W08 — Formative midterm
+1. **Outcome alignment — PASS (text):** Count-accurate Week 8 slide/circle/settle and conditional matched comparison with Week 1 are explicit.
+2. **Practice sequence — PASS (text):** Right slide 1, center 2, left 3, center 4, circle 5–6, settle 7, hold 8; two same-condition trials.
+3. **Movement correctness — NEEDS REVIEW:** Actual slide and pelvic circle technique unobserved.
+4. **Modifications — PASS (text):** Seated pressure/hand-traced loop and slower counts disclosed, not graded as standing hip mechanics.
+5. **Self-correction — PASS (text):** Isolate rushed circle 5–6; denominator excludes unobservable counts; no baseline means no claimed longitudinal improvement.
+6. **Quiz correctness — PASS (internal):** Q1 C matched count/support; Q2 A disclose seated difference; Q3 D slow 5–6; Q4 B compare only matched directional timing.
+7. **Assignment — PASS (text):** Two Week 8 trials, conditional Week 1 matched baseline, correction and 150–250-word evidence limit align.
+8. **Evidence/cultural care — NEEDS REVIEW:** Two restored video references not independently played or technique-matched.
+9. **Reader experience — NEEDS REVIEW:** Live video, midterm UI and quiz not tested.
+
+### BEL101-W09 — Figure-eight refinement
+1. **Outcome alignment — PASS (text):** Stationary loop, optional rightward step and observed travel distinction taught and assessed.
+2. **Practice sequence — PASS (text):** Right loop 1–2, left 3–4, right step 5, left follow 6, settle at new floor position 7–8; no unscored return.
+3. **Movement correctness — NEEDS REVIEW:** Real-world pelvic isolation, step support and individual safety unobserved.
+4. **Modifications — PASS (text):** Stable seated right/left hand loops and symbolic step/follow gestures do not claim floor travel.
+5. **Self-correction — PASS (text):** Reduce twisting and range; clap counts and rebuild components.
+6. **Quiz correctness — PASS (internal):** Q1 B step plus verified floor change; Q2 C restore alignment; Q3 A seated trace; Q4 D changed floor location.
+7. **Assignment — PASS (text):** Two attempts with counts, support, travel observation, correction and 150–250-word comparison.
+8. **Evidence/cultural care — NEEDS REVIEW:** Restored original video link and culturally named pathway remain unverified at content level.
+9. **Reader experience — NEEDS REVIEW:** No live playback or deployed assessment acceptance test.
+
+**Cumulative nine-dimension ledger:** Prior 52 unique lessons plus BEL101-W06–W09 = **56/97 unique lessons**, **504/873 judgments**: **336 internal PASS**, **168 NEEDS REVIEW**, **0 internal FAIL identified**, **41 lessons remaining**. This ledger does not count BEL101-W04/W05 as reviewed; those remain open. Movement expertise, cultural provenance, source playback and actual learner effectiveness remain external/unverified.
