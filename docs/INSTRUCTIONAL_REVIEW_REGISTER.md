@@ -1489,3 +1489,46 @@ Scope: PRO703-01–04; 16 keyed items, four guided/assignment and four assignmen
 - **Limits — NEEDS REVIEW:** No live showcase, external credential, or audience reception demonstrated.
 
 **Batch closure:** 4 lessons, 16 internal keyed decisions marked PASS based on supplied keys/rationales; 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. PRO703-01's question-by-question alternatives should receive a separate granular evidence pass before declaring the strict closure ledger complete. External review and latest-head CI remain NEEDS REVIEW.
+
+
+## PRO702 formal assessment-validity review — 2026-11-04
+
+Scope: PRO702-01–04; sixteen keyed questions, four guided/assignment and four assignment/outcome decisions. Internal instructional audit only, not electrical, theatre, legal, or expert production certification.
+
+### PRO702-01 — Lighting
+- **Q1 B — PASS:** Triggered visual objective defines cue; A/C/D lack trigger, state or purpose.
+- **Q2 B — PASS:** Backlighting can obscure front-body/facial detail; A/C/D are unaffected score, sound or floor-plan facts.
+- **Q3 C — PASS:** Existing stable lights and clear paths are safest; A/B/D add rigging, heat or darkness hazards.
+- **Q4 D — PASS:** Camera exposure variation limits take comparisons; A/B/C falsely attribute or ignore it.
+- **Guided-to-assignment — PASS:** Two static eight-count tests, LQ1 tested versus count-17 LQ2 planned/unexecuted, exposure notes and fallback match.
+- **Assignment-to-outcome — PASS (internal):** Cue sheet, observed reach visibility and one safe revision measure stagecraft planning.
+- **Limits — NEEDS REVIEW:** Actual illumination and electrical safety not independently inspected.
+
+### PRO702-02 — Blocking
+- **Q1 B — PASS:** Positions, pathways, facing, entrances/exits constitute blocking; A/C/D omit staging.
+- **Q2 C — PASS:** Orientation labels and performer positions make a map usable; A/B/D do not.
+- **Q3 A — PASS:** Remove/redesign obstacle-crossing travel; B/C/D preserve hazard.
+- **Q4 D — PASS:** Floor plan cannot prove universal spectator reception; A/B/C are planned annotations.
+- **Guided-to-assignment — PASS:** A/B/C positions, exact scored travel or explicitly unvisited hypothetical sites, two viewing positions and revised map match.
+- **Assignment-to-outcome — PASS (internal):** Count-level route/facing, inspected versus predicted visibility and exit controls measure planning.
+- **Limits — NEEDS REVIEW:** No actual viewer or venue testing.
+
+### PRO702-03 — Costume/props
+- **Q1 B — PASS:** Outfit must permit actual safe movement; A/C/D rely on still appearance.
+- **Q2 B — PASS:** Loose hem underfoot is hazard; A/C/D describe tested controlled conditions.
+- **Q3 C — PASS:** Untested prop remains hypothetical; A/B/D bypass risk controls.
+- **Q4 D — PASS:** Revise restrictive garment or movement; A/B/C force unsafe action.
+- **Guided-to-assignment — PASS:** Two outfits or one tested plus clearly hypothetical option, step/gather/reach/turn checklist, no-prop default match.
+- **Assignment-to-outcome — PASS (internal):** Safe trial logs and documented design change test evidence-based costume choice.
+- **Limits — NEEDS REVIEW:** Real traction and garment safety require physical inspection.
+
+### PRO702-04 — Production book
+- **Q1 B — PASS:** Repeatable creative/technical record is purpose; A/C/D omit cues, approval or risk checks.
+- **Q2 C — PASS:** 160 beats / 80 BPM = 2 minutes = 120 seconds; A/B/D incorrect.
+- **Q3 A — PASS:** Static lighting avoids unsafe solo switching; B/C/D introduce risks.
+- **Q4 D — PASS:** Book does not prove venue/rights clearance; A/B/C can be documented internally.
+- **Guided-to-assignment — PASS:** Five 32-count sections, four eight-count phrases each, 1–160 global count ranges, cue sheet, fallback, risk and permission log match.
+- **Assignment-to-outcome — PASS (internal):** Internally executable book, observation versus planned status and revision measure stagecraft objectives.
+- **Limits — NEEDS REVIEW:** Real permission, rights and technical execution not verified.
+
+**Batch closure:** 4 lessons, 16/16 keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Expert production, live site, source passage, and learner effectiveness checks remain outside scope.
