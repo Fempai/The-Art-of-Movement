@@ -1643,3 +1643,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 **Reconciled internal assessment ledger:** **97 unique lessons / 97 inventory lessons**; **388 unique keyed question decisions / 388 expected** (four per lesson); **97/97 guided-to-assignment decisions** and **97/97 assignment-to-outcome decisions** documented. The separate PRO703-01 granular supplement provides individual rationales. No unresolved internal FAIL was identified in the recorded internal judgments. This is a *documentation coverage and internal text-consistency closure*, not empirical assessment validity, movement-technique certification, source passage validation, or independent learner testing.
 
 **Open gates:** Latest-head GitHub Actions still require verification; the broader nine-dimension 873-judgment instructional review remains separate and is **NOT YET VALIDATED**. Distractor discrimination, source passage checks, culturally qualified technique review, video equivalence, and actual learner effectiveness remain NEEDS REVIEW.
+
+
+## Nine-dimension instructional validation — MOV101-01–04 — 2026-11-04
+
+**Method:** Fresh review of the four current MOV101 final lesson texts against all nine required dimensions. PASS denotes verifiable internal textual structure/alignment, **not** independently observed movement or learner comprehension. Source passage checks and reader-browser execution are not inferred from prose. Each lesson has nine explicit decisions (36 total).
+
+### MOV101-01 — Joints, Movement, and Alignment
+1. **Outcome alignment — PASS (text):** “What you will be able to do” specifies visible shape versus joint action, hip movement vocabulary, original eight-count phrase and individual turnout differences; Sections 2–5 and count-sheet assessment address these.
+2. **Practice sequence — PASS (text):** “Follow-along studio lab — 12 minutes” includes 0–2 base, 2–5 knee lift, 5–7 comparison, 7–10 Undercurrent and 10–12 reflection; three repetitions and count 1–8 defined.
+3. **Movement correctness — NEEDS REVIEW:** Joint-relative explanations and knee-lift cue are internally coherent, but actual hip/pelvis kinematics, anatomical citations and individualized contraindications were not independently verified.
+4. **Modifications — PASS (text):** Seated 1–8 pressure/arm option, fixed wall support, smaller range and facing substitute; explicitly says seated work does not demonstrate standing weight transfer.
+5. **Self-correction — PASS (text):** Troubleshooting names backward trunk tip, missed counts, shifting standing foot and strained turnout, with smaller range, fixed support and count chunking; success criterion two repeatable phrases.
+6. **Quiz correctness — PASS (internal):** Four keyed questions and rationales previously reviewed; Section 5 distinguishes visible knee height from isolated hip motion, hip abduction and movement inference. No new ambiguity found in inspected text.
+7. **Assignment — PASS (text):** Count-by-count motif, support/observation and explanatory response align with outcomes and demonstrated steps.
+8. **Evidence and cultural care — NEEDS REVIEW:** IADMS 2025 turnout paper and references [1–3] are cited, but precise passage/claim correspondence not authenticated in this session; Undercurrent is described as original.
+9. **Reader experience — NEEDS REVIEW:** Lesson markdown is present; actual deployed video, quiz feedback, submission workflow and responsive UI not tested.
+
+### MOV101-02 — Muscular Actions, Gravity, and Tempo
+1. **Outcome alignment — PASS (text):** Learning outcomes name concentric/eccentric/isometric action, slow lowering and appearance-versus-function; reading, exercise, four questions and assignment target them.
+2. **Practice sequence — PASS (text):** 3–5-minute preparation, 8–12-minute count-pattern comparison, 5–8-minute motif application and repeatability test; both 1–8 timing patterns explicit.
+3. **Movement correctness — NEEDS REVIEW:** Distinction among contraction types and warning that visible smooth lowering does not identify exact muscles are appropriate internal boundaries, but physiological correctness/individual loading unverified by expert/source passage.
+4. **Modifications — PASS (text):** Stable nonrolling-chair seated slide preserves count durations; expressly not mechanically equivalent to standing hip loading or balance.
+5. **Self-correction — PASS (text):** Torso lean, uncontrolled descent and breath holding mapped to specific adjustments; repeated count-pattern check and reduce-range guidance.
+6. **Quiz correctness — PASS (internal):** Q1 D (stationary hold can need tension), Q2 B (smaller counted descent), Q3 A (shortening under tension), Q4 C (pose cannot establish capacity); other options contradict lesson concepts.
+7. **Assignment — PASS (text):** Two eight-count scores, 250–350-word explanation, observation/inference and source-grounded bounded claim; seated return must not be called eccentric hip-flexor demonstration.
+8. **Evidence and cultural care — NEEDS REVIEW:** Specific source claims and publisher metadata require passage-level checking; original motif attribution is bounded.
+9. **Reader experience — NEEDS REVIEW:** No live browser or embedded media/quiz execution inspected.
+
+### MOV101-03 — Posture, Alignment, and Moving Stability
+1. **Outcome alignment — PASS (text):** Posture, base of support, center of mass and controlled transfer appear in reading, three scored variants and quiz.
+2. **Practice sequence — PASS (text):** 3–5-minute preparation, 8–12-minute right/left transfer and reach variant, 5–8-minute motif use; counts 1–2, 3–4, 5–6, 7–8 explicit.
+3. **Movement correctness — NEEDS REVIEW:** Simplified base-of-support and dynamic posture concepts are internally coherent, but actual loading and joint safety not independently validated.
+4. **Modifications — PASS (text):** Seated pressure-shift alternative and fixed support; expressly avoids claiming standing balance equivalence.
+5. **Self-correction — PASS (text):** Wobble, knee locking and uncertain support pressure map to smaller shift, unlocked knees and arms-free trial.
+6. **Quiz correctness — PASS (internal):** Q1 B (contact region), Q2 C (task-specific posture), Q3 A (pressure shift), Q4 D (isolate component); alternatives lack necessary contact/task evidence.
+7. **Assignment — PASS (text):** Three separately scored right/left/arm-reach trials, contact and support notes, 250–350-word analysis, source and inference distinction.
+8. **Evidence and cultural care — NEEDS REVIEW:** No passage-level external source verification; no unsupported traditional provenance identified.
+9. **Reader experience — NEEDS REVIEW:** Deployed interactive experience and video/feedback untested.
+
+### MOV101-04 — Hip Mechanics, Turnout, and Safe Usable Range
+1. **Outcome alignment — PASS (text):** Hip-versus-visible turnout, active/passive range and 32-count A–B–A′–C synthesis explicitly addressed in reading, lab and assignment.
+2. **Practice sequence — PASS (text):** 3–5-minute preparation, 8–12-minute knee-bend/shift/lift/knee-extension lab, 5–8-minute four-phrase synthesis; 1–8 action order and 32-count total specified.
+3. **Movement correctness — NEEDS REVIEW:** Lesson correctly distinguishes knee extension from hip extension in its own instructions and avoids forced turnout, but actual biomechanical accuracy, safety and cited studies require external checking.
+4. **Modifications — PASS (text):** Stable seated chair, optional foot slide/hand mark and comfortable knee extension; no equivalence claim for standing loading.
+5. **Self-correction — PASS (text):** Knee tracking discomfort, arching and pinching prompt reduced turnout/range, stopping and qualified assessment for persistent pain; two-repeat check.
+6. **Quiz correctness — PASS (internal):** Q1 B (multiple contributors to visible angle), Q2 C (active/passive differ), Q3 B (comfortable controllable range), Q4 C (photo cannot isolate joint actions).
+7. **Assignment — PASS (text):** Four eight-count phrases and continuous 32-count score; count reallocation instruction prevents silent A′ lengthening; hip/knee action distinction assessed.
+8. **Evidence and cultural care — NEEDS REVIEW:** IADMS turnout resource and study-level claims not passage-verified; no traditional-origin claim inferred from Undercurrent.
+9. **Reader experience — NEEDS REVIEW:** Actual video, quiz, feedback and UI operation not inspected.
+
+**Batch ledger:** 4/97 lessons reviewed across all nine dimensions; **24 PASS (text/internal)**, **12 NEEDS REVIEW**, **0 FAIL**, **36/873 judgments recorded**. Specifically each lesson has six internally verifiable PASS judgments (outcome, practice, modifications, self-correction, quiz, assignment) and three externally dependent NEEDS REVIEW judgments (movement correctness, evidence/cultural source verification, reader experience). These statuses must not be silently promoted to full instructional validation.
