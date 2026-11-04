@@ -403,3 +403,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **C** (four eight-count phrases), Q2 **B** (varied return), Q3 **C** (three phrase boundaries), Q4 **B** (visible timing/pathway). Keys and explanations match the taught material.
 
 **Decision and limitations:** Targeted score/assessment alignment, seated adaptation, boundary-state check, and quiz-key editorial review completed. This closes the targeted LAB101 lessons 01–04 editorial pass, not observed performance certification or independent scholarly source validation.
+
+## Targeted editorial check — STG101-01 (November 2026)
+
+**Issue and revision:** The equipment-free pulling option prescribed eight unresisted elbow draws but lacked start/return timing and an explicit way to distinguish an unresisted coordination log from a strength baseline. Added an eight-repetition four-count cycle, stable-chair option, and 'none' resistance logging.
+
+**Four-question editorial answer check:** Q1 **B** (seated cable row), Q2 **B** (unverified improvised anchor), Q3 **C** (reduce load and restore control), Q4 **D** (reps, resistance, effort, quality). Keys and explanations align with the instruction.
+
+**Decision and limitations:** Targeted modification/assessment consistency and quiz-key editorial review completed. No equipment rating, individualized exercise safety, or professional movement assessment independently verified.
