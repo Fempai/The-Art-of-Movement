@@ -632,3 +632,14 @@ test('Studio Record flags corrupt semester and curriculum records instead of cla
   expect(snapshot.raw_records[key]).toBe(value);
  }
 });
+
+test('Studio Record discloses unreadable weekly entries excluded from saved-week totals',async({page})=>{
+ await page.goto(base+'/studio-record.html');
+ await page.evaluate(()=>{localStorage.setItem('aom_weekly_studio_v1_3','{broken');localStorage.setItem('aom_weekly_studio_v1_4',JSON.stringify({done0:true}))});
+ await page.reload();
+ const tile=page.locator('.tile').filter({hasText:'Daily studio weeks'});
+ await expect(tile).toContainText('1 / 14');
+ await expect(tile).toContainText('1 unreadable weekly record(s) excluded');
+ await expect(page.locator('#weeks tr').nth(2)).toContainText('Unreadable — restore backup');
+ await expect(page.locator('#weeks tr').nth(3)).toContainText('1 / 7 days');
+});
