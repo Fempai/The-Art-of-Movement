@@ -211,3 +211,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (bent leg unfolds), Q2 **C** (shift onto left support before right lift), Q3 **A** (small supported extension), Q4 **D** (repeatable ordered sequence with intentional weight transfer). All explanations match the taught sequence and reject endpoint-only evidence.
 
 **Decision and limitations:** Targeted novice walkthrough, assignment accessibility, and quiz-key review completed. This closes the targeted DNC101 lessons 01–04 editorial pass; it does not establish source-level historical accuracy, learner outcomes, or independently assessed technical skill.
+
+## Targeted editorial check — CON101-01 (November 2026)
+
+**Issue and revision:** The guided breath-and-phrasing exercise grouped counts 1–2/3–4/5–6/7–8 without identifying initiation, completion, or recovery, and its optional inhale/exhale language could be read as a two-count breathing prescription. Rewrote the eight counts as explicit arm actions, clarified that breath need not last two counts and remains natural throughout 5–8, and specified that a slower initiation still finishes within the original two-count opening.
+
+**Four-question editorial answer check:** Q1 **C** (intentional phrasing without forced breathing), Q2 **A** (stop/rest if lightheaded), Q3 **D** (different durations are observable), Q4 **B** (seated arm marking with comfortable breath). Explanations match the lesson; videos showing movement duration do not prove internal breath pattern or emotion.
+
+**Decision and limitations:** Targeted novice walkthrough, count/assignment consistency, and quiz-key editorial review completed. The breathing exercise is original, not clinically tested; source-level validation and learner observation remain outstanding.
