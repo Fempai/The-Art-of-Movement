@@ -1277,3 +1277,46 @@ Scope: RES501-01–04, 16 keyed questions, guided-lab/assignment and outcome ali
 - **Limits — NEEDS REVIEW:** No study performed; institutional ethics requirements and bibliographic details need context-specific verification.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal answer-key failure found. Distractors commonly make extreme unsupported claims and may be too easy; psychometric discrimination untested. Independent scholarly passage, real learner submissions and latest-head CI remain NEEDS REVIEW.
+
+
+## CMP502 formal assessment-validity review — 2026-11-04
+
+Scope: CMP502-01–04; sixteen keyed questions, four guided/assignment mappings and four assignment/outcome mappings. Internal text and count arithmetic only, not professional choreography adjudication or source validation.
+
+### CMP502-01 — Retrograde
+- **Q1 B — PASS:** Selected event-order reversal, unlike tempo change A, mirroring C or shorter holds D.
+- **Q2 C — PASS:** Support and momentum can make literal reversal unsafe; A/B/D assume reversibility without feasibility checks.
+- **Q3 A — PASS:** Parallel original/reversed count sheets show event mapping; B/C/D do not.
+- **Q4 D — PASS:** Redesign and disclose unsafe transitions; A/B/C retain or conceal hazard.
+- **Guided-to-assignment — PASS with caveat:** Original eight-count motif and physically adapted retrograde are scored with explicit mapping and safety edits. The viable reversed sequence is *not* a literal reverse-time or perfect event inversion, which the lesson discloses.
+- **Assignment-to-outcome — PASS (internal):** Reversal rule, mapped actions, support and corrected transition can be judged from two scores.
+- **Limits — NEEDS REVIEW:** Whether the proposed event mapping is artistically legible and physically executable needs observed review.
+
+### CMP502-02 — Canon
+- **Q1 B — PASS:** Delayed entry of related phrase; A unison, C consecutive solo repeat, D no delay.
+- **Q2 C — PASS:** Layer B begins global count 3, two counts after A; A/B/D use other offsets.
+- **Q3 A — PASS:** Honest layered self-recording or two-row timeline; B falsely claims live duet, C omits offset, D lacks overlap.
+- **Q4 D — PASS:** Consecutive phrases lack overlapping layer activity; A/B/C can still occur.
+- **Guided-to-assignment — PASS:** A global 1–4 and 5–8, B global 3–6 and 7–10, overlap 3–4 and 7–8; tail 9–10 is explicitly retained.
+- **Assignment-to-outcome — PASS (internal):** Two-row timeline, entry offset and truthful solo simulation assess canon's defining relationship.
+- **Limits — NEEDS REVIEW:** Solo body-part echo is a study analogy, not a live two-dancer canon.
+
+### CMP502-03 — Accumulation
+- **Q1 A — PASS:** A, A+B, A+B+C, A+B+C+D retains earlier actions; B/C/D do not.
+- **Q2 C — PASS:** Three two-count actions yield six counts; A/B/D omit or add actions.
+- **Q3 B — PASS:** Explicit rule adds material; A/C/D repeat, replace or impose equal duration.
+- **Q4 D — PASS:** Rehearse missing B against rule; A/B/C conceal error.
+- **Guided-to-assignment — PASS:** 2/4/6/8-count stages, score-assisted/memory trials and single-variable C-direction change are assigned.
+- **Assignment-to-outcome — PASS (internal):** Stage totals, retention and corrected omission directly measure rule application.
+- **Limits — NEEDS REVIEW:** Actual memory performance unobserved.
+
+### CMP502-04 — Fragmentation and chance
+- **Q1 B — PASS:** Extract/reorganize motif parts; A/C/D speed, full reversal or repetition.
+- **Q2 B — PASS:** Options, selection rule and constraints are necessary; A/C/D omit essential documentation or safety.
+- **Q3 C — PASS:** 160 beats / 80 BPM = 2 min = 120 seconds; A/B/D numerically wrong.
+- **Q4 D — PASS:** Modify/redraw hazardous transition and record decision; A/B/C are unsafe or conceal edits.
+- **Guided-to-assignment — PASS:** Source fragments and documented chance rule extend to a 2–4-minute, at-least-three-device count score with 160-beat two-minute worked example.
+- **Assignment-to-outcome — PASS (internal):** Complete duration, three device rules, chance draws, safe edits and reflection test advanced composition reasoning.
+- **Limits — NEEDS REVIEW:** No observed work, choreographic impact or source passage verification.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Retrograde adaptation must remain transparently labeled; easy-to-eliminate distractors and actual learner performance remain unvalidated. Latest-head CI to be checked separately.
