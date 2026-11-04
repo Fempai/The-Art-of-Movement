@@ -1532,3 +1532,46 @@ Scope: PRO702-01–04; sixteen keyed questions, four guided/assignment and four 
 - **Limits — NEEDS REVIEW:** Real permission, rights and technical execution not verified.
 
 **Batch closure:** 4 lessons, 16/16 keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Expert production, live site, source passage, and learner effectiveness checks remain outside scope.
+
+
+## PRO701 formal assessment-validity review — 2026-11-04
+
+Scope: PRO701-01–04; sixteen keyed items, four guided/assignment and four assignment/outcome judgments. Internal evidence review, not external performance assessment or motor-learning validation.
+
+### PRO701-01 — Polish
+- **Q1 B — PASS:** Predefined measurable criterion; A/C/D are feelings, applause or unscored maximal reach.
+- **Q2 B — PASS:** Off-frame foot marked unclear; A/C/D infer unsupported execution.
+- **Q3 C — PASS:** Isolate onset then retest; A/B/D confound or ignore error.
+- **Q4 D — PASS:** Self-score establishes chosen-checklist performance only; A/B/C claim certification, universal reception or medical safety.
+- **Guided-to-assignment — PASS:** Three rested baseline trials, two targeted correction trials and whole-phrase retest match exercise.
+- **Assignment-to-outcome — PASS (internal):** Count-specific four-item checklist and comparison test deliberate revision.
+- **Limits — NEEDS REVIEW:** Actual observed performance and retention unavailable.
+
+### PRO701-02 — Rehearsal architecture
+- **Q1 B — PASS:** Chunking groups manageable units; A/C/D are speed, disconnected poses or undivided phrase.
+- **Q2 C — PASS:** Cue helps initiate section; A/B/D falsely replace rehearsal or guarantee execution.
+- **Q3 A — PASS:** Chunk, connect, run, diagnose, revise; B/C/D leave unexamined errors.
+- **Q4 D — PASS:** Rest/end when quality deteriorates; A/B/C intensify unsafe workload.
+- **Guided-to-assignment — PASS:** Four eight-count chunks, all three boundaries 8→9, 16→17, 24→25, targeted repair and honest run counts map.
+- **Assignment-to-outcome — PASS (internal):** Prompt/support tracking and safe retest assess planned rehearsal method.
+- **Limits — NEEDS REVIEW:** True rehearsal effectiveness unobserved.
+
+### PRO701-03 — Interpretation
+- **Q1 B — PASS:** Common counts/structure held stable; A/C/D require fixed gaze, emotion or emphasis.
+- **Q2 B — PASS:** Gaze on count 7 observable; A/C/D are private recall, hypothetical audience or inferred confidence.
+- **Q3 C — PASS:** Slow/stabilize when expressive choice disrupts score; A/B/D preserve errors.
+- **Q4 D — PASS:** Video cannot prove universal audience reading; A/B/C are potentially visible movement facts.
+- **Guided-to-assignment — PASS:** Three readings of shared 16-count score with two attempts each, gaze/reach/recovery comparisons and one-variable revision match.
+- **Assignment-to-outcome — PASS (internal):** Stable score plus bounded interpretation assesses reproducible expressive decisions.
+- **Limits — NEEDS REVIEW:** No real audience or external artistic judgment.
+
+### PRO701-04 — Stamina/showcase
+- **Q1 B — PASS:** Controlled quality with recovery; A/C/D reward exhaustion or ignore discomfort.
+- **Q2 C — PASS:** 160 beats at 80 BPM = 120 seconds; A/B/D wrong.
+- **Q3 A — PASS:** Scored, timed single-take with reflection is traceable; B/C/D imply certification or lack evidence.
+- **Q4 D — PASS:** Stop/adjust when control unsafe; A/B/C conceal or exacerbate risk.
+- **Guided-to-assignment — PASS:** Five 32-count sections, four eight-count phrases each, actual duration, exertion and recovery log match.
+- **Assignment-to-outcome — PASS (internal):** Timed private showcase or accurately labeled self-observation alternative measures documented quality, not professional readiness.
+- **Limits — NEEDS REVIEW:** Physical stamina and real execution unobserved.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Real performance, expert technique, source verification and latest CI require separate checks.
