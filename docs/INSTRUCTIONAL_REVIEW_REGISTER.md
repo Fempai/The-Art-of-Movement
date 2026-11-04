@@ -1406,3 +1406,46 @@ Scope: EST504-01–04; 16 keyed items, four guided-to-assignment and four assign
 - **Limits — NEEDS REVIEW:** Assignment's verified-scholarship requirement cannot be satisfied by unverified reading scaffold alone; learner must independently check passages.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal answer-key FAIL. Real sources, actual reader interpretations, learner submissions and psychometric discrimination remain NEEDS REVIEW; latest-head CI unconfirmed.
+
+
+## SIT505 formal assessment-validity review — 2026-11-04
+
+Scope: SIT505-01–04, sixteen question judgments, four guided/assignment and four assignment/outcome mappings. Internal editorial review only; no real-site inspection, ADA compliance determination, cultural-source verification or permission confirmation.
+
+### SIT505-01 — Site survey
+- **Q1 B — PASS:** Site conditions/context shape choreography; A/C/D merely relocate or depict a place.
+- **Q2 B — PASS:** Entrances/exits/obstacles/zones are map essentials; A/C/D omit spatial feasibility.
+- **Q3 C — PASS:** Permitted level clear room is safest of given options; A/B/D introduce hazards or uncertain authorization.
+- **Q4 D — PASS:** Obtain permission before use; A/B/C do not confer authorization.
+- **Guided-to-assignment — PASS:** A/B/C site map, no-travel orientation adaptation and two verified/unverified site constraints map to deliverable.
+- **Assignment-to-outcome — PASS (internal):** Count-level site change and uncertainty/permission log test site-responsive reasoning.
+- **Limits — NEEDS REVIEW:** Actual floor, routes and permission uninspected.
+
+### SIT505-02 — Sightlines
+- **Q1 B — PASS:** Sightline is possible view from viewer location; A/C/D ignore spectator view.
+- **Q2 C — PASS:** Side position may obscure far arm is a testable prediction; A/B/D guarantee unobserved reception.
+- **Q3 A — PASS:** Relocate view away from blocked exit; B/C/D neglect access or obstruction.
+- **Q4 D — PASS:** Diagram cannot establish real interpretation; A/B/C are plan annotations.
+- **Guided-to-assignment — PASS:** Three hypothetical viewpoints, two facing scores, obstruction/distance table and clear exit correspond to lab.
+- **Assignment-to-outcome — PASS (internal):** Predicted sightline versus actual audience experience and safe map decisions are assessable.
+- **Limits — NEEDS REVIEW:** No audience recruited, no real visibility testing.
+
+### SIT505-03 — Accessibility
+- **Q1 B — PASS:** Step-free entry needs confirmation; A/C/D assume full accessibility from partial evidence.
+- **Q2 C — PASS:** Seated shift retains gather/reach/recover; A/B/D fail accessible adaptation.
+- **Q3 A — PASS:** Plain-language directions and visual map complement; B/C/D omit useful advance access information.
+- **Q4 D — PASS:** Unverified access features must be labeled; A/B/C advertise unsupported compliance.
+- **Guided-to-assignment — PASS:** Standing/seated eight-count scores and verified/proposed access sketch match.
+- **Assignment-to-outcome — PASS (internal):** Two unresolved needs, verification steps and limits measure responsible design.
+- **Limits — NEEDS REVIEW:** No individual accommodation guarantees or legal accessibility certification.
+
+### SIT505-04 — Context and permissions
+- **Q1 B — PASS:** Relevant histories and permissions are ethical concerns; A/C/D focus only on aesthetics or floor.
+- **Q2 C — PASS:** Map, access, permission status and score are required; A/B/D omit core logistics.
+- **Q3 A — PASS:** Label uncertain history and verification sources; B/C/D treat speculation as fact.
+- **Q4 D — PASS:** Pending permission permits paper planning, not entry, filming or advertised approval.
+- **Guided-to-assignment — PASS:** Site rationale, complete 32-count score, permission and cultural source ledger plus contingency map to lab.
+- **Assignment-to-outcome — PASS (internal):** Site-responsive choices, uncertainty tracking and contingency assess intended goals.
+- **Limits — NEEDS REVIEW:** Real stakeholder consultation, historical sources, permission and site safety remain unverified.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Distractor difficulty and external physical, cultural, accessibility and permission checks remain NEEDS REVIEW. Latest-head CI unconfirmed.
