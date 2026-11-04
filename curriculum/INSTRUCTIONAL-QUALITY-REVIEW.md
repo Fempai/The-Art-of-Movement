@@ -91,3 +91,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Quiz-key desk check:** Q1 **B** (step changes floor location), Q2 **C** (reduce twisting/range), Q3 **A** (seated hand-traced loops), Q4 **D** (observable floor displacement). Keys match the revised instructions; distractors confuse loop motion with floor travel, preserve unsafe twisting, or infer unverified video correspondence.
 
 **Decision and limits:** Targeted written-instruction and answer-key review completed. A seated gesture remains an adaptation, not physical travel; the written lesson does not authenticate any specific regional figure-eight technique. No video playback or observed physical performance verified.
+
+## Targeted editorial check — BEL101-W10 (November 2026)
+
+**Issue and revision:** The original Week 10 transition lesson grouped slide/return and half-circle actions into count pairs without explicitly locating the transition boundary. Revised to assign right slide 1, center 2, left slide 3, center 4, and start of the half-oval **on count 5**, followed by accents on 7–8. Added an isolated 3–6 practice cue to distinguish a purposeful transition from rushing the half-oval early.
+
+**Four-question quiz check:** Q1 **C** (half-circle 5–6), Q2 **B** (isolate counts 3–6), Q3 **A** (connected seated hand pathways), Q4 **D** (deliberate connection with repeatable counts and support). All four keyed choices align with the revised lesson and its transition objective; alternatives omit a component, move the count boundary, or prioritize size over repeatability.
+
+**Decision and limitations:** Targeted instructional clarity and quiz-key review completed. The planned video is not independently verified against the written drill, and neither observed physical technique nor cultural attribution is certified.
