@@ -82,7 +82,7 @@ const contracts = [
 ];
 for (const contract of contracts) {
   const md = fs.readFileSync(path.join(__dirname, '..', 'curriculum', 'final-lessons', contract.id+'.md'), 'utf8');
-  const heading = md.search(/^## (?:Independent assignment|Assignment and assessment|Repertory assignment)/m);
+  const heading = md.search(/^#{2,3}\s+(?:\d+\.\s*)?[^\n]*(?:assignment|assessment)[^\n]*$/im);
   assert.ok(heading >= 0, contract.id+': assessment section missing');
   const guided = md.slice(0, heading);
   const assignment = md.slice(heading);
