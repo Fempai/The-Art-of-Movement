@@ -77,7 +77,37 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** Two scored phrase versions and reflection assess combination, support, modification, and original-versus-attributed distinction. The rubric covers counts, controlled progression, corrections, and cultural care.
 - **Remaining limitations:** Q1 uses “half-circle” while the guided pathway says “half-oval”; these refer to the same intended small original pathway here, but terminology should remain consistent in future edits. Independent cultural and technique validation remains NEEDS REVIEW.
 
-**Assessment-ledger subtotal recorded here:** 4/97 lessons with all four question decisions; 16/388 individual question decisions; 4/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### BEL101-W04 — Snake arms and chest circles
+
+- **Q1 C — PASS:** “Snake-arm preparation” teaches elbow-led rise with wrist and hand following. A and D start distally; B moves rigidly. Misconception: any simultaneous arm lift is an elbow-led wave.
+- **Q2 A — PASS:** “Chest-circle preparation” and “Modifications and self-correction” allow omitting uncomfortable backward motion and tracing with hands. B, C, and D retain the problematic torso range. Misconception: maintaining the original painful range is necessary to preserve the pathway.
+- **Q3 D — PASS:** The snake-arm self-observation instructs slowing down when the hand initiates before the elbow. A repeats the error; B ignores isolation; C fixes the elbow. Misconception: a hand-led movement teaches elbow-led sequencing.
+- **Q4 B — PASS:** The “original beginner preparation” and source limitations support reproducing only the taught sequence. A presumes video matching; C generalizes regional styles; D generalizes tempos. Misconception: local repeatability authenticates external choreography.
+- **Guided-to-assignment — PASS after correction:** “Combine” maps arm 1–4 and torso right/forward/left/neutral 5–8. “Independent assignment” asks for two full eight-count studies **and a distinct connected phrase**. The success check now explicitly evaluates the optional connected phrase and 4→5 transition, or records “not attempted” when uncomfortable. Correction: `d6433156b70a0aaeca28994093f16c30fc76a7eb`.
+- **Assignment-to-outcome — PASS:** Two full-length component scores assess initiation and sequence; connected phrase and written comparison assess timing, adaptation, and evidence limits. Optional omission is documented rather than counted as demonstrated skill.
+- **Remaining limitations:** Source video playback and exact technical correspondence are unverified. The four questions are largely recognition/obvious-error items, so diagnostic difficulty is limited.
+
+### BEL101-W05 — Beginner movement vocabulary
+
+- **Q1 B — PASS:** “Count-by-count guided study” places the small circle on 5–6. A/D shift its counts; C substitutes pulses. Misconception: circle and pulses can be interchanged without altering the phrase.
+- **Q2 D — PASS:** “Success check” distinguishes lateral slide/return from continuous directional change in a circle. A flattens the circle, B assumes floor travel, C reverses definitions. Misconception: lateral shift proves floor displacement.
+- **Q3 A — PASS:** “Modification” explicitly allows seated hand-tracing of the loop. B replaces the loop with a line; C and D omit the target pathway. Misconception: omitting an uncomfortable pelvic action requires omitting its conceptual pathway.
+- **Q4 C — PASS:** “Learning outcomes and concept” and “Source and context limits” reject a universal canon inferred from a video title. A, B, D make unsupported universal or video-equivalence claims. Misconception: a list title authenticates cultural or technical coverage.
+- **Guided-to-assignment — PASS:** The assignment requests two scored eight-count attempts, support, direction, accent, correction, adaptation, and source uncertainty; the guided study supplies all counted actions and a seated pathway.
+- **Assignment-to-outcome — PASS:** The deliverable and rubric assess the three movement distinctions, timing, repeatability, correction, and evidence limit.
+- **Remaining limitations:** Distractors often make easily rejected universal claims. Source playback and video-to-text matching remain unverified.
+
+### BEL101-W06 — Egyptian shimmy preparation
+
+- **Q1 C — PASS:** “Count-by-count guided study” assigns right and left softening on alternating successive counts. A moves both knees, B delays alternation, D adds steps. Misconception: a knee return creates another counted beat.
+- **Q2 A — PASS:** “Self-correction” and guided practice recommend reducing tempo when the pulse is lost. B and D preserve the problematic speed; C changes the count pattern. Misconception: speed is more important than rhythmic accuracy.
+- **Q3 D — PASS:** “Modification” explicitly allows seated alternating foot pressure or hand taps on all eight counts. A is simultaneous, B/C omit required beats. Misconception: a seated alternative must demonstrate standing knee technique.
+- **Q4 B — PASS:** “Learning outcomes and concept” limits the drill to original preparation. A claims named Egyptian proficiency, C assumes speed transfer, D claims video equivalence. Misconception: one original drill authenticates a regional technique.
+- **Guided-to-assignment — PASS:** The R–L eight-count guided sequence, support and tempo criteria, and second-attempt correction match the independent assignment.
+- **Assignment-to-outcome — PASS:** Two scored attempts and reflection assess alternation, support, modification, correction, and the distinction between observed rhythm and unverified Egyptian-shimmy attribution.
+- **Remaining limitations:** Culturally specific technique and external video content are unverified; several distractors are easily eliminated without deep understanding.
+
+**Assessment-ledger subtotal recorded here:** 7/97 lessons with all four question decisions; 28/388 individual question decisions; 7/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
