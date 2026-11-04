@@ -769,3 +769,11 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - Separately label seated and hand-traced substitutions rather than claiming standing pelvic technique, and limit historical Week 1 comparisons to documented matched directional timing; Week 8-specific circle and settle can be compared across the two Week 8 trials only. Quiz key **C,A,D,B** unchanged.
 
 **Decision:** Improved formative scoring repeatability and assessment inference boundaries. This remains an editorial review without independent learner observation, authenticated video playback, cultural-technique certification, or verified pedagogical effectiveness.
+
+
+## BEL101 Week 16 final count-level assessment follow-up (November 2026)
+
+- **W16:** Made the seated final phrase executable by assigning right/center/left/center on counts 1–4, a complete hand-traced circle on 5–6, and explicitly right then left hand/foot accents on 7–8. A seated timing substitute is not evidence of standing hip or knee mechanics.
+- Replaced segment-level yes/no observations with per-count on-count/off-count/unobservable/intentionally-omitted records across two attempts. Exclude unobservable and intentionally omitted actions from the observable attempted-action denominator; mark an entirely unobservable trial not assessable. Record circle-to-pulse transition continuity separately. Existing quiz key **D,B,A,C** remains aligned.
+
+**Decision:** Final assessment now has a more reproducible observable scoring protocol, without claiming physical skill validation, verified source playback, or learner-outcome effectiveness.
