@@ -1898,3 +1898,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Live reader, video and feedback not checked.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101 and MUS101 = **20/97 unique lessons**, **180/873 judgments recorded**: **120 PASS (internal/text)**, **60 NEEDS REVIEW**, **0 observed internal FAIL**. **77 lessons** remain for nine-dimension entries. A PASS here is not a validated live learning experience or verified external movement/music scholarship.
+
+
+## Nine-dimension instructional validation — STG101-01–04 — 2026-11-04
+
+**Method:** Read all four current strength/conditioning lessons, complete guided lab and alternatives, sixteen keyed questions with explanations, and assignment rubrics. PASS is a text-internal judgment, not personalized exercise clearance or independently observed movement.
+
+### STG101-01 — Rows before pull-ups
+1. **Outcome alignment — PASS (text):** Distinguishes row from pull-up, secure equipment, load and controlled baseline; all represented in quiz and assignment.
+2. **Practice sequence — PASS (text):** Two-minute warm-up, 1–2 sets of 6–10 light seated cable rows, 60–90-second rest, controlled two-second pull/return, and eight unresisted four-count elbow draws as alternative.
+3. **Movement correctness — NEEDS REVIEW:** Scapular freedom, row loading and avoiding improvised anchors are internally cautious; actual technique and individual injury risk not professionally verified.
+4. **Modifications — PASS (text):** Stable seated/standing unresisted elbow-draw option clearly marked coordination-only, not strength equivalence.
+5. **Self-correction — PASS (text):** Torso swing prompts load reduction; pain/pinching prompts stop; effort and control observations are countable.
+6. **Quiz correctness — PASS (internal):** Q1 B (cable row), Q2 B (unverified door-anchor load), Q3 C (reduce load), Q4 D (reps/resistance/effort/quality); distractors normalize unsafe assumptions or incomplete logs.
+7. **Assignment — PASS (text):** 1–2 sets, resistance, repetitions, effort, control, adjustment or clearly labeled eight-draw alternative correspond to lab.
+8. **Evidence and cultural care — NEEDS REVIEW:** ACSM, IADMS and Wilson/Kwon bibliography provided but precise passage and article metadata unverified.
+9. **Reader experience — NEEDS REVIEW:** No deployed reader, exercise video, quiz feedback or assignment submission test.
+
+### STG101-02 — Elevated pushing
+1. **Outcome alignment — PASS (text):** Hand height/body loading, trunk alignment and cautious progression all taught and assessed.
+2. **Practice sequence — PASS (text):** Wall push-up with two-count lower/two-count press, 6–10 reps and optional repeat; lower fixed bench only after control; eight four-count seated presses for coordination.
+3. **Movement correctness — NEEDS REVIEW:** Elevation/load relation and trunk/breath cues internally plausible, but wrist/shoulder mechanics and exercise suitability not externally verified.
+4. **Modifications — PASS (text):** Fixed wall, secure bench or stable-chair unloaded press; expressly excludes rolling chair and strength-equivalence claim.
+5. **Self-correction — PASS (text):** Elbow flare, shoulder shrug, sag and persistent wrist pain prompt position adjustment or stopping.
+6. **Quiz correctness — PASS (internal):** Q1 B (lower relative arm load), Q2 C (trunk/pelvis together), Q3 D (stop/change painful version), Q4 A (secure lower support when ready).
+7. **Assignment — PASS (text):** Surface height/distance, sets, reps, effort, one cue and adjustment; seated alternative explicitly labeled unloaded.
+8. **Evidence and cultural care — NEEDS REVIEW:** Citation claims and applicability of general guidelines to this exact protocol unverified.
+9. **Reader experience — NEEDS REVIEW:** No live browser/quiz/media test.
+
+### STG101-03 — Trunk control
+1. **Outcome alignment — PASS (text):** Controlled right/left weight shifts, breathing and observable support use assessed in lab and quiz.
+2. **Practice sequence — PASS (text):** Three comfortable breaths, 1–2 right, 3–4 center, 5–6 left, 7–8 center; two outward shifts, not eight. Two sets of four light-object turns included.
+3. **Movement correctness — NEEDS REVIEW:** Task-specific balance and avoiding breath-holding are appropriately bounded, but real trunk loading and safety not independently evaluated.
+4. **Modifications — PASS (text):** Stable seated pressure-shift option expressly not equivalent to standing balance.
+5. **Self-correction — PASS (text):** Support-touch count positions, smaller shift, symptom stop and repeated cycle make comparison actionable.
+6. **Quiz correctness — PASS (internal):** Q1 C (control and breathing), Q2 B (two touches/cycle), Q3 A (stable support), Q4 D (stationary balance cannot certify rapid turns).
+7. **Assignment — PASS (text):** Two eight-count cycles, support touches by count, small-range revision and optional rotation log align.
+8. **Evidence and cultural care — NEEDS REVIEW:** Specific exercise prescription and external bibliographic assertions not passage-checked.
+9. **Reader experience — NEEDS REVIEW:** Actual deployed behavior and video not checked.
+
+### STG101-04 — Hip control and intervals
+1. **Outcome alignment — PASS (text):** Repeatable hip-control and interval baseline, controlled exertion and single-variable progression represented in assignment and quiz.
+2. **Practice sequence — PASS (text):** Five-minute warm-up, 4–6 supported lifts per side, three 40/20 easy intervals or 20/40 adaptation, two-minute cooldown; seated eight-count equivalent defined.
+3. **Movement correctness — NEEDS REVIEW:** Hip/pelvis control and talk-test cues are conservative, but interval suitability and technique require independent professional assessment.
+4. **Modifications — PASS (text):** Stable-chair foot slides and seated timed arm marks distinguished from standing hip-strength and cardiovascular capacity.
+5. **Self-correction — PASS (text):** Pinching, speech difficulty and symptom changes prompt stop/reduce work; repeat under comparable conditions.
+6. **Quiz correctness — PASS (internal):** Q1 B (repeatable baseline), Q2 C (40 seconds work/20 rest), Q3 A (shorter work/longer rest), Q4 D (one variable).
+7. **Assignment — PASS (text):** Pull/push/trunk/hip/interval log may incorporate prior sessions and omissions with reasons; matches staged course sequence.
+8. **Evidence and cultural care — NEEDS REVIEW:** External evidence for exact dose, medical applicability and cited passages unverified.
+9. **Reader experience — NEEDS REVIEW:** Live reader and interactive feedback not tested.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101 = **24/97 unique lessons**, **216/873 judgments recorded**: **144 PASS (internal/text)**, **72 NEEDS REVIEW**, **0 observed internal FAIL**. **73 lessons** remain for nine-dimension entries. This does not establish independent movement safety, empirical effectiveness or external source validity.
