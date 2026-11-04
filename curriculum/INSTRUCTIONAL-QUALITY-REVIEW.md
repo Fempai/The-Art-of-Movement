@@ -719,3 +719,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **BEL101-02:** Oval previously assigned 7–8 to leftward motion and then asked for a return to center without an explicit beat, risking a ninth count. Allocated count 7 to the final side and 8 to center in original and mirrored paths; clarified slide and oval are separate eight-count studies. Quiz keys **C,A,D,B** unchanged.
 
 **Decision:** Count-level editorial defects corrected. No external performance or cultural-source validation claimed.
+
+## BEL101 foundation Lesson 03 and Friday Week 07 assessment audit (November 2026)
+
+- **BEL101-03:** Replaced generic readiness language with right-odd/left-even per-count observation across two attempts, with on/off/unobservable and clear separation of standing knee action from seated rhythmic substitutions. Quiz keys **D,B,A,C** unchanged.
+- **BEL101-W07:** Added count-specific two-attempt checkpoint and independent start/end floor-mark evidence of travel, labeling seated gestures symbolic only. Quiz keys **D,B,A,C** unchanged. Pathway accuracy and floor displacement are distinct observations.
+
+**Decision:** Targeted assessment specificity improved; independent physical performance and video verification not claimed.
