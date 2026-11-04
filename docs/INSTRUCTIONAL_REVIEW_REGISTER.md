@@ -2573,3 +2573,65 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Deployed lesson/quiz/video/submission interactions untested.
 
 **Cumulative ledger:** **73/97 unique lessons**, **657/873 judgments**: **438 internal PASS**, **219 NEEDS REVIEW**, **0 internal FAIL identified**, **24 lessons remain**. EST503 filenames were checked but not found; not counted. Latest-head CI and actual performance remain unverified.
+
+
+## Nine-dimension instructional validation — SCI503-01–04 — 2026-11-04
+
+**Scope:** Four graduate motor-learning lessons, all sixteen keyed questions, trial protocols, modifications and assignments. Internal PASS is not an experimentally validated effect or expert technique assessment.
+
+### SCI503-01 — Practice variability
+1. **Outcome alignment — PASS (text):** Defined performance-vs-learning inference, repeatable observations and study limits appear in both practice and assessment.
+2. **Practice sequence — PASS (text):** Six controlled trials: 1–2 front/shoulder, 3–4 front/lower, 5–6 diagonal/shoulder; constant eight-count target, rest logged, separate post-break check.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, exertion and safety not directly observed; scientific mechanism claims await passage-level audit.
+4. **Modifications — PASS (text):** Stable seated shift and gaze diagonal substitute; no standing-balance equivalence.
+5. **Self-correction — PASS (text):** Avoid causal learning claims from one successful short-break trial.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; rationales distinguish direct observation from unsupported causal inference, and alternatives are textually incorrect.
+7. **Assignment — PASS (text):** Six-condition log plus separately identified post-break trial and competing explanation.
+8. **Evidence and cultural care — NEEDS REVIEW:** Schmidt/Lee, Magill/Anderson and Kantak/Winstein citation details and claim-specific passages remain unverified; original protocol is not a validated study.
+9. **Reader experience — NEEDS REVIEW:** Live quiz, media, future-day scheduling and submission UI untested.
+
+### SCI503-02 — Retrieval and spacing
+1. **Outcome alignment — PASS (text):** Defined performance-vs-learning inference, repeatable observations and study limits appear in both practice and assessment.
+2. **Practice sequence — PASS (text):** Score read twice, one marked trial, hidden-page retrieval, correction and second retrieval; days 1/3/7 scheduled, not fabricated.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, exertion and safety not directly observed; scientific mechanism claims await passage-level audit.
+4. **Modifications — PASS (text):** Small-range comfortable marking permitted; prompt use and rehearsal since last check logged.
+5. **Self-correction — PASS (text):** Missed day-3 check recorded on actual day 4, not backdated.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; rationales distinguish direct observation from unsupported causal inference, and alternatives are textually incorrect.
+7. **Assignment — PASS (text):** Baseline chunk log, future dated follow-ups left blank until observed.
+8. **Evidence and cultural care — NEEDS REVIEW:** Schmidt/Lee, Magill/Anderson and Kantak/Winstein citation details and claim-specific passages remain unverified; original protocol is not a validated study.
+9. **Reader experience — NEEDS REVIEW:** Live quiz, media, future-day scheduling and submission UI untested.
+
+### SCI503-03 — Feedback
+1. **Outcome alignment — PASS (text):** Defined performance-vs-learning inference, repeatable observations and study limits appear in both practice and assessment.
+2. **Practice sequence — PASS (text):** Three baseline attempts, one gather→reach correction twice, two no-feedback whole-phrase retests; constant onset count 5/return 7.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, exertion and safety not directly observed; scientific mechanism claims await passage-level audit.
+4. **Modifications — PASS (text):** Video or immediate notes allowed with visibility/precision limits.
+5. **Self-correction — PASS (text):** Off-frame/uncertain onset not guessed; do not diagnose hidden joint forces.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; rationales distinguish direct observation from unsupported causal inference, and alternatives are textually incorrect.
+7. **Assignment — PASS (text):** Five-trial log and KR/KP distinction with causal limits.
+8. **Evidence and cultural care — NEEDS REVIEW:** Schmidt/Lee, Magill/Anderson and Kantak/Winstein citation details and claim-specific passages remain unverified; original protocol is not a validated study.
+9. **Reader experience — NEEDS REVIEW:** Live quiz, media, future-day scheduling and submission UI untested.
+
+### SCI503-04 — Fatigue and retention
+1. **Outcome alignment — PASS (text):** Defined performance-vs-learning inference, repeatable observations and study limits appear in both practice and assessment.
+2. **Practice sequence — PASS (text):** Three comfortable unprompted trials, 2-minute rest and one retest; chunk score 0–4 predefined; future days 1/3/7.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, exertion and safety not directly observed; scientific mechanism claims await passage-level audit.
+4. **Modifications — PASS (text):** Low-intensity or supported seated movement; stop if symptoms or control deteriorate.
+5. **Self-correction — PASS (text):** Missed delayed checks remain missing or actual-date; no invented follow-up.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; rationales distinguish direct observation from unsupported causal inference, and alternatives are textually incorrect.
+7. **Assignment — PASS (text):** Dated prospective plan and baseline now; completed retention report only after observations.
+8. **Evidence and cultural care — NEEDS REVIEW:** Schmidt/Lee, Magill/Anderson and Kantak/Winstein citation details and claim-specific passages remain unverified; original protocol is not a validated study.
+9. **Reader experience — NEEDS REVIEW:** Live quiz, media, future-day scheduling and submission UI untested.
+
+### Inventory denominator reconciliation — 2026-11-04
+
+**Correction to prior cumulative reporting:** The earlier running numerator treated the **13 supplemental BEL101-W04–W16** Friday-track files as though they were members of the original **97 core-lesson** audit denominator. This mixed two different scopes and overstated completion of the core curriculum. The original 97 core-lesson/388-question/873-dimension denominator must not be expanded or fulfilled by adding supplemental Friday lessons. The core lesson inventory needs exact file-by-file reconciliation before final closure.
+
+**Corrected scope-aware provisional totals after SCI503:**
+- **Core curriculum:** 64 of 97 *reported core lessons* internally reviewed (the 60 previously reviewed core lessons plus SCI503-01–04); **33 core lessons remain**, subject to exact core inventory reconciliation.
+- **Supplemental Friday track:** BEL101-W04–W16, **13 separately reviewed files**; BEL101-W01–W03 paths do not exist at the checked location and are not counted.
+- **Combined distinct reviewed files:** **77** (64 core + 13 supplemental), **693 nine-dimension judgments**, **462 internal PASS**, **231 NEEDS REVIEW**, **0 internal FAIL identified**. These 693 decisions are across *both* scopes; do not compare 693 against the original core-only 873 denominator.
+- **Core-only documented judgments:** **576/873** (64 × 9), comprising **384 internal PASS** and **192 NEEDS REVIEW**, assuming the 64 core IDs match the 97-file canonical inventory.
+- **Core-only question-level closure** remains a separate register obligation; nine-dimension quiz summaries are not a substitute for four explicit per-question distractor judgments and two alignment decisions per lesson.
+
+No live browser test, actual technique adjudication, citation passage audit or latest-head CI verification was performed in this review.
