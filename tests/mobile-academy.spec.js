@@ -437,3 +437,32 @@ test('daily studio completion and reflection survive navigation to Studio Record
  await page.goto(base+'/weekly-studio.html?week=3');
  await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
 });
+
+// Backup acceptance for a real weekly-studio record rather than a synthetic test key.
+test('daily studio progress survives Academy export, local loss, and restore',async({page})=>{
+ await page.goto(base+'/weekly-studio.html?week=4');
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await expect(page.locator('#progress')).toContainText('1 of 7');
+ const key='aom_weekly_studio_v1_4';
+ await page.goto(base+'/academy-backup.html');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const download=await downloadPromise;
+ const backup=JSON.parse(require('node:fs').readFileSync(await download.path(),'utf8'));
+ expect(backup.format).toBe('aom-local-backup-v1');
+ expect(JSON.parse(backup.data[key]).done0).toBe(true);
+ await page.evaluate(k=>localStorage.removeItem(k),key);
+ await page.goto(base+'/weekly-studio.html?week=4');
+ await expect(page.locator('#progress')).toContainText('0 of 7');
+ await page.goto(base+'/academy-backup.html');
+ await page.locator('#import').setInputFiles({name:'studio-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await expect(page.locator('#restore')).toBeEnabled();
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ await expect(page.locator('#status')).toContainText('Restored');
+ await page.goto(base+'/weekly-studio.html?week=4');
+ await expect(page.locator('#progress')).toContainText('1 of 7');
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
+ await page.goto(base+'/studio-record.html');
+ await expect(page.locator('#weeks tr').filter({has:page.locator('td').filter({hasText:/^04$/})})).toContainText('1 / 7 days');
+});
