@@ -267,3 +267,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (recurring pulse), Q2 **C** (unexpected metric emphasis), Q3 **A** (initiating and answering phrases), Q4 **D** (clap and count before footwork). Keys and explanations align with the revised drill.
 
 **Decision and limitations:** Targeted rhythm-score walkthrough, accessible progression, and quiz-key editorial review completed. Historical/source attribution and actual musical synchronization remain unverified.
+
+## Targeted editorial check — HIP101-04 (November 2026)
+
+**Issue and revision:** The practice assigned counts 1–4 to an unspecified weight-shift groove and 5–8 to a gesture and changed facing, leaving novice execution and foot support ambiguous. Specified right/center/left/center pulses on 1–4, an answering right-arm gesture on 5–6, a small gaze or comfortable upper-torso turn on 7, and a supported settle on 8. Added count-specific seated pressure shifts and gaze substitution, avoiding forced pivots on planted knees.
+
+**Four-question editorial answer check:** Q1 **B** (early Bronx/New York Black and Latino community context), Q2 **C** (distinct histories of breaking and other styles), Q3 **A** (document uncertainty before attribution), Q4 **D** (first-person observed weight shift). Keys and explanations align with the introductory distinctions; the historical context still requires claim-level source verification.
+
+**Decision and limitations:** Targeted beginner walkthrough, count-level accessibility, and quiz-key editorial review completed. This closes the targeted HIP101 lessons 01–04 editorial pass. Publisher book links, precise historical passages, and practitioner-level validation remain unverified.
