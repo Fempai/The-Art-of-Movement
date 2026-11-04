@@ -171,3 +171,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question independent editorial key check:** Q1 **B** (support contact region), Q2 **C** (task-specific posture), Q3 **A** (pressure/support shift), Q4 **D** (isolate foot support before arm coordination). Keys and explanations are consistent with the revised lesson. The quiz assesses introductory knowledge rather than measured physical skill.
 
 **Decision and limitations:** Targeted count accuracy, novice walkthrough, accessibility, and answer-key editorial review completed. Claims about actual force distribution, practitioner technique, and the cited source content still require independent evidence checks.
+
+## Targeted editorial check — MOV101-04 (November 2026)
+
+**Issue and revision:** The guided joint-action exercise offered no concrete seated alternative, despite its general instruction to modify. Added a count-by-count stable-chair version that distinguishes foot sliding and optional supported knee extension from a standing knee lift. The assignment previously required an eight-count score plus a 32-count synthesis without clearly identifying them as two separate deliverables; revised to request both explicitly, with a clear seated-versus-standing evidence boundary.
+
+**Four-question independent editorial key check:** Q1 **B** (visible turnout includes segment contributions), Q2 **C** (active and passive ranges differ), Q3 **B** (comfortable controllable alignment), Q4 **C** (a photo cannot isolate all joint contributions). All four keys and their explanations align with the taught distinctions and avoid equating appearance with joint range or safety.
+
+**Decision and limitations:** Targeted novice walkthrough, accessible exercise, assignment alignment, and quiz-key editorial review completed for MOV101-04. This completes a targeted MOV101 lessons 01–04 editorial pass, not independent validation of reference content, learner performance, or biomechanical safety.
