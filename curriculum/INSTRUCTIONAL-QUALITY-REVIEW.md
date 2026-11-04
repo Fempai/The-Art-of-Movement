@@ -67,3 +67,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Quiz-key desk check:** Q1 **C** (alternation each count); Q2 **A** (slow down and mark counts); Q3 **D** (seated alternation); Q4 **B** (limited claim about an original preparation). The lesson directly supports each keyed choice; the distractors change the rhythmic task or make unsupported claims of technique authentication.
 
 **Decision:** Targeted editorial count, objective, assignment, and answer-key consistency reviewed. The label “Egyptian shimmy” refers to the planned source topic, not a verified correspondence between this original drill and a specific tradition. Video access, practitioner-source technique, physical execution, and independent learning outcomes remain unverified.
+
+## Targeted editorial check — BEL101-W07 (November 2026)
+
+**Issue and correction:** The Week 07 exercise originally named right/left loops and a rightward traveling step without specifying the loop count pairs, which foot stepped, or what counted as actual travel. Revised the guided study to mark right and left loops on 1–2 and 3–4, right-foot step and left-foot follow on 5–6, and a smaller stationary gesture on 7–8. A hand-traced prerequisite and a no-travel alternative keep the pathway task accessible without conflating a seated gesture with floor displacement. Assignment now records floor-position evidence and support during the transition.
+
+**Quiz-key editorial check:** Q1 **D** (stationary loops then positional step), Q2 **B** (seated hand tracing), Q3 **A** (changed floor position), Q4 **C** (isolate counts 3–6 and support). All four answers align with the revised written practice. The distractors confuse stationary motion with travel or omit the transition.
+
+**Decision and limits:** Targeted editorial alignment checked, not independent technique validation. The exact geometry of a practitioner-taught figure eight, the original video's contents, culturally specific movement attribution, and real learner performance remain unverified.
