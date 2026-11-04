@@ -33,6 +33,32 @@ For each lesson, capture the following alongside the nine-dimension record:
 
 **Closure report:** number of lessons with all four question judgments documented **out of 97**, number of individual question judgments **out of 388**, number of lessons with both alignment judgments **out of 97**, unresolved internal FAIL count, and latest-head CI result. Report missing decisions as **unrecorded**, not PASS. The assessment-validity workstream is complete only when all these judgments are recorded and no internal FAIL remains; full instructional validation requires the separate nine-dimension gate.
 
+## Recorded assessment-validity decisions — 2026-11-04
+
+These are **internal text-based editorial judgments**, not a professional technique or external video validation. Each item was compared with its actual guided lesson and answer explanation. “PASS” here means that the stated answer is the uniquely best choice **under the written original exercise**; it does not certify the movement method.
+
+### BEL101-01 — Posture, grounding, and hip isolation
+
+- **Q1 A — PASS:** “Guided eight-count study” assigns right-foot pressure on 1–2 with both feet grounded. B reverses direction; C adds a foot lift; D adds a pivot. Misconception: lateral pressure requires lifting or pivoting. Distractors are clear but relatively easy to eliminate.
+- **Q2 C — PASS:** “Self-correction and progression” requires reduced range and comfortable knee tracking when twisting appears. A, B, and D leave the problematic alignment unchanged. Misconception: tempo, weight redistribution, or stance width alone fixes twisting.
+- **Q3 B — PASS:** “Guided eight-count study” specifies right 1–2, center 3–4, left 5–6, center 7–8. A drops returns; C repeats right; D ignores the prescribed pairs. Misconception: any alternating movement proves count accuracy.
+- **Q4 D — PASS:** The seated marking passage retains the same right–center–left–center count pairs. A omits center, B omits timing, C omits the planned sequence. Misconception: a seated alternative must reproduce standing hip mechanics.
+- **Guided-to-assignment — PASS:** “Assignment and reflection” explicitly scores the taught four count pairs and a separate pelvic emphasis, requiring support, accent, correction, and evidence limits.
+- **Assignment-to-outcome — PASS:** The scored sequence and 150–250-word reflection address count repetition, support, modification, and technical/cultural limitation. The rubric names counts, progression, correction, and cultural care.
+- **Remaining limitations:** Question distractors skew toward obvious omissions/unsafe choices; diagnostic difficulty needs later enhancement, but no second defensible correct option was found. Historical references and external technique claims remain NEEDS REVIEW; no independent source check or video playback was performed.
+
+### BEL101-02 — Hip slides and gentle circles
+
+- **Q1 C — PASS:** “Guided eight-count study” contrasts lateral right/center/left/center slides with a forward/right/back/left oval. A and B swap or flatten the paths; D treats different pathways as identical. Misconception: circle and slide differ only by tempo.
+- **Q2 A — PASS:** The guided oval can be marked slowly and in small segments, naming directions. B substitutes a slide; C omits front/back; D repeats the unresolved pathway. Misconception: a lateral-only shape counts as the oval.
+- **Q3 D — PASS:** “Self-correction and progression” instructs reducing range and avoiding uncomfortable lumbar motion; the guided practice permits small/omitted segments. A, B, C retain or enlarge the uncomfortable segment. Misconception: discomfort must be overcome to complete the oval.
+- **Q4 B — PASS:** The “Technique distinction” and evidence boundary support only practicing an original changing-direction pathway. A presumes unverified video matching; C generalizes tempo; D generalizes to all circle variants. Misconception: one controlled exercise establishes universal mastery.
+- **Guided-to-assignment — PASS:** “Assignment and reflection” requests the separate eight-count slide and oval plus mirrored left-first variant, all explicitly mapped in “Guided eight-count study”; the progression check distinguishes separate attempts.
+- **Assignment-to-outcome — PASS:** Separate scores, range/support description, modification and evidence-limit reflection address differentiation, repeatability, and cultural/technical limits. The rubric covers these criteria.
+- **Remaining limitations:** Q3’s correct response returns to slides rather than retaining an oval via hand tracing, but it is the best *offered* safe choice and the lesson permits omitting an uncomfortable component. Distractor quality remains comparatively low; external technique/cultural validation remains NEEDS REVIEW.
+
+**Assessment-ledger subtotal recorded here:** 2/97 lessons with all four question decisions; 8/388 individual question decisions; 2/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+
 ## Review record (duplicate once per lesson)
 
 **Lesson ID:** `BEL101-01` (example; replace)
