@@ -847,3 +847,46 @@ Scope: HIS101-01 through HIS101-04, all 16 knowledge-check items, the four guide
 - **Evidence limits — NEEDS REVIEW:** Four independent credible sources and quoted passages must be checked in an actual learner submission; scholarly and historical claims remain externally unverified.
 
 **Batch result:** 4 lessons; 16/16 internal question judgments PASS; 4/4 guided-to-assignment and 4/4 assignment-to-outcome judgments PASS. All four retain NEEDS REVIEW for external historical-source evidence and observed effectiveness. Distractors are generally easy because wrong choices often make categorical, extreme claims; future difficulty calibration with actual learners remains open. This entry adds documented decisions only; it does not assert full nine-dimension instructional validation.
+
+
+## FLE101 formal assessment-validity review — 2026-11-04
+
+Scope: FLE101-01 through FLE101-04, 16 keyed knowledge-check questions, guided mobility studios, and independent assignments. **PASS** means text-internal correctness and alignment only, not certified physical technique, medical safety, psychometric validity, or externally checked references.
+
+### FLE101-01 — Hip flexor mobility and pelvic control
+- **Q1 B — PASS:** Anatomy passage defines hip extension as thigh moving behind pelvis; A is flexion, C/D can change appearance without relative thigh–pelvis extension.
+- **Q2 B — PASS:** Lecture warns lumbar arch can substitute for hip motion; A/C/D incorrectly infer extra extension, maximal range, or independent control.
+- **Q3 C — PASS:** Active mobility is self-produced muscular control; A/B are externally assisted and D substitutes visible amplitude for control.
+- **Q4 D — PASS:** Guided lift and troubleshooting prescribe stable wall contact and reduced height; A/B/C retain or increase unstable demands.
+- **Guided-to-assignment — PASS:** Three shifts per side, split-stance support, right/left supported lifts, lumbar-compensation notes and adjustments are required in the dated log.
+- **Assignment-to-outcome — PASS (internal):** The side-by-side observations and reflection test the intended active/passive distinction, control, modification and evidence limits; rubric assesses those dimensions.
+- **Limits — NEEDS REVIEW:** The seated lift explicitly does not test standing hip extension/balance; external anatomical source passages and actual movement remain unverified.
+
+### FLE101-02 — Adductor mobility and lateral control
+- **Q1 B — PASS:** Lecture defines adduction toward midline; A is abduction, C rotation, D flexion.
+- **Q2 C — PASS:** Guided work and troubleshooting prioritize comfortable controlled increase; A/B/D preserve pain, compensation or untracked alignment.
+- **Q3 A — PASS:** Smaller shift and fixed support match the troubleshooting instructions; B/C/D retain instability or increase demand.
+- **Q4 D — PASS:** Six controlled shifts without sharp pain is a reproducible observation; A compares different people, B promises injury prevention, C omits controls.
+- **Guided-to-assignment — PASS:** Six alternating shifts, support, knee tracking, step-and-gather, seated option and correction map to explicit log fields.
+- **Assignment-to-outcome — PASS (internal):** Bilateral log and reflection distinguish controlled lateral range from forced stretching, with safe modifications and comparison criteria.
+- **Limits — NEEDS REVIEW:** Seated foot slides are not equivalent to loaded standing shifts; no external technique or safety validation.
+
+### FLE101-03 — Hamstrings and active leg control
+- **Q1 A — PASS:** Active movement uses the learner's muscles; B/C rely on external assistance and D confuses active with passive maximum.
+- **Q2 C — PASS:** Lecture correctly distinguishes knee-only short head of biceps femoris; A/B/D incorrectly describe joint crossings.
+- **Q3 B — PASS:** Troubleshooting says stop with tingling/electric sensations; A/C/D retain or increase the provoking position.
+- **Q4 D — PASS:** Consistent comfortable active-range/control notes are meaningful; A/B/C compare mismatched setups or uncontrolled maxima.
+- **Guided-to-assignment — PASS:** Four seated knee extensions per side, supported hinge, torso stability, sensation limits and modification are recorded.
+- **Assignment-to-outcome — PASS (internal):** The two-task comparison and reflection explicitly test controlled movement versus stretch sensation and cautious interpretation.
+- **Limits — NEEDS REVIEW:** Seated knee extension and standing knee lift do not directly measure maximum hamstring flexibility; no clinical or external technique validation.
+
+### FLE101-04 — Safe stretching and longitudinal journal
+- **Q1 B — PASS:** Lecture differentiates available range from active muscular control; A/C/D ignore the active/passive distinction.
+- **Q2 C — PASS:** Guided Unit 2 baseline specifies six alternating shifts, three per side; A/B/D omit controlled comparable conditions.
+- **Q3 A — PASS:** Troubleshooting calls for stopping/reducing painful stretch; B/C/D retain the painful angle.
+- **Q4 D — PASS:** Lecture requires like-for-like comparisons; A/B/C change conditions, lack baselines or compare different people/methods.
+- **Guided-to-assignment — PASS:** The guided recap explicitly preserves Unit 1 three shifts/side, Unit 2 six alternating shifts, Unit 3 four knee extensions/side, plus a 15–20-second static hold and eight-count phrase; assignment records all four task categories.
+- **Assignment-to-outcome — PASS (internal):** Journal captures support, breathing, symptoms, quality, repeatability and a single conservative progression, matching the stated conceptual outcomes and rubric.
+- **Limits — NEEDS REVIEW:** No individual stretching prescription or injury-prevention claim is certified; source passages and observed movement remain unverified.
+
+**Batch closure:** 4/4 lessons have four question-level decisions (16/16 PASS), guided-to-assignment judgments (4/4 PASS), and assignment-to-outcome judgments (4/4 PASS). No internal answer-key or alignment FAIL identified in this batch. Distractors often rely on obvious unsafe extremes and therefore do not establish discriminative assessment difficulty. All four require external source/technique validation before the nine-dimension instructional gate can close. Latest-head CI must be checked separately.
