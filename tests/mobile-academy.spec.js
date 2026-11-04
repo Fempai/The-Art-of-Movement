@@ -594,3 +594,24 @@ test('Studio Record warns about unreadable weekly data and preserves its raw byt
  expect(snapshot.records[key]).toBeNull();
  expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(broken);
 });
+
+test('Studio Record distinguishes saved null and malformed early-week records from missing records',async({page})=>{
+ await page.goto(base+'/studio-record.html');
+ const originals=[['aom_week_one_checks_v1','null'],['aom_week_two_checks_v1','[1,2]'],['aom_musicality_pathway_v1','{broken']];
+ await page.evaluate(entries=>{for(const [key,value] of entries)localStorage.setItem(key,value)},originals);
+ await page.reload();
+ await expect(page.locator('#unreadableWarning')).toContainText('3 local Academy record(s)');
+ await expect(page.locator('#weeks tr').nth(0)).toContainText('Unreadable — restore backup');
+ await expect(page.locator('#weeks tr').nth(1)).toContainText('Unreadable — restore backup');
+ await expect(page.locator('.tile').filter({hasText:'Week 1 saved items'})).toContainText('Unreadable');
+ await expect(page.locator('.tile').filter({hasText:'Week 2 saved items'})).toContainText('Unreadable');
+ await expect(page.locator('.tile').filter({hasText:'Musicality lessons'})).toContainText('Unreadable');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const snapshot=JSON.parse(require('node:fs').readFileSync(await (await downloadPromise).path(),'utf8'));
+ for(const [key,value] of originals){
+  expect(snapshot.unreadable_keys).toContain(key);
+  expect(snapshot.raw_records[key]).toBe(value);
+  expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(value);
+ }
+});
