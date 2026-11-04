@@ -19,7 +19,7 @@ Decisions: Not reviewed; Needs revision; Editorially QA-passed with documented l
 
 ## Release gate
 
-All 320 quiz items must have independently checked keys and explanations; all 80 lessons must receive documented content and instructional review; material defects must be fixed. External learner and expert validation are optional and not release blockers. Do not claim demonstrated teaching effectiveness, expert approval, or medical safety without evidence. Re-run existing automated and deployed-site tests after edits.
+The 80 core lessons contain 320 quiz items; BEL101 adds 17 lessons and 68 items, for 97 lessons and 388 questions in the combined scope. Each must have documented key/explanation checks and instructional review, and material defects must be fixed. Targeted desk-based checks do not establish independently verified scholarly sources, demonstrated physical technique, or learner effectiveness; those limitations remain explicit. External learner and expert validation are optional and not release blockers. Do not claim demonstrated teaching effectiveness, expert approval, or medical safety without evidence. Re-run existing automated and deployed-site tests after edits.
 
 Priority: foundations MOV101, then DNC101, followed by other beginner courses before advanced instruction. Character polish follows instructional quality.
 
