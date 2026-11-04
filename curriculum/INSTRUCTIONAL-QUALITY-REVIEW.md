@@ -243,3 +243,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (planned support/level changes), Q2 **C** (stable-chair alternative), Q3 **A** (avoid kneeling without comfortable independent exit), Q4 **D** (document support surfaces). Answers align with the taught sequence and avoid universal safety claims.
 
 **Decision and limitations:** Targeted novice walkthrough, safety-oriented count revision, and quiz-key review completed. This closes the targeted CON101 lessons 01–04 editorial pass; no clinical, source-level, or observed learner validation is claimed.
+
+## Targeted editorial check — HIP101-01 (November 2026)
+
+**Issue and revision:** The assignment's worked example placed a shoulder accent on the **“and” after count 2**, whereas the taught second phrase accents **count 2 itself**. Corrected the example to match the beat and explicitly distinguish it from an offbeat subdivision. Added a complete seated eight-count pulse and directional marking phrase with shoulder accents on counts 2 and 4; seated arm gestures are not represented as equivalent to standing steps.
+
+**Four-question editorial answer check:** Q1 **B** (pulse/weight/movement), Q2 **C** (accent changes rhythmic character), Q3 **A** (community context), Q4 **D** (shallow or seated pulse). Keys and explanations align with the instructional text.
+
+**Decision and limitations:** Targeted count consistency, beginner walkthrough, seated adaptation, and quiz-key review completed. Cultural source claims and title-level publisher links require independent verification; no practitioner authentication or observed learning effectiveness is claimed.
