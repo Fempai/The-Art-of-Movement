@@ -227,3 +227,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (initiating body part/action), Q2 **C** (different sequence/dynamics with same endpoint), Q3 **A** (isolate first action), Q4 **D** (visible timing does not reveal intended meaning). Answers align with the new comparison and avoid inferring emotion from observation.
 
 **Decision and limitations:** Targeted novice walkthrough, two-variant count consistency, and quiz-key editorial review completed. Neither interpretive effect nor technique effectiveness was independently tested; reference-level validation remains outstanding.
+
+## Targeted editorial check — CON101-03 (November 2026)
+
+**Issue and revision:** Quiz Q4 described the **right** arm remaining extended although the guided exercise and assignment consistently extend the **left** arm. Corrected the distractor to match the actual movement, so the item distinguishes observation from interpretation rather than introducing an accidental limb-side discrepancy. Clarified the seated pressure-shift alternative and its limitation relative to standing balance.
+
+**Four-question editorial answer check:** Q1 **B** (deliberate delay), Q2 **C** (compare with/without pause), Q3 **A** (grounded feet and shorter hold), Q4 **D** (unverifiable emotional intent and universal viewer response). The corrected Q4 observational alternatives now refer to the actual left-arm phrase.
+
+**Decision and limitations:** Targeted count/quiz consistency, accessible adaptation, and novice editorial review completed. No source-level or learner-outcome verification was performed.
