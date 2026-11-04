@@ -51,3 +51,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question desk check:** Q1 **C** (elbow leads wrist/hand), Q2 **A** (omit uncomfortable backward component), Q3 **D** (slow elbow-first correction), Q4 **B** (original coordination sequence only). Each keyed response matches the written lesson; distractors reverse the sequence, preserve discomfort, or overstate evidence. Assignment requests two eight-count scores, correction, modification, and evidence limits.
 
 **Decision:** Internal wording/count/quiz alignment reviewed; no observed dancer performance, verified Drive playback, qualified technique assessment, or cultural-source authentication. Not a full instructional release sign-off.
+
+## Targeted editorial check — BEL101-W05 (November 2026)
+
+**Issue and revision:** The original Week 05 guided phrase grouped slides, loop, and pulses into two-count spans without stating which count performs the return, which knee initiates, or how to preserve the full phrase when seated. Revised counts 1–4 to specify slide and center return, counts 5–6 to identify a small loop and a slower four-count preparatory option, and counts 7–8 to identify right/left pulses. The seated modification now maps all eight counts, while expressly distinguishing rhythm/pathway practice from standing mechanics.
+
+**Quiz desk check:** Q1 **B** (loop on 5–6); Q2 **D** (slide versus changing-direction loop); Q3 **A** (seated hand tracing); Q4 **C** (video title does not prove a universal canon). All four keys agree with the lesson's stated concepts and the revised practice. Distractors either change the counts/pathway or claim unsupported source authority.
+
+**Decision and limitations:** Targeted editorial consistency review completed. No video playback or demonstration correspondence verified, no practitioner/cultural-source validation, and no observed novice learning. The four questions test understanding, not physical mastery; no full-course sign-off.
