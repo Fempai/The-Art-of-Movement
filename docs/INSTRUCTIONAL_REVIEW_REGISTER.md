@@ -247,7 +247,47 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** The rubric separately scores hip-versus-knee joint action, a complete 32-count score with support and boundaries, evidence limitations, and source use. Seated adaptations are explicitly distinguished from standing hip flexion and weight transfer.
 - **Remaining limitations:** Written scoring cannot establish anatomical rotation range or certify safe execution; source and instructor validation remain outstanding.
 
-**Assessment-ledger subtotal recorded here:** 21/97 lessons with all four question decisions; 84/388 individual question decisions; 21/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### DNC101-01 — Tendu and foot articulation
+
+- **Q1 B — PASS:** “Follow-along movement instruction” places support on the left foot while the right working foot slides. A/C/D observe contact, endpoint, or repetition without addressing unintended weight transfer. Misconception: a working foot can bear the standing weight at full tendu.
+- **Q2 C — PASS:** The lesson contrasts controlled articulation with toe gripping; reducing pressure and relaxing toes addresses the observed error. A/B/D retain gripping or change focus. Misconception: more range or slower repetition alone resolves gripping.
+- **Q3 A — PASS:** The parallel adaptation explicitly preserves a floor-contacting slide and deliberate return. B lifts, C transfers weight, D omits return. Misconception: forced turnout is essential to study the tendu pathway.
+- **Q4 D — PASS:** “Correct-versus-misleading comparison” identifies controlled return as the missing component in a snapped-back foot. A/B/C emphasize count, hold, or endpoints without the return pathway. Misconception: reaching the correct shape demonstrates articulation.
+- **Guided-to-assignment — PASS:** Two of three taught eight-count repetitions are scored with forward 2–4 and side 6–8, left support, and controlled returns; the optional jazz accent is explicitly discussed as phrasing rather than technique equivalence.
+- **Assignment-to-outcome — PASS:** Movement scores and analysis address support, articulation, count, error correction, and musical interpretation.
+- **Remaining limitations:** No independent ballet/jazz instructor validation; terminology and historical claims need specialist source review.
+
+### DNC101-02 — Plié and rhythmic accents
+
+- **Q1 A — PASS:** The reading defines a demi-plié as a shallow bend. B/C/D describe deeper plié, relevé, or tendu. Misconception: a knee bend requires maximum depth.
+- **Q2 A — PASS:** The reading and two timed patterns vary emphasis while keeping movement category and range. B/C/D assume depth, support, or movement type changes. Misconception: different musical accents necessarily create different joint actions.
+- **Q3 B — PASS:** Preparation and correction explicitly reduce depth when heels lift unexpectedly. A/C/D preserve excessive depth or force turnout. Misconception: deeper range is the primary success metric.
+- **Q4 B — PASS:** The lesson prioritizes comfortable knee tracking, control, and repeatable timing. A/C/D prioritize depth, foot angle, or torso stillness over count accuracy. Misconception: the largest shape demonstrates the best plié.
+- **Guided-to-assignment — PASS:** Phrase A matches taught eight-count bending; Phrase B is explicitly specified in the assignment and seated alternative, enabling comparison of slower descent versus ascent.
+- **Assignment-to-outcome — PASS:** Two timed phrases and analysis test terminology, support, alignment, and accent changes; seated foot slides are explicitly timing-only, not biomechanically equivalent pliés.
+- **Remaining limitations:** The assignment's second phrase is described after the main guided sequence rather than rehearsed as a separate standing demonstration; the count-by-count instructions remain explicit. Qualified technique review remains pending.
+
+### DNC101-03 — Relevé and controlled lowering
+
+- **Q1 A — PASS:** The reading and counted study define a supported heel rise through the forefeet. B/C/D describe other movement types. Misconception: any change of height or leg position is relevé.
+- **Q2 A — PASS:** The “Correct-versus-misleading comparison” supports reducing rise height and using fixed support. B repeats wobbling; C/D omit heel rise. Misconception: height is necessary to preserve the relevé objective.
+- **Q3 A — PASS:** The guided exercise and troubleshooting specifically target controlled heel descent. B/C focus on peak/hold, D substitutes foot slide. Misconception: arriving at the top proves lowering control.
+- **Q4 B — PASS:** The lesson instructs lower range and stable support for wobbling. A/C/D retain or increase instability. Misconception: a successful first rise makes later wobble irrelevant.
+- **Guided-to-assignment — PASS:** The taught 1–8 rise/hold/lower/settle pattern and explicitly supplied alternative four-count descent are both scored separately; counts 7–8 are correctly reassigned rather than added.
+- **Assignment-to-outcome — PASS:** Two scores and comparative reflection assess timing, foot pressure, controlled descent, and limits; seated heel rises are not treated as standing balance or loading.
+- **Remaining limitations:** Visual observation cannot establish strength or injury safety; qualified technique and historical reference review remain pending.
+
+### DNC101-04 — Supported développé and synthesis
+
+- **Q1 B — PASS:** The reading and counts 3–6 describe lifting the bent working leg, unfolding, then refolding. A/C/D omit the lift or unfolding. Misconception: tendu or a straight kick is equivalent to développé.
+- **Q2 C — PASS:** Count 1 explicitly shifts weight to the left supporting foot before right-leg lift. A/B/D delay or misdirect support. Misconception: working-leg motion can begin before support is prepared.
+- **Q3 A — PASS:** A small supported extension preserves bend–unfold–return; B loses balance, C/D omit unfolding. Misconception: a large range is required for the skill.
+- **Q4 D — PASS:** The taught sequence and count score prioritize repeatable bend–unfold–return with intentional support. A/B/C miss pathway or transfer. Misconception: the final pose alone establishes the technique.
+- **Guided-to-assignment — PASS:** Counts 1–8 reproduce the guided développé. The independent assignment explicitly teaches the added 9–16 tendu/plié/relevé synthesis with full counts and seated substitutions.
+- **Assignment-to-outcome — PASS:** The 16-count score and written explanation test support, sequence, vocabulary, adaptations, and evidence limits; seated marking is not graded as standing technique.
+- **Remaining limitations:** The second phrase's detailed sequence is supplied in the assignment rather than the main follow-along, though earlier lessons teach the components. Technique and source validation remain pending.
+
+**Assessment-ledger subtotal recorded here:** 25/97 lessons with all four question decisions; 100/388 individual question decisions; 25/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
