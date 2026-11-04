@@ -691,3 +691,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W15:** Explicitly distinguish on-time, off-time, unobservable, omitted optional torso action, and hand-traced substitution at the count-4-to-5 transition and count-7-to-8 return. A deliberate omission cannot be counted as performed torso technique. Quiz keys **C,A,D,B** remain aligned.
 
 **Decision:** Corrected evidence-scoring ambiguity; these remain desk-based editorial reviews without witnessed learners or authenticated source demonstrations.
+
+## BEL101 Weeks 12 and 15 targeted assessment audit (November 2026)
+
+- **W12:** The seated modification previously said only 'alternate' foot pressure, leaving which foot acts on each count unspecified. Added right on odd counts and left on even counts, simultaneous arm opening on 5–8, stable chair setup, and explicit separation of seated rhythm from standing knee mechanics. Quiz keys **B,C,A,D** unchanged.
+- **W15:** Quiz item 4 did not establish whether the learner completed the whole adapted phrase, leaving its arms-only distractor potentially compatible with the question. Specified two complete adapted attempts with hand-traced substitution, and explained why arms-only is insufficient. Quiz keys **C,A,D,B** unchanged. A hand trace is not evidence of torso isolation.
+
+**Decision:** Specific ambiguity and execution gaps corrected editorially; video/physical technique/learner-outcome validation remains unverified.
