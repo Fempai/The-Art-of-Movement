@@ -976,3 +976,46 @@ Scope: STG101-01–04, sixteen knowledge-check decisions and guided-practice/ass
 - **Limits — NEEDS REVIEW:** Seated interval performance cannot establish standing stamina or cardiovascular fitness; prior lesson records must exist for a complete combined log.
 
 **Batch closure:** 4 lessons, 16/16 internal question decisions PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No content correction required from this pass. Distractor difficulty remains uncalibrated; source, technique and actual learning effectiveness remain NEEDS REVIEW. Latest CI verification is separate.
+
+
+## CON101 formal assessment-validity review — 2026-11-04
+
+Scope: CON101-01–04; sixteen keyed questions, guided studio and independent assignments. PASS is internal textual correctness/alignment, not movement certification, historical-source authentication or learner effectiveness.
+
+### CON101-01 — Breath and phrasing
+- **Q1 C — PASS:** Lesson explicitly permits intentional phrasing without count-forced breathing; A/B mandate synchronization and D prohibits voluntary coordination.
+- **Q2 A — PASS:** Guided instructions require ordinary breathing and stopping for lightheadedness; B/C/D retain restrictions or delay stopping.
+- **Q3 D — PASS:** Video comparison can show arm durations in counts; A/B/C infer lung capacity, intent or shoulder rotation from duration.
+- **Q4 B — PASS:** Seated arm marking isolates timing while allowing comfortable breathing; A drops counting and C/D retain problematic complexity/restriction.
+- **Guided-to-assignment — PASS:** A/B preserve 1–2 opening, 3–4 gather, 5–6 reach, 7–8 recover; B changes within-count initiation speed and records natural breathing.
+- **Assignment-to-outcome — PASS (internal):** Two scored versions, observable/interpretive distinction and source-limit reflection assess stated goals.
+- **Limits — NEEDS REVIEW:** Neither natural breathing nor seated execution establishes respiratory or advanced dance competence.
+
+### CON101-02 — Initiation and sequencing
+- **Q1 B — PASS:** Initiation is the first body action; A/D are endpoints and C is music tempo.
+- **Q2 C — PASS:** Matching endpoint can conceal different movement order and dynamics; A/B/D assume unrequired changes.
+- **Q3 A — PASS:** Isolating the initiating action matches guided A/B comparison; B/C/D ignore order.
+- **Q4 D — PASS:** Visible sequence supports timing observations, not knowledge of intent; A/B/C overclaim.
+- **Guided-to-assignment — PASS:** Hand-first versus torso-first versions share endpoint and return timing and are explicitly scored in assignment.
+- **Assignment-to-outcome — PASS (internal):** Counted initiation order, support, comparison and interpretive limits align with outcomes.
+- **Limits — NEEDS REVIEW:** Actual segment sequencing and safe torso rotation are not independently observed.
+
+### CON101-03 — Suspension and release
+- **Q1 B — PASS:** Lecture defines suspension as deliberate delay before resolution; A/C/D lack that delay.
+- **Q2 C — PASS:** Pause-versus-no-pause isolates timing; A/B/D change other variables or omit comparison.
+- **Q3 A — PASS:** Reduce hold and keep feet grounded when wobbling; B/C/D preserve instability.
+- **Q4 D — PASS:** Mandatory grief interpretation is not observable; A/B/C describe checkable counts, position and contact.
+- **Guided-to-assignment — PASS:** A holds endpoint at 5 and returns 6; B returns at 5, with matching 1–4 and 7–8.
+- **Assignment-to-outcome — PASS (internal):** Timing contrast, support record and evidence-bounded interpretation assess the delay concept.
+- **Limits — NEEDS REVIEW:** Audience perception and movement safety are not established by written notation.
+
+### CON101-04 — Level change and support
+- **Q1 B — PASS:** Lesson prioritizes planned controlled support/level transitions; A/C rush support changes and D avoids them.
+- **Q2 C — PASS:** Stable chair sit-to-stand is an alternative to painful kneeling; A/B retain risk and D changes arm height only.
+- **Q3 A — PASS:** Optional kneeling is inappropriate without comfortable independent exit; B/C/D state acceptable conditions.
+- **Q4 D — PASS:** Recording support surfaces is observable; A/C promise universal safety and B omits contacts.
+- **Guided-to-assignment — PASS:** A chair rise/controlled return and B seated marking preserve count structure while explicitly documenting non-equivalence; safe exit may extend beyond count 8.
+- **Assignment-to-outcome — PASS (internal):** Two support maps and explicit limitations assess beginner planning and comparison.
+- **Limits — NEEDS REVIEW:** The seated B variant does not test floor-to-stand ability; observed safety and source claims unverified.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed question judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. Distractors are often easily eliminated by absolute or unsafe wording, so discrimination remains untested. External technique, sources and learner effectiveness remain NEEDS REVIEW; latest-head CI must be verified separately.
