@@ -2102,3 +2102,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Original video links, actual playback, reader, quiz feedback and submission not tested.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101 and BEL101 = **36/97 unique lessons**, **324/873 judgments recorded**: **216 internal PASS**, **108 NEEDS REVIEW**, **0 observed internal FAIL**. **61 lessons** remain for nine-dimension review. These figures describe editorial coverage only, not expert technique certification or verified original Friday-video access.
+
+
+## Nine-dimension instructional validation — CMP101-01–04 — 2026-11-04
+
+**Method:** Inspected the four current composition lessons, sixteen keyed questions, guided scores, alternatives, self-checks, and rubrics. PASS denotes internal editorial consistency only, not external choreographic evaluation, scholarship passage verification, or live reader testing.
+
+### CMP101-01 — Motif
+1. **Outcome alignment — PASS (text):** Motif recognition, repetition versus variation, score reproducibility and evidence limits appear in concept, studio, quiz and assignment.
+2. **Practice sequence — PASS (text):** Eight-count M step/gather/reach/recover followed by M′ mirrored arm and sustained reach on 7; both preserve 1–8 and are compared.
+3. **Movement correctness — NEEDS REVIEW:** Small supported steps and arm reaches are internally coherent; actual performance and expert technique unobserved.
+4. **Modifications — PASS (text):** Stable seated pressure shifts and arm marks preserve timing but disclaim standing-step equivalence.
+5. **Self-correction — PASS (text):** Compare retained/changed features, support and facing; revise unclear score before adding complexity.
+6. **Quiz correctness — PASS (internal):** Q1 A (recurring idea), Q2 B (timing variation), Q3 B (repeatable score supports feature comparison), Q4 A (self-knowledge does not prove outside legibility).
+7. **Assignment — PASS (text):** Two eight-count M/M′ scores, support, pathway, change and 250–350-word reflection directly measure outcomes.
+8. **Evidence and cultural care — NEEDS REVIEW:** Original score distinguished from scholarly sources; cited edition, metadata and passage relevance not independently checked.
+9. **Reader experience — NEEDS REVIEW:** Deployed media, quiz feedback and assignment UI not tested.
+
+### CMP101-02 — Phrase
+1. **Outcome alignment — PASS (text):** Phrase boundary, facing versus travel, entry/exit support and count notation explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** Eight-count A north-facing, then eight-count B left step and small northwest orientation, returning north where comfortable; seated gaze versus torso distinction explicit.
+3. **Movement correctness — NEEDS REVIEW:** Avoids planted-knee twist and forced 45-degree turn; execution and anatomical appropriateness not independently verified.
+4. **Modifications — PASS (text):** Seated A/B pressure shifts and gaze-only B orientation with unchanged torso facing; clear non-equivalence.
+5. **Self-correction — PASS (text):** Clarify facing versus pathway, starting and ending support and any actual altered final orientation.
+6. **Quiz correctness — PASS (internal):** Q1 B (coherent unit), Q2 A (torso facing), Q3 A (reproducibility), Q4 A (observable pause).
+7. **Assignment — PASS (text):** A/B full eight-count scores, starting/ending support and facing, path, boundary and reflection align.
+8. **Evidence and cultural care — NEEDS REVIEW:** Non-universal phrase boundary acknowledged; bibliographic passages not verified.
+9. **Reader experience — NEEDS REVIEW:** No live acceptance testing.
+
+### CMP101-03 — Transitions
+1. **Outcome alignment — PASS (text):** Exit/entry states, free-foot requirements, no-extra-count repair and evidence-bounded comparison taught and assessed.
+2. **Practice sequence — PASS (text):** A count 8 right-weighted permits B count 1 left step; alternate A count 8 left-weighted requires changing B to right step or rescoring A count 8. No unmarked beat inserted.
+3. **Movement correctness — NEEDS REVIEW:** Free-foot logic internally consistent and warns against forced off-balance step; actual balance and physical transfer not observed.
+4. **Modifications — PASS (text):** Stable-chair pressure and hand-reach versions preserve transition planning without standing free-foot equivalence.
+5. **Self-correction — PASS (text):** Diagnose conflicting support, revise exact count, document facing/path and rescore if extra count added.
+6. **Quiz correctness — PASS (internal):** Q1 B (end support/orientation), Q2 A (support conflict), Q3 C (right support frees left), Q4 D (structural function).
+7. **Assignment — PASS (text):** Two A→B boundaries, support/facing and revised entry path plus reflection map to lesson.
+8. **Evidence and cultural care — NEEDS REVIEW:** External composition sources and edition metadata not independently authenticated.
+9. **Reader experience — NEEDS REVIEW:** No browser test of actual presentation or submission.
+
+### CMP101-04 — 32-count score
+1. **Outcome alignment — PASS (text):** Repetition, contrast, varied return, four phrases and plain-language notation assessed.
+2. **Practice sequence — PASS (text):** A 1–8, B 9–16, A′ 17–24 and C 25–32 with explicit 8→9, 16→17 and 24→25 transitions; 21–23 reach extends duration without adding a beat.
+3. **Movement correctness — NEEDS REVIEW:** Small diagonal turns and grounded seated substitute are plausible, but performance and expert technique not verified.
+4. **Modifications — PASS (text):** Full 32-count seated version uses pressure/gaze/arm movement, distinguishing gaze from torso facing and standing travel.
+5. **Self-correction — PASS (text):** Score count, support, facing and path, check each boundary and revise unreconstructible notation.
+6. **Quiz correctness — PASS (internal):** Q1 B (varied A return), Q2 B (contrast in duration/path), Q3 A (original teaching notation), Q4 C (counts/support/facing/path).
+7. **Assignment — PASS (text):** Complete A–B–A′–C score with all boundaries and critical reflection measures composition outcomes.
+8. **Evidence and cultural care — NEEDS REVIEW:** Explicitly does not equate score with Labanotation or Benesh; source editions and passages unverified.
+9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes and multimedia not exercised.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101 and CMP101 = **40/97 unique lessons**, **360/873 judgments recorded**: **240 internal PASS**, **120 NEEDS REVIEW**, **0 observed internal FAIL**. **57 lessons** remain for nine-dimension entries. These counts reflect editorial coverage, not independently validated performance or learning outcomes.
