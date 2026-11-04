@@ -363,3 +363,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (performance shown in a recording), Q2 **B** (popularization does not prove invention), Q3 **C** (creator not established), Q4 **B** (citation does not grant reuse rights). Answers and rationales match the lesson.
 
 **Decision and limitations:** Targeted attribution precision, assignment reproducibility, and quiz-key review completed. No real clip or passage was independently inspected; copyright discussion is general educational guidance, not legal clearance.
+
+## Targeted editorial check — HIS101-04 (November 2026)
+
+**Issue and revision:** The comparative research task asked for two sources per dance practice and four claims overall, but did not ensure both practices received evidence-table coverage or distinguish distinct sources from repeated citations. Clarified four distinct sources minimum, at least two claim rows per practice, precise passage-level evidence, transparent primary-source access limits, and handling of contradictory accounts.
+
+**Four-question editorial answer check:** Q1 **A** (direct practitioner interview), Q2 **B** (claim specificity follows evidence), Q3 **C** (evaluate disagreement), Q4 **B** (secondary synthesis). Keys and explanations match the research-methodology teaching.
+
+**Decision and limitations:** Targeted assignment criteria, evidence distribution, and quiz-key editorial review completed. This closes the targeted HIS101 lessons 01–04 editorial pass. Source passages, URLs, and historical assertions remain pending independent verification.
