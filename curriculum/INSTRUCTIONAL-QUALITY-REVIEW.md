@@ -131,3 +131,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **B** (support and on-time entry), Q2 **C** (rehearse boundary slowly), Q3 **A** (seated complete composition), Q4 **D** (repeatable timing and support). All keyed options align with the clarified phrase connection; distractors omit the boundary, skip counts, or overgeneralize performance.
 
 **Decision and limits:** Targeted editorial objective/quiz alignment completed. Seated marking is not evidence of standing technique; original video correspondence, practitioner evaluation, and learner effectiveness remain unverified.
+
+## Targeted editorial check — BEL101-W15 (November 2026)
+
+**Issue and revision:** The Week 15 drill named hand lift, arm opening, and optional torso wave in count pairs without defining their individual start and completion points. Revised to assign hand lift 1–2, arm opening 3–4, upper-to-lower optional torso intention or hand-traced substitute 5–6, and arm lowering/settling 7–8. Explicitly preserved the distinction between **sequential** actions and simultaneous layering, with a slow 3–6 boundary drill and no extra pause.
+
+**Four-question quiz check:** Q1 **C** (optional torso sequence on 5–6), Q2 **A** (omit discomfort and hand-trace), Q3 **D** (rehearse pathways/timing before recombination), Q4 **B** (limited claim about an adapted original sequence). The keys and distractor rationales align with the written practice and avoid unsupported mastery claims.
+
+**Decision and limitations:** Targeted editorial and quiz-key review completed. Hand tracing does not demonstrate advanced undulation. Neither planned video has been independently matched to the written exercise; physical performance and effectiveness remain unverified.
