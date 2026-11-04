@@ -754,3 +754,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W12:** Clarified that simultaneous layering requires both a side-correct pulse and arm opening **progressing on the same count**; static already-open arms do not meet the intended layer. Quiz Q4 now states all four 5–8 counts and practiced tempo explicitly. Quiz keys **B,C,A,D** unchanged.
 
 **Decision:** Assessment construct specificity improved; external skill, video, and learner-outcome verification remain outside these editorial checks.
+
+## BEL101 Weeks 04–05 count and adaptation review (November 2026)
+
+- **W04:** Seated instructions now distinguish a complete eight-count bilateral snake-arm study from a **separate** eight-count chest-oval study, with explicit directions and stable chair support. A hand-traced substitution does not establish chest isolation. Quiz keys **C,A,D,B** unchanged.
+- **W05:** Replaced purely conceptual success question with two count-specific eight-count trials covering slides, circle and pulses; mark on/off/unobservable and separately assess pathway understanding. Removed duplicated checkpoint disclaimer. Quiz keys **B,D,A,C** unchanged.
+
+**Decision:** Targeted practice/assessment completeness improved. Independent source-video and movement proficiency remain unverified.
