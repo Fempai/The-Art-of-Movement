@@ -549,3 +549,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04 Chance composition:** The 16-count draw now has an explicit second 16-count development within the final 32-count section. Quiz keys B,B,C,D checked. At 80 BPM, 160 beats equal 120 seconds, excluding unscored breaks.
 
 **Decision:** Targeted editorial pass completed for CMP502-01 through 04. Scholarly passage verification, observed performance quality, and professional adjudication remain outstanding.
+
+## SCI503 targeted editorial review (November 2026)
+
+- **01 Practice variability:** Standardized and logged comfortable rest; seated variant preserves counts but does not measure standing balance. Quiz keys B,B,C,D checked. One immediate post-break check is not long-term retention.
+- **02 Retrieval and spacing:** Delayed logs now explicitly capture intervening rehearsal, prompts, real dates, and four chunk scores. Quiz keys B,C,A,D checked. Retrieval and spacing effects are not experimentally isolated.
+- **03 Feedback:** Fixed camera/tempo and uncertainty labels distinguish immediate notes from frame-level video measurement. Quiz keys B,B,C,D checked. Video does not diagnose hidden joint forces.
+- **04 Retention and fatigue:** Four binary action-and-timing chunk criteria and uncertainty reporting make the 0–4 score reproducible. Quiz keys B,C,A,D checked. Delayed data remain uncollected until actual follow-up dates.
+
+**Decision:** Targeted editorial pass completed for SCI503-01 through 04. Scholarly passage verification, empirical retention outcomes, and independent scientific review remain outstanding.
