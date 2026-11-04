@@ -50,6 +50,11 @@ console.log('PASS: '+reorderedQ1.length+' Q1 answer-feedback label regressions.'
 // Text checks are targeted consistency guards, not proof of technique or learning.
 const contracts = [
   {
+    id: 'BEL101-W08',
+    guided: ['**Modification:** Sit in a stable nonrolling chair', '**5–6** trace a small comfortable loop', 'neither substitutes for demonstrated standing hip-slide'],
+    assignment: ['Week 8 eight-count phrase twice', 'standing or seated support are comparable']
+  },
+  {
     id: 'LAB101-03',
     guided: ['**Seated option:**', '9 with a small leftward seated-pressure shift', '8→9 boundary'],
     assignment: ['two-phrase (16-count) A–B retrieval log', 'one immediate and one delayed attempt']
