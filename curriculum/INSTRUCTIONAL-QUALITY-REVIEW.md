@@ -99,3 +99,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **C** (half-circle 5–6), Q2 **B** (isolate counts 3–6), Q3 **A** (connected seated hand pathways), Q4 **D** (deliberate connection with repeatable counts and support). All four keyed choices align with the revised lesson and its transition objective; alternatives omit a component, move the count boundary, or prioritize size over repeatability.
 
 **Decision and limitations:** Targeted instructional clarity and quiz-key review completed. The planned video is not independently verified against the written drill, and neither observed physical technique nor cultural attribution is certified.
+
+## Targeted editorial check — BEL101-W11 (November 2026)
+
+**Issue and revision:** The Week 11 preparatory exercise previously directed a two-count inhale followed by abdominal engagement and release, potentially implying learners should force their breathing cycle to match music. Revised to prioritize natural unforced breathing, make engagement on count 3 and release on 4 explicit, and allow hand-marked counts when breathing and music differ. The torso wave on 5–6 is optional and not evidence of a complete belly roll.
+
+**Four-question quiz check:** Q1 **B** (gentle engage/release), Q2 **C** (omit uncomfortable wave), Q3 **A** (seated breath-linked release), Q4 **D** (introductory preparation only). The keyed choices match the written practice and its limited learning objective; distractors preserve discomfort, omit release, or claim unsupported mastery.
+
+**Decision and limits:** Targeted editorial count, modification, and answer-key review completed. No physiological or medical safety guarantee, independent demonstration of belly-roll technique, original-video comparison, or observed learner performance.
