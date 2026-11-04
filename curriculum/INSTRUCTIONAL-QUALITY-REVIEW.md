@@ -645,3 +645,7 @@ The written drill correctly requires pulses and arms simultaneously on counts 5�
 - **BEL101-03:** 'Soften and release one knee, then the other' could be read as two actions per beat despite the one-action-per-count objective. Explicitly mapped **R–L–R–L–R–L–R–L** and clarified neutral return occurs as the other side acts; added a stable-chair right-left pressure adaptation and matching assignment. Quiz keys **D,B,A,C** unchanged. This is editorial count logic, not independent technique assessment.
 
 **Decision:** Both targeted count/terminology defects corrected; source passage verification and physical learner testing remain open.
+
+## BEL101-04 composition direction audit (November 2026)
+
+The repeat variation reverses **left/right orientation** but not the time order of its actions. Changed 'reverse'/'reversed half-circle' to **mirrored left-start half-oval** in guided practice and assignment. Existing quiz keys **B,D,A,C** remain aligned; no answer option depends on incorrectly calling this a time reversal. **Decision:** Written terminology corrected; no claim of authenticated regional choreography or practitioner-reviewed technique.
