@@ -51,6 +51,11 @@ console.log('PASS: '+reorderedQ1.length+' Q1 answer-feedback label regressions.'
 // Text checks are targeted consistency guards, not proof of technique or learning.
 const contracts = [
   {
+    id: 'BEL101-W16',
+    guided: ["sharing the label 'circle' is not enough", 'compare counts 1–4 only'],
+    assignment: ['slide-and-return timing on counts 1–4', 'only when the recorded direction, start/end position']
+  },
+  {
     id: 'BEL101-W13',
     guided: ['**The 4→5 boundary changes travel direction at the pelvis', 'without another downward arrival or hold'],
     assignment: ['direction reversed on 4→5', 'boundary unobservable']
