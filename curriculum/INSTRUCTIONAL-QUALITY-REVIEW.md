@@ -684,3 +684,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W14:** Replaced a generic progression check with two scored 16-count attempts and explicit A7/A8/B1/B2 boundary observations (global counts 7–10), including 'unobservable' and a clear distinction between segmented rehearsal and a connected phrase. Quiz keys **B,C,A,D** unchanged; seated sequencing does not establish standing knee technique.
 
 **Decision:** Targeted written instruction and assessment improved; no live performance or independent source validation claimed.
+
+## BEL101 Weeks 12 and 15 missing-observation audit (November 2026)
+
+- **W12:** Preserved four planned overlapping counts while adding a separate observable-count denominator; unobservable is neither demonstrated success nor confirmed failure. All-unobservable attempts are not assessable, not 0% coordination. Quiz keys **B,C,A,D** remain aligned.
+- **W15:** Explicitly distinguish on-time, off-time, unobservable, omitted optional torso action, and hand-traced substitution at the count-4-to-5 transition and count-7-to-8 return. A deliberate omission cannot be counted as performed torso technique. Quiz keys **C,A,D,B** remain aligned.
+
+**Decision:** Corrected evidence-scoring ambiguity; these remain desk-based editorial reviews without witnessed learners or authenticated source demonstrations.
