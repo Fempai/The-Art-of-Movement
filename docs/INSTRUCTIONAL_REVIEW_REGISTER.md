@@ -2686,3 +2686,54 @@ No live browser test, actual technique adjudication, citation passage audit or l
 9. **Reader experience — NEEDS REVIEW:** Deployed lesson display, quiz feedback, source links and assignment UI not tested.
 
 **Provisional corrected cumulative core ledger:** **68/97 core lessons**, **612/873 core judgments**: **408 internal PASS**, **204 NEEDS REVIEW**, **0 internal FAIL identified**, **29 core lessons remaining**. Separately, 13 BEL101-W04–W16 Friday supplements reviewed; combined 81 distinct files, 729 judgments (486 PASS, 243 NEEDS REVIEW). Final canonical inventory crosswalk, source verification, expert adjudication, real learner outcomes, and deployed browser tests remain open.
+
+
+## Nine-dimension instructional validation — CMP502-01–04 — 2026-11-04
+
+**Scope:** Four Advanced Composition lessons, 16 knowledge-check items, score arithmetic, adaptations and assignments checked. Internal textual validation does not constitute independent expert adjudication.
+
+### CMP502-01 — Retrograde
+1. **Outcome alignment — PASS (text):** Compositional rule is taught, demonstrated, compared and assessed.
+2. **Practice sequence — PASS (text):** Original step/gather/reach/return on 1–2/3–4/5–6/7–8; viable reverse mapped to extend/draw inward/open hands/leftward shift, with changed starting pose disclosed.
+3. **Movement correctness — NEEDS REVIEW:** Real execution and professional movement safety have not been observed.
+4. **Modifications — PASS (text):** Seated supported pressure shift rather than standing step; no literal unsafe momentum reversal.
+5. **Self-correction — PASS (text):** Label what is reversed and which actions are physically redesigned.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; question alternatives and rationales checked. Count arithmetic independently checked.
+7. **Assignment — PASS (text):** Two eight-count scores, mapping, support, two rehearsals and reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Blom/Chaplin and H'Doubler metadata and passage-level support await independent verification.
+9. **Reader experience — NEEDS REVIEW:** Live lesson, quiz, media and assignment submission not tested.
+
+### CMP502-02 — Canon
+1. **Outcome alignment — PASS (text):** Compositional rule is taught, demonstrated, compared and assessed.
+2. **Practice sequence — PASS (text):** A phrases on global 1–4 and 5–8; B on 3–6 and 7–10; two-count delay and overlaps 3–4, 7–8; B tail not silently cropped.
+3. **Movement correctness — NEEDS REVIEW:** Real execution and professional movement safety have not been observed.
+4. **Modifications — PASS (text):** Two-row written timeline or layered self-recording; single body-part echo not called live duet.
+5. **Self-correction — PASS (text):** Use common count cue, preserve global counts 9–10, and label simulation honestly.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; question alternatives and rationales checked. Count arithmetic independently checked.
+7. **Assignment — PASS (text):** Two-layer timeline, timing correction, optional recording and reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Blom/Chaplin and H'Doubler metadata and passage-level support await independent verification.
+9. **Reader experience — NEEDS REVIEW:** Live lesson, quiz, media and assignment submission not tested.
+
+### CMP502-03 — Accumulation
+1. **Outcome alignment — PASS (text):** Compositional rule is taught, demonstrated, compared and assessed.
+2. **Practice sequence — PASS (text):** Stages A=2, A+B=4, A+B+C=6, A+B+C+D=8 counts; C direction may change without changing addition rule.
+3. **Movement correctness — NEEDS REVIEW:** Real execution and professional movement safety have not been observed.
+4. **Modifications — PASS (text):** Seated shift on action A retains accumulation rule but not standing travel.
+5. **Self-correction — PASS (text):** Restore omitted B and avoid claiming every stage is eight counts.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **A, C, B, D**; question alternatives and rationales checked. Count arithmetic independently checked.
+7. **Assignment — PASS (text):** Four-stage score, memory check, correction, single-variable second pass.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Blom/Chaplin and H'Doubler metadata and passage-level support await independent verification.
+9. **Reader experience — NEEDS REVIEW:** Live lesson, quiz, media and assignment submission not tested.
+
+### CMP502-04 — Fragmentation and chance
+1. **Outcome alignment — PASS (text):** Compositional rule is taught, demonstrated, compared and assessed.
+2. **Practice sequence — PASS (text):** Four 4-count fragments drawn with replacement; 16-count module; five 32-count sections at 80 BPM = 160 beats = 120 seconds.
+3. **Movement correctness — NEEDS REVIEW:** Real execution and professional movement safety have not been observed.
+4. **Modifications — PASS (text):** Nonslip space, small supported movements, recorded safety edits; video optional.
+5. **Self-correction — PASS (text):** Safety redraw logged, no hidden repetitions, count 16→17 transition and recalculate different tempo.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; question alternatives and rationales checked. Count arithmetic independently checked.
+7. **Assignment — PASS (text):** 2–4-minute score with three devices, transparent draw log, rehearsal reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Blom/Chaplin and H'Doubler metadata and passage-level support await independent verification.
+9. **Reader experience — NEEDS REVIEW:** Live lesson, quiz, media and assignment submission not tested.
+
+**Provisional core ledger:** **72/97 core lessons**, **648/873 judgments** (**432 internal PASS**, **216 NEEDS REVIEW**, **0 internal FAIL identified**), **25 core lessons remain**. Supplemental BEL101-W04–W16: 13 additional reviewed files. Combined 85 files, 765 judgments (510 PASS, 255 NEEDS REVIEW). Inventory crosswalk and external validation remain outstanding.
