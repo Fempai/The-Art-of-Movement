@@ -518,3 +518,20 @@ test('restoring one studio week preserves separate weeks and respects cancelled 
  await page.goto(base+'/weekly-studio.html?week=6');
  await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
 });
+
+// Never claim that a daily studio record was saved if browser storage rejects writes.
+test('weekly studio clearly warns when local storage rejects a save',async({page})=>{
+ await page.addInitScript(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_weekly_studio_v1_3')throw new DOMException('Storage quota exceeded','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ await page.goto(base+'/weekly-studio.html?week=3');
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await expect(page.locator('#progress')).toContainText('Not saved: browser storage is unavailable');
+ await expect(page.locator('#progress')).toContainText('Export this week');
+ await page.reload();
+ await expect(page.locator('#progress')).toContainText('0 of 7');
+});
