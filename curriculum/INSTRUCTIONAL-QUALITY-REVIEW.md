@@ -107,3 +107,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **B** (gentle engage/release), Q2 **C** (omit uncomfortable wave), Q3 **A** (seated breath-linked release), Q4 **D** (introductory preparation only). The keyed choices match the written practice and its limited learning objective; distractors preserve discomfort, omit release, or claim unsupported mastery.
 
 **Decision and limits:** Targeted editorial count, modification, and answer-key review completed. No physiological or medical safety guarantee, independent demonstration of belly-roll technique, original-video comparison, or observed learner performance.
+
+## Targeted editorial check — BEL101-W12 (November 2026)
+
+**Issue and revision:** The Week 12 practice already distinguished sequential rehearsal from simultaneous layering, but did not specify the right/left pulse on individual counts or a repeatable order for adding the arm pathway. Revised to spell out R–L–R–L on 1–4 and 5–8, describe a comfortable gradual arm opening over the latter four counts, and explicitly separate pulses-only, arms-only, and overlapping trials. This makes the simultaneous-coordination objective directly observable.
+
+**Four-question quiz check:** Q1 **B** (pulses continue while arms open), Q2 **C** (rehearse layers separately then recombine), Q3 **A** (seated simultaneous foot pressure and arm opening), Q4 **D** (limited coordination claim at practiced tempo). All four keyed answers align with the lesson; distractors substitute sequential movements, omit one layer, or overclaim technique transfer.
+
+**Decision and limitations:** Targeted instructional/quiz editorial check completed. Seated foot-pressure coordination is an adaptation rather than proof of standing technique. Video content, practitioner-defined layering methods, and physical learning outcomes remain unverified.
