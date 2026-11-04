@@ -2000,3 +2000,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Live reader, media and quiz feedback not exercised.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101 and CON101 = **28/97 unique lessons**, **252/873 judgments recorded**: **168 internal PASS**, **84 NEEDS REVIEW**, **0 observed internal FAIL**. **69 lessons** remain for nine-dimension review. These figures reflect internal editorial coverage, not independent movement certification or validated learner outcomes.
+
+
+## Nine-dimension instructional validation — HIP101-01–04 — 2026-11-04
+
+**Method:** Reviewed four learner-facing hip-hop foundations texts, guided eight-count patterns, sixteen keyed items and explanations, seated adaptations, independent tasks and stated attribution boundaries. PASS means internal textual alignment only, not community-endorsed technique or independently verified scholarship.
+
+### HIP101-01 — Groove, pulse and weight
+1. **Outcome alignment — PASS (text):** Pulse, weight shift, accents, personal rhythmic choices and cultural attribution appear in explanation, practice, quiz and assignment.
+2. **Practice sequence — PASS (text):** Shift right 1/center 2/left 3/center 4, step right 5/gather 6/step left 7/settle 8; second phrase adds numbered-beat shoulder accents on 2 and 4 without calling them 'and' offbeats.
+3. **Movement correctness — NEEDS REVIEW:** Small knee pulses and foot support are internally conservative; community-specific groove quality and biomechanics not independently evaluated.
+4. **Modifications — PASS (text):** Stable seated pressure shifts and arm reaches preserve count/rhythm but explicitly do not replicate standing transfers.
+5. **Self-correction — PASS (text):** Knee discomfort, rushed pulse and rigid poses prompt range reduction, count isolation and smoother shifts.
+6. **Quiz correctness — PASS (internal):** Q1 B (pulse/weight/movement), Q2 C (rhythmic character), Q3 A (community context), Q4 D (shallow/seated).
+7. **Assignment — PASS (text):** Sixteen-count A/B accent comparison, support-foot log, cultural claim with evidence and deliberately withheld claim align.
+8. **Evidence and cultural care — NEEDS REVIEW:** Avoids universalizing invented grooves, but Chang/Rose/Schloss title-level metadata and source passages remain unverified.
+9. **Reader experience — NEEDS REVIEW:** Deployed quiz, playback, links and submission untested.
+
+### HIP101-02 — Bounce and rebound
+1. **Outcome alignment — PASS (text):** Down/up accent, comfortable pulse, timing observation and limitations appear in all components.
+2. **Practice sequence — PASS (text):** Lower on 1/3/5/7, rise on 2/4/6/8; repeat with changed emphasis but similar range and tempo.
+3. **Movement correctness — NEEDS REVIEW:** Coordinated ankle/knee/hip bounce and knee-comfort cues internally plausible; movement quality and individual safety require qualified review.
+4. **Modifications — PASS (text):** Stable-chair torso pulse and sitting-pressure shift explicitly not identical to standing lower-limb loading.
+5. **Self-correction — PASS (text):** Knee pressure, jerky rebound and missing accent prompt shallow range, smooth return and beat clapping.
+6. **Quiz correctness — PASS (internal):** Q1 B (lowering emphasis), Q2 C (slowing changes timing task), Q3 A (reduce depth/seated), Q4 D (recorded count alignment).
+7. **Assignment — PASS (text):** Two eight-count down-versus-up accent scores, comparable depth/tempo and bounded cultural claim match studio.
+8. **Evidence and cultural care — NEEDS REVIEW:** Classroom drill distinguished from historical tradition; exact ethnographic citations unverified.
+9. **Reader experience — NEEDS REVIEW:** Live reader and media not tested.
+
+### HIP101-03 — Syncopation and call-and-response
+1. **Outcome alignment — PASS (text):** Pulse versus 'and' subdivision, offbeat accent and question–answer exchange explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** Clap 1/3/5/7, tap 2-and/6-and, count remaining beats; standing step/settle or seated clap/tap; two-count question then answer.
+3. **Movement correctness — NEEDS REVIEW:** Offbeat placements are internally count-consistent, but style-specific musical phrasing and embodied accuracy not independently reviewed.
+4. **Modifications — PASS (text):** Seated claps and taps preserve offbeat skill; simplify footwork without dropping the subdivision.
+5. **Self-correction — PASS (text):** Lost offbeats, pulse or meter prompt isolate taps, speak even beats and identify expected emphasis.
+6. **Quiz correctness — PASS (internal):** Q1 B (recurring pulse), Q2 C (unexpected metric emphasis), Q3 A (answering exchange), Q4 D (clap/count first).
+7. **Assignment — PASS (text):** Phrase A offbeat taps and phrase B 9–16 call-and-response, explicit global/local counts and evidence-limited reflection match lab.
+8. **Evidence and cultural care — NEEDS REVIEW:** Does not attribute invented phrase to a community; actual hip-hop histories and sources unverified.
+9. **Reader experience — NEEDS REVIEW:** Live audio timing, quiz feedback and submission untested.
+
+### HIP101-04 — Cultural foundations and attribution
+1. **Outcome alignment — PASS (text):** Historical context, distinct traditions, documented versus invented moves and precise attribution assessed.
+2. **Practice sequence — PASS (text):** Groove pressure shifts 1–4, arm answer 5–6, comfortable facing/gaze 7, settle 8; second phrase alters one documented choice.
+3. **Movement correctness — NEEDS REVIEW:** Safe small turns and knee-pivot cautions internally coherent, but community technique and historical claims require outside validation.
+4. **Modifications — PASS (text):** Stable seated pressure/gaze alternative, reduced bounce and explicit non-equivalence to historical dance forms.
+5. **Self-correction — PASS (text):** Conflating breaking/popping/locking, unknown origins and invented authenticity claims prompt precise names, uncertainty labels and sourcing.
+6. **Quiz correctness — PASS (internal):** Q1 B (Bronx Black/Latino communities), Q2 C (distinct histories), Q3 A (record uncertainty), Q4 D (own count sheet).
+7. **Assignment — PASS (text):** Two eight-count original phrases, source-specific historical claim, unsupported-claim restraint and 250–350-word comparison align.
+8. **Evidence and cultural care — NEEDS REVIEW:** Strong explicit attribution safeguards; no independent passage verification for Bronx context, books or specific cultural claims.
+9. **Reader experience — NEEDS REVIEW:** Actual external links, quiz and assignment UI not tested.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101 and HIP101 = **32/97 unique lessons**, **288/873 judgments recorded**: **192 internal PASS**, **96 NEEDS REVIEW**, **0 observed internal FAIL**. **65 lessons** remain. These counts reflect editorial review coverage rather than expert technique, community validation, source authenticity or learner effectiveness.
