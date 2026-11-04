@@ -777,3 +777,26 @@ test('Assessment History does not claim a backup merge succeeded when storage is
  await expect(page.locator('#status')).toContainText('Save failed');
  await expect(page.locator('.entry')).toHaveCount(0);
 });
+
+test('Failed assessment import leaves no ghost entries when a later save succeeds',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ const backup={format:'aom_assessment_history_v1',records:[{id:'ghost-import',skill:'Ghost entry',notes:'Must not persist',week:2,created:'2026-01-01T00:00:00Z',source:'Self-reflection',drill:''}]};
+ await page.evaluate(()=>{
+  window.originalAssessmentSetItem=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_assessment_history_v1')throw new DOMException('Storage full','QuotaExceededError');
+   return window.originalAssessmentSetItem.call(this,key,value);
+  };
+ });
+ await page.locator('#import').setInputFiles({name:'ghost.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await expect(page.locator('#status')).toContainText('Save failed');
+ await page.evaluate(()=>{Storage.prototype.setItem=window.originalAssessmentSetItem});
+ await page.locator('[name=skill]').fill('Real assessment');
+ await page.locator('[name=notes]').fill('Persist only this assessment');
+ await page.locator('#form button').click();
+ await expect(page.locator('.entry')).toHaveCount(1);
+ await page.reload();
+ await expect(page.locator('.entry')).toHaveCount(1);
+ await expect(page.locator('.entry')).toContainText('Real assessment');
+ expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('aom_assessment_history_v1')).some(x=>x.id==='ghost-import'))).toBe(false);
+});
