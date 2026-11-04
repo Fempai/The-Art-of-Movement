@@ -623,3 +623,7 @@ The prior upper-torso-circle text called a left-start pathway with the same forw
 ## BEL101-W09 evidence-logic correction (November 2026)
 
 **Q4 travel inference:** A rightward step alone does not prove net floor displacement. Revised the question to require an observed new marked floor position, and the explanation to distinguish a step from documented travel. Key **D** remains supported; the other options still claim unrelated consistency, loop equality or unverified video correspondence. The lesson already calls for a safe starting/ending reference. **Limit:** Editorial reasoning check only, not an observed movement trial or video playback check.
+
+## BEL101-W11 breathing and assessment alignment (November 2026)
+
+The guided drill explicitly permits a natural breath cycle that does not align with two musical counts, but the generic steady-count progression checkpoint risked treating breath timing as a mistake. Clarified that count accuracy measures the marked phrase, **not** inhale/exhale duration; added observation of breath-holding and discomfort as reasons to modify or stop, not as count errors. Existing quiz keys **B,C,A,D** remain supported. **Limit:** This is written assessment alignment, not clinical breathing instruction or observed technique validation.
