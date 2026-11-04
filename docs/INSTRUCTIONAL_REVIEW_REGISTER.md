@@ -1745,3 +1745,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Actual deployed sequence, media and quiz feedback not inspected.
 
 **Cumulative nine-dimension ledger:** MOV101 and DNC101 = **8/97 unique lessons**, **72/873 judgments documented**: **48 internal PASS**, **24 NEEDS REVIEW**, **0 observed internal FAIL**. No NEEDS REVIEW is counted as validated; 89 lessons remain to receive nine-dimension entries. This is a coverage count, not 8 lessons certified.
+
+
+## Nine-dimension instructional validation — HIS101-01–04 — 2026-11-04
+
+**Method:** Inspected current four HIS101 final lessons, lectures, guided document labs, four keyed questions per lesson, answer explanations, research deliverables, and bibliographies. PASS means internally verifiable instructional text. External passage-level historical source authentication and live UI were not performed. The movement-correctness dimension is **NEEDS REVIEW (not applicable to execution; source-dependent)** for these document-analysis lessons rather than an unearned technique PASS.
+
+### HIS101-01 — Context
+1. **Outcome alignment — PASS (text):** Context, observation/inference distinction, source evaluation and auditable writing explicitly taught and tested in four-column comparison and claim audit.
+2. **Practice sequence — PASS (text):** Source metadata 5 minutes; ballet/hip-hop comparison 15–20; alternative explanation 5; original Undercurrent attribution 5; self-check instructions included.
+3. **Movement correctness — NEEDS REVIEW:** No dance technique execution is taught; accuracy of historical examples and cultural claims requires source-level review, not physical validation.
+4. **Modifications — PASS (text):** Document-only research lab requires no physical dance; unknown metadata can be marked unknown, and hypothetical photo caption avoids inaccessible invented archival evidence.
+5. **Self-correction — PASS (text):** Highlight every origin/date/creator/generalization, find exact supporting passage or narrow/remove, preserve URL/access date and alternative explanation.
+6. **Quiz correctness — PASS (internal):** Q1 B (access to spaces), Q2 C (visible photo details), Q3 B (multiple contributors), Q4 A (unknown origin). Distractors infer unsupported histories or substitute physical technique.
+7. **Assignment — PASS (text):** Two separate tables (context and four-row claim-evidence audit), statuses, 250–350-word interpretation and specific rubric align with research outcomes.
+8. **Evidence and cultural care — NEEDS REVIEW:** Avoids single-origin narratives and distinguishes ballet/hip-hop settings, but cited book passages and publisher links not authenticated.
+9. **Reader experience — NEEDS REVIEW:** No live source-link, quiz feedback, or assignment UI test.
+
+### HIS101-02 — Lineage
+1. **Outcome alignment — PASS (text):** Transmission, institutional bias, firsthand versus secondary evidence and documented versus hypothetical lineage are taught and tested.
+2. **Practice sequence — PASS (text):** Source identification 5 minutes, two separately labeled hypothetical evidence maps and real-source inquiry 15–20, challenge 5, attribution reflection 5.
+3. **Movement correctness — NEEDS REVIEW:** Historical transmission examples are not movement demonstrations; accuracy of specific lineage claims remains externally unverified.
+4. **Modifications — PASS (text):** Written evidence maps can be completed without dance performance; unverified arrows explicitly labeled hypothetical, unknown fields permitted.
+5. **Self-correction — PASS (text):** Independent feedback requires precise source support, explicit uncertainty, alternatives and quote verification.
+6. **Quiz correctness — PASS (internal):** Q1 A (transmission), Q2 B (archive selection bias), Q3 A (hypothetical arrows), Q4 A (practitioner interview as primary evidence of their report); alternatives conflate visibility with verified genealogy.
+7. **Assignment — PASS (text):** Evidence maps and source-qualified lineage analysis require auditable attribution and limits; rubric scores historical precision, sources and alternatives.
+8. **Evidence and cultural care — NEEDS REVIEW:** Does not privilege institutional over community transmission, but precise historical source claims unverified.
+9. **Reader experience — NEEDS REVIEW:** Live source links, assessment feedback and submission not checked.
+
+### HIS101-03 — Attribution
+1. **Outcome alignment — PASS (text):** Distinguishes performed, created, popularized and uploaded; applied to hypothetical caption rewrites, real clip attribution and claim ledger.
+2. **Practice sequence — PASS (text):** Source metadata, three hypothetical caption revisions, real clip log with credit and timestamp, alternative explanation and original Undercurrent attribution; steps are sequential.
+3. **Movement correctness — NEEDS REVIEW:** No physical movement technique assessed; provenance of any learner-selected clip is not authenticated.
+4. **Modifications — PASS (text):** Written captions and source log require no physical demonstration; missing performer/creator/credit can be labeled not established rather than invented.
+5. **Self-correction — PASS (text):** Separate performance from invention/popularization, verify verbatim credits, revise unsupported claims and retain uncertainty.
+6. **Quiz correctness — PASS (internal):** Q1 B (performed in recording), Q2 B (popularization does not imply creation), Q3 C (creator unestablished), Q4 B (citation does not confer reuse rights); distractors overclaim ownership or chronology.
+7. **Assignment — PASS (text):** Three rewritten captions, real clip metadata/credit log, four-row claim-evidence table and bounded interpretation assess provenance reasoning.
+8. **Evidence and cultural care — NEEDS REVIEW:** Appropriate distinction among creator/performer/uploader and permission versus citation, but actual clip rights and specific attribution require verification.
+9. **Reader experience — NEEDS REVIEW:** No live clip loading, rights prompt or reader quiz/submission test.
+
+### HIS101-04 — Critical reading
+1. **Outcome alignment — PASS (text):** Evaluate evidence types, compare two traditions without false equivalence, address disagreement and write a defensible historical comparison.
+2. **Practice sequence — PASS (text):** Metadata 5 minutes; four distinct sources across two practices, at least four evidence rows and 600-word draft 15–20-minute guided slot; alternative 5 and Undercurrent connection 5.
+3. **Movement correctness — NEEDS REVIEW:** No dance exercise; historical and cultural source accuracy needs independent passage verification.
+4. **Modifications — PASS (text):** Research-only work; inaccessible primary testimony may be marked unavailable rather than fabricated, with limitations explicit.
+5. **Self-correction — PASS (text):** Compare provenance and competing claims, narrow wording, cite exact pages/passages, mark unavailable primary accounts.
+6. **Quiz correctness — PASS (internal):** Q1 A (direct practitioner interview), Q2 B (claim specificity), Q3 C (evaluate disagreement), Q4 B (secondary synthesis); distractors assert universal proof or conceal conflict.
+7. **Assignment — PASS (text):** Four-source minimum, two claim rows per practice, precise source locations, 600-word structured comparison and bibliography; explicit replacement of shorter default task.
+8. **Evidence and cultural care — NEEDS REVIEW:** Safeguards against invented single origins and false universality, but cited monograph passages and publisher links remain unverified.
+9. **Reader experience — NEEDS REVIEW:** No actual bibliography-link, quiz or submission browser test.
+
+**Cumulative nine-dimension ledger:** MOV101 + DNC101 + HIS101 = **12/97 unique lessons**, **108/873 judgments recorded**: **72 internal PASS**, **36 NEEDS REVIEW**, **0 internal FAIL**. Remaining **85 lessons** unreviewed under nine dimensions. Four HIS101 research-only lessons have no physical movement to certify; the third dimension is conservatively marked NEEDS REVIEW rather than counted as a physical technique pass.
