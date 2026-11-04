@@ -17,6 +17,22 @@ For each lesson, record its ID, reviewer/date, and an evidence-based result for 
 | Evidence and cultural care | Claims supported, traditions distinguished, limitations disclosed | NEEDS REVIEW |
 | Reader experience | Complete lesson, video, questions, feedback, assignment work in UI | NEEDS REVIEW |
 
+## Assessment-validity closure ledger (required before declaring this workstream complete)
+
+**Inventory:** 97 lessons × 4 questions = **388 question-level judgments**; 97 lesson assignments/outcome alignments. The broader nine-dimension gate requires **873 documented dimension judgments**. These counts are denominators, **not verified completions**. Editorial corrections already pushed are evidence of work performed but do not silently populate the ledger.
+
+For each lesson, capture the following alongside the nine-dimension record:
+
+| Required field | Evidence and permitted result |
+| --- | --- |
+| Q1, Q2, Q3, Q4 | For **each**: keyed option; precise taught passage; why it is uniquely best; whether each distractor is incorrect but plausible; **PASS / FAIL / NEEDS REVIEW** |
+| Guided-to-assignment alignment | Count/pathway/support/observable evidence in guided practice versus assignment; **PASS / FAIL / NEEDS REVIEW** |
+| Assignment-to-outcome alignment | Deliverable and rubric criterion that measure each stated learning outcome; **PASS / FAIL / NEEDS REVIEW** |
+| Fix and re-test | Exact correction commit, if any; subsequent latest-head CI result |
+| Source limitation | Explicit **NEEDS REVIEW** when technique, attribution, or video content cannot be independently checked |
+
+**Closure report:** number of lessons with all four question judgments documented **out of 97**, number of individual question judgments **out of 388**, number of lessons with both alignment judgments **out of 97**, unresolved internal FAIL count, and latest-head CI result. Report missing decisions as **unrecorded**, not PASS. The assessment-validity workstream is complete only when all these judgments are recorded and no internal FAIL remains; full instructional validation requires the separate nine-dimension gate.
+
 ## Review record (duplicate once per lesson)
 
 **Lesson ID:** `BEL101-01` (example; replace)
