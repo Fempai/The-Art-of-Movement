@@ -2153,3 +2153,106 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes and multimedia not exercised.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101 and CMP101 = **40/97 unique lessons**, **360/873 judgments recorded**: **240 internal PASS**, **120 NEEDS REVIEW**, **0 observed internal FAIL**. **57 lessons** remain for nine-dimension entries. These counts reflect editorial coverage, not independently validated performance or learning outcomes.
+
+
+## Nine-dimension instructional validation — PER201-01–04 — 2026-11-04
+
+**Method:** Fresh review of current lesson text, scored practice, sixteen keyed items/rationales, adaptations and rubrics. Each of nine decisions below is distinct. PASS = internal text consistency, not observed performer ability.
+
+### PER201-01 — Audience focus
+1. **Outcomes — PASS:** Observable gaze choice, two/three contrasting takes and evidence-bounded critique taught and assessed.
+2. **Practice — PASS:** A hand gaze 5–6, B audience gaze from 5, C lowered gaze through 6 then raised on 7; two repetitions and fixed camera framing.
+3. **Technique — NEEDS REVIEW:** Neck and balance demands are reduced but actual safe gaze coordination unobserved.
+4. **Modifications — PASS:** Supported seated pressure shift and eye-only alternative; standing step equivalence disclaimed.
+5. **Self-correction — PASS:** Unsteady head turn → eye-only focus; indistinguishable versions → sustain target through full count.
+6. **Quiz — PASS:** Q1 B visual target; Q2 C visible orientation; Q3 A stable head; Q4 D focus may alter emphasis. Other options infer motive, universal reception or unrelated variables.
+7. **Assignment — PASS:** Three scored versions, gaze-change count, support/facing, three observations and 250–350-word critique match lab.
+8. **Sources/cultural care — NEEDS REVIEW:** Foster, Adshead and Smith-Autard cited; edition/passage support not verified; no universal gaze meaning claimed.
+9. **Reader — NEEDS REVIEW:** No deployed media, quiz or submission test.
+
+### PER201-02 — Intention
+1. **Outcomes — PASS:** Chosen intention versus visible expressive variable and audience interpretation explicitly separated.
+2. **Practice — PASS:** Invitation open-palm 5–6; question brief within-beat hesitation 5; boundary shorter reach 5, pause 6, decisive return 7–8; no extra beat.
+3. **Technique — NEEDS REVIEW:** Controlled reach and breathing guidance internally cautious; execution not observed.
+4. **Modifications — PASS:** Stable seated pressure shift and neutral action-based prompts for emotionally uncomfortable trials.
+5. **Self-correction — PASS:** If versions look identical, change one duration/stop point; document confounding variables.
+6. **Quiz — PASS:** Q1 B chosen purpose; Q2 C distance/recovery; Q3 A visible shorter stop; Q4 D neutral intention. Distractors assert mind-reading or demand distress.
+7. **Assignment — PASS:** Three eight-count scores, three observable contrasts, one revision and 250–350-word critique align.
+8. **Sources/cultural care — NEEDS REVIEW:** Emotional universals rejected; source passages and metadata unchecked.
+9. **Reader — NEEDS REVIEW:** Live playback/feedback/submission untested.
+
+### PER201-03 — Stage presence
+1. **Outcomes — PASS:** Observable entrance, stillness, recovery and evidence-based critique represented.
+2. **Practice — PASS:** A holds still on 8, B introduces extra adjustment; separate entrance 1–4, pause 5–6, supported settle 7–8, motif begins **next** 1.
+3. **Technique — NEEDS REVIEW:** Safe balance recovery prioritized but physical performance not verified.
+4. **Modifications — PASS:** Seated arm entrance and supported stillness; no walking equivalence claimed.
+5. **Self-correction — PASS:** Breathe during stillness, rescore necessary balance step, hold camera position constant.
+6. **Quiz — PASS:** Q1 B observable pause; Q2 B completed pathway; Q3 C same framing; Q4 D revise/use support. Distractors conflate force, personality and safety.
+7. **Assignment — PASS:** Two ending comparisons, eight-count entrance plus separate eight-count motif, three observations and 250–350-word critique.
+8. **Sources/cultural care — NEEDS REVIEW:** Stage presence not equated with innate confidence; scholarly passage verification pending.
+9. **Reader — NEEDS REVIEW:** Live assessment and video untested.
+
+### PER201-04 — Visual clarity
+1. **Outcomes — PASS:** Description/interpretation/evaluation, A′ variation and evidence-limited revision explicitly tested.
+2. **Practice — PASS:** A 1–8, B 9–16, A′ 17–24 (sustained reach 21–23), C 25–32; silent/with-count video route or honest immediate written grid, second attempt.
+3. **Technique — NEEDS REVIEW:** Low-range movements and transition corrections internally coherent; actual technique unobserved.
+4. **Modifications — PASS:** Full seated LAB101-04 route; written observation grid substitutes for unavailable video without claiming sound-off viewing.
+5. **Self-correction — PASS:** Record up to two *actual* discrepancies or 'none observed'; correct unscored steps and framing.
+6. **Quiz — PASS:** Q1 B three-count description; Q2 C longer A′ reach; Q3 A three-part critique; Q4 D reframe cropped feet. Other options infer unseen movement or universal emotion.
+7. **Assignment — PASS:** Two complete 32-count scores, all three boundaries, focus/support, revision and 250–350-word comparison match studio.
+8. **Sources/cultural care — NEEDS REVIEW:** No universal emotion claim; bibliographic details and passages unverified.
+9. **Reader — NEEDS REVIEW:** Deployed reader, quiz and recording integration untested.
+
+**PER201 batch:** 4 lessons; 24 internal PASS, 12 NEEDS REVIEW, zero internal FAIL; 36 decisions.
+
+## Nine-dimension instructional validation — LMA201-01–04 — 2026-11-04
+
+**Method:** Fresh review of all four LMA introductions, four keyed items per lesson, score variants, adaptations and written assignments. These are introductory descriptions, not professional LMA certification.
+
+### LMA201-01 — Body
+1. **Outcomes — PASS:** Body initiation/sequence and observable-versus-psychological inference taught and assessed.
+2. **Practice — PASS:** A fingertips start reach 5, elbow extends 6; B torso shifts 5, arm follows 6; comparable endpoint and counts, three trials.
+3. **Technique — NEEDS REVIEW:** Actual Body-category execution and qualified observation unverified.
+4. **Modifications — PASS:** Stable seated right-pressure step substitute and small torso shift; standing equivalence disclaimed.
+5. **Self-correction — PASS:** Isolate initiation on 5, reduce unstable torso shift, keep grounded support.
+6. **Quiz — PASS:** Q1 B initiating part; Q2 B first segment; Q3 C torso before arm; Q4 D reduce shift. Distractors mix Space/Effort or psychologize.
+7. **Assignment — PASS:** Two eight-count scores, two per-version sequence notes, one initiation-order difference, 200–300-word reflection; no invented second difference.
+8. **Sources/cultural care — NEEDS REVIEW:** Laban, Bartenieff/Lewis, Moore/Yamamoto and research article listed; exact passages/metadata unchecked.
+9. **Reader — NEEDS REVIEW:** No live UI, quiz or media check.
+
+### LMA201-02 — Effort
+1. **Outcomes — PASS:** Weight/Time/Space/Flow dynamic descriptors and visible cues explicitly taught and tested.
+2. **Practice — PASS:** Sustained/light, sudden/controlled, direct, exploratory, and bound/free reach comparisons retain eight-count framework; free-flow continues into 7 and returns by 8.
+3. **Technique — NEEDS REVIEW:** Nuanced qualitative Effort classifications require trained observer; not certified from text.
+4. **Modifications — PASS:** Smaller-range hands-only/seated reach, no violent sudden movement or forced strength.
+5. **Self-correction — PASS:** Separate physical load from Weight Effort, record unintended factor changes, reduce painful range.
+6. **Quiz — PASS:** Q1 B Weight; Q2 A sustained Time; Q3 C Flow; Q4 D maximal-force misconception. Other options confuse Shape, literal space, duration and load.
+7. **Assignment — PASS:** All four factors, comparison cues, confounds and 200–300-word reflection correspond to guided lab.
+8. **Sources/cultural care — NEEDS REVIEW:** LMA citations present; source passage/edition verification pending.
+9. **Reader — NEEDS REVIEW:** Live lesson, media and assessment not tested.
+
+### LMA201-03 — Shape
+1. **Outcomes — PASS:** Enclosing/expanding, changing form versus final pose and Effort distinction assessed.
+2. **Practice — PASS:** Hands in 1–2, open 3–4, gather 5–6, diagonal one-arm opening 7–8; smaller-range version; separate Undercurrent Shape variation clearly marked.
+3. **Technique — NEEDS REVIEW:** Actual shape analysis and shoulder safety not independently observed.
+4. **Modifications — PASS:** Smaller comfortable arm range preserves contrast.
+5. **Self-correction — PASS:** Describe pathway rather than endpoint, avoid forced expansion and distinguish free/bound as Effort.
+6. **Quiz — PASS:** Q1 B arms widened; Q2 B pathways differ; Q3 C Effort; Q4 D smaller range. Distractors confuse timing and fixed pose.
+7. **Assignment — PASS:** Two complete eight-count Shape scores, arm/trunk relation, observations and 200–300-word comparison.
+8. **Sources/cultural care — NEEDS REVIEW:** LMA category is not presented as a psychological diagnosis; external passage verification pending.
+9. **Reader — NEEDS REVIEW:** Deployed reader/quiz untested.
+
+### LMA201-04 — Space
+1. **Outcomes — PASS:** Kinesphere, facing-relative direction and Body/Effort/Shape/Space comparison taught and assessed.
+2. **Practice — PASS:** Planted-foot reach forward 1–2, up-right 3–4, side-right 5–6, return 7–8; four A–D paired comparisons each with baseline, changed variant and fixed eight-count score.
+3. **Technique — NEEDS REVIEW:** Spatial classification and actual range not professionally validated.
+4. **Modifications — PASS:** Stable seated pressure shift, closer targets within comfortable kinesphere, fixed support.
+5. **Self-correction — PASS:** Isolate one factor, hold count/facing/support constant where possible, note confounds.
+6. **Quiz — PASS:** Q1 B reachable space; Q2 C reach direction; Q3 A isolate changed quality; Q4 D introductory score. Distractors confuse stage travel, Effort, Body and formal notation.
+7. **Assignment — PASS:** Four comparison rows each with baseline and changed variant, preliminary reach study, support/facing and 300-word synthesis.
+8. **Sources/cultural care — NEEDS REVIEW:** Explicitly not formal Labanotation/certification; reference metadata and passages unchecked.
+9. **Reader — NEEDS REVIEW:** No live source/media/quiz test.
+
+**LMA201 batch:** 4 lessons; 24 internal PASS, 12 NEEDS REVIEW, zero internal FAIL; 36 decisions.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101, CMP101, PER201 and LMA201 = **48/97 unique lessons**, **432/873 judgments recorded**: **288 internal PASS**, **144 NEEDS REVIEW**, **0 internal FAIL identified**. **49 lessons** remain for nine-dimension entries. External movement correctness, passage-level source accuracy, actual learner effectiveness and live reader acceptance remain unresolved, and are not silently counted as PASS.
