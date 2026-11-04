@@ -371,3 +371,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **A** (direct practitioner interview), Q2 **B** (claim specificity follows evidence), Q3 **C** (evaluate disagreement), Q4 **B** (secondary synthesis). Keys and explanations match the research-methodology teaching.
 
 **Decision and limitations:** Targeted assignment criteria, evidence distribution, and quiz-key editorial review completed. This closes the targeted HIS101 lessons 01–04 editorial pass. Source passages, URLs, and historical assertions remain pending independent verification.
+
+## Targeted editorial check — LAB101-01 (November 2026)
+
+**Issue and revision:** The guided practice called for four repetitions with a left-arm variation on the last attempt, while the assignment assessed two accurate repetitions of the original right-arm motif. Clarified that the left-arm trial is an optional practice variation, not one of the two graded original-motif repetitions. Added a full count-matched seated marking and explicitly distinguished it from standing step execution.
+
+**Four-question editorial answer check:** Q1 **B** (step–gather–reach–recover), Q2 **C** (reach 5–6), Q3 **A** (repeatable timing and support), Q4 **C** (original teaching repertory). Keys and explanations match the lesson.
+
+**Decision and limitations:** Targeted rehearsal-to-assessment alignment, adaptation, and quiz-key editorial review completed. Observed movement quality and source metadata remain unverified.
