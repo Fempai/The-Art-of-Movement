@@ -649,3 +649,10 @@ The written drill correctly requires pulses and arms simultaneously on counts 5�
 ## BEL101-04 composition direction audit (November 2026)
 
 The repeat variation reverses **left/right orientation** but not the time order of its actions. Changed 'reverse'/'reversed half-circle' to **mirrored left-start half-oval** in guided practice and assignment. Existing quiz keys **B,D,A,C** remain aligned; no answer option depends on incorrectly calling this a time reversal. **Decision:** Written terminology corrected; no claim of authenticated regional choreography or practitioner-reviewed technique.
+
+## BEL101 Weeks 05–06 scored-phrase audit (November 2026)
+
+- **W05:** Distinguished a separate four-count loop preparation (right, forward, left, neutral) from the final eight-count phrase, where the loop occupies counts 5–6. No unscored beats are added. Quiz keys **B,D,A,C** remain aligned; video-to-lesson matching is unverified.
+- **W06:** Defined seated alternation with a stable nonrolling chair, supported feet, right on odd counts and left on even counts. This is a rhythmic substitute, not evidence of the named Egyptian shimmy mechanism. Quiz keys **C,A,D,B** remain aligned; original source technique remains unverified.
+
+**Decision:** Targeted count-level instructional clarifications completed; independent demonstration and cultural-source checks remain outstanding.
