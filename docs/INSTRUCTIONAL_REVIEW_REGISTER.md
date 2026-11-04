@@ -1363,3 +1363,46 @@ Scope: SCI503-01–04, sixteen keyed judgments and eight guided/assignment/outco
 - **Limits — NEEDS REVIEW:** Follow-up data and real retention cannot be validated before observation.
 
 **Batch closure:** 4 lessons, 16/16 keyed internal judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL identified. Psychometric discrimination, motor-learning causal effects, actual retention, source verification and latest-head CI remain NEEDS REVIEW.
+
+
+## EST504 formal assessment-validity review — 2026-11-04
+
+Scope: EST504-01–04; 16 keyed items, four guided-to-assignment and four assignment-to-outcome decisions. Internal editorial critique, not passage-verified scholarly criticism or independent audience research.
+
+### EST504-01 — Interpretation
+- **Q1 B — PASS:** Right-arm diagonal reach on 5–6 is observable; A/C/D assume universal emotion or private regret.
+- **Q2 C — PASS:** Observable cues plus alternatives strengthen interpretation; A/B/D substitute authority, drama or mind-reading.
+- **Q3 A — PASS:** Documented intention is relevant but not determinative; B/C/D dismiss evidence or overclaim reception.
+- **Q4 D — PASS:** Evaluate evidence for and against alternative reading; A/B/C dismiss or merely list it.
+- **Guided-to-assignment — PASS:** Two eight-count gaze versions and count-specific observation/interpretation exercise map to essay.
+- **Assignment-to-outcome — PASS (internal):** Neutral descriptions, two competing readings and weakening evidence test situated critique.
+- **Limits — NEEDS REVIEW:** No independent viewer interpretation or recording inspection.
+
+### EST504-02 — Evidence
+- **Q1 B — PASS:** Count score or timestamped recording can establish planned/observed duration respectively; A/C/D cannot.
+- **Q2 C — PASS:** Program note states intention, not universal response; A/B/D conflate source types.
+- **Q3 A — PASS:** Claim, evidence, reasoning, limitation is traceable; B/C/D omit link.
+- **Q4 D — PASS:** Off-frame gesture is unavailable in footage; A/B/C invent execution evidence.
+- **Guided-to-assignment — PASS:** A reach 5–6 versus A′ 21–23 and evidence ledger match comparison exercise.
+- **Assignment-to-outcome — PASS (internal):** Ledger and alternative explanation assess evidence-specific argument.
+- **Limits — NEEDS REVIEW:** Actual recording visibility and scholarship unverified.
+
+### EST504-03 — Ethics
+- **Q1 B — PASS:** Camera angle is an observable limitation; A/C/D infer ability, appearance or shame.
+- **Q2 C — PASS:** Uncertain lineage requires disclosure and practitioner-informed research; A/B/D presume provenance.
+- **Q3 A — PASS:** Visible composition is appropriate critique object; B/C/D infer private motive, identity or diagnosis.
+- **Q4 D — PASS:** 'Inspired by culture' lacks identifiable source; A/B/C are traceable in principle.
+- **Guided-to-assignment — PASS:** Provenance table, two ethical rewrites and source-limit documentation follow lesson.
+- **Assignment-to-outcome — PASS (internal):** Attribution and observed-cue revisions test ethical critique.
+- **Limits — NEEDS REVIEW:** Real cultural-source accuracy requires qualified external corroboration.
+
+### EST504-04 — Abstraction
+- **Q1 B — PASS:** Abstract work may foreground timing/pathway/repetition; A/C/D impose fixed narrative or universal emotion.
+- **Q2 C — PASS:** Gaze/accent change supports situated interpretation; A/B/D overclaim.
+- **Q3 A — PASS:** Count-specific evidence and alternative reading are necessary; B/C/D omit argument support.
+- **Q4 D — PASS:** Situated evidence-supported interpretation is defensible; A/B/C claim universality, superiority or private thought.
+- **Guided-to-assignment — PASS:** Narrative/abstract 32-count A–B–A′–C scores and comparison are requested.
+- **Assignment-to-outcome — PASS (internal):** Six observations, thesis, alternative, verified sources and ethical limits map to critical-writing outcomes.
+- **Limits — NEEDS REVIEW:** Assignment's verified-scholarship requirement cannot be satisfied by unverified reading scaffold alone; learner must independently check passages.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal answer-key FAIL. Real sources, actual reader interpretations, learner submissions and psychometric discrimination remain NEEDS REVIEW; latest-head CI unconfirmed.
