@@ -14,7 +14,8 @@ const cases = [
   {id:'CMP502-02', number:4, correct:'D', mustContain:['Which feature is absent','Overlapping activity between the two layers'], mustNotContain:['They do not overlap in time','They follow one another without a shared period','never sound or move at the same time']},
   {id:'RES501-02', number:4, correct:'D', mustContain:['Which citation practice fails to verify the source','DOI that resolves to the exact article','generic homepage presented as a verified article link'], mustNotContain:['DOI that resolves to a different article','page number added without consulting','copied from a search snippet without checking']},
   {id:'RES501-03', number:4, correct:'D', mustContain:['visible onset count was documented','These six trials establish how all dancers move'], mustNotContain:['Six trials provide a precise estimate of the average onset']},
-  {id:'PRO703-02', number:4, correct:'D', mustContain:['Movement evidence and media permissions','Which requirement remains even after an artist statement'], mustNotContain:['A. A precise count sheet showing','B. The license or permission required','C. Evidence that the gesture actually']}
+  {id:'PRO703-02', number:4, correct:'D', mustContain:['Movement evidence and media permissions','Which requirement remains even after an artist statement'], mustNotContain:['A. A precise count sheet showing','B. The license or permission required','C. Evidence that the gesture actually']},
+  {id:'BEL101-W15', number:4, correct:'B', mustContain:['hand-traced substitute','same torso-isolation technique as a performed wave','describe and repeat this adapted original sequence'], mustNotContain:['has not attempted the optional torso wave']}
 ];
 for (const test of cases) {
   const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',test.id+'.md'),'utf8');
