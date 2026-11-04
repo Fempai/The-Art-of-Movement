@@ -726,3 +726,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **BEL101-W07:** Added count-specific two-attempt checkpoint and independent start/end floor-mark evidence of travel, labeling seated gestures symbolic only. Quiz keys **D,B,A,C** unchanged. Pathway accuracy and floor displacement are distinct observations.
 
 **Decision:** Targeted assessment specificity improved; independent physical performance and video verification not claimed.
+
+## BEL101 Weeks 08 and 10 evidence-boundary follow-up (November 2026)
+
+- **W08:** Midterm quiz question 4 previously implied a 'foundation phrase' could be compared directly with Week 1 despite distinct pressure-shift versus slide–circle–settle tasks. Reworded the scenario and correct choice to compare only matched directional timing, with Week 8-only circle/settle comparisons. Quiz keys **C,A,D,B** unchanged.
+- **W10:** Explicitly requires reporting unobservable transition counts as unknown, not as successful or failed evidence, in two-attempt transition checkpoint. Quiz keys **C,B,A,D** unchanged.
+
+**Decision:** Targeted inference validity improved. No independent learner-outcome, cultural-source, or source-video verification claimed.
