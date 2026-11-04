@@ -219,3 +219,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **C** (intentional phrasing without forced breathing), Q2 **A** (stop/rest if lightheaded), Q3 **D** (different durations are observable), Q4 **B** (seated arm marking with comfortable breath). Explanations match the lesson; videos showing movement duration do not prove internal breath pattern or emotion.
 
 **Decision and limitations:** Targeted novice walkthrough, count/assignment consistency, and quiz-key editorial review completed. The breathing exercise is original, not clinically tested; source-level validation and learner observation remain outstanding.
+
+## Targeted editorial check — CON101-02 (November 2026)
+
+**Issue and revision:** The original guided study specified the hand-led sequence but told learners only to repeat with torso initiation, leaving the alternative's timing, return, and endpoint unspecified. Added explicit eight-count hand-led and torso-led variants, both ending at the same comfortable reach and returning to neutral, with stable standing or seated support.
+
+**Four-question editorial answer check:** Q1 **B** (initiating body part/action), Q2 **C** (different sequence/dynamics with same endpoint), Q3 **A** (isolate first action), Q4 **D** (visible timing does not reveal intended meaning). Answers align with the new comparison and avoid inferring emotion from observation.
+
+**Decision and limitations:** Targeted novice walkthrough, two-variant count consistency, and quiz-key editorial review completed. Neither interpretive effect nor technique effectiveness was independently tested; reference-level validation remains outstanding.
