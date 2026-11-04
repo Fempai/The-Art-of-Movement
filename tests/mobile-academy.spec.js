@@ -743,3 +743,37 @@ test('Assessment History preserves draft when browser storage refuses a save',as
  await expect(page.locator('.entry')).toHaveCount(0);
  expect(await page.evaluate(()=>localStorage.getItem('aom_assessment_history_v1'))).toBeNull();
 });
+
+test('Assessment History retains an entry when deletion cannot be saved',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ await page.locator('[name=skill]').fill('Balance drill');
+ await page.locator('[name=notes]').fill('Observed steady control');
+ await page.locator('#form button').click();
+ await expect(page.locator('.entry')).toHaveCount(1);
+ await page.evaluate(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_assessment_history_v1')throw new DOMException('Storage full','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ page.once('dialog',d=>d.accept());
+ await page.locator('.entry button').click();
+ await expect(page.locator('#status')).toContainText('Save failed');
+ await expect(page.locator('.entry')).toHaveCount(1);
+ await expect(page.locator('.entry')).toContainText('Balance drill');
+});
+test('Assessment History does not claim a backup merge succeeded when storage is full',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ const backup={format:'aom_assessment_history_v1',records:[{id:'quota-merge-test',skill:'Plié',notes:'Knee tracking',week:1,created:'2026-01-01T00:00:00Z',source:'Self-reflection',drill:''}]};
+ await page.evaluate(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_assessment_history_v1')throw new DOMException('Storage full','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ await page.locator('#import').setInputFiles({name:'assessment.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await expect(page.locator('#status')).toContainText('Save failed');
+ await expect(page.locator('.entry')).toHaveCount(0);
+});
