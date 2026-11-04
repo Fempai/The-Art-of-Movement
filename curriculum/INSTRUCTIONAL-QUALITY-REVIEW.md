@@ -747,3 +747,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W16:** Quiz item 1 previously allowed a progress claim across nonidentical Week 1/8/16 full phrases. Restricted its stem, keyed choice, and explanation to matched movement tasks and comparable documented conditions; unlike full phrases cannot establish longitudinal improvement. Quiz keys **D,B,A,C** unchanged.
 
 **Decision:** Corrected a substantive longitudinal-assessment inference and a missing seated composition map. Independent source-video, physical-skill, and learner-effectiveness validation remain unverified.
+
+## BEL101 Weeks 11–12 observation validity follow-up (November 2026)
+
+- **W11:** The original checkpoint could conflate omitted abdominal engagement with a successful count-4 release. Now records engagement observed/omitted/unobservable, release observed/not performed/unobservable, and optional wave attempted/omitted, without grading breath duration as count accuracy. Quiz keys **B,C,A,D** unchanged.
+- **W12:** Clarified that simultaneous layering requires both a side-correct pulse and arm opening **progressing on the same count**; static already-open arms do not meet the intended layer. Quiz Q4 now states all four 5–8 counts and practiced tempo explicitly. Quiz keys **B,C,A,D** unchanged.
+
+**Decision:** Assessment construct specificity improved; external skill, video, and learner-outcome verification remain outside these editorial checks.
