@@ -291,3 +291,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (two equal eighth-note parts), Q2 **C** (0.375 seconds at 80 BPM), Q3 **C** (straight midpoint), Q4 **B** (unequal swing timing possible). Answers and arithmetic align with the taught distinctions.
 
 **Decision and limitations:** Targeted subdivision arithmetic, phrase-boundary consistency, accessibility, and quiz-key editorial review completed. No observed rhythmic proficiency or independent reference audit is claimed.
+
+## Targeted editorial check — MUS101-03 (November 2026)
+
+**Issue and revision:** The eight-count syncopation phrase wrote “and-after-2” in prose but did not clearly separate the half-beat events from numbered beats, and gave no complete seated equivalent. Re-scored 2-and, 4-and, and 6-and explicitly, warned against adding an extra beat or rushing the following count, and added seated hand gestures with a steady foot-tapped pulse.
+
+**Four-question editorial answer check:** Q1 **B** (displaced metric emphasis), Q2 **C** (0.25 seconds at 120 BPM), Q3 **A** (underlying pulse/meter), Q4 **C** (accent placement). All keyed explanations match the taught example and basic BPM arithmetic.
+
+**Decision and limitations:** Targeted rhythmic-count walkthrough, adaptation, and quiz-key review completed. Musical execution and scholarly source metadata have not been independently validated.
