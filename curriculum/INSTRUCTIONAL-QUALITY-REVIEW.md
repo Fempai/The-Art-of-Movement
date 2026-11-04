@@ -419,3 +419,19 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (lower relative body loading), Q2 **C** (trunk/pelvis move together), Q3 **D** (stop/change painful version), Q4 **A** (progress to secure lower support when ready). Keys and rationales align with the instruction.
 
 **Decision and limitations:** Targeted baseline reproducibility, accommodation, and quiz-key editorial review completed. No individualized safety assessment or externally verified training efficacy claimed.
+
+## Targeted editorial check — STG101-03 (November 2026)
+
+**Issue and revision:** An eight-count right–center–left–center sequence was described in feedback and the worked example as 'eight shifts,' conflating counts with actual weight-shift phases. Clarified four phases across eight counts, count-position logging for rail touches, two comparable eight-count attempts, and a supported seated-pressure option that is not a standing-balance test.
+
+**Four-question editorial answer check:** Q1 **C** (controlled shifts and breathing), Q2 **B** (two support touches in eight count positions), Q3 **A** (secure support reduces consequences), Q4 **D** (static balance does not establish rapid-turn readiness). Q2's wording 'eight shifts' remains colloquial; the scored practice now consistently uses an eight-count cycle, so its intended measurable answer is still B.
+
+**Decision and limitations:** Targeted counting precision, adaptation, and quiz-key editorial review completed. No individualized balance diagnosis or professional technique verification.
+
+## Targeted editorial check — STG101-04 (November 2026)
+
+**Issue and revision:** The lesson offered 'seated arm marking' for interval work without a follow-along score or clear measurement boundary, and the supported hip-lift drill lacked a seated alternative. Added an eight-count stable-chair interval score under the same timers and a seated foot-slide coordination option; neither is presented as an equivalent standing hip-strength or cardiovascular test.
+
+**Four-question editorial answer check:** Q1 **B** (repeatable baseline), Q2 **C** (40 seconds work/20 seconds rest), Q3 **A** (shorter work/longer rest), Q4 **D** (change one variable). Keys and explanations align with the instruction.
+
+**Decision and limitations:** Targeted accommodation, baseline interpretation, and quiz-key editorial review completed. This closes the targeted STG101 lessons 01–04 editorial pass. Clinical clearance, measured fitness outcomes, and source-specific scientific verification remain outstanding.
