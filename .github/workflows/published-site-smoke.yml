@@ -36,6 +36,8 @@ jobs:
             '/pose-lab.html': ('html',),
             '/motion-comparison.html': ('html',),
             '/skinned-avatar-studio.html': ('html',),
+            '/assets/academy-editorial.css': ('body',),
+            '/assets/character-retarget.js': ('function',),
           }
           failures=[]
           for path, expected in paths.items():
@@ -62,5 +64,5 @@ jobs:
           if failures:
               for url,error in failures: print(f'::error title=Published Academy smoke check::{url}: {error}')
               raise SystemExit(1)
-          print('All fifteen published Academy endpoints responded with expected HTML.')
+          print('All seventeen published Academy pages and assets responded with expected content.')
           PY
