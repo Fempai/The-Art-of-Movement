@@ -535,3 +535,14 @@ test('weekly studio clearly warns when local storage rejects a save',async({page
  await page.reload();
  await expect(page.locator('#progress')).toContainText('0 of 7');
 });
+
+test('corrupt weekly studio record is reported and never silently overwritten',async({page})=>{
+ const key='aom_weekly_studio_v1_3',broken='{corrupt';
+ await page.goto(base+'/weekly-studio.html?week=3');
+ await page.evaluate(([k,v])=>localStorage.setItem(k,v),[key,broken]);
+ await page.reload();
+ await expect(page.locator('#progress')).toContainText('Saved record could not be read');
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(broken);
+ await expect(page.locator('#progress')).toContainText('Saved record could not be read');
+});
