@@ -799,3 +799,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W11:** Corrected the assessment's claim that gentle internal abdominal engagement and release could be reliably 'observed'. The learner now records engagement and release as **self-reported sensation**, with intentional omission and inability to judge distinguished. Any externally visible movement is recorded separately and is not treated as proof of particular muscle activation. Optional wave and breathing-only adaptations remain explicitly differentiated. Quiz key **B,C,A,D** unchanged.
 
 **Decision:** Avoids unsupported external inference about internal muscle activity while retaining an achievable self-directed awareness objective. This does not independently validate muscle recruitment, learner outcomes, or the restored video source.
+
+
+## BEL101 Week 13 movement-vocabulary distinction (November 2026)
+
+- **W13:** Clarified that the lesson's slow ordered torso pathway is a preparatory sequence and does **not** teach rapid repeated abdominal fluttering. Added cautious descriptive contrasts for roll, undulation, and flutter, without claiming universal cultural definitions or conflating hand tracing with muscular isolation. The existing four-question check still assesses the preparatory sequence, not advanced technique; key **C,B,A,D** unchanged.
+
+**Decision:** Reduced a mismatch between the broad lesson title and what the actual guided practice can support. This is an editorial conceptual distinction, not authenticated lineage-specific technique review.
