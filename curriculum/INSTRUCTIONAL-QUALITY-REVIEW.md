@@ -576,3 +576,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04 Proposal:** Added count-specific A-prime reach change, supported orientation, permission evidence and contextual-source ledger fields. Quiz keys B,C,A,D checked. No unverified history or site authorization claimed.
 
 **Decision:** Targeted editorial pass completed for SIT505-01 through 04. Site inspections, authoritative passage verification, and independent access review remain outstanding.
+
+## PRO701 targeted editorial review (November 2026)
+
+- **01 Polish:** Defined seated shift count and adapted checklist item rather than scoring omitted standing footwork. Quiz keys B,B,C,D checked. Self-scores are not professional certification.
+- **02 Rehearsal:** Added previously omitted B-to-A-prime (16→17) boundary observation to full-run diagnosis. Quiz keys B,C,A,D checked. No independent learning retention observed.
+- **03 Interpretation:** Gaze and reach timing for all three versions now have count-specific contrasts without changing the shared score. Quiz keys B,B,C,D checked. Intended expressive meanings are not universal audience outcomes.
+- **04 Showcase:** Assignment now requires all five 32-count sections mapped to eight-count phrases, with explicit evidence label for non-video self-observation. Quiz keys B,C,A,D checked. No full performance was independently witnessed.
+
+**Decision:** Targeted editorial pass completed for PRO701-01 through 04. Bibliographic passage audit, technique adjudication, and observed learner outcomes remain outstanding.
