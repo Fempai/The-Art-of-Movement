@@ -1234,3 +1234,46 @@ Scope: LMA201-01–04; 16 keyed items, four guided-to-assignment and four assign
 - **Limits — NEEDS REVIEW:** Factor separation in actual movement and bibliographic metadata require independent verification.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal answer-key correction identified. Distractor discrimination and expert inter-rater reliability remain untested; source and physical technique validation remain NEEDS REVIEW. Check latest-head CI separately.
+
+
+## RES501 formal assessment-validity review — 2026-11-04
+
+Scope: RES501-01–04, 16 keyed questions, guided-lab/assignment and outcome alignment. Internal research-method reasoning only, not source passage authentication, graduate-credit validation or observed learner outcomes.
+
+### RES501-01 — Researchable question
+- **Q1 B — PASS:** Five-trial reach onset is observable; A/C/D infer causal or universal emotional effects.
+- **Q2 A — PASS:** Unit of analysis identifies event/person/performance; B/C/D name topic, desired result or unqualified count.
+- **Q3 C — PASS:** Single-performer five-trial observations cannot generalize; A/B/D claim population inference, cause or bias elimination.
+- **Q4 D — PASS:** Record question revision and timing; A/B/C conceal post hoc changes.
+- **Guided-to-assignment — PASS:** Three question types, five-trial onset pilot, expected/observed count and score-consultation status map to deliverables.
+- **Assignment-to-outcome — PASS (internal):** Matrix, pilot and limitation reflection test bounded inquiry and evidence distinction.
+- **Limits — NEEDS REVIEW:** No actual data, independent method adjudication or bibliography verification.
+
+### RES501-02 — Source quality
+- **Q1 B — PASS:** Direct support of specific claim matters; A/C/D substitute title, citation count or date.
+- **Q2 B — PASS:** Interview documents interviewee report; A/C/D extrapolate universal experience, mechanics or causation.
+- **Q3 C — PASS:** Abstract-only access must be labeled; A/B/D imply unread passages.
+- **Q4 D — PASS:** Generic homepage is not a verified article citation; A/B/C are legitimate metadata/passage checks.
+- **Guided-to-assignment — PASS:** Scholarly versus practitioner two-source matrix, traceable claim and labeled observation/inference are carried into submission.
+- **Assignment-to-outcome — PASS (internal):** Exact evidence, source limits and improved alignment measure source evaluation.
+- **Limits — NEEDS REVIEW:** Actual learner sources and quoted passages require inspection.
+
+### RES501-03 — Observation log
+- **Q1 B — PASS:** Operational definition gives event-recording rule; A/C/D lack observable criterion.
+- **Q2 C — PASS:** Hand outside frame is not observable; A/B/D substitute inference or planned score.
+- **Q3 A — PASS:** Delayed recode checks within-coder consistency; B/C/D overclaim reliability or sample representation.
+- **Q4 D — PASS:** Six trials cannot establish all dancers' movement; A/B/C remain bounded to visible/missing observations.
+- **Guided-to-assignment — PASS:** Six-trial table, onset/transition coding, visibility, method and two delayed recodes match laboratory.
+- **Assignment-to-outcome — PASS (internal):** Definitions, missingness and disagreement notes assess transparent coding.
+- **Limits — NEEDS REVIEW:** Two informal recodes do not establish inter-rater reliability; no observed trials.
+
+### RES501-04 — Reflexivity and proposal
+- **Q1 B — PASS:** Reflexivity examines researcher influence; A/C/D deny it.
+- **Q2 C — PASS:** Solo study observes onset counts; A/B/D infer emotion, injury causation or cultural universality.
+- **Q3 A — PASS:** Outside participants raise consent/privacy duties; B/C/D falsely waive them or imply causal design.
+- **Q4 D — PASS:** One-performer results remain descriptive, not causal; A/B/C overgeneralize.
+- **Guided-to-assignment — PASS:** Five slow plus five moderate-tempo trials, operational definition, blank template, two source types and ethics/reflexivity map to 600–800-word proposal.
+- **Assignment-to-outcome — PASS (internal):** Bounded question, analysis plan, documented limits and planned creative revision measure research reasoning, not actual experimental success.
+- **Limits — NEEDS REVIEW:** No study performed; institutional ethics requirements and bibliographic details need context-specific verification.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal answer-key failure found. Distractors commonly make extreme unsupported claims and may be too easy; psychometric discrimination untested. Independent scholarly passage, real learner submissions and latest-head CI remain NEEDS REVIEW.
