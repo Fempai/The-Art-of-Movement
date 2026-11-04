@@ -123,3 +123,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **C** (forward and reverse sequence), Q2 **B** (reduce/omit uncomfortable movement and hand-trace), Q3 **A** (preparation only), Q4 **D** (isolate 3–6 and describe both directions). All four keys match the revised practice. Distractors replace sequence with pulses, ignore discomfort, or claim unsupported mastery.
 
 **Decision and limitations:** Targeted written-instruction, adaptation, and quiz-key review completed. Original video correspondence, the biomechanics of any practitioner-taught abdominal technique, and physical learner outcomes are not independently verified.
+
+## Targeted editorial check — BEL101-W14 (November 2026)
+
+**Issue and revision:** The original two-phrase composition told learners to pause between phrases before linking them but did not explicitly state that the pause must disappear in the final 16-count performance. Revised to assign count-level actions in both phrases, distinguish paused rehearsal from a connected performance, and isolate A7–A8–B1–B2 without an extra beat. The full 16-count task is only complete when both phrases and their boundary are performed or marked consecutively.
+
+**Four-question quiz check:** Q1 **B** (support and on-time entry), Q2 **C** (rehearse boundary slowly), Q3 **A** (seated complete composition), Q4 **D** (repeatable timing and support). All keyed options align with the clarified phrase connection; distractors omit the boundary, skip counts, or overgeneralize performance.
+
+**Decision and limits:** Targeted editorial objective/quiz alignment completed. Seated marking is not evidence of standing technique; original video correspondence, practitioner evaluation, and learner effectiveness remain unverified.
