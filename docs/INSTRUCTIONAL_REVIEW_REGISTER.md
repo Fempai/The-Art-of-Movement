@@ -2635,3 +2635,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 - **Core-only question-level closure** remains a separate register obligation; nine-dimension quiz summaries are not a substitute for four explicit per-question distractor judgments and two alignment decisions per lesson.
 
 No live browser test, actual technique adjudication, citation passage audit or latest-head CI verification was performed in this review.
+
+
+## Nine-dimension instructional validation — RES501-01–04 — 2026-11-04
+
+**Scope:** Four Research Methods lessons, sixteen answer-key explanations, protocols and assignment criteria reviewed. The observations and studies described are learner instructions, not completed research.
+
+### RES501-01 — Research question
+1. **Outcome alignment — PASS (text):** Research question, operational evidence, limits and reflective interpretation align with assignment.
+2. **Practice sequence — PASS (text):** Descriptive/comparative/interpretive three-row matrix; five-trial reach-onset pilot with first outward hand motion after gather and expected onset 5.
+3. **Movement correctness — NEEDS REVIEW:** Actual technique and physical safety cannot be certified by text or hypothetical data.
+4. **Modifications — PASS (text):** Solo comfortable small-range rehearsal, video or immediate notes; frame-level accuracy not inferred from self-notes.
+5. **Self-correction — PASS (text):** Log missing observations, consulted score, post-hoc question changes and sampling limits.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, A, C, D** checked against each prompt, distractor and rationale.
+7. **Assignment — PASS (text):** Three-row question matrix, five-trial pilot, 250–350-word methodological reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Creswell, Leavy, Fraleigh/Hanstein, Wilson/Kwon citations require bibliographic and passage verification; methods avoid unsupported population or lineage claims.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson display, quiz feedback, source links and assignment UI not tested.
+
+### RES501-02 — Source quality
+1. **Outcome alignment — PASS (text):** Research question, operational evidence, limits and reflective interpretation align with assignment.
+2. **Practice sequence — PASS (text):** Two-source matrix distinguishes scholarly movement evidence and practitioner testimony; records access level and passage or unavailable status.
+3. **Movement correctness — NEEDS REVIEW:** Actual technique and physical safety cannot be certified by text or hypothetical data.
+4. **Modifications — PASS (text):** Documentary or rehearsal-note evidence accepted when explicitly labeled; no compulsory physical task.
+5. **Self-correction — PASS (text):** Abstract-only reading not represented as full-text; generic publisher homepage not passage support.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, B, C, D** checked against each prompt, distractor and rationale.
+7. **Assignment — PASS (text):** Source matrix plus own observation and labeled reporting/inference.
+8. **Evidence and cultural care — NEEDS REVIEW:** Creswell, Leavy, Fraleigh/Hanstein, Wilson/Kwon citations require bibliographic and passage verification; methods avoid unsupported population or lineage claims.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson display, quiz feedback, source links and assignment UI not tested.
+
+### RES501-03 — Observation reliability
+1. **Outcome alignment — PASS (text):** Research question, operational evidence, limits and reflective interpretation align with assignment.
+2. **Practice sequence — PASS (text):** Six trials with predefined onset/corrective-step codes; recode two later without seeing initial scores.
+3. **Movement correctness — NEEDS REVIEW:** Actual technique and physical safety cannot be certified by text or hypothetical data.
+4. **Modifications — PASS (text):** Paper log or fixed-camera video; immediate notes not described as frame-accurate.
+5. **Self-correction — PASS (text):** Off-frame onset not observable; corrective step unclear when not visible; two recodes not formal inter-rater reliability.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, C, A, D** checked against each prompt, distractor and rationale.
+7. **Assignment — PASS (text):** Six-trial log, two recodes, disagreement notes and limitations.
+8. **Evidence and cultural care — NEEDS REVIEW:** Creswell, Leavy, Fraleigh/Hanstein, Wilson/Kwon citations require bibliographic and passage verification; methods avoid unsupported population or lineage claims.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson display, quiz feedback, source links and assignment UI not tested.
+
+### RES501-04 — Reflexive proposal
+1. **Outcome alignment — PASS (text):** Research question, operational evidence, limits and reflective interpretation align with assignment.
+2. **Practice sequence — PASS (text):** Prospective five slow plus five moderate solo trials, blank data template, operational onset and descriptive analysis plan.
+3. **Movement correctness — NEEDS REVIEW:** Actual technique and physical safety cannot be certified by text or hypothetical data.
+4. **Modifications — PASS (text):** No external participants required; optional annotated score; consent/privacy if scope expands.
+5. **Self-correction — PASS (text):** Do not claim solo timing variation causes emotional response or proves audience perception.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, C, A, D** checked against each prompt, distractor and rationale.
+7. **Assignment — PASS (text):** 600–800-word proposal with sources, reflexivity, privacy, limitations and planned revision; no extra reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Creswell, Leavy, Fraleigh/Hanstein, Wilson/Kwon citations require bibliographic and passage verification; methods avoid unsupported population or lineage claims.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson display, quiz feedback, source links and assignment UI not tested.
+
+**Provisional corrected cumulative core ledger:** **68/97 core lessons**, **612/873 core judgments**: **408 internal PASS**, **204 NEEDS REVIEW**, **0 internal FAIL identified**, **29 core lessons remaining**. Separately, 13 BEL101-W04–W16 Friday supplements reviewed; combined 81 distinct files, 729 judgments (486 PASS, 243 NEEDS REVIEW). Final canonical inventory crosswalk, source verification, expert adjudication, real learner outcomes, and deployed browser tests remain open.
