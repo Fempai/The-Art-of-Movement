@@ -395,3 +395,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (unaided recall), Q2 **A** (manageable units), Q3 **C** (retrieve/check/correct/retrieve), Q4 **A** (recall beyond immediate repetition). Keys and explanations match the instruction.
 
 **Decision and limitations:** Targeted retrieval-protocol alignment, count reproducibility, adaptation, and quiz-key editorial review completed. A two-minute delayed attempt does not establish long-term retention or expert movement quality.
+
+## Targeted editorial check — LAB101-04 (November 2026)
+
+**Issue and revision:** The 32-count final repertory draft required seated learners to replace steps with unspecified torso shifts while also preserving facing cues, potentially confusing gaze with torso facing and leaving all three transitions unscored. Added a full seated A–B–A′–C score for counts 1–32 and explicit supported exit/entry checks at 8→9, 16→17, and 24→25.
+
+**Four-question editorial answer check:** Q1 **C** (four eight-count phrases), Q2 **B** (varied return), Q3 **C** (three phrase boundaries), Q4 **B** (visible timing/pathway). Keys and explanations match the taught material.
+
+**Decision and limitations:** Targeted score/assessment alignment, seated adaptation, boundary-state check, and quiz-key editorial review completed. This closes the targeted LAB101 lessons 01–04 editorial pass, not observed performance certification or independent scholarly source validation.
