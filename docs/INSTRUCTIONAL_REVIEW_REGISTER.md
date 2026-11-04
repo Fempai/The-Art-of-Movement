@@ -1105,3 +1105,46 @@ Scope: BEL101-01–04, sixteen keyed questions, four guided/assignment and four 
 - **Limits — NEEDS REVIEW:** Mirrored half-oval and seated variation require actual execution review; separate original 16-week Friday video track has unverified playback, matching and technique.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal correction identified. Distractors often contain conspicuous unsafe or sweeping claims; item discrimination remains untested. External cultural/technical source review and observed performance remain NEEDS REVIEW. Latest-head CI verification is separate.
+
+
+## CMP101 formal assessment-validity review — 2026-11-04
+
+Scope: CMP101-01–04, sixteen keyed questions, guided studio/assignment mapping and outcome alignment. Internal editorial judgment only; audience interpretation, execution and bibliography remain independently unverified.
+
+### CMP101-01 — Motif
+- **Q1 A — PASS:** A motif is a recurring recognizable idea; B/C/D exclude recurrence or impose unsupported fixed length.
+- **Q2 B — PASS:** Retaining diagonal reach with changed timing is variation; A repeats unchanged, C removes identifying feature, D changes costume rather than movement.
+- **Q3 B — PASS with limitation:** A repeatable score documents identifying features; A/C/D are weaker evidence. It does not prove audience legibility, which the explanation correctly qualifies.
+- **Q4 A — PASS:** Author's prior knowledge can bias self-evaluation; B/C/D promise audience recognition or uniform interpretation.
+- **Guided-to-assignment — PASS:** M and M′ retain 1–4 gather and diagonal reach, with direction/duration changes documented in two eight-count scores.
+- **Assignment-to-outcome — PASS (internal):** Retained and changed features, support, facing, pathway and reflection measure documented motif development.
+- **Limits — NEEDS REVIEW:** Actual audience recognition and title-level scholarly source checks outstanding.
+
+### CMP101-02 — Phrase
+- **Q1 B — PASS:** Coherent grouping, not fixed eight counts, bar-line start or required directional change.
+- **Q2 A — PASS:** Facing is torso orientation; B is travel, C timing, D gaze.
+- **Q3 A — PASS:** Start/end orientation improves reproducibility; B/C/D invent symmetry or support information.
+- **Q4 A — PASS:** Pause after count eight is observable; B/C/D overinterpret meaning, tradition or mastery.
+- **Guided-to-assignment — PASS:** A and B scores, north/front reference, support and facing at both boundaries map directly to submission.
+- **Assignment-to-outcome — PASS (internal):** Coherent phrase boundaries and documented support/facing can be checked from the score.
+- **Limits — NEEDS REVIEW:** Phrase legibility for an independent viewer and execution of turn transitions remain unobserved.
+
+### CMP101-03 — Transitions
+- **Q1 B — PASS:** Exit state is support/orientation at phrase end; A/C/D omit current state.
+- **Q2 A — PASS:** Conflicting support requirements create awkwardness; B/C/D describe compatible or prepared entries.
+- **Q3 C — PASS:** To free left foot for next step, support must transfer right first; A/B/D leave left loaded.
+- **Q4 D — PASS:** Transitions can shape meaning/structure; A/B/C incorrectly constrain counts or support.
+- **Guided-to-assignment — PASS:** Version 1 retains right-weighted exit for left-foot entry; version 2 changes B entry to right-foot step after left-weighted exit, explicitly recording changed pathway.
+- **Assignment-to-outcome — PASS (internal):** Two boundary scores and support-state explanation assess actual compositional repair rather than unsupported extra beats.
+- **Limits — NEEDS REVIEW:** Physical feasibility for each individual and observed balance are not established by notation.
+
+### CMP101-04 — Repetition and contrast
+- **Q1 B — PASS:** A′ returns to varied A; A identical, C unrelated B, D loses motif.
+- **Q2 B — PASS:** Short horizontal extension contrasts sustained diagonal reach; A/C/D retain same movement.
+- **Q3 A — PASS:** Plain-language count score is original, not certified formal notation or joint-angle measurement.
+- **Q4 C — PASS:** Counts, support, facing and pathway underpin reproducibility; A/B/D omit essentials.
+- **Guided-to-assignment — PASS:** Four eight-count A–B–A′–C phrases and 8→9, 16→17, 24→25 boundary annotations map directly to 32-count submission.
+- **Assignment-to-outcome — PASS (internal):** Full annotated score tests repeat/contrast, changed duration, reproducibility and evidence-limited reflection.
+- **Limits — NEEDS REVIEW:** Dynamics and performance cannot be exhaustively represented in plain-language notation; scholarly metadata unverified.
+
+**Batch closure:** 4 lessons, 16/16 internal question judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No correction identified. Q3 of lesson 01 is only a documentary proxy for legibility, not an external recognition test. Distractor difficulty and audience effectiveness uncalibrated. Verify latest-head CI separately.
