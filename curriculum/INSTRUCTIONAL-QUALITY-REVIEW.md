@@ -139,3 +139,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **C** (optional torso sequence on 5–6), Q2 **A** (omit discomfort and hand-trace), Q3 **D** (rehearse pathways/timing before recombination), Q4 **B** (limited claim about an adapted original sequence). The keys and distractor rationales align with the written practice and avoid unsupported mastery claims.
 
 **Decision and limitations:** Targeted editorial and quiz-key review completed. Hand tracing does not demonstrate advanced undulation. Neither planned video has been independently matched to the written exercise; physical performance and effectiveness remain unverified.
+
+## Targeted editorial check — BEL101-W16 final (November 2026)
+
+**Issue and revision:** The final originally grouped right/center and left/center slides and two pulses without specifying the individual count positions or transition rehearsal. Revised to make 1 right, 2 center, 3 left, 4 center, 5–6 one small circle returning near neutral, 7 right pulse, 8 left pulse explicit; learners rehearse the circle-to-pulse boundary before two full attempts. A record of performance is distinguished from evidence of improvement against Weeks 1 and 8.
+
+**Four-question quiz check:** Q1 **D** (documented comparable count/support/correction evidence), Q2 **B** (disclose seated versus standing conditions), Q3 **A** (slow 5–8 transition), Q4 **C** (self-documented original phrase, not general mastery). The keys align with the assessment and avoid assuming video authenticity or equivalent adaptations.
+
+**Decision and limitations:** Targeted written-instruction, final assessment, and quiz-key review completed. This concludes the targeted Week 04–16 Friday-lesson editorial pass, **not** a full nine-dimension content validation of all BEL101 lessons. Historical Week 1/8 records may be missing; do not invent a progress baseline. Video playback, practitioner technique review, and observed learning outcomes remain unverified.
