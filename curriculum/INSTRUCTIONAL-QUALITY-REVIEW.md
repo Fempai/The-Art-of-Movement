@@ -467,3 +467,35 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (active mobility includes control), Q2 **C** (task and warm-up recorded), Q3 **A** (stop/reduce painful range), Q4 **D** (compare similar conditions). Keys and explanations align with the instruction.
 
 **Decision and limitations:** Targeted cross-lesson baseline consistency and quiz-key editorial review completed. This closes the targeted FLE101 lessons 01–04 editorial pass, not source-level scientific verification or professional safety clearance.
+
+## Targeted editorial check — LMA201-01 (November 2026)
+
+**Issue and revision:** The Body initiation comparison allowed seated marking without a complete count-based version. Added supported seated eight-count scores for fingertip-led versus torso-led initiation, comparable reach destination, and explicit distinction from standing weight transfer.
+
+**Four-question editorial answer check:** Q1 **B** (initiating body part), Q2 **B** (initiating segment), Q3 **C** (torso precedes arm), Q4 **D** (reduce destabilizing shift). Keys and explanations align with the lesson.
+
+**Decision and limitations:** Targeted initiation-score reproducibility and quiz-key editorial review completed; professional LMA observation and source-level citation audit pending.
+
+## Targeted editorial check — LMA201-02 (November 2026)
+
+**Issue and revision:** The four Effort trials did not consistently specify common counts, endpoints, seated support, or how freer-flow exploration ends. Added common eight-count structure, comparable destination for direct/curved pathway contrast, seated option, and count-8 recovery for Flow exploration. Visible stopping alone does not certify an LMA Flow label.
+
+**Four-question editorial answer check:** Q1 **B** (Weight), Q2 **A** (Time), Q3 **C** (Flow), Q4 **D** (maximal resistance is unsafe). Keys and explanations align with the lesson.
+
+**Decision and limitations:** Targeted contrast-control, adaptation, and quiz-key editorial review completed; no expert Effort classification or independent source audit.
+
+## Targeted editorial check — LMA201-03 (November 2026)
+
+**Issue and revision:** The transfer task said to reverse the Shape change without identifying which counts to change. Added specific opening on 3–4, gathering on 5–6, and recovery on 7–8, labeled as a variation rather than the unchanged original motif.
+
+**Four-question editorial answer check:** Q1 **B** (arms widen), Q2 **B** (different pathways can share endpoint), Q3 **C** (Effort), Q4 **D** (reduce arm range). Keys and explanations align with the lesson.
+
+**Decision and limitations:** Targeted count-level Shape instruction and quiz-key editorial review completed; not certified LMA observation.
+
+## Targeted editorial check — LMA201-04 (November 2026)
+
+**Issue and revision:** The final four-row Body/Effort/Shape/Space comparison asked learners to isolate changes without specifying common baseline or both variants within each row. Added a complete baseline eight-count score, count-specific A–D contrasts, seated support, and explicit baseline-versus-change documentation.
+
+**Four-question editorial answer check:** Q1 **B** (kinesphere), Q2 **C** (reach direction), Q3 **A** (isolate variables), Q4 **D** (introductory plain-language score). Keys and explanations align with the lesson.
+
+**Decision and limitations:** Targeted score reproducibility and quiz-key editorial review completed. This closes the targeted LMA201 lessons 01–04 editorial pass, not passage-level source verification, LMA certification, or measured teaching effectiveness.
