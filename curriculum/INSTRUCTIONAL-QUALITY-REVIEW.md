@@ -610,4 +610,8 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **03 Self-evaluation:** Defined 0/1/2 anchors, N/A exclusion and observable-score denominator. Quiz keys B,B,C,D checked. Self-assessment is not professional certification.
 - **04 Final portfolio:** Added duration formula and explicit verification that section count and chosen BPM yield the required two-to-four-minute target. Quiz keys B,B,C,D checked. An unperformed score is not a recorded performance.
 
-**Decision:** Targeted editorial pass completed for PRO703-01 through 04. All 20 core courses now have four individually documented targeted editorial checks, but this is not full scholarly verification, observed teaching effectiveness, expert technique adjudication, or final release approval. BEL101-01 and other additional-course gaps still require separate review.
+**Decision:** Targeted editorial pass completed for PRO703-01 through 04. All 20 core courses now have four individually documented targeted editorial checks, but this is not full scholarly verification, observed teaching effectiveness, expert technique adjudication, or final release approval. BEL101-01's targeted review is now recorded above; source-level checks and the full release audit remain open.
+
+## Cross-lesson BEL101 midterm claim audit (November 2026)
+
+**BEL101-W08 Q4:** The prior keyed answer said a successful midterm established 'documented progress' even though the same lesson explicitly allows a missing Week 1 baseline. Corrected option B and its explanation to require a valid earlier baseline for a longitudinal comparison. Without a baseline, the learner can compare two current attempts only. Key remains **B**; the original distractors still overclaim video verification, universal mastery or no need for adaptations. **Decision:** Targeted quiz defect corrected; actual historical learner records and source-video correspondence remain unverified.
