@@ -466,3 +466,29 @@ test('daily studio progress survives Academy export, local loss, and restore',as
  await page.goto(base+'/studio-record.html');
  await expect(page.locator('#weeks tr').filter({has:page.locator('td').filter({hasText:/^04$/})})).toContainText('1 / 7 days');
 });
+
+// A stale backup must never replace newer daily progress unless the user explicitly opts in.
+test('Academy backup protects newer studio progress unless overwrite is explicitly selected',async({page})=>{
+ const key='aom_weekly_studio_v1_5';
+ await page.goto(base+'/weekly-studio.html?week=5');
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await page.goto(base+'/academy-backup.html');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const download=await downloadPromise;
+ const backup=JSON.parse(require('node:fs').readFileSync(await download.path(),'utf8'));
+ expect(JSON.parse(backup.data[key]).done0).toBe(true);
+ await page.evaluate(k=>localStorage.setItem(k,JSON.stringify({done0:false,done1:true})),key);
+ const upload=()=>page.locator('#import').setInputFiles({name:'older-studio.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await upload();
+ await expect(page.locator('#status')).toContainText('Existing records are protected');
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ expect(JSON.parse(await page.evaluate(k=>localStorage.getItem(k),key))).toEqual({done0:false,done1:true});
+ await page.locator('#overwrite').check();
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ expect(JSON.parse(await page.evaluate(k=>localStorage.getItem(k),key)).done0).toBe(true);
+ await page.goto(base+'/weekly-studio.html?week=5');
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
+});
