@@ -195,3 +195,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **A** (shallow demi-plié), Q2 **A** (accent/phrasing), Q3 **B** (reduce depth when heels lift unexpectedly), Q4 **B** (comfort, control, repeatability). The answers align with the teaching text and reject maximal range as the success measure.
 
 **Decision and limitations:** Targeted novice walkthrough, supported alternative, assessment alignment, and quiz-key editorial review completed. Physical technique, safety, and scholarly source-level validation remain unverified.
+
+## Targeted editorial check — DNC101-03 (November 2026)
+
+**Issue and revision:** The relevé lesson repeated its safety-limitation sentence verbatim and had no explicit seated option for its two-count versus four-count lowering comparison. Removed the duplicate and added a stable-chair, small heel-rise sequence for both timings, noting that seated calf movement does not replicate standing body-weight loading or balance.
+
+**Four-question editorial answer check:** Q1 **A** (rise onto balls of feet), Q2 **A** (small supported two-foot rise), Q3 **A** (study descent control), Q4 **B** (reduce range and use support). Keys and explanations align with the taught action; the seated modification must not be interpreted as standing relevé proficiency.
+
+**Decision and limitations:** Targeted novice walkthrough, accessibility, and quiz-key review completed. Source-level claim verification, independent observation, and movement-safety validation remain outstanding.
