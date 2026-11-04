@@ -1694,3 +1694,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Actual video, quiz, feedback and UI operation not inspected.
 
 **Batch ledger:** 4/97 lessons reviewed across all nine dimensions; **24 PASS (text/internal)**, **12 NEEDS REVIEW**, **0 FAIL**, **36/873 judgments recorded**. Specifically each lesson has six internally verifiable PASS judgments (outcome, practice, modifications, self-correction, quiz, assignment) and three externally dependent NEEDS REVIEW judgments (movement correctness, evidence/cultural source verification, reader experience). These statuses must not be silently promoted to full instructional validation.
+
+
+## Nine-dimension instructional validation — DNC101-01–04 — 2026-11-04
+
+**Method:** Inspected the current four DNC101 lesson texts, count-specific guided sequences, alternative pathways, keyed explanations and assignment rubrics. PASS is an internal text-grounded judgment only. Independent biomechanics, source-passage validation, and live UI are explicitly not presumed.
+
+### DNC101-01 — Tendu
+1. **Outcome alignment — PASS (text):** Named movement, support versus working foot, controlled slide and return, error correction and musical phrasing appear in teaching, quiz and assignment.
+2. **Practice sequence — PASS (text):** Preparation 3–5 minutes, eight individually scored counts, three repetitions, and comparison of two recorded repetitions. Each eight-count repetition contains one forward and one side tendu; assignment accurately requests two of each across two repetitions.
+3. **Movement correctness — NEEDS REVIEW:** Light floor-contact, non-weight-bearing working foot and return path are internally consistent; qualified evaluation of ballet articulation and loading not performed.
+4. **Modifications — PASS (text):** Parallel option, fixed support, smaller slide and stable-chair pathway with explicit non-equivalence to standing support mechanics.
+5. **Self-correction — PASS (text):** Hip hike, premature weight transfer and toe gripping each have actionable smaller-range/support/pressure corrections and two-repeat success check.
+6. **Quiz correctness — PASS (internal):** Q1 B (standing support), Q2 C (relax toes), Q3 A (parallel slide and return), Q4 D (controlled return); distractors leave the identified error or replace the movement.
+7. **Assignment — PASS (text):** Two complete eight-count scores, forward/side movement totals, support, foot contact, musical accent and 250–350-word evidence-bounded reflection map to objectives.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ballet and jazz are distinguished and not claimed as universal origins, but IADMS and biomechanical reference passages were not independently checked.
+9. **Reader experience — NEEDS REVIEW:** Deployed reader, source/video display and interactive quiz/assignment were not exercised.
+
+### DNC101-02 — Plié
+1. **Outcome alignment — PASS (text):** Shallow knee bend, controlled tracking, support and accent variations addressed in lesson, quiz and two scored phrases.
+2. **Practice sequence — PASS (text):** Warm-up 3–5 minutes, two distinct eight-count rhythmic patterns, three repetitions and count-defined descent/hold/rise.
+3. **Movement correctness — NEEDS REVIEW:** Task-specific knee/foot comfort and reduced depth are internally cautious, but physical biomechanics and suitability not independently certified.
+4. **Modifications — PASS (text):** Fixed countertop and stable seated timing-only foot slide, explicitly *not* a seated plié; separate Phrase B adaptation provided.
+5. **Self-correction — PASS (text):** Inward knee discomfort, unexpected heel rise and bounce each map to parallel/reduced depth/controlled pause; success requires repeatability.
+6. **Quiz correctness — PASS (internal):** Q1 A (demi-plié), Q2 A (phrasing), Q3 B (reduce depth), Q4 B (tracking/control/timing); alternatives mislabel or prioritize depth over control.
+7. **Assignment — PASS (text):** Phrase A and B count schedules, timing/accent comparison, support notes and reflection are executable from written instructions.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ballet term is contextualized but reference-level support and cultural provenance not independently authenticated.
+9. **Reader experience — NEEDS REVIEW:** No live browser, media or submission verification.
+
+### DNC101-03 — Relevé
+1. **Outcome alignment — PASS (text):** Two-foot heel rise, controlled descent, support, musical duration and error correction appear in exercise and assessment.
+2. **Practice sequence — PASS (text):** 3–5-minute warm-up, rise 1–2/hold 3–4/lower 5–6/settle 7–8; second scored variant lowers across 5–8. Assignment requests three repetitions of each and two distinct eight-count scores without adding counts.
+3. **Movement correctness — NEEDS REVIEW:** Reduced heel height and stable forefoot support are internally cautious, but loading/ankle mechanics require qualified physical review.
+4. **Modifications — PASS (text):** Stable wall support, small two-foot rise and seated low-load heel lift; explicit difference from standing balance and loading.
+5. **Self-correction — PASS (text):** Ankle wobble, abrupt heel drop and toe gripping map to support, reduced range and counted descent, with stop criterion.
+6. **Quiz correctness — PASS (internal):** Q1 A (heel rise), Q2 A (supported small rise), Q3 A (descent control), Q4 B (reduce range/support); alternatives omit heel rise or retain instability.
+7. **Assignment — PASS (text):** Two count-by-count descent variants, practice trials, heel-height/support notes and bounded interpretation assess intended skill.
+8. **Evidence and cultural care — NEEDS REVIEW:** External dance biomechanics sources and historical context not independently checked.
+9. **Reader experience — NEEDS REVIEW:** No deployed quiz, video, feedback or mobile acceptance check.
+
+### DNC101-04 — Weight transfer and supported développé
+1. **Outcome alignment — PASS (text):** Support before leg lift, bent-knee unfolding, repeatable eight-count pathway and 16-count synthesis all taught and assessed.
+2. **Practice sequence — PASS (text):** Counts 1–8 establish support/touch/lift/pause/unfold/refold/lower/settle; assignment explicitly scores 9–16 tendu, shallow plié and supported relevé with exact count transitions.
+3. **Movement correctness — NEEDS REVIEW:** Low-range bend–unfold–return and weight transfer are plausible instructional cues, but anatomical technique and individual loading not independently verified.
+4. **Modifications — PASS (text):** Stable support, low extension, seated bend/unfold/hand-mark and explicit 9–16 substitute score; standing ballet equivalence disclaimed.
+5. **Self-correction — PASS (text):** Early lift, back arch and loss of balance each have targeted count isolation, range reduction or seated/support substitution; repeatable pathway is success check.
+6. **Quiz correctness — PASS (internal):** Q1 B (lift then unfold), Q2 C (left support first), Q3 A (small supported extension), Q4 D (repeatable transfer and pathway); other choices omit bend/unfold or sacrifice control.
+7. **Assignment — PASS (text):** Complete 16-count score, annotated support/direction/modification and 250–350-word reflection map to synthesis objective.
+8. **Evidence and cultural care — NEEDS REVIEW:** Ballet-specific term distinguished from tendu, but cited reference passages and qualified technique provenance unverified.
+9. **Reader experience — NEEDS REVIEW:** Actual deployed sequence, media and quiz feedback not inspected.
+
+**Cumulative nine-dimension ledger:** MOV101 and DNC101 = **8/97 unique lessons**, **72/873 judgments documented**: **48 internal PASS**, **24 NEEDS REVIEW**, **0 observed internal FAIL**. No NEEDS REVIEW is counted as validated; 89 lessons remain to receive nine-dimension entries. This is a coverage count, not 8 lessons certified.
