@@ -585,3 +585,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04 Showcase:** Assignment now requires all five 32-count sections mapped to eight-count phrases, with explicit evidence label for non-video self-observation. Quiz keys B,C,A,D checked. No full performance was independently witnessed.
 
 **Decision:** Targeted editorial pass completed for PRO701-01 through 04. Bibliographic passage audit, technique adjudication, and observed learner outcomes remain outstanding.
+
+## PRO702 targeted editorial review (November 2026)
+
+- **01 Lighting:** Distinguishes unexecuted count-17 LQ2 cue from eight-count lighting tests; adds intended state, objective and operator. Quiz keys B,B,C,D checked. No electrical or production certification.
+- **02 Blocking:** Makes A/B/C stage locations planning targets, not implied unscored travel; requires scored transitions or fixed-position adaptation. Quiz keys B,C,A,D checked. Hypothetical sightlines not verified reception.
+- **03 Costume:** Adds matched-surface/range tests, pass/fail/unclear observations, stop on snag/slip and hypothetical-alternative labeling. Quiz keys B,B,C,D checked. No tested prop safety certification.
+- **04 Production book:** Defines five 32-count global ranges through count 160, four eight-count phrases per section, boundary support and planned-versus-executed cues. Quiz keys B,C,A,D checked. No venue or rights approval claimed.
+
+**Decision:** Targeted editorial pass completed for PRO702-01 through 04. Technical stagecraft adjudication, source passages and actual production testing remain outstanding.
