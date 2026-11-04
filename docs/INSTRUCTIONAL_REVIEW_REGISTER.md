@@ -107,7 +107,37 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** Two scored attempts and reflection assess alternation, support, modification, correction, and the distinction between observed rhythm and unverified Egyptian-shimmy attribution.
 - **Remaining limitations:** Culturally specific technique and external video content are unverified; several distractors are easily eliminated without deep understanding.
 
-**Assessment-ledger subtotal recorded here:** 7/97 lessons with all four question decisions; 28/388 individual question decisions; 7/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### BEL101-W07 — Traveling and figure-eight pathways
+
+- **Q1 D — PASS:** “Count-by-count guided study” uses two stationary loops on 1–4 and an optional step on 5–6; only confirmed changed floor marks establish travel. A/C omit the step, B reverses the order. Misconception: loop size or a step attempt proves floor displacement.
+- **Q2 B — PASS:** “Modification” preserves both right and left loops with a seated hand trace. A substitutes a line, C omits a loop, D replaces pathway with rhythm. Misconception: any countable gesture preserves a figure-eight pathway.
+- **Q3 A — PASS:** The guided study and success check require comparing starting and ending floor marks for actual travel. B/C/D do not establish displacement. Misconception: pelvic motion or in-place weight transfer equals travel.
+- **Q4 C — PASS:** “Self-correction” explicitly isolates 3–6 and checks foot support at the loop-to-step transition. A/B omit one side of the boundary; D repeats without isolating it. Misconception: practicing the components separately always verifies the transition.
+- **Guided-to-assignment — PASS:** Both demand right/left loops, stepping/support on 5–6, smaller pathway or gesture on 7–8, and an actual-versus-symbolic travel observation.
+- **Assignment-to-outcome — PASS:** Two eight-count attempts, marked floor displacement, a transition correction, adaptation, and source limits assess the taught distinction and repeatability.
+- **Remaining limitations:** Floor-position observations do not establish stylistic or technical authenticity; video playback and cultural context remain NEEDS REVIEW.
+
+### BEL101-W08 — Formative midterm reassessment
+
+- **Q1 C — PASS:** “Midterm observation protocol” prioritizes matched tasks, recorded support, tempo, and count consistency. A/C/D use incompatible size, repetition, or missing timing evidence. Misconception: longer/larger work is intrinsically better.
+- **Q2 A — PASS:** The baseline protocol requires documenting changed standing/seated conditions. B/C/D disregard the support difference. Misconception: standing and seated range are directly interchangeable.
+- **Q3 D — PASS:** “Self-correction” isolates circle 5–6 and checks settle 7–8. A repeats the error, B shifts counts, C skips the settle. Misconception: fixing a rushed component requires changing its assigned beats.
+- **Q4 B — PASS:** “Success check” and baseline protocol allow comparison only of matched right–center–left–center timing, not full Week 1 versus Week 8 phrase or source authenticity. A/C/D overclaim. Misconception: shared directional timing proves full movement equivalence.
+- **Guided-to-assignment — PASS:** The assignment explicitly requests two Week 8 attempts, eight-count scores, a matched Week 1 comparison only if evidence exists, and a documented missing-baseline alternative.
+- **Assignment-to-outcome — PASS:** Count records, corrections, support/tempo notes, and comparison limitations assess the formative reassessment without claiming expertise or unsupported improvement.
+- **Remaining limitations:** No independent baseline, technique, or source-video verification is provided by the lesson itself; comparison validity depends on learner records.
+
+### BEL101-W09 — Figure-eight pathway refinement
+
+- **Q1 B — PASS:** “Guided count-by-count study” introduces an optional right step on 5 and following foot on 6; floor displacement is separately observed. A/C/D remain stationary. Misconception: stepping or changing the pelvis pathway automatically proves travel.
+- **Q2 C — PASS:** “Self-correction” instructs reduced range and comfortable knee alignment. A/B/D preserve or intensify twisting. Misconception: increased speed or lateral reach corrects knee tracking.
+- **Q3 A — PASS:** “Modification” preserves both hand-traced loops while seated. B omits the loop, C substitutes a line, D omits the returning loop. Misconception: any seated rhythmic movement demonstrates the target pathway.
+- **Q4 D — PASS:** The “Progression check” defines observed travel as a changed floor position. A/B claim unrelated loop proficiency; C assumes unverified video equivalence. Misconception: a documented step proves other movement skills.
+- **Guided-to-assignment — PASS:** The assignment requests two attempts and comparison of pathway, actual floor travel, support, and seated symbolic gesture, all explicitly taught and assessed.
+- **Assignment-to-outcome — PASS:** Written scores and reflection distinguish stationary figure-eight from travel and assess support, repeatability, correction, and evidence limitations.
+- **Remaining limitations:** Correctness of named cultural technique and restored source-video correspondence remain NEEDS REVIEW. Q4 assesses a fairly direct definition rather than a demanding transfer.
+
+**Assessment-ledger subtotal recorded here:** 10/97 lessons with all four question decisions; 40/388 individual question decisions; 10/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
