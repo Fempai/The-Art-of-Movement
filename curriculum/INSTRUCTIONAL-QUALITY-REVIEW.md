@@ -331,3 +331,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (support/orientation at phrase end), Q2 **A** (exit/entry conflict), Q3 **C** (right support frees left foot), Q4 **D** (transitions contribute structure). Keys and rationales match the lesson.
 
 **Decision and limitations:** Targeted boundary-state walkthrough, alternative support scores, and quiz-key editorial review completed. No observed movement performance or independent source-level validation claimed.
+
+## Targeted editorial check — CMP101-04 (November 2026)
+
+**Issue and revision:** The 32-count composition lesson instructed seated learners to substitute unspecified torso shifts for all standing steps and required transition documentation without modeling phrase-boundary states. Added a complete seated A–B–A′–C score with counts 1–32, supported pressure/gaze/arm adaptations, and explicit boundary checks at 8→9, 16→17, and 24→25.
+
+**Four-question editorial answer check:** Q1 **B** (varied return of A), Q2 **B** (horizontal short reach contrasts diagonal sustain), Q3 **A** (original plain-language score), Q4 **C** (counts/support/facing/pathway). Keys and rationales match the concepts.
+
+**Decision and limitations:** Targeted score reproducibility, phrase transitions, accessible alternative, and quiz-key review completed. This closes the targeted CMP101 lessons 01–04 editorial pass, not a claim of observed choreographic effectiveness or independently verified source metadata.
