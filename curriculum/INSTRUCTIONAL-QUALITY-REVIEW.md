@@ -26,3 +26,12 @@ Priority: foundations MOV101, then DNC101, followed by other beginner courses be
 ## Scope decision (October 29, 2026)
 
 Owner elected not to recruit learners or dance instructors. Perform substantive editorial QA of all 80 lessons and 320 questions, correcting issues and recording evidence. Passing this QA means the materials meet documented self-study content standards; it does **not** mean independently demonstrated skill acquisition or professional certification.
+
+## Targeted editorial check — BEL101-02 (November 2026)
+
+**Scope:** Desk-based review of the written introductory hip-slide and small-oval exercise, its four quiz questions, and the assignment. This is not an independent movement demonstration, cultural-source verification, or learner-effectiveness study.
+
+- **Identified instructional ambiguity:** The prior instruction used “clockwise” without defining the dancer's or observer's viewpoint and did not map the oval's directions to individual counts. Revised the lesson to give forward/right/back-toward-neutral/left count pairs and the reverse sequence explicitly. Clarified that the seated adaptation is not biomechanically identical to standing.
+- **Quiz-key editorial check:** Q1 **C** (lateral slide versus changing-direction oval); Q2 **A** (reduce range and name directions); Q3 **D** (omit uncomfortable segment); Q4 **B** (observed practice, not historical or technical mastery). The written lesson supports these four choices. Distractors do not appear to introduce a second equally correct answer under the stated task.
+- **Objective/practice alignment:** The eight-count slide, two directions of oval tracing, self-correction for knee/back discomfort, and written assignment address the stated introductory pathway and support objectives. The revision provides a literal count-by-count novice walkthrough rather than an undefined viewing direction.
+- **Limitations / decision:** **Editorially QA-passed for internal direction/count consistency only; broader content review remains open.** Cultural lineage and external video correspondence have not been verified; no qualified technique review or independent learner test was performed. Do not interpret this record as a full course release approval.
