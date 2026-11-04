@@ -51,6 +51,11 @@ console.log('PASS: '+reorderedQ1.length+' Q1 answer-feedback label regressions.'
 // Text checks are targeted consistency guards, not proof of technique or learning.
 const contracts = [
   {
+    id: 'BEL101-W04',
+    guided: ['**compresses the separately rehearsed eight-count torso study into four counts**', 'right on 5, gently forward on 6, left on 7', '4→5'],
+    assignment: ['connected eight-count combination', 'not yet attempted']
+  },
+  {
     id: 'BEL101-W06',
     guided: ['**One alternating knee softening is assigned to each beat.**', 'not a second counted action'],
     assignment: ['R–L–R–L–R–L–R–L', 'second attempt']
