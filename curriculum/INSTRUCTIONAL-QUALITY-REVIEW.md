@@ -251,3 +251,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (pulse/weight/movement), Q2 **C** (accent changes rhythmic character), Q3 **A** (community context), Q4 **D** (shallow or seated pulse). Keys and explanations align with the instructional text.
 
 **Decision and limitations:** Targeted count consistency, beginner walkthrough, seated adaptation, and quiz-key review completed. Cultural source claims and title-level publisher links require independent verification; no practitioner authentication or observed learning effectiveness is claimed.
+
+## Targeted editorial check — HIP101-02 (November 2026)
+
+**Issue and revision:** The bounce lesson offered only “mark seated” for learners unable to perform standing pulses. Added a stable-chair count-by-count version with odd-count downward torso pulses, even-count recoveries, and right/left seated pressure shifts on counts 5 and 7. Clarified that this is a rhythmic comparison rather than an equivalent standing loading task.
+
+**Four-question editorial answer check:** Q1 **B** (downward emphasis), Q2 **C** (slow practice changes timing task), Q3 **A** (reduce depth or seated marking), Q4 **D** (compare observed lowering with intended beat). Keys and explanations align with the stated concepts.
+
+**Decision and limitations:** Targeted accessibility, count structure, and quiz-key editorial review completed. Historical lineage/source links and actual rhythmic execution have not been independently verified.
