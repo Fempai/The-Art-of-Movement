@@ -708,3 +708,19 @@ test('Academy backup ignores an old file read error after a newer valid selectio
  await page.locator('#restore').click();
  expect(await page.evaluate(()=>localStorage.getItem('aom_current_backup'))).toBe('safe');
 });
+
+test('Academy backup requires confirmation before replacing an existing record',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.evaluate(()=>localStorage.setItem('aom_confirm_replace','current'));
+ const backup={format:'aom-local-backup-v1',data:{aom_confirm_replace:'older'}};
+ await page.locator('#import').setInputFiles({name:'replace.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await expect(page.locator('#restore')).toBeEnabled();
+ await page.locator('#overwrite').check();
+ page.once('dialog',dialog=>{expect(dialog.message()).toContain('Replace 1 existing values');dialog.dismiss()});
+ await page.locator('#restore').click();
+ expect(await page.evaluate(()=>localStorage.getItem('aom_confirm_replace'))).toBe('current');
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ await expect(page.locator('#status')).toContainText('Restored 1 keys');
+ expect(await page.evaluate(()=>localStorage.getItem('aom_confirm_replace'))).toBe('older');
+});
