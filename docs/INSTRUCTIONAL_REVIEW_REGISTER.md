@@ -1847,3 +1847,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** No live deployed browser or multimedia verification.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101 = **16/97 unique lessons**, **144/873 judgments**: **96 PASS (internal/text)**, **48 NEEDS REVIEW**, **0 observed internal FAIL**. **81 lessons** remain to receive nine-dimension entries. These counts measure editorial coverage, not clinical safety, certified technique, external source validity or learner effectiveness.
+
+
+## Nine-dimension instructional validation — MUS101-01–04 — 2026-11-04
+
+**Method:** Inspected current four music/rhythm final lessons, all sixteen keyed answers and explanations, guided counts, seated alternatives, BPM calculations and independent scores. PASS denotes internal text-based coverage only; historical/musicological source passages, actual execution and browser operation were not independently verified.
+
+### MUS101-01 — Pulse, meter and 4/4
+1. **Outcome alignment — PASS (text):** Pulse, grouping, eight-count analysis, timing calculation and evidence-versus-interpretation are taught and assessed.
+2. **Practice sequence — PASS (text):** Thirty-second pulse preparation; two four-beat measures; 1–8 step/gather/step/pause/reach/recover; four cycles and moved accent comparison.
+3. **Movement correctness — NEEDS REVIEW:** Basic pulse and notation explanations internally consistent; actual stepping and culturally diverse metric interpretation not externally observed or authenticated.
+4. **Modifications — PASS (text):** Stable-chair right/left hand marks preserve count structure while explicitly distinguishing seated from standing steps.
+5. **Self-correction — PASS (text):** Lost pulse, confused subdivisions, unstable transition and pain/dizziness each receive actionable response.
+6. **Quiz correctness — PASS (internal):** Q1 B (denominator quarter-note unit), Q2 C (eight beats at 120 BPM = 4 s), Q3 A (recurring grouping), Q4 C (accent location); alternatives confuse beat unit, seconds, meter or tempo.
+7. **Assignment — PASS (text):** Four eight-count repetitions, two four-beat measures per phrase, 32×60/BPM duration and shifted accent align with guided studio.
+8. **Evidence and cultural care — NEEDS REVIEW:** Straight 4/4 is explicitly non-universal; London and Temperley publisher pages/passage support not checked.
+9. **Reader experience — NEEDS REVIEW:** Live reader, quiz, sources and submission not browser-tested.
+
+### MUS101-02 — Straight eighth subdivisions
+1. **Outcome alignment — PASS (text):** Beat versus midpoint, 80 BPM calculation and unchanged pulse under extra taps are taught, checked and assigned.
+2. **Practice sequence — PASS (text):** One hand/foot maintains quarter beats; the other marks 1-and through 7-and; 8-and is explicitly conditional on continuation, avoiding an invented extra beat.
+3. **Movement correctness — NEEDS REVIEW:** Straight midpoint and swung unequal subdivision distinguished; physical synchronization and music-style validity not independently evaluated.
+4. **Modifications — PASS (text):** Stable seated two-hand beat/offbeat marking with reversible hands and no standing equivalence claim.
+5. **Self-correction — PASS (text):** Restart main pulse, separate hand roles and slow without altering two-to-one relationship.
+6. **Quiz correctness — PASS (internal):** Q1 B (two eighths), Q2 C (0.375 s at 80 BPM), Q3 C (midpoint), Q4 B (swing can be unequal); distractors confuse divisions, timing and meter.
+7. **Assignment — PASS (text):** 32 numbered beats, conditional 8/16/24-and and excluded 32-and without next pickup; two offbeat accents and comparable unsubdivided phrase align.
+8. **Evidence and cultural care — NEEDS REVIEW:** Unequal swing and non-universal straight counting acknowledged, but scholarly citations unverified at passage level.
+9. **Reader experience — NEEDS REVIEW:** Deployed reader and interactive feedback not checked.
+
+### MUS101-03 — Syncopation
+1. **Outcome alignment — PASS (text):** Expected stress, displacement, steady pulse and context-limited interpretation explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** On-beat versus offbeat claps; 2-and, 4-and and 6-and in eight-count score; offbeats not counted as extra beats.
+3. **Movement correctness — NEEDS REVIEW:** Meter-relative definition and 120 BPM offbeat = 0.25 s internally coherent; actual embodied timing and genre-specific interpretation not externally checked.
+4. **Modifications — PASS (text):** Stable seated hand reaches and foot pulse substitute without claiming weight-transfer equivalence.
+5. **Self-correction — PASS (text):** Re-establish beat, isolate offbeat taps and reduce unsafe travel.
+6. **Quiz correctness — PASS (internal):** Q1 B (displaced emphasis), Q2 C (0.25 s), Q3 A (reference pulse), Q4 C (accent placement); alternatives confuse tempo, note density and loudness.
+7. **Assignment — PASS (text):** A 1–8, B 9–16, A′ 17–24, B′ 25–32 with global 10-and/12-and/22-and accurately map local offbeat events.
+8. **Evidence and cultural care — NEEDS REVIEW:** No universal emotional interpretation claimed; musicological passages and cultural context not independently authenticated.
+9. **Reader experience — NEEDS REVIEW:** Live playback/quiz/submission untested.
+
+### MUS101-04 — Tempo and 32-count score
+1. **Outcome alignment — PASS (text):** BPM, phrase, timing-versus-duration and reproducible movement score taught, quizzed and assigned.
+2. **Practice sequence — PASS (text):** Full A 1–8, B 9–16, A′ 17–24, C 25–32; 20-and is explicitly a subdivision, not a 33rd beat.
+3. **Movement correctness — NEEDS REVIEW:** 96 BPM × 32 beats = 20 s and 120 BPM = 16 s are correct; actual movement technique and cross-style phrase norms not independently validated.
+4. **Modifications — PASS (text):** Full seated 32-count alternate with arm, gaze and pressure shifts; distinguishes seated from standing turns.
+5. **Self-correction — PASS (text):** Pulse isolation, separate 'and' counts, smaller turn and stop on pain/dizziness.
+6. **Quiz correctness — PASS (internal):** Q1 C (20 s), Q2 B (eight 4/4 measures), Q3 A (reach duration), Q4 C (counts/support/facing/accents); distractors miscount or omit reproducibility.
+7. **Assignment — PASS (text):** Full 32-count score, chosen BPM, two accents, 20-and and tempo-versus-movement-duration comparison map to lab.
+8. **Evidence and cultural care — NEEDS REVIEW:** Explicit caveat against universal eight-count practice; source passage verification still pending.
+9. **Reader experience — NEEDS REVIEW:** Live reader, video and feedback not checked.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101 and MUS101 = **20/97 unique lessons**, **180/873 judgments recorded**: **120 PASS (internal/text)**, **60 NEEDS REVIEW**, **0 observed internal FAIL**. **77 lessons** remain for nine-dimension entries. A PASS here is not a validated live learning experience or verified external movement/music scholarship.
