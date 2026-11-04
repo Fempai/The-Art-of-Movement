@@ -64,5 +64,5 @@ jobs:
           if failures:
               for url,error in failures: print(f'::error title=Published Academy smoke check::{url}: {error}')
               raise SystemExit(1)
-          print('All seventeen published Academy pages and assets responded with expected content.')
+          print(f'All {len(paths)} published Academy pages and assets responded with expected content.')
           PY
