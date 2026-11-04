@@ -712,3 +712,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **BEL101-W06:** Replaced generic 'keep a slow pulse' success check with two attempts scored for right odd counts and left even counts, with on/off/unobservable observations and documented support/adaptation. Quiz keys **C,A,D,B** remain aligned; this does not certify Egyptian shimmy technique.
 
 **Decision:** Editorial adaptation and assessment gaps corrected; source-video and learner-performance verification remain pending.
+
+## BEL101 foundation Lessons 01–02 count-validity audit (November 2026)
+
+- **BEL101-01:** Replaced generic readiness criterion with two eight-count attempts scored on right 1–2, center 3–4, left 5–6, center 7–8; records on/off/unobservable and seated substitution. Quiz keys **A,C,B,D** unchanged. Seated timing is not proof of standing pelvic isolation.
+- **BEL101-02:** Oval previously assigned 7–8 to leftward motion and then asked for a return to center without an explicit beat, risking a ninth count. Allocated count 7 to the final side and 8 to center in original and mirrored paths; clarified slide and oval are separate eight-count studies. Quiz keys **C,A,D,B** unchanged.
+
+**Decision:** Count-level editorial defects corrected. No external performance or cultural-source validation claimed.
