@@ -187,3 +187,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (supporting leg bears weight), Q2 **C** (relax gripping toes), Q3 **A** (parallel slide/return retains central goal), Q4 **D** (controlled return pathway). Keys and distractor explanations align with the taught task. Ballet/jazz history and technique source attribution still require independent specialist source-level review.
 
 **Decision and limitations:** Targeted beginner walkthrough, practice-assignment alignment, accessible adaptation, and quiz-key review completed. This is not an observed learner assessment or validation of technical execution.
+
+## Targeted editorial check — DNC101-02 (November 2026)
+
+**Issue and revision:** The lesson described an unspecified seated foot-slide alternative to a standing plié and the generic success check referred to a singular support foot, despite a bilateral standing bend. Added complete eight-count seated rhythm substitutes for the main exercise and assignment Phrase B, explicitly distinguishing foot sliding from a seated plié or equivalent biomechanical loading. Corrected the success check to describe two-foot support.
+
+**Four-question editorial answer check:** Q1 **A** (shallow demi-plié), Q2 **A** (accent/phrasing), Q3 **B** (reduce depth when heels lift unexpectedly), Q4 **B** (comfort, control, repeatability). The answers align with the teaching text and reject maximal range as the success measure.
+
+**Decision and limitations:** Targeted novice walkthrough, supported alternative, assessment alignment, and quiz-key editorial review completed. Physical technique, safety, and scholarly source-level validation remain unverified.
