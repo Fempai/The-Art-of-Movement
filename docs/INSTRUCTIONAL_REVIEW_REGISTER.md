@@ -1062,3 +1062,46 @@ Scope: HIP101-01–04; 16 keyed questions, four follow-along/assignment comparis
 - **Limits — NEEDS REVIEW:** Historical claims require exact supporting source passages; Rose and Schloss links are publisher homepages rather than verified title-specific citations.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed answers PASS, 4/4 follow-along-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal correction identified. Distractors often use obviously sweeping or implausible claims, so item discrimination is uncalibrated. Historical attribution, culturally situated technique and observed learning remain NEEDS REVIEW. Verify latest-head CI independently.
+
+
+## BEL101 formal assessment-validity review — 2026-11-04
+
+Scope: BEL101-01–04, sixteen keyed questions, four guided/assignment and four outcome alignments. Internal conceptual audit only; does not authenticate regional traditions, professional movement technique, external source passages or actual learner performance.
+
+### BEL101-01 — Posture and grounding
+- **Q1 A — PASS:** Guided counts 1–2 shift pressure right with feet grounded; B reverses, C lifts foot, D introduces pivot.
+- **Q2 C — PASS:** Reducing range and restoring knee tracking matches troubleshooting; A/B/D preserve twisting.
+- **Q3 B — PASS:** Right–center–left–center matches 1–2/3–4/5–6/7–8; A/C/D omit or reorder returns.
+- **Q4 D — PASS:** Seated pressure shifts preserve direction and counts; A/B/C omit returns or timing.
+- **Guided-to-assignment — PASS:** Scored eight-count pathway, grounded support, optional seated marking, added accent and correction map directly.
+- **Assignment-to-outcome — PASS (internal):** Count/weight observations, adaptation and cultural evidence boundary are assessable in written score.
+- **Limits — NEEDS REVIEW:** Seated marking is not equivalent to standing hip isolation; cultural-source passage and physical execution unverified.
+
+### BEL101-02 — Slides and circles
+- **Q1 C — PASS:** Lateral slide versus changing-direction oval; A/B/D confuse pathways.
+- **Q2 A — PASS:** Smaller named oval preserves forward/side/back/side; B/C/D omit changes or fail to correct.
+- **Q3 D — PASS:** Reduce/omit painful back segment; A/B/C preserve or increase strain.
+- **Q4 B — PASS:** Completing original oval demonstrates practice of changing direction, not historical authenticity or universal range; A/C/D overclaim.
+- **Guided-to-assignment — PASS:** Right/center/left/center slide and separate eight-count oval with left-first mirrored variation are explicitly scored; count 8 is return to center.
+- **Assignment-to-outcome — PASS (internal):** Pathway, directional comparison, support and uncertainty are documented.
+- **Limits — NEEDS REVIEW:** Oval is an original drill, not certified regional technique; actual lumbar/knee control unobserved.
+
+### BEL101-03 — Shimmy preparation
+- **Q1 D — PASS:** Alternating one gentle knee softening per count matches R–L repeated; A/B/C lack alternation.
+- **Q2 B — PASS:** Return to slow one-action-per-count; A/C/D drop or replace pattern.
+- **Q3 A — PASS:** Seated alternating foot pressure and hand accents retains rhythm; B/C/D omit alternation or most counts.
+- **Q4 C — PASS:** Repeatable introductory alternation does not certify shimmy variants, source-video equivalence or faster readiness; A/B/D overclaim.
+- **Guided-to-assignment — PASS:** Eight alternating knee actions and one accent without forced acceleration map directly to scored assignment.
+- **Assignment-to-outcome — PASS (internal):** Rhythmic repeatability, safe modification and technique limitation are assessable.
+- **Limits — NEEDS REVIEW:** No independent evaluation of knee mechanics or culturally specific shimmy technique.
+
+### BEL101-04 — Combination and cultural context
+- **Q1 B — PASS:** Guided phrase uses half-oval on 5–6, not slides or knee accents; A/C/D misplace components.
+- **Q2 D — PASS:** Rehearsing 5–6 into 7–8 targets missed transition; A/B/C ignore or shift the problem.
+- **Q3 A — PASS:** Explicitly original study; B/C/D invent authenticated tradition from umbrella label or video.
+- **Q4 C — PASS:** Seated marking can assess count, accents and transitions; A/B/D incorrectly require standing equivalence or omit sequence.
+- **Guided-to-assignment — PASS:** Right/left slide-return 1–4, half-oval 5–6 and alternating accents 7–8 match the mirrored repeat and scored submission.
+- **Assignment-to-outcome — PASS (internal):** Repeatable combination, modifications and evidence-bounded cultural reflection match outcomes.
+- **Limits — NEEDS REVIEW:** Mirrored half-oval and seated variation require actual execution review; separate original 16-week Friday video track has unverified playback, matching and technique.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal correction identified. Distractors often contain conspicuous unsafe or sweeping claims; item discrimination remains untested. External cultural/technical source review and observed performance remain NEEDS REVIEW. Latest-head CI verification is separate.
