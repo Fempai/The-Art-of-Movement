@@ -594,3 +594,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04 Production book:** Defines five 32-count global ranges through count 160, four eight-count phrases per section, boundary support and planned-versus-executed cues. Quiz keys B,C,A,D checked. No venue or rights approval claimed.
 
 **Decision:** Targeted editorial pass completed for PRO702-01 through 04. Technical stagecraft adjudication, source passages and actual production testing remain outstanding.
+
+## PRO703 targeted editorial review (November 2026)
+
+- **01 Revision dossier:** Four criteria now have count-specific or observable decision rules and a yes/no/unobservable log preserved across baseline and retest. Quiz keys B,B,C,D checked. No independent evaluation of the performance claimed.
+- **02 Artist statement:** Four-row score has global counts and a claim-to-evidence column separating planned movement from recorded execution. Quiz keys B,C,A,D checked. Media rights and scholarly references remain unverified where not documented.
+- **03 Self-evaluation:** Defined 0/1/2 anchors, N/A exclusion and observable-score denominator. Quiz keys B,B,C,D checked. Self-assessment is not professional certification.
+- **04 Final portfolio:** Added duration formula and explicit verification that section count and chosen BPM yield the required two-to-four-minute target. Quiz keys B,B,C,D checked. An unperformed score is not a recorded performance.
+
+**Decision:** Targeted editorial pass completed for PRO703-01 through 04. All 20 core courses now have four individually documented targeted editorial checks, but this is not full scholarly verification, observed teaching effectiveness, expert technique adjudication, or final release approval. BEL101-01 and other additional-course gaps still require separate review.
