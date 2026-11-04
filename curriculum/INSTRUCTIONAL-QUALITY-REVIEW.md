@@ -83,3 +83,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Quiz-key editorial check:** Q1 **C** (comparable counts, support, choices), Q2 **A** (document seated adaptation), Q3 **D** (slow loop and final settle), Q4 **B** (documented progress only within the original phrase). Each keyed answer aligns with the practice and midterm protocol; distractors disregard conditions or claim unsupported mastery.
 
 **Decision:** Internal instructional and assessment-alignment check completed. This is formative self-observation, not independent measurement of dance skill or proof that either restored video matches the written phrase. No source playback, qualified technique verification, or learner outcome validation performed.
+
+## Targeted editorial check — BEL101-W09 (November 2026)
+
+**Issue and revision:** Week 09 originally instructed “take one comfortable step right” on counts 5–6 and “bring weight back” on 7–8, which could be interpreted as returning to the starting floor location and defeating the lesson's travel-versus-stationary distinction. Revised to specify right/left loops on 1–4, right-foot step and left-foot follow on 5–6, and a settled parallel stance at the **new** floor location on 7–8. Added an optional starting/ending floor reference and separate rehearsal before the transition.
+
+**Quiz-key desk check:** Q1 **B** (step changes floor location), Q2 **C** (reduce twisting/range), Q3 **A** (seated hand-traced loops), Q4 **D** (observable floor displacement). Keys match the revised instructions; distractors confuse loop motion with floor travel, preserve unsafe twisting, or infer unverified video correspondence.
+
+**Decision and limits:** Targeted written-instruction and answer-key review completed. A seated gesture remains an adaptation, not physical travel; the written lesson does not authenticate any specific regional figure-eight technique. No video playback or observed physical performance verified.
