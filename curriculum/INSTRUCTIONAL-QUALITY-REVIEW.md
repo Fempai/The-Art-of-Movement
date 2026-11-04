@@ -155,3 +155,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question independent editorial key check:** Q1 **B** (visible knee height is not an isolated hip angle), Q2 **A** (abduction is side leg movement), Q3 **C** (individual hip anatomy varies), Q4 **B** (facing can change appearance without changing every joint action). Explanations and distractors are aligned with the lesson's introductory concepts. Source claims and bibliography require separate independent source-level verification.
 
 **Decision and limitations:** Targeted count-by-count novice walkthrough, accessible alternative, and answer-key editorial review completed. No external learner observation, medical validation, or independently authenticated source-level audit was conducted.
+
+## Targeted editorial check — MOV101-02 (November 2026)
+
+**Issue and revision:** The lesson recommended a seated marking alternative if standing knee lifts were unsuitable but did not supply a count-by-count seated procedure for comparing its two tempo patterns. Added a stable-chair, feet-supported sliding-foot version with matched 1–2/3–4/5–6/7–8 and 1–4/5/6–8 count structures, comfortable range and breathing cues, and an explicit warning that seated foot sliding does not reproduce standing hip-flexor loading or balance requirements.
+
+**Four-question independent editorial key check:** Q1 **D** (a held position may require muscle tension), Q2 **B** (reduce and count an uncontrolled descent), Q3 **A** (concentric shortening under tension), Q4 **C** (appearance alone does not establish strength). Keys and explanations align with the taught introductory distinctions; quiz performance is not proof of movement proficiency.
+
+**Decision and limitations:** Targeted accessibility, beginner walkthrough, and quiz-key editorial review completed. Physiological loading of the adapted action and reference-level evidence remain independently unverified; no external learner or practitioner testing was conducted.
