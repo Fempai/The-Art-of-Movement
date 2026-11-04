@@ -724,3 +724,22 @@ test('Academy backup requires confirmation before replacing an existing record',
  await expect(page.locator('#status')).toContainText('Restored 1 keys');
  expect(await page.evaluate(()=>localStorage.getItem('aom_confirm_replace'))).toBe('older');
 });
+
+test('Assessment History preserves draft when browser storage refuses a save',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ await page.locator('[name=skill]').fill('Controlled relevé');
+ await page.locator('[name=notes]').fill('Maintain alignment');
+ await page.evaluate(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_assessment_history_v1')throw new DOMException('Storage full','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ await page.locator('#form button').click();
+ await expect(page.locator('#status')).toContainText('Save failed');
+ await expect(page.locator('[name=skill]')).toHaveValue('Controlled relevé');
+ await expect(page.locator('[name=notes]')).toHaveValue('Maintain alignment');
+ await expect(page.locator('.entry')).toHaveCount(0);
+ expect(await page.evaluate(()=>localStorage.getItem('aom_assessment_history_v1'))).toBeNull();
+});
