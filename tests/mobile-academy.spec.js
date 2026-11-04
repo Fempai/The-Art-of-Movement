@@ -546,3 +546,26 @@ test('corrupt weekly studio record is reported and never silently overwritten',a
  expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(broken);
  await expect(page.locator('#progress')).toContainText('Saved record could not be read');
 });
+
+test('weekly studio recovers after a transient browser storage failure',async({page})=>{
+ await page.addInitScript(()=>{
+  const original=Storage.prototype.setItem;
+  let failures=1;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_weekly_studio_v1_8'&&failures-->0)throw new DOMException('Quota exceeded','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ await page.goto(base+'/weekly-studio.html?week=8');
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await expect(page.locator('#progress')).toContainText('Not saved: browser storage is unavailable');
+ await page.locator('#tabs button').nth(1).click();
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await expect(page.locator('#progress')).toContainText('2 of 7');
+ await expect(page.locator('#progress')).toContainText('saved on this device');
+ await page.reload();
+ await expect(page.locator('#progress')).toContainText('2 of 7');
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
+ await page.locator('#tabs button').nth(1).click();
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
+});
