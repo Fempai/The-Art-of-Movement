@@ -203,3 +203,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **A** (rise onto balls of feet), Q2 **A** (small supported two-foot rise), Q3 **A** (study descent control), Q4 **B** (reduce range and use support). Keys and explanations align with the taught action; the seated modification must not be interpreted as standing relevé proficiency.
 
 **Decision and limitations:** Targeted novice walkthrough, accessibility, and quiz-key review completed. Source-level claim verification, independent observation, and movement-safety validation remain outstanding.
+
+## Targeted editorial check — DNC101-04 (November 2026)
+
+**Issue and revision:** The weight-transfer/développé lesson duplicated its safety-limitation sentence and mentioned seated marking without a count-level adaptation for its 16-count assignment. Removed the duplicate and provided a complete seated eight-count bend–unfold–bend–return pathway plus seated timing substitutes for counts 9–16. Explicitly separated seated marking from standing weight transfer, plié, relevé, and ballet technique proficiency.
+
+**Four-question editorial answer check:** Q1 **B** (bent leg unfolds), Q2 **C** (shift onto left support before right lift), Q3 **A** (small supported extension), Q4 **D** (repeatable ordered sequence with intentional weight transfer). All explanations match the taught sequence and reject endpoint-only evidence.
+
+**Decision and limitations:** Targeted novice walkthrough, assignment accessibility, and quiz-key review completed. This closes the targeted DNC101 lessons 01–04 editorial pass; it does not establish source-level historical accuracy, learner outcomes, or independently assessed technical skill.
