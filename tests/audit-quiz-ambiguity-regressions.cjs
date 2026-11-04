@@ -41,3 +41,39 @@ for (const id of reorderedQ1) {
   assert.ok(!feedback[1].includes('(B)'), id+': stale B distractor reference');
 }
 console.log('PASS: '+reorderedQ1.length+' Q1 answer-feedback label regressions.');
+
+// Cross-section instructional contracts: guard against regressions where a guided
+// exercise is corrected but the submitted assessment silently omits that requirement.
+// Text checks are targeted consistency guards, not proof of technique or learning.
+const contracts = [
+  {
+    id: 'LAB101-03',
+    guided: ['**Seated option:**', '9 with a small leftward seated-pressure shift', '8→9 boundary'],
+    assignment: ['two-phrase (16-count) A–B retrieval log', 'one immediate and one delayed attempt']
+  },
+  {
+    id: 'PRO701-02',
+    guided: ['B→A′ at the 16→17 boundary'],
+    assignment: ['B→A′ (16→17) boundary check', 'A→B (8→9)', 'A′→C (24→25)']
+  },
+  {
+    id: 'PRO702-04',
+    guided: ['four consecutive eight-count phrases', 'transition support position'],
+    assignment: ['four consecutive eight-count phrases per section', 'recorded exit/entry support']
+  },
+  {
+    id: 'PRO703-04',
+    guided: ['These are six creative functions', 'in a five-section version, combine two functions'],
+    assignment: ['five to eight 32-count sections', 'calculated duration']
+  }
+];
+for (const contract of contracts) {
+  const md = fs.readFileSync(path.join(__dirname, '..', 'curriculum', 'final-lessons', contract.id+'.md'), 'utf8');
+  const heading = md.search(/^## (?:Independent assignment|Assignment and assessment|Repertory assignment)/m);
+  assert.ok(heading >= 0, contract.id+': assessment section missing');
+  const guided = md.slice(0, heading);
+  const assignment = md.slice(heading);
+  for (const phrase of contract.guided) assert.ok(guided.includes(phrase), contract.id+': guided instruction missing: '+phrase);
+  for (const phrase of contract.assignment) assert.ok(assignment.includes(phrase), contract.id+': assessment contract missing: '+phrase);
+}
+console.log('PASS: '+contracts.length+' targeted guided-practice/assessment consistency contracts (not semantic validation).');
