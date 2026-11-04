@@ -492,3 +492,29 @@ test('Academy backup protects newer studio progress unless overwrite is explicit
  await page.goto(base+'/weekly-studio.html?week=5');
  await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
 });
+
+// A restore must not leak progress into another week or mutate newer local records.
+test('restoring one studio week preserves separate weeks and respects cancelled confirmation',async({page})=>{
+ const week6='aom_weekly_studio_v1_6',week7='aom_weekly_studio_v1_7';
+ await page.goto(base+'/weekly-studio.html?week=6');
+ await page.locator('.day.active .check input[type=checkbox]').check();
+ await page.goto(base+'/academy-backup.html');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const backup=JSON.parse(require('node:fs').readFileSync(await (await downloadPromise).path(),'utf8'));
+ expect(JSON.parse(backup.data[week6]).done0).toBe(true);
+ await page.evaluate(([a,b])=>{localStorage.removeItem(a);localStorage.setItem(b,JSON.stringify({done0:false,done2:true}))},[week6,week7]);
+ await page.locator('#import').setInputFiles({name:'week6-backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ page.once('dialog',dialog=>dialog.dismiss());
+ await page.locator('#restore').click();
+ expect(await page.evaluate(k=>localStorage.getItem(k),week6)).toBeNull();
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ expect(JSON.parse(await page.evaluate(k=>localStorage.getItem(k),week6)).done0).toBe(true);
+ expect(JSON.parse(await page.evaluate(k=>localStorage.getItem(k),week7))).toEqual({done0:false,done2:true});
+ await page.goto(base+'/weekly-studio.html?week=7');
+ await expect(page.locator('#progress')).toContainText('1 of 7');
+ await expect(page.locator('.day.active .check input[type=checkbox]')).not.toBeChecked();
+ await page.goto(base+'/weekly-studio.html?week=6');
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
+});
