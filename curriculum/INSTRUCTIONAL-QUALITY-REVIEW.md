@@ -558,3 +558,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04 Retention and fatigue:** Four binary action-and-timing chunk criteria and uncertainty reporting make the 0–4 score reproducible. Quiz keys B,C,A,D checked. Delayed data remain uncollected until actual follow-up dates.
 
 **Decision:** Targeted editorial pass completed for SCI503-01 through 04. Scholarly passage verification, empirical retention outcomes, and independent scientific review remain outstanding.
+
+## EST504 targeted editorial review (November 2026)
+
+- **01 Interpretation:** Added distinct observable-cue requirement for competing readings and score-versus-video distinction. Quiz keys B,C,A,D checked; no audience interpretation measured.
+- **02 Evidence:** Clarified that planned A and A-prime reach durations in the score are not proof of recorded execution. Quiz keys B,C,A,D checked; actual footage not independently reviewed.
+- **03 Ethics:** Provenance table now includes traceable citation or original-work status and allows explicit absence of identified borrowed sources. Quiz keys B,C,A,D checked; cultural origin cannot be inferred from resemblance.
+- **04 Critical essay:** Added comparable narrative/abstract count grids and explicit gaze, pathway, and return-accent changes. Quiz keys B,C,A,D checked; scholarly sources still need passage-level verification.
+
+**Decision:** Targeted editorial pass completed for EST504-01 through 04, with external scholarship verification and observed learner outcomes outstanding.
