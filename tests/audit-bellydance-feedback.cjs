@@ -46,7 +46,7 @@ for(const id of ids){
     const assignment = md.split('## Independent assignment')[1]?.split('## Source and context')[0] || '';
     if (assignment.includes('For Week 16, compare the score with Weeks 1 and 8')) errors.push(id+': copied final instruction in weekly assignment');
   }
-  if(id==='BEL101-W12' && !md.includes('one small pulse per count while the arms open gradually')) errors.push(id+': simultaneous layering counts regressed');
+  if(id==='BEL101-W12' && !(md.includes('5 right, 6 left, 7 right, 8 left') && /while\*\* gradually opening the arms/.test(md) && md.includes('same** four counts'))) errors.push(id+': simultaneous layering counts regressed');
   if(id==='BEL101-W13' && !md.includes('hand-traced version teaches the order of the pathway')) errors.push(id+': adaptation explanation regressed');
   if(id==='BEL101-W15' && !md.includes('These actions occur in sequence rather than simultaneously')) errors.push(id+': sequential coordination distinction regressed');
   const quiz=md.split(/## (?:Four-question knowledge check|Knowledge check)/i)[1]?.split(/## (?:Independent assignment|Assignment and reflection|Cultural and source boundaries|Source and context)/i)[0];
