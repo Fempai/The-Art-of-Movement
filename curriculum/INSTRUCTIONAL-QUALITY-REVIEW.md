@@ -387,3 +387,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (held reach observable), Q2 **C** (reach timing and gaze), Q3 **A** (intention is not guaranteed reception), Q4 **C** (neutral head if gaze destabilizes). Keys and explanations match the lesson.
 
 **Decision and limitations:** Targeted expressive-contrast reproducibility, seated alternative, and quiz-key editorial review completed. No audience interpretation or observed performance effectiveness established.
+
+## Targeted editorial check — LAB101-03 (November 2026)
+
+**Issue and revision:** The rehearsal asked learners to retrieve A–B, rest, and retrieve again but did not explicitly separate the immediate unaided attempt, score-based correction, and post-break unaided attempt required by the objective and assignment. Added labeled trial sequence and count-error records, specified supported standing B turn, and added complete seated A–B marking with gaze rather than unsupported torso rotation.
+
+**Four-question editorial answer check:** Q1 **B** (unaided recall), Q2 **A** (manageable units), Q3 **C** (retrieve/check/correct/retrieve), Q4 **A** (recall beyond immediate repetition). Keys and explanations match the instruction.
+
+**Decision and limitations:** Targeted retrieval-protocol alignment, count reproducibility, adaptation, and quiz-key editorial review completed. A two-minute delayed attempt does not establish long-term retention or expert movement quality.
