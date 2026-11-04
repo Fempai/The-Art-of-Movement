@@ -670,3 +670,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W16:** Week 16's slides/circle/pulses phrase differs from both Week 1 and Week 8 (Week 8 ends with a settle, Week 16 with alternating pulses). Added per-segment observation of two current attempts, optional like-for-like Week 1 repeat, and matched Week 8 comparison of counts 1–6 only. Quiz keys **D,B,A,C** remain aligned with evidence limits; no blanket cross-week skill improvement claim.
 
 **Decision:** Corrected an assessment-validity defect in longitudinal self-comparison. No independent learner performance or video verification has occurred.
+
+## BEL101 Weeks 09 and 13 observable checkpoint audit (November 2026)
+
+- **W09:** Added prepared left-foot support before the rightward step on count 5 and clarified safe gathering on 6. Replaced a generic checkpoint with separate loop-count observations and marked-floor travel evidence, including 'unobservable' and explicit symbolic-travel labeling for seated gesture. Quiz keys **B,C,A,D** remain aligned; step alone does not prove displacement.
+- **W13:** Replaced generic progress language with count-level forward/reverse pathway evidence (chest 3, pelvis 4, pelvis 5, chest 6) and distinct recording of hand tracing versus optional torso intention. Quiz keys **C,B,A,D** remain aligned. Hand-traced sequencing is not evidence of abdominal isolation or a complete roll.
+
+**Decision:** Editorial assessment criteria made observable; no independently witnessed movement, technique validation, or source-video verification claimed.
