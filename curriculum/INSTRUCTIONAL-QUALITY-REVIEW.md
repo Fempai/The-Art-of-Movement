@@ -656,3 +656,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W06:** Defined seated alternation with a stable nonrolling chair, supported feet, right on odd counts and left on even counts. This is a rhythmic substitute, not evidence of the named Egyptian shimmy mechanism. Quiz keys **C,A,D,B** remain aligned; original source technique remains unverified.
 
 **Decision:** Targeted count-level instructional clarifications completed; independent demonstration and cultural-source checks remain outstanding.
+
+## BEL101 Weeks 07 and 10 transition evidence audit (November 2026)
+
+- **W07:** The prior travel description asked the learner to shift support left and step right on the same count without identifying a prepared support position. Clarified preparatory support before count 5, safe right-step transfer on 5, left-foot gathering on 6, and floor-mark evidence before claiming displacement. Quiz keys **D,B,A,C** remain aligned. Actual learner travel and source-video match remain unverified.
+- **W10:** Replaced a generic repeat-and-reflect checkpoint with two comparable attempts checking left slide on 3, return on 4, and half-oval onset on 5. Requires yes/no/unobservable evidence and limits claims of improvement to what the two attempts show. Quiz keys **C,B,A,D** remain aligned. This is not independently observed performance testing.
+
+**Decision:** Targeted editorial transition defects corrected; physical technique, historical sources and learner-outcome validation remain open.
