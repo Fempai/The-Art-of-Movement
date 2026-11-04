@@ -643,3 +643,23 @@ test('Studio Record discloses unreadable weekly entries excluded from saved-week
  await expect(page.locator('#weeks tr').nth(2)).toContainText('Unreadable — restore backup');
  await expect(page.locator('#weeks tr').nth(3)).toContainText('1 / 7 days');
 });
+
+test('Academy backup rolls back earlier writes if a later storage write fails',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.evaluate(()=>localStorage.setItem('aom_rollback_existing','original'));
+ const backup={format:'aom-local-backup-v1',data:{aom_rollback_existing:'replacement',aom_rollback_new:'new-value'}};
+ await page.locator('#import').setInputFiles({name:'rollback.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await page.locator('#overwrite').check();
+ await page.evaluate(()=>{
+  const original=Storage.prototype.setItem;
+  Storage.prototype.setItem=function(key,value){
+   if(key==='aom_rollback_new')throw new DOMException('Simulated quota failure','QuotaExceededError');
+   return original.call(this,key,value);
+  };
+ });
+ page.once('dialog',dialog=>dialog.accept());
+ await page.locator('#restore').click();
+ await expect(page.locator('#status')).toContainText('Changes from this attempt were rolled back');
+ expect(await page.evaluate(()=>localStorage.getItem('aom_rollback_existing'))).toBe('original');
+ expect(await page.evaluate(()=>localStorage.getItem('aom_rollback_new'))).toBeNull();
+});
