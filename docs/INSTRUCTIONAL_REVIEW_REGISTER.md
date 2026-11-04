@@ -1949,3 +1949,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Live reader and interactive feedback not tested.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101 = **24/97 unique lessons**, **216/873 judgments recorded**: **144 PASS (internal/text)**, **72 NEEDS REVIEW**, **0 observed internal FAIL**. **73 lessons** remain for nine-dimension entries. This does not establish independent movement safety, empirical effectiveness or external source validity.
+
+
+## Nine-dimension instructional validation — CON101-01–04 — 2026-11-04
+
+**Method:** Reviewed current learner-facing contemporary dance texts, four guided eight-count studies, sixteen keyed questions with rationales, safe alternatives and assignments. PASS denotes internally demonstrable teaching and assessment alignment; no claim of expert technique certification, passage-level scholarship verification or live reader acceptance.
+
+### CON101-01 — Breath and phrasing
+1. **Outcome alignment — PASS (text):** Intentional arm/breath timing, observable versus inferred effect and two phrase versions are taught and assessed.
+2. **Practice sequence — PASS (text):** Warm-up 3–5 minutes; open 1–2, gather 3–4, reach 5–6, recover 7–8; three repetitions with one within-count speed change and no forced breath duration.
+3. **Movement correctness — NEEDS REVIEW:** Natural breathing and lightheadedness stop cues internally cautious; physiological and choreographic claims not independently technique-verified.
+4. **Modifications — PASS (text):** Stable-chair seated or grounded standing arm phrase, smaller range and explicit nonforced breathing.
+5. **Self-correction — PASS (text):** Lightheadedness, lost counts and mechanical breath imitation prompt stopping, separating tasks or natural breathing.
+6. **Quiz correctness — PASS (internal):** Q1 C (intentional timing without forced breathing), Q2 A (stop/rest), Q3 D (different observed count duration), Q4 B (seated marking).
+7. **Assignment — PASS (text):** A/B share count endpoints and support, change within-count initiation speed, document breathing comfort and 250–350-word evidence/interpretation comparison.
+8. **Evidence and cultural care — NEEDS REVIEW:** Contemporary lineages acknowledged as diverse and original exercise not passed off as a validated breathing intervention; source passages unverified.
+9. **Reader experience — NEEDS REVIEW:** No deployed quiz, video, link or assignment acceptance test.
+
+### CON101-02 — Initiation and sequencing
+1. **Outcome alignment — PASS (text):** Initiating segment, order versus endpoint and evidence-limited interpretation assessed.
+2. **Practice sequence — PASS (text):** A: hand 1, elbow/shoulder 2, torso 3–4, return 5–8; B: torso 1, arm 2, same comfortable endpoint 3–4, return 5–8.
+3. **Movement correctness — NEEDS REVIEW:** Small nonforced torso turn and sequencing internally coherent, but real spinal mechanics and execution not independently assessed.
+4. **Modifications — PASS (text):** Stable seated or parallel stance, small turn and unchanged support.
+5. **Self-correction — PASS (text):** All-at-once initiation, excessive twisting and unidentifiable first action map to isolate/count/reduce range.
+6. **Quiz correctness — PASS (internal):** Q1 B (initiator), Q2 C (different order/dynamics), Q3 A (isolate first action), Q4 D (visible timing does not prove intention).
+7. **Assignment — PASS (text):** Two matched eight-count reaches with distinct first actions, direction, support and bounded 250–350-word comparison.
+8. **Evidence and cultural care — NEEDS REVIEW:** Avoids universal meaning; cited biomechanics/Laban paper passages not verified.
+9. **Reader experience — NEEDS REVIEW:** Live lesson, video and feedback not tested.
+
+### CON101-03 — Suspension, delay and release
+1. **Outcome alignment — PASS (text):** Perceptible delay, supported hold, return timing and interpretive limits explicitly taught and assessed.
+2. **Practice sequence — PASS (text):** Shift right 1–2, reach 3–4, A holds 5 and returns 6, B begins return 5; both settle 7–8.
+3. **Movement correctness — NEEDS REVIEW:** Grounded low-risk pause and reduced balance demands internally plausible; actual postural loading and technique not externally verified.
+4. **Modifications — PASS (text):** Seated pressure-shift alternative and both-feet-grounded short hold, without claiming standing balance equivalence.
+5. **Self-correction — PASS (text):** Locked joints, loss of pause and wobble each map to smaller reach, count isolation or support.
+6. **Quiz correctness — PASS (internal):** Q1 B (delayed resolution), Q2 C (with/without pause), Q3 A (ground/reduce), Q4 D (grief as inferred universal claim).
+7. **Assignment — PASS (text):** Matched reach, one-count A/B return difference, support, breathing and bounded comparative reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** No universal emotional meaning asserted; exact research citations not passage-audited.
+9. **Reader experience — NEEDS REVIEW:** No actual browser or media test.
+
+### CON101-04 — Supported level changes
+1. **Outcome alignment — PASS (text):** Planned contact points, controlled chair rise/return, accessible marking and evidence-limited comparison appear in all components.
+2. **Practice sequence — PASS (text):** Chair preparation 1–2, supported rise 3–4, stand 5–6, begin safe return 7–8, explicitly permit extra counts for descent; seated marking substitute separately scored.
+3. **Movement correctness — NEEDS REVIEW:** Stable chair, nonrolling support, no forced descent and optional kneeling exit checks are cautious, but individualized transfer safety and floorwork technique not independently assessed.
+4. **Modifications — PASS (text):** Fully seated torso-rise mark for learners unable to transfer; optional kneeling is not required, and non-equivalence is clearly explained.
+5. **Self-correction — PASS (text):** Unsafe furniture, knee discomfort and rushed descent map to secure support, chair-only path or slower controlled exit.
+6. **Quiz correctness — PASS (internal):** Q1 B (planned support changes), Q2 C (chair transfer), Q3 A (cannot exit independently), Q4 D (document support surfaces).
+7. **Assignment — PASS (text):** A chair transfer and B seated marking, 250–350-word comparison, count overrun recorded honestly rather than forcing 8-count unsafe landing.
+8. **Evidence and cultural care — NEEDS REVIEW:** Original low-risk adaptations distinguished from certified floorwork; specific research support unverified.
+9. **Reader experience — NEEDS REVIEW:** Live reader, media and quiz feedback not exercised.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101 and CON101 = **28/97 unique lessons**, **252/873 judgments recorded**: **168 internal PASS**, **84 NEEDS REVIEW**, **0 observed internal FAIL**. **69 lessons** remain for nine-dimension review. These figures reflect internal editorial coverage, not independent movement certification or validated learner outcomes.
