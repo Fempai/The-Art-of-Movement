@@ -499,3 +499,35 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (kinesphere), Q2 **C** (reach direction), Q3 **A** (isolate variables), Q4 **D** (introductory plain-language score). Keys and explanations align with the lesson.
 
 **Decision and limitations:** Targeted score reproducibility and quiz-key editorial review completed. This closes the targeted LMA201 lessons 01–04 editorial pass, not passage-level source verification, LMA certification, or measured teaching effectiveness.
+
+## Targeted editorial check — PER201-01 (November 2026)
+
+**Issue and revision:** The three focus trials allowed seated marking without an executable seated score; Version C's initial downward gaze lacked an explicit endpoint. Added a supported eight-count seated motif, gaze targets and timings for all three variants, and comfortable head/neck limits.
+
+**Four-question editorial answer check:** Q1 **B** (gaze toward hand), Q2 **C** (visible head/gaze orientation), Q3 **A** (keep head forward and move eyes), Q4 **D** (focus may change emphasis). Keys and explanations match instruction.
+
+**Decision and limitations:** Targeted focus-score reproducibility, accessibility, and quiz-key editorial review completed; audience attention is not independently measured.
+
+## Targeted editorial check — PER201-02 (November 2026)
+
+**Issue and revision:** Three expressive intentions were scored for standing but seated adaptation and comparison controls were underspecified. Added stable-chair pressure-shift option and common facing, duration, and arm-height controls; observed differences remain separate from intended readings.
+
+**Four-question editorial answer check:** Q1 **B** (chosen purpose), Q2 **C** (reach distance/recovery), Q3 **A** (shorter reach observable), Q4 **D** (neutral action intention). Keys and explanations match instruction.
+
+**Decision and limitations:** Targeted intention comparison, adaptation, and quiz-key editorial review completed; no universal emotional reading claimed.
+
+## Targeted editorial check — PER201-03 (November 2026)
+
+**Issue and revision:** The entrance counted walking 1–4 and pause 5–6, then immediately began a new phrase without assigning 7–8, leaving a two-count gap. Added supported settling on 7–8, explicitly reset the motif to the next 1, and provided a seated timing alternative. Updated the assignment to match.
+
+**Four-question editorial answer check:** Q1 **B** (stillness on 8), Q2 **B** (complete pathway/timing), Q3 **C** (same framing), Q4 **D** (revise choreography/use support). Keys and explanations match instruction.
+
+**Decision and limitations:** Targeted entrance count continuity, assignment alignment, and quiz-key editorial review completed; professional stage presence not adjudicated.
+
+## Targeted editorial check — PER201-04 (November 2026)
+
+**Issue and revision:** The final task prescribed video and exactly two timing discrepancies even when recording was unavailable or no discrepancies existed. Added an immediate self-observation grid alternative, honest 'none observed' option, count-specific seated reference to LAB101-04, and aligned the assignment with those evidence routes.
+
+**Four-question editorial answer check:** Q1 **B** (three-count reach), Q2 **C** (A′ sustain), Q3 **A** (description/interpretation/evaluation), Q4 **D** (reframe cropped feet). Keys and explanations match instruction.
+
+**Decision and limitations:** Targeted critique feasibility, nonfabrication of errors, seated transfer, and quiz-key editorial review completed. This closes the targeted PER201 lessons 01–04 editorial pass, not observed teaching effectiveness or independent source verification.
