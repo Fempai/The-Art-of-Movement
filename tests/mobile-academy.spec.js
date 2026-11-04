@@ -810,3 +810,23 @@ test('Assessment History rejects oversized backup files without reading their co
  await expect(page.locator('#status')).toContainText('File exceeds 5 MB import limit');
  await expect(page.locator('.entry')).toHaveCount(0);
 });
+
+test('Assessment History ignores older asynchronous import after newer file selection',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ await page.evaluate(()=>{
+  const original=File.prototype.text;
+  let first=true;
+  File.prototype.text=function(){
+   if(first){first=false;return new Promise(resolve=>{window.finishOldAssessmentImport=()=>resolve(JSON.stringify({format:'aom_assessment_history_v1',records:[{id:'old-import',skill:'Old assessment',notes:'Stale',week:1}]}))})}
+   return original.call(this);
+  };
+ });
+ const input=page.locator('#import');
+ await input.setInputFiles({name:'old.json',mimeType:'application/json',buffer:Buffer.from('{}')});
+ await input.setInputFiles({name:'new.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'aom_assessment_history_v1',records:[{id:'new-import',skill:'Current assessment',notes:'Current',week:1,created:'2026-01-01T00:00:00Z',source:'Self-reflection'}]}))});
+ await expect(page.locator('.entry')).toHaveCount(1);
+ await expect(page.locator('.entry')).toContainText('Current assessment');
+ await page.evaluate(()=>window.finishOldAssessmentImport());
+ await expect(page.locator('.entry')).toHaveCount(1);
+ expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('aom_assessment_history_v1')).map(x=>x.id))).toEqual(['new-import']);
+});
