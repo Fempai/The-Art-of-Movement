@@ -137,7 +137,37 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** Written scores and reflection distinguish stationary figure-eight from travel and assess support, repeatability, correction, and evidence limitations.
 - **Remaining limitations:** Correctness of named cultural technique and restored source-video correspondence remain NEEDS REVIEW. Q4 assesses a fairly direct definition rather than a demanding transfer.
 
-**Assessment-ledger subtotal recorded here:** 10/97 lessons with all four question decisions; 40/388 individual question decisions; 10/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### BEL101-W10 — Connected transitions
+
+- **Q1 C — PASS:** “Guided count-by-count study” assigns the small half-oval to 5–6. A/B replace it with other components; D substitutes a hold. Misconception: any intervening action preserves the eight-count transition.
+- **Q2 B — PASS:** “Guided count-by-count study” and “Progression check” explicitly rehearse 3–6 to prevent an early start or extra pause at 4→5. A omits the preceding slide, C changes the score, D ignores the target boundary. Misconception: practicing a component alone proves its entry timing.
+- **Q3 A — PASS:** “Modification” hand-traces slide and half-oval on their original counts; B/C/D omit the target connection. Misconception: a seated alternative cannot assess counted transitions.
+- **Q4 D — PASS:** The progression check requires deliberate, repeatable timing with comfortable support. A/B miss repeatability or counts, C prioritizes range over support. Misconception: visual smoothness without observed counts establishes transition success.
+- **Guided-to-assignment — PASS:** The independent assignment scores two 3–4–5 transitions and distinguishes observed improvement from insufficient evidence, matching the guided rehearsal and progression check.
+- **Assignment-to-outcome — PASS:** Two attempts and a count-specific comparison assess connected transitions, support, correction, and source limitations.
+- **Remaining limitations:** Video playback and source-technique correspondence remain NEEDS REVIEW. The multiple-choice items emphasize recognition and error correction over complex transfer.
+
+### BEL101-W11 — Preparatory abdominal awareness
+
+- **Q1 B — PASS:** “Guided count-by-count study” places gentle engagement on 3 and release on 4 while breathing naturally. A holds the engagement; C moves the optional wave earlier; D omits the target action. Misconception: holding a contraction is equivalent to a controlled release.
+- **Q2 C — PASS:** The optional 5–6 wave may be omitted without disrupting comfortable breathing. A misreports completion, B retains discomfort, D substitutes a larger motion. Misconception: an optional movement must be performed to pass.
+- **Q3 A — PASS:** “Modification” allows seated breath-linked awareness and gentle release without a visible roll. B holds instead of releases, C/D substitute or prioritize the optional wave. Misconception: a visible belly roll is necessary to practice preparatory control. **Qualification:** when engagement itself is uncomfortable, the taught breathing-only adaptation remains legitimate but must not be scored as a performed release.
+- **Q4 D — PASS:** “Concept distinction” expressly separates introductory awareness from a complete belly roll. A claims roll mastery, B assumes source equivalence, C assumes advanced flutter readiness. Misconception: awareness exercise completion establishes advanced technique.
+- **Guided-to-assignment — PASS:** The assignment compares two attempts, natural breathing, gentle release when performed, optional-wave omission, and discomfort as a stop/modify observation, matching the progression check's self-report limits.
+- **Assignment-to-outcome — PASS:** Count score and reflection assess supported breathing/engagement awareness, adaptation, timing, and evidence limits without requiring visible abdominal activation.
+- **Remaining limitations:** Self-reported engagement cannot independently verify muscle activation; external video and named belly-roll technique remain NEEDS REVIEW.
+
+### BEL101-W12 — Simultaneous pulse and arm layering
+
+- **Q1 B — PASS:** “Guided count-by-count study” overlaps alternating pulses and gradual arm opening on 5–8. A/C stop or delay pulses; D alternates components instead of overlapping. Misconception: sequential combination is simultaneous layering.
+- **Q2 C — PASS:** Guided rehearsal separates pulses and arms before recombining on the same counts. A assumes transfer, B keeps mismatched tempos, D replaces alternating pulses. Misconception: isolated accuracy automatically transfers to simultaneous execution.
+- **Q3 A — PASS:** “Modification” explicitly uses seated alternating foot pressure while opening arms on 5–8. B/C omit one layer; D sequences rather than overlaps. Misconception: seated support eliminates the layering objective.
+- **Q4 D — PASS:** “Progression check” limits the conclusion to observed overlap at the practiced tempo. A generalizes tempos, B asserts unverified source matching, C confuses sequential and overlapping actions. Misconception: one successful trial establishes universal consistency.
+- **Guided-to-assignment — PASS:** Both guided study and assignment require the same 5–8 overlapping pulse/arm actions; the assignment records four count-level observations and unobservable denominators, consistent with the progression check.
+- **Assignment-to-outcome — PASS:** Two attempts and an explicit 0–4 overlap tally measure simultaneous coordination, support, correction, and limitations without claiming standing mechanics from seated foot-pressure timing.
+- **Remaining limitations:** Count-level visual observation cannot independently establish every internal joint action; source-video matching and specific technique attribution remain NEEDS REVIEW.
+
+**Assessment-ledger subtotal recorded here:** 13/97 lessons with all four question decisions; 52/388 individual question decisions; 13/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
