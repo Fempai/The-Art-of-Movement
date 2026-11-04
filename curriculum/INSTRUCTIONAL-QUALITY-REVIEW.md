@@ -627,3 +627,7 @@ The prior upper-torso-circle text called a left-start pathway with the same forw
 ## BEL101-W11 breathing and assessment alignment (November 2026)
 
 The guided drill explicitly permits a natural breath cycle that does not align with two musical counts, but the generic steady-count progression checkpoint risked treating breath timing as a mistake. Clarified that count accuracy measures the marked phrase, **not** inhale/exhale duration; added observation of breath-holding and discomfort as reasons to modify or stop, not as count errors. Existing quiz keys **B,C,A,D** remain supported. **Limit:** This is written assessment alignment, not clinical breathing instruction or observed technique validation.
+
+## BEL101-W12 simultaneous-layer evidence correction (November 2026)
+
+The written drill correctly requires pulses and arms simultaneously on counts 5–8, but the generic progression check did not establish how to observe overlap. Added per-count **both / pulse only / arms only / neither / unobservable** observations and a 0–4 overlap tally for each attempt. Rehearsing layers separately is still preparation, not evidence of simultaneous performance. Quiz keys **B,C,A,D** remain consistent. **Limit:** This is a more observable self-assessment protocol, not a witnessed learner test or video verification.
