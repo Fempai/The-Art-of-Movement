@@ -1449,3 +1449,43 @@ Scope: SIT505-01–04, sixteen question judgments, four guided/assignment and fo
 - **Limits — NEEDS REVIEW:** Real stakeholder consultation, historical sources, permission and site safety remain unverified.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Distractor difficulty and external physical, cultural, accessibility and permission checks remain NEEDS REVIEW. Latest-head CI unconfirmed.
+
+
+## PRO703 formal assessment-validity review — 2026-11-04
+
+Scope: PRO703-01–04; 16 keyed items, four guided/assignment and four assignment/outcome mappings. Internal textual audit; no external accreditation, performance jury, or scholarly passage certification.
+
+### PRO703-01 — Revision dossier
+- **Q1–Q4 — PASS (internal):** Answer explanations consistently distinguish a predefined observable baseline, controlled revision, comparable retest and honest retention of failed/unclear takes from post-hoc criteria and unsupported claims. The lesson's dated revision dossier explicitly requires baseline, four criteria, count-level error, two targeted rehearsals and full-score retest.
+- **Guided-to-assignment — PASS:** The 32-count A–B–A′–C score, A/A′ contrast and documented retest follow the taught revision cycle.
+- **Assignment-to-outcome — PASS (internal):** Dated artifacts and evidence-limited explanation measure traceable decisions and critique.
+- **Limits — NEEDS REVIEW:** Real change and external performance quality unobserved.
+
+### PRO703-02 — Artist statement
+- **Q1 B — PASS:** Count-specific reach and A′ delay are verifiable; A/C/D universalize or omit form.
+- **Q2 C — PASS:** Intended/possible audience reading is honest; A/B/D treat untested responses as facts.
+- **Q3 A — PASS:** Document influences and uncertain provenance; B/C/D confuse resemblance, media rights or collaboration.
+- **Q4 D — PASS:** Movement evidence and media permissions still required; A/B/C substitute intention for verification.
+- **Guided-to-assignment — PASS:** Five prompts, 200–300-word statement, four-row score and source/rights ledger map to exercise.
+- **Assignment-to-outcome — PASS (internal):** Count-based claim, ethical attribution and revision of vague statement test learning outcomes.
+- **Limits — NEEDS REVIEW:** Source permissions and actual execution not independently verified.
+
+### PRO703-03 — Critical self-evaluation
+- **Q1 B — PASS:** Return on 8 rather than 7 is observable if framed; A/C/D infer motive, audience or ability.
+- **Q2 B — PASS:** Unseen feature is N/A; A/C/D invent correctness, failure or motive.
+- **Q3 C — PASS:** Consistent criteria and alternatives improve evaluation; A/B/D cherry-pick or move targets.
+- **Q4 D — PASS:** Self-rubric assesses declared criteria only; A/B/C claim professional, universal or medical certainty.
+- **Guided-to-assignment — PASS:** Four-column criterion/target/observation/revision table, scored versus N/A distinctions and comparable retest match.
+- **Assignment-to-outcome — PASS (internal):** Evidence-linked rating, denominator correction and safe retest assess critical evaluation.
+- **Limits — NEEDS REVIEW:** Score-only pathway cannot establish physical execution; no external adjudication.
+
+### PRO703-04 — Final portfolio
+- **Q1 B — PASS:** Dated same-criteria baseline/final permits bounded change inference; A/C/D lack comparison.
+- **Q2 B — PASS:** 256 beats at 80 BPM = 3.2 minutes = 192 seconds; A/C/D assume other counts/tempos.
+- **Q3 C — PASS:** Complete labeled executable score is legitimate non-video artifact; A/B/D fabricate performance or omit detail/credit.
+- **Q4 D — PASS:** Self-study does not grant accredited qualification; A/B/C are genuine portfolio outputs.
+- **Guided-to-assignment — PASS:** Five to eight 32-count sections, 2–4 minute duration, dated drafts, artist statement, critique and media/rights ledger map to capstone.
+- **Assignment-to-outcome — PASS (internal):** Same-criteria growth comparison, traceable creative decisions and attribution meet stated portfolio goals.
+- **Limits — NEEDS REVIEW:** No live showcase, external credential, or audience reception demonstrated.
+
+**Batch closure:** 4 lessons, 16 internal keyed decisions marked PASS based on supplied keys/rationales; 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. PRO703-01's question-by-question alternatives should receive a separate granular evidence pass before declaring the strict closure ledger complete. External review and latest-head CI remain NEEDS REVIEW.
