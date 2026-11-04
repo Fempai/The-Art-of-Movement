@@ -115,3 +115,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **B** (pulses continue while arms open), Q2 **C** (rehearse layers separately then recombine), Q3 **A** (seated simultaneous foot pressure and arm opening), Q4 **D** (limited coordination claim at practiced tempo). All four keyed answers align with the lesson; distractors substitute sequential movements, omit one layer, or overclaim technique transfer.
 
 **Decision and limitations:** Targeted instructional/quiz editorial check completed. Seated foot-pressure coordination is an adaptation rather than proof of standing technique. Video content, practitioner-defined layering methods, and physical learning outcomes remain unverified.
+
+## Targeted editorial check — BEL101-W13 (November 2026)
+
+**Issue and revision:** The original Week 13 instruction grouped “chest-to-pelvis” and “reverse” into count pairs, leaving a self-study learner to infer the segment order. Revised to assign upper/chest marking to count 3, lower/pelvis to 4, reverse return starting from the lower position on 5, and completion at the upper position on 6. A hand-traced prerequisite distinguishes understanding an ordered pathway from performing abdominal isolation; optional low-range torso movement is not required.
+
+**Four-question quiz check:** Q1 **C** (forward and reverse sequence), Q2 **B** (reduce/omit uncomfortable movement and hand-trace), Q3 **A** (preparation only), Q4 **D** (isolate 3–6 and describe both directions). All four keys match the revised practice. Distractors replace sequence with pulses, ignore discomfort, or claim unsupported mastery.
+
+**Decision and limitations:** Targeted written-instruction, adaptation, and quiz-key review completed. Original video correspondence, the biomechanics of any practitioner-taught abdominal technique, and physical learner outcomes are not independently verified.
