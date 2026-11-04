@@ -21,6 +21,20 @@ This gate supplements, and does not replace, the existing 97-quiz structural aud
 ## Acceptance
 Mark each dimension PASS, FAIL, or NEEDS HUMAN REVIEW, and cite a file path and passage. Do not infer PASS from the existence of a heading or from CI being green. Fix factual and instructional issues before marking a lesson validated. An unresolved external-source claim or unreviewed movement-technique claim must remain NEEDS HUMAN REVIEW rather than PASS.
 
+## Bounded completion plan and honest progress reporting
+
+The 97-lesson inventory contains **388 four-question items** and **873 lesson-by-dimension decisions** (97 × 9). These are **review obligations**, not a claim that 388 answers or 873 decisions have been independently validated. Previous editorial passes and passing CI do not automatically count as signed-off rubric decisions.
+
+Use three distinct milestones so that “done” has a defined meaning:
+
+1. **Automated release gate:** the latest commit has successful instructional coverage, quiz audit, browser regression, static checks, smoke test, and deployment workflows. Recheck after the last content change. A green run establishes only the checks' documented scope.
+2. **Internal assessment-validity gate:** for each of 97 lessons, explicitly review all four keyed questions and explanations against the taught passage (388 question decisions), the independent assignment and rubric against the learning outcome, and the guided practice against the assignment. Record PASS / FAIL / NEEDS REVIEW with passage-specific evidence in the review register. Fix consequential failures and rerun CI; do not equate an earlier editorial read with a recorded PASS.
+3. **Full nine-dimension instructional gate:** document all 873 dimension decisions, including movement, accessibility, sources/cultural care, and reader integration. Keep unverifiable technique, external playback, and provenance concerns as NEEDS HUMAN REVIEW. An internal release may disclose these limitations; it must not be described as independently technique-validated.
+
+**Stop condition for the current assessment-validity workstream:** all 97 lessons have recorded question-by-question and assignment/outcome decisions, no unresolved internal FAIL remains, and the final commit passes automated verification. The broader nine-dimension sign-off is a separate, larger task. Do not keep opening new micro-edit rounds after this stop condition without a concrete failure or changed requirement.
+
+**Reporting rule:** give exact completed/total counts from recorded decisions, not subjective percentages or estimates based on green checkmarks. If the register does not yet contain complete evidence-based decisions, report the count as *not established*, not 97/97 validated.
+
 ## Priority review
 1. BEL101 introductory and weekly material: cultural terminology, isolation mechanics, links, and progression.
 2. All beginner dance tracks: movement setup, joint guidance, and safe regressions.
