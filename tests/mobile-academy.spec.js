@@ -686,3 +686,25 @@ test('Academy backup ignores an earlier file read that finishes after a newer se
  expect(await page.evaluate(()=>localStorage.getItem('aom_new_selection'))).toBe('new');
  expect(await page.evaluate(()=>localStorage.getItem('aom_old_selection'))).toBeNull();
 });
+
+test('Academy backup ignores an old file read error after a newer valid selection',async({page})=>{
+ await page.goto(base+'/academy-backup.html');
+ await page.evaluate(()=>{
+  const original=File.prototype.text;
+  let first=true;
+  File.prototype.text=function(){
+   if(first){first=false;return new Promise((resolve,reject)=>{window.failOldBackup=()=>reject(Error('Delayed old file failure'))})}
+   return original.call(this);
+  };
+ });
+ const input=page.locator('#import');
+ await input.setInputFiles({name:'old.json',mimeType:'application/json',buffer:Buffer.from('{}')});
+ await input.setInputFiles({name:'new.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify({format:'aom-local-backup-v1',data:{aom_current_backup:'safe'}}))});
+ await expect(page.locator('#status')).toContainText('Ready to restore 1 local Academy keys');
+ await page.evaluate(()=>window.failOldBackup());
+ await expect(page.locator('#status')).toContainText('Ready to restore 1 local Academy keys');
+ await expect(page.locator('#restore')).toBeEnabled();
+ page.once('dialog',d=>d.accept());
+ await page.locator('#restore').click();
+ expect(await page.evaluate(()=>localStorage.getItem('aom_current_backup'))).toBe('safe');
+});
