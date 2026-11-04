@@ -733,3 +733,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W10:** Explicitly requires reporting unobservable transition counts as unknown, not as successful or failed evidence, in two-attempt transition checkpoint. Quiz keys **C,B,A,D** unchanged.
 
 **Decision:** Targeted inference validity improved. No independent learner-outcome, cultural-source, or source-video verification claimed.
+
+## BEL101 Weeks 09 and 13 final wording pass (November 2026)
+
+- **W09:** Removed duplicated progression-check disclaimer and qualified quiz explanation 1: a rightward step only proves travel when start/end floor marks show displacement. Quiz keys **B,C,A,D** unchanged.
+- **W13:** Removed duplicated progression-check disclaimer and mapped the seated hand-trace explicitly to chest 3, pelvis 4, return begins 5, chest 6, with stable seating and natural breathing. Quiz keys **C,B,A,D** unchanged.
+
+**Decision:** Targeted editorial consistency and inference defects corrected; external technique and video review remain unverified.
