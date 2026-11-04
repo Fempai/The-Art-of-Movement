@@ -451,3 +451,19 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (adduction toward midline), Q2 **C** (controlled comfortable range), Q3 **A** (smaller shift and secure support), Q4 **D** (six controlled shifts as a recordable observation). Keys and rationales match instruction.
 
 **Decision and limitations:** Targeted count mapping, adaptation, and quiz-key editorial review completed. No individual flexibility or injury-prevention claim validated.
+
+## Targeted editorial check — FLE101-03 (November 2026)
+
+**Issue and revision:** The seated knee-extension exercise stated a two-count hold and two-count lower but did not specify extension or settle counts. Added complete eight-count extend/hold/lower/settle sequence for four repetitions on each side.
+
+**Four-question editorial answer check:** Q1 **A** (active muscular control), Q2 **C** (short head of biceps femoris knee-only), Q3 **B** (stop for tingling/electric sensation), Q4 **D** (comparable comfortable active control). Keys and explanations align with the instruction.
+
+**Decision and limitations:** Targeted count completeness and quiz-key editorial review completed. Clinical neural symptoms and individual hamstring mobility are not assessed remotely.
+
+## Targeted editorial check — FLE101-04 (November 2026)
+
+**Issue and revision:** The final integrated lab prescribed four repetitions per side for all three preceding drills, contradicting Lesson 01's three shifts per side and Lesson 02's six alternating shifts total. Restored each original baseline dosage: three supported hip shifts per side, six alternating lateral shifts total, four seated knee extensions per side; learners must disclose changes in setup.
+
+**Four-question editorial answer check:** Q1 **B** (active mobility includes control), Q2 **C** (task and warm-up recorded), Q3 **A** (stop/reduce painful range), Q4 **D** (compare similar conditions). Keys and explanations align with the instruction.
+
+**Decision and limitations:** Targeted cross-lesson baseline consistency and quiz-key editorial review completed. This closes the targeted FLE101 lessons 01–04 editorial pass, not source-level scientific verification or professional safety clearance.
