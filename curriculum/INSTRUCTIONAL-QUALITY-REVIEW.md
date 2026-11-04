@@ -619,3 +619,7 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 ## BEL101-W04 directional terminology correction (November 2026)
 
 The prior upper-torso-circle text called a left-start pathway with the same forward component a 'reverse' circle. This is a mirrored left-start variation, not necessarily a reversal of traversal order. Revised the guided practice and combined phrase to label it mirrored, and distinguished the reverse order of directional marks as a separate hand-traced study. The existing four quiz keys remain **C,A,D,B** and still test elbow-first sequence, safe adjustment, error correction and limited claims. **Limit:** This is editorial direction logic, not practitioner verification of named chest-circle technique or source-video matching.
+
+## BEL101-W09 evidence-logic correction (November 2026)
+
+**Q4 travel inference:** A rightward step alone does not prove net floor displacement. Revised the question to require an observed new marked floor position, and the explanation to distinguish a step from documented travel. Key **D** remains supported; the other options still claim unrelated consistency, loop equality or unverified video correspondence. The lesson already calls for a safe starting/ending reference. **Limit:** Editorial reasoning check only, not an observed movement trial or video playback check.
