@@ -339,3 +339,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (varied return of A), Q2 **B** (horizontal short reach contrasts diagonal sustain), Q3 **A** (original plain-language score), Q4 **C** (counts/support/facing/pathway). Keys and rationales match the concepts.
 
 **Decision and limitations:** Targeted score reproducibility, phrase transitions, accessible alternative, and quiz-key review completed. This closes the targeted CMP101 lessons 01–04 editorial pass, not a claim of observed choreographic effectiveness or independently verified source metadata.
+
+## Targeted editorial check — HIS101-01 (November 2026)
+
+**Issue and revision:** The guided exercise specified a four-column comparison of two traditions, while the assignment and worked example blurred this with a separate four-claim evidence audit using different columns. Clarified two distinct deliverables: a four-column contextual comparison with both practices and a claim-evidence audit of four claims with exact source locations, documented/inferred/unknown status, limits, and revised wording. Publisher discovery links do not count as passage-level support.
+
+**Four-question editorial answer check:** Q1 **B** (access to development spaces), Q2 **C** (visible photographic details), Q3 **B** (multiple contributors/settings), Q4 **A** (unknown origin recorded). Keys and explanations match the methodological distinctions.
+
+**Decision and limitations:** Targeted assignment-alignment and quiz-key editorial review completed. No historical passages or bibliographic links were independently verified, so historical claims are not source-audited.
