@@ -698,3 +698,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W15:** Quiz item 4 did not establish whether the learner completed the whole adapted phrase, leaving its arms-only distractor potentially compatible with the question. Specified two complete adapted attempts with hand-traced substitution, and explained why arms-only is insufficient. Quiz keys **C,A,D,B** unchanged. A hand trace is not evidence of torso isolation.
 
 **Decision:** Specific ambiguity and execution gaps corrected editorially; video/physical technique/learner-outcome validation remains unverified.
+
+## BEL101 Weeks 04 and 05 timing/vocabulary audit (November 2026)
+
+- **W04:** The left-arm snake wave previously said only 'repeat with the left arm' for counts 5–8, without explicit rise/lower assignment. Added left elbow-led rise on 5–6 and sequential lowering on 7–8, with an observable four-segment checkpoint. Separated the independent eight-count arm and chest studies to prevent treating two scores as a single eight-count attempt. Quiz keys **C,A,D,B** unchanged.
+- **W05:** Clarified that lateral slides describe a body-relative pathway, not necessarily displacement of the dancer's floor position. Updated success-check observation and quiz explanation to require floor-mark evidence before calling it travel. Quiz keys **B,D,A,C** unchanged.
+
+**Decision:** Count ambiguity and terminology inference corrected; external video and physical-technique verification remain outstanding.
