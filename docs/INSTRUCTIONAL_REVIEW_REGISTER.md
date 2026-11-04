@@ -2409,3 +2409,65 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Deployed reader, video playback, quiz feedback and submission UI not tested.
 
 **Cumulative ledger:** 60/97 unique lessons; 540/873 nine-dimension judgments; **360 internal PASS**, **180 NEEDS REVIEW**, **0 identified internal FAIL**. **37 lessons remain**. This includes BEL101-W04/W05 and W06–W11; no double-counting of the earlier BEL101-01–04. Independent technique, video provenance, cultural/source verification and actual learner outcomes remain open.
+
+
+## Nine-dimension instructional validation — BEL101-W12–W16 — 2026-11-04
+
+**Scope:** Five distinct lessons completing the reviewed original Friday track through its final. Read full lesson text, 20 keyed questions, count sequences, modifications and independent assignments. Text-only PASS is not physical technique or historical certification.
+
+### BEL101-W12 — Layering pulse and arm opening
+1. **Outcome alignment — PASS (text):** Learning goal, follow-along and assessed evidence explicitly target the named coordination/observation skill.
+2. **Practice sequence — PASS (text):** Right/left alternating knee pulse on every count 1–8; arms progressively open on same counts 5–8, not in a subsequent phrase.
+3. **Movement correctness — NEEDS REVIEW:** Movement execution and physical safety cannot be certified by text; named-technique validity requires qualified source/observation.
+4. **Modifications — PASS (text):** Seated alternating foot pressure with arm opening on identical counts; separate-layer rehearsal not misreported as layering.
+5. **Self-correction — PASS (text):** Per-count both/pulse-only/arms-only/neither/unobservable with planned and observable denominators; already-open held arms do not count as progressive opening.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, C, A, D**; explanations reject miscounted actions, unsupported proficiency, or unverified video equivalence.
+7. **Assignment — PASS (text):** Two attempts with 5–8 overlap tally, unobservable counts and supported reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Regional provenance, restored Drive-video playback and technique matching remain independently unverified; the lesson avoids universal-canon claims.
+9. **Reader experience — NEEDS REVIEW:** No deployed reader, media, quiz-feedback or submission acceptance test.
+
+### BEL101-W13 — Belly-work descriptive contrasts
+1. **Outcome alignment — PASS (text):** Learning goal, follow-along and assessed evidence explicitly target the named coordination/observation skill.
+2. **Practice sequence — PASS (text):** Natural breathing 1–2; chest 3, pelvis arrival 4, upward return begins at pelvis 5, chest arrival 6; relax 7–8, without double pelvis arrival.
+3. **Movement correctness — NEEDS REVIEW:** Movement execution and physical safety cannot be certified by text; named-technique validity requires qualified source/observation.
+4. **Modifications — PASS (text):** Seated hand tracing is sequence knowledge only; rapid flutters and full belly roll not required.
+5. **Self-correction — PASS (text):** Isolate 4→5 reversal without extra hold; omit compressive torso movement.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **C, B, A, D**; explanations reject miscounted actions, unsupported proficiency, or unverified video equivalence.
+7. **Assignment — PASS (text):** Two count-level trials compare downward 3–4 and upward 5–6, disclose hand substitution and limitations.
+8. **Evidence and cultural care — NEEDS REVIEW:** Regional provenance, restored Drive-video playback and technique matching remain independently unverified; the lesson avoids universal-canon claims.
+9. **Reader experience — NEEDS REVIEW:** No deployed reader, media, quiz-feedback or submission acceptance test.
+
+### BEL101-W14 — Original 16-count composition
+1. **Outcome alignment — PASS (text):** Learning goal, follow-along and assessed evidence explicitly target the named coordination/observation skill.
+2. **Practice sequence — PASS (text):** Phrase A slides 1–4, circle 5–6, settle 7–8; Phrase B pulses global 9–12, arm open 13–14, lower 15–16; global 8→9 consecutive.
+3. **Movement correctness — NEEDS REVIEW:** Movement execution and physical safety cannot be certified by text; named-technique validity requires qualified source/observation.
+4. **Modifications — PASS (text):** Seated pressure/hand version preserves global 1–16 score but not standing mechanics.
+5. **Self-correction — PASS (text):** Isolate global 7–10; segmented rehearsal not counted as connected composition.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, C, A, D**; explanations reject miscounted actions, unsupported proficiency, or unverified video equivalence.
+7. **Assignment — PASS (text):** Two connected 16-count attempts, global boundary score and evidence-limited comparison.
+8. **Evidence and cultural care — NEEDS REVIEW:** Regional provenance, restored Drive-video playback and technique matching remain independently unverified; the lesson avoids universal-canon claims.
+9. **Reader experience — NEEDS REVIEW:** No deployed reader, media, quiz-feedback or submission acceptance test.
+
+### BEL101-W15 — Arms and gentle undulation coordination
+1. **Outcome alignment — PASS (text):** Learning goal, follow-along and assessed evidence explicitly target the named coordination/observation skill.
+2. **Practice sequence — PASS (text):** Hand lift 1–2, arm open 3–4, optional torso/hand trace 5–6, arm lower 7–8; sequential, not simultaneous layering.
+3. **Movement correctness — NEEDS REVIEW:** Movement execution and physical safety cannot be certified by text; named-technique validity requires qualified source/observation.
+4. **Modifications — PASS (text):** Seated hand trace explicitly substitutes for torso wave; omitted movement identified as omitted.
+5. **Self-correction — PASS (text):** No uncounted pause at 4→5, avoid back compression, label substitute accurately.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **C, A, D, B**; explanations reject miscounted actions, unsupported proficiency, or unverified video equivalence.
+7. **Assignment — PASS (text):** Two versions, timing at 4→5, return to neutral and adaptations documented.
+8. **Evidence and cultural care — NEEDS REVIEW:** Regional provenance, restored Drive-video playback and technique matching remain independently unverified; the lesson avoids universal-canon claims.
+9. **Reader experience — NEEDS REVIEW:** No deployed reader, media, quiz-feedback or submission acceptance test.
+
+### BEL101-W16 — Foundation final
+1. **Outcome alignment — PASS (text):** Learning goal, follow-along and assessed evidence explicitly target the named coordination/observation skill.
+2. **Practice sequence — PASS (text):** Slide right 1/center 2/left 3/center 4, small circle 5–6, right pulse 7/left pulse 8; no added transition beat.
+3. **Movement correctness — NEEDS REVIEW:** Movement execution and physical safety cannot be certified by text; named-technique validity requires qualified source/observation.
+4. **Modifications — PASS (text):** Seated pressure/hand tracing is not graded as standing hip or knee technique.
+5. **Self-correction — PASS (text):** Observe count accuracy excluding unobservable/omitted actions; Week 1 matched drill only; Week 8 opening 1–4 comparable, circles only when truly matched, different 7–8 endings not compared.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **D, B, A, C**; explanations reject miscounted actions, unsupported proficiency, or unverified video equivalence.
+7. **Assignment — PASS (text):** Two final trials, optional matched historical comparisons and missing-baseline disclosure.
+8. **Evidence and cultural care — NEEDS REVIEW:** Regional provenance, restored Drive-video playback and technique matching remain independently unverified; the lesson avoids universal-canon claims.
+9. **Reader experience — NEEDS REVIEW:** No deployed reader, media, quiz-feedback or submission acceptance test.
+
+**Cumulative ledger:** **65/97 unique lessons**, **585/873 judgments**: **390 internal PASS**, **195 NEEDS REVIEW**, **0 internal FAIL identified**; **32 lessons remain**. BEL101 Friday Weeks 04–16 are now reviewed; Weeks 01–03 are not presumed reviewed under the Friday-week filenames. All video-source matching, professional movement observation, cultural-source passage verification and learner-effectiveness testing remain open.
