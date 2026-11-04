@@ -2256,3 +2256,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 **LMA201 batch:** 4 lessons; 24 internal PASS, 12 NEEDS REVIEW, zero internal FAIL; 36 decisions.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101, CMP101, PER201 and LMA201 = **48/97 unique lessons**, **432/873 judgments recorded**: **288 internal PASS**, **144 NEEDS REVIEW**, **0 internal FAIL identified**. **49 lessons** remain for nine-dimension entries. External movement correctness, passage-level source accuracy, actual learner effectiveness and live reader acceptance remain unresolved, and are not silently counted as PASS.
+
+
+## Nine-dimension instructional validation — LAB101-01–04 — 2026-11-04
+
+**Scope:** Original *Undercurrent* repertory foundation lessons. Read current learner-facing lesson content and checked the guided sequences, adaptations, answer explanations and assignments. Internal PASS does not establish safe independent performance or external validity.
+
+### LAB101-01 — Establish the motif
+1. **Outcome alignment — PASS (text):** Two reproducible eight-count originals, one count/support correction and artistic-intention distinction appear throughout.
+2. **Practice sequence — PASS (text):** Right step 1, left gather/settle 2, hands gather 3–4, diagonal right reach 5–6, recover 7, balance 8; three original and one explicitly optional left-arm trial, two original scored repetitions.
+3. **Movement correctness — NEEDS REVIEW:** Actual transfers, shoulder alignment and individual safety require physical observation.
+4. **Modifications — PASS (text):** Stable seated rightward pressure shift with right-arm reach preserves count without claiming standing equivalence.
+5. **Self-correction — PASS (text):** Isolate 3–6 for premature reach, reduce destabilizing reach and repeat counts slowly.
+6. **Quiz correctness — PASS (internal):** Q1 B motif; Q2 C reach 5–6; Q3 A repeatable support; Q4 C original repertory. Distractors substitute movements or infer unsupported lineage.
+7. **Assignment — PASS (text):** Two identical right-arm scores, facing/support, observed correction and distinct intention correspond to rubric.
+8. **Evidence and cultural care — NEEDS REVIEW:** Original repertory not misrepresented as tradition; Schmidt/Lee, Smith-Autard and IADMS citation-level support unverified.
+9. **Reader experience — NEEDS REVIEW:** No deployed lesson, quiz, media or submission acceptance test.
+
+### LAB101-02 — Emotional intention
+1. **Outcome alignment — PASS (text):** Compare A/B timing and gaze while separating visible changes from intended audience interpretation.
+2. **Practice sequence — PASS (text):** A reach travels 5–6 and gaze follows recovery 7; B reach arrives 5, holds 6 and faces front by 8; each repeated twice with same support.
+3. **Movement correctness — NEEDS REVIEW:** Head/gaze and arm movement safety not independently observed.
+4. **Modifications — PASS (text):** Supported seated pressure shift, neutral-head alternative if gaze destabilizes.
+5. **Self-correction — PASS (text):** Isolate timing/gaze if indistinguishable; avoid forcing neck or attributing confidence to visible timing.
+6. **Quiz correctness — PASS (internal):** Q1 B recorded held reach; Q2 C timing/gaze; Q3 A bounded expressive hypothesis; Q4 C stable head.
+7. **Assignment — PASS (text):** Two A/B count sheets, support, observable differences, revision and interpretation boundaries match objective.
+8. **Evidence and cultural care — NEEDS REVIEW:** Avoids universal emotion mappings; specific citations and source passages unverified.
+9. **Reader experience — NEEDS REVIEW:** No live playback/quiz/assignment test.
+
+### LAB101-03 — Movement memory
+1. **Outcome alignment — PASS (text):** Sixteen-count unaided retrieval, short-break repeat and count-level correction explicitly required.
+2. **Practice sequence — PASS (text):** A 1–8 recalled first; B left step 9, settle 10, sweep 11–12, diagonal 13–14, lower 15, front 16; study→hide→retrieve→check→correct→retrieve after two-minute break.
+3. **Movement correctness — NEEDS REVIEW:** Actual standing turn and memory-performance fidelity not independently witnessed.
+4. **Modifications — PASS (text):** Stable seated A/B pressure shifts and gaze-only diagonal, not a claimed standing torso turn.
+5. **Self-correction — PASS (text):** Four-count chunking, explicit 7–10 transition and repeated-error score check.
+6. **Quiz correctness — PASS (internal):** Retrieval without visible score, manageable ordered chunks and feedback-based correction are coherently taught; individual item keys require deployed quiz confirmation.
+7. **Assignment — PASS (text):** Unaided A–B recall, immediate/post-break comparison and revised second retrieval target the outcome.
+8. **Evidence and cultural care — NEEDS REVIEW:** General motor-learning sources cited without passage-level verification; no standardized memory-effect claim.
+9. **Reader experience — NEEDS REVIEW:** Live quiz, memory-task UI and media untested.
+
+### LAB101-04 — 32-count repertory
+1. **Outcome alignment — PASS (text):** Four-phrase A–B–A′–C count structure and documented transitions align with independent score and critique.
+2. **Practice sequence — PASS (text):** A 1–8, B 9–16, A′ 17–24 and C 25–32; 8→9, 16→17 and 24→25 boundary control required.
+3. **Movement correctness — NEEDS REVIEW:** Actual turn, support, transfer and phrase execution unobserved.
+4. **Modifications — PASS (text):** Seated pressure, gaze and arm-marking alternatives preserve score without claiming standing travel equivalence.
+5. **Self-correction — PASS (text):** Count-boundary checks, corrective rehearsal and evidence-based revisions form a clear loop.
+6. **Quiz correctness — PASS (internal):** Count-based repertory and observational distinctions internally align; actual rendered item mapping not independently checked.
+7. **Assignment — PASS (text):** Full score, support/facing and documented revision reflect course-level repertory objective.
+8. **Evidence and cultural care — NEEDS REVIEW:** Original educational composition, not certified or historical repertory; scholarly passage verification pending.
+9. **Reader experience — NEEDS REVIEW:** No browser/video/submission acceptance test.
+
+**Cumulative ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101, CMP101, PER201, LMA201 and LAB101 = **52/97 unique lessons** and **468/873 nine-dimension judgments**: **312 internal PASS**, **156 NEEDS REVIEW**, **0 documented internal FAIL**. **45 lessons remain**. Note that quiz review for LAB101-03/04 is an internal consistency judgment, not independently verified rendered quiz keys.
