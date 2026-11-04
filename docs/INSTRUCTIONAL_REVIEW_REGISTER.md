@@ -933,3 +933,46 @@ Scope: MUS101-01 through MUS101-04, sixteen question-level judgments and eight g
 - **Limits — NEEDS REVIEW:** The guided score gives some transitions as multi-count ranges, so actual count-by-count reproducibility must be checked in learner execution; scholarly links and performance remain unverified.
 
 **Batch closure:** 4 lessons, 16/16 internal question judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Distractors often contain implausible extreme errors, so difficulty/discrimination remain unvalidated. All four retain external evidence and observed-learning NEEDS REVIEW; check latest-head CI separately.
+
+
+## STG101 formal assessment-validity review — 2026-11-04
+
+Scope: STG101-01–04, sixteen knowledge-check decisions and guided-practice/assignment alignment. Internal editorial audit only; external professional safety assessment, movement observation and bibliography checks remain open.
+
+### STG101-01 — Rows and pulling
+- **Q1 B — PASS:** Seated cable row is the taught loaded upper-body pull; A calf raise, C squat and D march are not.
+- **Q2 B — PASS:** Unrated door anchors have uncertain stability/load; A/C/D incorrectly assume a closed door or slow count proves safety.
+- **Q3 C — PASS:** Guided lab prescribes reducing resistance for torso swing; A/B/D preserve compensation or raise demand.
+- **Q4 D — PASS:** Baseline requires reps, resistance, effort and quality; A/B/C omit one or more.
+- **Guided-to-assignment — PASS:** 1–2 sets of 6–10, machine load, effort, swing and correction map directly to submission; eight unresisted elbow draws are explicitly coordination-only.
+- **Assignment-to-outcome — PASS (internal):** Load/quality comparison and adaptation demonstrate pulling distinctions and repeatable records.
+- **Limits — NEEDS REVIEW:** No actual machine anchoring or execution checked; unresisted alternative cannot establish loaded strength.
+
+### STG101-02 — Elevated pushing
+- **Q1 B — PASS:** Wall elevation generally reduces relative upper-body load; A/C/D misstate load, range or repetition effects.
+- **Q2 C — PASS:** Trunk/pelvis coordination is observable; A/B/D omit movement quality.
+- **Q3 D — PASS:** Persistent wrist pain calls for stopping/changing; A/B/C retain pain or fail to reassess.
+- **Q4 A — PASS:** Lower secure support after controlled wall repetitions is progressive; B is unstable and C/D ignore control.
+- **Guided-to-assignment — PASS:** Wall distance/support height, sets, repetitions, effort, alignment and adjustment are explicit submission fields.
+- **Assignment-to-outcome — PASS (internal):** Controlled loaded versus seated unresisted coordination-only distinction is preserved.
+- **Limits — NEEDS REVIEW:** Actual wrist/shoulder technique and support stability cannot be inferred from text.
+
+### STG101-03 — Trunk control
+- **Q1 C — PASS:** Lecture and drill require controlled shifts with normal breathing; A/B/D prioritize fatigue, range or rigidity.
+- **Q2 B — PASS:** Two support touches per eight-count cycle is countable; A/C/D are subjective or unobserved.
+- **Q3 A — PASS:** Secure support limits consequences of a balance error; B/C/D overpromise or encourage unsafe progression.
+- **Q4 D — PASS:** Static balance cannot certify rapid-turn readiness; A/B/C are appropriately limited.
+- **Guided-to-assignment — PASS:** Right-center-left-center over eight counts, touch locations, repeat after adjustment and optional rotation are all recorded.
+- **Assignment-to-outcome — PASS (internal):** Comparable cycles and breathing/control notes support the stated lesson aims.
+- **Limits — NEEDS REVIEW:** Seated pressure shifts do not establish standing balance; no observed safety or transfer testing.
+
+### STG101-04 — Hip control and intervals
+- **Q1 B — PASS:** Baseline means repeatable starting conditions; A/C/D overgeneralize or omit quality.
+- **Q2 C — PASS:** 40/20 explicitly means 40 seconds work and 20 seconds rest; A/B/D misread units or order.
+- **Q3 A — PASS:** 20/40 modification shortens work and lengthens rest; B/C/D raise demand.
+- **Q4 D — PASS:** Single-variable progression is interpretable; A/B/C change multiple variables.
+- **Guided-to-assignment — PASS:** Supported hip lifts, interval duration/count, talk-test, effort and modification appear in combined log.
+- **Assignment-to-outcome — PASS (internal):** Pull/push/trunk/hip/interval records and cautious reflection assess task-specific conditioning baseline and evidence limits.
+- **Limits — NEEDS REVIEW:** Seated interval performance cannot establish standing stamina or cardiovascular fitness; prior lesson records must exist for a complete combined log.
+
+**Batch closure:** 4 lessons, 16/16 internal question decisions PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No content correction required from this pass. Distractor difficulty remains uncalibrated; source, technique and actual learning effectiveness remain NEEDS REVIEW. Latest CI verification is separate.
