@@ -567,3 +567,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 - **04 Critical essay:** Added comparable narrative/abstract count grids and explicit gaze, pathway, and return-accent changes. Quiz keys B,C,A,D checked; scholarly sources still need passage-level verification.
 
 **Decision:** Targeted editorial pass completed for EST504-01 through 04, with external scholarship verification and observed learner outcomes outstanding.
+
+## SIT505 targeted editorial review (November 2026)
+
+- **01 Site survey:** A is stationary performance point, B facing target, C reference point; no unintended travel. Quiz keys B,B,C,D checked. Site safety/permission must be verified separately.
+- **02 Sightlines:** Added supported count-8 orientation and seated focus alternative; predicted visibility is not audience observation. Quiz keys B,C,A,D checked. No audience testing claimed.
+- **03 Accessibility:** Stable nonrolling chair and optional supported pressure shift or hand initiation on 1–2 now explicit. Quiz keys B,C,A,D checked. No universal access or legal compliance determination.
+- **04 Proposal:** Added count-specific A-prime reach change, supported orientation, permission evidence and contextual-source ledger fields. Quiz keys B,C,A,D checked. No unverified history or site authorization claimed.
+
+**Decision:** Targeted editorial pass completed for SIT505-01 through 04. Site inspections, authoritative passage verification, and independent access review remain outstanding.
