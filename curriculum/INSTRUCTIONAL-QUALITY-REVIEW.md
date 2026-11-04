@@ -59,3 +59,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Quiz desk check:** Q1 **B** (loop on 5–6); Q2 **D** (slide versus changing-direction loop); Q3 **A** (seated hand tracing); Q4 **C** (video title does not prove a universal canon). All four keys agree with the lesson's stated concepts and the revised practice. Distractors either change the counts/pathway or claim unsupported source authority.
 
 **Decision and limitations:** Targeted editorial consistency review completed. No video playback or demonstration correspondence verified, no practitioner/cultural-source validation, and no observed novice learning. The four questions test understanding, not physical mastery; no full-course sign-off.
+
+## Targeted editorial check — BEL101-W06 (November 2026)
+
+**Issue:** The original guided drill stated right/left alternation in groups of four counts, while the assignment asked for generic “movement direction” rather than the actual initiating knee or rhythm. The revision specifies right–left actions on each of counts 1–8, neutral release between actions, a spoken-count prerequisite, and a measurable second attempt with one timing or alignment correction. Seated foot-pressure or hand-marking remains an adaptation, not evidence of standing technique.
+
+**Quiz-key desk check:** Q1 **C** (alternation each count); Q2 **A** (slow down and mark counts); Q3 **D** (seated alternation); Q4 **B** (limited claim about an original preparation). The lesson directly supports each keyed choice; the distractors change the rhythmic task or make unsupported claims of technique authentication.
+
+**Decision:** Targeted editorial count, objective, assignment, and answer-key consistency reviewed. The label “Egyptian shimmy” refers to the planned source topic, not a verified correspondence between this original drill and a specific tradition. Video access, practitioner-source technique, physical execution, and independent learning outcomes remain unverified.
