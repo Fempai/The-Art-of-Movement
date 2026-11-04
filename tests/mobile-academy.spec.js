@@ -544,7 +544,9 @@ test('corrupt weekly studio record is reported and never silently overwritten',a
  await expect(page.locator('#progress')).toContainText('Saved record could not be read');
  await expect(page.locator('#export')).toBeDisabled();
  await expect(page.locator('#export')).toHaveAttribute('title',/unreadable record/);
- await page.locator('.day.active .check input[type=checkbox]').check();
+ await expect(page.locator('.day.active .check input[type=checkbox]')).toBeDisabled();
+ await page.locator('#tabs button').last().click();
+ await expect(page.locator('.day.active textarea')).toBeDisabled();
  expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(broken);
  await expect(page.locator('#progress')).toContainText('Saved record could not be read');
 });
