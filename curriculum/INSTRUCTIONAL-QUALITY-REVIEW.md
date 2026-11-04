@@ -777,3 +777,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - Replaced segment-level yes/no observations with per-count on-count/off-count/unobservable/intentionally-omitted records across two attempts. Exclude unobservable and intentionally omitted actions from the observable attempted-action denominator; mark an entirely unobservable trial not assessable. Record circle-to-pulse transition continuity separately. Existing quiz key **D,B,A,C** remains aligned.
 
 **Decision:** Final assessment now has a more reproducible observable scoring protocol, without claiming physical skill validation, verified source playback, or learner-outcome effectiveness.
+
+
+## BEL101 Week 05 seated execution specificity (November 2026)
+
+- **W05:** Replaced an underspecified seated 'alternating pressure' instruction with explicit right pressure/neutral/left pressure/neutral on counts 1–4, a complete hand-traced loop on 5–6, and right then left hand/foot pulses on 7–8. Clarified stable chair, supported feet, and substitution labels. Quiz key **B,D,A,C** unchanged.
+
+**Decision:** Seated assignment now supports count-level practice without implying standing hip or knee technique has been demonstrated. Independent learner outcomes and source-video correspondence remain unverified.
