@@ -2051,3 +2051,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** Actual external links, quiz and assignment UI not tested.
 
 **Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101 and HIP101 = **32/97 unique lessons**, **288/873 judgments recorded**: **192 internal PASS**, **96 NEEDS REVIEW**, **0 observed internal FAIL**. **65 lessons** remain. These counts reflect editorial review coverage rather than expert technique, community validation, source authenticity or learner effectiveness.
+
+
+## Nine-dimension instructional validation — BEL101-01–04 — 2026-11-04
+
+**Method:** Reviewed four current introductory belly-dance final lessons, all sixteen keyed items and explanations, guided count scores, seated pathways, self-correction checkpoints and assignments. PASS indicates internal textual alignment, not expert-certified dance technique, authenticated tradition, or validated video playback. The original sixteen-week Friday track remains distinct from these four foundation lessons.
+
+### BEL101-01 — Grounding and hip isolation
+1. **Outcome alignment — PASS (text):** Comfortable weight support, small directional pelvic emphasis, counted repetitions and cultural limitations taught and assessed.
+2. **Practice sequence — PASS (text):** Right pressure 1–2, center 3–4, left 5–6, center 7–8; three repetitions with one accent and two independently logged checkpoint attempts.
+3. **Movement correctness — NEEDS REVIEW:** Planted-foot small shifts and avoidance of twisting/forced arch are cautious; hip isolation mechanics and individual safety not professionally assessed.
+4. **Modifications — PASS (text):** Stable-chair right–center–left–center pressure marking preserves count structure without claiming standing equivalence.
+5. **Self-correction — PASS (text):** Knee twist, lumbar compression and lost beat prompt smaller range, parallel alignment and pulse isolation.
+6. **Quiz correctness — PASS (internal):** Q1 A (right pressure, planted feet), Q2 C (reduce range/alignment), Q3 B (right–center–left–center), Q4 D (seated counted pressure shift).
+7. **Assignment — PASS (text):** Exact eight-count score, small pelvic-emphasis repeat, support, accent and 150–250-word evidence-limited reflection align.
+8. **Evidence and cultural care — NEEDS REVIEW:** Raqs sharqi/baladi distinction and original-exercise boundary clear; Shay/Sellers-Young and Deagon passages unverified.
+9. **Reader experience — NEEDS REVIEW:** No live reader, media or quiz-feedback acceptance test.
+
+### BEL101-02 — Slides and gentle circles
+1. **Outcome alignment — PASS (text):** Lateral slide versus oval, orientation/mirror versus time reversal and support choices explicitly taught and tested.
+2. **Practice sequence — PASS (text):** Slide right 1–2/center 3–4/left 5–6/center 7–8; separate oval forward 1–2/right 3–4/back toward neutral 5–6/left 7/center 8; mirrored left-first cycle distinctly labeled.
+3. **Movement correctness — NEEDS REVIEW:** Small comfortable oval and no forced backward arch internally conservative; standing pelvis mechanics not independently evaluated.
+4. **Modifications — PASS (text):** Seated pressure and hand-tracing adaptations expressly not scored as standing circle technique.
+5. **Self-correction — PASS (text):** Reduced oval, named directions, omit painful segment and no uncounted ninth beat.
+6. **Quiz correctness — PASS (internal):** Q1 C (lateral vs oval), Q2 A (small named-direction oval), Q3 D (reduce painful range), Q4 B (original pathway only).
+7. **Assignment — PASS (text):** Separate slide, oval and left-first mirrored oval with support/direction notes and reflection; no incorrect reverse-time claim.
+8. **Evidence and cultural care — NEEDS REVIEW:** Avoids treating exercise as traditional choreography; actual cited scholarship unverified.
+9. **Reader experience — NEEDS REVIEW:** Deployed quiz and lesson/video behavior untested.
+
+### BEL101-03 — Alternating-knee shimmy preparation
+1. **Outcome alignment — PASS (text):** Alternation, rhythmic repeatability, limits of one shimmy drill and safe support taught and assessed.
+2. **Practice sequence — PASS (text):** R on 1/3/5/7 and L on 2/4/6/8, one softening per beat with preceding knee returning naturally; repeat and accented version.
+3. **Movement correctness — NEEDS REVIEW:** Small knee alternation avoids forced pelvic twist; not verified as correct technique across diverse shimmy forms.
+4. **Modifications — PASS (text):** Seated alternating foot pressure/hand taps preserve rhythm without pretending standing knee equivalence.
+5. **Self-correction — PASS (text):** Lost count, knee discomfort and lumbar compression prompt slower one-action-per-beat, reduced range or stop.
+6. **Quiz correctness — PASS (internal):** Q1 D (alternating knee), Q2 B (slow down), Q3 A (alternating seated pressure/taps), Q4 C (limited original drill).
+7. **Assignment — PASS (text):** Eight R/L actions, comfortable accent, support, limitation and 150–250-word reflection match studio.
+8. **Evidence and cultural care — NEEDS REVIEW:** Explicitly rejects one universal shimmy and unsupported lineage; exact scholarship unverified.
+9. **Reader experience — NEEDS REVIEW:** No deployed practice video, quiz or submission check.
+
+### BEL101-04 — Combination and cultural context
+1. **Outcome alignment — PASS (text):** Slides, half-oval, alternating accents, mirrored variant and cultural distinction all assessed.
+2. **Practice sequence — PASS (text):** Right/center/left/center on 1–4, half-oval right–forward–left on 5–6, right/left accents 7–8; mirrored left-start repeat and explicit 6→7 transition.
+3. **Movement correctness — NEEDS REVIEW:** Compact two-count half-oval is introduced slowly and with support, but physical execution and biomechanical suitability not independently validated.
+4. **Modifications — PASS (text):** Seated pressure shifts, hand-traced half-oval and alternating taps clearly labeled symbolic alternatives.
+5. **Self-correction — PASS (text):** Log each segment and the 6→7 transition, reduce range, clap pulse, mark unobservable instead of inventing proficiency.
+6. **Quiz correctness — PASS (internal):** Q1 B (half-circle on 5–6), Q2 D (transition to accents), Q3 A (original study), Q4 C (count/accents/transitions).
+7. **Assignment — PASS (text):** Two eight-count right- and left-start scores, mirrored direction not time reversal, support and evidence-bounded reflection match.
+8. **Evidence and cultural care — NEEDS REVIEW:** Introductory terms distinguished and Friday sixteen-week video track preserved; video permissions, correspondence, cultural/source passages not verified.
+9. **Reader experience — NEEDS REVIEW:** Original video links, actual playback, reader, quiz feedback and submission not tested.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101 and BEL101 = **36/97 unique lessons**, **324/873 judgments recorded**: **216 internal PASS**, **108 NEEDS REVIEW**, **0 observed internal FAIL**. **61 lessons** remain for nine-dimension review. These figures describe editorial coverage only, not expert technique certification or verified original Friday-video access.
