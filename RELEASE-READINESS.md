@@ -131,3 +131,21 @@ Updated: 2026-10-20. Live Coach hold interruption, background-frame handling, Po
 **Remaining release blockers for a fully signed-off daily-use claim:** (1) actual-phone/desktop owner navigation, readable controls, and video-access smoke test; (2) authenticated sign-in, private-record isolation, save/reload/export and cross-device recovery checks; (3) targeted camera/pose-tracking diagnostic and opt-in data-transfer review on the real device; (4) video source playback, licensing, and technique correspondence review or explicit source-unverified labeling; (5) documented owner acceptance of the limited initial release. Production-grade avatars and automated grading should be tracked as **separate advanced milestones**, not treated as prerequisites for using the basic academy. Do not infer these checks from green CI.
 
 **Next deployment caveat:** This checkpoint documents the passing `8c05d5b3` revision. Any subsequent documentation or code push creates a new SHA and requires checking its own workflows before declaring that new SHA fully green.
+
+## Latest verified automated checkpoint — 2026-11-03
+
+**Verified SHA:** `8974846945acf3b6ddb86a6b4a2661c6b56ab2b0`. The GitHub Actions API confirmed all five workflows completed successfully on this exact revision:
+
+| Gate | Run | Conclusion |
+| --- | --- | --- |
+| Static integrity | [41772469202](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41772469202) | Success |
+| Lesson and quiz verification | [41772469147](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41772469147) | Success |
+| Static regression | [41772469126](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41772469126) | Success |
+| Desktop/mobile Chromium regression | [41772469104](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41772469104) | Success |
+| Pages build and deployment | [41772469074](https://github.com/Fempai/The-Art-of-Movement/actions/runs/41772469074) | Success |
+
+**Daily-use data-safety additions since the earlier checkpoint:** automated end-to-end tests now cover weekly studio completion and reflection persistence, Studio Record aggregation, backup export/loss/restore, opt-in overwrite protection, cancellation, cross-week isolation, transient storage-write failures and recovery, and malformed weekly-record preservation. When browser storage rejects a write, the studio no longer falsely says saved; when an existing weekly record is unreadable, it warns, avoids overwriting it, and disables misleading empty-record export. These are browser-emulated tests, not physical-device tests.
+
+**Remaining for a scoped daily-use release:** (1) independent live-site HTTP and real-phone/desktop acceptance for core navigation, local progress, accessibility and representative videos; (2) authenticated Supabase sign-in, save/reload, owner isolation and recovery testing; (3) confirmation that video sources are playable, suitable and permitted, or explicitly identified as unverified; (4) owner acceptance of a basic academy with experimental coaching features clearly marked. Existing owner review of 37 videos and the Life OS journal should not be repeated without a regression. Camera/recorded-pose diagnostics on the actual target device remain necessary before claiming those features reliable. Full production-quality 3D avatars and calibrated technique grades are separate, substantial milestones and not prerequisites for basic self-guided daily practice.
+
+**Important:** This is evidence for the named SHA, not a claim that subsequent documentation commits have already passed CI. GitHub Pages workflow success alone is not an independent visit to the public URL. No defensible numeric percent complete is available for the broader advanced research scope.
