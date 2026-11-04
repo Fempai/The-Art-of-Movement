@@ -147,3 +147,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question quiz check:** Q1 **D** (documented comparable count/support/correction evidence), Q2 **B** (disclose seated versus standing conditions), Q3 **A** (slow 5–8 transition), Q4 **C** (self-documented original phrase, not general mastery). The keys align with the assessment and avoid assuming video authenticity or equivalent adaptations.
 
 **Decision and limitations:** Targeted written-instruction, final assessment, and quiz-key review completed. This concludes the targeted Week 04–16 Friday-lesson editorial pass, **not** a full nine-dimension content validation of all BEL101 lessons. Historical Week 1/8 records may be missing; do not invent a progress baseline. Video playback, practitioner technique review, and observed learning outcomes remain unverified.
+
+## Targeted editorial check — MOV101-01 (November 2026)
+
+**Issue and revision:** The Undercurrent phrase asked beginners to draw the left foot inward after transferring weight right, without clarifying the supporting foot or whether another transfer was intended. Revised count 3 to maintain comfortable right-foot support with a light left-toe touch, and count 4 to finish with both feet grounded. Expanded the previous generic “mark with your hands while seated” suggestion into an eight-count seated alternative, with an explicit limitation: seated pressure shifts do not demonstrate standing weight transfer. An orientation-neutral comparison is available when turning to a diagonal is not feasible.
+
+**Four-question independent editorial key check:** Q1 **B** (visible knee height is not an isolated hip angle), Q2 **A** (abduction is side leg movement), Q3 **C** (individual hip anatomy varies), Q4 **B** (facing can change appearance without changing every joint action). Explanations and distractors are aligned with the lesson's introductory concepts. Source claims and bibliography require separate independent source-level verification.
+
+**Decision and limitations:** Targeted count-by-count novice walkthrough, accessible alternative, and answer-key editorial review completed. No external learner observation, medical validation, or independently authenticated source-level audit was conducted.
