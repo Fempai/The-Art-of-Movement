@@ -740,3 +740,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W13:** Removed duplicated progression-check disclaimer and mapped the seated hand-trace explicitly to chest 3, pelvis 4, return begins 5, chest 6, with stable seating and natural breathing. Quiz keys **C,B,A,D** unchanged.
 
 **Decision:** Targeted editorial consistency and inference defects corrected; external technique and video review remain unverified.
+
+## BEL101 Weeks 14 and 16 evidence and adaptation audit (November 2026)
+
+- **W14:** Added explicit seated global-count 1–16 mapping for both phrases and boundary 8→9, with stable chair and clear limits on standing mechanics. Removed duplicated checkpoint disclaimer. Quiz keys **B,C,A,D** unchanged.
+- **W16:** Quiz item 1 previously allowed a progress claim across nonidentical Week 1/8/16 full phrases. Restricted its stem, keyed choice, and explanation to matched movement tasks and comparable documented conditions; unlike full phrases cannot establish longitudinal improvement. Quiz keys **D,B,A,C** unchanged.
+
+**Decision:** Corrected a substantive longitudinal-assessment inference and a missing seated composition map. Independent source-video, physical-skill, and learner-effectiveness validation remain unverified.
