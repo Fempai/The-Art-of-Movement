@@ -27,6 +27,14 @@ Priority: foundations MOV101, then DNC101, followed by other beginner courses be
 
 Owner elected not to recruit learners or dance instructors. Perform substantive editorial QA of all 80 lessons and 320 questions, correcting issues and recording evidence. Passing this QA means the materials meet documented self-study content standards; it does **not** mean independently demonstrated skill acquisition or professional certification.
 
+## Targeted editorial check — BEL101-01 (November 2026)
+
+**Scope:** Desk-based check of the foundation standing and seated right–center–left–center study, four knowledge-check items and written assignment. Revised the starting support position, exact two-count pressure shifts, comfortable knee tracking, and a stable-chair alternative. The seated pressure shift is coordination marking, not standing weight-transfer equivalence.
+
+**Quiz-key check:** Q1 **A** (rightward pressure on 1–2, both feet grounded); Q2 **C** (reduce range and restore comfortable knee alignment); Q3 **B** (right–center–left–center); Q4 **D** (seated same directional order and counts). Distractors conflict with the taught count map or remove the safety modification. The lesson includes follow-along practice, self-correction, stop conditions, an adaptation, and a scored assignment.
+
+**Decision:** Targeted editorial review completed with limitations. Cultural-source passage verification, original uploaded-video correspondence, independent physical technique assessment, and measured learner effectiveness remain outstanding. This closes the previously unrecorded BEL101-01 targeted-review gap; it does not certify the belly dance curriculum.
+
 ## Targeted editorial check — BEL101-02 (November 2026)
 
 **Scope:** Desk-based review of the written introductory hip-slide and small-oval exercise, its four quiz questions, and the assignment. This is not an independent movement demonstration, cultural-source verification, or learner-effectiveness study.
