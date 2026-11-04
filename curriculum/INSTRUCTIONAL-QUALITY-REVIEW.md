@@ -638,3 +638,10 @@ The written drill correctly requires pulses and arms simultaneously on counts 5�
 - **W15:** Clarified which hand traces the seated substitute and how both arms return on 7–8. The progression check now distinguishes a labeled hand-traced substitute from actual torso movement, and checks the 4→5 entry without an extra beat. Quiz keys **C,A,D,B** remain consistent. This is not verification of undulation technique or original-video correspondence.
 
 **Decision:** Targeted written-score and evidence improvements completed; independent movement/source validation remains open.
+
+## BEL101-02 and BEL101-03 foundational sequence audit (November 2026)
+
+- **BEL101-02:** The second forward–left–back–right oval was labeled a reversed direction although it is a mirrored left-first path rather than a literal reverse-order traversal. The lesson and assignment now distinguish these, with optional hand tracing of the true reversed order. Quiz keys **C,A,D,B** unchanged; their pathway and modification rationales remain supported. Named regional technique is not verified.
+- **BEL101-03:** 'Soften and release one knee, then the other' could be read as two actions per beat despite the one-action-per-count objective. Explicitly mapped **R–L–R–L–R–L–R–L** and clarified neutral return occurs as the other side acts; added a stable-chair right-left pressure adaptation and matching assignment. Quiz keys **D,B,A,C** unchanged. This is editorial count logic, not independent technique assessment.
+
+**Decision:** Both targeted count/terminology defects corrected; source passage verification and physical learner testing remain open.
