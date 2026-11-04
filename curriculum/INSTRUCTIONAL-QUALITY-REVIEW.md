@@ -275,3 +275,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (early Bronx/New York Black and Latino community context), Q2 **C** (distinct histories of breaking and other styles), Q3 **A** (document uncertainty before attribution), Q4 **D** (first-person observed weight shift). Keys and explanations align with the introductory distinctions; the historical context still requires claim-level source verification.
 
 **Decision and limitations:** Targeted beginner walkthrough, count-level accessibility, and quiz-key editorial review completed. This closes the targeted HIP101 lessons 01–04 editorial pass. Publisher book links, precise historical passages, and practitioner-level validation remain unverified.
+
+## Targeted editorial check — MUS101-01 (November 2026)
+
+**Issue and revision:** The guided 4/4 phrase said “step right, gather, step left” without specifying which foot gathered or how to mark the full phrase while seated. Added explicit foot/arm directions, grounded support, and a complete eight-count seated hand-marking alternative, while noting the difference from standing steps.
+
+**Four-question editorial answer check:** Q1 **B** (quarter-note beat unit), Q2 **C** (eight beats at 120 BPM = four seconds), Q3 **A** (recurring beat grouping), Q4 **C** (changed clap accent). Arithmetic and distractor explanations match the teaching text.
+
+**Decision and limitations:** Targeted count, arithmetic, accessibility, and quiz-key editorial review completed. The original exercises and referenced scholarly metadata still require independent source-level review.
