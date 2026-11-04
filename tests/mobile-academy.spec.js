@@ -830,3 +830,16 @@ test('Assessment History ignores older asynchronous import after newer file sele
  await expect(page.locator('.entry')).toHaveCount(1);
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('aom_assessment_history_v1')).map(x=>x.id))).toEqual(['new-import']);
 });
+
+test('Assessment History reports new records and skipped duplicate IDs accurately',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ const record={id:'duplicate-assessment',skill:'Turnout check',notes:'Self-observation',week:1,created:'2026-01-01T00:00:00Z',source:'Self-reflection',drill:''};
+ const backup={format:'aom_assessment_history_v1',records:[record]};
+ const input=page.locator('#import');
+ await input.setInputFiles({name:'first.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await expect(page.locator('#status')).toContainText('1 new entries added; 0 duplicates skipped');
+ await expect(page.locator('.entry')).toHaveCount(1);
+ await input.setInputFiles({name:'second.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
+ await expect(page.locator('#status')).toContainText('0 new entries added; 1 duplicates skipped');
+ await expect(page.locator('.entry')).toHaveCount(1);
+});
