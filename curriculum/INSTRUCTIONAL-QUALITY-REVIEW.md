@@ -615,3 +615,7 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 ## Cross-lesson BEL101 midterm claim audit (November 2026)
 
 **BEL101-W08 Q4:** The prior keyed answer said a successful midterm established 'documented progress' even though the same lesson explicitly allows a missing Week 1 baseline. Corrected option B and its explanation to require a valid earlier baseline for a longitudinal comparison. Without a baseline, the learner can compare two current attempts only. Key remains **B**; the original distractors still overclaim video verification, universal mastery or no need for adaptations. **Decision:** Targeted quiz defect corrected; actual historical learner records and source-video correspondence remain unverified.
+
+## BEL101-W04 directional terminology correction (November 2026)
+
+The prior upper-torso-circle text called a left-start pathway with the same forward component a 'reverse' circle. This is a mirrored left-start variation, not necessarily a reversal of traversal order. Revised the guided practice and combined phrase to label it mirrored, and distinguished the reverse order of directional marks as a separate hand-traced study. The existing four quiz keys remain **C,A,D,B** and still test elbow-first sequence, safe adjustment, error correction and limited claims. **Limit:** This is editorial direction logic, not practitioner verification of named chest-circle technique or source-video matching.
