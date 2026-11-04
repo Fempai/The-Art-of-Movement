@@ -663,3 +663,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W10:** Replaced a generic repeat-and-reflect checkpoint with two comparable attempts checking left slide on 3, return on 4, and half-oval onset on 5. Requires yes/no/unobservable evidence and limits claims of improvement to what the two attempts show. Quiz keys **C,B,A,D** remain aligned. This is not independently observed performance testing.
 
 **Decision:** Targeted editorial transition defects corrected; physical technique, historical sources and learner-outcome validation remain open.
+
+## BEL101 midterm/final comparability audit (November 2026)
+
+- **W08:** Week 1's right–center–left–center pressure-shift task is not the same complete eight-count score as Week 8's slides/circle/settle. Explicitly restricted comparisons to matched directional timing or a separately repeated Week 1 task; no baseline means no historical improvement claim. Quiz keys **C,A,D,B** remain aligned; option 4B requires a valid comparable baseline.
+- **W16:** Week 16's slides/circle/pulses phrase differs from both Week 1 and Week 8 (Week 8 ends with a settle, Week 16 with alternating pulses). Added per-segment observation of two current attempts, optional like-for-like Week 1 repeat, and matched Week 8 comparison of counts 1–6 only. Quiz keys **D,B,A,C** remain aligned with evidence limits; no blanket cross-week skill improvement claim.
+
+**Decision:** Corrected an assessment-validity defect in longitudinal self-comparison. No independent learner performance or video verification has occurred.
