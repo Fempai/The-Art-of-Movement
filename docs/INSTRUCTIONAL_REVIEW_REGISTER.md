@@ -1796,3 +1796,54 @@ Scope: LAB101-01–04; 16 keyed question decisions and eight guided/assignment/o
 9. **Reader experience — NEEDS REVIEW:** No actual bibliography-link, quiz or submission browser test.
 
 **Cumulative nine-dimension ledger:** MOV101 + DNC101 + HIS101 = **12/97 unique lessons**, **108/873 judgments recorded**: **72 internal PASS**, **36 NEEDS REVIEW**, **0 internal FAIL**. Remaining **85 lessons** unreviewed under nine dimensions. Four HIS101 research-only lessons have no physical movement to certify; the third dimension is conservatively marked NEEDS REVIEW rather than counted as a physical technique pass.
+
+
+## Nine-dimension instructional validation — FLE101-01–04 — 2026-11-04
+
+**Method:** Inspected four learner-facing active-flexibility lessons, their 10–15-minute studios, all sixteen keyed questions, explanations, adaptations, symptom-stop rules and assignment rubrics. PASS denotes text-verifiable instructional structure, not expert biomechanics, clinical approval or actual learner performance.
+
+### FLE101-01 — Hip flexor mobility and pelvic control
+1. **Outcome alignment — PASS (text):** Hip flexion/extension, active versus passive range and pelvic compensation are taught, practiced, quizzed and logged.
+2. **Practice sequence — PASS (text):** Three-minute warm-up, supported split-stance three shifts per side, explicitly scored alternating knee lifts (1–8), and original eight-count transfer.
+3. **Movement correctness — NEEDS REVIEW:** Hip/thigh-relative definition and back-arch caveat are internally coherent; specific hip-flexor loading, stretch mechanism and safety not independently certified.
+4. **Modifications — PASS (text):** Fixed support, smaller shifts, optional padded kneeling and stable seated knee-lift adaptation with explicit non-equivalence to standing extension.
+5. **Self-correction — PASS (text):** Back compression, wobble and neurologic symptoms map to reduced range/support or stop; two smooth entries/exits form self-check.
+6. **Quiz correctness — PASS (internal):** Q1 B (hip extension), Q2 B (lumbar substitution), Q3 C (muscularly controlled range), Q4 D (fixed wall/smaller lift); distractors confuse position, passive assistance and control.
+7. **Assignment — PASS (text):** Bilateral three-shift log, supported knee lift, breathing, observed compensation, one adjustment and 200–300-word interpretation correspond to studio.
+8. **Evidence and cultural care — NEEDS REVIEW:** IADMS, ACSM and Behm et al. references provided with explicit non-validation caveat; bibliographic metadata and specific claims not passage-checked.
+9. **Reader experience — NEEDS REVIEW:** Deployed instructions, quiz feedback, videos and submission path not browser-tested.
+
+### FLE101-02 — Adductor mobility and controlled sideways range
+1. **Outcome alignment — PASS (text):** Adduction, comfortable lateral range, controlled return and safe progression taught and assessed.
+2. **Practice sequence — PASS (text):** Three-minute warm-up, six alternating lateral shifts, step-and-gather counts 1–8 and seated sliding count adaptation.
+3. **Movement correctness — NEEDS REVIEW:** Adductor definition and reduced-depth cues internally plausible; joint-specific loading and individual suitability unverified.
+4. **Modifications — PASS (text):** Stable rail, shallower shift and seated coordination pathway explicitly distinguished from standing load.
+5. **Self-correction — PASS (text):** Knee collapse, sharp inner-thigh pain and poor return map to reduced stance/depth, support or stopping.
+6. **Quiz correctness — PASS (internal):** Q1 B (adduction), Q2 C (controlled comfortable progression), Q3 A (small shift/support), Q4 D (six controlled shifts); distractors endorse discomfort or noncomparable claims.
+7. **Assignment — PASS (text):** Six shifts, knee/stance/return observations, bidirectional step-gather, one correction and reflection match exercise.
+8. **Evidence and cultural care — NEEDS REVIEW:** Sources listed with appropriate evidence limits but no independent passage verification.
+9. **Reader experience — NEEDS REVIEW:** No deployed UI/media/feedback acceptance test.
+
+### FLE101-03 — Hamstring flexibility versus active leg control
+1. **Outcome alignment — PASS (text):** Active muscular control, seated knee extension, gentle hip hinge and distinction from passive stretch all assessed.
+2. **Practice sequence — PASS (text):** Three-minute warm-up, right and left four scored seated knee extensions (1–8 each), gentle supported hinge, optional low supported knee lift.
+3. **Movement correctness — NEEDS REVIEW:** Short head of biceps femoris knee-only statement and neurodynamic caution are internally plausible, but anatomy, symptom handling and appropriateness require independent expertise.
+4. **Modifications — PASS (text):** Stable chair, comfortable knee bend, reduced range and low supported standing alternative; no forced straight-leg lift.
+5. **Self-correction — PASS (text):** Tingling/electric symptoms trigger stop; discomfort allows knee bend; trunk rocking prompts reduced range.
+6. **Quiz correctness — PASS (internal):** Q1 A (muscular control), Q2 C (short head knee-only), Q3 B (stop with tingling), Q4 D (consistent controlled conditions); distractors confuse passive assistance and unverified maximum.
+7. **Assignment — PASS (text):** Four repetitions each side, support/torso notes, hip hinge and 200–300-word active-versus-passive reflection match.
+8. **Evidence and cultural care — NEEDS REVIEW:** Physiological and evidence claims not matched to exact source passages.
+9. **Reader experience — NEEDS REVIEW:** Live lesson reader, quiz and media not tested.
+
+### FLE101-04 — Safe stretching and range-quality journal
+1. **Outcome alignment — PASS (text):** Repeatable comparison, comfortable active mobility versus static stretch and conservative progression tested in final journal.
+2. **Practice sequence — PASS (text):** Five-minute warm-up; faithfully reuses three hip shifts per side, six total lateral shifts and four seated knee extensions per side; adds 15–20-second calf hold and eight-count transfer. No silent protocol substitution.
+3. **Movement correctness — NEEDS REVIEW:** Gentle static/dynamic distinction and avoiding pain are internally consistent; optimal dose and individual clinical safety not certified.
+4. **Modifications — PASS (text):** Same support/comfortable setup or explicitly documented changes; no foot stretcher/forced splits and symptom-based range reduction.
+5. **Self-correction — PASS (text):** Increased intensity, changed balance and inconsistent comparison trigger range reduction, planted feet and conditions log.
+6. **Quiz correctness — PASS (internal):** Q1 B (active control), Q2 C (six shifts under recorded conditions), Q3 A (stop/reduce pain), Q4 D (comparable comfortable task); distractors lack reproducibility or retain pain.
+7. **Assignment — PASS (text):** Combined dated four-task journal, repetitions/hold, breathing, support, symptoms, 200–300-word reflection and single-variable progression align.
+8. **Evidence and cultural care — NEEDS REVIEW:** References shared across lessons; source-specific accuracy and application to exact dose unverified.
+9. **Reader experience — NEEDS REVIEW:** No live deployed browser or multimedia verification.
+
+**Cumulative nine-dimension ledger:** MOV101, DNC101, HIS101, FLE101 = **16/97 unique lessons**, **144/873 judgments**: **96 PASS (internal/text)**, **48 NEEDS REVIEW**, **0 observed internal FAIL**. **81 lessons** remain to receive nine-dimension entries. These counts measure editorial coverage, not clinical safety, certified technique, external source validity or learner effectiveness.
