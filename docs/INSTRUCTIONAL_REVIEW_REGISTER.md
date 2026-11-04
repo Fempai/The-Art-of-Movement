@@ -1191,3 +1191,46 @@ Scope: PER201-01–04; sixteen question-level decisions, four guided-to-assignme
 - **Limits — NEEDS REVIEW:** Written grid cannot replicate video observation; actual movement and audience clarity unverified.
 
 **Batch closure:** 4 lessons, 16/16 internal keyed decisions PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal content correction identified. Distractors frequently make absolute claims and may be easy to eliminate; difficulty/discrimination uncalibrated. External bibliography, performance safety and learner outcomes remain NEEDS REVIEW. Check latest-head CI separately.
+
+
+## LMA201 formal assessment-validity review — 2026-11-04
+
+Scope: LMA201-01–04; 16 keyed items, four guided-to-assignment and four assignment-to-outcome judgments. Textual conceptual audit only; neither formal LMA certification nor independent movement, source, or learner validation.
+
+### LMA201-01 — Body
+- **Q1 B — PASS:** Initiating body part belongs to Body; A/D concern Space and C Effort/Time.
+- **Q2 B — PASS:** Fingertip-first versus torso-first sequencing is the changed variable; A/C/D misidentify pathway, Effort or kinesphere.
+- **Q3 C — PASS:** Torso moving before arm is observable; A/B/D infer anxiety, confidence or universal intention.
+- **Q4 D — PASS:** Reduce destabilizing torso shift while preserving support; A/B/C worsen instability.
+- **Guided-to-assignment — PASS:** Two eight-count fingertip/torso initiation scores and first/subsequent segment notes are specified in both.
+- **Assignment-to-outcome — PASS (internal):** Distinguishing initiation order from psychological interpretation measures descriptive Body reasoning.
+- **Limits — NEEDS REVIEW:** Actual onset timing, observation reliability and professional category accuracy remain unverified.
+
+### LMA201-02 — Effort
+- **Q1 B — PASS:** Weight is one of four Effort factors; A Shape and C/D spatial organization.
+- **Q2 A — PASS:** Sustained is Time quality, not mandatory count duration, load or pathway.
+- **Q3 C — PASS:** Bound/free is Flow; A Time, B Weight, D reachable Space.
+- **Q4 D — PASS:** Strong Effort does not mean uncontrolled maximal physical resistance; A/B/C are descriptive alternatives.
+- **Guided-to-assignment — PASS:** Sustained/light, sudden initiation, direct/exploratory pathways and bound/freer Flow trials match the assignment.
+- **Assignment-to-outcome — PASS (internal):** Visible cue, factor attribution, unintended changes and distinction from force measurements are assessable.
+- **Limits — NEEDS REVIEW:** Some factors co-vary in execution; independent LMA expert reliability is not established.
+
+### LMA201-03 — Shape
+- **Q1 B — PASS:** Arms widening is Shape; A/D are Effort Time, C unsupported intention.
+- **Q2 B — PASS:** Different pathways can share endpoints; A/C/D incorrectly infer process from final pose.
+- **Q3 C — PASS:** Sudden/sustained is Effort Time; A/B/D describe other categories.
+- **Q4 D — PASS:** Smaller comfortable opening/closing retains contrast; A/B/C preserve strain or rigidity.
+- **Guided-to-assignment — PASS:** 1–2 enclose, 3–4 expand, 5–6 gather, 7–8 diagonal opening and smaller-range repeat are explicitly assigned.
+- **Assignment-to-outcome — PASS (internal):** Process descriptions, arm/trunk relationship and Time-versus-Shape distinction assess intended category.
+- **Limits — NEEDS REVIEW:** Camera vantage and actual shape-change execution unobserved.
+
+### LMA201-04 — Space
+- **Q1 B — PASS:** Kinesphere concerns reachable surrounding space from current support; A/C travel and D facing alone.
+- **Q2 C — PASS:** Reach direction is spatial; A/B Effort, D Body.
+- **Q3 A — PASS:** Fixed counts help isolate variation; B/C/D make unsupported claims.
+- **Q4 D — PASS:** Plain-language movement score is neither formal Labanotation nor clinical or audience-response instrument.
+- **Guided-to-assignment — PASS:** Planted-foot direction study and four-row Body/Effort/Shape/Space variation score with counts, support, facing and constants are assigned.
+- **Assignment-to-outcome — PASS (internal):** Four-factor classification and evidence-bounded reflection test introductory analysis.
+- **Limits — NEEDS REVIEW:** Factor separation in actual movement and bibliographic metadata require independent verification.
+
+**Batch closure:** 4 lessons, 16/16 internal keyed judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal answer-key correction identified. Distractor discrimination and expert inter-rater reliability remain untested; source and physical technique validation remain NEEDS REVIEW. Check latest-head CI separately.
