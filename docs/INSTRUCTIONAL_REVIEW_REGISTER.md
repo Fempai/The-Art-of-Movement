@@ -167,7 +167,47 @@ These are **internal text-based editorial judgments**, not a professional techni
 - **Assignment-to-outcome — PASS:** Two attempts and an explicit 0–4 overlap tally measure simultaneous coordination, support, correction, and limitations without claiming standing mechanics from seated foot-pressure timing.
 - **Remaining limitations:** Count-level visual observation cannot independently establish every internal joint action; source-video matching and specific technique attribution remain NEEDS REVIEW.
 
-**Assessment-ledger subtotal recorded here:** 13/97 lessons with all four question decisions; 52/388 individual question decisions; 13/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
+### BEL101-W13 — Preparatory torso sequence
+
+- **Q1 C — PASS:** “Concept distinction” and “Guided count-by-count study” teach chest 3 → pelvis 4 → upward return from pelvis 5 → chest 6. A/B/D describe repeated pulses or omit sequential return. Misconception: repeating an accent is equivalent to a directional wave.
+- **Q2 B — PASS:** The guided study and modification permit omitting uncomfortable torso action and hand-tracing order. A/C/D retain compression or enlarge the motion. Misconception: the torso motion is mandatory to demonstrate pathway knowledge.
+- **Q3 A — PASS:** “Concept distinction” explicitly limits the drill to preparation, not a complete belly roll or flutter. B/C/D overclaim proficiency, source matching, or tempo universality. Misconception: a slow sequential gesture establishes advanced abdominal technique.
+- **Q4 D — PASS:** The progression check specifically examines the direction reversal at 4→5; A/B/C do not observe both sides of the boundary. Misconception: observing the final position proves the return pathway.
+- **Guided-to-assignment — PASS:** Both explicitly require a 4→5 reversal without an extra pelvis arrival/hold, with an unobservable option.
+- **Assignment-to-outcome — PASS:** Two scored attempts and reflection assess pathway order, support, adaptation, and limits of belly-roll/flutter claims.
+- **Remaining limitations:** Hand-traced pathways cannot validate abdominal isolation; source-video and regional technique remain NEEDS REVIEW.
+
+### BEL101-W14 — Two connected phrases
+
+- **Q1 B — PASS:** “Guided count-by-count study” requires stable A8 finish followed by B1 on the next beat. A extends the settle, C skips B1, D avoids the connection. Misconception: correct components excuse a missing transition count.
+- **Q2 C — PASS:** The guided study and progression check isolate A7–A8–B1–B2 (global 7–10). A/B/D omit or avoid the boundary. Misconception: individually accurate phrases establish a connected 16-count sequence.
+- **Q3 A — PASS:** “Modification” allows both phrases and boundary to be marked seated. B omits half, C changes order, D assumes an untested link. Misconception: seated coordination cannot represent the full 16-count score.
+- **Q4 D — PASS:** “Progression check” requires a repeatable, counted boundary with stable support. A/C ignore timing or support, B overgeneralizes tempo. Misconception: a visually smooth but uncounted connection demonstrates the objective.
+- **Guided-to-assignment — PASS:** The two eight-count phrases and their global 8→9 connection match the assignment's 1–16 score and boundary comparison.
+- **Assignment-to-outcome — PASS:** The deliverable explicitly distinguishes connected performance from segmented rehearsal and records support, correction, and evidence limits.
+- **Remaining limitations:** This is an original composition, not authenticated regional choreography; source playback remains NEEDS REVIEW.
+
+### BEL101-W15 — Arms and gentle torso intention
+
+- **Q1 C — PASS:** “Guided count-by-count study” places optional chest-to-pelvis intention on 5–6. A/B/D are different parts of the score. Misconception: any arm movement is the torso sequence.
+- **Q2 A — PASS:** “Modification” allows a seated hand trace instead of an uncomfortable torso wave. B/C retain discomfort, D discards counts unnecessarily. Misconception: adaptation requires a performed torso wave.
+- **Q3 D — PASS:** The guided study explicitly separates arm opening from torso intention and rehearses the 4→5 boundary. A emphasizes speed, B ignores the link, C changes order. Misconception: practicing components alone establishes correct transition timing.
+- **Q4 B — PASS:** The adapted eight-count drill can be repeated and described, but hand tracing is not torso isolation. A/C/D overclaim physical technique, transfer, or source correspondence. Misconception: symbolic pathway equals demonstrated isolation.
+- **Guided-to-assignment — PASS:** Both cover lift/open 1–4, optional wave or labeled substitute 5–6, and lowering/neutral 7–8.
+- **Assignment-to-outcome — PASS:** Two attempts and reflection measure sequencing, transition, support, modification, and appropriate evidence boundaries.
+- **Remaining limitations:** Optional omission is not evidence of torso-wave proficiency; video matching remains NEEDS REVIEW.
+
+### BEL101-W16 — Final foundation reassessment
+
+- **Q1 D — PASS:** “Progression check” requires genuinely matched tasks and conditions for progress claims; A/B/C compare size, appearance, or length without equivalent tasks. Misconception: any final improvement in appearance proves longitudinal skill progress.
+- **Q2 B — PASS:** The progression check and assignment require documenting seated/standing differences and comparing only observable timing/sequence under disclosed conditions. A/C ignore support; D observes only the endpoint. Misconception: differing adaptations are mechanically equivalent.
+- **Q3 A — PASS:** “Guided count-by-count study” practices circle 5–6 into right/left pulses 7–8. B omits transition, C shifts beats, D focuses elsewhere. Misconception: isolated circle practice verifies pulse entry.
+- **Q4 C — PASS:** “Concept distinction” limits the result to self-documented original sequence performance. A/B/D overclaim technique mastery, video correspondence, or transfer. Misconception: completing a final certifies named hip-work techniques.
+- **Guided-to-assignment — PASS after correction:** Both restrict Week 1 comparison to a separately repeated matching pressure-shift task, Week 8 opening slides to 1–4, and circles 5–6 only to matched direction, endpoints, **range**, support, and tempo. Week 8 and Week 16 endings 7–8 are not compared. Added the previously omitted range criterion to the assignment in `4e4e2d9f2c8a0543301b98b14c562fc2672c4741`.
+- **Assignment-to-outcome — PASS:** Two Week 16 scores and a conditional comparison with actual earlier records assess timing, repeatability, correction, and evidence limits without inventing a baseline.
+- **Remaining limitations:** Cross-week comparability depends on the actual recorded movement pathways, range, and conditions; absent or unmatched records cannot substantiate improvement. Source-video and named-technique verification remain NEEDS REVIEW.
+
+**Assessment-ledger subtotal recorded here:** 17/97 lessons with all four question decisions; 68/388 individual question decisions; 17/97 lessons with both alignment decisions. This subtotal counts only the explicit records in this section and does not retroactively classify historical editorial notes as signed-off decisions.
 
 ## Review record (duplicate once per lesson)
 
