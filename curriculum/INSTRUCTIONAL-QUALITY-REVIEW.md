@@ -531,3 +531,12 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (three-count reach), Q2 **C** (A′ sustain), Q3 **A** (description/interpretation/evaluation), Q4 **D** (reframe cropped feet). Keys and explanations match instruction.
 
 **Decision and limitations:** Targeted critique feasibility, nonfabrication of errors, seated transfer, and quiz-key editorial review completed. This closes the targeted PER201 lessons 01–04 editorial pass, not observed teaching effectiveness or independent source verification.
+
+## RES501 targeted editorial review (November 2026)
+
+- **01:** Reach onset and five-trial missing-data rules clarified. Quiz keys B,A,C,D checked against lesson. One-person pilot cannot establish causal or population claims.
+- **02:** Source matrix now distinguishes accessible passages, abstracts, and unverified claims. Quiz keys B,B,C,D checked. Independent passage-level citation verification remains pending.
+- **03:** Observation log now defines an unscored correction and distinguishes unclear, missing, video, and immediate-note evidence. Quiz keys B,C,A,D checked. Informal recoding is not a validated reliability estimate.
+- **04:** Proposal template now tracks missing observations and evidence mode. Quiz keys B,C,A,D checked. No study results or external ethics review claimed.
+
+**Decision:** Targeted editorial pass completed for RES501-01 through 04, with scholarly-source verification and actual empirical validation outstanding.
