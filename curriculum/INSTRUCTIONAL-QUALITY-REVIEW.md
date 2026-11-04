@@ -347,3 +347,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (access to development spaces), Q2 **C** (visible photographic details), Q3 **B** (multiple contributors/settings), Q4 **A** (unknown origin recorded). Keys and explanations match the methodological distinctions.
 
 **Decision and limitations:** Targeted assignment-alignment and quiz-key editorial review completed. No historical passages or bibliographic links were independently verified, so historical claims are not source-audited.
+
+## Targeted editorial check — HIS101-02 (November 2026)
+
+**Issue and revision:** The guided lab specified an institutional ballet map and a community-circulation map, but the worked example swapped the categories and the assignment did not explain how to combine two hypothetical maps, a sourced example, and four audited claims. Aligned the example with the guided maps and explicitly specified three deliverables, including a four-row claim-evidence table that labels unsupported hypothetical arrows as such.
+
+**Four-question editorial answer check:** Q1 **A** (transmission across people/settings), Q2 **B** (institutional preservation bias), Q3 **A** (hypothetical arrows not documented genealogy), Q4 **A** (practitioner interview as primary evidence of their reported experience). Keys and explanations align with the taught limits of evidence.
+
+**Decision and limitations:** Targeted guided-task/assignment consistency and quiz-key editorial review completed. The real-world example is a learner research requirement, not an example independently sourced or verified by this review.
