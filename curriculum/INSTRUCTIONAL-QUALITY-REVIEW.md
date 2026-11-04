@@ -411,3 +411,11 @@ Owner elected not to recruit learners or dance instructors. Perform substantive 
 **Four-question editorial answer check:** Q1 **B** (seated cable row), Q2 **B** (unverified improvised anchor), Q3 **C** (reduce load and restore control), Q4 **D** (reps, resistance, effort, quality). Keys and explanations align with the instruction.
 
 **Decision and limitations:** Targeted modification/assessment consistency and quiz-key editorial review completed. No equipment rating, individualized exercise safety, or professional movement assessment independently verified.
+
+## Targeted editorial check — STG101-02 (November 2026)
+
+**Issue and revision:** The wall-push-up lesson lacked an explicit set count/rest interval and an accessible non-weight-bearing coordination option. Specified one initial 6–10-rep set, optional second set after rest, repeatable wall-distance logging, and a stable-chair eight-repetition unresisted palm-press adaptation clearly excluded from loaded push-up baseline claims.
+
+**Four-question editorial answer check:** Q1 **B** (lower relative body loading), Q2 **C** (trunk/pelvis move together), Q3 **D** (stop/change painful version), Q4 **A** (progress to secure lower support when ready). Keys and rationales align with the instruction.
+
+**Decision and limitations:** Targeted baseline reproducibility, accommodation, and quiz-key editorial review completed. No individualized safety assessment or externally verified training efficacy claimed.
