@@ -800,3 +800,13 @@ test('Failed assessment import leaves no ghost entries when a later save succeed
  await expect(page.locator('.entry')).toContainText('Real assessment');
  expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('aom_assessment_history_v1')).some(x=>x.id==='ghost-import'))).toBe(false);
 });
+
+test('Assessment History rejects oversized backup files without reading their contents',async({page})=>{
+ await page.goto(base+'/assessment-history.html');
+ await page.evaluate(()=>{
+  File.prototype.text=function(){throw Error('Oversized file must not be read')};
+ });
+ await page.locator('#import').setInputFiles({name:'large.json',mimeType:'application/json',buffer:Buffer.alloc(5_000_001,32)});
+ await expect(page.locator('#status')).toContainText('File exceeds 5 MB import limit');
+ await expect(page.locator('.entry')).toHaveCount(0);
+});
