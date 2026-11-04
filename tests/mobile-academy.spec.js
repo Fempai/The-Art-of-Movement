@@ -573,3 +573,24 @@ test('weekly studio recovers after a transient browser storage failure',async({p
  await page.locator('#tabs button').nth(1).click();
  await expect(page.locator('.day.active .check input[type=checkbox]')).toBeChecked();
 });
+
+
+test('Studio Record warns about unreadable weekly data and preserves its raw bytes in recovery export',async({page})=>{
+ const key='aom_weekly_studio_v1_5',broken='{unreadable-week-five';
+ await page.goto(base+'/studio-record.html');
+ await page.evaluate(([k,v])=>localStorage.setItem(k,v),[key,broken]);
+ await page.reload();
+ await expect(page.locator('#unreadableWarning')).toContainText('1 local Academy record');
+ const row=page.locator('#weeks tr').nth(4);
+ await expect(row).toContainText('Unreadable — restore backup');
+ await expect(page.locator('.tile').filter({hasText:'Daily studio weeks'})).toContainText('0 / 14');
+ const downloadPromise=page.waitForEvent('download');
+ await page.locator('#export').click();
+ const download=await downloadPromise;
+ const snapshot=JSON.parse(require('node:fs').readFileSync(await download.path(),'utf8'));
+ expect(snapshot.schema).toBe('aom-local-snapshot-v2');
+ expect(snapshot.unreadable_keys).toContain(key);
+ expect(snapshot.raw_records[key]).toBe(broken);
+ expect(snapshot.records[key]).toBeNull();
+ expect(await page.evaluate(k=>localStorage.getItem(k),key)).toBe(broken);
+});
