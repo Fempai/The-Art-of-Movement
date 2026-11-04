@@ -890,3 +890,46 @@ Scope: FLE101-01 through FLE101-04, 16 keyed knowledge-check questions, guided m
 - **Limits — NEEDS REVIEW:** No individual stretching prescription or injury-prevention claim is certified; source passages and observed movement remain unverified.
 
 **Batch closure:** 4/4 lessons have four question-level decisions (16/16 PASS), guided-to-assignment judgments (4/4 PASS), and assignment-to-outcome judgments (4/4 PASS). No internal answer-key or alignment FAIL identified in this batch. Distractors often rely on obvious unsafe extremes and therefore do not establish discriminative assessment difficulty. All four require external source/technique validation before the nine-dimension instructional gate can close. Latest-head CI must be checked separately.
+
+
+## MUS101 formal assessment-validity review — 2026-11-04
+
+Scope: MUS101-01 through MUS101-04, sixteen question-level judgments and eight guided/assignment alignment judgments. Internal conceptual and numerical verification only; this is not external scholarly-source verification, observed performance validation, or psychometric calibration.
+
+### MUS101-01 — Pulse, meter, 4/4
+- **Q1 B — PASS:** Lecture states denominator 4 denotes quarter-note beat unit; A misassigns numerator, C invents subdivision, D mistakes note value for elapsed seconds.
+- **Q2 C — PASS:** Worked example: 8 × 60/120 = 4 seconds; A/B/D use incorrect beat durations.
+- **Q3 A — PASS:** Lecture defines meter as recurring beat grouping; B omits grouping, C counts instruments, D is a single accent.
+- **Q4 C — PASS:** Guided exercise moves clap emphasis from 1 to 3 without altering meter or pulse; A/B/D are not necessary consequences.
+- **Guided-to-assignment — PASS:** Two four-beat groups per eight-count, repeated four times, pulse, numbered accents and an accent shift match the 32-count assignment.
+- **Assignment-to-outcome — PASS (internal):** Reproducible score, BPM calculation, changed-accent comparison, timing observation and interpretation test the named concepts.
+- **Limits — NEEDS REVIEW:** One count = one quarter-note beat is an explicit assumption, not a universal dance convention; actual pulse accuracy and cited scholarship unverified.
+
+### MUS101-02 — Straight eighth-note subdivisions
+- **Q1 B — PASS:** Straight eighths split a quarter beat into two equal parts; A is triplet, C sixteenth, D whole beat.
+- **Q2 C — PASS:** 60/80/2 = 0.375 seconds; A/B/D use incorrect durations.
+- **Q3 C — PASS:** 'And' is the midpoint in this straight subdivision exercise; A/B/D mislocate or universally accent it.
+- **Q4 B — PASS:** Lecture distinguishes unequal swing from straight eighths; A requires equality, C falsely doubles tempo, D discards pulse.
+- **Guided-to-assignment — PASS:** Numbered-beat pulse and between-beat hand taps map to scored 'ands' and 32-count comparisons; optional 8-and boundary pickup is conditional.
+- **Assignment-to-outcome — PASS (internal):** Score, offbeat accents, beat-duration calculation and written comparison distinguish added subdivisions from increased BPM.
+- **Limits — NEEDS REVIEW:** Whether 8-and, 16-and and 24-and occur depends on continuation; no audio execution or cultural timing validation.
+
+### MUS101-03 — Syncopation
+- **Q1 B — PASS:** Lecture defines emphasis displaced from expected metric stress; A/C lack displacement, D is acceleration.
+- **Q2 C — PASS:** At 120 BPM the beat is 0.5 seconds and the straight offbeat 0.25 seconds later; A/B/D count whole/multiple beats.
+- **Q3 A — PASS:** Pulse/meter supplies expected-stress reference; B/C/D cannot locate displacement relative to metric context.
+- **Q4 C — PASS:** Changing to an offbeat accent with fixed pulse changes placement, not necessarily tempo, meter or beat unit.
+- **Guided-to-assignment — PASS:** On-beat A, offbeat B, A-prime added 6-and, B-prime varied gesture preserve the same numbered pulse and map to the guided stress-shift exercise.
+- **Assignment-to-outcome — PASS (internal):** Explicit A/B/A′/B′ local/global count map, accent labels, and contextual explanation measure syncopation versus merely adding events.
+- **Limits — NEEDS REVIEW:** Context-dependent syncopation cannot be certified by notation alone without a performed metric reference.
+
+### MUS101-04 — Tempo and 32-count score
+- **Q1 C — PASS:** 32 × 60/96 = 20 seconds; A/B/D substitute different tempos/durations.
+- **Q2 B — PASS:** 32 quarter-note beats / 4 beats per measure = 8 measures; A/C/D assume incorrect groupings.
+- **Q3 A — PASS:** Four-beat rather than two-beat reach at unchanged BPM changes movement duration; B/C/D add unsupported tempo/meter/direction changes.
+- **Q4 C — PASS:** Lecture calls for counts, weight transfers, facing and accents; A/B/D omit essential spatial or transition details.
+- **Guided-to-assignment — PASS:** A 1–8, B 9–16, A′ 17–24 with 20-and, C 25–32 match both standing and seated score and final deliverable.
+- **Assignment-to-outcome — PASS (internal):** Complete score, support/facing/level, BPM arithmetic and artistic-versus-verifiable commentary test the stated outcomes.
+- **Limits — NEEDS REVIEW:** The guided score gives some transitions as multi-count ranges, so actual count-by-count reproducibility must be checked in learner execution; scholarly links and performance remain unverified.
+
+**Batch closure:** 4 lessons, 16/16 internal question judgments PASS, 4/4 guided-to-assignment PASS, 4/4 assignment-to-outcome PASS. No internal FAIL found. Distractors often contain implausible extreme errors, so difficulty/discrimination remain unvalidated. All four retain external evidence and observed-learning NEEDS REVIEW; check latest-head CI separately.
