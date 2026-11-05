@@ -2944,3 +2944,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Source limitation:** Historical bibliographies, specific passage support and live browser acceptance remain NEEDS REVIEW.
 
 **Explicit assessment-ledger subtotal:** 29/97 lesson files with Q1–Q4 individually documented; **116/388 question judgments**; 29/97 files with both alignment judgments. These are internal PASS decisions only. Other nine-dimension reviews are not silently counted toward this stricter ledger. Full instructional validation still pending.
+
+
+## Recorded assessment-validity decisions — FLE101-01–04 — 2026-11-04
+
+**Method:** All four fetched lesson texts read in full; question options and explanations compared to anatomy lecture, follow-along, safety corrections and assignment. Internal concept checks only, not clinical or professional movement certification.
+
+### FLE101-01 — Hip flexor mobility
+- **Q1 B — PASS (internal):** Anatomical reasoning: extension moves thigh behind pelvis. Distractors: A flexion; C pelvic shift alone; D trunk lean. No second defensible correct option found in the lesson's stated conditions.
+- **Q2 B — PASS (internal):** Anatomical reasoning: lumbar arch may substitute spinal extension. Distractors: A guaranteed hip motion; C maximum inference; D unsupported active-control inference. No second defensible correct option found in the lesson's stated conditions.
+- **Q3 C — PASS (internal):** Anatomical reasoning: active mobility is self-generated muscular control. Distractors: A strap; B externally moved; D uncontrolled angle. No second defensible correct option found in the lesson's stated conditions.
+- **Q4 D — PASS (internal):** Guided studio: supported small knee lifts and wall contact. Distractors: A retains unsupported height; B increases instability; C narrower stance does not resolve it. No second defensible correct option found in the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Split-stance three gentle shifts per side and supported bilateral knee-lift check are repeated in log; seated adaptation is correctly distinguished from standing hip-extension assessment.
+- **Assignment-to-outcome — PASS:** Outcome demands concept explanation, comfortable control and evidence-limited observation; side-by-side dated log, modifications and reflection measure each.
+- **Remaining limitations:** External anatomical/medical-source passage verification, individual technique and safety review, and browser acceptance remain NEEDS REVIEW. Quiz distractors often rely on obviously unsafe or overconfident options; diagnostic discrimination has not been field-tested.
+
+### FLE101-02 — Adductor mobility
+- **Q1 B — PASS (internal):** Anatomical reasoning: adduction moves thigh toward midline. Distractors: A abduction; C rotation; D flexion. No second defensible correct option found in the lesson's stated conditions.
+- **Q2 C — PASS (internal):** Guided studio: modest supported shifts and controlled returns. Distractors: A loses control; B retains pain; D ignores knee alignment. No second defensible correct option found in the lesson's stated conditions.
+- **Q3 A — PASS (internal):** Troubleshooting: smaller range and stable hand support. Distractors: B shortened timing without control; C more reach/no support; D same problematic range. No second defensible correct option found in the lesson's stated conditions.
+- **Q4 D — PASS (internal):** Guided studio: six alternating shifts; document comfort. Distractors: A unlike demonstrator; B false injury guarantee; C no repeatability. No second defensible correct option found in the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Six alternating supported shifts and step-and-gather in both directions explicitly appear in assignment; seated foot-slide variation remains separately labeled.
+- **Assignment-to-outcome — PASS:** Concept, bilateral control, support choice and repeatable observation are directly captured in log and rubric.
+- **Remaining limitations:** External anatomical/medical-source passage verification, individual technique and safety review, and browser acceptance remain NEEDS REVIEW. Quiz distractors often rely on obviously unsafe or overconfident options; diagnostic discrimination has not been field-tested.
+
+### FLE101-03 — Hamstrings and active leg control
+- **Q1 A — PASS (internal):** Anatomical reasoning: active lift requires own muscle control. Distractors: B no effort; C external strap; D passive maximum inference. No second defensible correct option found in the lesson's stated conditions.
+- **Q2 C — PASS (internal):** Anatomical reasoning: biceps femoris short head crosses knee only. Distractors: A overgeneralizes; B reverses joints; D misstates long head. No second defensible correct option found in the lesson's stated conditions.
+- **Q3 B — PASS (internal):** Troubleshooting: stop tingling/electric sensations. Distractors: A maintains provocation; C increases stretch; D ignores symptoms. No second defensible correct option found in the lesson's stated conditions.
+- **Q4 D — PASS (internal):** Guided studio: comparable comfortable active range and conditions. Distractors: A different demonstrator; B one-off passive extreme; C changed support. No second defensible correct option found in the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Four seated knee extensions per side with eight-count extension/hold/lower/settle and gentle hip hinge reproduced in dated assignment.
+- **Assignment-to-outcome — PASS:** Active versus passive reasoning, symptoms, repeatable conditions and conservative adjustment evaluated by log and reflection.
+- **Remaining limitations:** External anatomical/medical-source passage verification, individual technique and safety review, and browser acceptance remain NEEDS REVIEW. Quiz distractors often rely on obviously unsafe or overconfident options; diagnostic discrimination has not been field-tested.
+
+### FLE101-04 — Range-and-quality journal
+- **Q1 B — PASS (internal):** Anatomical reasoning: active mobility adds muscular control. Distractors: A passive guarantee; C outside assistance; D ignores control. No second defensible correct option found in the lesson's stated conditions.
+- **Q2 C — PASS (internal):** Guided studio: six lateral shifts, three per side, five-minute warm-up. Distractors: A lacks task; B changes undocumented conditions; D one-time uncontrolled maximum. No second defensible correct option found in the lesson's stated conditions.
+- **Q3 A — PASS (internal):** Troubleshooting: stop/reduce range if pain. Distractors: B/C/D retain painful position despite altered breathing/duration/speed. No second defensible correct option found in the lesson's stated conditions.
+- **Q4 D — PASS (internal):** Anatomical reasoning: compare similar comfortable tasks and conditions. Distractors: A altered conditions; B no baseline; C different people and measures. No second defensible correct option found in the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Three hip shifts per side, six lateral shifts total, four knee extensions per side, static 15–20s stretch and eight-count dance transfer all explicitly required in journal.
+- **Assignment-to-outcome — PASS:** All four tasks, safe adaptations, comparable observations and one-variable progression address the four lesson goals.
+- **Remaining limitations:** External anatomical/medical-source passage verification, individual technique and safety review, and browser acceptance remain NEEDS REVIEW. Quiz distractors often rely on obviously unsafe or overconfident options; diagnostic discrimination has not been field-tested.
+
+**Explicit assessment-validity subtotal:** **33/97** lesson files with Q1–Q4 and both alignment judgments, **132/388** individual question judgments, **33/97** lessons with both alignment judgments. Remaining **64** lesson files, **256** question-level decisions and **128** alignment judgments. Nine-dimension text review is separately 97/97; this ledger is not full instructional validation.
