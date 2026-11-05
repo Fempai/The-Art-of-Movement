@@ -2901,3 +2901,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 **Corrected nine-dimension coverage:** **97/97 lesson files** have a nine-dimension text review recorded (**873/873 judgments**). **582 internal PASS**, **291 NEEDS REVIEW**, **0 unresolved internal FAIL identified in the recorded review**. Three dimensions per lesson—movement correctness, evidence/cultural care, reader experience—remain NEEDS REVIEW pending external technique, source, and live-browser checks. Thus **coverage is complete; instructional validation is NOT complete**.
 
 **Assessment validity is a separate, still-open gate:** The per-question ledger requires Q1–Q4 individually evidenced (388 decisions) and two alignment decisions per lesson (194 decisions). The nine-dimension quiz PASS summary does **not** automatically fill those decisions. Count explicit question and alignment records in the register before reporting a closure fraction. The next editorial work should focus on unrecorded question-level judgments and concrete corrections, not another generic nine-dimension pass.
+
+
+## Recorded assessment-validity decisions — HIS101-01–04 — 2026-11-04
+
+**Method:** Each answer and distractor compared against the fetched lesson's Core lecture, Guided document-analysis lab, answer explanation and Research assignment. These judgments concern internal instructional logic; they do not authenticate external historical sources.
+
+### HIS101-01 — Historical context
+- **Q1 B — PASS (internal):** Core lecture: context includes institutions and who can access spaces. Distractors: A/C/D address movement execution rather than social/historical context. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q2 C — PASS (internal):** Core lecture: photograph supports visible detail at pictured moment. Distractors: A assumes intention, B invents origin date, D invents teaching relation. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q3 B — PASS (internal):** Core lecture: historical practices involve multiple people, contexts and adaptations. Distractors: A/C/D mistake visibility, prominence or surviving records for sole invention. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q4 A — PASS (internal):** Historical reasoning principle and independent feedback: mark unsupported origins unknown. Distractors: B invents date, C generalizes one dancer, D claims universal audience response. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Guided-to-assignment — PASS:** Guided-to-assignment
+- **Assignment-to-outcome — PASS:** Four-column context comparison and documented/inferred/unknown claim statuses reappear in two assignment tables; invented photo remains hypothetical.
+- **Source limitation:** Historical bibliographies, specific passage support and live browser acceptance remain NEEDS REVIEW.
+
+### HIS101-02 — Lineage
+- **Q1 A — PASS (internal):** Core lecture: lineage is transmission and change across people and settings. Distractors: B coappearance, C movement score alone, D earliest recording lack transmission evidence. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q2 B — PASS (internal):** Core lecture: institutional archives preserve selectively and shape visibility. Distractors: A presumes representativeness, C invents first date, D absence proves nothing. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q3 A — PASS (internal):** Guided lab: both map arrows explicitly hypothetical unless independently sourced. Distractors: B/C/D wrongly upgrade speculative relationships to facts. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q4 A — PASS (internal):** Core lecture: practitioner testimony can report the interviewee's experience. Distractors: B is secondary summary, C invents motives, D image lacks testimony. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Guided-to-assignment — PASS:** Guided-to-assignment
+- **Assignment-to-outcome — PASS:** Two hypothetical maps plus one precisely sourced real example and four-row claim table reproduce guided analysis.
+- **Source limitation:** Historical bibliographies, specific passage support and live browser acceptance remain NEEDS REVIEW.
+
+### HIS101-03 — Attribution
+- **Q1 B — PASS (internal):** Core lecture: recording shows a performance, not invention or teaching history. Distractors: A infers origin, C first teaching, D uploader-to-performer teaching. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q2 B — PASS (internal):** Core lecture: popularization means dissemination, not proof of creation. Distractors: A conflates spread/invention, C legal transfer, D archive survival/origin. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q3 C — PASS (internal):** Guided lab: missing creator and date recorded not established. Distractors: A appearance, B reputation, D upload date are not creator proof. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q4 B — PASS (internal):** Core lecture: attribution distinct from copyright and permission. Distractors: A/C/D are documentation functions, not license to reuse. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Guided-to-assignment — PASS:** Guided-to-assignment
+- **Assignment-to-outcome — PASS:** Three evidence-safe hypothetical captions and real-clip attribution log appear in assignment, with four narrowed claims.
+- **Source limitation:** Historical bibliographies, specific passage support and live browser acceptance remain NEEDS REVIEW.
+
+### HIS101-04 — Critical reading
+- **Q1 A — PASS (internal):** Core lecture: firsthand testimony is primary evidence of the speaker's account. Distractors: B summary, C retrospective motive inference, D photograph cannot document spoken words. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q2 B — PASS (internal):** Core lecture: claims must match source specificity and limits. Distractors: A false shared-origin proof, C overgeneralization, D cherry-picking. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q3 C — PASS (internal):** Guided lab Step 3 and lecture: compare provenance and plausible alternatives. Distractors: A/B suppress source criticism, D fabricates midpoint date. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Q4 B — PASS (internal):** Core lecture: secondary sources synthesize and interpret primary records. Distractors: A eyewitness infallibility, C museum label automatic primary, D later always overrides earlier. The alternatives are distinguishable, though many are overt overclaims; external historical truth remains unverified.
+- **Guided-to-assignment — PASS:** Guided-to-assignment
+- **Assignment-to-outcome — PASS:** Four distinct sources, two practices, two claim rows each and 600-word comparison reproduce guided comparison task.
+- **Source limitation:** Historical bibliographies, specific passage support and live browser acceptance remain NEEDS REVIEW.
+
+**Explicit assessment-ledger subtotal:** 29/97 lesson files with Q1–Q4 individually documented; **116/388 question judgments**; 29/97 files with both alignment judgments. These are internal PASS decisions only. Other nine-dimension reviews are not silently counted toward this stricter ledger. Full instructional validation still pending.
