@@ -845,3 +845,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - `.github/workflows/quiz-browser.yml` now executes `tests/audit-quiz-ambiguity-regressions.cjs` after the 97-lesson audit and before browser installation, and checks the regression script's JavaScript syntax.
 - The workflow's push path filters now include the regression script itself. Its run summary displays the targeted regression output or an explicit not-executed notice, and the log is retained with setup diagnostics.
 - Both the Academy verification and quiz-browser workflows are configured to run the targeted script; **configuration is not evidence of successful execution**. Verify actual GitHub Actions runs on the final commit before reporting release-gate success.
+
+
+## CI failure triage — stale BEL101-04 regression assertion (November 2026)
+
+- User-provided GitHub Actions screenshots confirmed that both `Academy lesson and quiz verification` and `Quiz browser regression` failed at `tests/audit-quiz-ambiguity-regressions.cjs:38`, reporting `BEL101-04: expected corrected text missing: authenticated example of every regional`. The preceding 97-lesson quiz audit step succeeded in both workflows. Browser steps were skipped, not failed.
+- Inspected the actual BEL101-04 Q3: it correctly distinguishes an original coordination study from authenticated raqs sharqi or baladi choreography. Replaced the stale expected fragment with `not an authenticated raqs sharqi or baladi choreography` in the targeted regression script; lesson content and key A are unchanged.
+- Cross-checked all 19 targeted question cases, five keyed-explanation contracts, 15 Q1 answer-feedback cases, and 12 guided/assignment contracts against current repository text using focused content comparisons; no further mismatches were found. This is a static cross-check, **not a successful Node process or complete GitHub Actions run**. The updated push-triggered CI must still be observed before claiming green.
