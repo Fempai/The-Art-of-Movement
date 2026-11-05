@@ -35,3 +35,7 @@ The 12 scheduled BEL101 Friday video sources, mapped weeks, original Drive URLs,
 
 - Added a real-content Playwright case in `tests/quiz-browser.spec.cjs` for BEL101 Week 16. It opens the final lesson from the reader, selects the actual four answer-key letters, submits, and checks the 4/4 score plus all four lesson-specific explanations. Unlike fixture-only quiz tests, this exercises the reader's integration with the actual final lesson Markdown.
 - The quiz-browser workflow is already configured to run when `tests/quiz-browser.spec.cjs` changes. **The new case is not yet confirmed passing on GitHub Actions**. It is a local-server browser test, not an independently observed deployed/mobile-reader or video-playback test.
+
+## Additional Week 16 reader checks awaiting CI
+
+The real BEL101 Week 16 browser case now also checks incorrect-answer correction (3/4 then 4/4), locally saved result after reload, and appearance of the saved score in the Learning Progress dashboard. A separate 375px mobile-viewport case checks that the real final quiz is interactive and the page has no document-level horizontal overflow. These are **new automated test assertions, not observed passing results**. Confirm the `Quiz browser regression` workflow at the latest commit before treating them as verified; actual device accessibility, media playback, and movement/cultural validity remain outside this gate.
