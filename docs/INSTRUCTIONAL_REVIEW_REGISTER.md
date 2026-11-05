@@ -2839,3 +2839,54 @@ No live browser test, actual technique adjudication, citation passage audit or l
 9. **Reader experience — NEEDS REVIEW:** Deployed lesson, quiz, media and production-book submission UI untested.
 
 **Provisional core ledger:** **80/97 core lessons**, **720/873 judgments** (**480 internal PASS**, **240 NEEDS REVIEW**, **0 unresolved internal FAIL identified**), **17 core lessons remain**. Supplemental BEL101-W04–W16: 13 separately reviewed files; combined 93 files and 837 judgments (558 PASS, 279 NEEDS REVIEW). The GitHub search result was capped at 100 paths and is not an exhaustive inventory; the 97-core denominator still requires reconciliation against a canonical manifest. Source-level, expert, CI and browser checks remain open.
+
+
+## Nine-dimension instructional validation — PRO703-01–04 — 2026-11-04
+
+**Scope:** Four Performance Portfolio & Capstone lessons, sixteen answer explanations and distractors, timing arithmetic and submission rubrics reviewed. Nonaccredited self-study is clearly disclosed.
+
+### PRO703-01 — Revision dossier
+1. **Outcome alignment — PASS (text):** Traceable creative decision, movement evidence, attribution and bounded growth claims align with taught and assessed outcomes.
+2. **Practice sequence — PASS (text):** 32-count A/B/A′/C baseline and retest; predefined four criteria, targeted two rehearsals, preserve all trials; A′ onset 21.
+3. **Movement correctness — NEEDS REVIEW:** Performed execution and professional technique have not been independently judged.
+4. **Modifications — PASS (text):** Small-range marking or score, no unsafe transition forced.
+5. **Self-correction — PASS (text):** Unobservable separate from error; original scoring rules fixed across retest.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; alternatives and explanations checked. Timing calculations independently verified.
+7. **Assignment — PASS (text):** Dated baseline, intervention, retest and counter-explanation.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Banes and Krasnow/Wilmerding bibliographic details and passage-level support not verified; rights and source uncertainty explicitly flagged.
+9. **Reader experience — NEEDS REVIEW:** Deployed lessons, quizzes, media, submission and portfolio scoring not tested.
+
+### PRO703-02 — Artist statement
+1. **Outcome alignment — PASS (text):** Traceable creative decision, movement evidence, attribution and bounded growth claims align with taught and assessed outcomes.
+2. **Practice sequence — PASS (text):** 200–300 words, five prompts, global phrase ranges 1–8/9–16/17–24/25–32, claim-to-score evidence mapping.
+3. **Movement correctness — NEEDS REVIEW:** Performed execution and professional technique have not been independently judged.
+4. **Modifications — PASS (text):** Seated/small-range or authorized recording; planned not passed off as performed.
+5. **Self-correction — PASS (text):** Replace universal audience effects with intention or possible reading; verify attribution.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**; alternatives and explanations checked. Timing calculations independently verified.
+7. **Assignment — PASS (text):** Statement, four-row score, rights/source ledger and dated revision note.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Banes and Krasnow/Wilmerding bibliographic details and passage-level support not verified; rights and source uncertainty explicitly flagged.
+9. **Reader experience — NEEDS REVIEW:** Deployed lessons, quizzes, media, submission and portfolio scoring not tested.
+
+### PRO703-03 — Critical evaluation
+1. **Outcome alignment — PASS (text):** Traceable creative decision, movement evidence, attribution and bounded growth claims align with taught and assessed outcomes.
+2. **Practice sequence — PASS (text):** Four criteria scored 0–2 only when observed; N/A excluded; denominator 2 × observable criteria; score-only route does not score execution.
+3. **Movement correctness — NEEDS REVIEW:** Performed execution and professional technique have not been independently judged.
+4. **Modifications — PASS (text):** Written score-only critique supported; no fabricated weakness.
+5. **Self-correction — PASS (text):** Counterexplanation and safe retest; unchanged criteria and camera limitations.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; alternatives and explanations checked. Timing calculations independently verified.
+7. **Assignment — PASS (text):** Evidence-linked score table and 250–350-word critique with honest N/A.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Banes and Krasnow/Wilmerding bibliographic details and passage-level support not verified; rights and source uncertainty explicitly flagged.
+9. **Reader experience — NEEDS REVIEW:** Deployed lessons, quizzes, media, submission and portfolio scoring not tested.
+
+### PRO703-04 — Final portfolio
+1. **Outcome alignment — PASS (text):** Traceable creative decision, movement evidence, attribution and bounded growth claims align with taught and assessed outcomes.
+2. **Practice sequence — PASS (text):** Five to eight 32-count sections; seconds = 60×32×sections/BPM; 160 beats=120 seconds and 256 beats=192 seconds at 80 BPM; six functions may share five sections.
+3. **Movement correctness — NEEDS REVIEW:** Performed execution and professional technique have not been independently judged.
+4. **Modifications — PASS (text):** Full executable score instead of video, explicitly labeled unperformed.
+5. **Self-correction — PASS (text):** No unsupported growth, audience approval, rights or accreditation claims.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**; alternatives and explanations checked. Timing calculations independently verified.
+7. **Assignment — PASS (text):** Dated drafts, 200–300-word statement, 500–700-word reflection, permissions and comparable baseline/final evidence.
+8. **Evidence and cultural care — NEEDS REVIEW:** Smith-Autard, Banes and Krasnow/Wilmerding bibliographic details and passage-level support not verified; rights and source uncertainty explicitly flagged.
+9. **Reader experience — NEEDS REVIEW:** Deployed lessons, quizzes, media, submission and portfolio scoring not tested.
+
+**Provisional core ledger:** **84/97 core lessons**, **756/873 core judgments** (**504 internal PASS**, **252 NEEDS REVIEW**, **0 unresolved internal FAIL identified**), **13 core lessons remain**. Separately, 13 supplemental BEL101-W04–W16 lessons reviewed; combined 97 distinct reviewed files, 873 judgments (582 PASS, 291 NEEDS REVIEW). **Important:** Combined 97 files is *not* 97/97 core lessons; the same numerical total is coincidental. Canonical inventory crosswalk remains open.
