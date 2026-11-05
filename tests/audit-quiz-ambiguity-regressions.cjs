@@ -111,7 +111,7 @@ const contracts = [
   {
     id: 'BEL101-W08',
     guided: ['**Modification:** Sit in a stable nonrolling chair', '**5–6** trace a small comfortable loop', 'neither substitutes for demonstrated standing hip-slide'],
-    assignment: ['Week 8 eight-count phrase twice', 'standing or seated support are comparable']
+    assignment: ['Week 8 eight-count phrase twice', 'two counts per direction', 'one count per direction', 'original Week 1 pressure-shift drill', 'no matched baseline']
   },
   {
     id: 'LAB101-03',
