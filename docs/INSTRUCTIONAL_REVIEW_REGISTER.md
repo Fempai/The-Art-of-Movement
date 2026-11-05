@@ -3518,3 +3518,118 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
 
 **Explicit assessment-ledger subtotal:** **85/97** lessons with four question decisions and both alignment judgments; **340/388** question decisions; **85/97** lessons with both alignment judgments. **12 lessons, 48 questions and 24 alignment judgments remain**. Nine-dimension textual review remains 97/97; complete instructional validation is NOT established.
+
+
+## Recorded assessment-validity decisions — SIT505, PRO702 and PRO703 (12 lessons) — 2026-11-04
+
+**Method:** Inspected twelve learner-facing lesson texts, all 48 four-option questions and keyed explanations, guided tasks, independent assignments and rubrics. Internal textual correctness and construct alignment only; no empirical psychometric, professional technique, scholarly passage or live-browser validation is implied.
+
+### SIT505-01
+- **Q1 B — PASS (internal):** Site conditions/context shape choreography, not mere relocation. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Site map requires entrances/exits/obstacles/zones. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Permitted level clear indoor site best stated option. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Approval required before site use. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** A stationary A, facing B and reference C, two versions and site constraints appear in assignment.
+- **Assignment-to-outcome — PASS:** Site-response map, verified constraints, safe design and uncertainty measured.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### SIT505-02
+- **Q1 B — PASS (internal):** Sightline is potential viewer-to-action line. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Side arm obstruction is hypothesis, not guaranteed reception. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Move viewing point away from blocked exit. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Plan cannot establish spectator interpretation. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Three hypothetical viewer positions, 7–8 safe facing adjustment and visibility table carried into assignment.
+- **Assignment-to-outcome — PASS:** Predicted versus observed sightlines and safe access evaluated.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### SIT505-03
+- **Q1 B — PASS (internal):** Step-free access must be verified. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Seated shift preserves gather–reach–recover relationship. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Written route plus visual map are complementary. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Unverified access labeled for confirmation. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Standing/seated eight-count alternatives and marked verified/proposed access appear in assignment.
+- **Assignment-to-outcome — PASS:** Adaptation fidelity, access communication and limits measured.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### SIT505-04
+- **Q1 B — PASS (internal):** Whose history and permission matter ethically. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Proposal needs map, access, status and score. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Unverified history must be marked uncertain. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Pending approval permits planning only. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** 32-count site score, permission ledger and contextual source checks appear in assignment.
+- **Assignment-to-outcome — PASS:** Contextual attribution, risk, access and evidence-bounded proposal assessed.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO702-01
+- **Q1 B — PASS (internal):** Lighting cue requires trigger and visual goal. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Backlight may obscure front detail. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Use existing stable lights with clear routes. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Exposure changes are comparison limitations. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Static eight-count lighting tests and proposed unexecuted count-17 cue separately recorded.
+- **Assignment-to-outcome — PASS:** Lighting states, visible hands, camera uncertainty and safe fallback assessed.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO702-02
+- **Q1 B — PASS (internal):** Blocking specifies positions/pathways/facing/entries. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Stage diagram needs orientation and positions. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Obstructed travel must be removed or redesigned. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Plan alone cannot establish audience experience. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** A/B/C stage plan, scored safe route or A-only hypothetical alternatives, two sightlines carried to assignment.
+- **Assignment-to-outcome — PASS:** Executable blocking, orientation, support and observed/predicted distinction measured.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO702-03
+- **Q1 B — PASS (internal):** Movement safety outranks still-photo costume aesthetics. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Loose hem catching underfoot is hazard. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Untested prop remains hypothetical. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Restrictive outfit/movement redesigned. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Two outfit comparison or one tested plus hypothetical, four movements and no-prop default assigned.
+- **Assignment-to-outcome — PASS:** Safe movement checklist, honest test status and targeted revision assessed.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO702-04
+- **Q1 B — PASS (internal):** Production book records repeatable decisions. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** 160 beats at 80 BPM equals 120 s. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Static lighting for solo performer without operator. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Book does not confer venue/rights approval. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Five 32-count sections, cue book, risk and permission statuses, private run or desk simulation match assignment.
+- **Assignment-to-outcome — PASS:** Count accuracy, stage/lighting/costume coordination, unverified status and reflection measured.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO703-01
+- **Q1 B — PASS (internal):** Dossier baseline/criterion/intervention/result. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Motif reorder/extension is structural revision. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Hidden action scored unobservable. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Failed trial retained with date. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Four-criterion baseline, two targeted rehearsals and full retest transferred.
+- **Assignment-to-outcome — PASS:** Traceable revisions, comparable evidence and alternatives assessed.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO703-02
+- **Q1 B — PASS (internal):** Count-specific motif description stronger than universal emotional claim. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Reception as intended/possible, not guaranteed. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Documented influences and uncertain provenance. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Artist statement does not replace evidence or media rights. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Five prompts, A–B–A′–C score and claim/evidence ledger in assignment.
+- **Assignment-to-outcome — PASS:** 200–300-word statement, attribution/permissions and evidence-limited claims assessed.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO703-03
+- **Q1 B — PASS (internal):** Count-eight return is observable, motivation not. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Hidden movement N/A, not pass/fail. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Stable rubric and alternatives improve evaluation. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Self-rubric assesses declared criteria only. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Four criteria, 0–2 only if observable, N/A-adjusted denominator and 250–350-word critique assigned.
+- **Assignment-to-outcome — PASS:** Critical self-scoring and fair uncertainty handling measured.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+### PRO703-04
+- **Q1 B — PASS (internal):** Dated comparable baseline/final best evidence of change. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** 256 beats / 80 BPM = 3.2 min. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Complete executable score valid labeled nonvideo artifact. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Self-directed capstone does not confer accreditation. The other choices conflict with the stated safety, count, provenance or evidence requirements; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Five–eight 32-count sections, dated revisions, artist statement, rights and final score/video assigned.
+- **Assignment-to-outcome — PASS:** 2–4-minute scored work, same-criteria comparison and 500–700-word reflection assessed.
+- **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
+
+**Explicit assessment-ledger subtotal:** **97/97** lesson files with all four question decisions and both alignment judgments, **388/388** individual question decisions and **194/194** alignment judgments. **0 detailed textual-review lessons/questions/alignments remain.** This closes the *internal documentation pass only*: it does NOT establish empirical quiz validity, accurate external citations, safe movement execution, compliant access or live browser acceptance. The nine-dimension textual review also covers 97/97 with external checks still NEEDS REVIEW. Latest-head CI not independently checked in this entry.
