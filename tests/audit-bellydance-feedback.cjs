@@ -21,6 +21,23 @@ for(const week of scheduledWeeks){
   if(!sourceCatalog.videos.some(video=>video.weeks.includes(week)))errors.push('catalog: week '+week+' has no scheduled source');
 }
 
+// Preserve the distinction between the 12 original Friday study sources and
+// the unrelated supplementary acrobatics clip. Source presence is not playback.
+const scheduledVideos=sourceCatalog.videos.filter(video=>video.usage==='Scheduled study source');
+const supplementaryVideos=sourceCatalog.videos.filter(video=>video.usage!=='Scheduled study source');
+if(scheduledVideos.length!==12)errors.push('catalog: expected 12 distinct scheduled Friday study sources, found '+scheduledVideos.length);
+if(supplementaryVideos.length!==1)errors.push('catalog: expected one supplementary source, found '+supplementaryVideos.length);
+for(const video of scheduledVideos){
+  if(!video.weeks.length)errors.push('catalog: scheduled source has no mapped week: '+video.title);
+}
+for(const video of supplementaryVideos){
+  if(video.weeks.length)errors.push('catalog: supplementary source must not be scheduled as a Friday lesson: '+video.title);
+}
+const forwardRolls=sourceCatalog.videos.find(video=>video.title==='Progressive Forward Rolls');
+if(!forwardRolls||forwardRolls.weeks.length||forwardRolls.usage==='Scheduled study source'){
+  errors.push('catalog: acrobatic forward rolls must remain supplementary, not a BEL101 Friday lesson');
+}
+
 const ledger=fs.readFileSync(path.join(__dirname,'..','docs','BEL101-NINE-DIMENSION-REVIEW.md'),'utf8');
 for(const id of ids){
   const match=ledger.match(new RegExp('(?:^|\\n)#{2,3} '+id+' \\u2014[^\\n]*\\n([\\s\\S]*?)(?=\\n#{2,3} |$)'));
