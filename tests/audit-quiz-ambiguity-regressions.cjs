@@ -40,6 +40,24 @@ for (const test of cases) {
 }
 console.log('PASS: '+cases.length+' targeted quiz-ambiguity regression cases. These assertions do not establish unique-best-answer validity for other questions.');
 
+// Guard keyed explanations, not only the question stem and choices.
+const explanationContracts = [
+  {id:'BEL101-W10', number:4, key:'D', phrases:['Two observable attempts support the narrow claim','untested tempos']},
+  {id:'BEL101-W13', number:4, key:'D', phrases:['reverses upward from the pelvis on count 5','symbolic tracing']},
+  {id:'BEL101-W14', number:4, key:'D', phrases:['repeatable boundary timing','separate rehearsal']},
+  {id:'BEL101-W15', number:3, key:'D', phrases:['count-4-to-5 connection','sequential coordination']},
+  {id:'BEL101-W16', number:2, key:'B', phrases:['symbolic hand tracing','standing pelvic mechanics']}
+];
+for (const test of explanationContracts) {
+  const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',test.id+'.md'),'utf8');
+  const prefix='**'+test.number+'. '+test.key+'.** ';
+  const line=md.split('\\n').find(line=>line.startsWith(prefix));
+  assert.ok(line,test.id+': keyed explanation missing');
+  for (const phrase of test.phrases) assert.ok(line.includes(phrase),test.id+': explanation missing evidence boundary: '+phrase);
+}
+console.log('PASS: '+explanationContracts.length+' BEL101 keyed-explanation consistency guards.');
+
+
 // Regression coverage for Q1 distractor references after the A/B option reordering.
 const reorderedQ1 = ["LMA201-01","LMA201-03","PER201-03","RES501-02","CMP502-04","SCI503-01","SCI503-03","SIT505-01","PRO701-01","PRO701-03","PRO702-01","PRO702-03","PRO703-01","PRO703-03","PRO703-04"];
 for (const id of reorderedQ1) {
