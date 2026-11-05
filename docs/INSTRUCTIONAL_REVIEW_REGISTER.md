@@ -2987,3 +2987,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Remaining limitations:** External anatomical/medical-source passage verification, individual technique and safety review, and browser acceptance remain NEEDS REVIEW. Quiz distractors often rely on obviously unsafe or overconfident options; diagnostic discrimination has not been field-tested.
 
 **Explicit assessment-validity subtotal:** **33/97** lesson files with Q1–Q4 and both alignment judgments, **132/388** individual question judgments, **33/97** lessons with both alignment judgments. Remaining **64** lesson files, **256** question-level decisions and **128** alignment judgments. Nine-dimension text review is separately 97/97; this ledger is not full instructional validation.
+
+
+## Recorded assessment-validity decisions — MUS101-01–04 — 2026-11-04
+
+**Method:** Read all four learner-facing lessons, question options, explanations, guided scores and assignment rubrics. Recomputed 120 BPM (8 beats = 4 s), 80 BPM (eighth = 0.375 s), 120 BPM (offbeat = 0.25 s), and 96 BPM (32 beats = 20 s). Internal checks do not verify external music scholarship or psychometric discrimination.
+
+### MUS101-01 — Pulse and 4/4
+- **Q1 B — PASS (internal):** Lecture: denominator 4 specifies quarter-note beat unit. Distractors: A upper count confusion; C subdivisions; D seconds; none is a second correct choice under the stated straight-count model.
+- **Q2 C — PASS (internal):** Worked example: eight counts at 120 BPM = 8×60/120 = 4 s. Distractors: A 8 s; B 2 s; D 16 s; none is a second correct choice under the stated straight-count model.
+- **Q3 A — PASS (internal):** Lecture: meter is recurring grouping of beats. Distractors: B duration only; C instruments; D isolated accent; none is a second correct choice under the stated straight-count model.
+- **Q4 C — PASS (internal):** Guided practice: moving clap from 1 to 3 changes accent, not meter or tempo. Distractors: A beats/measure; B BPM; D barline; none is a second correct choice under the stated straight-count model.
+- **Guided-to-assignment — PASS:** Four repetitions of taught eight-count phrase, accents moved from 1 to 3, grouped in two 4/4 measures, exactly 32 counts.
+- **Assignment-to-outcome — PASS:** Terminology, beat arithmetic, repeatable score and distinction between observed timing and artistic interpretation assessed by rubric.
+- **Limitations:** Musical-cultural context, book metadata/passage support, live reader and learner discrimination remain NEEDS REVIEW; obviously wrong distractors may reduce diagnostic challenge.
+
+### MUS101-02 — Eighth subdivisions
+- **Q1 B — PASS (internal):** Lecture: quarter beat splits into two equal eighths. Distractors: A triplet; C sixteenths; D same as quarter; none is a second correct choice under the stated straight-count model.
+- **Q2 C — PASS (internal):** Worked example: 60/80/2 = 0.375 s. Distractors: A 0.75 beat; B 1.5; D 0.125; none is a second correct choice under the stated straight-count model.
+- **Q3 C — PASS (internal):** Lecture: 'and' is halfway between consecutive beats for straight eighths. Distractors: A next beat; B only end-of-measure; D mandatory accent; none is a second correct choice under the stated straight-count model.
+- **Q4 B — PASS (internal):** Lecture: swing may divide beat unequally. Distractors: A fixed midpoint; C doubled tempo; D unmetered; none is a second correct choice under the stated straight-count model.
+- **Guided-to-assignment — PASS:** Assignment expands guided pulse/and taps into four eight-counts and conditionally includes boundary 'ands' only when leading onward.
+- **Assignment-to-outcome — PASS:** Learner demonstrates stable beat, subdivision timing, count notation and contextual swing limitations; rubric checks calculations and score.
+- **Limitations:** Musical-cultural context, book metadata/passage support, live reader and learner discrimination remain NEEDS REVIEW; obviously wrong distractors may reduce diagnostic challenge.
+
+### MUS101-03 — Syncopation
+- **Q1 B — PASS (internal):** Lecture: stress displaced relative to metric expectation. Distractors: A expected accents; C even subdivision alone; D tempo acceleration; none is a second correct choice under the stated straight-count model.
+- **Q2 C — PASS (internal):** Worked example: 120 BPM beat .5 s, midpoint .25 s. Distractors: A whole beat; B two beats; D four beats; none is a second correct choice under the stated straight-count model.
+- **Q3 A — PASS (internal):** Lecture: pulse/meter required to identify unexpected accent. Distractors: B loudness alone; C phrase length; D movement size; none is a second correct choice under the stated straight-count model.
+- **Q4 C — PASS (internal):** Guided comparison: offbeat accent changes placement without changing pulse. Distractors: A tempo; B meter; D written denominator; none is a second correct choice under the stated straight-count model.
+- **Guided-to-assignment — PASS:** Guided strong-beat claps versus offbeat 2-and/4-and and 6-and gesture expanded into A/B/A′/B′ 32-count score.
+- **Assignment-to-outcome — PASS:** Accent displacement, stable pulse, readable global/local count labels, observed-versus-interpreted effects measured in rubric.
+- **Limitations:** Musical-cultural context, book metadata/passage support, live reader and learner discrimination remain NEEDS REVIEW; obviously wrong distractors may reduce diagnostic challenge.
+
+### MUS101-04 — Tempo and score
+- **Q1 C — PASS (internal):** Worked example: 32×60/96 = 20 seconds. Distractors: A 32s; B 16s; D 24s; none is a second correct choice under the stated straight-count model.
+- **Q2 B — PASS (internal):** Lecture: 32 quarter-note beats /4 per measure = eight measures. Distractors: A four; C two; D sixteen; none is a second correct choice under the stated straight-count model.
+- **Q3 A — PASS (internal):** Lecture: changing two-beat reach to four changes duration, not BPM. Distractors: B tempo; C meter; D direction; none is a second correct choice under the stated straight-count model.
+- **Q4 C — PASS (internal):** Lecture: reproducible score specifies counts, support, facing, levels, accents. Distractors: A missing support; B missing transitions; D missing facing/weight; none is a second correct choice under the stated straight-count model.
+- **Guided-to-assignment — PASS:** Guided A 1–8, B 9–16, A′ 17–24 with 20-and, C 25–32 explicitly transferred to independent score.
+- **Assignment-to-outcome — PASS:** Assignment evaluates 32-count timing, 4/4 measures, tempo-versus-duration calculation, support/facing and observation versus interpretation.
+- **Limitations:** Musical-cultural context, book metadata/passage support, live reader and learner discrimination remain NEEDS REVIEW; obviously wrong distractors may reduce diagnostic challenge.
+
+**Explicit assessment-ledger subtotal:** **37/97 lesson files**, **148/388 individually documented question judgments**, **37/97 with both alignment judgments**. **60 lessons / 240 questions / 120 alignment judgments remain** for this stricter gate. Nine-dimension text review coverage remains 97/97; full validation is not complete.
