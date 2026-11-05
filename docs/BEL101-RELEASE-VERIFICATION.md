@@ -26,3 +26,7 @@ For each scheduled video, record access permission, actual playback and seeking,
 - A subsequent repository update added BEL101 video-catalog regression guards: 12 scheduled study sources, one supplementary clip, nonempty week assignments, and exclusion of acrobatic forward rolls from the Friday course schedule. The test executes in the instructional-coverage workflow when triggered, but **its latest execution result is not yet verified**.
 - Remaining acceptance evidence: actually open and seek each scheduled video, confirm the lesson-topic match and permission on the learner's device; inspect deployed lesson and quiz interactions; review movement execution and specific cultural-source claims. A successful automated text check cannot substitute for those observations.
 - The latest-head release gate remains **OPEN** until post-change CI results are observed; do not generalize the screenshot's successful commit to later commits.
+
+## Source-by-source video acceptance tracking
+
+The 12 scheduled BEL101 Friday video sources, mapped weeks, original Drive URLs, and separate playback/lesson-match/technique-verification statuses are recorded in [`BEL101-VIDEO-EVIDENCE-LEDGER.md`](BEL101-VIDEO-EVIDENCE-LEDGER.md). All per-video observations remain **Not verified** pending actual playback and source comparison. The supplementary forward-roll clip is explicitly excluded from Friday lesson scheduling. Do not interpret the ledger as verification evidence until individual observations are documented.
