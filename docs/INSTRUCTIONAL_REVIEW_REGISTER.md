@@ -2737,3 +2737,54 @@ No live browser test, actual technique adjudication, citation passage audit or l
 9. **Reader experience — NEEDS REVIEW:** Live lesson, quiz, media and assignment submission not tested.
 
 **Provisional core ledger:** **72/97 core lessons**, **648/873 judgments** (**432 internal PASS**, **216 NEEDS REVIEW**, **0 internal FAIL identified**), **25 core lessons remain**. Supplemental BEL101-W04–W16: 13 additional reviewed files. Combined 85 files, 765 judgments (510 PASS, 255 NEEDS REVIEW). Inventory crosswalk and external validation remain outstanding.
+
+
+## Nine-dimension instructional validation — SIT505-01–04 — 2026-11-04
+
+**Scope:** Four Site-Specific & Cultural Performance lessons, sixteen keyed answers, practical protocols, site ethics and assignment criteria. **Source correction:** SIT505-04 originally contradicted itself on A′ count 23 (arm return versus optional sustain). Corrected learner-facing file at commit `0b424b50e3c69b72e27893af620ec75d2583a23e`: return 23, settle 24; optional sustain explicitly labeled deviation. PASS judgments below apply to corrected version.
+
+### SIT505-01 — Site survey
+1. **Outcome alignment — PASS (text):** Site constraint, count-specific response, permission/access and evidence limits align with objective and assignment.
+2. **Practice sequence — PASS (text):** Map entry, exit, obstacles, fixed point A and facing references B/C; no travel between points; two site observations and design decision.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, site hazard assessment and legal access compliance require independent checks.
+4. **Modifications — PASS (text):** Permitted private level room and stationary facing; no public access or stairs required.
+5. **Self-correction — PASS (text):** Do not call unverified surface or permission safe; change orientation if glare.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, B, C, D**, checked against all distractors and explanations.
+7. **Assignment — PASS (text):** Room plan, two orientation scores, observed constraints and uncertainty reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Kaye, Pearson, Hunter source passages and applicability of Access Board standards remain unverified; no unsupported cultural or ADA-compliance claims treated as established.
+9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes, media and assignment workflow not tested.
+
+### SIT505-02 — Sightlines
+1. **Outcome alignment — PASS (text):** Site constraint, count-specific response, permission/access and evidence limits align with objective and assignment.
+2. **Practice sequence — PASS (text):** Three hypothetical viewer points, stationary performance, count 7 arm return and count 8 supported facing adjustment; predictions labeled.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, site hazard assessment and legal access compliance require independent checks.
+4. **Modifications — PASS (text):** Seated supported feet and head/arm focus instead of planted-foot pivot.
+5. **Self-correction — PASS (text):** Exit remains clear; check viewpoint before claiming improved visibility.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**, checked against all distractors and explanations.
+7. **Assignment — PASS (text):** Three-position map, sightline table, comparable scores and limitations.
+8. **Evidence and cultural care — NEEDS REVIEW:** Kaye, Pearson, Hunter source passages and applicability of Access Board standards remain unverified; no unsupported cultural or ADA-compliance claims treated as established.
+9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes, media and assignment workflow not tested.
+
+### SIT505-03 — Accessibility
+1. **Outcome alignment — PASS (text):** Site constraint, count-specific response, permission/access and evidence limits align with objective and assignment.
+2. **Practice sequence — PASS (text):** Standing step/settle 1–2 versus seated shift or labeled hand initiation; gather 3–4, reach 5–6, return 7, stillness 8.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, site hazard assessment and legal access compliance require independent checks.
+4. **Modifications — PASS (text):** Stable nonrolling chair, supported feet, alternate hand initiation; no universal equivalence claimed.
+5. **Self-correction — PASS (text):** Unverified step-free route marked needs confirmation, not ADA-compliant.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**, checked against all distractors and explanations.
+7. **Assignment — PASS (text):** Two scores, site accessibility sketch, sensory/communication formats and verification gaps.
+8. **Evidence and cultural care — NEEDS REVIEW:** Kaye, Pearson, Hunter source passages and applicability of Access Board standards remain unverified; no unsupported cultural or ADA-compliance claims treated as established.
+9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes, media and assignment workflow not tested.
+
+### SIT505-04 — Cultural-context proposal
+1. **Outcome alignment — PASS (text):** Site constraint, count-specific response, permission/access and evidence limits align with objective and assignment.
+2. **Practice sequence — PASS (text):** Four eight-count A/B/A′/C phrases, A′ reach global 21–22, return 23, settle 24; original sustain-versus-return conflict corrected in lesson source.
+3. **Movement correctness — NEEDS REVIEW:** Actual execution, site hazard assessment and legal access compliance require independent checks.
+4. **Modifications — PASS (text):** Private authorized room or proposal-only pending site; supported orientation adjustments.
+5. **Self-correction — PASS (text):** Permission log includes authority/date/evidence; contextual claims marked uncertain; avoid unverified cultural history.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keyed **B, C, A, D**, checked against all distractors and explanations.
+7. **Assignment — PASS (text):** 32-count proposal, site map, permission and context ledger, contingencies and reflection.
+8. **Evidence and cultural care — NEEDS REVIEW:** Kaye, Pearson, Hunter source passages and applicability of Access Board standards remain unverified; no unsupported cultural or ADA-compliance claims treated as established.
+9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes, media and assignment workflow not tested.
+
+**Provisional core ledger:** **76/97 core lessons**, **684/873 judgments** (**456 internal PASS**, **228 NEEDS REVIEW**, **0 unresolved internal FAIL identified after documented SIT505-04 correction**), **21 core lessons remain**. Thirteen supplemental Friday lessons remain separate; combined 89 reviewed files and 801 judgments (534 PASS, 267 NEEDS REVIEW). Exact canonical inventory reconciliation, external sources, technique, accessibility and browser checks remain open.
