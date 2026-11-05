@@ -76,7 +76,7 @@ const contracts = [
   {
     id: 'BEL101-W16',
     guided: ["sharing the label 'circle' is not enough", 'compare counts 1–4 only'],
-    assignment: ['slide-and-return timing on counts 1–4', 'only when the recorded direction, start/end position', 'out of observable, attempted actions', 'if no attempted action can be observed, report **not assessable**', 'Report each attempt\'s numerator and denominator separately']
+    assignment: ['slide-and-return timing on counts 1–4', 'only when the recorded direction, start/end position', 'out of observable, attempted actions', 'if no attempted action can be observed, report **not assessable**', 'Report each attempt\'s numerator and denominator separately', 'Separately assess the 6→7 circle-to-pulse transition', 'not assessable** if either component is unobservable or omitted', 'not be added as a ninth movement count']
   },
   {
     id: 'BEL101-W13',
