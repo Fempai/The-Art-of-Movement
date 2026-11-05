@@ -812,3 +812,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 
 - **W10 Q4:** Replaced a generic definition-of-success question with two observable same-tempo attempts at the count-4-to-5 boundary. The keyed response **D** now supports only repeatability of the original transition under observed conditions. Distractors test unsupported generalization to all tempos, conflation of seated hand tracing with standing mechanics, and unverified source-video authentication.
 - The answer key remains **C,B,A,D**; the count sequence, physical exercises, and independent assignment are unchanged. This is a targeted internal assessment-validity improvement, not independent proof of learner skill or source authenticity.
+
+
+## BEL101 Weeks 14 and 16 targeted question-inference follow-up (November 2026)
+
+- **W14 Q4:** Two connected 16-count attempts now supply specific global 8→9 boundary evidence and stable support. Correct **D** supports only repeatability under observed conditions; distractors probe segmented-rehearsal substitution, untested-tempo generalization, and unverified video authentication.
+- **W16 Q2:** A standing Week 8 versus seated hand-traced Week 16 comparison now permits only explicitly qualified observations of counts 1–4 order and timing. Correct **B** rejects claims of equivalent standing pelvic mechanics, directly comparable physical proficiency, or unverified circle-range improvement.
+- Keys remain **W14 B,C,A,D** and **W16 D,B,A,C**. Exercises and assignments are unchanged. These are internal editorial revisions, not observed learner-outcome or physical-technique validation.
