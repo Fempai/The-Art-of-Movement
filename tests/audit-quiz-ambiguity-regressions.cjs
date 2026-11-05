@@ -106,7 +106,7 @@ const contracts = [
   {
     id: 'BEL101-04',
     guided: ['**two separate eight-count attempts**', '**6→7 transition**', 'without reversing the accent order'],
-    assignment: ['left-start mirrored half-oval', 'final accents on 7–8']
+    assignment: ['mirror the slide order and half-oval direction', 'right-then-left knee accents on 7–8', '6→7 half-oval-to-accent transition', 'historical baseline not available']
   },
   {
     id: 'BEL101-W08',
