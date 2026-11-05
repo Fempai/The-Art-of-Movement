@@ -3650,3 +3650,10 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **After:** A incorrectly adds side-to-center returns, B reduces the oval to two lateral turning points, and D lists the correct directional components but fails to connect them as one continuous path. Each wrong option reflects a plausible novice misunderstanding rather than an extreme movement.
 - **Cognitive demand:** Visual-spatial discrimination and pathway diagnosis within the written drill. **PASS (internal)** for unique key and alignment; **NEEDS REVIEW** for actual novice item discrimination and movement observation.
 - **Automated verification:** Latest push-triggered Actions run could not be confirmed with the available commit-status interface. Empty combined-status or PR-only workflow responses must not be treated as a passing or failing run. Audit and Playwright recheck remain outstanding.
+
+## Diagnostic question-quality corrections — BEL101-03 Q4 and BEL101-04 Q3 — 2026-11-04
+
+- **BEL101-03 Q4 (key C unchanged):** Revised distractors A, B and D to test invalid transfer from the observed slow or seated pattern to untested tempo, standing pathway or new accent placement. These are realistic evidence-boundary errors rather than obvious claims of universal certification. Internal unique-best-answer review: PASS; actual learner discrimination: NEEDS REVIEW.
+- **BEL101-04 Q3 (key A unchanged):** Revised distractors B, C and D to test unsupported attribution of a newly composed phrase to raqs sharqi or baladi based on movement similarity, grounded accents or a related demonstration. Internal unique-best-answer review: PASS; scholarly provenance and cultural expert review: NEEDS REVIEW.
+- **Scope:** Both updates alter quiz wording and explanations only, not taught movement, scoring, assignments or answer keys. Full 97-lesson internal ledger totals remain 388/388 Q decisions and 194/194 alignments; the original decisions have been superseded by these recorded corrections.
+- **Regression:** A fresh 97-quiz audit and Playwright run on the latest lesson commit remain to be confirmed. Do not infer CI success from the presence of these commits.
