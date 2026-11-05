@@ -594,3 +594,32 @@ test('real MOV101 lesson renders a gradeable knowledge check',async({page})=>{
  await expect(panel.getByRole('button',{name:'Check my answers'})).toBeEnabled();
  await expect(panel.getByText(/cannot be graded interactively yet/)).toHaveCount(0);
 });
+
+
+// Real-content integration: exercise the final BEL101 assessment rather than
+// a synthetic fixture, including its four keyed explanations.
+test('real BEL101 Week 16 final assessment grades and explains all four answers',async({page})=>{
+ const fs=require('node:fs');
+ const path=require('node:path');
+ const lesson=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons','BEL101-W16.md'),'utf8');
+ const keys=[...lesson.matchAll(/\\*\\*([1-4])\\. ([ABCD])\\.\\*\\*/g)].map(match=>match[2]);
+ expect(keys).toHaveLength(4);
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
+ const finalLink=page.getByRole('link',{name:/Week 16: Final/});
+ await expect(finalLink).toBeVisible();
+ await finalLink.locator('xpath=..').getByRole('button',{name:'Study here'}).click();
+ const panel=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W16/})});
+ await expect(panel.getByRole('heading',{name:'Interactive knowledge check'})).toBeVisible();
+ const questions=panel.locator('fieldset');
+ await expect(questions).toHaveCount(4);
+ for(let i=0;i<4;i++)await questions.nth(i).locator('input[type=radio]').nth('ABCD'.indexOf(keys[i])).check();
+ await panel.getByRole('button',{name:'Check my answers'}).click();
+ await expect(panel.getByText(/Score: 4 \\/ 4/)).toBeVisible();
+ for(let i=1;i<=4;i++){
+  const explanation=lesson.match(new RegExp('\\\\*\\\\*'+i+'\\\\. '+keys[i-1]+'\\\\.\\\\*\\\\* ([^\\\\n]+)'))?.[1];
+  expect(explanation,'missing real Week 16 explanation '+i).toBeTruthy();
+  await expect(panel).toContainText(explanation);
+ }
+});
