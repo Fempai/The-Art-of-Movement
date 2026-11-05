@@ -300,6 +300,14 @@ Source: `curriculum/final-lessons/BEL101-W16.md`.
 | 8. Sources/cultural attribution | NEEDS HUMAN REVIEW | “Source and context limitations” separates self-documented progress from authentic historical or video-specific technique. |
 | 9. Reader integration | NEEDS HUMAN REVIEW | Real learner final-submission flow, accessibility and video playback are not tested. |
 
+## Subsequent instructional updates (2026-11-04)
+
+The nine-dimension ratings above describe the **2026-11-02 text review**, not a fresh expert or learner validation. Subsequent repository changes added optional, evidence-aware video-observation/comparison tasks to the scheduled Friday lessons (Weeks 1–16), with an explicit no-access fallback and a distinction between original written drills and unverified source demonstrations. BEL101-04, a separate four-lesson foundation sequence item rather than the scheduled Friday Week 4 video lesson, now includes a foundation-to-combination transfer check comparing matched component timing with connected execution.
+
+A source-observation regression gate checks the presence of those activities, their access fallback, and scheduled catalog links. This establishes **editorial coverage**, not whether videos play, match the movement, or improve learning. The existing 68-question text review and 102/153 editorial PASS count are **not new validation results** and must not be counted again. Any new CI run must be confirmed against the latest commit before reporting it as passing.
+
+**Remaining evidence gaps:** firsthand video playback and permissions; external movement-technique/cultural authentication; deployed-reader and accessibility observation; independent learner outcomes. These remain unverified, not newly discovered failed assessments.
+
 ## BEL101 editorial rubric coverage summary
 
 - **17/17 lessons** now have an explicit nine-dimension passage-based *text review*: four foundation lessons and Friday Weeks 04–16.
