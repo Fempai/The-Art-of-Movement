@@ -622,6 +622,13 @@ test('real BEL101 Week 16 final assessment grades and explains all four answers'
   expect(explanation,'missing real Week 16 explanation '+i).toBeTruthy();
   await expect(panel).toContainText(explanation);
  }
+ const firstWrong='ABCD'.indexOf(keys[0])===0?1:0;
+ await questions.first().locator('input[type=radio]').nth(firstWrong).check();
+ await panel.getByRole('button',{name:'Check my answers'}).click();
+ await expect(panel.getByText(/Score: 3 \/ 4/)).toBeVisible();
+ await questions.first().locator('input[type=radio]').nth('ABCD'.indexOf(keys[0])).check();
+ await panel.getByRole('button',{name:'Check my answers'}).click();
+ await expect(panel.getByText(/Score: 4 \/ 4/)).toBeVisible();
  const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('aom-quiz-BEL101-W16')));
  expect(saved).toMatchObject({lesson:'BEL101-W16',score:4,total:4});
  await page.reload();
