@@ -3073,3 +3073,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Limitations — NEEDS REVIEW:** Individual loading/technique and medical safety, passage-level references, deployed reader and empirical item difficulty. Obvious unsafe distractors may make questions less diagnostic.
 
 **Explicit assessment-ledger subtotal:** **41/97** lessons with all four Q decisions and both alignments, **164/388** individually documented questions, **41/97** with both alignment judgments; **56 lessons, 224 questions and 112 alignment judgments remain**. Nine-dimension text review coverage remains 97/97; external validation remains outstanding.
+
+
+## Recorded assessment-validity decisions — CON101-01–04 — 2026-11-04
+
+**Method:** All four lesson texts read; Q1–Q4 answer keys, distractors and explanations checked against specific core/guided/troubleshooting passages, plus guided-to-assignment and assignment-to-outcome alignment. Internal conceptual checks only; no physical technique clearance.
+
+### CON101-01 — Breath and phrasing
+- **Q1 C — PASS (internal):** Core explanation: breath timing is optional expressive choice, not a mandated two-count inhale. Distractors: A/B impose breath synchronization; D falsely prohibits coordination. No alternative is equally supported under the written lesson's conditions.
+- **Q2 A — PASS (internal):** Troubleshooting: lightheadedness calls for stopping and ordinary breathing. Distractors: B/C retain forced breath; D delays recovery. No alternative is equally supported under the written lesson's conditions.
+- **Q3 D — PASS (internal):** Think like a choreographer: count duration observable, lung capacity and intention not inferable. Distractors: A lung capacity; B intention; C rotation inferred from duration. No alternative is equally supported under the written lesson's conditions.
+- **Q4 B — PASS (internal):** Troubleshooting: mark seated arm phrase while breathing naturally. Distractors: A abandons count verification; C retains full complexity; D retains restriction. No alternative is equally supported under the written lesson's conditions.
+- **Guided-to-assignment — PASS:** Guided 1–2 opening, 3–4 gathering, 5–6 reaching, 7–8 recovery used in both assignment versions; version B changes initiation speed within 1–2 only.
+- **Assignment-to-outcome — PASS:** Two scored versions, breathing comfort, observable timing, interpretation and source limitation address goal.
+- **Remaining NEEDS REVIEW:** Professional technique and transfer safety, passage-level source claims, live reader/browser behavior, and empirical quiz difficulty; several distractors are easy overclaims.
+
+### CON101-02 — Initiation
+- **Q1 B — PASS (internal):** Core explanation: initiating segment or action begins sequence. Distractors: A/D endpoint; C musical tempo. No alternative is equally supported under the written lesson's conditions.
+- **Q2 C — PASS (internal):** Core explanation: same endpoint can follow different sequencing/dynamics. Distractors: A contradicts same endpoint; B audience location unrelated; D different starts not required. No alternative is equally supported under the written lesson's conditions.
+- **Q3 A — PASS (internal):** Troubleshooting: isolate hand, elbow and torso stages. Distractors: B infers beginning from end; C never isolates; D ignores order. No alternative is equally supported under the written lesson's conditions.
+- **Q4 D — PASS (internal):** Think like a choreographer: observation cannot establish artist intention. Distractors: A inferred intent; B endpoint doesn't prove initiation; C universal emotion. No alternative is equally supported under the written lesson's conditions.
+- **Guided-to-assignment — PASS:** Hand-first and torso-first eight-count guided variants with shared endpoint and support recur in independent assignment.
+- **Assignment-to-outcome — PASS:** Sequence order, timing, support and observation-versus-interpretation assessed by comparison and rubric.
+- **Remaining NEEDS REVIEW:** Professional technique and transfer safety, passage-level source claims, live reader/browser behavior, and empirical quiz difficulty; several distractors are easy overclaims.
+
+### CON101-03 — Suspension
+- **Q1 B — PASS (internal):** Core explanation: suspension can be a deliberate delay before resolution. Distractors: A continuous resolution; C facing only; D immediate release. No alternative is equally supported under the written lesson's conditions.
+- **Q2 C — PASS (internal):** Guided comparison: hold count 5 versus return on count 5. Distractors: A changes tempo/path; B changes shape; D no contrast. No alternative is equally supported under the written lesson's conditions.
+- **Q3 A — PASS (internal):** Troubleshooting: ground feet and shorten unstable hold. Distractors: B unsupported; C greater unstable demand; D rushes. No alternative is equally supported under the written lesson's conditions.
+- **Q4 D — PASS (internal):** Think like a choreographer: audience grief interpretation not directly observable. Distractors: A count pause; B arm endpoint; C foot contact are observable. No alternative is equally supported under the written lesson's conditions.
+- **Guided-to-assignment — PASS:** Right shift 1–2, left reach 3–4, hold-versus-return on 5 and recovery 6–8 are explicitly replicated in assignment.
+- **Assignment-to-outcome — PASS:** Isolated timing difference, observable endpoint, support and bounded interpretation satisfy concept and comparison goals.
+- **Remaining NEEDS REVIEW:** Professional technique and transfer safety, passage-level source claims, live reader/browser behavior, and empirical quiz difficulty; several distractors are easy overclaims.
+
+### CON101-04 — Level change
+- **Q1 B — PASS (internal):** Core explanation: controlled support/level transitions, not uncontrolled drops. Distractors: A rushed floor; C unverified exit; D no support change. No alternative is equally supported under the written lesson's conditions.
+- **Q2 C — PASS (internal):** Guided chair alternative avoids painful kneeling and retains body-level change. Distractors: A painful kneeling; B unsupported descent; D arm height only. No alternative is equally supported under the written lesson's conditions.
+- **Q3 A — PASS (internal):** Before starting: avoid optional kneeling without independent comfortable exit. Distractors: B/C/D describe comfortable controlled exits. No alternative is equally supported under the written lesson's conditions.
+- **Q4 D — PASS (internal):** Guided and assignment: record chair, feet and hand contact at transitions. Distractors: A/C universal safety; B unverified confidence. No alternative is equally supported under the written lesson's conditions.
+- **Guided-to-assignment — PASS:** Chair-rise 1–2 prepare, 3–4 rise, 5–6 stand, 7–8 initiate safe return and seated-only marking both explicitly assessed; extra counts allowed for safe descent.
+- **Assignment-to-outcome — PASS:** Support-pathway description, timing, modification, interpretation and source limit meet stated low-risk objective; seated marking not misrepresented as a transfer.
+- **Remaining NEEDS REVIEW:** Professional technique and transfer safety, passage-level source claims, live reader/browser behavior, and empirical quiz difficulty; several distractors are easy overclaims.
+
+**Explicit assessment-ledger subtotal:** **45/97** lesson files with four question decisions and two alignment judgments, **180/388** question decisions, **45/97** with both alignment judgments. **52 lessons, 208 questions, 104 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is NOT complete.
