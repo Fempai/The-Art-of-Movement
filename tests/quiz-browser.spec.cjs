@@ -618,7 +618,7 @@ test('real BEL101 Week 16 final assessment grades and explains all four answers'
  await panel.getByRole('button',{name:'Check my answers'}).click();
  await expect(panel.getByText(/Score: 4 \\/ 4/)).toBeVisible();
  for(let i=1;i<=4;i++){
-  const explanation=lesson.match(new RegExp('\\\\*\\\\*'+i+'\\\\. '+keys[i-1]+'\\\\.\\\\*\\\\* ([^\\\\n]+)'))?.[1];
+  const explanation=lesson.split('\n').find(line=>line.startsWith('**'+i+'. '+keys[i-1]+'.** '))?.split('.** ').slice(1).join('.** ');
   expect(explanation,'missing real Week 16 explanation '+i).toBeTruthy();
   await expect(panel).toContainText(explanation);
  }
