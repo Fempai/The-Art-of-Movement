@@ -622,4 +622,13 @@ test('real BEL101 Week 16 final assessment grades and explains all four answers'
   expect(explanation,'missing real Week 16 explanation '+i).toBeTruthy();
   await expect(panel).toContainText(explanation);
  }
+ const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('aom-quiz-BEL101-W16')));
+ expect(saved).toMatchObject({lesson:'BEL101-W16',score:4,total:4});
+ await page.reload();
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
+ const reopened=page.getByRole('link',{name:/Week 16: Final/});
+ await reopened.locator('xpath=..').getByRole('button',{name:'Study here'}).click();
+ const restored=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W16/})});
+ await expect(restored).toContainText('Previous local quiz: 4 / 4');
 });
