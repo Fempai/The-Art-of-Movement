@@ -644,3 +644,27 @@ test('real BEL101 Week 16 final assessment grades and explains all four answers'
  await expect(record).toContainText('4 / 4');
  await expect(record).toContainText('This device');
 });
+
+
+test('BEL101 final quiz remains usable at a narrow mobile viewport',async({page})=>{
+ await page.setViewportSize({width:375,height:812});
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
+ const finalLink=page.getByRole('link',{name:/Week 16: Final/});
+ await finalLink.locator('xpath=..').getByRole('button',{name:'Study here'}).click();
+ const panel=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W16/})});
+ const questions=panel.locator('fieldset');
+ await expect(questions).toHaveCount(4);
+ for(let i=0;i<4;i++){
+  const options=questions.nth(i).locator('input[type=radio]');
+  await expect(options).toHaveCount(4);
+  await options.first().check();
+ }
+ const submit=panel.getByRole('button',{name:'Check my answers'});
+ await expect(submit).toBeVisible();
+ await submit.click();
+ await expect(panel.getByRole('status').filter({hasText:/Score: [0-4] \/ 4/})).toBeVisible();
+ const viewport=await page.evaluate(()=>({width:document.documentElement.clientWidth,scrollWidth:document.documentElement.scrollWidth}));
+ expect(viewport.scrollWidth).toBeLessThanOrEqual(viewport.width+1);
+});
