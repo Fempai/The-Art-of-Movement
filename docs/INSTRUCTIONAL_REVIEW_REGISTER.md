@@ -3202,3 +3202,82 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Remaining NEEDS REVIEW:** Publisher metadata and passage support, observed movement technique, reader/browser acceptance, and empirical question discrimination. Some distractors are obvious overclaims.
 
 **Explicit assessment-ledger subtotal:** **53/97** lessons with all four Q decisions and both alignment judgments, **212/388** individually documented questions, **53/97** with both alignment judgments. **44 lessons, 176 questions, 88 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is not complete.
+
+
+## Recorded assessment-validity decisions — PER201-01–04 and LMA201-01–04 — 2026-11-04
+
+**Method:** Reviewed eight complete lesson texts, all 32 multiple-choice stems/options and keyed explanations, guided movement instructions, assignment requirements and rubrics. Judgments are internal content/construct alignment only; not professional technique, LMA certification, audience study, or independent source verification.
+
+### PER201-01 — Audience focus
+- **Q1 B — PASS (internal):** Gaze toward hand on 5 is specific focus; travel/support/arm endpoint alone are not gaze. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 C — PASS (internal):** Visible head/gaze can be recorded; intent and universal viewer reactions cannot. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 A — PASS (internal):** Eye-only shift with stable head is guided balance adaptation; alternatives retain/increase instability. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Different gaze can shift emphasis, not guarantee universal audience interpretation. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided A hand gaze 5–6, B audience gaze 5, C gaze lift 7 exactly reappear in assignment.
+- **Assignment-to-outcome — PASS:** Three complete gaze scores, visible differences, intended effect separated from evidence, and cue revision measure outcome.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### PER201-02 — Intention
+- **Q1 B — PASS (internal):** Chosen purpose guides decisions, not universal emotion or mere distance. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 C — PASS (internal):** Boundary trial changes reach distance/recovery, not full duration, travel or genre. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 A — PASS (internal):** Shorter reach is observable; personality, cultural meaning and universal rejection are inferred. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Neutral action-based prompt replaces distressing personal recall; alternatives retain distress. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided invitation/question/boundary eight-count variations and no-extra-count hesitation all assigned.
+- **Assignment-to-outcome — PASS:** Three contrasts, unchanged baseline, scored differences, bounded interpretation and revision measure outcome.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### PER201-03 — Stage presence
+- **Q1 B — PASS (internal):** Count-8 deliberate stillness observable; confidence/emotion/future success not. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 B — PASS (internal):** Commitment is controlled completion of pathway/timing, not force, unsafe support or breath hold. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 C — PASS (internal):** Same camera framing reduces visual confound, not real choreography differences or audience interpretations. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Revise phrase or use support for balance; never hide corrective step or speed up. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided stillness-vs-fidget comparison and separate entrance 1–8 then motif next 1 are assigned with supported settling.
+- **Assignment-to-outcome — PASS:** Ending/entrance evidence, safe revision, camera/observation consistency and critique of subjective presence measure outcome.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### PER201-04 — Performance critique
+- **Q1 B — PASS (internal):** Three-count arm extension is observable; sorrow/personality/guaranteed anticipation inferred. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 C — PASS (internal):** A′ sustains recognizable reach one count longer; other choices remove motif or invent lineage. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 A — PASS (internal):** Description–interpretation–evidence-based evaluation; alternatives lack movement evidence. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Reframe cropped feet before assessing support; alternatives invent unseen evidence. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided A–B–A′–C 32-count scoring and sound-off/count or immediate observation-grid route recur in assignment.
+- **Assignment-to-outcome — PASS:** Two takes or comparable marking, boundaries, up-to-two actual timing discrepancies, three visible choices and revision assess critique.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### LMA201-01 — Body
+- **Q1 B — PASS (internal):** Initiating body segment belongs to Body; direction/travel Space, timing Effort. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 B — PASS (internal):** Fingertips versus torso initiation changes first segment, not target, pathway or kinesphere. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 C — PASS (internal):** Torso before arm is observable; anxiety/confidence/intention inferred. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Reduce destabilizing shift and preserve support; alternatives increase instability. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided fingertip-led versus torso-led count-5/6 reach replicated as two complete eight-count scores.
+- **Assignment-to-outcome — PASS:** Two sequence notes, exact initiation contrast, comparable endpoint and inference boundary assess Body categorization.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### LMA201-02 — Effort
+- **Q1 B — PASS (internal):** Weight one of four Effort factors; shape/facing/travel not Weight. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 A — PASS (internal):** Sustained denotes Time quality, not mandatory eight counts, load or straight path. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 C — PASS (internal):** Bound/free concerns Flow; sudden Time, force Weight, range Space. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Maximal resistance regardless of control misreads strong Weight; alternatives are descriptors. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided sustained/sudden, light/strong, direct/exploratory, bound/freer reach comparisons transferred to assignment.
+- **Assignment-to-outcome — PASS:** Four Effort factors, controlled timing and pathway, observable cues, confounds and non-physical-load distinction measured.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### LMA201-03 — Shape
+- **Q1 B — PASS (internal):** Arms widening is Shape; sudden/sustained Effort-Time; intention not observable. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 B — PASS (internal):** Different movement pathways can yield same endpoint; photo/final width cannot recover process. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 C — PASS (internal):** Sudden versus sustained belongs to Effort-Time, not Body/Space/Shape. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Reduce range but retain enclosing/expanding; alternatives force discomfort or rigidity. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided 1–2 enclose, 3–4 expand, 5–6 gather, 7–8 one-arm diagonal repeated in two smaller-range scored versions.
+- **Assignment-to-outcome — PASS:** Shape-process comparison, arm/trunk relation, Effort distinction and interpretation limit assessed.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+### LMA201-04 — Space
+- **Q1 B — PASS (internal):** Kinesphere reachable space without base change; not whole stage/travel/facing alone. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q2 C — PASS (internal):** Reach direction is Space; dynamic strength/timing Effort, initiation Body. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q3 A — PASS (internal):** Stable counts isolate changed factor; no guarantee of identical performance or audience meaning. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Q4 D — PASS (internal):** Plain-language analysis score is not Labanotation, clinical measure or emotional predictor. The other three options conflict with the taught category, the observable-evidence boundary, or the stated safety conditions; no second defensible key identified.
+- **Guided-to-assignment — PASS:** Guided planted-foot spatial reach and four Body/Effort/Shape/Space baseline-versus-variation rows explicitly assigned.
+- **Assignment-to-outcome — PASS:** Four scored comparisons with counts, facing, support, observed cue, constants and 300-word reflection measure outcome.
+- **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
+
+**Explicit assessment-ledger subtotal:** **61/97** lessons with four Q decisions and both alignment judgments, **244/388** individual question decisions, **61/97** lessons with both alignment judgments. **36 lessons, 144 questions, 72 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is NOT complete. No newly identified internal answer-key failure in this batch.
