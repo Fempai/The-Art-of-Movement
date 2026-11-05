@@ -708,7 +708,7 @@ test('BEL101 original scheduled videos map to every Friday week in the reader',a
  for(let week=1;week<=16;week++){
   const expected=scheduled.filter(video=>video.weeks.includes(week));
   expect(expected.length,'missing source mapping for Week '+week).toBeGreaterThan(0);
-  const label=videoSection.locator('strong').filter({hasText:new RegExp('^Week '+week+':$')});
+  const label=videoSection.locator('strong').filter({hasText:new RegExp('^Week '+week+': *$')});
   const group=label.locator('xpath=..');
   await expect(group,'missing reader source group for Week '+week).toHaveCount(1);
   const links=group.locator('a');
