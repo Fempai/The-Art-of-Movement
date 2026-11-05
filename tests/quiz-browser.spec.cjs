@@ -638,4 +638,9 @@ test('real BEL101 Week 16 final assessment grades and explains all four answers'
  await reopened.locator('xpath=..').getByRole('button',{name:'Study here'}).click();
  const restored=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W16/})});
  await expect(restored).toContainText('Previous local quiz: 4 / 4');
+ await page.getByRole('link',{name:'Learning Progress'}).click();
+ await expect(page).toHaveURL(/conservatory-progress\.html$/);
+ const record=page.locator('#records tr').filter({hasText:'BEL101-W16'});
+ await expect(record).toContainText('4 / 4');
+ await expect(record).toContainText('This device');
 });
