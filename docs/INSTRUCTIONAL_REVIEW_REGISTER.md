@@ -2788,3 +2788,54 @@ No live browser test, actual technique adjudication, citation passage audit or l
 9. **Reader experience — NEEDS REVIEW:** Live reader, quizzes, media and assignment workflow not tested.
 
 **Provisional core ledger:** **76/97 core lessons**, **684/873 judgments** (**456 internal PASS**, **228 NEEDS REVIEW**, **0 unresolved internal FAIL identified after documented SIT505-04 correction**), **21 core lessons remain**. Thirteen supplemental Friday lessons remain separate; combined 89 reviewed files and 801 judgments (534 PASS, 267 NEEDS REVIEW). Exact canonical inventory reconciliation, external sources, technique, accessibility and browser checks remain open.
+
+
+## Nine-dimension instructional validation — PRO702-01–04 — 2026-11-04
+
+**Scope:** Four Stagecraft & Artistic Direction lessons; full text, 16 answer keys and distractors, practical counts, adaptations and assignments reviewed. These internal text judgments do not certify production safety.
+
+### PRO702-01 — Lighting
+1. **Outcome alignment — PASS (text):** Defined production variable, planned cue/map, observable check and documented revision align with learning objective.
+2. **Practice sequence — PASS (text):** Static overhead versus stable side lamp, eight-count visibility test; count-17 cue is proposed for 32-count A′ and not misrepresented as executed.
+3. **Movement correctness — NEEDS REVIEW:** Live production safety, stage movement and physical execution not independently observed.
+4. **Modifications — PASS (text):** Existing room lights, stable camera, seated arm-marking option, no electrical work.
+5. **Self-correction — PASS (text):** Exposure differences logged; fallback static lighting; no unsafe in-motion switch.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, B, C, D**; all alternatives and explanations checked, including 160×60/80=120 seconds.
+7. **Assignment — PASS (text):** Two static-light tests, proposed cue and clear executed-versus-planned labels.
+8. **Evidence and cultural care — NEEDS REVIEW:** Gillette/Ionazzi/IADMS bibliography and claim-level support require verification; permissions and licensing explicitly not presumed.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson, quiz, media and production-book submission UI untested.
+
+### PRO702-02 — Blocking
+1. **Outcome alignment — PASS (text):** Defined production variable, planned cue/map, observable check and documented revision align with learning objective.
+2. **Practice sequence — PASS (text):** Map A/B/C with upstage/downstage orientation; either exact scored transitions or stationary A with hypothetical B/C; 32-count phrase.
+3. **Movement correctness — NEEDS REVIEW:** Live production safety, stage movement and physical execution not independently observed.
+4. **Modifications — PASS (text):** Supported/seated stationary orientation alternative; travel not silently inserted.
+5. **Self-correction — PASS (text):** Obstructed route removed; predicted and observed sightlines distinguished.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, C, A, D**; all alternatives and explanations checked, including 160×60/80=120 seconds.
+7. **Assignment — PASS (text):** Executable route selection, stage legend, viewer-position observations and rationale.
+8. **Evidence and cultural care — NEEDS REVIEW:** Gillette/Ionazzi/IADMS bibliography and claim-level support require verification; permissions and licensing explicitly not presumed.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson, quiz, media and production-book submission UI untested.
+
+### PRO702-03 — Costume/props
+1. **Outcome alignment — PASS (text):** Defined production variable, planned cue/map, observable check and documented revision align with learning objective.
+2. **Practice sequence — PASS (text):** Two ordinary outfits tested under matched surface/range, or one tested and other hypothetical; step/gather/reach/turn checklist.
+3. **Movement correctness — NEEDS REVIEW:** Live production safety, stage movement and physical execution not independently observed.
+4. **Modifications — PASS (text):** No-prop default, ordinary clothing, no forced motion through snag/slip.
+5. **Self-correction — PASS (text):** Stop on snag or traction loss, revise and retest; untested design not called observed.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, B, C, D**; all alternatives and explanations checked, including 160×60/80=120 seconds.
+7. **Assignment — PASS (text):** Movement-safety checklist, test limits, proposed prop risk and revision.
+8. **Evidence and cultural care — NEEDS REVIEW:** Gillette/Ionazzi/IADMS bibliography and claim-level support require verification; permissions and licensing explicitly not presumed.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson, quiz, media and production-book submission UI untested.
+
+### PRO702-04 — Production book
+1. **Outcome alignment — PASS (text):** Defined production variable, planned cue/map, observable check and documented revision align with learning objective.
+2. **Practice sequence — PASS (text):** Five 32-count sections = 160 beats at 80 BPM = 120 seconds; 1–32/33–64/65–96/97–128/129–160; four eight-count phrases per section.
+3. **Movement correctness — NEEDS REVIEW:** Live production safety, stage movement and physical execution not independently observed.
+4. **Modifications — PASS (text):** Desk-based simulated walkthrough or safe seated marking, no mandatory public performance.
+5. **Self-correction — PASS (text):** Record boundary support and operator; planned cue/run/rights not called verified.
+6. **Quiz correctness — PASS (internal):** Q1–Q4 keys **B, C, A, D**; all alternatives and explanations checked, including 160×60/80=120 seconds.
+7. **Assignment — PASS (text):** Full cue/blocking/safety/permission book and honest prospective run report.
+8. **Evidence and cultural care — NEEDS REVIEW:** Gillette/Ionazzi/IADMS bibliography and claim-level support require verification; permissions and licensing explicitly not presumed.
+9. **Reader experience — NEEDS REVIEW:** Deployed lesson, quiz, media and production-book submission UI untested.
+
+**Provisional core ledger:** **80/97 core lessons**, **720/873 judgments** (**480 internal PASS**, **240 NEEDS REVIEW**, **0 unresolved internal FAIL identified**), **17 core lessons remain**. Supplemental BEL101-W04–W16: 13 separately reviewed files; combined 93 files and 837 judgments (558 PASS, 279 NEEDS REVIEW). The GitHub search result was capped at 100 paths and is not an exhaustive inventory; the 97-core denominator still requires reconciliation against a canonical manifest. Source-level, expert, CI and browser checks remain open.
