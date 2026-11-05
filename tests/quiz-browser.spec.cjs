@@ -716,5 +716,7 @@ test('BEL101 original scheduled videos map to every Friday week in the reader',a
  }
  const extra=page.getByRole('link',{name:'Progressive Forward Rolls'});
  await expect(extra).toHaveCount(1);
+ await expect(extra).toHaveAttribute('href',supplementary[0].url);
+ await expect(extra.locator('xpath=..')).toContainText('Supplementary (acro, not belly-dance technique)');
  expect(supplementary[0].title).toBe('Progressive Forward Rolls');
 });
