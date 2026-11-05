@@ -825,3 +825,9 @@ The repeat variation reverses **left/right orientation** but not the time order 
 
 - **W13 Q4:** Replaced a generic strategy-identification item with a concrete count-4 pelvis arrival, count-5 hold, count-6 chest return. Key **D** now requires identifying the missed count-5 upward reversal despite reaching the endpoint; distractors probe endpoint-only inference, hand-trace/abdominal-isolation conflation, and treating unobservable timing as confirmed. The existing answer sequence **C,B,A,D** is preserved.
 - Guided counts, adaptations, progression check, and assignment are unchanged. This is an internal item-quality correction, not a witnessed technique or learner-outcome evaluation.
+
+
+## BEL101 Week 15 sequential-coordination quiz and regression guards (November 2026)
+
+- **W15 Q3:** The original question described rehearsal before 'combining' components, potentially implying simultaneous layering even though the lesson specifies arm opening on 3–4 followed by optional torso/hand-traced movement on 5–6. Revised the stem, distractor A, keyed choice D and explanation to require sequential 4→5 linking without an extra beat. Key **C,A,D,B** unchanged; exercises and assignment unchanged.
+- Added five targeted quiz-ambiguity regression cases for W10 Q4, W13 Q4, W14 Q4, W15 Q3, and W16 Q2, checking key letters and specific evidence-boundary wording. These string-based checks do not establish full semantic validity or learner outcomes. The current runner has **19** targeted cases, up from 14; CI execution on the latest head remains unverified.
