@@ -838,3 +838,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - The main `.github/workflows/academy-verification.yml` previously ran the 97-lesson audit and Playwright browser regressions without explicitly executing `tests/audit-quiz-ambiguity-regressions.cjs`.
 - Added a dedicated Node 22 workflow step immediately after the 97-lesson audit and before browser dependencies. It now executes the 19 curated ambiguity cases, five keyed-explanation guards, 15 reordered-Q1 feedback checks, and 12 guided-practice/assignment contracts when GitHub Actions runs the workflow.
 - Five recently edited BEL101 questions and five answer explanations were also checked against the current retrieved Markdown content, with all ten focused checks matching their expected wording and answer keys. This is **not** evidence that the complete Node runner or GitHub Actions workflow passed; latest-head CI completion must be verified separately.
+
+
+## Second CI gate — quiz-browser workflow targeted regressions (November 2026)
+
+- `.github/workflows/quiz-browser.yml` now executes `tests/audit-quiz-ambiguity-regressions.cjs` after the 97-lesson audit and before browser installation, and checks the regression script's JavaScript syntax.
+- The workflow's push path filters now include the regression script itself. Its run summary displays the targeted regression output or an explicit not-executed notice, and the log is retained with setup diagnostics.
+- Both the Academy verification and quiz-browser workflows are configured to run the targeted script; **configuration is not evidence of successful execution**. Verify actual GitHub Actions runs on the final commit before reporting release-gate success.
