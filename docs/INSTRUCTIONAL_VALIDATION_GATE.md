@@ -35,6 +35,21 @@ Use three distinct milestones so that “done” has a defined meaning:
 
 **Reporting rule:** give exact completed/total counts from recorded decisions, not subjective percentages or estimates based on green checkmarks. If the register does not yet contain complete evidence-based decisions, report the count as *not established*, not 97/97 validated.
 
+
+## Internal assessment review milestone — 2026-11-04
+
+**Recorded editorial milestone: COMPLETE (internal text only).** The [instructional review register](INSTRUCTIONAL_REVIEW_REGISTER.md) now contains individual Q1–Q4 decisions for **97/97 lessons (388/388 questions)** and both guided-to-assignment and assignment-to-outcome judgments for **97/97 lessons (194/194 alignment judgments)**. The internal pass identified no unresolved answer-key conflict in the final batches. This is not empirical question validation, an expert technique signoff, or verification of scholarly passages.
+
+**Release verification is a separate unresolved condition.** The latest-head Actions results were not independently retrieved at this checkpoint. GitHub's connected commit-run lookup only exposes pull-request-triggered runs, so an empty result would not establish that push workflows passed or failed. The workflow [quiz-browser.yml](../.github/workflows/quiz-browser.yml) does contain the 97-quiz audit and Playwright checks; review the actual Actions run for the current head before claiming CI green. The 97-quiz audit is structural and includes only limited course-specific content regression checks.
+
+**Next prioritized validation work:**
+1. **Evidence and citation verification:** For every cited work, verify the exact publication/edition, title-specific link, accessible passage, and whether it supports the attached claim. Label publisher-homepage links, inaccessible sources and unverified historical or cultural lineage as NEEDS REVIEW. Do not fabricate page numbers or upgrade abstract-only access to full-text.
+2. **Question effectiveness:** Audit the four items in each lesson for recall, error diagnosis, transfer and evidence reasoning. Flag distractors that can be eliminated solely because they claim universal effects, unsafe extremes, or guaranteed certification; revise only where a more realistic misconception can be safely tested. The current 388 internal PASS decisions do **not** mean every item discriminates well.
+3. **Movement and accessibility:** Keep expert-dependent biomechanics, movement demonstration and site-access claims as NEEDS REVIEW unless supported by verifiable evidence. Do not require recruiting instructors or learners for the internal editorial milestone.
+4. **Reader acceptance:** Confirm lesson, follow-along content, modifications, self-correction, four questions, feedback and assignment appear correctly in the deployed reader, and inspect the latest-head Playwright results.
+
+**Reporting:** Say “internal assessment-validity review complete” rather than “all 97 lessons fully validated.” Full signoff remains pending independent evidence, technique, reader acceptance and latest-head CI verification.
+
 ## Priority review
 1. BEL101 introductory and weekly material: cultural terminology, isolation mechanics, links, and progression.
 2. All beginner dance tracks: movement setup, joint guidance, and safe regressions.
