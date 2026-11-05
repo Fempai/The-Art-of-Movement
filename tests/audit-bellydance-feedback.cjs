@@ -38,6 +38,26 @@ if(!forwardRolls||forwardRolls.weeks.length||forwardRolls.usage==='Scheduled stu
   errors.push('catalog: acrobatic forward rolls must remain supplementary, not a BEL101 Friday lesson');
 }
 
+// Keep the evidence ledger synchronized with the source catalog without
+// claiming that the underlying videos have been viewed or authenticated.
+const videoLedger=fs.readFileSync(path.join(__dirname,'..','docs','BEL101-VIDEO-EVIDENCE-LEDGER.md'),'utf8');
+const ledgerRows=videoLedger.split('\n').filter(line=>/^\| \d+ \|/.test(line));
+if(ledgerRows.length!==scheduledVideos.length)errors.push('video ledger: expected '+scheduledVideos.length+' scheduled rows, found '+ledgerRows.length);
+for(const [index,video] of scheduledVideos.entries()){
+  const row=ledgerRows[index]||'';
+  const cells=row.split('|').map(cell=>cell.trim());
+  if(cells[1]!==String(index+1))errors.push('video ledger: wrong row number at '+(index+1));
+  if(cells[2]!==video.title.replace(/\|/g,'/'))errors.push('video ledger: source title mismatch at '+(index+1));
+  if(cells[3]!==video.weeks.join(', '))errors.push('video ledger: week mapping mismatch for '+video.title);
+  if(!cells[4]?.includes('('+video.url+')'))errors.push('video ledger: source URL mismatch for '+video.title);
+  for(const status of cells.slice(5,8)){
+    if(!['Not verified','Verified','Failed'].includes(status))errors.push('video ledger: invalid evidence status for '+video.title+': '+status);
+  }
+}
+if(!videoLedger.includes('**Progressive Forward Rolls**')||!videoLedger.includes('('+forwardRolls?.url+')')){
+  errors.push('video ledger: missing supplementary acrobatics source');
+}
+
 const ledger=fs.readFileSync(path.join(__dirname,'..','docs','BEL101-NINE-DIMENSION-REVIEW.md'),'utf8');
 for(const id of ids){
   const match=ledger.match(new RegExp('(?:^|\\n)#{2,3} '+id+' \\u2014[^\\n]*\\n([\\s\\S]*?)(?=\\n#{2,3} |$)'));
