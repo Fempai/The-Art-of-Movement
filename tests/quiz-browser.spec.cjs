@@ -718,6 +718,8 @@ test('BEL101 original scheduled videos map to every Friday week in the reader',a
  await expect(extra).toHaveCount(1);
  await expect(extra).toHaveAttribute('href',supplementary[0].url);
  await expect(extra.locator('xpath=..')).toContainText('Supplementary (acro, not belly-dance technique)');
+ await expect(extra).toHaveAttribute('target','_blank');
+ await expect(extra).toHaveAttribute('rel',/noopener noreferrer/);
  expect(supplementary[0].title).toBe('Progressive Forward Rolls');
 });
 )});
