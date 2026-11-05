@@ -51,7 +51,7 @@ const explanationContracts = [
 for (const test of explanationContracts) {
   const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',test.id+'.md'),'utf8');
   const prefix='**'+test.number+'. '+test.key+'.** ';
-  const line=md.split('\\n').find(line=>line.startsWith(prefix));
+  const line=md.split('\n').find(line=>line.startsWith(prefix));
   assert.ok(line,test.id+': keyed explanation missing');
   for (const phrase of test.phrases) assert.ok(line.includes(phrase),test.id+': explanation missing evidence boundary: '+phrase);
 }
