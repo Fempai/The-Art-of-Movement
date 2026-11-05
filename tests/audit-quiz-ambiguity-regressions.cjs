@@ -110,7 +110,7 @@ const contracts = [
   },
   {
     id: 'BEL101-W08',
-    guided: ['**Modification:** Sit in a stable nonrolling chair', '**5–6** trace a small comfortable loop', 'neither substitutes for demonstrated standing hip-slide', 'Week 1 uses two counts per direction and Week 8 uses one', 'timing and mechanics are **not** matched', 'The right–center–left–center order is shared, but Week 1 uses two counts per direction', 'not automatically out of eight', 'if none is observable, write **not assessable**'],
+    guided: ['**Modification:** Sit in a stable nonrolling chair', '**5–6** trace a small comfortable loop', 'neither substitutes for demonstrated standing hip-slide', 'Week 1 uses two counts per direction and Week 8 uses one', 'timing and mechanics are **not** matched', 'The right–center–left–center order is shared, but Week 1 uses two counts per direction', 'not automatically out of eight', 'if none is observable, write **not assessable**', 'exclude both unobservable and intentionally omitted actions from the denominator', 'on-count actions out of observable, attempted actions'],
     assignment: ['Week 8 eight-count phrase twice', 'two counts per direction', 'one count per direction', 'original Week 1 pressure-shift drill', 'no matched baseline']
   },
   {
