@@ -39,7 +39,7 @@ These are **internal text-based editorial judgments**, not a professional techni
 
 ### BEL101-01 — Posture, grounding, and hip isolation
 
-- **Q1 A — PASS:** “Guided eight-count study” assigns right-foot pressure on 1–2 with both feet grounded. B reverses direction; C adds a foot lift; D adds a pivot. Misconception: lateral pressure requires lifting or pivoting. Distractors are clear but relatively easy to eliminate.
+- **Q1 A — PASS:** “Guided eight-count study” assigns right-foot pressure on 1–2 with both feet grounded. B reverses direction; C returns to center prematurely within counts 1–2; D continues the rightward shift through the designated center-return counts 3–4. Misconception: rightward shift and return-to-center boundaries can be compressed or extended without changing the scored phrase. These revised distractors test count placement rather than obvious foot-lift/pivot hazards.
 - **Q2 C — PASS:** “Self-correction and progression” requires reduced range and comfortable knee tracking when twisting appears. A, B, and D leave the problematic alignment unchanged. Misconception: tempo, weight redistribution, or stance width alone fixes twisting.
 - **Q3 B — PASS:** “Guided eight-count study” specifies right 1–2, center 3–4, left 5–6, center 7–8. A drops returns; C repeats right; D ignores the prescribed pairs. Misconception: any alternating movement proves count accuracy.
 - **Q4 D — PASS:** The seated marking passage retains the same right–center–left–center count pairs. A omits center, B omits timing, C omits the planned sequence. Misconception: a seated alternative must reproduce standing hip mechanics.
@@ -3633,3 +3633,12 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **NEEDS REVIEW:** External source accuracy, independent movement/site/accessibility expertise, deployed reader behavior and question discrimination. Obvious overclaim distractors may be too easy.
 
 **Explicit assessment-ledger subtotal:** **97/97** lesson files with all four question decisions and both alignment judgments, **388/388** individual question decisions and **194/194** alignment judgments. **0 detailed textual-review lessons/questions/alignments remain.** This closes the *internal documentation pass only*: it does NOT establish empirical quiz validity, accurate external citations, safe movement execution, compliant access or live browser acceptance. The nine-dimension textual review also covers 97/97 with external checks still NEEDS REVIEW. Latest-head CI not independently checked in this entry.
+
+
+## Diagnostic distractor improvement — BEL101-01 Q1 — 2026-11-04
+
+- **Source correction:** [`curriculum/final-lessons/BEL101-01.md`](../curriculum/final-lessons/BEL101-01.md), Q1 options C/D and keyed explanation. Correct option remains **A**; no key distribution manipulation.
+- **Before:** C required lifting a planted foot and D required outward pivots, both conspicuous violations of the lesson's safety setup. They could be rejected without understanding the count sequence.
+- **After:** C returns to center before count 2; D delays the center return through counts 3–4. Both are nonhazardous novice timing mistakes. The unique correct choice A preserves rightward pressure on 1–2, then center on 3–4. B still reverses direction.
+- **Cognitive demand:** Count-sequence recall with timing-error diagnosis, not physical technique proficiency. **Internal PASS** on key uniqueness and lesson alignment; **NEEDS REVIEW** for empirical distractor selection and learner discrimination.
+- **Regression:** The source changed after the prior CI confirmations; latest-head quiz audit and Playwright results must be checked before claiming automated release acceptance.
