@@ -3159,3 +3159,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Limitations — NEEDS REVIEW:** Historical source passage and edition metadata, practitioner/community provenance, physical execution and live reader. Some distractors are conspicuous overclaims; empirical discrimination not established.
 
 **Explicit assessment-ledger subtotal:** **49/97** lessons with four Q decisions and both alignment judgments, **196/388** individually documented questions, **49/97** lessons with both alignment judgments. **48 lessons / 192 questions / 96 alignment judgments remain**. The separate nine-dimension text review remains 97/97; full instructional validation is not complete.
+
+
+## Recorded assessment-validity decisions — CMP101-01–04 — 2026-11-04
+
+**Method:** Read all four complete composition lessons; checked Q1–Q4 keyed answers and all distractors against concept, guided count scores, self-check, explanations, assignment and rubric. Internal textual validity only, not observed learner achievement.
+
+### CMP101-01 — Motif
+- **Q1 A — PASS (internal):** Concept: motif is recognizable recurring/developing movement idea. Distractors: B nonrecurring; C fixed 32-count demand; D isolated endpoint. No alternative is equally supported under the lesson's stated conditions.
+- **Q2 B — PASS (internal):** Concept: variation retains identifying feature while changing timing. Distractors: A exact repeat; C no shared feature; D costume only. No alternative is equally supported under the lesson's stated conditions.
+- **Q3 B — PASS (internal):** Self-check: repeatable score shows retained motif features. Distractors: A assertion only; C isolated pose; D costume. No alternative is equally supported under the lesson's stated conditions.
+- **Q4 A — PASS (internal):** Observation versus intention: performer familiarity cannot prove audience legibility. Distractors: B familiarity proof; C universal emotion; D guaranteed meaning. No alternative is equally supported under the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Guided M and M′ share gather/diagonal reach while varying arm/direction/hold; assignment requires both complete eight-count scores and retained/changed features.
+- **Assignment-to-outcome — PASS:** Motif definition, reproducible notation, intentional variation and critical limitations assessed by score and rubric.
+- **Remaining NEEDS REVIEW:** Publisher metadata and passage support, observed movement technique, reader/browser acceptance, and empirical question discrimination. Some distractors are obvious overclaims.
+
+### CMP101-02 — Phrase
+- **Q1 B — PASS (internal):** Concept: phrase is coherent grouping of movement events. Distractors: A mandatory eight counts; C mandatory barline; D direction change mandatory. No alternative is equally supported under the lesson's stated conditions.
+- **Q2 A — PASS (internal):** Concept: facing describes torso direction. Distractors: B travel; C beat; D gaze alone. No alternative is equally supported under the lesson's stated conditions.
+- **Q3 A — PASS (internal):** Concept and self-check: start/end orientation improves reproducibility. Distractors: B same endpoint unnecessary; C doesn't infer support; D doesn't imply symmetry. No alternative is equally supported under the lesson's stated conditions.
+- **Q4 A — PASS (internal):** Observation versus intention: pause after eight directly observable. Distractors: B universal sadness; C universal cultural rule; D mastery proof. No alternative is equally supported under the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Guided A north/northeast reach and B left-step/northwest-facing contrast become two scored eight-count phrases with support and boundary; seated gaze distinguished from torso facing.
+- **Assignment-to-outcome — PASS:** Phrase boundaries, orientation, support, pathway and observation/interpretation measured in two scores and reflection.
+- **Remaining NEEDS REVIEW:** Publisher metadata and passage support, observed movement technique, reader/browser acceptance, and empirical question discrimination. Some distractors are obvious overclaims.
+
+### CMP101-03 — Transitions
+- **Q1 B — PASS (internal):** Concept: exit state is ending support/orientation. Distractors: A next pathway; C emotion; D next entry without exit. No alternative is equally supported under the lesson's stated conditions.
+- **Q2 A — PASS (internal):** Concept: conflicting exit/entry support can cause awkward transition. Distractors: B/C compatible states; D helpful preparation. No alternative is equally supported under the lesson's stated conditions.
+- **Q3 C — PASS (internal):** Guided: weight right frees left foot for B count 1. Distractors: A left weighted; B arm-only; D torso-only. No alternative is equally supported under the lesson's stated conditions.
+- **Q4 D — PASS (internal):** Concept: transitions contribute rhythm, structure and expression. Distractors: A only jumps; B mandatory extra beat; C unchanged states. No alternative is equally supported under the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Guided two A-to-B repairs—right-weighted exit or left-weighted exit with right-foot B entry—explicitly documented in assignment, with no invented beat.
+- **Assignment-to-outcome — PASS:** Support compatibility, reproducible boundary, one-variable repair and critical reasoning assessed by annotated score.
+- **Remaining NEEDS REVIEW:** Publisher metadata and passage support, observed movement technique, reader/browser acceptance, and empirical question discrimination. Some distractors are obvious overclaims.
+
+### CMP101-04 — Repetition and contrast
+- **Q1 B — PASS (internal):** Concept: A′ returns recognizable A with variation. Distractors: A identical; C unrelated B; D all identifying features lost. No alternative is equally supported under the lesson's stated conditions.
+- **Q2 B — PASS (internal):** Concept: contrast changes pathway/duration. Distractors: A/D unchanged repeat; C label-only. No alternative is equally supported under the lesson's stated conditions.
+- **Q3 A — PASS (internal):** Concept: count score is original plain-language aid, not Labanotation. Distractors: B/C formal-system claims; D joint measurement claim. No alternative is equally supported under the lesson's stated conditions.
+- **Q4 C — PASS (internal):** Self-check: count, support, facing, pathway necessary for repeatability. Distractors: A no support; B no transitions; D no direction. No alternative is equally supported under the lesson's stated conditions.
+- **Guided-to-assignment — PASS:** Guided A 1–8, B 9–16, A′ 17–24, C 25–32 and three support/facing boundaries reproduced in assignment.
+- **Assignment-to-outcome — PASS:** A–B–A′–C structure, varied motif, transitions, reproducible notation and limitations assessed in 32-count deliverable.
+- **Remaining NEEDS REVIEW:** Publisher metadata and passage support, observed movement technique, reader/browser acceptance, and empirical question discrimination. Some distractors are obvious overclaims.
+
+**Explicit assessment-ledger subtotal:** **53/97** lessons with all four Q decisions and both alignment judgments, **212/388** individually documented questions, **53/97** with both alignment judgments. **44 lessons, 176 questions, 88 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is not complete.
