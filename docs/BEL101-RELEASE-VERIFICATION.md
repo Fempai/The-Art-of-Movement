@@ -30,3 +30,8 @@ For each scheduled video, record access permission, actual playback and seeking,
 ## Source-by-source video acceptance tracking
 
 The 12 scheduled BEL101 Friday video sources, mapped weeks, original Drive URLs, and separate playback/lesson-match/technique-verification statuses are recorded in [`BEL101-VIDEO-EVIDENCE-LEDGER.md`](BEL101-VIDEO-EVIDENCE-LEDGER.md). All per-video observations remain **Not verified** pending actual playback and source comparison. The supplementary forward-roll clip is explicitly excluded from Friday lesson scheduling. Do not interpret the ledger as verification evidence until individual observations are documented.
+
+## Final assessment browser integration gate
+
+- Added a real-content Playwright case in `tests/quiz-browser.spec.cjs` for BEL101 Week 16. It opens the final lesson from the reader, selects the actual four answer-key letters, submits, and checks the 4/4 score plus all four lesson-specific explanations. Unlike fixture-only quiz tests, this exercises the reader's integration with the actual final lesson Markdown.
+- The quiz-browser workflow is already configured to run when `tests/quiz-browser.spec.cjs` changes. **The new case is not yet confirmed passing on GitHub Actions**. It is a local-server browser test, not an independently observed deployed/mobile-reader or video-playback test.
