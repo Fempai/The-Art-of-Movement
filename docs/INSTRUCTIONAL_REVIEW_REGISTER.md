@@ -3439,3 +3439,82 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
 
 **Explicit assessment-ledger subtotal:** **77/97** lesson files with all four Q decisions and both alignment judgments, **308/388** individual question decisions, **77/97** lessons with both alignment judgments. **20 lessons, 80 questions and 40 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is NOT established.
+
+
+## Recorded assessment-validity decisions — RES501-01–04 and CMP502-01–04 — 2026-11-04
+
+**Method:** Reviewed eight learner-facing lessons, 32 quiz questions with keyed explanations, guided protocols, assignments and rubrics. Internal conceptual and construct alignment only, not external scholarly verification, observed learner achievement or browser acceptance.
+
+### RES501-01
+- **Q1 B — PASS (internal):** Five-trial onset count is observable, not universal emotion. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 A — PASS (internal):** Unit is event/person/performance, not topic or desired conclusion. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** One dancer's trials not representative or causal. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Post-data question changes must be dated, not concealed. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Three-question matrix and five-trial onset pilot follow guided definitions and missing observation rules.
+- **Assignment-to-outcome — PASS:** Operationalized research question, traceable observations and limits assessed.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### RES501-02
+- **Q1 B — PASS (internal):** Source must directly support specific claim. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Interview documents interviewee report not universality. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** Abstract-only access labeled accurately. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Generic homepage not specific verified article/passage. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Two-source matrix, access level and observed/inferred labeling directly repeated in assignment.
+- **Assignment-to-outcome — PASS:** Source relevance, traceability, access limitation and methodological reflection assessed.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### RES501-03
+- **Q1 B — PASS (internal):** Operational definition specifies recording rule. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Off-frame onset not observable, not inferred. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Recode inspects consistency, not proof of reliability. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Six trials cannot establish all dancers' patterns. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Six-trial count/visibility/correction log and two blinded-to-prior-entry recodes reflected in assignment.
+- **Assignment-to-outcome — PASS:** Defined events, transparent missingness and coding disagreement measure objective.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### RES501-04
+- **Q1 B — PASS (internal):** Reflexivity examines researcher's position. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Solo log assesses onset counts not audience emotion. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Recruitment introduces consent/privacy, not automatic causal experiment. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** One performer's descriptive results not causality. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Five slow and five moderate-tempo proposal with blank table, operational definition and ethics matches assignment.
+- **Assignment-to-outcome — PASS:** 600–800-word prospective descriptive proposal and reflexive limitations measure research planning.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### CMP502-01
+- **Q1 B — PASS (internal):** Retrograde reverses event order not tempo/mirroring. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Support/momentum may prevent literal reversal. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Original/reversed count sheets expose mapping. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Unsafe transition redesigned and documented. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Original eight-count and supported reverse-event order with annotated support match assignment.
+- **Assignment-to-outcome — PASS:** Transparent transformation, safe revision and reflection measure compositional goal.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### CMP502-02
+- **Q1 B — PASS (internal):** Canon is delayed-entry layering, not unison or solo sequence. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** B begins global count 3. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 A — PASS (internal):** Two-row timeline or labeled recording is honest solo simulation. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Consecutive nonoverlap lacks overlapping activity. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** A 1–4/5–8 and B 3–6/7–10 overlap and bodily echo appear in assignment.
+- **Assignment-to-outcome — PASS:** Entry offset, overlap, traceable simulation and correction assessed.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### CMP502-03
+- **Q1 A — PASS (internal):** Accumulation A, A+B, A+B+C, A+B+C+D. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 C — PASS (internal):** Three two-count actions equal six counts. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 B — PASS (internal):** Added material distinguishes accumulation from repetition. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Restore omitted B against written rule. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Four progressive 2/4/6/8-count stages and altered C direction match assignment.
+- **Assignment-to-outcome — PASS:** Durations, memory correction and one-variable revision assessed.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+### CMP502-04
+- **Q1 B — PASS (internal):** Fragmentation extracts and rearranges motif parts. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q2 B — PASS (internal):** Chance requires options, draw rule, safety constraints. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q3 C — PASS (internal):** 160 beats at 80 BPM equals 120 seconds. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Q4 D — PASS (internal):** Hazardous draw modified/redrawn with logged intervention. Distractors contradict the stated definition, count rule, evidence boundary or safety/ethics protocol; no equally supported alternative identified.
+- **Guided-to-assignment — PASS:** Five 32-count sections and chance module, replacement draws and safety edits match assignment.
+- **Assignment-to-outcome — PASS:** 2–4-minute scored original work, three named devices, timing math and honest layering assessed.
+- **NEEDS REVIEW:** Specific scholarly editions/passages, cultural and physical expert review, deployed reader and psychometric discrimination; some distractors use obvious absolutes.
+
+**Explicit assessment-ledger subtotal:** **85/97** lessons with four question decisions and both alignment judgments; **340/388** question decisions; **85/97** lessons with both alignment judgments. **12 lessons, 48 questions and 24 alignment judgments remain**. Nine-dimension textual review remains 97/97; complete instructional validation is NOT established.
