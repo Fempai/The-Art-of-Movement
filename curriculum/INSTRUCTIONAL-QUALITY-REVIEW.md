@@ -806,3 +806,9 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W13:** Clarified that the lesson's slow ordered torso pathway is a preparatory sequence and does **not** teach rapid repeated abdominal fluttering. Added cautious descriptive contrasts for roll, undulation, and flutter, without claiming universal cultural definitions or conflating hand tracing with muscular isolation. The existing four-question check still assesses the preparatory sequence, not advanced technique; key **C,B,A,D** unchanged.
 
 **Decision:** Reduced a mismatch between the broad lesson title and what the actual guided practice can support. This is an editorial conceptual distinction, not authenticated lineage-specific technique review.
+
+
+## BEL101 Week 10 transition-evidence quiz refinement (November 2026)
+
+- **W10 Q4:** Replaced a generic definition-of-success question with two observable same-tempo attempts at the count-4-to-5 boundary. The keyed response **D** now supports only repeatability of the original transition under observed conditions. Distractors test unsupported generalization to all tempos, conflation of seated hand tracing with standing mechanics, and unverified source-video authentication.
+- The answer key remains **C,B,A,D**; the count sequence, physical exercises, and independent assignment are unchanged. This is a targeted internal assessment-validity improvement, not independent proof of learner skill or source authenticity.
