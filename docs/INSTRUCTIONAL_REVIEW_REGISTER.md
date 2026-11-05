@@ -3030,3 +3030,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Limitations:** Musical-cultural context, book metadata/passage support, live reader and learner discrimination remain NEEDS REVIEW; obviously wrong distractors may reduce diagnostic challenge.
 
 **Explicit assessment-ledger subtotal:** **37/97 lesson files**, **148/388 individually documented question judgments**, **37/97 with both alignment judgments**. **60 lessons / 240 questions / 120 alignment judgments remain** for this stricter gate. Nine-dimension text review coverage remains 97/97; full validation is not complete.
+
+
+## Recorded assessment-validity decisions — STG101-01–04 — 2026-11-04
+
+**Method:** Read four full learner-facing strength lessons and compared every answer and distractor to the Learn, Guided conditioning lab, Observe and assignment sections. Judgments are textual only, not a physical exercise safety clearance.
+
+### STG101-01 — Pulling strength
+- **Q1 B — PASS (internal):** Learn: row pulls hands/elbows toward torso against resistance. Distractors: A calf raise; C squat; D march. No second defensible correct answer found under the lesson's stated setup.
+- **Q2 B — PASS (internal):** Learn: improvised anchors may lack verified stability/load rating. Distractors: A/C assume closed door guarantees safety; D assumes slow tempo makes anchor safe. No second defensible correct answer found under the lesson's stated setup.
+- **Q3 C — PASS (internal):** Observe and troubleshoot: reduce resistance when torso swings. Distractors: A speed up; B normalize swing; D increase range. No second defensible correct answer found under the lesson's stated setup.
+- **Q4 D — PASS (internal):** Observe and troubleshoot: reps, resistance, effort and quality logged. Distractors: A lacks load/quality; B lacks reps; C lacks control. No second defensible correct answer found under the lesson's stated setup.
+- **Guided-to-assignment — PASS:** Guided 1–2 sets of 6–10 cable rows or eight unresisted elbow draws appear verbatim in assignment; coordination is not mislabeled strength.
+- **Assignment-to-outcome — PASS:** Pulling concept, safety, control, comparable baseline and appropriate adaptation measured by observations and rubric.
+- **Limitations — NEEDS REVIEW:** Individual loading/technique and medical safety, passage-level references, deployed reader and empirical item difficulty. Obvious unsafe distractors may make questions less diagnostic.
+
+### STG101-02 — Pushing strength
+- **Q1 B — PASS (internal):** Learn: wall elevation usually reduces relative arm load. Distractors: A increases load; C range not load determinant; D rep count not per-rep load. No second defensible correct answer found under the lesson's stated setup.
+- **Q2 C — PASS (internal):** Observe and troubleshoot: trunk/pelvis alignment visible. Distractors: A reps only; B height only; D effort only. No second defensible correct answer found under the lesson's stated setup.
+- **Q3 D — PASS (internal):** Troubleshooting: stop painful wrist version or change to comfortable alternative. Distractors: A/B retain painful angle; C does not verify pain resolution. No second defensible correct answer found under the lesson's stated setup.
+- **Q4 A — PASS (internal):** Guided lab: progress wall to stable lower support when controlled. Distractors: B rolling chair unsafe; C premature progression; D loss of control. No second defensible correct answer found under the lesson's stated setup.
+- **Guided-to-assignment — PASS:** Guided wall/incline 6–10 repetitions and eight unresisted seated presses reflected in assignment, including surface distance, sets and coordination-only label.
+- **Assignment-to-outcome — PASS:** Support geometry, observable trunk cue, safe adjustment and repeatable load/effort observations assess stated goals.
+- **Limitations — NEEDS REVIEW:** Individual loading/technique and medical safety, passage-level references, deployed reader and empirical item difficulty. Obvious unsafe distractors may make questions less diagnostic.
+
+### STG101-03 — Trunk control
+- **Q1 C — PASS (internal):** Learn and lab: small controlled shifts with normal breathing. Distractors: A breath deterioration; B uncontrolled maximum; D rigidity. No second defensible correct answer found under the lesson's stated setup.
+- **Q2 B — PASS (internal):** Observe: count rail touches on positions within eight-count cycle. Distractors: A confidence only; C effort only; D intended stability. No second defensible correct answer found under the lesson's stated setup.
+- **Q3 A — PASS (internal):** Guided lab: fixed support reduces consequences of balance loss. Distractors: B eliminates scaling; C forbids shifts; D unsupported larger range. No second defensible correct answer found under the lesson's stated setup.
+- **Q4 D — PASS (internal):** Learn: static balance not proof of turn readiness. Distractors: A task-specific; B comfortable breathing; C reduce range are bounded. No second defensible correct answer found under the lesson's stated setup.
+- **Guided-to-assignment — PASS:** Guided right 1–2/center 3–4/left 5–6/center 7–8 and support-touch count explicitly repeated twice in assignment.
+- **Assignment-to-outcome — PASS:** Controlled movement, breath, count-specific evidence, safe adaptation and interpretation assessed in two-cycle log.
+- **Limitations — NEEDS REVIEW:** Individual loading/technique and medical safety, passage-level references, deployed reader and empirical item difficulty. Obvious unsafe distractors may make questions less diagnostic.
+
+### STG101-04 — Hip control and intervals
+- **Q1 B — PASS (internal):** Learn: baseline logs repeatable starting conditions. Distractors: A one-session permanence; C identical outcomes; D reps without quality. No second defensible correct answer found under the lesson's stated setup.
+- **Q2 C — PASS (internal):** Learn and guided: 40 seconds work, 20 seconds rest. Distractors: A mismatched units; B reverses reps/time; D reverse work/rest. No second defensible correct answer found under the lesson's stated setup.
+- **Q3 A — PASS (internal):** Guided: modify 40/20 to 20/40 or seated. Distractors: B removes rest; C increases speed; D adds load. No second defensible correct answer found under the lesson's stated setup.
+- **Q4 D — PASS (internal):** Observe: progress one variable at a time. Distractors: A/B/C confound multiple variables. No second defensible correct answer found under the lesson's stated setup.
+- **Guided-to-assignment — PASS:** Guided supported hip lifts 4–6/side, three 40/20 intervals or 20/40 seated modification, plus previous row/push/trunk records are explicitly assigned.
+- **Assignment-to-outcome — PASS:** Baseline, support, effort, talk-test, safety limits and one-variable progression align with objectives and rubric.
+- **Limitations — NEEDS REVIEW:** Individual loading/technique and medical safety, passage-level references, deployed reader and empirical item difficulty. Obvious unsafe distractors may make questions less diagnostic.
+
+**Explicit assessment-ledger subtotal:** **41/97** lessons with all four Q decisions and both alignments, **164/388** individually documented questions, **41/97** with both alignment judgments; **56 lessons, 224 questions and 112 alignment judgments remain**. Nine-dimension text review coverage remains 97/97; external validation remains outstanding.
