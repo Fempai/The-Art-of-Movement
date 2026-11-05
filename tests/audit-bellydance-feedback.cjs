@@ -55,6 +55,31 @@ for(const week of [1,2,3]){
   }
 }
 
+// Guard the evidence-based observation activities across the entire 16-week
+// track. A scheduled video link is not evidence of playback or technique match.
+for(const week of scheduledWeeks){
+  const id=week<=3?'BEL101-'+String(week).padStart(2,'0'):'BEL101-W'+String(week).padStart(2,'0');
+  const lesson=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const activityHeading=week<=3?'**Optional source-comparison task':'**Optional source-observation study';
+  if(lesson.split(activityHeading).length!==2){
+    errors.push(id+': expected exactly one optional source-observation activity');
+  }
+  const activity=lesson.split(activityHeading)[1]?.split(/\n\n## /)[0]||'';
+  if(!/source not observed|not observed/i.test(activity)){
+    errors.push(id+': missing explicit fallback when source cannot be observed');
+  }
+  if(!/if accessible|only if the video is accessible/i.test(activityHeading+activity)){
+    errors.push(id+': observation task must be optional when video access is unavailable');
+  }
+  const sources=scheduledVideos.filter(video=>video.weeks.includes(week));
+  for(const source of sources){
+    if(!lesson.includes(source.url))errors.push(id+': missing scheduled video URL '+source.title);
+  }
+  if(week>=4 && !/playback[^\n]{0,160}(?:not|unverified)|(?:not|unverified)[^\n]{0,160}playback/i.test(lesson)){
+    errors.push(id+': missing playback-verification caveat');
+  }
+}
+
 // Keep the evidence ledger synchronized with the source catalog without
 // claiming that the underlying videos have been viewed or authenticated.
 const videoLedger=fs.readFileSync(path.join(__dirname,'..','docs','BEL101-VIDEO-EVIDENCE-LEDGER.md'),'utf8');
