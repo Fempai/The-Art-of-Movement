@@ -703,35 +703,23 @@ test('BEL101 original scheduled videos map to every Friday week in the reader',a
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
  await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
- await expect(page.getByRole('heading',{name:'Original Google Drive videos by Friday week'})).toBeVisible();
+ const videoSection=page.locator('section.card').filter({has:page.getByRole('heading',{name:'Original Google Drive videos by Friday week'})});
+ await expect(videoSection).toBeVisible();
  for(let week=1;week<=16;week++){
   const expected=scheduled.filter(video=>video.weeks.includes(week));
   expect(expected.length,'missing source mapping for Week '+week).toBeGreaterThan(0);
-  const videoSection=page.locator('section.card').filter({has:page.getByRole('heading',{name:'Original Google Drive videos by Friday week'})});
-  const label=videoSection.locator('strong').filter({hasText:new RegExp('^Week '+week+':
-  await expect(group,'missing reader source group for Week '+week).toHaveCount(1);
-  const links=group.locator('a');
-  await expect(links).toHaveCount(expected.length);
-  for(const video of expected)await expect(group.locator('a[href="'+video.url+'"]')).toHaveCount(1);
- }
- const extra=page.getByRole('link',{name:'Progressive Forward Rolls'});
- await expect(extra).toHaveCount(1);
- await expect(extra).toHaveAttribute('href',supplementary[0].url);
- await expect(extra.locator('xpath=..')).toContainText('Supplementary (acro, not belly-dance technique)');
- await expect(extra).toHaveAttribute('target','_blank');
- await expect(extra).toHaveAttribute('rel',/noopener noreferrer/);
- expect(supplementary[0].title).toBe('Progressive Forward Rolls');
-});
-)});
+  const label=videoSection.locator('strong').filter({hasText:new RegExp('^Week '+week+':$')});
   const group=label.locator('xpath=..');
   await expect(group,'missing reader source group for Week '+week).toHaveCount(1);
   const links=group.locator('a');
   await expect(links).toHaveCount(expected.length);
   for(const video of expected)await expect(group.locator('a[href="'+video.url+'"]')).toHaveCount(1);
  }
- const extra=page.getByRole('link',{name:'Progressive Forward Rolls'});
+ const extra=videoSection.getByRole('link',{name:'Progressive Forward Rolls'});
  await expect(extra).toHaveCount(1);
  await expect(extra).toHaveAttribute('href',supplementary[0].url);
  await expect(extra.locator('xpath=..')).toContainText('Supplementary (acro, not belly-dance technique)');
+ await expect(extra).toHaveAttribute('target','_blank');
+ await expect(extra).toHaveAttribute('rel',/noopener noreferrer/);
  expect(supplementary[0].title).toBe('Progressive Forward Rolls');
 });
