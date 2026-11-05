@@ -602,7 +602,7 @@ test('real BEL101 Week 16 final assessment grades and explains all four answers'
  const fs=require('node:fs');
  const path=require('node:path');
  const lesson=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons','BEL101-W16.md'),'utf8');
- const keys=[...lesson.matchAll(/\\*\\*([1-4])\\. ([ABCD])\\.\\*\\*/g)].map(match=>match[2]);
+ const keys=[...lesson.matchAll(/\*\*([1-4])\. ([ABCD])\.\*\*/g)].map(match=>match[2]);
  expect(keys).toHaveLength(4);
  await page.goto(pageUrl);
  await expect(page.locator('#course option')).toHaveCount(21);
