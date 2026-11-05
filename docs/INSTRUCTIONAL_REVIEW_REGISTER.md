@@ -49,7 +49,7 @@ These are **internal text-based editorial judgments**, not a professional techni
 
 ### BEL101-02 — Hip slides and gentle circles
 
-- **Q1 C — PASS:** “Guided eight-count study” contrasts lateral right/center/left/center slides with a forward/right/back/left oval. A and B swap or flatten the paths; D treats different pathways as identical. Misconception: circle and slide differ only by tempo.
+- **Q1 C — PASS:** “Guided eight-count study” contrasts lateral right/center/left/center slides with a forward/right/back/left oval. A adds repeated center returns instead of an oval; B flattens the oval to a lateral pathway with only two turning points; D notices front/back components but fails to connect them into the continuous oval. Misconception: listing the oval's directional components or lateral extrema is equivalent to tracing its continuous pathway. The revised distractors target realistic path-planning errors.
 - **Q2 A — PASS:** The guided oval can be marked slowly and in small segments, naming directions. B substitutes a slide; C omits front/back; D repeats the unresolved pathway. Misconception: a lateral-only shape counts as the oval.
 - **Q3 D — PASS:** “Self-correction and progression” instructs reducing range and avoiding uncomfortable lumbar motion; the guided practice permits small/omitted segments. A, B, C retain or enlarge the uncomfortable segment. Misconception: discomfort must be overcome to complete the oval.
 - **Q4 B — PASS:** The “Technique distinction” and evidence boundary support only practicing an original changing-direction pathway. A presumes unverified video matching; C generalizes tempo; D generalizes to all circle variants. Misconception: one controlled exercise establishes universal mastery.
@@ -3642,3 +3642,11 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **After:** C returns to center before count 2; D delays the center return through counts 3–4. Both are nonhazardous novice timing mistakes. The unique correct choice A preserves rightward pressure on 1–2, then center on 3–4. B still reverses direction.
 - **Cognitive demand:** Count-sequence recall with timing-error diagnosis, not physical technique proficiency. **Internal PASS** on key uniqueness and lesson alignment; **NEEDS REVIEW** for empirical distractor selection and learner discrimination.
 - **Regression:** The source changed after the prior CI confirmations; latest-head quiz audit and Playwright results must be checked before claiming automated release acceptance.
+
+## Diagnostic distractor improvement — BEL101-02 Q1 — 2026-11-04
+
+- **Correction:** [`curriculum/final-lessons/BEL101-02.md`](../curriculum/final-lessons/BEL101-02.md), Q1 choices A, B, D and explanation; correct option **C** unchanged.
+- **Before:** Options were easily eliminated by reversing slide and circle or claiming the pathways identical.
+- **After:** A incorrectly adds side-to-center returns, B reduces the oval to two lateral turning points, and D lists the correct directional components but fails to connect them as one continuous path. Each wrong option reflects a plausible novice misunderstanding rather than an extreme movement.
+- **Cognitive demand:** Visual-spatial discrimination and pathway diagnosis within the written drill. **PASS (internal)** for unique key and alignment; **NEEDS REVIEW** for actual novice item discrimination and movement observation.
+- **Automated verification:** Latest push-triggered Actions run could not be confirmed with the available commit-status interface. Empty combined-status or PR-only workflow responses must not be treated as a passing or failing run. Audit and Playwright recheck remain outstanding.
