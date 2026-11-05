@@ -53,6 +53,11 @@ for(const [index,video] of scheduledVideos.entries()){
   for(const status of cells.slice(5,8)){
     if(!['Not verified','Verified','Failed'].includes(status))errors.push('video ledger: invalid evidence status for '+video.title+': '+status);
   }
+  const evidence=cells[8];
+  if(!evidence)errors.push('video ledger: missing observation evidence cell for '+video.title);
+  if(cells.slice(5,8).some(status=>status==='Verified'||status==='Failed') && (!evidence||evidence==='—'||evidence==='-')){
+    errors.push('video ledger: verification outcome lacks dated observation evidence for '+video.title);
+  }
 }
 if(!videoLedger.includes('**Progressive Forward Rolls**')||!videoLedger.includes('('+forwardRolls?.url+')')){
   errors.push('video ledger: missing supplementary acrobatics source');
