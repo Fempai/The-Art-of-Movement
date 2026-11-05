@@ -690,3 +690,31 @@ test('BEL101 final quiz incomplete submission identifies missing answers and sup
  const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('aom-quiz-BEL101-W16')));
  expect(saved).toMatchObject({lesson:'BEL101-W16',total:4});
 });
+
+
+test('BEL101 original scheduled videos map to every Friday week in the reader',async({page})=>{
+ const fs=require('node:fs');
+ const path=require('node:path');
+ const catalog=JSON.parse(fs.readFileSync(path.join(__dirname,'..','curriculum','BEL101-VIDEO-SOURCES.json'),'utf8'));
+ const scheduled=catalog.videos.filter(video=>video.weeks.length);
+ const supplementary=catalog.videos.filter(video=>!video.weeks.length);
+ expect(scheduled).toHaveLength(12);
+ expect(supplementary).toHaveLength(1);
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
+ await expect(page.getByRole('heading',{name:'Original Google Drive videos by Friday week'})).toBeVisible();
+ for(let week=1;week<=16;week++){
+  const expected=scheduled.filter(video=>video.weeks.includes(week));
+  expect(expected.length,'missing source mapping for Week '+week).toBeGreaterThan(0);
+  const label=page.locator('strong').filter({hasText:new RegExp('^Week '+week+':$')});
+  const group=label.locator('xpath=..');
+  await expect(group,'missing reader source group for Week '+week).toHaveCount(1);
+  const links=group.locator('a');
+  await expect(links).toHaveCount(expected.length);
+  for(const video of expected)await expect(group.locator('a[href="'+video.url+'"]')).toHaveCount(1);
+ }
+ const extra=page.getByRole('link',{name:'Progressive Forward Rolls'});
+ await expect(extra).toHaveCount(1);
+ expect(supplementary[0].title).toBe('Progressive Forward Rolls');
+});
