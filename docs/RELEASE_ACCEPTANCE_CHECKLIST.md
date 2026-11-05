@@ -67,3 +67,10 @@ See [`BEL101-RELEASE-VERIFICATION.md`](BEL101-RELEASE-VERIFICATION.md) for the e
 - [ ] Complete deployed lesson navigation, quiz and saved-progress checks independently of this playback observation.
 
 The earlier assistant-side access failure does not negate the owner's successful playback. See [`BEL101-RELEASE-VERIFICATION.md`](BEL101-RELEASE-VERIFICATION.md).
+
+
+## Confirmed targeted-regression CI recovery — user screenshot, 2026-11-04
+
+At commit [`ed960385bfb70302885b1293debeba47683fbb2d`](https://github.com/Fempai/The-Art-of-Movement/commit/ed960385bfb70302885b1293debeba47683fbb2d), the owner supplied an Actions overview screenshot showing **success** for `Academy lesson and quiz verification` run **#1177** (52s), `Quiz browser regression` run **#897** (3m 54s), `Academy static regression checks` run **#1793** (17s), and `Published Academy smoke check` run **#442** (6s). The preceding failing runs on earlier commits are superseded for these four workflows. This is direct screenshot evidence of successful workflow conclusions, including the targeted-regression CI step and browser workflow completing, **for this SHA only**.
+
+The screenshot also displays an older `pages build and deployment` row with a neutral information icon, not a verified success conclusion for `ed96038`. Do not infer current Pages deployment, instructional-coverage, mobile-browser or other unshown workflows from this screenshot. Subsequent documentation commit `03209c795aae1fdd5bc6bd5b4fb0beb4df379369` and this evidence update require their own latest-head CI verification before closing the release gate. External video playback, movement technique and cultural-source review remain separate open acceptance items.
