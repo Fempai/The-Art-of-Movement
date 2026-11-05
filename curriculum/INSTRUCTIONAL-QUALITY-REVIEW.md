@@ -831,3 +831,10 @@ The repeat variation reverses **left/right orientation** but not the time order 
 
 - **W15 Q3:** The original question described rehearsal before 'combining' components, potentially implying simultaneous layering even though the lesson specifies arm opening on 3–4 followed by optional torso/hand-traced movement on 5–6. Revised the stem, distractor A, keyed choice D and explanation to require sequential 4→5 linking without an extra beat. Key **C,A,D,B** unchanged; exercises and assignment unchanged.
 - Added five targeted quiz-ambiguity regression cases for W10 Q4, W13 Q4, W14 Q4, W15 Q3, and W16 Q2, checking key letters and specific evidence-boundary wording. These string-based checks do not establish full semantic validity or learner outcomes. The current runner has **19** targeted cases, up from 14; CI execution on the latest head remains unverified.
+
+
+## CI coverage correction — targeted ambiguity regression runner (November 2026)
+
+- The main `.github/workflows/academy-verification.yml` previously ran the 97-lesson audit and Playwright browser regressions without explicitly executing `tests/audit-quiz-ambiguity-regressions.cjs`.
+- Added a dedicated Node 22 workflow step immediately after the 97-lesson audit and before browser dependencies. It now executes the 19 curated ambiguity cases, five keyed-explanation guards, 15 reordered-Q1 feedback checks, and 12 guided-practice/assignment contracts when GitHub Actions runs the workflow.
+- Five recently edited BEL101 questions and five answer explanations were also checked against the current retrieved Markdown content, with all ten focused checks matching their expected wording and answer keys. This is **not** evidence that the complete Node runner or GitHub Actions workflow passed; latest-head CI completion must be verified separately.
