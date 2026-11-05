@@ -58,6 +58,9 @@ for(const [index,video] of scheduledVideos.entries()){
   if(cells.slice(5,8).some(status=>status==='Verified'||status==='Failed') && (!evidence||evidence==='—'||evidence==='-')){
     errors.push('video ledger: verification outcome lacks dated observation evidence for '+video.title);
   }
+  if(cells.slice(5,8).some(status=>status==='Verified'||status==='Failed') && evidence && !/\b20\d{2}-\d{2}-\d{2}\b/.test(evidence)){
+    errors.push('video ledger: outcome evidence must include an ISO date for '+video.title);
+  }
 }
 if(!videoLedger.includes('**Progressive Forward Rolls**')||!videoLedger.includes('('+forwardRolls?.url+')')){
   errors.push('video ledger: missing supplementary acrobatics source');
