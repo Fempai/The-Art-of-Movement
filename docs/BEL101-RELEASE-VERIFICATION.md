@@ -39,3 +39,7 @@ The 12 scheduled BEL101 Friday video sources, mapped weeks, original Drive URLs,
 ## Additional Week 16 reader checks awaiting CI
 
 The real BEL101 Week 16 browser case now also checks incorrect-answer correction (3/4 then 4/4), locally saved result after reload, and appearance of the saved score in the Learning Progress dashboard. A separate 375px mobile-viewport case checks that the real final quiz is interactive and the page has no document-level horizontal overflow. These are **new automated test assertions, not observed passing results**. Confirm the `Quiz browser regression` workflow at the latest commit before treating them as verified; actual device accessibility, media playback, and movement/cultural validity remain outside this gate.
+
+## Incomplete final-quiz submission acceptance gate
+
+The real BEL101-W16 browser regression now also exercises a partially answered submission. It expects a three-unanswered alert, focus moved to the first unanswered question, no saved local quiz result, and successful submission once all four answers are provided. This is an **automated assertion awaiting a passing CI run**, not observed deployed-reader accessibility evidence. The new case is in `tests/quiz-browser.spec.cjs` and is included in the existing quiz-browser workflow path triggers.
