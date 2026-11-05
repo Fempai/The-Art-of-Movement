@@ -3116,3 +3116,46 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Remaining NEEDS REVIEW:** Professional technique and transfer safety, passage-level source claims, live reader/browser behavior, and empirical quiz difficulty; several distractors are easy overclaims.
 
 **Explicit assessment-ledger subtotal:** **45/97** lesson files with four question decisions and two alignment judgments, **180/388** question decisions, **45/97** with both alignment judgments. **52 lessons, 208 questions, 104 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is NOT complete.
+
+
+## Recorded assessment-validity decisions — HIP101-01–04 — 2026-11-04
+
+**Method:** Read all four learner-facing lessons; independently compared each question, keyed explanation and distractor with lesson text, follow-along counts, assignment and rubric. Internal logic only; historical passage verification and practitioner cultural review remain open.
+
+### HIP101-01 — Groove
+- **Q1 B — PASS (internal):** Learn: groove relates pulse, weight shifts, movement and personal timing. Distractors: A fixed pattern; C arms alone; D poses without pulse. No second supported correct answer identified in the stated context.
+- **Q2 C — PASS (internal):** What to notice: same pathway with different accents changes rhythmic character. Distractors: A anatomy unchanged; B cultural origins unchanged; D same foot placements. No second supported correct answer identified in the stated context.
+- **Q3 A — PASS (internal):** Learn: community and social context matter to development. Distractors: B universalizes groove; C counts not origin evidence; D recording incomplete. No second supported correct answer identified in the stated context.
+- **Q4 D — PASS (internal):** Fix difficulties: shallow pulse or seated pressure shift retains rhythmic intention. Distractors: A deepens uncontrolled bounce; B/C omit pulse/weight focus. No second supported correct answer identified in the stated context.
+- **Guided-to-assignment — PASS:** Guided A 1–8 without added shoulder accents and B with accents on numbered 2/4 recur in 16-count assignment; seated substitution explicitly non-equivalent.
+- **Assignment-to-outcome — PASS:** Pulse/weight, beat-versus-offbeat distinction, two-phrase reproducible score and evidence-bounded cultural claim align with learning.
+- **Limitations — NEEDS REVIEW:** Historical source passage and edition metadata, practitioner/community provenance, physical execution and live reader. Some distractors are conspicuous overclaims; empirical discrimination not established.
+
+### HIP101-02 — Bounce
+- **Q1 B — PASS (internal):** Learn: down accent emphasizes lowering. Distractors: A upward; C equal; D delayed after rise. No second supported correct answer identified in the stated context.
+- **Q2 C — PASS (internal):** Learn: slower tempo aids observation but changes timing task. Distractors: A unchanged tempo; B only range; D guarantees subdivision. No second supported correct answer identified in the stated context.
+- **Q3 A — PASS (internal):** Fix difficulties: reduce knee depth or seated pulse for discomfort. Distractors: B/C retain discomfort; D speeds before checking. No second supported correct answer identified in the stated context.
+- **Q4 D — PASS (internal):** What to notice: recording can compare lowering to beat. Distractors: A intent unobservable; B universal safety; C lineage unproven. No second supported correct answer identified in the stated context.
+- **Guided-to-assignment — PASS:** Odd-count lowering and even-count rising with down-versus-up emphasis directly repeated in two 8-count assignment phrases.
+- **Assignment-to-outcome — PASS:** Accent contrast, similar tempo/range, observed rhythmic placement and source-bounded cultural reflection align.
+- **Limitations — NEEDS REVIEW:** Historical source passage and edition metadata, practitioner/community provenance, physical execution and live reader. Some distractors are conspicuous overclaims; empirical discrimination not established.
+
+### HIP101-03 — Rhythm
+- **Q1 B — PASS (internal):** Learn: pulse recurring temporal reference. Distractors: A loud isolated note; C flourish; D unpredictable accents. No second supported correct answer identified in the stated context.
+- **Q2 C — PASS (internal):** Learn: syncopation challenges expected metric stress. Distractors: A/B preserve expected strong beats; D changes range. No second supported correct answer identified in the stated context.
+- **Q3 A — PASS (internal):** Learn: call-and-response is initiating and answering exchange. Distractors: B/C repetition without answer; D simultaneity. No second supported correct answer identified in the stated context.
+- **Q4 D — PASS (internal):** Fix difficulties: clap and count subdivisions before adding footwork. Distractors: A/B lose subdivisions; C retains complexity. No second supported correct answer identified in the stated context.
+- **Guided-to-assignment — PASS:** Guided 2-and and 6-and taps and two-count question/answer recur as phrase A and B in 16-count assignment, including global counts 9–16.
+- **Assignment-to-outcome — PASS:** Pulse, between-beat notation, reproducible exchange and provenance limits measured by count score and reflection.
+- **Limitations — NEEDS REVIEW:** Historical source passage and edition metadata, practitioner/community provenance, physical execution and live reader. Some distractors are conspicuous overclaims; empirical discrimination not established.
+
+### HIP101-04 — Cultural foundations
+- **Q1 B — PASS (internal):** Learn: Black and Latino communities in 1970s NYC/Bronx central to early hip-hop history. Distractors: A single studio; C invented national contest; D sole choreographer. No second supported correct answer identified in the stated context.
+- **Q2 C — PASS (internal):** Learn: breaking distinct practice; umbrella term not equivalent to all dances. Distractors: A/B erase distinction; D sharing music not identical history. No second supported correct answer identified in the stated context.
+- **Q3 A — PASS (internal):** What to notice: uncertain origins require recorded uncertainty and source research. Distractors: B popularity; C uploader; D umbrella genre. No second supported correct answer identified in the stated context.
+- **Q4 D — PASS (internal):** Practice: original phrase count-one rightward shift is observable. Distractors: A universal origin; B unverified reproduction; C music as lineage proof. No second supported correct answer identified in the stated context.
+- **Guided-to-assignment — PASS:** Guided weight-shift 1–4, answering arm gesture/facing 5–8 and seated alternative appear in 16-count two-phrase attribution assignment.
+- **Assignment-to-outcome — PASS:** Distinguishing invented score from historically sourced claims, provenance, and respectful terminology directly assessed; source passages remain unverified.
+- **Limitations — NEEDS REVIEW:** Historical source passage and edition metadata, practitioner/community provenance, physical execution and live reader. Some distractors are conspicuous overclaims; empirical discrimination not established.
+
+**Explicit assessment-ledger subtotal:** **49/97** lessons with four Q decisions and both alignment judgments, **196/388** individually documented questions, **49/97** lessons with both alignment judgments. **48 lessons / 192 questions / 96 alignment judgments remain**. The separate nine-dimension text review remains 97/97; full instructional validation is not complete.
