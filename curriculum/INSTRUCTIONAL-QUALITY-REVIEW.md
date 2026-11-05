@@ -819,3 +819,9 @@ The repeat variation reverses **left/right orientation** but not the time order 
 - **W14 Q4:** Two connected 16-count attempts now supply specific global 8→9 boundary evidence and stable support. Correct **D** supports only repeatability under observed conditions; distractors probe segmented-rehearsal substitution, untested-tempo generalization, and unverified video authentication.
 - **W16 Q2:** A standing Week 8 versus seated hand-traced Week 16 comparison now permits only explicitly qualified observations of counts 1–4 order and timing. Correct **B** rejects claims of equivalent standing pelvic mechanics, directly comparable physical proficiency, or unverified circle-range improvement.
 - Keys remain **W14 B,C,A,D** and **W16 D,B,A,C**. Exercises and assignments are unchanged. These are internal editorial revisions, not observed learner-outcome or physical-technique validation.
+
+
+## BEL101 Week 13 return-path evidence question refinement (November 2026)
+
+- **W13 Q4:** Replaced a generic strategy-identification item with a concrete count-4 pelvis arrival, count-5 hold, count-6 chest return. Key **D** now requires identifying the missed count-5 upward reversal despite reaching the endpoint; distractors probe endpoint-only inference, hand-trace/abdominal-isolation conflation, and treating unobservable timing as confirmed. The existing answer sequence **C,B,A,D** is preserved.
+- Guided counts, adaptations, progression check, and assignment are unchanged. This is an internal item-quality correction, not a witnessed technique or learner-outcome evaluation.
