@@ -668,3 +668,25 @@ test('BEL101 final quiz remains usable at a narrow mobile viewport',async({page}
  const viewport=await page.evaluate(()=>({width:document.documentElement.clientWidth,scrollWidth:document.documentElement.scrollWidth}));
  expect(viewport.scrollWidth).toBeLessThanOrEqual(viewport.width+1);
 });
+
+
+test('BEL101 final quiz incomplete submission identifies missing answers and supports recovery',async({page})=>{
+ await page.goto(pageUrl);
+ await expect(page.locator('#course option')).toHaveCount(21);
+ await page.locator('#course').selectOption({label:'BEL101 — Belly Dance Foundations'});
+ await page.getByRole('link',{name:/Week 16: Final/}).locator('xpath=..').getByRole('button',{name:'Study here'}).click();
+ const panel=page.locator('.lesson-panel').filter({has:page.getByRole('heading',{name:/BEL101 — Lesson W16/})});
+ const questions=panel.locator('fieldset');
+ await expect(questions).toHaveCount(4);
+ await questions.first().locator('input[type=radio]').first().check();
+ const submit=panel.getByRole('button',{name:'Check my answers'});
+ await submit.click();
+ await expect(panel.getByRole('alert')).toContainText('3 unanswered');
+ await expect(questions.nth(1).locator('input[type=radio]').first()).toBeFocused();
+ expect(await page.evaluate(()=>localStorage.getItem('aom-quiz-BEL101-W16'))).toBeNull();
+ for(let i=1;i<4;i++)await questions.nth(i).locator('input[type=radio]').first().check();
+ await submit.click();
+ await expect(panel.getByRole('status').filter({hasText:/Score: [0-4] \/ 4/})).toBeVisible();
+ const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('aom-quiz-BEL101-W16')));
+ expect(saved).toMatchObject({lesson:'BEL101-W16',total:4});
+});
