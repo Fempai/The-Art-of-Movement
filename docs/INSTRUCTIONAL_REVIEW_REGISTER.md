@@ -3360,3 +3360,82 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
 
 **Explicit assessment-ledger subtotal:** **69/97** lesson files with all four Q decisions and both alignment judgments, **276/388** individually documented question decisions, **69/97** with both alignment judgments. **28 lessons, 112 questions and 56 alignment judgments remain.** The separate nine-dimension text review remains 97/97; complete instructional validation is NOT established.
+
+
+## Recorded assessment-validity decisions — PRO701-01–04 and SCI503-01–04 — 2026-11-04
+
+**Method:** Read eight complete learner-facing lessons, 32 four-option quiz items and their rationales, guided protocols, assignments and rubrics. These are internal logical/construct-alignment judgments, not evidence of actual learner performance or independently verified movement-science literature.
+
+### PRO701-01
+- **Q1 B — PASS (internal):** Predefined observable polish criterion, not confidence/applause/max range. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 B — PASS (internal):** Off-frame foot is unclear, not inferred from arm/score. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 C — PASS (internal):** Isolate reach onset then retest, not change several variables. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Checklist measures selected targets, not certification/safety/audience response. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Guided 3 rested baselines, four-item checklist, two focused corrections and retest match assignment.
+- **Assignment-to-outcome — PASS:** Criterion repeatability, error correction, uncertainty and competing explanation measure stated rehearsal objectives.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### PRO701-02
+- **Q1 B — PASS (internal):** Chunking manageable sections, not undiagnosed full runs. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 C — PASS (internal):** Cue word prompts section initiation, not guaranteed correctness. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 A — PASS (internal):** Chunk–connect–run–diagnose–revise vs repetition without target. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Declining control requires rest/end, not speed/workload increase. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Four chunks and cue words, 8→9/16→17/24→25 checks, rest, targeted correction and final run appear in assignment.
+- **Assignment-to-outcome — PASS:** Transparent rehearsal log and boundary diagnoses assess structured practice and safe revision.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### PRO701-03
+- **Q1 B — PASS (internal):** Agreed 16-count structure remains, not fixed expressive emphasis. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 B — PASS (internal):** Count-seven gaze destination observable, private emotion not. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 C — PASS (internal):** Slow and stabilize score when expression disrupts counts. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Video cannot establish universal audience interpretation. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Three invitation/hesitation/resolve 16-count versions twice each and comparison matrix assigned.
+- **Assignment-to-outcome — PASS:** Shared score, observable expressive differences, revision and evidence/intention boundary measured.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### PRO701-04
+- **Q1 B — PASS (internal):** Controlled quality with recovery, not deliberate exhaustion. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 C — PASS (internal):** 160 beats at 80 BPM = 120 s, not 60/90/160. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 A — PASS (internal):** Timed single take, score and reflection, not self-certification. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Unsafe loss of control means stop and revise, not conceal or accelerate. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Five 32-count sections, 2-minute rest, single safe take, timing/exertion log match showcase assignment.
+- **Assignment-to-outcome — PASS:** Duration calculation, complete score, visible markers and cautious stamina claim assess outcome.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### SCI503-01
+- **Q1 B — PASS (internal):** Action order/count stable, height/facing varied. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 B — PASS (internal):** Learning requires durable capability, not single accurate performance. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 C — PASS (internal):** Vary reach height with stable score, not simultaneous confounds. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** One successful trial only proves that trial met target. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Six trials in three two-trial conditions and separate post-break check replicated.
+- **Assignment-to-outcome — PASS:** Controlled variation, prompt/deviation log and performance-vs-learning limits assessed.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### SCI503-02
+- **Q1 B — PASS (internal):** Unaided performance is retrieval, not copying/watching. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 C — PASS (internal):** Missed day-3 on day-4 logged as actual elapsed time. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 A — PASS (internal):** Chunk accuracy plus prompt status most informative. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Spacing and retrieval effects not isolated causally. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Initial unaided chunk checks and day-1/3/7 planned observations exactly assigned; future outcomes left blank.
+- **Assignment-to-outcome — PASS:** Accurate timestamps, correction, later retention and causal limits measure objective.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### SCI503-03
+- **Q1 B — PASS (internal):** Knowledge of results is arrival by count 6, not shoulder mechanics. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 B — PASS (internal):** Knowledge of performance is shoulder elevation, not target count. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 C — PASS (internal):** Isolate onset error and retest, not multiple changes/diagnosis. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Video cannot measure hidden joint forces or diagnose injury. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Three baseline trials, targeted half-speed correction, two feedback-withheld trials match assignment.
+- **Assignment-to-outcome — PASS:** Five-trial data, KR/KP distinction and causal caution assess learning-science outcome.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+### SCI503-04
+- **Q1 B — PASS (internal):** Tired rehearsal may change performance but not prove lost learning. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q2 C — PASS (internal):** Comfortable trials/rest/symptom monitoring, not exhaustion. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q3 A — PASS (internal):** Missed day-7 recorded missing or actual date, not fabricated. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Q4 D — PASS (internal):** Descriptive one-learner recall only, not generalizable causal/clinical claim. Remaining options contradict the specified protocol, category, observable evidence or safe interpretation; no equally defensible keyed alternative identified.
+- **Guided-to-assignment — PASS:** Three baseline retrievals, post-rest check and scheduled day-1/3/7 followups repeated; future results not invented.
+- **Assignment-to-outcome — PASS:** Predefined 0–4 chunks, symptoms, dates, missing data and descriptive analysis measure outcome.
+- **NEEDS REVIEW:** Bibliographic edition/passage support, independent movement technique and workload safety, live reader and empirical question difficulty. Several wrong choices are conspicuously absolute or unsafe.
+
+**Explicit assessment-ledger subtotal:** **77/97** lesson files with all four Q decisions and both alignment judgments, **308/388** individual question decisions, **77/97** lessons with both alignment judgments. **20 lessons, 80 questions and 40 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is NOT established.
