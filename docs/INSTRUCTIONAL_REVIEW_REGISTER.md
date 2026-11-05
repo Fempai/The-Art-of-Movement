@@ -2890,3 +2890,14 @@ No live browser test, actual technique adjudication, citation passage audit or l
 9. **Reader experience — NEEDS REVIEW:** Deployed lessons, quizzes, media, submission and portfolio scoring not tested.
 
 **Provisional core ledger:** **84/97 core lessons**, **756/873 core judgments** (**504 internal PASS**, **252 NEEDS REVIEW**, **0 unresolved internal FAIL identified**), **13 core lessons remain**. Separately, 13 supplemental BEL101-W04–W16 lessons reviewed; combined 97 distinct reviewed files, 873 judgments (582 PASS, 291 NEEDS REVIEW). **Important:** Combined 97 files is *not* 97/97 core lessons; the same numerical total is coincidental. Canonical inventory crosswalk remains open.
+
+
+## Inventory reconciliation — 2026-11-04 (supersedes provisional core-only counts)
+
+**Source:** GitHub repository search for `path:curriculum/final-lessons` returned **97 distinct lesson paths** in the current index: **84 four-lesson core files (21 course prefixes)** and **13 supplemental `BEL101-W04`–`BEL101-W16` files**. The 13 supplemental files are part of the 97-file instructional-review inventory, not 13 additional missing core lessons. Prior statements such as “84/97 core lessons, 13 core remaining” were a denominator/category error; do not repeat them. `BEL101-W01`–`W03` were not present in the checked folder; do not assume their existence.
+
+**Inventory breakdown:** Core: MOV101, DNC101, HIS101, FLE101, MUS101, STG101, CON101, HIP101, BEL101, CMP101, PER201, LMA201, LAB101, EST504, PRO701, SCI503, RES501, CMP502, SIT505, PRO702, PRO703, each with lessons 01–04 (**84**). Supplemental: BEL101-W04–W16 (**13**). **Total 97 distinct reviewed lesson files**, matching the original denominator, with no additional core files identified by this search. Search results should still be cross-checked against the app's canonical lesson manifest before final release.
+
+**Corrected nine-dimension coverage:** **97/97 lesson files** have a nine-dimension text review recorded (**873/873 judgments**). **582 internal PASS**, **291 NEEDS REVIEW**, **0 unresolved internal FAIL identified in the recorded review**. Three dimensions per lesson—movement correctness, evidence/cultural care, reader experience—remain NEEDS REVIEW pending external technique, source, and live-browser checks. Thus **coverage is complete; instructional validation is NOT complete**.
+
+**Assessment validity is a separate, still-open gate:** The per-question ledger requires Q1–Q4 individually evidenced (388 decisions) and two alignment decisions per lesson (194 decisions). The nine-dimension quiz PASS summary does **not** automatically fill those decisions. Count explicit question and alignment records in the register before reporting a closure fraction. The next editorial work should focus on unrecorded question-level judgments and concrete corrections, not another generic nine-dimension pass.
