@@ -105,8 +105,8 @@ const contracts = [
   },
   {
     id: 'BEL101-04',
-    guided: ['**two separate eight-count attempts**', '**6→7 transition**', 'without reversing the accent order'],
-    assignment: ['mirror the slide order and half-oval direction', 'right-then-left knee accents on 7–8', '6→7 half-oval-to-accent transition', 'historical baseline not available']
+    guided: ['**two separate eight-count attempts**', '**6→7 transition**', 'without reversing the accent order', 'Week 2 holds the right slide on 1–2', 'Week 3 assigns one alternating knee action per beat', 'not** the full eight-count scores as if they were equivalent'],
+    assignment: ['mirror the slide order and half-oval direction', 'right-then-left knee accents on 7–8', '6→7 half-oval-to-accent transition', 'historical baseline not available', 'Week 2\'s slide holds right on 1–2', 'Week 3 uses eight alternating knee actions', 'not** an eight-beat performance score']
   },
   {
     id: 'BEL101-W08',
