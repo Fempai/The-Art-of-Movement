@@ -1,6 +1,6 @@
 # Instructional review register — 97 lessons
 
-**Status: NOT YET VALIDATED.** This register is for human editorial decisions after the automated coverage triage. A green CI run is not a technique or answer-key certification.
+**Status: INTERNAL ASSESSMENT REVIEW COMPLETE; FULL INSTRUCTIONAL VALIDATION PENDING.** Individual Q1–Q4 decisions and both alignment judgments are recorded for all 97 lesson files (388 questions and 194 alignment judgments). These are text-based editorial findings, not empirical item-validity evidence or independent movement, citation, accessibility, deployed-browser or latest-head CI signoff. A green CI run is not a technique or answer-key certification.
 
 ## Review instructions
 For each lesson, record its ID, reviewer/date, and an evidence-based result for each dimension below. Use **PASS**, **FAIL**, or **NEEDS REVIEW**. Cite exact headings, passages, question numbers, and any relevant source. If a claim cannot be checked, use NEEDS REVIEW, never assume PASS.
@@ -17,7 +17,7 @@ For each lesson, record its ID, reviewer/date, and an evidence-based result for 
 | Evidence and cultural care | Claims supported, traditions distinguished, limitations disclosed | NEEDS REVIEW |
 | Reader experience | Complete lesson, video, questions, feedback, assignment work in UI | NEEDS REVIEW |
 
-## Assessment-validity closure ledger (required before declaring this workstream complete)
+## Assessment-validity closure ledger (internal documentation completed 2026-11-04)
 
 **Inventory:** 97 lessons × 4 questions = **388 question-level judgments**; 97 lesson assignments/outcome alignments. The broader nine-dimension gate requires **873 documented dimension judgments**. These counts are denominators, **not verified completions**. Editorial corrections already pushed are evidence of work performed but do not silently populate the ledger.
 
