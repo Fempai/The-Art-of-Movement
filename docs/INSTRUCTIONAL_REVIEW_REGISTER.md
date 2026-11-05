@@ -3281,3 +3281,82 @@ No live browser test, actual technique adjudication, citation passage audit or l
 - **Remaining NEEDS REVIEW:** Bibliographic passage/edition accuracy, independent physical technique and cultural interpretation, deployed reader and empirical quiz discrimination. Obvious absolute-language distractors may be low difficulty.
 
 **Explicit assessment-ledger subtotal:** **61/97** lessons with four Q decisions and both alignment judgments, **244/388** individual question decisions, **61/97** lessons with both alignment judgments. **36 lessons, 144 questions, 72 alignment judgments remain**. Nine-dimension textual review remains 97/97; full instructional validation is NOT complete. No newly identified internal answer-key failure in this batch.
+
+
+## Recorded assessment-validity decisions — LAB101-01–04 and EST504-01–04 — 2026-11-04
+
+**Method:** Reviewed eight full learner-facing lesson texts and 32 keyed questions with distractors, guided activities, assignments and rubrics. The decisions below concern internal instructional logic and alignment only; no external performance, bibliographic, psychometric or browser validation is implied.
+
+### LAB101-01
+- **Q1 B — PASS (internal):** Original step–gather–reach–recover vs substituted turn/travel. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 C — PASS (internal):** diagonal reach on 5–6 vs step/gather/recovery. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 A — PASS (internal):** controlled repeatable counts/support vs instability/one take/pose. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 C — PASS (internal):** original teaching repertory vs invented lineage or validated protocol. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided original right-arm motif twice (optional fourth left-arm trial excluded from grading) is the two-repetition assignment.
+- **Assignment-to-outcome — PASS:** Count sheet, stable support, first timing/support correction and separately labeled intention map to stated objective.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### LAB101-02
+- **Q1 B — PASS (internal):** Video documents count-six hold, not private intention. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 C — PASS (internal):** A/B vary reach timing and gaze, not motif/support/origin. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 A — PASS (internal):** tentative hesitation interpretation vs universal response. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 C — PASS (internal):** neutral head plus arm timing avoids destabilizing gaze unlike alternatives. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided A slow reach 5–6 and gaze hand on 8 vs B reach 5 hold 6 gaze front 8 both scored in assignment.
+- **Assignment-to-outcome — PASS:** Distinct count sheets, support, visible contrasts, intention-versus-observation and revision measure outcome.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### LAB101-03
+- **Q1 B — PASS (internal):** Retrieval without score vs copying/watching. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 A — PASS (internal):** chunking manageable ordered units vs random splitting. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 C — PASS (internal):** retrieve–compare–correct–retrieve vs omitted steps. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 A — PASS (internal):** post-break test beyond immediate rehearsal not proof of long-term retention or expert technique. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided A/B sixteen-count retrieval, two-minute break and 7–10 boundary correction transferred to independent memory assignment.
+- **Assignment-to-outcome — PASS:** Immediate/delayed unaided attempts and count-level correction plus second retrieval assess memory goal.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### LAB101-04
+- **Q1 C — PASS (internal):** Four eight-count phrases make 32 vs arithmetic errors. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 B — PASS (internal):** A′ varied return not repeat/unrelated replacement. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 C — PASS (internal):** check 8→9,16→17,24→25 not isolated counts. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 B — PASS (internal):** recording reveals visible timing/pathway not intention, live repeatability or lineage. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided A–B–A′–C 32 counts and boundary supports match full draft assignment.
+- **Assignment-to-outcome — PASS:** Repeatable score, safe transitions, A′ reach sustain, memory/timing and evidence-limited reflection measure outcome.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### EST504-01
+- **Q1 B — PASS (internal):** Counted right diagonal reach is description vs private/universal emotions. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 C — PASS (internal):** interpretations require observable cues and alternatives vs intention/drama. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 A — PASS (internal):** intention relevant but not universal reception. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 D — PASS (internal):** competing reading tested against supporting/weakening observations. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided A gaze follows hand vs B front, neutral descriptions and two competing B readings map to close-reading assignment.
+- **Assignment-to-outcome — PASS:** Count-specific description, alternative readings, separate evaluation and source limitation assessed.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### EST504-02
+- **Q1 B — PASS (internal):** Counted score/time-stamped video supports duration vs mood/pose/untimed recall. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 C — PASS (internal):** program note records intention not universal response. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 A — PASS (internal):** claim–evidence–reasoning–limit vs unsupported prose. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 D — PASS (internal):** off-frame gesture marked unavailable vs invented visibility. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided A 5–6 vs A′ 21–23 duration ledger and source distinction repeated in critical assignment.
+- **Assignment-to-outcome — PASS:** Four-column evidence ledger, situated claim, alternative explanation and 300–450-word critique assess outcome.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### EST504-03
+- **Q1 B — PASS (internal):** Camera-obscured reach is evidence-based critique vs identity/personality assumptions. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 C — PASS (internal):** uncertain lineage flagged and researched vs resemblance. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 A — PASS (internal):** visible compositional choice legitimate object vs private motive/diagnosis. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 D — PASS (internal):** vague 'inspired by culture' inadequate attribution vs traceable sources. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided unsupported-vs-observable rewrites and provenance table expanded to two rewrites and ethical critique.
+- **Assignment-to-outcome — PASS:** Attribution, verified/unknown provenance, ethical language and observable performance cues assessed.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+### EST504-04
+- **Q1 B — PASS (internal):** Abstraction can foreground timing/pathways/repetition vs required plot or universal response. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q2 C — PASS (internal):** situated gaze/accent interpretation vs absolute claim. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q3 A — PASS (internal):** count-specific evidence plus alternate reading vs unsupported reaction. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Q4 D — PASS (internal):** capstone is situated evidence-based interpretation not universal/objective/psychological proof. Other options either contradict the taught score/definition or make unsupported safety, attribution, observation or interpretation claims; no equally supported key identified.
+- **Guided-to-assignment — PASS:** Guided narrative vs abstract 32-count A–B–A′–C comparisons and six count observations form capstone essay.
+- **Assignment-to-outcome — PASS:** Two full scores, thesis, alternative, six observations, verified-source requirement and source limits measure outcome; scholarship verification remains open.
+- **NEEDS REVIEW:** Exact external citation/edition/passage support, independent movement observation, browser behavior and empirical discrimination. Several distractors are obvious categorical overclaims.
+
+**Explicit assessment-ledger subtotal:** **69/97** lesson files with all four Q decisions and both alignment judgments, **276/388** individually documented question decisions, **69/97** with both alignment judgments. **28 lessons, 112 questions and 56 alignment judgments remain.** The separate nine-dimension text review remains 97/97; complete instructional validation is NOT established.
