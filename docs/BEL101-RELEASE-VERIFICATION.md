@@ -19,3 +19,10 @@ Date: 2026-11-02
 ## Evidence required to close
 
 For each scheduled video, record access permission, actual playback and seeking, lesson-topic match, and failure reason. For each deployed lesson, record viewport, keyboard navigation, quiz submission, explanation display, progress persistence, and errors. Preserve test date, URL, and commit SHA. Do not mark any blocked check as passed.
+
+## November 4 CI evidence and next release gates
+
+- The owner supplied a GitHub Actions screenshot confirming success at commit `ed960385bfb70302885b1293debeba47683fbb2d` for Academy lesson and quiz verification (#1177, 52s), Quiz browser regression (#897, 3m 54s), Academy static regression checks (#1793, 17s), and Published Academy smoke check (#442, 6s). This establishes the automated checks' asserted scope **at that commit**, including the corrected BEL101-04 regression assertion.
+- A subsequent repository update added BEL101 video-catalog regression guards: 12 scheduled study sources, one supplementary clip, nonempty week assignments, and exclusion of acrobatic forward rolls from the Friday course schedule. The test executes in the instructional-coverage workflow when triggered, but **its latest execution result is not yet verified**.
+- Remaining acceptance evidence: actually open and seek each scheduled video, confirm the lesson-topic match and permission on the learner's device; inspect deployed lesson and quiz interactions; review movement execution and specific cultural-source claims. A successful automated text check cannot substitute for those observations.
+- The latest-head release gate remains **OPEN** until post-change CI results are observed; do not generalize the screenshot's successful commit to later commits.
