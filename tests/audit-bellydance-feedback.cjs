@@ -38,6 +38,23 @@ if(!forwardRolls||forwardRolls.weeks.length||forwardRolls.usage==='Scheduled stu
   errors.push('catalog: acrobatic forward rolls must remain supplementary, not a BEL101 Friday lesson');
 }
 
+// Ensure the introductory lessons link their scheduled source in context, rather
+// than requiring learners to discover it in the separate Friday video index.
+// This checks catalog fidelity, not whether a video plays or teaches the drill.
+for(const week of [1,2,3]){
+  const id='BEL101-'+String(week).padStart(2,'0');
+  const lesson=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const sources=scheduledVideos.filter(video=>video.weeks.includes(week));
+  if(sources.length!==1)errors.push(id+': expected exactly one scheduled introductory video');
+  for(const source of sources){
+    if(!lesson.includes(source.url))errors.push(id+': scheduled source URL absent from lesson');
+    if(!lesson.includes(source.title))errors.push(id+': scheduled source title absent from lesson');
+  }
+  if(!/playback[^\n]{0,140}not been independently verified/i.test(lesson)){
+    errors.push(id+': missing explicit source-playback verification boundary');
+  }
+}
+
 // Keep the evidence ledger synchronized with the source catalog without
 // claiming that the underlying videos have been viewed or authenticated.
 const videoLedger=fs.readFileSync(path.join(__dirname,'..','docs','BEL101-VIDEO-EVIDENCE-LEDGER.md'),'utf8');
