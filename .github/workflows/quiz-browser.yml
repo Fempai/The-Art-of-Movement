@@ -7,6 +7,7 @@ on:
       - 'curriculum/COURSE_LESSONS_AND_SOURCES.json'
       - 'tests/quiz-browser.spec.cjs'
       - 'tests/audit-all-quizzes.cjs'
+      - 'tests/audit-quiz-ambiguity-regressions.cjs'
       - 'curriculum/final-lessons/**'
       - '.github/workflows/quiz-browser.yml'
   workflow_dispatch:
@@ -29,6 +30,7 @@ jobs:
           set -o pipefail
           node --check tests/quiz-browser.spec.cjs
           node --check tests/audit-all-quizzes.cjs
+          node --check tests/audit-quiz-ambiguity-regressions.cjs
           node - <<'NODE'
           const fs=require('node:fs');
           const vm=require('node:vm');
@@ -55,10 +57,23 @@ jobs:
         run: |
           set -o pipefail
           node tests/audit-all-quizzes.cjs 2>&1 | tee /tmp/aom-quiz-audit.log
+      - name: Run targeted assessment regression checks
+        shell: bash
+        run: |
+          set -o pipefail
+          node tests/audit-quiz-ambiguity-regressions.cjs 2>&1 | tee /tmp/aom-ambiguity-regressions.log
       - name: Include curriculum audit in run summary
         if: always()
         run: |
           echo '## Curriculum quiz audit' >> "$GITHUB_STEP_SUMMARY"
+          if [ -f /tmp/aom-ambiguity-regressions.log ]; then
+            echo '### Targeted assessment regressions' >> "$GITHUB_STEP_SUMMARY"
+            echo '```text' >> "$GITHUB_STEP_SUMMARY"
+            cat /tmp/aom-ambiguity-regressions.log >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'Targeted regression checks did not execute; inspect workflow steps.' >> "$GITHUB_STEP_SUMMARY"
+          fi
           if [ -f /tmp/aom-quiz-audit.log ]; then
             echo '\`\`\`text' >> "$GITHUB_STEP_SUMMARY"
             cat /tmp/aom-quiz-audit.log >> "$GITHUB_STEP_SUMMARY"
@@ -133,7 +148,7 @@ jobs:
         shell: bash
         run: |
           mkdir -p test-results/diagnostics
-          for source in /tmp/aom-playwright-install.log /tmp/aom-quiz-audit.log /tmp/aom-http.log; do
+          for source in /tmp/aom-playwright-install.log /tmp/aom-quiz-audit.log /tmp/aom-ambiguity-regressions.log /tmp/aom-http.log; do
             if [ -f "$source" ]; then cp "$source" "test-results/diagnostics/$(basename "$source")"; fi
           done
           node --version > test-results/diagnostics/node-version.txt 2>&1 || true
