@@ -46,6 +46,12 @@ check(journal.includes("function conceal(){journalGeneration++")&&journal.includ
 check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==journalGeneration||userId!==activeUserId"),'Cloud journal must scope queries and reject stale account responses');
 check(journal.includes("$('#logout').onclick=async()=>{conceal();"),'Cloud journal must conceal private data immediately on sign-out');
 const academy=read('my-academy.html');
+for(const [page,html,key] of [['Academy',academy,'aom_dashboard_email'],['Baseline',baseline,'aom_baseline_email'],['Journal',journal,'aom_login_email']]){
+ const clear=html.indexOf("sessionStorage.removeItem('"+key+"');const {error}=await");
+ const request=html.indexOf('.auth.signInWithOtp(',clear);
+ check(clear>=0&&request>clear,page+' must discard stale pending OTP email before a new sign-in request');
+}
+
 check(academy.includes("sessionStorage.removeItem('aom_dashboard_email');e.target.reset();await sync()"),'Academy OTP cleanup missing');
 check(baseline.includes("sessionStorage.removeItem('aom_baseline_email');e.target.reset();await sync()"),'Baseline OTP cleanup missing');
 check(journal.includes("sessionStorage.removeItem('aom_login_email');e.target.reset();await sync()"),'Journal OTP cleanup missing');
