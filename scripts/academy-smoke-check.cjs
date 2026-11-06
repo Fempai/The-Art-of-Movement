@@ -46,6 +46,10 @@ check(journal.includes("function conceal(){journalGeneration++")&&journal.includ
 check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==journalGeneration||userId!==activeUserId"),'Cloud journal must scope queries and reject stale account responses');
 check(journal.includes("$('#logout').onclick=async()=>{conceal();"),'Cloud journal must conceal private data immediately on sign-out');
 const academy=read('my-academy.html');
+check(academy.includes("sessionStorage.removeItem('aom_dashboard_email');e.target.reset();await sync()"),'Academy OTP cleanup missing');
+check(baseline.includes("sessionStorage.removeItem('aom_baseline_email');e.target.reset();await sync()"),'Baseline OTP cleanup missing');
+check(journal.includes("sessionStorage.removeItem('aom_login_email');e.target.reset();await sync()"),'Journal OTP cleanup missing');
+
 const academyScript=academy.match(/<script type="module">([\s\S]*?)<\/script>/);
 check(!!academyScript,'My Conservatory module script missing');
 check(academy.includes("if(!email||!token){status('Enter your email and one-time code.');return}"),'Academy must reject missing OTP credentials before verification');
