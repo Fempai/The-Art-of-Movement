@@ -34,6 +34,8 @@ const baseline=read('baseline-studio.html');
 check(baseline.includes("function conceal(){baselineGeneration++")&&baseline.includes("$('#comparison').replaceChildren()"),'Baseline must clear private media on session transitions');
 check(baseline.includes(".eq('user_id',userId)")&&baseline.includes("generation!==baselineGeneration||userId!==activeBaselineUser"),'Baseline must scope records and reject stale media responses');
 check(baseline.includes("$('#logout').onclick=async()=>{conceal();"),'Baseline must conceal media before sign-out request');
+check(baseline.includes("renderGeneration!==baselineRenderGeneration"),'Baseline must reject superseded media renders');
+check(baseline.includes(".delete().eq('id',x.id).eq('user_id',userId)"),'Baseline deletion must be account scoped');
 const journal=read('cloud-journal.html');
 check(journal.includes("function conceal(){journalGeneration++")&&journal.includes("$('#sessions').replaceChildren()"),'Cloud journal must clear private records before session revalidation');
 check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==journalGeneration||userId!==activeUserId"),'Cloud journal must scope queries and reject stale account responses');
