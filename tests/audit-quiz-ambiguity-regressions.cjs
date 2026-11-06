@@ -90,6 +90,7 @@ for (const [id, heading] of [['BEL101-W08','Midterm evidence worksheet'],['BEL10
   assert.ok(countRows.every(line=>line.split('|').length===8),id+': every count row must contain all three assessment fields and the observation note');
   for(const phrase of ['Only rows marked attempted **yes** and observable **yes** enter the timing denominator','Count attempted **unknown** separately as **attempt status unknown**','An intentional omission requires evidence']) assert.ok(section.includes(phrase),id+': missing scoring decision rule: '+phrase);
   assert.ok(section.includes('____ attempt status unknown'),id+': unknown-attempt summary field missing');
+  assert.ok(section.includes('**attempted (yes/no/unknown), observable (yes/no), and timing (on count/off count/not assessable)**'),id+': checkpoint instructions contradict worksheet evidence fields');
   assert.ok(section.includes('attempted but unobservable') && section.includes('attempt status unknown'),id+': missing unobservable-attempt and unknown-status handling');
   assert.ok(section.includes('**4/5**') && section.includes('**5/8**'),id+': worked example must distinguish timing from attempted coverage');
   assert.ok(section.includes('not assessable'),id+': missing observation fallback');
