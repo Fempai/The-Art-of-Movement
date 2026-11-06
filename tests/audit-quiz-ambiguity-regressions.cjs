@@ -83,9 +83,11 @@ for (const [id, heading] of [['BEL101-W08','Midterm evidence worksheet'],['BEL10
     ? ['Right slide','Return center','Left slide','Return center','Circle begins','Circle continues','Settle in support','Hold or mark beat']
     : ['Right slide','Return center','Left slide','Return center','Circle begins','Circle completes near neutral','Right-knee pulse','Left-knee pulse'];
   assert.deepEqual(countRows.map(line=>line.split('|')[2].trim()),expectedActions,id+': planned count actions differ from the assessment');
-  assert.ok(section.includes('on count / off count / unobservable / intentionally omitted'),id+': status choices missing');
+  assert.ok(section.includes('Timing (on count / off count / not assessable)'),id+': timing choices missing');
   assert.ok(section.includes('observable, attempted actions'),id+': timing denominator missing');
-  assert.ok(section.includes('attempted (yes/no)') && section.includes('observable (yes/no)'),id+': attempt and observation must be recorded independently');
+  assert.ok(section.includes('attempted (yes/no/unknown)') && section.includes('observable (yes/no)'),id+': attempt and observation must be recorded independently');
+  assert.ok(section.includes('Attempted? (yes / no / unknown)') && section.includes('Observable? (yes / no)') && section.includes('Timing (on count / off count / not assessable)'),id+': worksheet must provide independent fields for attempt, visibility and timing');
+  assert.ok(countRows.every(line=>line.split('|').length===8),id+': every count row must contain all three assessment fields and the observation note');
   assert.ok(section.includes('attempted but unobservable') && section.includes('attempt status unknown'),id+': missing unobservable-attempt and unknown-status handling');
   assert.ok(section.includes('**4/5**') && section.includes('**5/8**'),id+': worked example must distinguish timing from attempted coverage');
   assert.ok(section.includes('not assessable'),id+': missing observation fallback');
