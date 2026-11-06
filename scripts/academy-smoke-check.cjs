@@ -46,6 +46,11 @@ if(academyScript){
  const reveal=src.indexOf("$('#signed').hidden=false;$('#auth').hidden=true;");
  check(identity>=0&&reveal>identity,'Academy must validate account identity before revealing private records');
  check(src.includes('if(generation!==dashboardGeneration)return;'),'Academy async responses need generation invalidation');
+ const queryError=src.indexOf('const err=sessions.error||baselines.error||reviews.error;');
+ const queryErrorBranch=src.indexOf('if(err){',queryError);
+ const revealAfterQueries=src.indexOf("$('#signed').hidden=false;$('#auth').hidden=true;",queryError);
+ const querySuccess=src.indexOf('const s=sessions.data||[],r=reviews.data||[];',queryError);
+ check(queryError>=0&&queryErrorBranch>queryError&&revealAfterQueries>queryErrorBranch&&revealAfterQueries<querySuccess,'Academy must not reveal private dashboard when cloud queries fail');
 }
 const live=read('live-coach.html');
 check(live.includes('navigator.mediaDevices.getUserMedia'),'Live Coach camera path missing');
