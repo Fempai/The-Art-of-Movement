@@ -42,3 +42,13 @@ Physical Samsung browser validation, user likeness approval, representative real
 
 ## Failure response
 Inspect failed step logs, browser traces and screenshot artifacts; reproduce with the exact viewport; commit the narrowest repair; rerun all gates; update [CHANGELOG.md](CHANGELOG.md) and the release evidence. Never label a failing commit release-ready.
+
+## November 5 release candidate verification status
+
+- Latest code/test candidate before this documentation update: `034cdb3b367052fac0142efe6aa510fdaa8eec17` (subsequent commits supersede this SHA).
+- My Conservatory now clears private dashboard data **before** asynchronous authentication rechecks, hides signed-in controls while checking, and validates the returned account before revealing records. The static regression workflow includes source-level and module-syntax guards. **Not a substitute for authenticated browser integration testing.**
+- Independent public-site fetch attempted for `https://fempai.github.io/The-Art-of-Movement/my-academy.html` but the available web retrieval returned an access error. This is **inconclusive**, not evidence of a deployment failure or success.
+- **Release blocker:** obtain latest-SHA push-workflow conclusions, desktop/mobile browser results and Pages smoke results. The connected workflow lookup is PR-only and cannot confirm push runs.
+- **Release blocker:** run authenticated account A/account B record isolation, sign-out, expired-session, network-failure and cross-device tests using permitted test accounts; no real credentials are available in this session. Do not test another person's data.
+- **Release blocker:** physical Samsung browser navigation/camera acceptance and explicit owner release decision. Existing owner-tested lesson videos and shared journal need not be repeated absent regression.
+- **Scope:** basic self-guided academy can be assessed independently of research-grade avatar and uncalibrated technique scoring; these remain disclosed experimental limitations, not completed features.
