@@ -35,7 +35,7 @@ check(baseline.includes("if(!email||!token){status('Enter your email and one-tim
 check(baseline.includes("if(authError||!user||user.id!==userId){conceal();status('Session changed. Sign in again before deleting.')"), 'Baseline deletion must revalidate the active account');
 check(/function conceal\(\)\{[^}]*baselineGeneration\+\+/.test(baseline)&&baseline.includes("$('#history').replaceChildren()")&&baseline.includes("$('#comparison').replaceChildren()"),'Baseline must clear private media on session transitions');
 check(baseline.includes(".eq('user_id',userId)")&&baseline.includes("generation!==baselineGeneration||userId!==activeBaselineUser"),'Baseline must scope records and reject stale media responses');
-check(/\$\('#logout'\)\.onclick=async\(\)=>\{[^}]*conceal\(\);[^}]*\.auth\.signOut\(\)/.test(baseline),'Baseline must conceal media before sign-out request');
+check(/\$\('#logout'\)\.onclick=async\(\)=>\{[^\n]*?conceal\(\);[^\n]*?\.auth\.signOut\(\)/.test(baseline),'Baseline must conceal media before sign-out request');
 check(baseline.includes("renderGeneration!==baselineRenderGeneration"),'Baseline must reject superseded media renders');
 check(baseline.includes(".delete().eq('id',x.id).eq('user_id',userId)"),'Baseline deletion must be account scoped');
 check(baseline.includes('if(authError||!user||user.id!==userId)')&&baseline.includes("if(generation!==baselineGeneration||userId!==activeBaselineUser){await db.storage.from('aom-private-videos').remove([path]);return}"),'Baseline upload must reject changed accounts before and after storage writes');
@@ -44,7 +44,7 @@ const journal=read('cloud-journal.html');
 check(journal.includes('if(authError||!user||user.id!==userId)')&&journal.includes('if(generation!==journalGeneration||userId!==activeUserId)return;if(error)'), 'Cloud journal saves must validate active account and suppress stale write results');
 check(journal.includes("function conceal(){journalGeneration++")&&journal.includes("$('#sessions').replaceChildren()"),'Cloud journal must clear private records before session revalidation');
 check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==journalGeneration||userId!==activeUserId"),'Cloud journal must scope queries and reject stale account responses');
-check(/\$\('#logout'\)\.onclick=async\(\)=>\{[^}]*conceal\(\);[^}]*\.auth\.signOut\(\)/.test(journal),'Cloud journal must conceal private data immediately on sign-out');
+check(/\$\('#logout'\)\.onclick=async\(\)=>\{[^\n]*?conceal\(\);[^\n]*?\.auth\.signOut\(\)/.test(journal),'Cloud journal must conceal private data immediately on sign-out');
 const academy=read('my-academy.html');
 for(const [page,html,key] of [['Academy',academy,'aom_dashboard_email'],['Baseline',baseline,'aom_baseline_email'],['Journal',journal,'aom_login_email']]){
  const clear=html.indexOf("sessionStorage.removeItem('"+key+"');const requestId=++otpRequestGeneration;const {error}=await");
