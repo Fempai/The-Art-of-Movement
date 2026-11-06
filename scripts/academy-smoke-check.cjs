@@ -36,6 +36,7 @@ check(baseline.includes(".eq('user_id',userId)")&&baseline.includes("generation!
 check(baseline.includes("$('#logout').onclick=async()=>{conceal();"),'Baseline must conceal media before sign-out request');
 check(baseline.includes("renderGeneration!==baselineRenderGeneration"),'Baseline must reject superseded media renders');
 check(baseline.includes(".delete().eq('id',x.id).eq('user_id',userId)"),'Baseline deletion must be account scoped');
+check(baseline.includes('if(authError||!user||user.id!==userId)')&&baseline.includes("if(generation!==baselineGeneration||userId!==activeBaselineUser){await db.storage.from('aom-private-videos').remove([path]);return}"),'Baseline upload must reject changed accounts before and after storage writes');
 const journal=read('cloud-journal.html');
 check(journal.includes("function conceal(){journalGeneration++")&&journal.includes("$('#sessions').replaceChildren()"),'Cloud journal must clear private records before session revalidation');
 check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==journalGeneration||userId!==activeUserId"),'Cloud journal must scope queries and reject stale account responses');
