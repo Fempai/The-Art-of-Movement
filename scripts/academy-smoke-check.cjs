@@ -51,6 +51,8 @@ for(const [page,html,key] of [['Academy',academy,'aom_dashboard_email'],['Baseli
  const request=html.indexOf('.auth.signInWithOtp(',clear);
  check(clear>=0&&request>clear,page+' must discard stale pending OTP email before a new sign-in request');
  check(html.includes('let otpRequestGeneration=0;')&&html.includes('if(requestId!==otpRequestGeneration)return;if(error)'),page+' must ignore superseded OTP responses');
+ check(html.includes("++otpRequestGeneration;sessionStorage.removeItem('"+key+"');e.target.reset();await sync()"),page+' must invalidate pending OTP requests after successful verification');
+ check(html.includes("$('#logout').onclick=async()=>{++otpRequestGeneration;sessionStorage.removeItem('"+key+"');"),page+' must invalidate pending OTP requests on sign-out');
 }
 
 check(academy.includes("sessionStorage.removeItem('aom_dashboard_email');e.target.reset();await sync()"),'Academy OTP cleanup missing');
