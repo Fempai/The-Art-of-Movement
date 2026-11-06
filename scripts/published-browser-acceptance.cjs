@@ -14,7 +14,7 @@ const assert = require('node:assert/strict');
     assert.equal(response.status(),200,'Home must load');
     const hub=await page.goto(base+'conservatory-learning-hub.html',{waitUntil:'domcontentloaded'});
     assert.equal(hub.status(),200,'Learning hub must load');
-    assert(await page.getByRole('link',{name:/course reader/i}).count()>0,'Hub must link to course reader');
+    assert(await page.locator('a[href="conservatory-course-reader.html"]').count()>0,'Hub must link to course reader');
     await page.goto(base+'conservatory-course-reader.html',{waitUntil:'domcontentloaded'});
     await page.locator('#course option').nth(1).waitFor({timeout:25000});
     assert.equal(await page.locator('#course option').count(),21,'All courses should load');
