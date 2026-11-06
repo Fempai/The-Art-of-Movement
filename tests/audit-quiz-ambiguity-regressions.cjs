@@ -74,7 +74,7 @@ for (const [id, heading] of [['BEL101-W08','Midterm evidence worksheet'],['BEL10
   const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
   const section=md.split('## '+heading)[1]?.split('## ')[0];
   assert.ok(section,id+': worksheet missing');
-  const countRows=section.split('\n').filter(line=>/^\\| [1-8] \\|/.test(line));
+  const countRows=section.split('\n').filter(line=>line.startsWith('| ') && /^[1-8]$/.test(line.split('|')[1].trim()));
   assert.equal(countRows.length,8,id+': worksheet must contain exactly eight numbered count rows');
   assert.deepEqual(countRows.map(line=>Number(line.split('|')[1].trim())),[1,2,3,4,5,6,7,8],id+': count rows must be unique and ordered');
   assert.ok(section.includes('on count / off count / unobservable / intentionally omitted'),id+': status choices missing');
