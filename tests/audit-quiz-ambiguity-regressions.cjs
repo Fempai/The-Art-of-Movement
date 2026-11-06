@@ -69,6 +69,16 @@ for (const id of reorderedQ1) {
 }
 console.log('PASS: '+reorderedQ1.length+' Q1 answer-feedback label regressions.');
 
+// Guard count-level assessment worksheets for both BEL101 checkpoints.
+for (const [id, heading] of [['BEL101-W08','Midterm evidence worksheet'],['BEL101-W16','Final evidence worksheet']]) {
+  const md=fs.readFileSync(path.join(__dirname,'..','curriculum','final-lessons',id+'.md'),'utf8');
+  const section=md.split('## '+heading)[1]?.split('## ')[0];
+  assert.ok(section,id+': worksheet missing');
+  for(let n=1;n<=8;n++) assert.ok(section.includes('| '+n+' |'),id+': count '+n+' missing');
+  assert.ok(section.includes('not assessable'),id+': missing observation fallback');
+  assert.ok(section.includes('no matched baseline'),id+': missing comparison boundary');
+}
+console.log('PASS: two BEL101 count-level evidence worksheets.');
 // Cross-section instructional contracts: guard against regressions where a guided
 // exercise is corrected but the submitted assessment silently omits that requirement.
 // Text checks are targeted consistency guards, not proof of technique or learning.
