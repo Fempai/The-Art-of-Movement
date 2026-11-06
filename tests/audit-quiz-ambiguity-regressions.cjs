@@ -77,6 +77,12 @@ for (const [id, heading] of [['BEL101-W08','Midterm evidence worksheet'],['BEL10
   const countRows=section.split('\n').filter(line=>line.startsWith('| ') && /^[1-8]$/.test(line.split('|')[1].trim()));
   assert.equal(countRows.length,8,id+': worksheet must contain exactly eight numbered count rows');
   assert.deepEqual(countRows.map(line=>Number(line.split('|')[1].trim())),[1,2,3,4,5,6,7,8],id+': count rows must be unique and ordered');
+  // The two checkpoints share an opening but deliberately have different
+  // endings. A worksheet must not silently score Week 8 as Week 16.
+  const expectedActions=id==='BEL101-W08'
+    ? ['Right slide','Return center','Left slide','Return center','Circle begins','Circle continues','Settle in support','Hold or mark beat']
+    : ['Right slide','Return center','Left slide','Return center','Circle begins','Circle completes near neutral','Right-knee pulse','Left-knee pulse'];
+  assert.deepEqual(countRows.map(line=>line.split('|')[2].trim()),expectedActions,id+': planned count actions differ from the assessment');
   assert.ok(section.includes('on count / off count / unobservable / intentionally omitted'),id+': status choices missing');
   assert.ok(section.includes('observable, attempted actions'),id+': timing denominator missing');
   assert.ok(section.includes('not assessable'),id+': missing observation fallback');
