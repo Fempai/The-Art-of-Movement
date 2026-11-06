@@ -46,6 +46,10 @@ if(academyScript){
  const reveal=src.indexOf("$('#signed').hidden=false;$('#auth').hidden=true;");
  check(identity>=0&&reveal>identity,'Academy must validate account identity before revealing private records');
  check(src.includes('if(generation!==dashboardGeneration)return;'),'Academy async responses need generation invalidation');
+ for(const table of ['aom_sessions','aom_baselines','aom_ai_reviews']){
+  const query=src.match(new RegExp("db\\.from\\('"+table+"'\\)([\\s\\S]*?)(?=,db\\.from\\(|\\]\\);)"));
+  check(!!query&&query[1].includes(".eq('user_id',expectedUserId)"),'Academy '+table+' query must filter to authenticated account');
+ }
  const queryError=src.indexOf('const err=sessions.error||baselines.error||reviews.error;');
  const queryErrorBranch=src.indexOf('if(err){',queryError);
  const revealAfterQueries=src.indexOf("$('#signed').hidden=false;$('#auth').hidden=true;",queryError);
