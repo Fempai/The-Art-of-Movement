@@ -18,7 +18,7 @@ const assert = require('node:assert/strict');
     await page.locator('a[href="conservatory-course-reader.html"]').click();
     await page.waitForURL('**/conservatory-course-reader.html');
     assert.match(await page.title(),/Conservatory Course Reader/,'Hub navigation must reach reader');
-    await page.locator('#course option').nth(1).waitFor({timeout:25000});
+    await page.waitForFunction(() => document.querySelectorAll('#course option').length === 21,{timeout:25000});
     assert.equal(await page.locator('#course option').count(),21,'All courses should load');
     const lessonButtons=page.getByRole('button',{name:'Study here'});
     console.log('Course reader buttons:',await lessonButtons.count());
