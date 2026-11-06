@@ -31,6 +31,7 @@ check(lab.includes('Experimental pose measurement'),'Pose Lab source label missi
 check(history.includes('Unrecognized backup format'),'Assessment history import guard missing');
 check(bridge.includes("onConflict:'id'"),'Cloud upsert deduplication guard missing');
 const baseline=read('baseline-studio.html');
+check(baseline.includes("if(!email||!token){status('Enter your email and one-time code.');return}"),'Baseline must reject missing OTP credentials before verification');
 check(baseline.includes("if(authError||!user||user.id!==userId){conceal();status('Session changed. Sign in again before deleting.')"), 'Baseline deletion must revalidate the active account');
 check(/function conceal\(\)\{[^}]*baselineGeneration\+\+/.test(baseline)&&baseline.includes("$('#history').replaceChildren()")&&baseline.includes("$('#comparison').replaceChildren()"),'Baseline must clear private media on session transitions');
 check(baseline.includes(".eq('user_id',userId)")&&baseline.includes("generation!==baselineGeneration||userId!==activeBaselineUser"),'Baseline must scope records and reject stale media responses');
