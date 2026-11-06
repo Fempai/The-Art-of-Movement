@@ -1,0 +1,32 @@
+name: Authenticated Academy cloud acceptance
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  authenticated-cloud:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check dedicated test account configuration
+        env:
+          AOM_TEST_EMAIL: ${{ secrets.AOM_TEST_EMAIL }}
+          AOM_TEST_PASSWORD: ${{ secrets.AOM_TEST_PASSWORD }}
+        run: |
+          if [ -z "$AOM_TEST_EMAIL" ] || [ -z "$AOM_TEST_PASSWORD" ]; then
+            echo "::error::Set AOM_TEST_EMAIL and AOM_TEST_PASSWORD secrets for a dedicated Supabase test user; authenticated acceptance cannot run without them."
+            exit 1
+          fi
+      - name: Install Chromium
+        run: |
+          npm install --no-save --no-package-lock playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verify authenticated cloud operations and clean up test record
+        env:
+          AOM_TEST_EMAIL: ${{ secrets.AOM_TEST_EMAIL }}
+          AOM_TEST_PASSWORD: ${{ secrets.AOM_TEST_PASSWORD }}
+        run: node scripts/authenticated-cloud-acceptance.cjs
