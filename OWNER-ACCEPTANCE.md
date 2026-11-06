@@ -2,6 +2,14 @@
 
 Use this checklist only when implementation and developer checks are finished. The 37 lesson videos and Life OS ↔ Academy shared journal have already been tested by the owner; **do not repeat those audits without a regression**.
 
+## Release scope and evidence boundaries
+
+**Main development is not a future phase.** This is the release-acceptance phase for the existing Academy. A passing GitHub commit check is evidence of the automated gates on that commit, not a substitute for the owner acceptance below. Do not restart previously completed 37-video playback or shared-journal audits without a concrete regression.
+
+**Distinct video claims:** The owner-tested 37 lesson videos are not the same claim as independent content-and-technique matching for the restored BEL101 Friday Google Drive sources. Keep that narrower BEL101 source-match limitation visible; it does not invalidate the previously completed owner playback audit. If a source cannot be accessed, label it *unverified* rather than silently replacing it or marking the whole curriculum failed.
+
+**Release decision:** Record the exact release commit, the automated checks for that commit, published-site acceptance, and any remaining phone/cloud issues. Mark each issue as *blocking for the selected release scope*, *known limitation disclosed to learners*, or *future research feature*. The experimental 3D avatar and uncalibrated automatic technique grading must not be advertised as validated; their research-grade status does not by itself require rebuilding the main curriculum. A release can only be approved after its selected scope and limitations are explicitly documented and the owner signs off.
+
 ## Targeted camera diagnostic (separate from final phone QA)
 
 1. Open `live-coach.html` on the actual phone, allow the camera, and select **Voice cues** on or off.
