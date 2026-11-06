@@ -47,6 +47,7 @@ check(journal.includes("$('#logout').onclick=async()=>{conceal();"),'Cloud journ
 const academy=read('my-academy.html');
 const academyScript=academy.match(/<script type="module">([\s\S]*?)<\/script>/);
 check(!!academyScript,'My Conservatory module script missing');
+check(academy.includes("if(!email||!token){status('Enter your email and one-time code.');return}"),'Academy must reject missing OTP credentials before verification');
 if(academyScript){
  const syntax=cp.spawnSync(process.execPath,['--check','--input-type=module'],{input:academyScript[1],encoding:'utf8'});
  check(syntax.status===0,'My Conservatory module syntax invalid: '+String(syntax.stderr||'').slice(0,250));
