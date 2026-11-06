@@ -18,7 +18,7 @@ const assert = require('node:assert/strict');
     await page.goto(base+'conservatory-course-reader.html',{waitUntil:'domcontentloaded'});
     await page.locator('#course option').nth(1).waitFor({timeout:25000});
     assert.equal(await page.locator('#course option').count(),21,'All courses should load');
-    const lessonButtons=page.getByRole('button',{name:/open.*lesson|read.*lesson|view.*lesson/i});
+    const lessonButtons=page.getByRole('button',{name:'Study here'});
     console.log('Course reader buttons:',await lessonButtons.count());
     const buttons=await page.locator('button').allTextContents();
     console.log('Available reader controls:',buttons.slice(0,8));
