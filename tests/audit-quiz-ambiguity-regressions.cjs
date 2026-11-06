@@ -85,6 +85,9 @@ for (const [id, heading] of [['BEL101-W08','Midterm evidence worksheet'],['BEL10
   assert.deepEqual(countRows.map(line=>line.split('|')[2].trim()),expectedActions,id+': planned count actions differ from the assessment');
   assert.ok(section.includes('on count / off count / unobservable / intentionally omitted'),id+': status choices missing');
   assert.ok(section.includes('observable, attempted actions'),id+': timing denominator missing');
+  assert.ok(section.includes('attempted (yes/no)') && section.includes('observable (yes/no)'),id+': attempt and observation must be recorded independently');
+  assert.ok(section.includes('attempted but unobservable') && section.includes('attempt status unknown'),id+': missing unobservable-attempt and unknown-status handling');
+  assert.ok(section.includes('**4/5**') && section.includes('**5/8**'),id+': worked example must distinguish timing from attempted coverage');
   assert.ok(section.includes('not assessable'),id+': missing observation fallback');
   assert.ok(section.includes('no matched baseline'),id+': missing comparison boundary');
 }
