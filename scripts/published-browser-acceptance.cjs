@@ -34,7 +34,28 @@ const assert = require('node:assert/strict');
     for(const field of await quiz.locator('fieldset').all())await field.locator('input[type=radio]').first().check();
     await quiz.getByRole('button',{name:'Check my answers'}).click();
     assert.match(await quiz.textContent(),/Score: [0-4] \/ 4/,'Completed quiz must grade');
-    assert.equal(errors.length,0,'Unexpected browser errors: '+errors.join('; '));
-    console.log('PASS: published navigation, course catalog, lesson loading, quiz validation and grading');
+    // Verify that a different course can be selected and its lesson opened.
+    const bellydanceValue=await page.locator('#course option').evaluateAll(options=>{
+      const option=options.find(o=>o.textContent.startsWith('BEL101 —'));
+      return option ? option.value : null;
+    });
+    assert.notEqual(bellydanceValue,null,'BEL101 must appear in the published catalog');
+    await page.locator('#course').selectOption(bellydanceValue);
+    await page.locator('#units button').first().click();
+    await page.getByText('Interactive knowledge check',{exact:true}).waitFor({timeout:25000});
+    assert.equal(await page.locator('section.card').filter({hasText:'Interactive knowledge check'}).last().locator('fieldset').count(),4,'BEL101 lesson must have four quiz questions');
+    assert.equal(errors.length,0,'Unexpected reader browser errors: '+errors.join('; '));
+
+    // Without a provisioned test account, acceptance can verify only the
+    // signed-out privacy boundary, not authenticated cloud read/write access.
+    for(const route of ['my-academy.html','baseline-studio.html','cloud-journal.html']){
+      const privateResponse=await page.goto(base+route,{waitUntil:'domcontentloaded',timeout:45000});
+      assert.equal(privateResponse.status(),200,route+' must load');
+      assert(await page.locator('#auth').isVisible(),route+' must offer sign-in to guests');
+      assert(await page.locator('#signed').isHidden(),route+' must conceal private records for guests');
+      assert(await page.locator('#login input[name="email"]').count()>0,route+' must provide email sign-in');
+    }
+
+    console.log('PASS: published navigation, course switching, lesson loading, quiz validation/grading, and guest privacy gates');
   } finally {await browser.close()}
 })().catch(e=>{console.error(e);process.exitCode=1});
