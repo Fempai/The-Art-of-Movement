@@ -19,7 +19,7 @@ jobs:
           AOM_SITE: https://fempai.github.io/The-Art-of-Movement
         run: |
           python3 - <<'PY'
-          import os, time, urllib.request, urllib.error
+          import os, time, json, urllib.request, urllib.error
           base=os.environ['AOM_SITE']
           paths={
             '/': ('The Art of Movement',),
@@ -27,6 +27,10 @@ jobs:
             '/studio-record.html': ('Studio Record',),
             '/academy-backup.html': ('Local Academy backup', 'Restore local records'),
             '/conservatory-course-reader.html': ('Conservatory Course Reader',),
+            '/conservatory-learning-hub.html': ('Learning Hub',),
+            '/curriculum/COURSE_LESSONS_AND_SOURCES.json': ('"courses"', '"units"'),
+            '/curriculum/final-lessons/BEL101-01.md': ('Learning outcomes', 'Follow-along practice'),
+            '/curriculum/final-lessons/BEL101-W16.md': ('Learning outcomes',),
             '/week-one-academy.html': ('html',),
             '/week-two-academy.html': ('html',),
             '/my-academy.html': ('html',),
@@ -53,6 +57,12 @@ jobs:
                           raise ValueError(f'HTTP {status}')
                       if not all(marker.lower() in body.lower() for marker in expected):
                           raise ValueError('Missing expected page content: '+', '.join(x for x in expected if x.lower() not in body.lower()))
+                      if path.endswith('COURSE_LESSONS_AND_SOURCES.json'):
+                          catalog=json.loads(body)
+                          courses=catalog.get('courses', [])
+                          if len(courses)!=21 or any(not c.get('units') for c in courses):
+                              raise ValueError('Published course catalog must contain 21 courses with units')
+                          print(f'PASS published catalog: {len(courses)} courses with units')
                       print(f'PASS {url}: HTTP {status}, expected content present')
                       error=None
                       break
