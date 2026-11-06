@@ -30,6 +30,23 @@ check(studio.includes('Human rubric checklist'),'Rubric source label missing');
 check(lab.includes('Experimental pose measurement'),'Pose Lab source label missing');
 check(history.includes('Unrecognized backup format'),'Assessment history import guard missing');
 check(bridge.includes("onConflict:'id'"),'Cloud upsert deduplication guard missing');
+const academy=read('my-academy.html');
+const academyScript=academy.match(/<script type="module">([\s\S]*?)<\/script>/);
+check(!!academyScript,'My Conservatory module script missing');
+if(academyScript){
+ const syntax=cp.spawnSync(process.execPath,['--check','--input-type=module'],{input:academyScript[1],encoding:'utf8'});
+ check(syntax.status===0,'My Conservatory module syntax invalid: '+String(syntax.stderr||'').slice(0,250));
+ const src=academyScript[1];
+ const syncStart=src.indexOf('async function sync(){');
+ const syncAuth=src.indexOf('await db.auth.getUser()',syncStart);
+ const syncClear=src.indexOf("$('#signed').hidden=true;",syncStart);
+ const syncRows=src.indexOf("$('#sessions').replaceChildren();",syncStart);
+ check(syncStart>=0&&syncClear>syncStart&&syncClear<syncAuth&&syncRows<syncAuth,'Academy must conceal and clear private records before initial/repeated authentication checks');
+ const identity=src.indexOf('activeUser.id!==expectedUserId');
+ const reveal=src.indexOf("$('#signed').hidden=false;$('#auth').hidden=true;");
+ check(identity>=0&&reveal>identity,'Academy must validate account identity before revealing private records');
+ check(src.includes('if(generation!==dashboardGeneration)return;'),'Academy async responses need generation invalidation');
+}
 const live=read('live-coach.html');
 check(live.includes('navigator.mediaDevices.getUserMedia'),'Live Coach camera path missing');
 check(live.includes('audio:false'),'Live Coach must not request microphone for camera');
