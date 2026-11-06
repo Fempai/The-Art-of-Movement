@@ -31,7 +31,7 @@ check(lab.includes('Experimental pose measurement'),'Pose Lab source label missi
 check(history.includes('Unrecognized backup format'),'Assessment history import guard missing');
 check(bridge.includes("onConflict:'id'"),'Cloud upsert deduplication guard missing');
 const baseline=read('baseline-studio.html');
-check(baseline.includes("function conceal(){baselineGeneration++")&&baseline.includes("$('#comparison').replaceChildren()"),'Baseline must clear private media on session transitions');
+check(/function conceal\(\)\{[^}]*baselineGeneration\+\+/.test(baseline)&&baseline.includes("$('#history').replaceChildren()")&&baseline.includes("$('#comparison').replaceChildren()"),'Baseline must clear private media on session transitions');
 check(baseline.includes(".eq('user_id',userId)")&&baseline.includes("generation!==baselineGeneration||userId!==activeBaselineUser"),'Baseline must scope records and reject stale media responses');
 check(baseline.includes("$('#logout').onclick=async()=>{conceal();"),'Baseline must conceal media before sign-out request');
 check(baseline.includes("renderGeneration!==baselineRenderGeneration"),'Baseline must reject superseded media renders');
