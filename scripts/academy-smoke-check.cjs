@@ -45,6 +45,15 @@ check(journal.includes('if(authError||!user||user.id!==userId)')&&journal.includ
 check(journal.includes("function conceal(){journalGeneration++")&&journal.includes("$('#sessions').replaceChildren()"),'Cloud journal must clear private records before session revalidation');
 check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==journalGeneration||userId!==activeUserId"),'Cloud journal must scope queries and reject stale account responses');
 check(/\$\('#logout'\)\.onclick=async\(\)=>\{[^\n]*?conceal\(\);[^\n]*?\.auth\.signOut\(\)/.test(journal),'Cloud journal must conceal private data immediately on sign-out');
+for(const [page,html] of [['Baseline',baseline],['Journal',journal]]){
+ check(html.includes("$('#refresh').onclick=sync;"),page+' refresh must revalidate session before loading private records');
+ const module=html.match(/<script type="module">([\s\S]*?)<\/script>/);
+ check(!!module,page+' module script missing');
+ if(module){
+  const syntax=cp.spawnSync(process.execPath,['--check','--input-type=module'],{input:module[1],encoding:'utf8'});
+  check(syntax.status===0,page+' module syntax invalid: '+String(syntax.stderr||'').slice(0,250));
+ }
+}
 const academy=read('my-academy.html');
 for(const [page,html,key] of [['Academy',academy,'aom_dashboard_email'],['Baseline',baseline,'aom_baseline_email'],['Journal',journal,'aom_login_email']]){
  const clear=html.indexOf("sessionStorage.removeItem('"+key+"');const requestId=++otpRequestGeneration;const {error}=await");
