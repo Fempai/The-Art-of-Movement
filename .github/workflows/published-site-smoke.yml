@@ -30,7 +30,7 @@ jobs:
             '/conservatory-learning-hub.html': ('Learning Hub',),
             '/curriculum/COURSE_LESSONS_AND_SOURCES.json': ('"courses"', '"units"'),
             '/curriculum/final-lessons/BEL101-01.md': ('Learning outcomes', 'Follow-along practice'),
-            '/curriculum/final-lessons/BEL101-W16.md': ('Learning outcomes',),
+            '/curriculum/final-lessons/BEL101-W16.md': ('Friday Week 16',),
             '/week-one-academy.html': ('html',),
             '/week-two-academy.html': ('html',),
             '/my-academy.html': ('html',),
