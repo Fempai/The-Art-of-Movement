@@ -47,9 +47,10 @@ check(journal.includes(".eq('user_id',userId)")&&journal.includes("generation!==
 check(journal.includes("$('#logout').onclick=async()=>{conceal();"),'Cloud journal must conceal private data immediately on sign-out');
 const academy=read('my-academy.html');
 for(const [page,html,key] of [['Academy',academy,'aom_dashboard_email'],['Baseline',baseline,'aom_baseline_email'],['Journal',journal,'aom_login_email']]){
- const clear=html.indexOf("sessionStorage.removeItem('"+key+"');const {error}=await");
+ const clear=html.indexOf("sessionStorage.removeItem('"+key+"');const requestId=++otpRequestGeneration;const {error}=await");
  const request=html.indexOf('.auth.signInWithOtp(',clear);
  check(clear>=0&&request>clear,page+' must discard stale pending OTP email before a new sign-in request');
+ check(html.includes('let otpRequestGeneration=0;')&&html.includes('if(requestId!==otpRequestGeneration)return;if(error)'),page+' must ignore superseded OTP responses');
 }
 
 check(academy.includes("sessionStorage.removeItem('aom_dashboard_email');e.target.reset();await sync()"),'Academy OTP cleanup missing');
