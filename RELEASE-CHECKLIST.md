@@ -16,6 +16,23 @@ Use the **latest commit SHA**, not an older passing workflow run.
 ## Release evidence
 Record: commit SHA, workflow run IDs, each conclusion, page deployment run, screenshot-difference report, viewport overflow report, known limitations, and any outstanding issue in [RELEASE-READINESS.md](RELEASE-READINESS.md). Do not infer successful deployment from a passing unit test.
 
+## Final release evidence record (fill in before owner sign-off)
+
+| Evidence | Result / reference |
+| --- | --- |
+| Candidate release commit SHA | Pending — use the final commit, not an earlier green commit |
+| Static integrity and numerical regression | Pending latest-commit workflow links and conclusions |
+| Desktop/mobile Chromium browser tests | Pending latest-commit workflow links and conclusions |
+| GitHub Pages deployment and published-site smoke check | Pending latest-commit workflow link and live-site confirmation |
+| Existing owner-tested 37 lesson videos and Life OS shared journal | Previously owner-tested; recheck only on a specific regression |
+| Restored BEL101 Friday source-video content matching | Not independently verified; document source-specific limitation |
+| Physical phone camera/Pose Lab behavior | Owner acceptance outstanding unless separately evidenced |
+| Authenticated cloud privacy and account-boundary behavior | End-to-end owner acceptance outstanding unless separately evidenced |
+| Experimental avatar and automated technique grading | Research-grade / uncalibrated; do not imply validated dance grading |
+| Release decision, limitations, and owner sign-off | Pending explicit owner approval |
+
+A green commit status must not automatically fill the phone, cloud, source-matching, or owner-signoff rows. Separate **release blockers** from **disclosed limitations** and **future research** for the chosen scope; do not silently change that scope to call the project complete.
+
 ## Non-automated acceptance, tracked separately
 Physical Samsung browser validation, user likeness approval, representative real-dance motion validation, private authenticated Life OS account testing and instructional-video rights/quality signoff are not implied by a green CI run.
 
