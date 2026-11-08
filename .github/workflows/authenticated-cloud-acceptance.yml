@@ -1,6 +1,8 @@
 name: Authenticated Academy cloud acceptance
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 16 * * 1'
 permissions:
   contents: read
 jobs:
