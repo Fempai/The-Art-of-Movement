@@ -52,6 +52,16 @@ const key='sb_publishable_v1AZYAfBP6vA0nrxcWQI6g_sWFt5PYU';
    await page.goto(base+'cloud-journal.html',{waitUntil:'domcontentloaded'});
    await page.locator('#auth').waitFor({state:'visible',timeout:30000});
    assert(await page.locator('#signed').isHidden(),'Sign-out must hide journal records');
+   // A signed-out browser must not be able to retrieve the test user's cloud record.
+   // This checks the public API independently of the page's hidden UI.
+   const anonymous=await page.evaluate(async({url,key,marker})=>{
+     const {createClient}=await import('https://esm.sh/@supabase/supabase-js@2');
+     const db=createClient(url,key,{auth:{persistSession:false,autoRefreshToken:false,detectSessionInUrl:false}});
+     const {data,error}=await db.from('aom_sessions').select('id').eq('notes',marker);
+     return {count:data?.length||0,error:error?.message||null};
+   },{url,key,marker});
+   assert.equal(anonymous.count,0,'Signed-out API client must not read private training sessions');
+   console.log('PASS anonymous API cannot read authenticated test session');
    console.log('PASS authenticated cloud journal create/read, dashboard, baseline sign-in and sign-out');
  }finally{
    // Clean up only the uniquely marked test row; never delete personal data.
