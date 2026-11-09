@@ -8,7 +8,7 @@ import sys
 import tempfile
 
 ROOT=Path(__file__).resolve().parents[1]
-PAGES=['index.html','my-academy.html','live-coach.html','pose-lab.html','assessment-history.html','movement-assessment-studio.html','movement-bridge.html','weekly-studio.html']
+PAGES=['index.html','twerk-foundations.html','twerk-assessments.html','my-academy.html','live-coach.html','pose-lab.html','assessment-history.html','movement-assessment-studio.html','movement-bridge.html','weekly-studio.html']
 class Scan(HTMLParser):
     def __init__(self):
         super().__init__();self.ids=set();self.scripts=[];self.inscript=False;self.buffer=[]
