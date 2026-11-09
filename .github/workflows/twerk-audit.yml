@@ -1,0 +1,18 @@
+name: Twerk assessment audit
+on:
+  push:
+    paths:
+      - 'curriculum/final-lessons/TWK*.md'
+      - 'scripts/audit-twerk.cjs'
+      - '.github/workflows/twerk-audit.yml'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Audit 32 lessons and 128 questions
+        run: node scripts/audit-twerk.cjs
