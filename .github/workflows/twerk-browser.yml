@@ -4,6 +4,8 @@ on:
     paths:
       - 'twerk-foundations.html'
       - 'twerk-assessments.html'
+      - 'twerk-cloud-check.html'
+      - 'my-academy.html'
       - 'curriculum/final-lessons/TWK*.md'
       - 'tests/twerk-acceptance.spec.cjs'
       - '.github/workflows/twerk-browser.yml'
