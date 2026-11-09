@@ -44,3 +44,9 @@ The **written TWK101 pilot** now exists as eight Markdown lessons under `curricu
 - TWK201-01 and TWK201-02 were already present in the repository when checked; they were preserved.
 - Drafted TWK201-03 (controlled hip hinge) and TWK201-04 (rhythmic subdivisions). TWK201-05 through -08 remain outstanding.
 - Live page could not be fetched from the public web endpoint during this session; desktop and mobile browser verification are **not passed**. Check deployed GitHub Pages URL, navigation, mobile layout, review tracker persistence and accessibility before release.
+
+## 2026-11-09 next session
+- User confirmed earlier tests passed; this confirmation is not a new independent desktop/mobile browser run for the latest commits.
+- TWK201-05 through TWK201-08 committed; TWK201 written track now has 8/8 lessons.
+- TWK301-01 and TWK301-02 committed as written advanced pilots; overall 18/32 planned written lessons now exist.
+- Remaining: TWK301-03 through -08, TWK401-01 through -08, question-validity review, instructor media, course progress integration and current deployment verification.
