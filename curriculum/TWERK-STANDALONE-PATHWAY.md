@@ -1,6 +1,6 @@
 # Twerk — standalone Academy discipline (TWK101–TWK401)
 
-**Status:** curriculum architecture drafted; filmed demonstrations, practitioner cultural review, browser integration, and learner acceptance remain pending. Twerk is an independent dance pathway, not a hip-hop subsection or a generic glute workout. No existing published lessons are replaced.
+**Status (2026-11-09):** TWK101 written pilot drafted (8/8 lessons; 32 keyed questions). Filmed demonstrations, practitioner cultural review, browser integration, automated assessment audits, and learner acceptance remain pending. Twerk is an independent dance pathway, not a hip-hop subsection or a generic glute workout. No existing published lessons are replaced.
 
 ## Educational principles
 Teach musicality, movement control, embodied expression, and historical context together. Discuss West and Central African and African-diasporic hip/pelvic movement traditions without asserting that all such traditions are interchangeable or that one specific dance directly originated all modern twerking. Introduce the documented importance of New Orleans bounce and Black social dance communities; require passage-level sourcing and practitioner review before publishing historical claims. Distinguish pelvic tilts and spinal/pelvic articulation from leg-driven pulses, and deliberate alternating actions from momentum. Do not infer isolated muscle activation from video appearance.
@@ -30,4 +30,4 @@ Teach musicality, movement control, embodied expression, and historical context 
 5. Run regression tests on the existing academy plus a new TWK101 end-to-end learner path.
 
 ## Initial rollout
-Publish the **written TWK101 pilot** as draft, then implement and validate its interface and media. Keep Levels II–IV unpublished until foundational technique and video gates pass.
+The **written TWK101 pilot** now exists as eight Markdown lessons under `curriculum/final-lessons/TWK101-01.md` through `TWK101-08.md`. Next implement and validate its interface and media. Keep Levels II–IV unpublished until foundational technique and video gates pass.
