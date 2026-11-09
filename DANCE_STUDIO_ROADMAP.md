@@ -7,7 +7,7 @@
 - Heels technique: ankle strength, balance, walking, pivots, musicality, then choreographed combinations.
 - Burlesque and showgirl: performance quality, expression, theatricality, musical phrasing, stage presence.
 - Feminine expression: optional self-reflection on confidence, embodiment, identity and cultural/spiritual traditions without prescribing gender norms or spiritual beliefs.
-- Twerk and glute isolation: pelvic control, rhythm, conditioning and graded endurance.
+- **Twerk (standalone discipline, in development):** four-level TWK101–TWK401 pathway, 32 planned lessons, pelvic articulation, bounce, rhythm, cultural context, musicality and performance. See `curriculum/TWERK-STANDALONE-PATHWAY.md`. TWK101-01 and TWK101-02 are drafted written pilots; not published or video-validated.
 - Contemporary, jazz, ballet-inspired, hip-hop, breaking and acro: distinct prerequisite tracks.
 
 ## Studio experience (planned)
