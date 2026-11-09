@@ -1,0 +1,32 @@
+name: Twerk desktop and mobile acceptance
+on:
+  push:
+    paths:
+      - 'twerk-foundations.html'
+      - 'twerk-assessments.html'
+      - 'curriculum/final-lessons/TWK*.md'
+      - 'tests/twerk-acceptance.spec.cjs'
+      - '.github/workflows/twerk-browser.yml'
+  workflow_dispatch:
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        viewport: [desktop, mobile]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright test runner
+        run: npm install --no-save @playwright/test@1.56.1
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Start local static server
+        run: python3 -m http.server 8765 --bind 127.0.0.1 &
+      - name: Run browser acceptance
+        env:
+          AOM_VIEWPORT: ${{ matrix.viewport }}
+        run: npx playwright test tests/twerk-acceptance.spec.cjs --config=tests/twerk-playwright.config.cjs --reporter=line
