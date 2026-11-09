@@ -1,6 +1,6 @@
 # Twerk — standalone Academy discipline (TWK101–TWK401)
 
-**Status (2026-11-09):** TWK101 written pilot drafted (8/8 lessons; 32 keyed questions). Filmed demonstrations, practitioner cultural review, browser integration, automated assessment audits, and learner acceptance remain pending. Twerk is an independent dance pathway, not a hip-hop subsection or a generic glute workout. No existing published lessons are replaced.
+**Status (2026-11-09):** TWK101 written pilot drafted (8/8 lessons; 32 keyed questions). Filmed demonstrations, practitioner cultural review, automated assessment audits, and learner acceptance remain pending. A standalone written-pilot page and homepage entry are implemented, but deployed browser acceptance and cloud-synced progress are not verified. Twerk is an independent dance pathway, not a hip-hop subsection or a generic glute workout. No existing published lessons are replaced.
 
 ## Educational principles
 Teach musicality, movement control, embodied expression, and historical context together. Discuss West and Central African and African-diasporic hip/pelvic movement traditions without asserting that all such traditions are interchangeable or that one specific dance directly originated all modern twerking. Introduce the documented importance of New Orleans bounce and Black social dance communities; require passage-level sourcing and practitioner review before publishing historical claims. Distinguish pelvic tilts and spinal/pelvic articulation from leg-driven pulses, and deliberate alternating actions from momentum. Do not infer isolated muscle activation from video appearance.
@@ -31,3 +31,10 @@ Teach musicality, movement control, embodied expression, and historical context 
 
 ## Initial rollout
 The **written TWK101 pilot** now exists as eight Markdown lessons under `curriculum/final-lessons/TWK101-01.md` through `TWK101-08.md`. Next implement and validate its interface and media. Keep Levels II–IV unpublished until foundational technique and video gates pass.
+
+## Web integration checkpoint (2026-11-09)
+- `twerk-foundations.html` presents eight draft lessons and an explicitly browser-local review checklist.
+- `index.html` links to this standalone pilot.
+- Written lessons currently link to GitHub Markdown, not an embedded lesson player.
+- **Important assessment issue:** TWK101-03 through TWK101-08 currently use broad, repetitive questions with all correct answers keyed A. Replace with four lesson-specific discriminating questions and mixed answer positions before learner assessment release. The current review checklist is not assessment completion.
+- No CI or live browser pass was obtained in this session; user confirmation of earlier checks is not evidence for these new commits.
