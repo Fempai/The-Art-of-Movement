@@ -33,5 +33,17 @@ begin
   insert into public.aom_lesson_quiz_progress(user_id,lesson_id,score,total) values(b,'TWK401-07',4,4);
  exception when insufficient_privilege or check_violation then blocked:=true; end;
  if not blocked then raise exception 'Cross-account quiz insert succeeded'; end if;
-end $$;
+ -- Switch to account B inside the same transaction: account A's rows must disappear.
+ perform set_config('request.jwt.claim.sub',b::text,true);
+ select count(*) into n from public.aom_twerk_written_review_progress where user_id=a and lesson_id='TWK401-08';
+ if n<>0 then raise exception 'Account B can see account A review'; end if;
+ select count(*) into n from public.aom_lesson_quiz_progress where user_id=a and lesson_id='TWK401-08';
+ if n<>0 then raise exception 'Account B can see account A quiz'; end if;
+ -- Switch back: account A's test rows should still be visible.
+ perform set_config('request.jwt.claim.sub',a::text,true);
+ select count(*) into n from public.aom_twerk_written_review_progress where user_id=a and lesson_id='TWK401-08';
+ if n<>1 then raise exception 'Account A review missing after switch'; end if;
+ select count(*) into n from public.aom_lesson_quiz_progress where user_id=a and lesson_id='TWK401-08';
+ if n<>1 then raise exception 'Account A quiz missing after switch'; end if;
+end $;
 rollback;
