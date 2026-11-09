@@ -3,7 +3,7 @@
 **Status (2026-11-09):** TWK101 written pilot drafted (8/8 lessons; 32 keyed questions). Filmed demonstrations, practitioner cultural review, automated assessment audits, and learner acceptance remain pending. A standalone written-pilot page and homepage entry are implemented, but deployed browser acceptance and cloud-synced progress are not verified. Twerk is an independent dance pathway, not a hip-hop subsection or a generic glute workout. No existing published lessons are replaced.
 
 ## Educational principles
-Teach musicality, movement control, embodied expression, and historical context together. Discuss West and Central African and African-diasporic hip/pelvic movement traditions without asserting that all such traditions are interchangeable or that one specific dance directly originated all modern twerking. Introduce the documented importance of New Orleans bounce and Black social dance communities; require passage-level sourcing and practitioner review before publishing historical claims. Distinguish pelvic tilts and spinal/pelvic articulation from leg-driven pulses, and deliberate alternating actions from momentum. Do not infer isolated muscle activation from video appearance.
+Teach musicality, movement control, embodied expression, and historical context together. Discuss West and Central African and African-diasporic hip/pelvic movement traditions without asserting that all such traditions are interchangeable or that one specific dance directly originated all modern twerking. Introduce the documented importance of New Orleans bounce and Black social dance communities; require passage-level sourcing and internal cultural-source verification before publishing historical claims. Distinguish pelvic tilts and spinal/pelvic articulation from leg-driven pulses, and deliberate alternating actions from momentum. Do not infer isolated muscle activation from video appearance.
 
 ## Four levels — eight lessons each
 | Level | Code | Lessons 1–8 |
@@ -24,7 +24,7 @@ Teach musicality, movement control, embodied expression, and historical context 
 
 ## Acceptance gates
 1. Complete 32 distinct written lessons with four valid questions each; audit answer keys and instructional alignment.
-2. Review historical claims and safety language, then obtain qualified technique review before representing instruction as professionally validated.
+2. Review historical claims and safety language, then obtain internal technique/safety review before representing instruction as professionally validated.
 3. Integrate course cards, routes, progress storage, assessment persistence, and mobile layout without changing existing course IDs.
 4. Verify actual playable authorized video, audio/captions, and alternative formats before release.
 5. Run regression tests on the existing academy plus a new TWK101 end-to-end learner path.
@@ -40,7 +40,7 @@ The **written TWK101 pilot** now exists as eight Markdown lessons under `curricu
 - No CI or live browser pass was obtained in this session; user confirmation of earlier checks is not evidence for these new commits.
 
 ## 2026-11-09 continuation
-- Replaced generic TWK101-03 through TWK101-08 knowledge checks with 24 lesson-specific questions, each using an A/B/C/D key distribution. The eight TWK101 lessons remain written drafts pending independent assessment-validity review.
+- Replaced generic TWK101-03 through TWK101-08 knowledge checks with 24 lesson-specific questions, each using an A/B/C/D key distribution. The eight TWK101 lessons remain written drafts pending internal assessment-validity audit.
 - TWK201-01 and TWK201-02 were already present in the repository when checked; they were preserved.
 - Drafted TWK201-03 (controlled hip hinge) and TWK201-04 (rhythmic subdivisions). TWK201-05 through -08 remain outstanding.
 - Live page could not be fetched from the public web endpoint during this session; desktop and mobile browser verification are **not passed**. Check deployed GitHub Pages URL, navigation, mobile layout, review tracker persistence and accessibility before release.
@@ -50,3 +50,13 @@ The **written TWK101 pilot** now exists as eight Markdown lessons under `curricu
 - TWK201-05 through TWK201-08 committed; TWK201 written track now has 8/8 lessons.
 - TWK301-01 and TWK301-02 committed as written advanced pilots; overall 18/32 planned written lessons now exist.
 - Remaining: TWK301-03 through -08, TWK401-01 through -08, question-validity review, instructor media, course progress integration and current deployment verification.
+
+## Owner-approved review and release policy (2026-11-09)
+The owner explicitly does **not** want to recruit outside dance instructors, reviewers, learners, or other people for this pathway. Do not treat external expert/practitioner review as a release requirement or repeatedly request it. Use internal curriculum and technique checks, clear citations for cultural history, safety checks, accessible alternatives, question-by-question validity audits, and automated desktop/mobile acceptance. These are internal checks; do not describe them as independent expert certification.
+
+### Remaining objective release gates
+1. Execute and resolve the full 32-lesson / 128-question audit (question accuracy, distractors, duplicates, structural requirements).
+2. Test all 32 links and the tracker at desktop/mobile widths against the deployed Academy, including reload behavior.
+3. Build interactive quiz submissions and durable authenticated progress with per-account isolation and privacy testing. Browser-local checks are not cross-device persistence.
+4. Use only instructional video assets that the owner supplies, creates, or otherwise has authorization to publish; do not invent an instructor or claim a video is filmed when it is not.
+5. Verify specific historical and cultural claims against traceable sources, distinguish source-supported facts from original drills, and keep a transparent internal limitations note.
