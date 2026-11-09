@@ -38,3 +38,9 @@ The **written TWK101 pilot** now exists as eight Markdown lessons under `curricu
 - Written lessons currently link to GitHub Markdown, not an embedded lesson player.
 - **Important assessment issue:** TWK101-03 through TWK101-08 currently use broad, repetitive questions with all correct answers keyed A. Replace with four lesson-specific discriminating questions and mixed answer positions before learner assessment release. The current review checklist is not assessment completion.
 - No CI or live browser pass was obtained in this session; user confirmation of earlier checks is not evidence for these new commits.
+
+## 2026-11-09 continuation
+- Replaced generic TWK101-03 through TWK101-08 knowledge checks with 24 lesson-specific questions, each using an A/B/C/D key distribution. The eight TWK101 lessons remain written drafts pending independent assessment-validity review.
+- TWK201-01 and TWK201-02 were already present in the repository when checked; they were preserved.
+- Drafted TWK201-03 (controlled hip hinge) and TWK201-04 (rhythmic subdivisions). TWK201-05 through -08 remain outstanding.
+- Live page could not be fetched from the public web endpoint during this session; desktop and mobile browser verification are **not passed**. Check deployed GitHub Pages URL, navigation, mobile layout, review tracker persistence and accessibility before release.
